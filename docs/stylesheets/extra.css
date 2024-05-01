@@ -8,22 +8,6 @@
     font-weight: 600;
   }
   
-  /* Admonition police size and title weight */
-  .md-typeset .admonition,
-  .md-typeset .admonition-title,
-  .md-typeset details,
-  .md-typeset details summary {
-    font-size: 0.8rem;
-    font-weight: 500;
-  }
-  
-  /* Lumos admonition */
-  .md-typeset .admonition.lumos,
-  .md-typeset details.lumos {
-    text-align: center;
-    border-color: rgb(255, 204, 74);
-  }
-  
   /* Abstract admonition */
   .md-typeset .admonition.abstract,
   .md-typeset details.abstract {
