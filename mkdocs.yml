@@ -11,12 +11,15 @@ theme:
   palette:
     primary: grey
     accent: grey
+  features:
+    - content.code.copy
 
 markdown_extensions:
   - attr_list
   - md_in_html
   - admonition
   - pymdownx.details
+  - pymdownx.superfences
   - toc:
       toc_depth: 3
   - pymdownx.emoji:
