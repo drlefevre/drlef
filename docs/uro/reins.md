@@ -1,5 +1,4 @@
-## IRA
-??? quote "CR"
+??? quote "IRA"
     ```
     ECHOGRAPHIE RENO-VESICALE
 
