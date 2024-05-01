@@ -1,0 +1,1 @@
+:material-arrow-right: [Radiopaedia](https://radiopaedia.org/articles/endometriosis){:target="_blank"}  
