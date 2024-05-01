@@ -4,6 +4,9 @@ nav:
   - index.md
   - Femme:
     - Endométriose: femme/EPP.md
+    - Ovaire: femme/ovaire.md
+  - Uro:
+    - Rein: uro/rein.md
 
 theme:
   name: material
@@ -20,6 +23,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - toc:
       toc_depth: 3
   - pymdownx.emoji:
