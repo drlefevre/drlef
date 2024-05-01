@@ -1,3 +1,22 @@
+## IRA
+??? quote "CR"
+    ```
+    ECHOGRAPHIE RENO-VESICALE
+
+    INDICATION
+    Insuffisance rénale aiguë.
+
+    RESULTATS
+    Pas de dilatation des cavités pyélo-calicielles.
+    Reins de taille normale, sans lésion focale.
+    Bonne différenciation parenchymo-sinusale.
+    Vessie en semi-réplétion, au contenu anéchogène.
+    Pas d'épanchement péritonéal déclive.
+
+    CONCLUSION
+    Pas de cause obstructive à l'insuffisance rénale.
+    ```
+
 ## Tumeurs
 
 :material-arrow-right: [Radiopaedia](https://radiopaedia.org/articles/renal-cell-carcinoma-1){:target="_blank"}  

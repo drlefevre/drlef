@@ -1,20 +1,9 @@
 # Home
 
-<p style="text-align: center">« Radiology is the art of finding answers in the shadows »</p></br>
+<p style="text-align: center">« Radiology is the art of finding answers in the shadows »</p>
 
-```
-ECHOGRAPHIE ABDOMINO-PELVIENNE
-
-INDICATION
-Insuffisance rénale aiguë.
-
-RESULTATS
-Pas de dilatation des cavités pyélo-calicielles.
-Reins de taille normale, sans lésion focale.
-Bonne différenciation parenchymo-sinusale.
-Vessie en semi-réplétion, au contenu anéchogène.
-Pas d'épanchement péritonéal déclive.
-
-CONCLUSION
-Pas de cause obstructive à l'insuffisance rénale.
-```
+:material-arrow-right: [Imaios](https://www.imaios.com/fr/login){:target="_blank"}  
+:material-arrow-right: [Oncle Paul](https://onclepaul.fr/){:target="_blank"}  
+:material-arrow-right: [Radiopaedia](https://radiopaedia.org/){:target="_blank"}  
+:material-arrow-right: [Lumosimago](lumosimago.fr){:target="_blank"}  
+:material-arrow-right: [E-learning CERF](https://elearning.radiologie.fr/){:target="_blank"}  
