@@ -17,7 +17,7 @@
     * ADP au-dessus des veines rénales (au-delà du curage)
     * racine du mésentère
     * plus de 3 segments digestifs
-    * atteinte vésicale (trigone) => IRM (T2, DWI, DCE)
+    * atteinte trigone vésicale trigone => IRM (T2, DWI, DCE)
     * métas parenchymateuses (foie) ≠scalloping
     * atteinte extra-abdo (pleurale, nodule ombilical)
     * _atteinte du petit omentum (hile hépatique)_

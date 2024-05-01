@@ -1,4 +1,4 @@
-## Tumeur
+## Tumeurs
 
 :material-arrow-right: [Radiopaedia](https://radiopaedia.org/articles/renal-cell-carcinoma-1){:target="_blank"}  
 
