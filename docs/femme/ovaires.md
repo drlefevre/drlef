@@ -23,6 +23,39 @@
     * _atteinte du petit omentum (hile hépatique)_
 
 !!! danger "Variantes anatomiques pour **curage lombo-aortique**"
-    * veine rénale gauche rétro-aortique
-    * artères rénales accessoires
-    * duplicité urétérale
+    * veine rénale rétro-aortique
+    * duplication urétérale
+
+??? quote "CR"
+    ```
+    SCANNER THORACO-ABDOMINO-PELVIEN
+
+    INDICATION
+
+
+    PROTOCOLE
+    Acquisition hélicoïdale après injection au temps veineux.
+
+    RESULTATS
+
+    1/ ANNEXES
+
+
+    2/ PERITOINE
+
+
+    3/ GANGLIONS
+
+
+    5/ ORGANES ABDOMINAUX
+
+
+    6/ VARIANTES ANATOMIQUES
+
+
+    7/ ETAGE SUS-DIAPHRAGMATIQUE
+
+
+    CONCLUSION
+    ```
+

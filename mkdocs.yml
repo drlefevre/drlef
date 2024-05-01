@@ -4,9 +4,9 @@ nav:
   - index.md
   - Femme:
     - Endométriose: femme/EPP.md
-    - Ovaire: femme/ovaires.md
+    - Ovaires: femme/ovaires.md
   - Uro:
-    - Rein: uro/reins.md
+    - Reins: uro/reins.md
 
 theme:
   name: material
