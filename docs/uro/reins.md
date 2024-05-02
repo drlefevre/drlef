@@ -16,9 +16,7 @@
     Pas de cause obstructive à l'insuffisance rénale.
     ```
 
-## Tumeurs
-
-:material-arrow-right: [Radiopaedia](https://radiopaedia.org/articles/renal-cell-carcinoma-1){:target="_blank"}  
+## [**Tumeurs**](https://radiopaedia.org/articles/renal-cell-carcinoma-1){:target="_blank"}  
 
 !!! tip "Sémiologie"
     * HYPERvascularisée  

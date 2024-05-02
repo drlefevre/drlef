@@ -7,6 +7,7 @@ nav:
     - Ovaires: femme/ovaires.md
   - Uro:
     - Reins: uro/reins.md
+    - Prostate: uro/prostate.md
 
 theme:
   name: material
