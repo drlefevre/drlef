@@ -16,7 +16,29 @@
     Pas de cause obstructive à l'insuffisance rénale.
     ```
 
-## [**Tumeurs**](https://radiopaedia.org/articles/renal-cell-carcinoma-1){:target="_blank"}  
+
+## [**Kystes**](https://radiopaedia.org/articles/renal-cyst-1){:target="_blank"}
+
+
+
+!!! info "[Bosniak](https://pubs.rsna.org/doi/full/10.1148/radiol.2019182646){:target="_blank"}" 
+    === "TDM"
+        * I = -9 à 20 UH (↬ 30 UH tps veineux), paroi ≤ 2 mm (± rehaussé), ∅ cloison ni Ca<sup>2+</sup>
+        * II = ↬ 3 cloisons / Ca<sup>2+</sup> / ≥ 70 UH / > 20 UH sans rehaussement en uroTDM
+        * **IIF = ≥ 4 cloisons** / parois ou cloisons régulières de 3 mm
+            * surveillance M6, M12, puis /an pdt 5 ans
+        * III = parois ou cloisons régulières ≥ 4 mm / nodule ≤ 3 mm
+        * IV = nodule ≥ 4 mm 
+    === "IRM"
+        * I = hyperT2 liquidien, paroi ≤ 2 mm (± rehaussé), ∅ cloison ni Ca<sup>2+</sup>
+        * II = ↬ 3 cloisons / Ca<sup>2+</sup> / hyperT1 marqué (2,5 x parenchyme sain)
+        * **IIF = ≥ 4 cloisons** / parois ou cloisons régulières de 3 mm
+            * surveillance M6, M12, puis /an pdt 5 ans
+        * III = parois ou cloisons régulières ≥ 4 mm / nodule ≤ 3 mm
+        * IV = nodule ≥ 4 mm 
+
+
+## [**Tumeurs**](https://radiopaedia.org/articles/renal-cell-carcinoma-1){:target="_blank"}
 
 !!! tip "Sémiologie"
     * HYPERvascularisée  

@@ -1,6 +1,6 @@
 # [**Endométriose**](https://radiopaedia.org/articles/endometriosis){:target="_blank"}  
 
-??? quote "EPP"
+??? quote "IRM"
     ```
     IRM PELVIENNE
 
@@ -9,7 +9,7 @@
 
     PROTOCOLE
     Après balisage vaginal au gel d'échographie.
-    Séquences 3 plans T2, axiale T1 Dixon et axiale BTFE jusqu'aux hiles rénaux.
+    Séquences 3 plans T2, ax T1 Dixon et ax T2 BTFE jusqu'aux hiles rénaux.
 
     RESULTATS
 
@@ -35,3 +35,8 @@
     CONCLUSION
     Pas de lésion d'endométriose pelvienne profonde.
     ```
+
+!!! tip "Description d'une **atteinte rectale**"
+    * multifocale +++
+    * longueur, circonférence et distance à la marge anale
+    * adénomyose externe ? cloison recto-vaginale ? cul-de-sac vaginal post ?
