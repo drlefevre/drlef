@@ -1,6 +1,6 @@
-## [**HBP**](https://radiopaedia.org/articles/benign-prostatic-hyperplasia){:target="_blank"} 
+# [Prostate](https://radiopaedia.org/articles/prostate-cancer-3){:target="_blank"}
 
-??? quote "Echo volume > 30 cc"
+??? quote "Echo [HBP](https://radiopaedia.org/articles/benign-prostatic-hyperplasia){:target="_blank"} (volume > 30 cc)"
     ```
     ECHOGRAPHIE RENO-VESICO-PROSTATIQUE
 
@@ -30,10 +30,7 @@
     Vésicule séminale sans particularité.
 
     CONCLUSION
-    ```
-
-
-## [**Cancer**](https://radiopaedia.org/articles/prostate-cancer-3){:target="_blank"}  
+    ```  
 
 ??? quote "[IRM](https://www.pcih.fr/portal/pst_selectapp.php){:target="_blank"} axiale T2, 3D T2, DWI b≥1400, DCE T1 FS, T2 EG gg" 
     ```

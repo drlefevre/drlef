@@ -1,4 +1,4 @@
-??? quote "IRA"
+??? quote "Echo IRA"
     ```
     ECHOGRAPHIE RENO-VESICALE
 
@@ -16,10 +16,38 @@
     Pas de cause obstructive à l'insuffisance rénale.
     ```
 
+??? quote "IRM ax et coro T2, diffusion, axiale T2 EG gg, T1 dyn, T1 post-gado tardif"
+    ```
+    IRM RENALE
 
-## [**Kystes**](https://radiopaedia.org/articles/renal-cyst-1){:target="_blank"}
+    INDICATION
 
 
+    PROTOCOLE
+    Séquences axiales et coronale T2, diffusion, T1 dynamique et T1 post-gadolinium tardive
+
+    RESULTATS
+
+
+    1/ REIN DROIT
+    Morphologie et taille normales :
+    Pas de lésion focale tissulaire.
+    Pas de dilatation des cavités pyélo-calicielles.
+
+    2/ REIN GAUCHE
+    Morphologie et taille normales :
+    Pas de lésion focale tissulaire.
+    Pas de dilatation des cavités pyélo-calicielles.
+
+    3/ GANGLIONS
+    Pas d'adénomégalie abdomino-pelvienne.
+
+    4/ RESTE DE L'EXAMEN
+    Dans la limite des séquences réalisées, pas d'anomalie significative des surrénales du foie, du pancréas et de la rate.
+    Pas d'épanchement péritonéal.
+
+    CONCLUSION
+    ```
 
 !!! info "[Bosniak](https://pubs.rsna.org/doi/full/10.1148/radiol.2019182646){:target="_blank"}" 
     === "TDM"
@@ -37,10 +65,7 @@
         * III = parois ou cloisons régulières ≥ 4 mm / nodule ≤ 3 mm
         * IV = nodule ≥ 4 mm 
 
-
-## [**Tumeurs**](https://radiopaedia.org/articles/renal-cell-carcinoma-1){:target="_blank"}
-
-!!! tip "Sémiologie"
+!!! tip "[Tumeurs](https://radiopaedia.org/articles/renal-cell-carcinoma-1){:target="_blank"} (solide si > 25% rehaussée)"
     * HYPERvascularisée  
         * **80% CCC** = nécrose, thrombose veine, Ca<sup>2+</sup>, Hdiff central, pseudocapsule hT2, HT2
             * métas poumons, os, gg, foie, surrénales, cerveau
@@ -55,6 +80,6 @@
             * K épidermoïdes (poumons, ORL, œsophage)
 
 !!! tip "Sd génétiques"
-    * **VHL** = CCC, kystes reins et pancréas, phéo, hémangioblastome cervelet
-    * **STB** = AML, LLM, tubers corticaux, nodules ss-épendymaires
-    * **BHD** = chromophobe, oncocytome, kystes bases pulm péribronchovasc irréguliers
+    * [VHL](https://radiopaedia.org/articles/von-hippel-lindau-disease-5){:target="_blank"} = CCC, kystes reins et pancréas, phéo, hémangioblastome cervelet
+    * [STB](https://radiopaedia.org/articles/tuberous-sclerosis){:target="_blank"} = AML, LLM, tubers corticaux, nodules ss-épendymaires
+    * [BHD](https://radiopaedia.org/articles/birt-hogg-dube-syndrome-5){:target="_blank"} = chromophobe, oncocytome, kystes bases pulm péribronchovasc irréguliers
