@@ -1,4 +1,4 @@
-??? quote "Echo IRA"
+??? quote "**Echo** IRA"
     ```
     ECHOGRAPHIE RENO-VESICALE
 
@@ -16,7 +16,7 @@
     Pas de cause obstructive à l'insuffisance rénale.
     ```
 
-??? quote "IRM ax et coro T2, diffusion, axiale T2 EG gg, T1 dyn, T1 post-gado tardif"
+??? quote "**IRM** ax et coro T2, diffusion, axiale T2 EG gg, T1 dyn, T1 post-gado tardif"
     ```
     IRM RENALE
 

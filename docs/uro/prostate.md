@@ -1,6 +1,6 @@
 # [Prostate](https://radiopaedia.org/articles/prostate-cancer-3){:target="_blank"}
 
-??? quote "Echo [HBP](https://radiopaedia.org/articles/benign-prostatic-hyperplasia){:target="_blank"} (volume > 30 cc)"
+??? quote "**Echo** (volume > 30 cc)"
     ```
     ECHOGRAPHIE RENO-VESICO-PROSTATIQUE
 
@@ -32,7 +32,7 @@
     CONCLUSION
     ```  
 
-??? quote "[IRM](https://www.pcih.fr/portal/pst_selectapp.php){:target="_blank"} axiale T2, 3D T2, DWI b≥1400, DCE T1 FS, T2 EG gg" 
+??? quote "[**IRM**](https://www.pcih.fr/portal/pst_selectapp.php){:target="_blank"} axiale T2, 3D T2, DWI b≥1400, DCE T1 FS, T2 EG gg" 
     ```
     IRM DE LA PROSTATE
 

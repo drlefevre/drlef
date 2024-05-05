@@ -1,6 +1,6 @@
 # [**Endométriose**](https://radiopaedia.org/articles/endometriosis){:target="_blank"}  
 
-??? quote "IRM"
+??? quote "**IRM**"
     ```
     IRM PELVIENNE
 

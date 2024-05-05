@@ -32,10 +32,10 @@
     CONCLUSION
     ```
 
-!!! tip "Tableaux échographiques"
+!!! tip "Tableaux échographiques ([O-RADS](https://radiopaedia.org/articles/ovarian-adnexal-reporting-and-data-system-ultrasound-o-rads-us){:target="_blank"})"
     === "kyste uniloculaire"
-        * [kyste fonctionnel](https://radiopaedia.org/articles/ovarian-cyst-2){:target="_blank"} = pdt act. génitale :material-arrow-right: IRM si > 10 cm
-        * cystadénome séreux bénin = persiste à M3
+        * **kyste fonctionnel** = pdt act. génitale :material-arrow-right: contrôle M3 si > 5 cm, IRM si > 10 cm
+        * cystadénome séreux bénin = contrôle à 1 an si post-ménopause
         * kyste paratubaire / pseudokyste péritonéal
     === "liquidien impur"
         * **endométriome** :material-arrow-right: IRM bilan EPP
@@ -52,10 +52,39 @@
         * kyste + nodule mural vascularisé = **cystadénocarcinome**
         * solide si > 80% de la masse = cystadénocarcinome, fibrome, kyste dermoïde
 
-??? quote "**IRM**"
+
+??? quote "**IRM** [O-RADS](https://radiopaedia.org/articles/ovarian-adnexal-reporting-and-data-system-magnetic-resonance-imaging-o-rads-mri){:target="_blank"}"
+    ```
+    INDICATION
 
 
+    PROTOCOLE
+    Séquences T2, T1 Dixon, diffusion et T1 dynamique.
 
+    RESULTATS
+
+
+    1/ OVAIRE DROIT
+
+
+    2/ OVAIRE GAUCHE
+
+
+    3/ UTERUS
+    Antéversé antéfléchi, mesuré à
+    Myomètre homogène sans myome ni anomalie de la zone jonctionnelle
+    Endomètre fin et régulier.
+    Pas d'anomalie du col.
+
+    4/ RESTE DE L'EXAMEN
+    Vessie en semi-réplétion, sans anomalie.
+    Pas de dilatation des cavités pyélocalicielles.
+    Pas de lésion péritonéale.
+    Pas d'anomalie digestive.
+
+
+    CONCLUSION
+    ```
 
 </br>
 
