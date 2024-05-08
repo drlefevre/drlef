@@ -1,5 +1,3 @@
-# [Ovaires](https://radiopaedia.org/articles/ovarian-tumours){:target="_blank"} 
-
 ??? quote "**Echo**"
     ```
     ECHOGRAPHIE PELVIENNE

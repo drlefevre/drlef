@@ -1,5 +1,3 @@
-# [Prostate](https://radiopaedia.org/articles/prostate-cancer-3){:target="_blank"}
-
 ??? quote "**Echo** (volume > 30 cc)"
     ```
     ECHOGRAPHIE RENO-VESICO-PROSTATIQUE
@@ -70,7 +68,7 @@
     Pas de lésion prostatique suspecte.
     ```
 
-!!! info "[PI-RADS v2.1](https://www.acr.org/-/media/ACR/Files/RADS/Pi-RADS/PIRADS-v2-1.pdf){:target="_blank"} résumé sur  [Radiology Assistant](https://radiologyassistant.nl/abdomen/prostate/prostate-cancer-pi-rads-v2-1){:target="_blank"}"
+!!! info "[PI-RADS v2.1](https://radiologyassistant.nl/abdomen/prostate/prostate-cancer-pi-rads-v2-1){:target="_blank"}"
     * **ZP = DWI**
         * 1 = normal
         * 2 = linéaire ou angulaire
