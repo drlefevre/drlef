@@ -1,6 +1,6 @@
 # Accueil
 
-<p style="text-align: center"><a href="https://www.imaios.com/fr/login"target="_blank">Imaios</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://radiopaedia.org/"target="_blank">Radiopaedia</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.radrap.ch/comptesrendus"target="_blank">modèles de CR</a></p>
+<p style="text-align: center"><a href="https://www.imaios.com/fr/login"target="_blank">Imaios</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://radiopaedia.org/"target="_blank">Radiopaedia</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.radrap.ch/comptesrendus"target="_blank">modèles de CR</a></p>
 
 === "ABDO"
     ```
@@ -21,6 +21,7 @@
     Reins de taille et de morphologie normale, sans lésion suspecte ni image lithiasique.
     Vessie en faible réplétion, au contenu anéchogène, avec des parois fines et régulières.
     Pas d'épanchement péritonéal.
+
 
     CONCLUSION
 
@@ -82,7 +83,7 @@
     Prostate par voie sus-pubienne :
     Dimensions mesurant
     Lobé médian avec protrusion vésicale
-    Contours réguliers bien définis.
+    Echostructure homogène avec contours réguliers.
     Vésicules séminales sans particularité.
 
     Vessie post-mictionnelle :
@@ -143,12 +144,13 @@
     Lobe gauche mesurant
     Epaisseur de l'isthme mesurant
 
-    Contours réguliers et échostructure homogène.
+    Contours réguliers.
+    Echostructure homogène hyperéchogène par rapport au plan musculaire.
     Vascularisation sans particularité au Doppler.
     Pas d'image nodulaire.
 
-    Pas d'anomalie du tractus thyéroglosse.
-    Pas d'adénopathie dans les secteurs III, IV et VI.
+    Pas d'anomalie du tractus thyréoglosse.
+    Pas d'adénopathie dans les secteurs II, III, IV et VI.
     Perméabilité des vaisseaux jugulo-carotidiens.
     Glandes sous-maxillaires et parotidiennes homogènes.
 
@@ -159,7 +161,7 @@
     Interne A. LEFEVRE
     ```
     <figure markdown="span">
-        ![](assets/thyroïde.jpg){width="300"}
+        ![](assets/thyr.jpg){width="300"}
     </figure>
     <figure markdown="span">
         [![](assets/TIRADS.jpg){width="700"}](https://cireol.net/wp-content/uploads/2017/05/2017-CIREOL-EUTIRADS.pdf){:target="_blank"}
@@ -178,6 +180,9 @@
 
     Absence de ganglion suspect des chaînes ganglionnaires cervicales.
     Perméabilité des axes vasculaires jugulaires et carotidiens.
+
+
+    CONCLUSION
 
 
     Interne A. LEFEVRE
@@ -200,5 +205,5 @@
     Interne A. LEFEVRE
     ```
     <figure markdown="span">
-        ![](assets/ing.jpg){width="600"}
+        ![](assets/ing.jpg){width="550"}
     </figure>

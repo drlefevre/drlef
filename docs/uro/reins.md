@@ -1,53 +1,35 @@
-??? quote "**Echo** IRA"
-    ```
-    ECHOGRAPHIE RENO-VESICALE
+```
+IRM RENALE
 
-    INDICATION
-    Insuffisance rénale aiguë.
-
-    RESULTATS
-    Pas de dilatation des cavités pyélo-calicielles.
-    Reins de taille normale, sans lésion focale.
-    Bonne différenciation parenchymo-sinusale.
-    Vessie en semi-réplétion, au contenu anéchogène.
-    Pas d'épanchement péritonéal déclive.
-
-    CONCLUSION
-    Pas de cause obstructive à l'insuffisance rénale.
-    ```
-
-??? quote "**IRM** ax et coro T2, diffusion, axiale T2 EG gg, T1 dyn, T1 post-gado tardif"
-    ```
-    IRM RENALE
-
-    INDICATION
+INDICATION
 
 
-    PROTOCOLE
-    Séquences axiales et coronale T2, diffusion, T1 dynamique et T1 post-gadolinium tardive
+PROTOCOLE
+Séquences axiales et coronale T2, diffusion, T1 dynamique et T1 post-gadolinium tardive
 
-    RESULTATS
+RESULTATS
 
 
-    1/ REIN DROIT
-    Morphologie et taille normales :
-    Pas de lésion focale tissulaire.
-    Pas de dilatation des cavités pyélo-calicielles.
+1/ REIN DROIT
+Morphologie et taille normales :
+Pas de lésion focale tissulaire.
+Pas de dilatation des cavités pyélo-calicielles.
 
-    2/ REIN GAUCHE
-    Morphologie et taille normales :
-    Pas de lésion focale tissulaire.
-    Pas de dilatation des cavités pyélo-calicielles.
+2/ REIN GAUCHE
+Morphologie et taille normales :
+Pas de lésion focale tissulaire.
+Pas de dilatation des cavités pyélo-calicielles.
 
-    3/ GANGLIONS
-    Pas d'adénomégalie abdomino-pelvienne.
+3/ GANGLIONS
+Pas d'adénomégalie abdomino-pelvienne.
 
-    4/ RESTE DE L'EXAMEN
-    Dans la limite des séquences réalisées, pas d'anomalie significative des surrénales du foie, du pancréas et de la rate.
-    Pas d'épanchement péritonéal.
+4/ RESTE DE L'EXAMEN
+Dans la limite des séquences réalisées, pas d'anomalie significative des surrénales du foie, du pancréas et de la rate.
+Pas d'épanchement péritonéal.
 
-    CONCLUSION
-    ```
+
+CONCLUSION
+```
 
 !!! info "[Bosniak](https://pubs.rsna.org/doi/full/10.1148/radiol.2019182646){:target="_blank"}" 
     === "TDM"
@@ -65,7 +47,7 @@
         * III = parois ou cloisons régulières ≥ 4 mm / nodule ≤ 3 mm
         * IV = nodule ≥ 4 mm 
 
-!!! tip "[Tumeurs](https://radiopaedia.org/articles/renal-cell-carcinoma-1){:target="_blank"} (solide si > 25% rehaussée)"
+!!! tip "Tumeurs solides (PDC > 25%)"
     * HYPERvascularisée  
         * **80% CCC** = nécrose, thrombose veine, Ca<sup>2+</sup>, Hdiff central, pseudocapsule hT2, HT2
             * métas poumons, os, gg, foie, surrénales, cerveau

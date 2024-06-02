@@ -2,6 +2,8 @@ site_name: Notes radiologiques
 
 nav:
   - index.md
+  - Urgences:
+    - EP: urg/EP.md
   - Femme:
     - Endométriose: femme/EPP.md
     - Ovaires: femme/ovaires.md
