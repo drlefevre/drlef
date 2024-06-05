@@ -31,5 +31,5 @@ Absence de signe d'embolie pulmonaire.
 !!! tip "[Femme enceinte](https://onclepaul.net/wp-content/uploads/2011/07/EP-chez-la-femme-enceinte-CS-2013+++1.pdf){:target="_blank"}"
     - Apnée simple
     - 120 cc ≥ 4,5 cc/s de Ioméron 400
-    - Couper apex et coupoles
+    - Couper apex et culs-de-sac pleuraux
     - 100 kV
