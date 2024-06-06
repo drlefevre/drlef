@@ -127,10 +127,10 @@
     Perméabilité des axes vasculaires jugulaires et carotidiens.
     ```
     <figure markdown="span">
-        [![](assets/ORL.jpg){width="700"}](https://www.sfdermato.org/media/pdf/fmc/kystes-et-fistules-43aafeeba119ceb9a20059d95f63e615.pdf){:target="_blank"}
+        [![](assets/gg.jpg){width="700"}](https://onclepaul.fr/wp-content/uploads/2011/07/Aires-lymphatiques-cervicales-AF-2022.pdf){:target="_blank"}
     </figure>
     <figure markdown="span">
-        [![](assets/gg.jpg){width="700"}](https://onclepaul.fr/wp-content/uploads/2011/07/Aires-lymphatiques-cervicales-AF-2022.pdf){:target="_blank"}
+        [![](assets/ORL.jpg){width="700"}](https://www.sfdermato.org/media/pdf/fmc/kystes-et-fistules-43aafeeba119ceb9a20059d95f63e615.pdf){:target="_blank"}
     </figure>
 === "ING"
     ```
