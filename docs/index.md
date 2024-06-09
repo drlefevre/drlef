@@ -141,8 +141,21 @@
     </figure>
 === "PELV"
     ```
+        Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
 
+        Utérus antéversé antéfléchi mesurant
+        Endomètre hyperéchogène mesurant
+        Pas d'anomalie significative du myomètre.
+
+        Ovaires folliculaires en place dans leur fossette.
+        Ovaire droit mesurant
+        Ovaire gauche mesurant
+        Pas de dilatation tubaire.
+
+        Pas d'épanchement pelvien significatif.
+        Pas de dilatation des cavités pyélocalicielles.
     ```
     <figure markdown="span">
         ![](assets/figo.jpg){width="700"}
+        <figcaption>critères écho SOPK : > 10 cc ou > 20 follicules /ovaire </figcaption>
     </figure>
