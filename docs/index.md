@@ -1,7 +1,7 @@
 # Accueil
 
 <p style="text-align: center"><a href="https://www.imaios.com/fr/login"target="_blank">Imaios</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://radiopaedia.org/"target="_blank">Radiopaedia</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.radrap.ch/comptesrendus"target="_blank">modèles de CR</a>
-</br> id reco : rempl cima, mdp : elindo</p>
+</br>rempl cima</p>
 
 === "ABDO"
     ```
@@ -74,7 +74,6 @@
     ```
     Testicule droit :
     Dimensions mesurant
-    Selon la formule de Lambert (Lxlxhx0,71), volume estimé à 
     Echostructure homogène, sans lésion focale suspecte.
     Epididyme sans particularité.
     Canal déférent suivi jusqu'à l'anneau inguinal.
@@ -82,7 +81,6 @@
 
     Testicule gauche :
     Dimensions mesurant
-    Selon la formule de Lambert (Lxlxhx0,71), volume estimé à 
     Echostructure homogène, sans lésion focale suspecte.
     Epididyme sans particularité.
     Canal déférent suivi jusqu'à l'anneau inguinal.
@@ -90,7 +88,7 @@
 
     Etude Doppler :
     Vascularisation testiculaire symétrique sans particularité.
-    Pas de varicocèle décelable, notamment en position debout et en manœuvre de Valsalva.
+    Pas de varicocèle décelable, notamment à gauche en position debout et en manœuvre de Valsalva.
     ```
     <figure markdown="span">
         ![](assets/testis.jpg){width="700"}
@@ -141,19 +139,19 @@
     </figure>
 === "PELV"
     ```
-        Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
+    Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
 
-        Utérus antéversé antéfléchi mesurant
-        Endomètre hyperéchogène mesurant
-        Pas d'anomalie significative du myomètre.
+    Utérus antéversé antéfléchi mesurant
+    Endomètre hyperéchogène mesurant
+    Pas d'anomalie significative du myomètre.
 
-        Ovaires folliculaires en place dans leur fossette.
-        Ovaire droit mesurant
-        Ovaire gauche mesurant
-        Pas de dilatation tubaire.
+    Ovaires folliculaires en place dans leur fossette.
+    Ovaire droit mesurant
+    Ovaire gauche mesurant
+    Pas de dilatation tubaire.
 
-        Pas d'épanchement pelvien significatif.
-        Pas de dilatation des cavités pyélocalicielles.
+    Pas d'épanchement pelvien significatif.
+    Pas de dilatation des cavités pyélocalicielles.
     ```
     <figure markdown="span">
         ![](assets/figo.jpg){width="700"}
