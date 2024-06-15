@@ -1,18 +1,6 @@
 # Endométriose  
 
 ```
-IRM PELVIENNE
-
-INDICATION
-
-
-PROTOCOLE
-Après balisage vaginal au gel d'échographie.
-Séquences 3 plans T2, ax T1 Dixon et ax T2 BTFE jusqu'aux hiles rénaux.
-
-RESULTATS
-
-
 Utérus antéversé antéfléchi mesuré à 
 Endomètre fin, hyperintense en T2, mesuré à
 Intégrité de la zone jonctionnelle et du myomètre.
@@ -29,10 +17,6 @@ Intégrité de la cloison recto-vaginale et de l'espace vésico-utérin.
 Pas de dilatation des cavités pyélo-calicielles.
 Lame d'épanchement liquidien pelvien.
 Pas d'adénomégalie.
-
-
-CONCLUSION
-Pas de lésion d'endométriose pelvienne profonde.
 ```
 
 !!! tip "Description d'une **atteinte rectale**"

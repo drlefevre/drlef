@@ -1,34 +1,18 @@
 ```
-IRM RENALE
-
-INDICATION
-
-
-PROTOCOLE
-Séquences axiales et coronale T2, diffusion, T1 dynamique et T1 post-gadolinium tardive
-
-RESULTATS
-
-
-1/ REIN DROIT
+Rein droit :
 Morphologie et taille normales :
 Pas de lésion focale tissulaire.
 Pas de dilatation des cavités pyélo-calicielles.
 
-2/ REIN GAUCHE
+Rein gauche :
 Morphologie et taille normales :
 Pas de lésion focale tissulaire.
 Pas de dilatation des cavités pyélo-calicielles.
 
-3/ GANGLIONS
+Par ailleurs :
 Pas d'adénomégalie abdomino-pelvienne.
-
-4/ RESTE DE L'EXAMEN
-Dans la limite des séquences réalisées, pas d'anomalie significative des surrénales du foie, du pancréas et de la rate.
+Pas d'anomalie décelable des surrénales, du foie, du pancréas et de la rate.
 Pas d'épanchement péritonéal.
-
-
-CONCLUSION
 ```
 
 !!! info "[Bosniak](https://pubs.rsna.org/doi/full/10.1148/radiol.2019182646){:target="_blank"}" 

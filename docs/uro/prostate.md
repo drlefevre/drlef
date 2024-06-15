@@ -1,40 +1,24 @@
 # [Prostate](https://www.pcih.fr/portal/pst_selectapp.php){:target="_blank"}
 
 ```
-IRM DE LA PROSTATE
-
-INDICATION
-
-
-PROTOCOLE
-Analyse biparamétrique (T2 et diffusion), conforme au standard PI-RADS v2.1.
-
-RESULTATS
-
-
-1/ VOLUME
 Volume prostatique estimé à 
 
-2/ ZONE PERIPHERIQUE
+Zone périphérique :
 Quelques remaniements ne gênant pas l'interprétation du signal. 
 Pas de lésion significative.
 
-3/ ZONE DE TRANSITION
+Zone de transition :
 Quelques remaniements ne gênant pas l'interprétation du signal. 
 Pas de lésion significative.
 
-4/ SFMA
+SFMA :
 Fin et très hypointense en T2. 
 Pas de lésion significative.
 
-5/ AUTRES
+Par ailleurs :
 Vésicules séminales d'aspect normal.
 Pas d'adénopathie pelvienne significative.
 Pas de lésion osseuse suspecte.
-
-
-CONCLUSION : 
-Pas de lésion prostatique suspecte.
 ```
 
 !!! info "[PI-RADS v2.1](https://radiologyassistant.nl/abdomen/prostate/prostate-cancer-pi-rads-v2-1){:target="_blank"}"

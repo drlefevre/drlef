@@ -1,33 +1,22 @@
 ??? quote "**Echo**"
     ```
-    ECHOGRAPHIE PELVIENNE
+    Examen réalisé par voie sus-pubienne puis endovaginale après accord de la patiente avec gaine de protection à usage unique.
 
-    INDICATION
-
-
-    TECHNIQUE
-    Examen réalisé par voie sus-pubienne et endovaginale après accord de la patiente avec gaine de protection à usage unique.
-
-    RESULTATS
-
-    1/ OVAIRES
+    Ovaire :
     Situés dans les fossettes ovariennes.
     Taille et morphologie normale, volume estimé à 
     Pas d'anomalie tubaire.
 
-    2/ UTERUS
+    Utérus :
     Antéversé antéfléchi, mesuré à
     Myomètre homogène sans myome ou adénomyose décelable.
     Endomètre hyperéchogène mesurant
     Pas d'anomalie du col.
 
-    3/ VESSIE
-    Vessie en sémi-réplétion, au contenu anéchogène, sans anomalie pariétale.
+    Vessie :
+    En sémi-réplétion, au contenu anéchogène, sans anomalie pariétale.
     Pas d'épanchement péritonéal significatif.
     Pas de dilatation urétérale.
-
-
-    CONCLUSION
     ```
 
 !!! tip "Tableaux échographiques ([O-RADS](https://radiopaedia.org/articles/ovarian-adnexal-reporting-and-data-system-ultrasound-o-rads-us){:target="_blank"})"

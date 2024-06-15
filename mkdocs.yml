@@ -3,14 +3,16 @@ site_name: Notes radiologiques
 nav:
   - index.md
   - Urgences:
-    - EP: urg/EP.md
+    - EP/hémoptysie: urg/EP.md
   - Femme:
-    - Endométriose: femme/EPP.md
+    - EPP: femme/EPP.md
     - Ovaires: femme/ovaires.md
     - Seins: femme/seins.md
   - Uro:
     - Reins: uro/reins.md
     - Prostate: uro/prostate.md
+  - Thorax:
+    - Nodules: thorax/nodules.md
 
 theme:
   name: material
