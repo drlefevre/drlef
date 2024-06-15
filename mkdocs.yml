@@ -2,8 +2,13 @@ site_name: Notes radiologiques
 
 nav:
   - index.md
-  - Urgences:
-    - EP/hémoptysie: urg/EP.md
+  - Thorax:
+    - EP/Ao: thorax/EP.md
+    - Nodules: thorax/nodules.md
+    - Médiastin: thorax/mediastin.md
+    - Kystes: thorax/kystes.md
+    - Tabac: thorax/tabac.md
+    - PID: thorax/PID.md
   - Femme:
     - EPP: femme/EPP.md
     - Ovaires: femme/ovaires.md
@@ -11,8 +16,6 @@ nav:
   - Uro:
     - Reins: uro/reins.md
     - Prostate: uro/prostate.md
-  - Thorax:
-    - Nodules: thorax/nodules.md
 
 theme:
   name: material

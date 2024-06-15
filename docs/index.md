@@ -155,5 +155,24 @@
     ```
     <figure markdown="span">
         ![](assets/figo.jpg){width="700"}
-        <figcaption>critères écho SOPK : > 10 cc ou > 20 follicules /ovaire </figcaption>
     </figure>
+    !!! tip "Kystes ovariens [O-RADS](https://radiopaedia.org/articles/ovarian-adnexal-reporting-and-data-system-ultrasound-o-rads-us){:target="_blank"}"
+        === "uniloculaire"
+            * **kyste fonctionnel** = pdt act. génitale :material-arrow-right: contrôle M3 si > 5 cm, IRM si > 10 cm
+            * cystadénome séreux bénin = contrôle à 1 an si post-ménopause
+            * kyste paratubaire / pseudokyste péritonéal
+        === "liquidien impur"
+            * **endométriome** :material-arrow-right: IRM bilan EPP
+            * kyste lutéal hémorragique = couronne hypervascularisée
+            * kyste dermoïde à contenu sébacé pur = rare +++  
+        === "multiloculaire"
+            * **cystadénome mucineux** bénin >> séreux  
+            :material-arrow-right: IRM pour confirmer l'absence de portion tissulaire
+        === "végétation (> 3 mm)"
+            * uniloculaire qq végétations < 1 cm = **cystadénome séreux papillaire** bénin
+            * uniloculaire végétations nbreuses / > 1 cm = cystadénome séreux borderline
+            * multiloculaire avec végétations = cystadénome mucineux borderline
+        === "mixte/solide"
+            * kyste + nodule mural vascularisé = **cystadénocarcinome**
+            * solide si > 80% de la masse = cystadénocarcinome, fibrome, kyste dermoïde
+    <p style="text-align: center"><b>SOPK</b> = > 10 cc ou > 20 follicules /ovaire</p>
