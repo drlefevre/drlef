@@ -1,7 +1,7 @@
 # PID
 
 <figure markdown="span">
-    ![](assets/PID.jpg){width="730"}
+    ![](assets/PID.jpg){width="710"}
     <figcaption>fibrose = DDB, ry de miel, scissures irrégulières, perte de volume</figcaption>
 </figure>
 
@@ -27,5 +27,5 @@
 </figure>
 
 <figure markdown="span">
-    [![](assets/micronodules.jpg){width="600"}](https://onclepaul.fr/wp-content/uploads/2011/07/Syndrome-micronodulaire-.pdf){:target="_blank"}
+    [![](assets/micronodules.jpg){width="620"}](https://onclepaul.fr/wp-content/uploads/2011/07/Syndrome-micronodulaire-.pdf){:target="_blank"}
 </figure>
