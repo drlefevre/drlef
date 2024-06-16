@@ -1,26 +1,5 @@
 # [Prostate](https://www.pcih.fr/portal/pst_selectapp.php){:target="_blank"}
 
-```
-Volume prostatique estimé à 
-
-Zone périphérique :
-Quelques remaniements ne gênant pas l'interprétation du signal. 
-Pas de lésion significative.
-
-Zone de transition :
-Quelques remaniements ne gênant pas l'interprétation du signal. 
-Pas de lésion significative.
-
-SFMA :
-Fin et très hypointense en T2. 
-Pas de lésion significative.
-
-Par ailleurs :
-Vésicules séminales d'aspect normal.
-Pas d'adénopathie pelvienne significative.
-Pas de lésion osseuse suspecte.
-```
-
 !!! info "[PI-RADS v2.1](https://radiologyassistant.nl/abdomen/prostate/prostate-cancer-pi-rads-v2-1){:target="_blank"}"
     * **ZP = DWI**
         * 1 = normal

@@ -6,9 +6,12 @@ nav:
     - EP/Ao: thorax/EP.md
     - Nodules: thorax/nodules.md
     - Médiastin: thorax/mediastin.md
+    - Bronches: thorax/bronches.md
     - Kystes: thorax/kystes.md
-    - Tabac: thorax/tabac.md
+    - Plèvre: thorax/plèvre.md
+    - Malfo: thorax/malfo.md
     - PID: thorax/PID.md
+
   - Femme:
     - EPP: femme/EPP.md
     - Ovaires: femme/ovaires.md

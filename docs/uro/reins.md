@@ -1,20 +1,3 @@
-```
-Rein droit :
-Morphologie et taille normales :
-Pas de lésion focale tissulaire.
-Pas de dilatation des cavités pyélo-calicielles.
-
-Rein gauche :
-Morphologie et taille normales :
-Pas de lésion focale tissulaire.
-Pas de dilatation des cavités pyélo-calicielles.
-
-Par ailleurs :
-Pas d'adénomégalie abdomino-pelvienne.
-Pas d'anomalie décelable des surrénales, du foie, du pancréas et de la rate.
-Pas d'épanchement péritonéal.
-```
-
 !!! info "[Bosniak](https://pubs.rsna.org/doi/full/10.1148/radiol.2019182646){:target="_blank"}" 
     === "TDM"
         * I = -9 à 20 UH (↬ 30 UH tps veineux), paroi ≤ 2 mm (± rehaussé), ∅ cloison ni Ca<sup>2+</sup>
