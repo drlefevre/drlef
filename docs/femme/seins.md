@@ -1,11 +1,11 @@
 ```
-Densité de type C : parenchyme dense hétérogène.
-Asymétrie focale de densité au profit du quadrant supéro-externe du sein gauche.
-Foyer de microcalcifications fines linéaires dans le quadrant supéro-interne du sein droit.
-Pas d’opacité nodulo-stellaire.
+Densité de type 
+Pas de microcalcifications, d’opacité nodulo-stellaire ni de distorsion architecturale.
 Pas d’anomalie du revêtement cutané ni des creux axillaires.
+```
 
-Échostructure de type fibroglandulaire homogène. 
+```
+Échostructure de type  
 Pas de nodule tissulaire ni de plage atténuante suspecte. 
 ```
 

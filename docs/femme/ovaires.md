@@ -21,17 +21,6 @@
 
 ??? quote "**TAP** carcinose"
     ```
-    SCANNER THORACO-ABDOMINO-PELVIEN
-
-    INDICATION
-
-
-    PROTOCOLE
-    Acquisition hélicoïdale après injection au temps veineux.
-
-    RESULTATS
-
-
     1/ ANNEXES
 
 
@@ -48,9 +37,6 @@
 
 
     7/ ETAGE SUS-DIAPHRAGMATIQUE
-
-
-    CONCLUSION
     ```
 
 !!! info "**FIGO** (TDM TAP + laparoscopie = 70% découvert stade ≥ III)"
