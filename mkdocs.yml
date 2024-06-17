@@ -8,7 +8,7 @@ nav:
     - Médiastin: thorax/mediastin.md
     - Infections: thorax/infections.md
     - Bronches: thorax/bronches.md
-    - Kystes: thorax/kystes.md
+    - Cavités: thorax/cavités.md
     - Plèvre: thorax/plèvre.md
     - Malfo: thorax/malfo.md
     - PID: thorax/PID.md
@@ -16,6 +16,7 @@ nav:
     - EPP: femme/EPP.md
     - Seins: femme/seins.md
     - Ovaires: femme/ovaires.md
+    - Hystéro: femme/hystéro.md
     - Prolapsus: femme/prolapsus.md
   - Uro:
     - Reins: uro/reins.md

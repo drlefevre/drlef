@@ -1,0 +1,43 @@
+# Hystérosalpingographie
+
+<p style="text-align: center">entre J6 et J12, ± ATB (doxycycline/azithromycine), spasfon, vessie vide</br>TV > désinfection > spéculum > désinfection > hystéromètre > purge > aspi > tulipe</br>si échec : sonde d'hystérosonographie, massages abdo, max 2 x 20 mL</p>
+
+!!! warning "CI"
+    - βHCG
+    - infection
+    - hydrosalpinx (risque infectieux)
+    - allergie PCI (faire écho avec HYFOSY)
+    - métrorragies (caillots intracavitaires, différer l'examen)
+
+```
+
+```
+
+!!! tip "Causes d'infertilité"
+    === "obstruction proximale"
+        - spasme tubaire / bouchon muqueux = corne utérine arrondie => salpingo sélective
+        - polype, myome, synéchie
+        - salpingite isthmique nodulaire (endométriose, BK) = boules de gui
+        <figure markdown="span">
+            ![](assets/prox.jpg){width="700"}
+        </figure>
+    === "obstruction distale"
+        - hydrosalpinx => doxicycline 100 mg x2
+        - phimosis tubaire = sténose de l'ampoule = passage péritonéal lent
+        - adhérences et cloisonnements péritonéaux = pas de brassage péritonéal
+        <figure markdown="span">
+            ![](assets/distal.jpg){width="700"}
+        </figure>
+    === "images endocavitaires"
+        - synéchies, polype, myome
+        - utérus bicorne ou cloisonné
+        - adénomyose = spicules millimétriques (cryptes)
+        <figure markdown="span">
+            ![](assets/cavite.jpg){width="700"}
+        </figure>
+
+<figure markdown="span">
+    ![](assets/diaph.jpg){width="350"}
+    <figcaption>diaphragme tubaire physiologique</figcaption>
+</figure>
+

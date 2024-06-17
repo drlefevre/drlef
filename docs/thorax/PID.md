@@ -27,5 +27,5 @@
 </figure>
 
 <figure markdown="span">
-    [![](assets/micronodules.jpg){width="620"}](https://onclepaul.fr/wp-content/uploads/2011/07/Syndrome-micronodulaire-.pdf){:target="_blank"}
+    [![](assets/micronodules.jpg){width="670"}](https://onclepaul.fr/wp-content/uploads/2011/07/Syndrome-micronodulaire-.pdf){:target="_blank"}
 </figure>
