@@ -10,7 +10,11 @@
     - métrorragies (caillots intracavitaires, différer l'examen)
 
 ```
-
+Pas d'opacité calcique sur le cliché sans préparation.
+Aspect morphologique normal de la cavité utérine.
+Opacification bilatérale et synchrone des trompes, d'aspect normal.
+Brassage péritonéal bilatéral du produit de contraste, sans cloisonnement.
+Pas d'anomalie de la région cervicale utérine sur le cliché en évacuation.
 ```
 
 !!! tip "Causes d'infertilité"
