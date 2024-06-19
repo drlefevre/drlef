@@ -2,6 +2,7 @@
 
 !!! tip "[Généralités](https://onclepaul.net/wp-content/uploads/2011/07/1.pneumonies-infectieuses-.pptFILEminimizer.pdf){:target="_blank"}"
     - 4 : types d'infections pulmonaires
+    - 24 : pneumocystose
     - 30 : embolies septiques
     - 38 : Lemierre
     - 45 : abcès

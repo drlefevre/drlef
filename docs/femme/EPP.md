@@ -9,7 +9,7 @@ Ovaires latéro-utérins, folliculaires, mesurés à
 Pas d'endométriome ou d'implant hémorragique.
 Pas de dilatation tubaire.
 
-Pas de nodule d'endométriose du torus ou des ligamens utéro-sacrés.
+Pas de nodule d'endométriose du torus ou des ligaments utéro-sacrés.
 Pas d'implant hémorragique péritonéal.
 Déplissement satisfaisant du culs-de-sac vaginal postérieur.
 Intégrité de la cloison recto-vaginale et de l'espace vésico-utérin.

@@ -35,7 +35,7 @@ Pas d'anomalie de la région cervicale utérine sur le cliché en évacuation.
     === "images endocavitaires"
         - synéchies, polype, myome
         - utérus bicorne ou cloisonné
-        - adénomyose = spicules millimétriques (cryptes)
+        - adénomyose = spicules ou microkystes sous-endométriaux
         <figure markdown="span">
             ![](assets/cavite.jpg){width="700"}
         </figure>
