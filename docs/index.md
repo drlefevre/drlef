@@ -138,6 +138,7 @@
     <figure markdown="span">
         ![](assets/ing.jpg){width="550"}
     </figure>
+    <p style="text-align: center"><a href="https://lamediatheque.radiologie.fr/mediatheque/media.aspx?mediaId=50350&channel=3277"target="_blank">Cours SFR</p>
 === "PELV"
     ```
     Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
