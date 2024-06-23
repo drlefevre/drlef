@@ -32,7 +32,7 @@ Mammographie et échographie BI-RADS 2 bilatérale, sans anomalie suspecte.
     </figure>
 === "Calcifications"
     <figure markdown="span">
-        ![](assets/calcif.jpg){width="500"}
+        [![](assets/calcif.jpg){width="500"}](https://radiologyassistant.nl/breast/bi-rads/bi-rads-for-mammography-and-ultrasound-2013#mammography-breast-imaging-lexicon-calcifications){:target="_blank"}
         <figcaption>Foyer microcalcifications ssi > 5 sur 1 cm</figcaption>
     </figure>
 === "Signes associés"
