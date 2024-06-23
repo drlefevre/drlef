@@ -136,9 +136,8 @@
     Absence de hernie inguinale mise en évidence à l'exploration de la paroi abdominale en décubitus dorsal, en position debout et lors des manœuvres de Valsalva.
     ```
     <figure markdown="span">
-        ![](assets/ing.jpg){width="550"}
+        [![](assets/ing.jpg){width="550"}](https://lamediatheque.radiologie.fr/mediatheque/media.aspx?mediaId=50350&channel=3277){:target="_blank"}
     </figure>
-    <p style="text-align: center"><a href="https://lamediatheque.radiologie.fr/mediatheque/media.aspx?mediaId=50350&channel=3277"target="_blank">Cours SFR</p>
 === "PELV"
     ```
     Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
