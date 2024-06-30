@@ -69,7 +69,8 @@
     ```
     <figure markdown="span">
         ![](assets/pros.jpg){width="700"}
-        <figcaption>hypertrophie si > 30 cc</figcaption>
+        </br>
+        hypertrophie si > 30 cc
     </figure>
 === "TESTIS"
     ```
@@ -93,7 +94,8 @@
     ```
     <figure markdown="span">
         ![](assets/testis.jpg){width="700"}
-        <figcaption>12-20 cc</figcaption>
+        </br>
+        12-20 cc
     </figure>
 === "THYR"
     ```
@@ -112,9 +114,9 @@
     ```
     <figure markdown="span">
         [![](assets/TIRADS.jpg){width="700"}](https://cireol.net/wp-content/uploads/2017/05/2017-CIREOL-EUTIRADS.pdf){:target="_blank"}
-        <figcaption>goitre si > 20 cc</figcaption>
-    </figure>
-    <figure markdown="span">
+        </br>
+        goitre si > 20 cc
+        </br></br>
         ![](assets/thyr.jpg){width="300"}
     </figure>
 === "ORL"

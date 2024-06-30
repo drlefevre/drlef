@@ -20,6 +20,10 @@ nav:
     - Prolapsus: femme/prolapsus.md
     - Pelviscanner: femme/pelviscanner.md
     - Malformations: femme/malformations.md
+  - Neuro:
+    - AVC: neuro/AVC.md
+    - Hématome: neuro/hematome.md
+    - Mort encéphalique: neuro/mort.md
   - Uro:
     - Reins: uro/reins.md
     - Prostate: uro/prostate.md
