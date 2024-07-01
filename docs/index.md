@@ -17,7 +17,7 @@
     Pas d'épanchement péritonéal.
     ```
     <figure markdown="span">
-        ![](assets/angiome.jpg){width="450"}
+        ![](assets/angiome.jpg){width="430"}
     </figure>
     <p style="text-align: center"><a href="https://echo.interniste.com/echographie-foie-us-fr-c2-s0"target="_blank">Lésions hépatiques</a></br><b>HTP</b> si TP > 13 mm et vitesse < 10 cm/s</p>
     <figure markdown="span">

@@ -19,7 +19,19 @@ Lame d'épanchement liquidien pelvien.
 Pas d'adénomégalie.
 ```
 
-!!! tip "Description d'une **atteinte rectale**"
-    * multifocale +++
-    * longueur, circonférence et distance à la marge anale
-    * adénomyose externe ? cloison recto-vaginale ? cul-de-sac vaginal post ?
+<figure markdown="span">
+    ![](assets/dPEI.jpg){width="700"}
+    score **dPEI** = 1 pt/compartiment 
+    </br>+ 1 pt pour vagin, base vessie, dilatation uretère, paroi pelvis
+    </br>→ extension faible ≤ 2 / modérée 3-4 / majeure ≥ 5
+</figure>
+
+!!! tip "**LUS** proximal (< 2 cm du torus)"
+    épaississement > 5 mm / nodule / rétraction spiculée / implant hémorragique
+
+!!! tip "Atteinte digestive"
+    - **adhérence** sans atteinte digestive
+    - atteinte pariétale **séreuse**
+    - séreuse **+/-** musculeuse => rectosonographie en cas de décision chirurgicale
+    - **musculeuse** : ép. +/- microkystes (largeur ? hauteur ? distance marge anale ? circonf ?)
+    - **endoluminale** (préciser épaisseur et degré de sténose si coloscanner)
