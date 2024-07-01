@@ -42,6 +42,6 @@ Pas d'anomalie de la région cervicale utérine sur le cliché en évacuation.
 
 <figure markdown="span">
     ![](assets/diaph.jpg){width="350"}
-    <figcaption>diaphragme tubaire physiologique</figcaption>
+    diaphragme tubaire physiologique
 </figure>
 

@@ -156,6 +156,12 @@
     Pas d'épanchement pelvien significatif.
     Pas de dilatation des cavités pyélocalicielles.
     ```
+    !!! tip "**Endomètre** normal"
+        - phase menstruelle J1-4 = hyperéchogène 1-4 mm
+        - proliférative J5-13 = hypoéchogène 5-9 mm
+        - ovulatoire J14 = aspect en cible 10 mm
+        - sécrétoire J15-28 = hyperéchogène 8 - 15 mm
+        - ménopause < 5 mm
     <figure markdown="span">
         ![](assets/figo.jpg){width="700"}
     </figure>
