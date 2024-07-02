@@ -9,9 +9,9 @@
     Perméabilité du tronc porte et des veines sus-hépatiques.
     Pas de dilatation des voies biliaires.
     Vésicule biliaire alithiasique, non distendue et à parois fines.
-    Pancréas d'analyse limitée (interpositions aérodigestives), sans anomalie visible.
     Rate de taille normale.
 
+    Pancréas d'analyse limitée (interpositions aérodigestives), sans anomalie visible.
     Reins de taille et de morphologie normale, sans lésion suspecte ni image lithiasique.
     Vessie en semi-réplétion, au contenu anéchogène, avec des parois fines et régulières.
     Pas d'épanchement péritonéal.
@@ -99,9 +99,9 @@
     </figure>
 === "THYR"
     ```
+    Isthme mesurant
     Lobe droit mesurant
     Lobe gauche mesurant
-    Epaisseur de l'isthme mesurant
 
     Contours réguliers.
     Echostructure homogène hyperéchogène par rapport au plan musculaire.
@@ -113,22 +113,42 @@
     Perméabilité des vaisseaux jugulo-carotidiens.
     ```
     <figure markdown="span">
-        [![](assets/TIRADS.jpg){width="700"}](https://cireol.net/wp-content/uploads/2017/05/2017-CIREOL-EUTIRADS.pdf){:target="_blank"}
+        [![](assets/TIRADS.jpg){width="650"}](https://cireol.net/wp-content/uploads/2017/05/2017-CIREOL-EUTIRADS.pdf){:target="_blank"}
         </br>
-        goitre si > 20 cc
-        </br></br>
-        ![](assets/thyr.jpg){width="300"}
+        <b>4-10 cc/lobe</b>, Doppler < 40 cm/s
     </figure>
+    === "Basedow"
+        - goitre hypoéchogène homogène
+        - hypervascularisation intense > 100 cm/s
+        - récidive : plus hétérogène et moins vascularisé
+        <figure markdown="span">
+            ![](assets/Basedow.jpg){width="500"}
+        </figure>
+    === "Hashimoto"
+        - goitre hypoéchogène multinodulaire
+        - hypervascularisation modérée 60 cm/s
+        - suivi/an, travées fibreuses hyperécho, /!\ lymphome/cancer
+        <figure markdown="span">
+            ![](assets/Hashimoto.jpg){width="500"}
+        </figure>
+    === "De Quervain"
+        - contexte viral, douloureux
+        - plages hypoéchogène mal limitées peu vascularisées
+        - contrôle à M3 si pseudonodulaire
+        <figure markdown="span">
+            ![](assets/Quervain.jpg){width="500"}
+        </figure>
 === "ORL"
     ```
-    Absence d'anomalie des glandes sous-mandibulaires, notamment pas de dilatation canalaire.
-    Absence d'anomalie des glandes parotides, notamment pas de dilatation canalaire.
-
-    Absence de ganglion suspect des chaînes ganglionnaires cervicales.
-    Perméabilité des axes vasculaires jugulaires et carotidiens.
+    Aspect normal des glandes parotides, sans lésion focale dans le lobe superficiel.
+    Pas d'image lithiasique ou de dilatation canalaire dans les glandes submandibulaires.
+    Absence de ganglion cervical suspect.
     ```
     <figure markdown="span">
-        [![](assets/gg.jpg){width="700"}](https://onclepaul.fr/wp-content/uploads/2011/07/Aires-lymphatiques-cervicales-AF-2022.pdf){:target="_blank"}
+        ![](assets/salivaires.jpg){width="700"}
+    </figure>
+    <figure markdown="span">
+        [![](assets/gg.jpg){width="550"}](https://onclepaul.fr/wp-content/uploads/2011/07/Aires-lymphatiques-cervicales-AF-2022.pdf){:target="_blank"}
     </figure>
     <figure markdown="span">
         [![](assets/ORL.jpg){width="700"}](https://www.sfdermato.org/media/pdf/fmc/kystes-et-fistules-43aafeeba119ceb9a20059d95f63e615.pdf){:target="_blank"}
