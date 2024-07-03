@@ -22,6 +22,8 @@
     <p style="text-align: center"><a href="https://echo.interniste.com/echographie-foie-us-fr-c2-s0"target="_blank">Lésions hépatiques</a></br><b>HTP</b> si TP > 13 mm et vitesse < 10 cm/s</p>
     <figure markdown="span">
         ![](assets/VB.jpg){width="700"}
+        </br>
+        ![](assets/childliver.jpg){width="500"}
     </figure>
 === "REINS"
     ```
@@ -69,7 +71,6 @@
     ```
     <figure markdown="span">
         ![](assets/pros.jpg){width="700"}
-        </br>
         hypertrophie si > 30 cc
     </figure>
 === "TESTIS"
