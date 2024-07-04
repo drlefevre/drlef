@@ -10,11 +10,26 @@
     - métrorragies (caillots intracavitaires, différer l'examen)
 
 ```
+HYSTEROSALPINGOGRAPHIE
+
+INDICATION
+Bilan d'infertilité.
+
+TECHNIQUE
+Cliché sans préparation sur le pelvis.
+Opacification de la cavité utérine avec un produit de contraste hydrosoluble.
+Clichés en cours de remplissage, puis après évacuation.
+Dose totale délivrée lors de l'examen :
+
+RESULTATS
 Pas d'opacité calcique sur le cliché sans préparation.
 Aspect morphologique normal de la cavité utérine.
 Opacification bilatérale et synchrone des trompes, d'aspect normal.
 Brassage péritonéal bilatéral du produit de contraste, sans cloisonnement.
 Pas d'anomalie de la région cervicale utérine sur le cliché en évacuation.
+
+CONCLUSION
+Perméabilité des deux trompes avec brassage intrapéritonéal libre du produit de contraste.
 ```
 
 !!! tip "Causes d'infertilité"

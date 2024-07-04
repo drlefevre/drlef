@@ -1,7 +1,7 @@
 # Accueil
 
 <p style="text-align: center"><a href="https://www.imaios.com/fr/login"target="_blank">Imaios</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://radiopaedia.org/"target="_blank">Radiopaedia</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.radrap.ch/comptesrendus"target="_blank">modèles de CR</a>
-</br>rempl cima</p>
+</br>rempl cima / elindo</p>
 
 === "ABDO"
     ```
@@ -206,3 +206,11 @@
             * kyste + nodule mural vascularisé = **cystadénocarcinome**
             * solide si > 80% de la masse = cystadénocarcinome, fibrome, kyste dermoïde
     <p style="text-align: center"><b>SOPK</b> = > 10 cc ou > 20 follicules /ovaire</p>
+    !!! tip "Bilan de réserve ovarienne = CFA à J3 du cycle"
+        ```
+        Nombre et taille des follicules à droite et à gauche :
+        - De moins de 5 mm :           
+        - Entre 5 et 10 mm : 
+        - De plus de 10 mm : 
+        ```
+        Faible si < 5 follicules/ovaire

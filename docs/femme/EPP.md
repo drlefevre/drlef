@@ -30,8 +30,15 @@ Pas d'adénomégalie.
     épaississement > 5 mm / nodule / rétraction spiculée / implant hémorragique
 
 !!! tip "Atteinte digestive"
-    - **adhérence** sans atteinte digestive
+    - **adhérence**
     - atteinte pariétale **séreuse**
     - séreuse **+/-** musculeuse => rectosonographie en cas de décision chirurgicale
     - **musculeuse** : ép. +/- microkystes (largeur ? hauteur ? distance marge anale ? circonf ?)
     - **endoluminale** (préciser épaisseur et degré de sténose si coloscanner)
+
+!!! tip "Atteinte diaphragmatique (T1 FS sag et coro)"
+    - dl thoraciques ou scapulalgies cataméniales, pneumothorax/hémothorax
+    - le + svt à droite en dh et en arrière de la VCI = hypodense et hyperT1/T2
+    <figure markdown="span">
+        ![](assets/diaphEPP.jpg){width="400"}
+    </figure>
