@@ -21,7 +21,7 @@ Pas d'adénomégalie.
 
 <figure markdown="span">
     ![](assets/dPEI.jpg){width="700"}
-    score **dPEI** = 1 pt/compartiment 
+    score **dPEI** (prédit la survenue de complications post-op) = 1 pt/compartiment 
     </br>+ 1 pt pour vagin, base vessie, dilatation uretère, paroi pelvis
     </br>→ extension faible ≤ 2 / modérée 3-4 / majeure ≥ 5
 </figure>
