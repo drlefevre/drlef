@@ -1,23 +1,20 @@
-??? quote "**IRM** [O-RADS](https://radiopaedia.org/articles/ovarian-adnexal-reporting-and-data-system-magnetic-resonance-imaging-o-rads-mri){:target="_blank"}"
-    ```
-    Ovaire droit :
+<figure markdown="span">
+    [![](assets/O-RADS.jpg){width="310"}](https://www.acr.org/-/media/ACR/Files/RADS/O-RADS/French-O-RADS-MR-Risk-Table-2020.pdf){:target="_blank"}
+</figure>
 
+```
+Utérus antéversé antéfléchi mesurant
+Endomètre hyperintense en T2 mesurant
+Intégrité de la zone jonctionnelle et du myomètre.
 
-    Ovaire gauche :
+Ovaires latéro-utérins folliculaires mesurant
 
+Pas d'adénomégalie.
+Pas d'épanchement pelvien significatif.
+Pas de dilatation des cavités pyélo-calicielles.
+```
 
-    Utérus :
-    Antéversé antéfléchi, mesuré à
-    Myomètre homogène sans myome ni anomalie de la zone jonctionnelle
-    Endomètre fin et régulier.
-    Pas d'anomalie du col.
-
-    Par ailleurs :
-    Vessie en semi-réplétion, sans anomalie.
-    Pas de dilatation des cavités pyélocalicielles.
-    Pas de lésion péritonéale.
-    Pas d'anomalie digestive.
-    ```
+</br>
 
 ??? quote "**TAP** carcinose"
     ```
@@ -39,16 +36,11 @@
     6/ ETAGE SUS-DIAPHRAGMATIQUE
     ```
 
-!!! info "**FIGO** (TDM TAP + laparoscopie = 70% découvert stade ≥ III)"
+!!! info "[**FIGO**](http://oncologik.fr/referentiels/dsrc/ovaire#3.Classifications%202018%20FIGO%20et%20TNM%20(8%C3%A8me%20%C3%A9dition)%20des%20tumeurs%20%C3%A9pith%C3%A9liales%20de%20l'ovaire,%20trompes%20et%20p%C3%A9riton%C3%A9ales%20primitives){:target="_blank"} (TDM TAP + laparoscopie = 70% découvert stade ≥ III)"
     * I = tumeur limitée aux ovaires/trompes
     * II = carcinose péritonéale pelvienne
     * III = carcinose péritonéale extra-pelvienne / ADP rétropé
     * IV = méta à distance (pleurale, foie, gg inguinal, nodule ombilical, dig transmurale)
-
-!!! tip "**Carcinose péritonéale** extra-pelvienne"
-    * gouttières paracoliques
-    * sous-phrénique droit
-    * grand omentum
 
 !!! warning "Critères de **non résécabilité** => chimio néoadjuvante"
     * ADP > veines rénales (au-delà du curage)
