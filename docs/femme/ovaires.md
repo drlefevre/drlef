@@ -1,18 +1,72 @@
-``` title="écho"
-Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
+=== "écho"
+    ```
+    Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
 
-Utérus antéversé antéfléchi mesurant
-Endomètre hyperéchogène mesurant
-Pas d'anomalie significative du myomètre.
+    Utérus antéversé antéfléchi mesurant
+    Endomètre hyperéchogène mesurant
+    Pas d'anomalie significative du myomètre.
 
-Ovaires folliculaires en place dans leur fossette.
-Ovaire droit mesurant
-Ovaire gauche mesurant
-Pas de dilatation tubaire.
+    Ovaires folliculaires en place dans leur fossette.
+    Ovaire droit mesurant
+    Ovaire gauche mesurant
+    Pas de dilatation tubaire.
 
-Pas d'épanchement pelvien significatif.
-Pas de dilatation des cavités pyélocalicielles.
-```
+    Pas d'épanchement pelvien significatif.
+    Pas de dilatation des cavités pyélocalicielles.
+    ```
+=== "SOPK"
+    ```
+    Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
+
+    Ovaires en place dans leur fossette.
+    Ovaire droit mesurant
+    Ovaire gauche mesurant
+
+    Pas de dilatation tubaire.
+    Utérus antéversé antéfléchi mesurant
+    Endomètre hyperéchogène mesurant
+    Pas d'anomalie significative du myomètre.
+    Pas d'épanchement pelvien significatif.
+    Pas de dilatation des cavités pyélocalicielles.
+    ```
+    <p style="text-align: center">> 10 cc ou > 20 follicules /ovaire</p>
+=== "CFA"
+    ```
+    Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
+
+    Ovaires en place dans leur fossette mesurant :
+        - à droite 
+        - à gauche
+
+    Nombre et taille des follicules à droite et à gauche :
+        - De moins de 5 mm :           
+        - Entre 5 et 10 mm : 
+        - De plus de 10 mm : 
+
+    Doppler des artères utérines avec IR et IP :
+        - à droite 
+        - à gauche
+
+    Pas de dilatation tubaire.
+    Utérus antéversé antéfléchi mesurant
+    Endomètre hyperéchogène mesurant
+    Pas d'anomalie significative du myomètre.
+    Pas d'épanchement pelvien significatif.
+    Pas de dilatation des cavités pyélocalicielles.
+    ```
+    <p style="text-align: center">écho à <b>J3</b> du cycle, réserve ovarienne faible si < 5 follicules/ovaire</p>
+=== "IRM"
+    ```
+    Ovaires latéro-utérins folliculaires mesurant
+    
+    Utérus antéversé antéfléchi mesurant
+    Endomètre hyperintense en T2 mesurant
+    Intégrité de la zone jonctionnelle et du myomètre.
+
+    Pas d'adénomégalie.
+    Pas d'épanchement pelvien significatif.
+    Pas de dilatation des cavités pyélo-calicielles.
+    ```
 
 !!! tip "Kystes ovariens [O-RADS US](https://www.acr.org/-/media/ACR/Files/RADS/O-RADS/US-v2022/O-RADS--US-v2022-Assessment-Categories.pdf){:target="_blank"}"
     === "uniloculaire"
@@ -34,28 +88,6 @@ Pas de dilatation des cavités pyélocalicielles.
         * kyste + nodule mural vascularisé = **cystadénocarcinome**
         * solide si > 80% de la masse = cystadénocarcinome, fibrome, kyste dermoïde
 
-<p style="text-align: center"><b>SOPK</b> = > 10 cc ou > 20 follicules /ovaire</p>
-
-!!! tip "Bilan de réserve ovarienne = **CFA** à J3 du cycle"
-    ```
-    Nombre et taille des follicules à droite et à gauche :
-    - De moins de 5 mm :           
-    - Entre 5 et 10 mm : 
-    - De plus de 10 mm : 
-    ```
-    Faible si < 5 follicules/ovaire
-
-``` title="IRM"
-Utérus antéversé antéfléchi mesurant
-Endomètre hyperintense en T2 mesurant
-Intégrité de la zone jonctionnelle et du myomètre.
-
-Ovaires latéro-utérins folliculaires mesurant
-
-Pas d'adénomégalie.
-Pas d'épanchement pelvien significatif.
-Pas de dilatation des cavités pyélo-calicielles.
-```
 
 <figure markdown="span">
     [![](assets/O-RADS.jpg){width="310"}](https://www.acr.org/-/media/ACR/Files/RADS/O-RADS/French-O-RADS-MR-Risk-Table-2020.pdf){:target="_blank"}

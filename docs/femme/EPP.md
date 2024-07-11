@@ -1,21 +1,20 @@
 # Endométriose  
 
 ```
-Utérus antéversé antéfléchi mesuré à 
-Endomètre fin, hyperintense en T2, mesuré à
+Utérus antéversé antéfléchi mesurant 
+Endomètre hyperintense en T2 mesurant 
 Intégrité de la zone jonctionnelle et du myomètre.
 
-Ovaires latéro-utérins, folliculaires, mesurés à
+Ovaires latéro-utérins, folliculaires, mesurant 
 Pas d'endométriome ou d'implant hémorragique.
 Pas de dilatation tubaire.
 
 Pas de nodule d'endométriose du torus ou des ligaments utéro-sacrés.
-Pas d'implant hémorragique péritonéal.
-Déplissement satisfaisant du culs-de-sac vaginal postérieur.
 Intégrité de la cloison recto-vaginale et de l'espace vésico-utérin.
+Pas d'implant hémorragique péritonéal.
 
 Pas de dilatation des cavités pyélo-calicielles.
-Lame d'épanchement liquidien pelvien.
+Pas d'épanchement pelvien significatif.
 Pas d'adénomégalie.
 ```
 
@@ -36,8 +35,8 @@ Pas d'adénomégalie.
     - **musculeuse** : ép. +/- microkystes (largeur ? hauteur ? distance marge anale ? circonf ?)
     - **endoluminale** (préciser épaisseur et degré de sténose si coloscanner)
 
-!!! tip "Atteinte diaphragmatique (T1 FS sag et coro)"
-    - dl thoraciques ou scapulalgies cataméniales, pneumothorax/hémothorax
+!!! tip "Atteinte [diaphragmatique](https://services.medicalcongress.online/congress/Medias/2012/JFR2012-Posters/c1e19078-c57c-4f2d-bc40-5534e9a9e884/pdf/poster.pdf){:target="_blank"} (T1 FS sag et coro)"
+    - dl thoraciques ou scapulalgies cataméniales, **pneumothorax**/hémothorax
     - le + svt à droite en dh et en arrière de la VCI = hypodense et hyperT1/T2
     <figure markdown="span">
         ![](assets/diaphEPP.jpg){width="400"}

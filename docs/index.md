@@ -47,57 +47,6 @@
     <figure markdown="span">
         ![](assets/reins.jpg){width="700"}
     </figure>
-=== "PROS"
-    ```
-    Reins :
-    Grand axe mesurant
-    Bonne différenciation parenchymo-sinusale.
-    Pas de dilatation des cavités pyélo-calicielles.
-    Pas de lésion suspecte ni d'image lithiasique.
-
-    Vessie pré-mictionnelle :
-    Bonne réplétion, contenu anéchogène.
-    Pas d'anomalie de paroi décelable.
-    Pas d'épanchement péritonéal.
-
-    Prostate par voie sus-pubienne :
-    Dimensions mesurant
-    Lobé médian avec protrusion vésicale
-    Echostructure homogène avec contours réguliers.
-    Vésicules séminales sans particularité.
-
-    Vessie post-mictionnelle :
-    Résidu de 
-    ```
-    <figure markdown="span">
-        ![](assets/pros.jpg){width="700"}
-        hypertrophie si > 30 cc
-    </figure>
-=== "TESTIS"
-    ```
-    Testicule droit :
-    Dimensions mesurant
-    Echostructure homogène, sans lésion focale suspecte.
-    Epididyme sans particularité.
-    Canal déférent suivi jusqu'à l'anneau inguinal.
-    Lame d'hydrocèle.
-
-    Testicule gauche :
-    Dimensions mesurant
-    Echostructure homogène, sans lésion focale suspecte.
-    Epididyme sans particularité.
-    Canal déférent suivi jusqu'à l'anneau inguinal.
-    Lame d'hydrocèle.
-
-    Etude Doppler :
-    Vascularisation testiculaire symétrique sans particularité.
-    Pas de varicocèle décelable, notamment à gauche en position debout et en manœuvre de Valsalva.
-    ```
-    <figure markdown="span">
-        ![](assets/testis.jpg){width="700"}
-        </br>
-        12-20 cc
-    </figure>
 === "THYR"
     ```
     Isthme mesurant
@@ -160,4 +109,55 @@
     ```
     <figure markdown="span">
         [![](assets/ing.jpg){width="550"}](https://lamediatheque.radiologie.fr/mediatheque/media.aspx?mediaId=50350&channel=3277){:target="_blank"}
+    </figure>
+=== "TESTIS"
+    ```
+    Testicule droit :
+    Dimensions mesurant
+    Echostructure homogène, sans lésion focale suspecte.
+    Epididyme sans particularité.
+    Canal déférent suivi jusqu'à l'anneau inguinal.
+    Lame d'hydrocèle.
+
+    Testicule gauche :
+    Dimensions mesurant
+    Echostructure homogène, sans lésion focale suspecte.
+    Epididyme sans particularité.
+    Canal déférent suivi jusqu'à l'anneau inguinal.
+    Lame d'hydrocèle.
+
+    Etude Doppler :
+    Vascularisation testiculaire symétrique sans particularité.
+    Pas de varicocèle décelable, notamment à gauche en position debout et en manœuvre de Valsalva.
+    ```
+    <figure markdown="span">
+        ![](assets/testis.jpg){width="700"}
+        </br>
+        12-20 cc
+    </figure>
+=== "PROS"
+    ```
+    Reins :
+    Grand axe mesurant
+    Bonne différenciation parenchymo-sinusale.
+    Pas de dilatation des cavités pyélo-calicielles.
+    Pas de lésion suspecte ni d'image lithiasique.
+
+    Vessie pré-mictionnelle :
+    Bonne réplétion, contenu anéchogène.
+    Pas d'anomalie de paroi décelable.
+    Pas d'épanchement péritonéal.
+
+    Prostate par voie sus-pubienne :
+    Dimensions mesurant
+    Lobé médian avec protrusion vésicale
+    Echostructure homogène avec contours réguliers.
+    Vésicules séminales sans particularité.
+
+    Vessie post-mictionnelle :
+    Résidu de 
+    ```
+    <figure markdown="span">
+        ![](assets/pros.jpg){width="700"}
+        hypertrophie si > 30 cc
     </figure>

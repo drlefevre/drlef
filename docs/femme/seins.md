@@ -1,3 +1,5 @@
+# [Seins](https://www.acr.org/-/media/ACR/Files/RADS/BI-RADS/BIRADS-Poster.pdf){:target="_blank"}
+
 ```
 MAMMOGRAPHIE BILATÉRALE
 Densité mammaire de type
@@ -14,7 +16,7 @@ CONCLUSION
 Examen classé BI-RADS 2 bilatéral (pas d'anomalie suspecte).
 ```
 
-<p style="text-align: center"><a href="https://www.acr.org/-/media/ACR/Files/RADS/BI-RADS/BIRADS-Poster.pdf"target="_blank">Atlas BI-RADS</a></br>BI-RADS 3 = surveillance 4-6 mois / 4-5 = biopsie</p>
+<p style="text-align: center">BI-RADS 3 = surveillance 4-6 mois / 4-5 = biopsie</p>
 
 === "Masse"
     <figure markdown="span">
@@ -28,12 +30,12 @@ Examen classé BI-RADS 2 bilatéral (pas d'anomalie suspecte).
 === "Distorsion"
     <figure markdown="span">
         ![](assets/distor.jpg){width="400"}
-        </br>BI-RADS 4C ou 5
+        </br>BI-RADS <b>4C</b> (centre clair) ou <b>5</b> (centre dense)
     </figure>
 === "Calcifications"
     <figure markdown="span">
         [![](assets/calcif.jpg){width="500"}](https://radiologyassistant.nl/breast/bi-rads/bi-rads-for-mammography-and-ultrasound-2013#mammography-breast-imaging-lexicon-calcifications){:target="_blank"}
-        </br>Foyer microcalcifications ssi > 5 sur 1 cm
+        </br>Foyer microcalcifications ssi <b> > 5 sur 1 cm </b>
     </figure>
 === "Signes associés"
     - gg intra-mammaire ssi hile graisseux + vaisseaux adjacents + quadrant supéro-ext
@@ -45,3 +47,12 @@ Examen classé BI-RADS 2 bilatéral (pas d'anomalie suspecte).
     - désorganisation architecturale (plutôt que « distorsion »)
     - sérome/lymphocèle, cystostéatonécrose, kyste huileux
     - prothèse = type et localisation, rupture intra/extracapsulaire, siliconome
+
+``` title="IRM"
+Glande de densité de type
+Pas d'anomalie des téguments et du tissu sous-cutané.
+Répartition symétrique hétérogène du tissu fibro-glandulaire.
+Rehaussement matriciel bilatéral et symétrique
+Absence de rehaussement suspect masse ou non masse.
+Pas d'adénomégalie axillaire ou mammaire interne.
+```
