@@ -2,7 +2,7 @@
 
 !!! tip "Malformations utérines : [classification ESHRE/ESGE](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3712660/pdf/det098.pdf){:target="_blank"}"
     === "U2 cloisonné +++"
-        - a : partiel
+        - a : partiel (≠ utérus à fond arqué = 4% pop°)
         - b : complet
         - **25% d'EPP** associée
         <figure markdown="span">
@@ -40,14 +40,9 @@
         - V0 : normal
         - V1 : cloisonnement longitudinal non obstructif
         - V2 : cloisonnement longitudinal obstructif (hémivagin borgne)
-            - **agénésie rénale** très fréquente du côté de la rétention
+            - **agénésie rénale** systématique du côté de l'hématocolpos
         - V3 : cloisonnement transversal / hymen imperforé
         - V4 : aplasie
-        
-<figure markdown="span">
-    ![](assets/arque.jpg){width="300"}
-    Utérus à **fond arqué** = 4% pop° = variante de la normale
-</figure>
 
 <figure markdown="span">
     ![](assets/kystes.jpg){width="500"}

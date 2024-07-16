@@ -5,7 +5,7 @@
     - hémodynamiquement stable
     - PAM > 65 mmHg et diurèse > 100 ml/h
 
-``` title="sans, 20s, 60s après injection de 2 ml/kg (max 120) à 3 cc/s"
+``` title="IV-, 20s, 60s après injection de 2 ml/kg (max 120) à 3 cc/s"
 Opacification satisfaisante des artères temporales superficielles.
 
 Absence de rehaussement de la vascularisation intracrânienne :

@@ -22,6 +22,7 @@ nav:
     - Pelviscanner: femme/pelviscanner.md
     - Malformations: femme/malformations.md
   - Neuro:
+    - TC: neuro/trauma.md
     - AVC: neuro/AVC.md
     - Hématome: neuro/hematome.md
     - Mort encéphalique: neuro/mort.md

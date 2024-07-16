@@ -1,3 +1,32 @@
+=== "écho"
+    ```
+    Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
+
+    Utérus antéversé antéfléchi mesurant
+    Endomètre hyperéchogène mesurant
+    Pas d'anomalie significative du myomètre.
+
+    Ovaires folliculaires en place dans leur fossette.
+    Ovaire droit mesurant
+    Ovaire gauche mesurant
+    Pas de dilatation tubaire.
+
+    Pas d'épanchement pelvien significatif.
+    Pas de dilatation des cavités pyélocalicielles.
+    ```
+=== "IRM"
+    ```
+    Ovaires latéro-utérins folliculaires mesurant
+    
+    Utérus antéversé antéfléchi mesurant
+    Endomètre hyperintense en T2 mesurant
+    Intégrité de la zone jonctionnelle et du myomètre.
+
+    Pas d'adénomégalie.
+    Pas d'épanchement pelvien significatif.
+    Pas de dilatation des cavités pyélo-calicielles.
+    ```
+
 !!! tip "**Endomètre** normal (ménopause < 5 mm)"
     - phase menstruelle J1-4 = hyperéchogène 1-4 mm
     - proliférative J5-13 = hypoéchogène 5-9 mm

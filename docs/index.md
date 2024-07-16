@@ -5,7 +5,7 @@
 
 === "ABDO"
     ```
-    Foie de taille et de morphologie normale, sans lésion focale.
+    Foie de taille et de morphologie normales, sans lésion focale.
     Perméabilité du tronc porte et des veines sus-hépatiques.
     Pas de dilatation des voies biliaires.
     Vésicule biliaire alithiasique, non distendue et à parois fines.
