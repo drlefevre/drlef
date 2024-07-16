@@ -105,10 +105,15 @@
     </figure>
 === "ING"
     ```
-    Absence de hernie inguinale mise en évidence à l'exploration de la paroi abdominale en décubitus dorsal, en position debout et lors des manœuvres de Valsalva.
+    Examen en position debout lors de manœuvres de Valsalva répétées.
+    
+    Absence de hernie inguinale mise en évidence à l'exploration de la paroi abdominale.
     ```
     <figure markdown="span">
         [![](assets/ing.jpg){width="550"}](https://lamediatheque.radiologie.fr/mediatheque/media.aspx?mediaId=50350&channel=3277){:target="_blank"}
+    </figure>
+    <figure markdown="span">
+        [![](assets/epigastrique.jpg){width="400"}](https://www.imaios.com/fr/e-anatomy/abdomen-et-pelvis/tdm-axiale-de-l-abdomen-et-du-pelvis-masculin){:target="_blank"}
     </figure>
 === "TESTIS"
     ```
@@ -117,18 +122,15 @@
     Echostructure homogène, sans lésion focale suspecte.
     Epididyme sans particularité.
     Canal déférent suivi jusqu'à l'anneau inguinal.
-    Lame d'hydrocèle.
 
     Testicule gauche :
     Dimensions mesurant
     Echostructure homogène, sans lésion focale suspecte.
     Epididyme sans particularité.
     Canal déférent suivi jusqu'à l'anneau inguinal.
-    Lame d'hydrocèle.
 
     Etude Doppler :
-    Vascularisation testiculaire symétrique sans particularité.
-    Pas de varicocèle décelable, notamment à gauche en position debout et en manœuvre de Valsalva.
+    Vascularisation symétrique sans particularité.
     ```
     <figure markdown="span">
         ![](assets/testis.jpg){width="700"}
@@ -161,3 +163,33 @@
         ![](assets/pros.jpg){width="700"}
         hypertrophie si > 30 cc
     </figure>
+=== "PAROI"
+    !!! tip "[kyste épidermoïde](https://www.youtube.com/watch?app=desktop&v=HP9j2y5PQoE){:target="_blank"} = 90% des kystes sous-cutanés"
+        - croissance lente, 70% dur > 30% mou, parallèle à la peau
+        - finement hétérogène, paroi épaisse hypo, renforcement post
+        - **pas de vascularisation**, amincissement dermique > 50%
+        - 10% rupture/infection = contours lobulés, hypervasc périph
+        - DD = méta mélanome, sarcome superficiel (rare ++)
+        <figure markdown="span">
+            ![](assets/epidermoide.jpg){width="300"}
+        </figure>
+        ```
+        Formation ovalaire sous-cutanée finement hétérogène, aux contours lisses et réguliers, à paroi épaisse hypoéchogène, avec renforcement postérieur, sans vascularisation : aspect évocateur de kyste épidermoïde.
+        ```
+
+    !!! tip "[lipome](https://onclepaul.fr/wp-content/uploads/2011/07/Boules-masses-nodules.pdf){:target="_blank"}"
+        - masse superficielle compressible et indolore
+        - bien limitée, < 5 cm, pas de flux doppler, septas fibreux < 2 mm
+        <figure markdown="span">
+            ![](assets/lipome.jpg){width="300"}
+        </figure>
+        ```
+        Formation ovalaire superficielle, sus-aponévrotique, compressible et indolore, sans flux Doppler : aspect évocateur de lipome.
+        ```
+
+    !!! tip "[tumeur desmoïde](https://radiopaedia.org/articles/desmoid-tumour){:target="_blank"}"
+        - paroi abdominale, croissance lente, dans le plan musculaire
+        - masse hypoéchogène bien circonscrite
+        <figure markdown="span">
+            ![](assets/desmoide.jpg){width="220"}
+        </figure>
