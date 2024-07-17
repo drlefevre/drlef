@@ -72,7 +72,7 @@
     === "uniloculaire"
         - contrôle **M3 si > 5 cm** (fonctionnel++), kyste ovarien/paraovarien = **IRM si > 8 cm**
         - cystadénome séreux bénin = contrôle à 1 an si post-ménopause
-        - pseudokyste péritonéal = grand ± multiloculaire, atcd chir/inf
+        - pseudokyste péritonéal = grd ± multiloc, atcd chir/inf, dystrophie macroantrale
     === "liquidien impur"
         - **endométriome** = isoéchogène = IRM (hyperT1 > graisse, shading T2)
         - kyste lutéal hémorragique = couronne hypervascularisée
