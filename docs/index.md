@@ -164,7 +164,7 @@
         hypertrophie si > 30 cc
     </figure>
 === "PAROI"
-    !!! tip "[kyste épidermoïde](https://www.youtube.com/watch?app=desktop&v=HP9j2y5PQoE){:target="_blank"} = 90% des kystes sous-cutanés"
+    !!! tip "[kyste épidermique](https://www.youtube.com/watch?app=desktop&v=HP9j2y5PQoE){:target="_blank"} / épidermoïde / sébacé = 90% des kystes ss-cut"
         - croissance lente, 70% dur > 30% mou, parallèle à la peau
         - finement hétérogène, paroi épaisse hypo, renforcement post
         - **pas de vascularisation**, amincissement dermique > 50%
