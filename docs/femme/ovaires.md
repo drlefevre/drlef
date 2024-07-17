@@ -70,23 +70,24 @@
 
 !!! tip "Kystes ovariens [O-RADS US](https://www.acr.org/-/media/ACR/Files/RADS/O-RADS/US-v2022/O-RADS--US-v2022-Assessment-Categories.pdf){:target="_blank"}"
     === "uniloculaire"
-        * **kyste fonctionnel** = pdt act. génitale :material-arrow-right: contrôle M3 si > 5 cm, IRM si > 10 cm
-        * cystadénome séreux bénin = contrôle à 1 an si post-ménopause
-        * kyste paratubaire / pseudokyste péritonéal
+        - contrôle **M3 si > 5 cm** (fonctionnel++), kyste ovarien/paraovarien = **IRM si > 8 cm**
+        - cystadénome séreux bénin = contrôle à 1 an si post-ménopause
+        - pseudokyste péritonéal = grand ± multiloculaire, atcd chir/inf
     === "liquidien impur"
-        * **endométriome** :material-arrow-right: IRM bilan EPP
-        * kyste lutéal hémorragique = couronne hypervascularisée
-        * kyste dermoïde à contenu sébacé pur = rare +++  
+        - **endométriome** = isoéchogène = IRM (hyperT1 > graisse, shading T2)
+        - kyste lutéal hémorragique = couronne hypervascularisée
+        - kyste dermoïde à contenu sébacé pur = rare +++  
     === "multiloculaire"
-        * **cystadénome mucineux** bénin >> séreux  
-        :material-arrow-right: IRM pour confirmer l'absence de portion tissulaire
+        - **cystadénome mucineux** bénin / borderline si végétations = IRM
+        - grossesse = hyperreactio luteinalis (sd d'hyperstimulation ovarienne)
+        - goitre ovarien (hypoT2 franc), abcès tubo-ovarien, tumeur de la granulosa
     === "végétation (> 3 mm)"
-        * uniloculaire qq végétations < 1 cm = **cystadénome séreux papillaire** bénin
-        * uniloculaire végétations nbreuses / > 1 cm = cystadénome séreux borderline
-        * multiloculaire avec végétations = cystadénome mucineux borderline
+        - uniloculaire qq végétations < 1 cm = **cystadénome séreux papillaire** bénin
+        - uniloculaire végétations nbreuses / > 1 cm = cystadénome séreux borderline
+        - grossesse = endométriome décidualisé
     === "mixte/solide"
-        * kyste + nodule mural vascularisé = **cystadénocarcinome**
-        * solide si > 80% de la masse = cystadénocarcinome, fibrome, kyste dermoïde
+        - kyste + nodule mural vascularisé = **cystadénocarcinome**
+        - solide si > 80% de la masse = cystadénocarcinome, fibrome, kyste dermoïde
 
 
 <figure markdown="span">

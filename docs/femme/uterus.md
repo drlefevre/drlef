@@ -44,4 +44,38 @@
     ![](assets/myomes.jpg){width="670"}
 </figure>
 
-<p style="text-align: center"><b>FIGO</b> cancers <a href="http://oncologik.fr/referentiels/interregion/uterus-col#5.Classification%20FIGO%20(2018)"target="_blank">col</a> et <a href="http://oncologik.fr/referentiels/dsrc/uterus-corps-endometre#12.Classification%20FIGO%202023">corps</a></p>
+!!! tip "Cancer de l'**endomètre** [FIGO](http://oncologik.fr/referentiels/dsrc/uterus-corps-endometre#12.Classification%20FIGO%202023){:target="_blank"}"
+    - métrorragies post-ménopausiques, hyperœstrogénie, Lynch
+    - DD = hypertrophie glandulokystique sous tamoxifène, polype
+    ```
+    Utérus antéversé antéfléchi mesurant
+    Masse endométriale mesurant 
+    Envahissement de plus/moins de 50% du myomètre.
+
+    Respect de la séreuse.
+    Pas d'anomalie annexielle.
+    Pas d'atteinte du stroma cervical.
+    Pas d'extension vaginale, paramétriale, vésicale ou digestive.
+
+    Pas d'adénopathie pelvienne ou lomboaortique.
+    Pas d'épanchement pelvien significatif.
+    Pas de dilatation des cavités pyélocalicielles.
+    ```
+
+!!! tip "Cancer du **col** [FIGO](http://oncologik.fr/referentiels/interregion/uterus-col#5.Classification%20FIGO%20(2018)){:target="_blank"}"
+    - HPV 16-18 (vaccin pour les filles de 11 à 14 ans), immunodépression
+    - dépistage 25-65 ans par frottis tous les 3-5 ans
+    ```
+    Utérus antéversé antéfléchi mesurant
+    Endomètre hyperéchogène mesurant
+    Ovaires latéro-utérins folliculaires mesurant
+    Pas de dilatation tubaire.
+
+    Masse centrée sur le col utérin mesurant
+    Pas d'extension aux paramètres, au vagin, ni à l'isthme utérin.
+    Pas d'atteinte du rectum ni de la vessie.
+
+    Pas d'adénopathie pelvienne ou lomboaortique.
+    Pas d'épanchement pelvien significatif.
+    Pas de dilatation des cavités pyélocalicielles.
+    ```
