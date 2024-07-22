@@ -29,7 +29,7 @@
     Pas d'épanchement pelvien significatif.
     Pas de dilatation des cavités pyélocalicielles.
     ```
-    <p style="text-align: center">> 10 cc ou > 20 follicules /ovaire</p>
+    <p style="text-align: center">ovaire polykystique si <b>> 5,5 cm² + > 25 follicules</b></p>
 === "CFA"
     ```
     Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
@@ -68,8 +68,8 @@
     Pas de dilatation des cavités pyélo-calicielles.
     ```
 
-!!! tip "Kystes ovariens [O-RADS US](https://www.acr.org/-/media/ACR/Files/RADS/O-RADS/US-v2022/O-RADS--US-v2022-Assessment-Categories.pdf){:target="_blank"}"
-    === "uniloculaire"
+!!! tip "Lésions ovariennes : O-RADS [écho](https://www.acr.org/-/media/ACR/Files/RADS/O-RADS/US-v2022/O-RADS--US-v2022-Assessment-Categories.pdf){:target="_blank"} et [IRM](https://www.acr.org/-/media/ACR/Files/RADS/O-RADS/French-O-RADS-MR-Risk-Table-2020.pdf){:target="_blank"}"
+    === "kyste uniloculaire"
         - contrôle **M3 si > 5 cm** (fonctionnel++), kyste ovarien/paraovarien = **IRM si > 8 cm**
         - cystadénome séreux bénin = contrôle à 1 an si post-ménopause
         - pseudokyste péritonéal = grd ± multiloc, atcd chir/inf, dystrophie macroantrale
@@ -87,12 +87,13 @@
         - grossesse = endométriome décidualisé
     === "mixte/solide"
         - kyste + nodule mural vascularisé = **cystadénocarcinome**
-        - solide si > 80% de la masse = cystadénocarcinome, fibrome, kyste dermoïde
-
+        - solide si > 80% de la masse = cystadénocarcinome, fibrome, [kyste dermoïde](https://www.radeos.org/maladie/fiche-kyste-dermoide-de-lovaire-teratome-kystique-mature_841.html){:target="_blank"}
+        - métas = sd de Krukenberg = estomac/CCR et sein
 
 <figure markdown="span">
-    [![](assets/O-RADS.jpg){width="310"}](https://www.acr.org/-/media/ACR/Files/RADS/O-RADS/French-O-RADS-MR-Risk-Table-2020.pdf){:target="_blank"}
-    [algorithme détaillé](https://www.acr.org/-/media/ACR/Files/RADS/O-RADS/MRI-Assessment-Categories-Algorithm-Feb-2024.pdf){:target="_blank"}
+    végétation = tumeur épithéliale / graisse = tumeur germinale (tératome)
+    </br></br>
+    [![](assets/O-RADS.jpg){width="340"}](https://www.acr.org/-/media/ACR/Files/RADS/O-RADS/MRI-Assessment-Categories-Algorithm-Feb-2024.pdf){:target="_blank"}
 </figure>
 
 </br>
