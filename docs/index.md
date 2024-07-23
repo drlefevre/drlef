@@ -136,6 +136,10 @@
         ![](assets/testis.jpg){width="700"}
         </br>
         12-20 cc
+        </br>
+        <a href="https://radiopaedia.org/articles/adenomatoid-tumours-of-the-scrotum"target="_blank">Tumeur adénomatoïde</a>
+        </br>
+        <a href="https://radiopaedia.org/articles/spermatocele-1"target="_blank">Spermatocèle</a>
     </figure>
 === "PROS"
     ```
@@ -176,7 +180,6 @@
         ```
         Formation ovalaire sous-cutanée finement hétérogène, aux contours lisses et réguliers, à paroi épaisse hypoéchogène, avec renforcement postérieur, sans vascularisation : aspect évocateur de kyste épidermoïde.
         ```
-
     !!! tip "[lipome](https://onclepaul.fr/wp-content/uploads/2011/07/Boules-masses-nodules.pdf){:target="_blank"}"
         - masse superficielle compressible et indolore
         - bien limitée, < 5 cm, pas de flux doppler, septas fibreux < 2 mm
@@ -186,10 +189,21 @@
         ```
         Formation ovalaire superficielle, sus-aponévrotique, compressible et indolore, sans flux Doppler : aspect évocateur de lipome.
         ```
-
     !!! tip "[tumeur desmoïde](https://radiopaedia.org/articles/desmoid-tumour){:target="_blank"}"
         - paroi abdominale, croissance lente, dans le plan musculaire
         - masse hypoéchogène bien circonscrite
         <figure markdown="span">
             ![](assets/desmoide.jpg){width="220"}
         </figure>
+=== "GG"
+    | Siège      | [Territoires de drainage](https://www.chem-sante.fr/elearning/parcours_41/biblio_0/mg_2015_941_384.pdf){:target="_blank"}  |
+    | :----------: | :-----------------------------------: |
+    | `pré-auriculaire` | partie supérieure du visage |
+    | `rétro-auriculaire` | cuir chevelu, oreille |
+    | `jugulo-carotidien` | thyroïde, oropharynx, anneau de Waldeyer |
+    | `sus-claviculaire D` | médiastin, poumons, œsophage |
+    | `Troisier (G)` | poumons, abdo-pelv, testicules |
+    | `axillaire` | membre sup, sein, paroi thoracique |
+    | `inguinal` | membre inf, OGE, paroi abdo inf |
+
+    <p style="text-align: center">adénomégalie persistante <b>> S3 = biopsie</b></p>

@@ -8,6 +8,18 @@
     font-weight: 600;
   }
 
+.md-typeset table:not([class]) {
+  font-size: 0.8rem;
+}
+/* extra-styles.css */
+.md-typeset .md-typeset__table {
+  display: block;
+}
+.md-typeset__table table:not([class]) {
+  display: table;
+}
+
+
 /* Admonition police size and title weight */
 .md-typeset .admonition,
 .md-typeset .admonition-title,
