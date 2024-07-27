@@ -6,14 +6,13 @@
 === "ABDO"
     ```
     Foie de taille et de morphologie normales, sans lésion focale.
-    Perméabilité du tronc porte et des veines sus-hépatiques.
+    Tronc porte avec flux hépatopète et veines sus-hépatiques hépatofuges.
     Pas de dilatation des voies biliaires.
     Vésicule biliaire alithiasique, non distendue et à parois fines.
     Rate de taille normale.
-
     Pancréas d'analyse limitée (interpositions aérodigestives), sans anomalie visible.
-    Reins de taille et de morphologie normale, sans lésion suspecte ni image lithiasique.
-    Vessie en semi-réplétion, au contenu anéchogène, avec des parois fines et régulières.
+    Reins de taille et de morphologie normales, sans lésion suspecte ni image lithiasique.
+    Vessie en semi-réplétion, au contenu anéchogène, sans anomalie de paroi.
     Pas d'épanchement péritonéal.
     ```
     <figure markdown="span">
@@ -25,6 +24,7 @@
         </br>
         ![](assets/childliver.jpg){width="500"}
     </figure>
+
 === "REINS"
     ```
     Rein droit :
@@ -40,13 +40,14 @@
     Pas de lésion suspecte ni d'image lithiasique.
 
     Vessie :
-    En bonne réplétion, avec contenu anéchogène.
+    En réplétion, avec contenu anéchogène.
     Pas d'anomalie de paroi décelable.
     Pas d'épanchement péritonéal.
     ```
     <figure markdown="span">
         ![](assets/reins.jpg){width="700"}
     </figure>
+
 === "THYR"
     ```
     Isthme mesurant
@@ -66,6 +67,8 @@
         [![](assets/TIRADS.jpg){width="650"}](https://cireol.net/wp-content/uploads/2017/05/2017-CIREOL-EUTIRADS.pdf){:target="_blank"}
         </br>
         <b>4-10 cc/lobe</b>, Doppler < 40 cm/s
+        </br>
+        20% [lobe pyramidal](https://radiopaedia.org/articles/pyramidal-lobe-of-thyroid){:target="_blank"} = reliquat du tractus thyréoglosse
     </figure>
     === "Basedow"
         - goitre hypoéchogène homogène
@@ -88,6 +91,7 @@
         <figure markdown="span">
             ![](assets/Quervain.jpg){width="500"}
         </figure>
+
 === "ORL"
     ```
     Aspect normal des glandes parotides, sans lésion focale dans le lobe superficiel.
@@ -103,71 +107,20 @@
     <figure markdown="span">
         [![](assets/ORL.jpg){width="700"}](https://www.sfdermato.org/media/pdf/fmc/kystes-et-fistules-43aafeeba119ceb9a20059d95f63e615.pdf){:target="_blank"}
     </figure>
-=== "ING"
-    ```
-    Examen en position debout lors de manœuvres de Valsalva répétées.
-    
-    Absence de hernie inguinale mise en évidence à l'exploration de la paroi abdominale.
-    ```
-    <figure markdown="span">
-        [![](assets/ing.jpg){width="550"}](https://lamediatheque.radiologie.fr/mediatheque/media.aspx?mediaId=50350&channel=3277){:target="_blank"}
-    </figure>
-    <figure markdown="span">
-        [![](assets/epigastrique.jpg){width="400"}](https://www.imaios.com/fr/e-anatomy/abdomen-et-pelvis/tdm-axiale-de-l-abdomen-et-du-pelvis-masculin){:target="_blank"}
-    </figure>
-=== "TESTIS"
-    ```
-    Testicule droit :
-    Dimensions mesurant
-    Echostructure homogène, sans lésion focale suspecte.
-    Epididyme sans particularité.
-    Canal déférent suivi jusqu'à l'anneau inguinal.
 
-    Testicule gauche :
-    Dimensions mesurant
-    Echostructure homogène, sans lésion focale suspecte.
-    Epididyme sans particularité.
-    Canal déférent suivi jusqu'à l'anneau inguinal.
-
-    Etude Doppler :
-    Vascularisation symétrique sans particularité.
-    ```
-    <figure markdown="span">
-        ![](assets/testis.jpg){width="700"}
-        </br>
-        12-20 cc
-        </br>
-        <a href="https://radiopaedia.org/articles/adenomatoid-tumours-of-the-scrotum"target="_blank">Tumeur adénomatoïde</a>
-        </br>
-        <a href="https://radiopaedia.org/articles/spermatocele-1"target="_blank">Spermatocèle</a>
-    </figure>
-=== "PROS"
-    ```
-    Reins :
-    Grand axe mesurant
-    Bonne différenciation parenchymo-sinusale.
-    Pas de dilatation des cavités pyélo-calicielles.
-    Pas de lésion suspecte ni d'image lithiasique.
-
-    Vessie pré-mictionnelle :
-    Bonne réplétion, contenu anéchogène.
-    Pas d'anomalie de paroi décelable.
-    Pas d'épanchement péritonéal.
-
-    Prostate par voie sus-pubienne :
-    Dimensions mesurant
-    Lobé médian avec protrusion vésicale
-    Echostructure homogène avec contours réguliers.
-    Vésicules séminales sans particularité.
-
-    Vessie post-mictionnelle :
-    Résidu de 
-    ```
-    <figure markdown="span">
-        ![](assets/pros.jpg){width="700"}
-        hypertrophie si > 30 cc
-    </figure>
 === "PAROI"
+    | Ganglion | [Territoires de drainage](https://www.chem-sante.fr/elearning/parcours_41/biblio_0/mg_2015_941_384.pdf){:target="_blank"}  |
+    | :----------: | :-----------------------------------: |
+    | `pré-auriculaire` | partie supérieure du visage |
+    | `rétro-auriculaire` | cuir chevelu, oreille |
+    | `jugulo-carotidien` | thyroïde, oropharynx, anneau de Waldeyer |
+    | `sus-claviculaire D` | médiastin, poumons, œsophage |
+    | `Troisier (G)` | poumons, abdo-pelv, testicules |
+    | `axillaire` | membre sup, sein, paroi thoracique |
+    | `inguinal` | membre inf, OGE, paroi abdo inf |
+
+    <p style="text-align: center"><a href="https://radiopaedia.org/articles/diastasis-recti"target="_blank">Diastasis </a>des muscles grands droits si > 20 mm</p>
+
     !!! tip "[kyste épidermique](https://www.youtube.com/watch?app=desktop&v=HP9j2y5PQoE){:target="_blank"} / épidermoïde / sébacé = 90% des kystes ss-cut"
         - croissance lente, 70% dur > 30% mou, parallèle à la peau
         - finement hétérogène, paroi épaisse hypo, renforcement post
@@ -195,15 +148,72 @@
         <figure markdown="span">
             ![](assets/desmoide.jpg){width="220"}
         </figure>
-=== "GG"
-    | Siège      | [Territoires de drainage](https://www.chem-sante.fr/elearning/parcours_41/biblio_0/mg_2015_941_384.pdf){:target="_blank"}  |
-    | :----------: | :-----------------------------------: |
-    | `pré-auriculaire` | partie supérieure du visage |
-    | `rétro-auriculaire` | cuir chevelu, oreille |
-    | `jugulo-carotidien` | thyroïde, oropharynx, anneau de Waldeyer |
-    | `sus-claviculaire D` | médiastin, poumons, œsophage |
-    | `Troisier (G)` | poumons, abdo-pelv, testicules |
-    | `axillaire` | membre sup, sein, paroi thoracique |
-    | `inguinal` | membre inf, OGE, paroi abdo inf |
 
-    <p style="text-align: center">adénomégalie persistante <b>> S3 = biopsie</b></p>
+=== "ING"
+    ```
+    Examen en position debout lors de manœuvres de Valsalva répétées.
+    
+    Absence de hernie inguinale mise en évidence à l'exploration de la paroi abdominale.
+    ```
+    <figure markdown="span">
+        [![](assets/ing.jpg){width="600"}](https://lamediatheque.radiologie.fr/mediatheque/media.aspx?mediaId=50350&channel=3277){:target="_blank"}
+    </figure>
+    <figure markdown="span">
+        [![](assets/epigastrique.jpg){width="400"}](https://www.imaios.com/fr/e-anatomy/abdomen-et-pelvis/tdm-axiale-de-l-abdomen-et-du-pelvis-masculin){:target="_blank"}
+        </br>
+        [DD](https://www.intercomsante57.fr/html/profsante/pdf/L-echographie-dans-les-hernies.pdf){:target="_blank"} douleurs inguinales = arthrose hanche/rachis, pubalgie du sportif
+    </figure>
+
+=== "TESTIS"
+    ```
+    Testicule droit :
+    Dimensions mesurant
+    Echostructure homogène, sans lésion focale suspecte.
+    Epididyme sans particularité.
+    Canal déférent suivi jusqu'à l'anneau inguinal.
+
+    Testicule gauche :
+    Dimensions mesurant
+    Echostructure homogène, sans lésion focale suspecte.
+    Epididyme sans particularité.
+    Canal déférent suivi jusqu'à l'anneau inguinal.
+
+    Etude Doppler :
+    Vascularisation symétrique sans particularité.
+    ```
+    <figure markdown="span">
+        ![](assets/testis.jpg){width="700"}
+        </br>
+        12-20 cc
+        </br>
+        <a href="https://radiopaedia.org/articles/adenomatoid-tumours-of-the-scrotum"target="_blank">Tumeur adénomatoïde</a>
+        </br>
+        <a href="https://radiopaedia.org/articles/spermatocele-1"target="_blank">Spermatocèle</a>
+    </figure>
+
+=== "PROS"
+    ```
+    Reins :
+    Grand axe mesurant
+    Bonne différenciation parenchymo-sinusale.
+    Pas de dilatation des cavités pyélo-calicielles.
+    Pas de lésion suspecte ni d'image lithiasique.
+
+    Vessie pré-mictionnelle :
+    En réplétion, au contenu anéchogène.
+    Détrusor fin et régulier, sans diverticule.
+    Pas d'épanchement péritonéal.
+
+    Prostate par voie sus-pubienne :
+    Dimensions mesurant
+    Lobe médian avec protrusion intravésicale 
+    Echostructure homogène avec contours réguliers.
+    Vésicules séminales sans particularité.
+
+    Vessie post-mictionnelle :
+    Résidu de 
+    ```
+    <figure markdown="span">
+        ![](assets/pros.jpg){width="700"}
+        hypertrophie si > 30 cc
+    </figure>
