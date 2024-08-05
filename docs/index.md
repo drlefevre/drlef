@@ -29,12 +29,14 @@
     ```
     Rein droit :
     Grand axe mesurant
+    Contours réguliers.
     Bonne différenciation parenchymo-sinusale.
     Pas de dilatation des cavités pyélo-calicielles.
     Pas de lésion suspecte ni d'image lithiasique.
 
     Rein gauche :
     Grand axe mesurant
+    Contours réguliers.
     Bonne différenciation parenchymo-sinusale.
     Pas de dilatation des cavités pyélo-calicielles.
     Pas de lésion suspecte ni d'image lithiasique.
@@ -51,8 +53,8 @@
 === "THYR"
     ```
     Isthme mesurant
-    Lobe droit mesurant
-    Lobe gauche mesurant
+    Lobe droit mesurant  soit environ 
+    Lobe gauche mesurant  soit environ
 
     Contours réguliers.
     Echostructure homogène hyperéchogène par rapport au plan musculaire.
@@ -90,6 +92,13 @@
         - contrôle à M3 si pseudonodulaire
         <figure markdown="span">
             ![](assets/Quervain.jpg){width="500"}
+        </figure>
+    === "Hyperpara"
+        - 80% [adénome](https://radiopaedia.org/articles/parathyroid-adenoma){:target="_blank"} parathyroïdien > 15% hyperplasie > 5% carcinome
+        - nodule hypoéchogène homogène > 1 cm
+        - légèrement plus vascularisé que le parenchyme thyroïdien
+        <figure markdown="span">
+            ![](assets/hyperpara.jpg){width="500"}
         </figure>
 
 === "ORL"

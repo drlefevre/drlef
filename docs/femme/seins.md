@@ -58,3 +58,8 @@
     - désorganisation architecturale (plutôt que « distorsion »)
     - sérome/lymphocèle, cystostéatonécrose, kyste huileux
     - prothèse = type et localisation, rupture intra/extracapsulaire, siliconome
+
+!!! tip "Suivi des femmes à haut risque"
+    - mutation **BRCA**, antécédent irradiation thoracique (Hodgkin)
+    - **IRM + mammo oblique /an 30-65 ans**, puis mammo face-oblique /an
+    - antécédent K sein => IRM + mammo face-oblique /an
