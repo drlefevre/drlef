@@ -28,16 +28,14 @@
 === "REINS"
     ```
     Rein droit :
-    Grand axe mesurant
-    Contours réguliers.
-    Bonne différenciation parenchymo-sinusale.
+    Grand axe mesurant  mm.
+    Contours réguliers et bonne différenciation parenchymo-sinusale.
     Pas de dilatation des cavités pyélo-calicielles.
     Pas de lésion suspecte ni d'image lithiasique.
 
     Rein gauche :
-    Grand axe mesurant
-    Contours réguliers.
-    Bonne différenciation parenchymo-sinusale.
+    Grand axe mesurant  mm.
+    Contours réguliers et bonne différenciation parenchymo-sinusale.
     Pas de dilatation des cavités pyélo-calicielles.
     Pas de lésion suspecte ni d'image lithiasique.
 
@@ -52,9 +50,9 @@
 
 === "THYR"
     ```
-    Isthme mesurant
-    Lobe droit mesurant  soit environ 
-    Lobe gauche mesurant  soit environ
+    Isthme mesurant  mm.
+    Lobe droit mesurant  mm soit environ  cc.
+    Lobe gauche mesurant  mm soit environ  cc.
 
     Contours réguliers.
     Echostructure homogène hyperéchogène par rapport au plan musculaire.
@@ -105,6 +103,7 @@
     ```
     Aspect normal des glandes parotides, sans lésion focale dans le lobe superficiel.
     Pas d'image lithiasique ou de dilatation canalaire dans les glandes submandibulaires.
+    Perméabilité des vaisseaux jugulo-carotidiens.
     Absence de ganglion cervical suspect.
     ```
     <figure markdown="span">
@@ -176,13 +175,13 @@
 === "TESTIS"
     ```
     Testicule droit :
-    Dimensions mesurant
+    Dimensions mesurant  mm soit environ  cc.
     Echostructure homogène, sans lésion focale suspecte.
     Epididyme sans particularité.
     Canal déférent suivi jusqu'à l'anneau inguinal.
 
     Testicule gauche :
-    Dimensions mesurant
+    Dimensions mesurant  mm soit environ  cc.
     Echostructure homogène, sans lésion focale suspecte.
     Epididyme sans particularité.
     Canal déférent suivi jusqu'à l'anneau inguinal.
@@ -203,7 +202,7 @@
 === "PROS"
     ```
     Reins :
-    Grand axe mesurant
+    Grand axe mesurant  mm à droite et  mm à gauche.
     Bonne différenciation parenchymo-sinusale.
     Pas de dilatation des cavités pyélo-calicielles.
     Pas de lésion suspecte ni d'image lithiasique.
@@ -214,13 +213,13 @@
     Pas d'épanchement péritonéal.
 
     Prostate par voie sus-pubienne :
-    Dimensions mesurant
-    Lobe médian avec protrusion intravésicale 
+    Dimensions mesurant  mm soit environ  cc.
+    Lobe médian avec protrusion intravésicale mesurant  mm.
     Echostructure homogène avec contours réguliers.
     Vésicules séminales sans particularité.
 
     Vessie post-mictionnelle :
-    Résidu de 
+    Résidu de  cc.
     ```
     <figure markdown="span">
         ![](assets/pros.jpg){width="700"}
