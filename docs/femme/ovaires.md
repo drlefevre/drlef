@@ -2,13 +2,13 @@
     ```
     Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
 
-    Utérus antéversé antéfléchi mesurant
-    Endomètre hyperéchogène mesurant
+    Utérus antéversé antéfléchi mesurant  mm.
+    Endomètre hyperéchogène mesurant  mm.
     Pas d'anomalie significative du myomètre.
 
     Ovaires folliculaires en place dans leur fossette.
-    Ovaire droit mesurant
-    Ovaire gauche mesurant
+    Ovaire droit mesurant  mm.
+    Ovaire gauche mesurant  mm.
     Pas de dilatation tubaire.
 
     Pas d'épanchement pelvien significatif.
@@ -19,12 +19,12 @@
     Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
 
     Ovaires en place dans leur fossette.
-    Ovaire droit mesurant
-    Ovaire gauche mesurant
+    Ovaire droit mesurant  mm.
+    Ovaire gauche mesurant  mm.
 
     Pas de dilatation tubaire.
-    Utérus antéversé antéfléchi mesurant
-    Endomètre hyperéchogène mesurant
+    Utérus antéversé antéfléchi mesurant  mm.
+    Endomètre hyperéchogène mesurant  mm.
     Pas d'anomalie significative du myomètre.
     Pas d'épanchement pelvien significatif.
     Pas de dilatation des cavités pyélocalicielles.
@@ -35,8 +35,8 @@
     Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
 
     Ovaires en place dans leur fossette mesurant :
-        - à droite 
-        - à gauche
+        - à droite  mm.
+        - à gauche  mm.
 
     Nombre et taille des follicules à droite et à gauche :
         - De moins de 5 mm :           
@@ -48,8 +48,8 @@
         - à gauche
 
     Pas de dilatation tubaire.
-    Utérus antéversé antéfléchi mesurant
-    Endomètre hyperéchogène mesurant
+    Utérus antéversé antéfléchi mesurant  mm.
+    Endomètre hyperéchogène mesurant  mm.
     Pas d'anomalie significative du myomètre.
     Pas d'épanchement pelvien significatif.
     Pas de dilatation des cavités pyélocalicielles.
@@ -59,8 +59,8 @@
     ```
     Ovaires latéro-utérins folliculaires mesurant
     
-    Utérus antéversé antéfléchi mesurant
-    Endomètre hyperintense en T2 mesurant
+    Utérus antéversé antéfléchi mesurant  mm.
+    Endomètre hyperintense en T2 mesurant  mm.
     Intégrité de la zone jonctionnelle et du myomètre.
 
     Pas d'adénomégalie.
