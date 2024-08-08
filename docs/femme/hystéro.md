@@ -4,7 +4,7 @@
 
 !!! warning "CI"
     - **βHCG**
-    - infection
+    - infection génitale haute
     - hydrosalpinx (risque infectieux)
     - allergie PCI (faire écho avec HYFOSY)
     - métrorragies (caillots intracavitaires, différer l'examen)

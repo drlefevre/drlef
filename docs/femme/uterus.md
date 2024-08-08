@@ -78,5 +78,5 @@
     - **épaississement glandulo-kystique** de l'endomètre (mais /!\ K RR 1,6)
     - polypes glandulo-kystiques, ↗ myomes et adénomyose
     <figure markdown="span">
-        ![](assets/tamox.jpg){width="240"}
+        ![](assets/tamox.jpg){width="230"}
     </figure>

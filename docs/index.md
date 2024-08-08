@@ -1,6 +1,6 @@
 # Accueil
 
-<p style="text-align: center"><a href="https://www.imaios.com/fr/login"target="_blank">Imaios</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://radiopaedia.org/"target="_blank">Radiopaedia</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.radrap.ch/comptesrendus"target="_blank">modèles de CR</a>
+<p style="text-align: center"><a href="https://www.imaios.com/fr/login"target="_blank">Imaios</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://radiopaedia.org/"target="_blank">Radiopaedia</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.radrap.ch/comptesrendus"target="_blank">modèles de CR</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://radref.org/ref.php"target="_blank">radref</a>
 </br>rempl cima / elindo</p>
 
 === "ABDO"
@@ -50,14 +50,13 @@
 
 === "THYR"
     ```
-    Isthme mesurant  mm.
     Lobe droit mesurant  mm soit environ  cc.
     Lobe gauche mesurant  mm soit environ  cc.
 
     Contours réguliers.
     Echostructure homogène hyperéchogène par rapport au plan musculaire.
     Vascularisation sans particularité au Doppler.
-    Pas d'image nodulaire.
+    Pas d'image nodulaire significative.
 
     Pas d'anomalie du tractus thyréoglosse.
     Pas d'adénopathie dans les secteurs II, III, IV et VI.
@@ -101,10 +100,11 @@
 
 === "ORL"
     ```
-    Aspect normal des glandes parotides, sans lésion focale dans le lobe superficiel.
-    Pas d'image lithiasique ou de dilatation canalaire dans les glandes submandibulaires.
-    Perméabilité des vaisseaux jugulo-carotidiens.
     Absence de ganglion cervical suspect.
+    Thyroïde de taille et de morphologie normales, sans image nodulaire significative.
+    Pas d'image lithiasique ou de dilatation canalaire dans les glandes submandibulaires.
+    Aspect normal des glandes parotides, sans lésion focale dans le lobe superficiel.
+    Perméabilité des vaisseaux jugulo-carotidiens.
     ```
     <figure markdown="span">
         ![](assets/salivaires.jpg){width="700"}
@@ -197,13 +197,17 @@
         <a href="https://radiopaedia.org/articles/adenomatoid-tumours-of-the-scrotum"target="_blank">Tumeur adénomatoïde</a>
         </br>
         <a href="https://radiopaedia.org/articles/spermatocele-1"target="_blank">Spermatocèle</a>
+        </br>
+        <a href="https://radiopaedia.org/articles/epididymitis"target="_blank">Epididymite</a>
+        </br>
+        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2728311/"target="_blank">Ectasie tubulaire du rete testis</a>
     </figure>
 
 === "PROS"
     ```
     Reins :
     Grand axe mesurant  mm à droite et  mm à gauche.
-    Bonne différenciation parenchymo-sinusale.
+    Contours réguliers et différenciation parenchymo-sinusale satisfaisante.
     Pas de dilatation des cavités pyélo-calicielles.
     Pas de lésion suspecte ni d'image lithiasique.
 
