@@ -27,15 +27,9 @@
 
 === "REINS"
     ```
-    Rein droit :
-    Grand axe mesurant  mm.
-    Contours réguliers et bonne différenciation parenchymo-sinusale.
-    Pas de dilatation des cavités pyélo-calicielles.
-    Pas de lésion suspecte ni d'image lithiasique.
-
-    Rein gauche :
-    Grand axe mesurant  mm.
-    Contours réguliers et bonne différenciation parenchymo-sinusale.
+    Reins :
+    Grand axe mesurant  mm à droite et  mm à gauche.
+    Contours réguliers et différenciation parenchymo-sinusale satisfaisantae.
     Pas de dilatation des cavités pyélo-calicielles.
     Pas de lésion suspecte ni d'image lithiasique.
 
@@ -66,6 +60,7 @@
         [![](assets/TIRADS.jpg){width="650"}](https://cireol.net/wp-content/uploads/2017/05/2017-CIREOL-EUTIRADS.pdf){:target="_blank"}
         </br>
         <b>4-10 cc/lobe</b>, Doppler < 40 cm/s
+        </br>↗ taille significative si + 2 mm dans 2 diamètres et/ou 50% en volume
         </br>
         20% [lobe pyramidal](https://radiopaedia.org/articles/pyramidal-lobe-of-thyroid){:target="_blank"} = reliquat du tractus thyréoglosse
     </figure>
@@ -218,7 +213,7 @@
 
     Prostate par voie sus-pubienne :
     Dimensions mesurant  mm soit environ  cc.
-    Lobe médian avec protrusion intravésicale mesurant  mm.
+    Protrusion intravésicale du lobe médian mesurant  mm.
     Echostructure homogène avec contours réguliers.
     Vésicules séminales sans particularité.
 
