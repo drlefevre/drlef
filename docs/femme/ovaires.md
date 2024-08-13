@@ -6,9 +6,7 @@
     Endomètre hyperéchogène mesurant  mm.
     Pas d'anomalie significative du myomètre.
 
-    Ovaires folliculaires en place dans leur fossette.
-    Ovaire droit mesurant  mm.
-    Ovaire gauche mesurant  mm.
+    Ovaires latéro-utérins folliculaires mesurant  mm à droite et  mm à gauche.
     Pas de dilatation tubaire.
 
     Pas d'épanchement pelvien significatif.
@@ -18,14 +16,15 @@
     ```
     Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
 
-    Ovaires en place dans leur fossette.
-    Ovaire droit mesurant  mm.
-    Ovaire gauche mesurant  mm.
-
+    Ovaires latéro-utérins contenant moins de 25 follicules par ovaire.
+    Ovaire droit mesurant  mm pour une surface estimée à  cc.
+    Ovaire gauche mesurant  mm pour une surface estimée à  cc.
     Pas de dilatation tubaire.
+
     Utérus antéversé antéfléchi mesurant  mm.
     Endomètre hyperéchogène mesurant  mm.
     Pas d'anomalie significative du myomètre.
+
     Pas d'épanchement pelvien significatif.
     Pas de dilatation des cavités pyélocalicielles.
     ```
@@ -34,9 +33,7 @@
     ```
     Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
 
-    Ovaires en place dans leur fossette mesurant :
-        - à droite  mm.
-        - à gauche  mm.
+    Ovaires latéro-utérins mesurant  mm à droite et  mm à gauche.
 
     Nombre et taille des follicules à droite et à gauche :
         - De moins de 5 mm :           
@@ -57,7 +54,7 @@
     <p style="text-align: center">écho à <b>J3</b> du cycle, réserve ovarienne faible si < 5 follicules/ovaire</p>
 === "IRM"
     ```
-    Ovaires latéro-utérins folliculaires mesurant
+    Ovaires latéro-utérins folliculaires mesurant  mm à droite et  mm à gauche.
     
     Utérus antéversé antéfléchi mesurant  mm.
     Endomètre hyperintense en T2 mesurant  mm.

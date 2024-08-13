@@ -6,9 +6,7 @@
     Endomètre hyperéchogène mesurant  mm.
     Pas d'anomalie significative du myomètre.
 
-    Ovaires folliculaires en place dans leur fossette.
-    Ovaire droit mesurant  mm.
-    Ovaire gauche mesurant  mm.
+    Ovaires folliculaires latéro-utérins mesurant  mm à droite et  mm à gauche.
     Pas de dilatation tubaire.
 
     Pas d'épanchement pelvien significatif.
