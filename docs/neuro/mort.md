@@ -1,8 +1,7 @@
 # Mort encéphalique
 
 !!! info "Conditions"
-    - **6h après diagnostic** clinique
-    - hémodynamiquement stable
+    - **6h après abolition des réflexes du tronc cérébral**
     - PAM > 65 mmHg et diurèse > 100 ml/h
 
 ``` title="IV-, 20s, 60s après injection de 2 ml/kg (max 120) à 3 cc/s"

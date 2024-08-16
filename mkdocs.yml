@@ -2,8 +2,11 @@ site_name: Notes radiologiques
 
 nav:
   - index.md
+  - Urgences:
+    - AVP: urg/AVP.md
+    - thorax: urg/thorax.md
+    - femme: urg/femme.md
   - Thorax:
-    - EP/Ao: thorax/EP.md
     - Nodules: thorax/nodules.md
     - Médiastin: thorax/mediastin.md
     - Infections: thorax/infections.md
@@ -13,7 +16,6 @@ nav:
     - Malfo: thorax/malfo.md
     - PID: thorax/PID.md
   - Femme:
-    - URG: femme/urg.md
     - EPP: femme/EPP.md
     - Seins: femme/seins.md
     - Utérus: femme/uterus.md
@@ -30,6 +32,7 @@ nav:
   - Uro:
     - Reins: uro/reins.md
     - Prostate: uro/prostate.md
+    - Rétropéritoine: uro/rétropé.md
 
 theme:
   name: material

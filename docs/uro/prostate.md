@@ -16,3 +16,12 @@
             * +1 si restriction DWI marquée > 15 mm
         * 4 = signal intermédiaire homogène
         * 5 = ≥ 15 mm ou EEP
+
+<figure markdown="span">
+    ![](assets/PIRADS.jpg){width=700"}
+    </br>
+    ![](assets/prostate.jpg){width=350"}
+    </br>
+    ![](assets/pros ADP.jpg){width=350"}
+    ![](assets/pros meta.jpg){width=350"}
+</figure>

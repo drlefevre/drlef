@@ -29,7 +29,7 @@
     ```
     Reins :
     Grand axe mesurant  mm à droite et  mm à gauche.
-    Contours réguliers et différenciation parenchymo-sinusale satisfaisantae.
+    Contours réguliers et différenciation parenchymo-sinusale satisfaisante.
     Pas de dilatation des cavités pyélo-calicielles.
     Pas de lésion suspecte ni d'image lithiasique.
 

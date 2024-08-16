@@ -1,0 +1,15 @@
+# AVP
+
+!!! info "Protocole"
+    - crâne, cou et AP IV- > TAP art > AP vx > excrétoire si lésion rein/bassin
+    - enfant > 50 kg = TAP biphasique (80 cc > 60 cc à 60s > acquisition à 90s)
+    - enfant < 50 kg = crâne et cou IV- > TAP temps mixte (50s)
+
+<figure markdown="span">
+    ![](assets/Ao.jpg){width=580"}
+    </br>
+    ![](assets/AAST.jpg){width=700"}
+    /!\ rate faux-a à J3-J7 et **grade IV/V = embolisation** sinon 50% rupture II<sup>R</sup>
+    </br></br>
+    ![](assets/AAST2.jpg){width=700"}
+</figure>
