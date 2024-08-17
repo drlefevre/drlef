@@ -80,7 +80,7 @@
         </figure>
     === "De Quervain"
         - contexte viral, douloureux
-        - plages hypoéchogène mal limitées peu vascularisées
+        - plages hypoéchogènes mal limitées peu vascularisées
         - contrôle à M3 si pseudonodulaire
         <figure markdown="span">
             ![](assets/Quervain.jpg){width="500"}

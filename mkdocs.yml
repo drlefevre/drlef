@@ -4,8 +4,9 @@ nav:
   - index.md
   - Urgences:
     - AVP: urg/AVP.md
-    - thorax: urg/thorax.md
-    - femme: urg/femme.md
+    - Thorax: urg/thorax.md
+    - Femme: urg/femme.md
+    - Pédiatrie: urg/pédia.md
   - Thorax:
     - Nodules: thorax/nodules.md
     - Médiastin: thorax/mediastin.md

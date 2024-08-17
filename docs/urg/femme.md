@@ -1,4 +1,4 @@
-# Urgences
+# Urgences gynécologiques
 
 === "GEU"
     - dl peviennes et métrorragies + utérus vide et **hCG > 1500** UI/L

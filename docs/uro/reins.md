@@ -29,9 +29,10 @@
             * K épidermoïdes (poumons, ORL, œsophage)
 
 !!! tip "Sd génétiques"
-    * [VHL](https://radiopaedia.org/articles/von-hippel-lindau-disease-5){:target="_blank"} = CCC, kystes reins et pancréas, phéo, hémangioblastome cervelet
-    * [STB](https://radiopaedia.org/articles/tuberous-sclerosis){:target="_blank"} = AML, LLM, tubers corticaux, nodules ss-épendymaires
-    * [BHD](https://radiopaedia.org/articles/birt-hogg-dube-syndrome-5){:target="_blank"} = chromophobe, oncocytome, kystes bases pulm péribronchovasc irréguliers
+    * [VHL](https://radiopaedia.org/articles/von-hippel-lindau-disease-5){:target="_blank"} = **CCC**, **kystes** reins et pancréas, phéo, hémangioblastome cervelet
+    * [STB](https://radiopaedia.org/articles/tuberous-sclerosis){:target="_blank"} = **AML**, neurofibromes, gliome de nerf optique, taches café au lait
+    * [NF1](https://radiopaedia.org/articles/neurofibromatosis-type-1){:target="_blank"} = **AML**, LLM, tubers corticaux, nodules ss-épendymaires
+    * [BHD](https://radiopaedia.org/articles/birt-hogg-dube-syndrome-5){:target="_blank"} = **chromophobe**, **oncocytome**, kystes bases pulm péribronchovasc irréguliers
 
 <figure markdown="span">
     ![](assets/TNM rein.jpg){width=450"}

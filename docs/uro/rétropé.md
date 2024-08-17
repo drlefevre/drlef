@@ -2,7 +2,7 @@
 
 <figure markdown="span">
     ![](assets/rétropé.jpg){width=400"}
-    ![](assets/rétro2.jpg){width=350"}
+    ![](assets/rétro2.jpg){width=310"}
 </figure>
 
 !!! tip "Lésions"
