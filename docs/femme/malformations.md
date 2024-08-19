@@ -49,4 +49,6 @@
     🔴 kyste de **Gartner** (paroi vaginal antéro-latérale)
     </br>🔵 kyste de **Bartholin** (postérolatéral à l'introitus vaginal)
     </br>🟢 kyste d'une glande paraurétrale (de Skene)
+    </br></br>[IRM cérébrale fœtale](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8383736/){:target="_blank"}
 </figure>
+
