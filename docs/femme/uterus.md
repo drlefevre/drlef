@@ -57,9 +57,7 @@
 
 <figure markdown="span">
     ![](assets/figo.jpg){width="730"}
-</figure>
-
-<figure markdown="span">
+    > 5 myomes / > 5 cm => IRM
     ![](assets/myomes.jpg){width="670"}
 </figure>
 

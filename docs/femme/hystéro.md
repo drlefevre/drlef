@@ -13,13 +13,13 @@
 HYSTEROSALPINGOGRAPHIE
 
 INDICATION
-Bilan d'infertilité.
+Bilan d'hypofertilité.
 
 TECHNIQUE
 Cliché sans préparation sur le pelvis.
 Opacification de la cavité utérine avec un produit de contraste hydrosoluble.
 Clichés en cours de remplissage, puis après évacuation.
-Dose totale délivrée lors de l'examen :
+Dose totale délivrée lors de l'examen :  mGy.cm²
 
 RESULTATS
 Pas d'opacité calcique sur le cliché sans préparation.
