@@ -1,6 +1,6 @@
 # Hystérosalpingographie
 
-<p style="text-align: center">entre J6 et J12, ± ATB (doxycycline/azithromycine), spasfon, vessie vide</br>TV > désinfection > spéculum > désinfection > hystéromètre > purge > aspi > tulipe</br>si échec : sonde d'hystérosonographie, massages abdo, max 2 x 20 mL</p>
+<p style="text-align: center">entre J6 et J12, ± ATB (doxycycline/azithromycine), spasfon, vessie vide</br>TV > désinfection > spéculum > désinfection > hystéromètre > purge > aspi > tulipe</br>si échec : massages abdo, max 2 x 20 mL, sonde d'hystérosonographie</p>
 
 !!! warning "CI"
     - **βHCG**

@@ -5,14 +5,29 @@
 
 === "ABDO"
     ```
+    Pancréas d'analyse limitée (interpositions aérodigestives), sans anomalie visible.
     Foie de taille et de morphologie normales, sans lésion focale.
     Tronc porte avec flux hépatopète et veines sus-hépatiques hépatofuges.
-    Pas de dilatation des voies biliaires.
-    Vésicule biliaire alithiasique, non distendue et à parois fines.
+    Pas de dilatation des voies biliaires. Vésicule biliaire alithiasique.
     Rate de taille normale.
+
+    Pas de dilatation des cavités pyélocalicielles.
+    Reins de taille et de morphologie normales, sans lésion focale.
+    Vessie en semi-réplétion, avec contenu anéchogène, sans anomalie de paroi.
+    Pas d'épanchement péritonéal.
+    ```
+    ```
     Pancréas d'analyse limitée (interpositions aérodigestives), sans anomalie visible.
-    Reins de taille et de morphologie normales, sans lésion suspecte ni image lithiasique.
-    Vessie en semi-réplétion, au contenu anéchogène, sans anomalie de paroi.
+    Foie de taille et de morphologie normales, sans lésion focale.
+    Tronc porte avec flux hépatopète et veines sus-hépatiques hépatofuges.
+    Pas de dilatation des voies biliaires. Vésicule biliaire alithiasique.
+    Rate de taille normale.
+    
+    Pas de dilatation des cavités pyélocalicielles.
+    Reins de taille et de morphologie normales, sans lésion focale.
+    Vessie en semi-réplétion, avec contenu anéchogène, sans anomalie de paroi.
+    Utérus d'aspect normal avec endomètre hyperéchogène fin.
+    Ovaires latéro-utérins folliculaires sans particularité.
     Pas d'épanchement péritonéal.
     ```
     <figure markdown="span">
@@ -37,6 +52,7 @@
     En réplétion, avec contenu anéchogène.
     Pas d'anomalie de paroi décelable.
     Pas d'épanchement péritonéal.
+    Pas de résidu post-mictionnel.
     ```
     <figure markdown="span">
         ![](assets/reins.jpg){width="700"}
@@ -48,18 +64,19 @@
     Lobe gauche mesurant  mm soit environ  cc.
 
     Contours réguliers.
-    Echostructure homogène hyperéchogène par rapport au plan musculaire.
-    Vascularisation sans particularité au Doppler.
+    Echostructure homogène hyperéchogène.
+    Pas d'hypersvascularisation au Doppler.
+
     Pas d'image nodulaire significative.
 
-    Pas d'anomalie du tractus thyréoglosse.
-    Pas d'adénopathie dans les secteurs II, III, IV et VI.
+    Pas d'anomalie du tractus thyréoglosse.    
     Perméabilité des vaisseaux jugulo-carotidiens.
+    Pas d'adénopathie dans les secteurs II, III, IV et VI.
     ```
     <figure markdown="span">
         [![](assets/TIRADS.jpg){width="650"}](https://cireol.net/wp-content/uploads/2017/05/2017-CIREOL-EUTIRADS.pdf){:target="_blank"}
         </br>
-        <b>4-10 cc/lobe</b>, Doppler < 40 cm/s
+        <b>4-10 cc/lobe</b> (< 9 cc ♀ et < 8 cc ado), Doppler < 40 cm/s
         </br>↗ taille significative si + 2 mm dans 2 diamètres et/ou 50% en volume
         </br>
         20% [lobe pyramidal](https://radiopaedia.org/articles/pyramidal-lobe-of-thyroid){:target="_blank"} = reliquat du tractus thyréoglosse
@@ -95,11 +112,10 @@
 
 === "ORL"
     ```
-    Absence de ganglion cervical suspect.
     Thyroïde de taille et de morphologie normales, sans image nodulaire significative.
-    Pas d'image lithiasique ou de dilatation canalaire dans les glandes submandibulaires.
-    Aspect normal des glandes parotides, sans lésion focale dans le lobe superficiel.
+    Aspect normal des glandes submandibulaires et parotides, sans lésion focale.
     Perméabilité des vaisseaux jugulo-carotidiens.
+    Absence de ganglion cervical suspect.
     ```
     <figure markdown="span">
         ![](assets/salivaires.jpg){width="700"}
@@ -156,7 +172,7 @@
     ```
     Examen en position debout lors de manœuvres de Valsalva répétées.
     
-    Absence de hernie inguinale mise en évidence à l'exploration de la paroi abdominale.
+    Absence de hernie ou autre lésion inguinale décelable.
     ```
     <figure markdown="span">
         [![](assets/ing.jpg){width="600"}](https://lamediatheque.radiologie.fr/mediatheque/media.aspx?mediaId=50350&channel=3277){:target="_blank"}
@@ -207,7 +223,7 @@
     Pas de lésion suspecte ni d'image lithiasique.
 
     Vessie pré-mictionnelle :
-    En réplétion, au contenu anéchogène.
+    En réplétion, avec contenu anéchogène.
     Détrusor fin et régulier, sans diverticule.
     Pas d'épanchement péritonéal.
 
@@ -223,4 +239,15 @@
     <figure markdown="span">
         ![](assets/pros.jpg){width="700"}
         hypertrophie si > 30 cc
+    </figure>
+
+=== "RxT"
+    ```
+    Silhouette cardiomédiastinale d'aspect normal.
+    Absence d'épanchement pleural et de pneumothorax.
+    Absence d'anomalie dans le parenchyme pulmonaire.
+    Cadre osseux et parties molles sans particularité.
+    ``` 
+    <figure markdown="span">
+        ![](assets/rxt.jpg){width="700"}
     </figure>
