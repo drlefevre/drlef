@@ -13,7 +13,7 @@
 
     Pas de dilatation des cavités pyélocalicielles.
     Reins de taille et de morphologie normales, sans lésion focale.
-    Vessie en semi-réplétion, avec contenu anéchogène, sans anomalie de paroi.
+    Vessie en faible réplétion, sans anomalie décelable.
     Pas d'épanchement péritonéal.
     ```
     ```
@@ -25,7 +25,7 @@
     
     Pas de dilatation des cavités pyélocalicielles.
     Reins de taille et de morphologie normales, sans lésion focale.
-    Vessie en semi-réplétion, avec contenu anéchogène, sans anomalie de paroi.
+    Vessie en faible réplétion, sans anomalie décelable.
     Utérus d'aspect normal avec endomètre hyperéchogène fin.
     Ovaires latéro-utérins folliculaires sans particularité.
     Pas d'épanchement péritonéal.
@@ -65,7 +65,7 @@
 
     Contours réguliers.
     Echostructure homogène hyperéchogène.
-    Pas d'hypersvascularisation au Doppler.
+    Pas d'hypervascularisation au Doppler.
 
     Pas d'image nodulaire significative.
 
@@ -74,7 +74,8 @@
     Pas d'adénopathie dans les secteurs II, III, IV et VI.
     ```
     <figure markdown="span">
-        [![](assets/TIRADS.jpg){width="650"}](https://cireol.net/wp-content/uploads/2017/05/2017-CIREOL-EUTIRADS.pdf){:target="_blank"}
+        [![](assets/TIRADS.jpg){width="650"}](https://toulouse-thyroide.fr/?page_id=233(opens%20in%20a%20new%20tab)){:target="_blank"}
+        [EU-TIRADS 2017](https://cireol.net/wp-content/uploads/2017/05/2017-CIREOL-EUTIRADS.pdf){:target="_blank"}
         </br>
         <b>4-10 cc/lobe</b> (< 9 cc ♀ et < 8 cc ado), Doppler < 40 cm/s
         </br>↗ taille significative si + 2 mm dans 2 diamètres et/ou 50% en volume
@@ -250,4 +251,27 @@
     ``` 
     <figure markdown="span">
         ![](assets/rxt.jpg){width="700"}
+    </figure>
+
+=== "PANO"
+    ```
+    Intégrité de la denture.
+    Dents de sagesse en place. 
+
+    Bonne ventilation des cuvettes maxillaires.
+    Condyles de taille et de forme normales.
+    Pas de lésion osseuse suspecte.
+    ```  
+    <figure markdown="span">
+        ![](assets/numéro.jpg){width="600"}
+        denture lactéale terminée à M30, dentition définitive de 6 à 20 ans
+        </br>
+        désinclusion (ouverture du sac folliculaire avec formation des racines) < éruption
+        </br>
+        /!\ rétention (obstacle) / inclusion (reste dans le sac folliculaire)
+        </br></br>
+        ![](assets/dent.jpg){width="500"}
+        </br>
+
+        
     </figure>

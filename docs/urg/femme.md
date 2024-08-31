@@ -12,7 +12,7 @@
     - dl pelvienne brutale intense + nausées
     - médialisation ovaire + œdème stromal + tour de spire
     - complique notamment **kyste dermoïde** et **fibrome** ovarien (tumeurs denses)
-    - IRM = 3 plans T2, BTFE jusqu'aux reins, T1 DIXON pré et post-gado
+    - IRM = 3 plans T2 ± T1 DIXON pré et post-gado
     <figure markdown="span">
         ![](assets/torsion.jpg){width="300"}
     </figure>

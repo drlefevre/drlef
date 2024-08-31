@@ -4,18 +4,12 @@ nav:
   - index.md
   - Urgences:
     - AVP: urg/AVP.md
+    - AVC: urg/AVC.md
+    - CMF: urg/CMF.md
+    - Mort: urg/mort.md
     - Thorax: urg/thorax.md
     - Femme: urg/femme.md
     - Pédiatrie: urg/pédia.md
-  - Thorax:
-    - Nodules: thorax/nodules.md
-    - Médiastin: thorax/mediastin.md
-    - Infections: thorax/infections.md
-    - Bronches: thorax/bronches.md
-    - Cavités: thorax/cavités.md
-    - Plèvre: thorax/plèvre.md
-    - Malfo: thorax/malfo.md
-    - PID: thorax/PID.md
   - Femme:
     - EPP: femme/EPP.md
     - Seins: femme/seins.md
@@ -25,11 +19,15 @@ nav:
     - Prolapsus: femme/prolapsus.md
     - Pelviscanner: femme/pelviscanner.md
     - Malformations: femme/malformations.md
-  - Neuro:
-    - TC: neuro/trauma.md
-    - AVC: neuro/AVC.md
-    - Hématome: neuro/hematome.md
-    - Mort encéphalique: neuro/mort.md
+  - Thorax:
+    - Nodules: thorax/nodules.md
+    - Médiastin: thorax/mediastin.md
+    - Infections: thorax/infections.md
+    - Bronches: thorax/bronches.md
+    - Cavités: thorax/cavités.md
+    - Plèvre: thorax/plèvre.md
+    - Malfo: thorax/malfo.md
+    - PID: thorax/PID.md
   - Uro:
     - Reins: uro/reins.md
     - Prostate: uro/prostate.md
