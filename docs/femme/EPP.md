@@ -5,7 +5,7 @@ Utérus antéversé antéfléchi mesurant  mm.
 Endomètre hyperintense en T2 mesurant  mm.
 Intégrité de la zone jonctionnelle et du myomètre.
 
-Ovaires latéro-utérins, folliculaires, mesurant  mm à droite et  mm à gauche.
+Ovaires latéraux folliculaires mesurant à droite/gauche  mm.
 Pas d'endométriome ou d'implant hémorragique.
 Pas de dilatation tubaire.
 
