@@ -6,7 +6,7 @@
     Endomètre hyperéchogène mesurant  mm.
     Pas d'anomalie significative du myomètre.
 
-    Ovaires latéro-utérins folliculaires mesurant  mm à droite et  mm à gauche.
+    Ovaires latéraux folliculaires mesurant à droite/gauche  mm.
     Pas de dilatation tubaire.
 
     Pas d'épanchement pelvien significatif.
@@ -17,7 +17,7 @@
     Utérus antéversé antéfléchi mesurant  mm.
     Endomètre hyperintense en T2 mesurant  mm.
     Intégrité de la zone jonctionnelle et du myomètre.
-    Ovaires latéro-utérins folliculaires mesurant  mm à droite et  mm à gauche.
+    Ovaires latéraux folliculaires mesurant à droite/gauche  mm.
 
     Pas d'adénomégalie.
     Pas d'épanchement pelvien significatif.
@@ -43,7 +43,7 @@
     ```
     Utérus antéversé antéfléchi mesurant  mm.
     Endomètre hyperéchogène mesurant  mm.
-    Ovaires latéro-utérins folliculaires mesurant  mm à droite et  mm à gauche.
+    Ovaires latéro-utérins fibreux.
 
     Masse centrée sur le col utérin mesurant  mm.
     Pas d'extension aux paramètres, au vagin, ni à l'isthme utérin.

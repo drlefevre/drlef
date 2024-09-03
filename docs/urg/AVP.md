@@ -6,13 +6,8 @@
     - enfant < 50 kg = crâne et cou IV- > TAP temps mixte (50s)
 
 ```
-Crâne et cou :
-Absence de lésion hémorragique intra ou péricérébrale.
-Structures de la ligne médiane en place.
-Intégrité du système ventriculaire.
-
 Thorax :
-Pas d'anomalie des gros vaisseaux (sous réverve de quelques artéfacts cinétiques).
+Pas d'anomalie des gros vaisseaux (sous réserve de quelques artéfacts cinétiques).
 Pas de pneumomédiastin, d'épanchement pleural ni péricardique.
 Pas de contusion parenchymateuse.
 
@@ -21,8 +16,7 @@ Pas de lésion traumatique du foie, de la rate, du pancréas, ni des reins.
 Pas d'épanchement péritonéal ni de pneumopéritoine.
 Pas d'infiltration de la racine du mésentère.
 
-Cadre osseux :
-Pas de lésion traumatique.
+Crâne et cadre osseux : cf. CR dédié.
 ```
 
 <figure markdown="span">
