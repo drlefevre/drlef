@@ -70,6 +70,12 @@
         ![](assets/endometre.jpg){width="550"}
     </figure>
 
+!!! tip "**Adénomyose** interne = 40% des femmes"
+    - focale/diffuse superficielle/profonde (cut-off 1/3 myomètre)
+    - IRM = microkystes sous-endométriaux, **ZJ > 11 mm** ou > 40% du myomètre
+    - écho = utérus globuleux, **interface floue** endo/myomètre, microlacunes myométriales
+
+
 !!! tip "[Tamoxifène](https://radiopaedia.org/articles/tamoxifen-associated-endometrial-changes-2){:target="_blank"}"
     - **épaississement glandulo-kystique** de l'endomètre (mais /!\ K RR 1,6)
     - polypes glandulo-kystiques, ↗ myomes et adénomyose

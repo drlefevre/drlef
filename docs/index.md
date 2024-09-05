@@ -245,12 +245,14 @@
 === "RxT"
     ```
     Silhouette cardiomédiastinale d'aspect normal.
-    Absence d'épanchement pleural et de pneumothorax.
+    Pas d'épanchement pleural ni de pneumothorax.
     Absence d'anomalie dans le parenchyme pulmonaire.
     Cadre osseux et parties molles sans particularité.
     ``` 
     <figure markdown="span">
         ![](assets/rxt.jpg){width="700"}
+        </br>
+        [Syndromes radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"}
     </figure>
 
 === "PANO"
@@ -263,7 +265,7 @@
     Pas de lésion osseuse suspecte.
     ```  
     <figure markdown="span">
-        ![](assets/numéro.jpg){width="600"}
+        ![](assets/numero.jpg){width="600"}
         denture lactéale terminée à M30, dentition définitive de 6 à 20 ans
         </br>
         désinclusion (ouverture du sac folliculaire avec formation des racines) < éruption
