@@ -1,6 +1,6 @@
 === "écho"
     ```
-    Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
+    Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
     Utérus antéversé antéfléchi mesurant  mm.
     Endomètre hyperéchogène mesurant  mm.
@@ -42,7 +42,7 @@
 === "K col"
     ```
     Utérus antéversé antéfléchi mesurant  mm.
-    Endomètre hyperéchogène mesurant  mm.
+    Endomètre en hypersignal T2 mesurant  mm.
     Ovaires latéro-utérins fibreux.
 
     Masse centrée sur le col utérin mesurant  mm.

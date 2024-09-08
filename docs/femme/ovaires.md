@@ -1,6 +1,6 @@
 === "écho"
     ```
-    Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
+    Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
     Utérus antéversé antéfléchi mesurant  mm.
     Endomètre hyperéchogène mesurant  mm.
@@ -14,7 +14,7 @@
     ```
 === "SOPK"
     ```
-    Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
+    Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
     Ovaires latéro-utérins contenant moins de 25 follicules par ovaire.
     Ovaire droit mesurant  mm pour une surface estimée à  cc.
@@ -31,7 +31,7 @@
     <p style="text-align: center">ovaire polykystique si <b>> 5,5 cm² + > 25 follicules</b></p>
 === "CFA"
     ```
-    Examen réalisé par voie suspubienne puis endovaginale après accord de la patiente.
+    Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
     Ovaires latéraux folliculaires mesurant à droite/gauche  mm.
 
@@ -57,7 +57,7 @@
     Ovaires latéraux folliculaires mesurant à droite/gauche  mm.
     
     Utérus antéversé antéfléchi mesurant  mm.
-    Endomètre hyperintense en T2 mesurant  mm.
+    Endomètre en hypersignal T2 mesurant  mm.
     Intégrité de la zone jonctionnelle et du myomètre.
 
     Pas d'adénomégalie.

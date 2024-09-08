@@ -2,7 +2,7 @@
 
 ```
 Utérus antéversé antéfléchi mesurant  mm.
-Endomètre hyperintense en T2 mesurant  mm.
+Endomètre en hypersignal T2 mesurant  mm.
 Intégrité de la zone jonctionnelle et du myomètre.
 
 Ovaires latéraux folliculaires mesurant à droite/gauche  mm.
