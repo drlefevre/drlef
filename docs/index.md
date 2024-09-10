@@ -43,7 +43,7 @@
 === "REINS"
     ```
     Reins :
-    Grand axe mesurant  mm à droite et  mm à gauche.
+    Grand axe mesurant à droite/gauche  mm.
     Contours réguliers et différenciation parenchymo-sinusale satisfaisante.
     Pas de dilatation des cavités pyélo-calicielles.
     Pas de lésion suspecte ni d'image lithiasique.
@@ -60,8 +60,7 @@
 
 === "THYR"
     ```
-    Lobe droit mesurant  mm soit environ  cc.
-    Lobe gauche mesurant  mm soit environ  cc.
+    Volume des lobes droit/gauche estimé à  cc.
 
     Contours réguliers.
     Echostructure homogène hyperéchogène.
@@ -187,13 +186,13 @@
 === "TESTIS"
     ```
     Testicule droit :
-    Dimensions mesurant  mm soit environ  cc.
+    Volume estimé à  cc.
     Echostructure homogène, sans lésion focale suspecte.
     Epididyme sans particularité.
     Canal déférent suivi jusqu'à l'anneau inguinal.
 
     Testicule gauche :
-    Dimensions mesurant  mm soit environ  cc.
+    Volume estimé à  cc.
     Echostructure homogène, sans lésion focale suspecte.
     Epididyme sans particularité.
     Canal déférent suivi jusqu'à l'anneau inguinal.
@@ -218,7 +217,7 @@
 === "PROS"
     ```
     Reins :
-    Grand axe mesurant  mm à droite et  mm à gauche.
+    Grand axe mesurant à droite/gauche  mm.
     Contours réguliers et différenciation parenchymo-sinusale satisfaisante.
     Pas de dilatation des cavités pyélo-calicielles.
     Pas de lésion suspecte ni d'image lithiasique.
@@ -229,7 +228,7 @@
     Pas d'épanchement péritonéal.
 
     Prostate par voie sus-pubienne :
-    Dimensions mesurant  mm soit environ  cc.
+    Volume estimé à 
     Protrusion intravésicale du lobe médian mesurant  mm.
     Echostructure homogène avec contours réguliers.
     Vésicules séminales sans particularité.
