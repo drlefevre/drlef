@@ -2,11 +2,11 @@
     ```
     Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
-    Utérus antéversé antéfléchi mesurant  mm.
+    Utérus antéversé antéfléchi mesurant  cm.
     Endomètre hyperéchogène mesurant  mm.
     Pas d'anomalie significative du myomètre.
 
-    Ovaires latéraux folliculaires mesurant à droite/gauche  mm.
+    Ovaires latéraux folliculaires mesurant à droite/gauche cm.
     Pas de dilatation tubaire.
 
     Pas d'épanchement pelvien significatif.
@@ -14,10 +14,10 @@
     ```
 === "IRM"
     ```
-    Utérus antéversé antéfléchi mesurant  mm.
-    Endomètre hyperintense en T2 mesurant  mm.
+    Utérus antéversé antéfléchi mesurant  cm.
+    Endomètre en hypersignal T2 mesurant  mm.
     Intégrité de la zone jonctionnelle et du myomètre.
-    Ovaires latéraux folliculaires mesurant à droite/gauche  mm.
+    Ovaires latéraux folliculaires mesurant à droite/gauche  cm.
 
     Pas d'adénomégalie.
     Pas d'épanchement pelvien significatif.
@@ -25,7 +25,7 @@
     ```
 === "K endomètre"
     ```
-    Utérus antéversé antéfléchi mesurant  mm.
+    Utérus antéversé antéfléchi mesurant  cm.
     Masse endométriale mesurant  mm.
     Envahissement de plus/moins de 50% du myomètre.
 
@@ -41,7 +41,7 @@
     <p style="text-align: center"><a href="http://oncologik.fr/referentiels/dsrc/uterus-corps-endometre#12.Classification%20FIGO%202023"target="_blank">FIGO</a></p>
 === "K col"
     ```
-    Utérus antéversé antéfléchi mesurant  mm.
+    Utérus antéversé antéfléchi mesurant  cm.
     Endomètre en hypersignal T2 mesurant  mm.
     Ovaires latéro-utérins fibreux.
 

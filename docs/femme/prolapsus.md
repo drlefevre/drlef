@@ -2,9 +2,9 @@
 
 ```
 Du point de vue morphologique : 
-Utérus antéversé antéfléchi mesurant 
-Endomètre hyperintense en T2 millimétrique.
-Ovaires latéro-utérins, fibreux, en rapport avec le statut post-ménopausique.
+Utérus antéversé antéfléchi mesurant  cm.
+Endomètre en hypersignal T2, millimétrique.
+Ovaires latéraux fibreux, en rapport avec le statut post-ménopausique.
 Pas de syndrome de masse ni d'adénomégalie dans le pelvis.
 Trophicité conservée des faisceaux puborectaux et iliococcygien du muscle releveur de l'anus.
 

@@ -2,11 +2,11 @@
     ```
     Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
-    Utérus antéversé antéfléchi mesurant  mm.
+    Utérus antéversé antéfléchi mesurant  cm.
     Endomètre hyperéchogène mesurant  mm.
     Pas d'anomalie significative du myomètre.
 
-    Ovaires latéraux folliculaires mesurant à droite/gauche  mm.
+    Ovaires latéraux folliculaires mesurant à droite/gauche  cm.
     Pas de dilatation tubaire.
 
     Pas d'épanchement pelvien significatif.
@@ -17,11 +17,11 @@
     Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
     Ovaires latéro-utérins contenant moins de 25 follicules par ovaire.
-    Ovaire droit mesurant  mm pour une surface estimée à  cc.
-    Ovaire gauche mesurant  mm pour une surface estimée à  cc.
+    Ovaire droit mesurant  cm pour une surface estimée à  cc.
+    Ovaire gauche mesurant  cm pour une surface estimée à  cc.
     Pas de dilatation tubaire.
 
-    Utérus antéversé antéfléchi mesurant  mm.
+    Utérus antéversé antéfléchi mesurant  cm.
     Endomètre hyperéchogène mesurant  mm.
     Pas d'anomalie significative du myomètre.
 
@@ -33,7 +33,7 @@
     ```
     Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
-    Ovaires latéraux folliculaires mesurant à droite/gauche  mm.
+    Ovaires latéraux folliculaires mesurant à droite/gauche  cm.
 
     Nombre et taille des follicules à droite et à gauche :
         - De moins de 5 mm :           
@@ -45,7 +45,7 @@
         - à gauche
 
     Pas de dilatation tubaire.
-    Utérus antéversé antéfléchi mesurant  mm.
+    Utérus antéversé antéfléchi mesurant  cm.
     Endomètre hyperéchogène mesurant  mm.
     Pas d'anomalie significative du myomètre.
     Pas d'épanchement pelvien significatif.
@@ -54,9 +54,9 @@
     <p style="text-align: center">écho à <b>J3</b> du cycle, réserve ovarienne faible si < 5 follicules/ovaire</p>
 === "IRM"
     ```
-    Ovaires latéraux folliculaires mesurant à droite/gauche  mm.
+    Ovaires latéraux folliculaires mesurant à droite/gauche  cm.
     
-    Utérus antéversé antéfléchi mesurant  mm.
+    Utérus antéversé antéfléchi mesurant  cm.
     Endomètre en hypersignal T2 mesurant  mm.
     Intégrité de la zone jonctionnelle et du myomètre.
 

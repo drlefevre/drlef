@@ -1,11 +1,11 @@
 # Endométriose  
 
 ```
-Utérus antéversé antéfléchi mesurant  mm.
+Utérus antéversé antéfléchi mesurant  cm.
 Endomètre en hypersignal T2 mesurant  mm.
 Intégrité de la zone jonctionnelle et du myomètre.
 
-Ovaires latéraux folliculaires mesurant à droite/gauche  mm.
+Ovaires latéraux folliculaires mesurant à droite/gauche  cm.
 Pas d'endométriome ou d'implant hémorragique.
 Pas de dilatation tubaire.
 
