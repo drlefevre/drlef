@@ -68,9 +68,11 @@
     - sécrétoire J15-28 = hyperéchogène 8 - 15 mm
     <figure markdown="span">
         ![](assets/endometre.jpg){width="550"}
+        </br>
+        [Causes d'épaississement endométrial](https://cglre.org/endometre-page-1/){:target="_blank"}
     </figure>
 
-!!! tip "**Adénomyose** interne = 40% des femmes"
+!!! tip "[**Adénomyose** interne](https://cglre.org/adenomyose1/){:target="_blank"} = 40% des femmes"
     - focale/diffuse superficielle/profonde (cut-off 1/3 myomètre)
     - IRM = microkystes sous-endométriaux, **ZJ > 11 mm** ou > 40% du myomètre
     - écho = utérus globuleux, **interface floue** endo/myomètre, microlacunes myométriales

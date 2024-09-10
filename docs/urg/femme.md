@@ -6,7 +6,7 @@
     - sac gestationnel intrautérin sans vésicule vitelline = GLI (< 5 SA ou pseudosac)
     - sac gesta > 10 mm = vésicule / > 16 mm = embryon / embryon > 4 mm = act. <3
     <figure markdown="span">
-        ![](assets/GEU.jpg){width="300"}
+        [![](assets/GEU.jpg){width="300"}](https://cglre.org/geu1/){:target="_blank"}
     </figure>
 === "TORSION"
     - dl pelvienne brutale intense + nausées
@@ -14,7 +14,7 @@
     - complique notamment **kyste dermoïde** et **fibrome** ovarien (tumeurs denses)
     - IRM = 3 plans T2 ± T1 DIXON pré et post-gado
     <figure markdown="span">
-        ![](assets/torsion.jpg){width="300"}
+        [![](assets/torsion.jpg){width="300"}](https://cglre.org/torsions-page-1/){:target="_blank"}
     </figure>
 === "MAV"
     - **curetage**, après ttt d'une tumeur trophoblastique gestationnelle (15%)
