@@ -37,6 +37,8 @@
     <figure markdown="span">
         ![](assets/VB.jpg){width="700"}
         </br>
+        ![](assets/dysmorphie.jpg){width="600"}
+        </br>
         ![](assets/childliver.jpg){width="500"}
     </figure>
 
@@ -60,10 +62,8 @@
 
 === "THYR"
     ```
-    Volume des lobes droit/gauche estimé à  cc.
-
-    Contours réguliers.
-    Echostructure homogène hyperéchogène.
+    Volumes des lobes droit/gauche estimés à  cc.
+    Contours réguliers et échostructure homogène hyperéchogène.
     Pas d'hypervascularisation au Doppler.
 
     Pas d'image nodulaire significative.
