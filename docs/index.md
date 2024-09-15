@@ -239,6 +239,7 @@
     <figure markdown="span">
         ![](assets/pros.jpg){width="700"}
         hypertrophie si > 30 cc
+        </br> RPM significatif si > 20 cc
     </figure>
 
 === "RxT"

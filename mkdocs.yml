@@ -13,7 +13,7 @@ nav:
   - Femme:
     - EPP: femme/EPP.md
     - Seins: femme/seins.md
-    - Utérus: femme/uterus.md
+    - Utérus: femme/utérus.md
     - Ovaires: femme/ovaires.md
     - Hystéro: femme/hystéro.md
     - Prolapsus: femme/prolapsus.md
@@ -21,7 +21,7 @@ nav:
     - Malformations: femme/malformations.md
   - Thorax:
     - Nodules: thorax/nodules.md
-    - Médiastin: thorax/mediastin.md
+    - Médiastin: thorax/médiastin.md
     - Infections: thorax/infections.md
     - Bronches: thorax/bronches.md
     - Cavités: thorax/cavités.md
@@ -30,7 +30,10 @@ nav:
     - PID: thorax/PID.md
   - Uro:
     - Reins: uro/reins.md
+    - Vessie: uro/vessie.md
     - Prostate: uro/prostate.md
+    - Ouraque: uro/ouraque.md
+    - Dérivations: uro/dérivations.md
     - Rétropéritoine: uro/rétropé.md
 
 theme:
