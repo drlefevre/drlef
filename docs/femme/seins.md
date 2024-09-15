@@ -21,7 +21,7 @@
     === "Masse"
         <figure markdown="span">
             ![](assets/masse.jpg){width="500"}
-            </br>**BI-RADS 3 ssi écho** = ovale/ronde, orientation parallèle, contours circonscrits, </br>homogène, sans atténuation postérieure => contrôle M4 puis M8 puis M12
+            </br>**BI-RADS 3 ssi écho** = ovale/ronde, orientation parallèle, contours circonscrits, </br>homogène, sans atténuation postérieure => contrôle M4 M+8 M+12
         </figure>
     === "Asymétrie"
         <figure markdown="span">
