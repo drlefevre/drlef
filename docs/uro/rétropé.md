@@ -11,4 +11,7 @@
     - Erdheim-Cheister = reins chevelus (DD lymphome, hématopoïèse extram.)
     - carcinose = sein, estomac, colon, prostate, poumon, rein
 
-!!! tip "Hématome spontané = AML >> CCC"
+!!! tip "Hématome spontané = <b>AML</b> >> CCC"
+    <figure markdown="span">
+        ![](assets/AML.jpg){width=350"}
+    </figure>
