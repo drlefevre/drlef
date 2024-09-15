@@ -59,6 +59,7 @@
     ![](assets/figo.jpg){width="730"}
     > 5 myomes / > 5 cm => IRM
     ![](assets/myomes.jpg){width="670"}
+    /!\ [léiomyosarcome](formation/congres/the-better-check-un-acronyme-pour-mieux-differencier-le-leiomyosarcome-du-leiomyome-atypique/){:target="_blank"} si > 45 ans, T2 intermédiaire hétérogène, contours nodulaires, </br> T1 hémorragique hétérogène, ADC < 0.9, nécrose centrale, > 10 cm
 </figure>
 
 !!! tip "**Endomètre** normal (ménopause ≤ 5 mm, ≤ 10 mm sous THS)"
