@@ -10,11 +10,12 @@
     envahissement <b>péri-vésical = T3b</b>
     ![](assets/vessieTNM.jpg){width=550"}
     ![](assets/vessiegg.jpg){width=400"}
+    <b>métas</b> = poumons, foie, os  
     </br>
-    score <b>VI-RADS</b> > 15j après RTUV
     ![](assets/virads.jpg){width=450"}
+    score <b>VI-RADS</b> > 15j après RTUV
     ![](assets/viradsIRM.jpg){width=600"}
     </br>
-    léiomyome = hT2, bénin, rare
     ![](assets/leiomyome.jpg){width=300"}
+    léiomyome = hT2, bénin, rare
 </figure>

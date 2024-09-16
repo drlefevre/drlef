@@ -31,10 +31,13 @@ nav:
   - Uro:
     - Reins: uro/reins.md
     - Vessie: uro/vessie.md
+    - Greffon: uro/greffon.md
+    - Lithiase: uro/lithiase.md
     - Prostate: uro/prostate.md
     - Ouraque: uro/ouraque.md
     - Dérivations: uro/dérivations.md
     - Rétropéritoine: uro/rétropé.md
+    - Malformations: uro/malfo.md
 
 theme:
   name: material

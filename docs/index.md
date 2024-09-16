@@ -201,7 +201,7 @@
     Vascularisation symétrique sans particularité.
     ```
     <figure markdown="span">
-        ![](assets/testis.jpg){width="700"}
+        ![](assets/testis.jpg){width="800"}
         </br>
         12-20 cc
         </br>
@@ -212,6 +212,9 @@
         <a href="https://radiopaedia.org/articles/epididymitis"target="_blank">Epididymite</a>
         </br>
         <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2728311/"target="_blank">Ectasie tubulaire du rete testis</a>
+        </br>  
+        ![](assets/adptesti.jpg){width="300"}
+        lésion = TDM TAP (métas poumons, foie, cerveau, os)
     </figure>
 
 === "PROS"
@@ -273,7 +276,4 @@
         /!\ rétention (obstacle) / inclusion (reste dans le sac folliculaire)
         </br></br>
         ![](assets/dent.jpg){width="500"}
-        </br>
-
-        
     </figure>
