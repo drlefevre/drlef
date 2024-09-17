@@ -1,10 +1,23 @@
 # Accueil
 
-<p style="text-align: center"><a href="https://www.imaios.com/fr/login"target="_blank">imaios</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://radiopaedia.org/"target="_blank">radiopaedia</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.radrap.ch/comptesrendus"target="_blank">modèles de CR</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://radref.org/ref.php"target="_blank">radref</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.ccam-radiologie.fr/echographie-abdomen-pelvis/"target="_blank">ccam</a>
+<p style="text-align: center"><a href="https://www.imaios.com/fr/login"target="_blank">imaios</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://radiopaedia.org/"target="_blank">radiopaedia</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.radrap.ch/comptesrendus"target="_blank">CR types</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://radref.org/ref.php"target="_blank">radref</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.ccam-radiologie.fr/echographie-abdomen-pelvis/"target="_blank">ccam</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://aderim.radiologie.fr/"target="_blank">aderim</a>
 </br>rempl cima / elindo, Lens 1314</p>
 
 === "ABDO"
     ```
+    Reins :
+    Grand axe mesurant à droite/gauche  mm.
+    Contours réguliers et différenciation satisfaisante.
+    Pas de dilatation des cavités pyélo-calicielles.
+    Pas de lésion suspecte ni d'image lithiasique.
+
+    Vessie :
+    En réplétion, avec contenu anéchogène.
+    Pas d'anomalie de paroi décelable.
+    Pas d'épanchement péritonéal.
+    Pas de résidu post-mictionnel.
+    ```
+    ```
     Pancréas d'analyse limitée (interpositions aérodigestives), sans anomalie visible.
     Foie de taille et de morphologie normales, sans lésion focale.
     Tronc porte avec flux hépatopète et veines sus-hépatiques hépatofuges.
@@ -17,18 +30,8 @@
     Pas d'épanchement péritonéal.
     ```
     ```
-    Pancréas d'analyse limitée (interpositions aérodigestives), sans anomalie visible.
-    Foie de taille et de morphologie normales, sans lésion focale.
-    Tronc porte avec flux hépatopète et veines sus-hépatiques hépatofuges.
-    Pas de dilatation des voies biliaires. Vésicule biliaire alithiasique.
-    Rate de taille normale.
-    
-    Pas de dilatation des cavités pyélocalicielles.
-    Reins de taille et de morphologie normales, sans lésion focale.
-    Vessie en faible réplétion, sans anomalie décelable.
     Utérus d'aspect normal avec endomètre hyperéchogène fin.
     Ovaires latéro-utérins folliculaires sans particularité.
-    Pas d'épanchement péritonéal.
     ```
     <figure markdown="span">
         ![](assets/angiome.jpg){width="430"}
@@ -42,28 +45,10 @@
         ![](assets/childliver.jpg){width="500"}
     </figure>
 
-=== "REINS"
-    ```
-    Reins :
-    Grand axe mesurant à droite/gauche  mm.
-    Contours réguliers et différenciation parenchymo-sinusale satisfaisante.
-    Pas de dilatation des cavités pyélo-calicielles.
-    Pas de lésion suspecte ni d'image lithiasique.
-
-    Vessie :
-    En réplétion, avec contenu anéchogène.
-    Pas d'anomalie de paroi décelable.
-    Pas d'épanchement péritonéal.
-    Pas de résidu post-mictionnel.
-    ```
-    <figure markdown="span">
-        ![](assets/reins.jpg){width="700"}
-    </figure>
-
 === "THYR"
     ```
-    Volumes des lobes droit/gauche estimés à  cc.
     Contours réguliers et échostructure hyperéchogène homogène.
+    Volumes des lobes droit/gauche estimés à  cc.
     Pas d'hypervascularisation au Doppler.
 
     Pas d'image nodulaire significative.
@@ -111,10 +96,10 @@
 
 === "ORL"
     ```
-    Thyroïde de taille et de morphologie normales, sans image nodulaire significative.
-    Aspect normal des glandes submandibulaires et parotides, sans lésion focale.
+    Absence d'adénomégalie cervicale.
     Perméabilité des vaisseaux jugulo-carotidiens.
-    Absence de ganglion cervical suspect.
+    Aspect normal des glandes submandibulaires et parotides, sans lésion focale.
+    Thyroïde de taille et de morphologie normales, sans image nodulaire significative.
     ```
     <figure markdown="span">
         ![](assets/salivaires.jpg){width="700"}
@@ -200,7 +185,7 @@
     Vascularisation symétrique sans particularité.
     ```
     <figure markdown="span">
-        ![](assets/testis.jpg){width="800"}
+        ![](assets/testis.jpg){width="740"}
         </br>
         12-20 cc
         </br>
