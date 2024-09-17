@@ -63,7 +63,7 @@
 === "THYR"
     ```
     Volumes des lobes droit/gauche estimés à  cc.
-    Contours réguliers et échostructure homogène hyperéchogène.
+    Contours réguliers et échostructure hyperéchogène homogène.
     Pas d'hypervascularisation au Doppler.
 
     Pas d'image nodulaire significative.
@@ -73,9 +73,8 @@
     Pas d'adénopathie dans les secteurs II, III, IV et VI.
     ```
     <figure markdown="span">
-        [![](assets/TIRADS.jpg){width="650"}](https://toulouse-thyroide.fr/?page_id=233(opens%20in%20a%20new%20tab)){:target="_blank"}
-        [EU-TIRADS 2017](https://cireol.net/wp-content/uploads/2017/05/2017-CIREOL-EUTIRADS.pdf){:target="_blank"}
-        </br>
+        [![](assets/tirads5.jpg){width="650"}](https://cdn-radeos.fra1.digitaloceanspaces.com/capsule/24/resources/capsule-24-ressource-36-comment-faire-et-interpreter-une-echographie-thyroidienne.pdf){:target="_blank"}
+        [![](assets/TIRADS.jpg){width="650"}](https://cireol.net/wp-content/uploads/2017/05/2017-CIREOL-EUTIRADS.pdf){:target="_blank"}
         <b>4-10 cc/lobe</b> (< 9 cc ♀ et < 8 cc ado), Doppler < 40 cm/s
         </br>↗ taille significative si + 2 mm dans 2 diamètres et/ou 50% en volume
         </br>
@@ -83,14 +82,14 @@
     </figure>
     === "Basedow"
         - goitre hypoéchogène homogène
-        - hypervascularisation intense > 100 cm/s
+        - hypervascularisation intense > 1 m/s ("thyroid inferno" > 50% parenchyme)
         - récidive : plus hétérogène et moins vascularisé
         <figure markdown="span">
             ![](assets/Basedow.jpg){width="500"}
         </figure>
     === "Hashimoto"
-        - goitre hypoéchogène multinodulaire
-        - hypervascularisation modérée 60 cm/s
+        - goitre hypoéchogène micronodulaire
+        - hypervascularisation modérée < 1 m/s
         - suivi/an, travées fibreuses hyperécho, /!\ lymphome/cancer
         <figure markdown="span">
             ![](assets/Hashimoto.jpg){width="500"}

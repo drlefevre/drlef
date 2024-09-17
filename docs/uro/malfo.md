@@ -4,7 +4,7 @@
     ![](assets/malfo.jpg){width=500"}
     reins en <b>fer à cheval</b> / ectopie rénale croisée / reins pancake
     </br></br>
-    ![](assets/malfo2.jpg){width=580"}
+    ![](assets/malfo2.jpg){width=520"}
     duplication urétérale complète / ectopie vs ptose / malrotation
     </br></br>
     ![](assets/malfo3.jpg){width=580"}
