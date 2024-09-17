@@ -1,6 +1,7 @@
 <figure markdown="span">
-    <b>H40</b>, 10% pop°, récidive ++, TDM < 48h
-    </br>Ⓤ fièvre/anurie/hyperalgie/uropathie
+    <b>H40</b>, 10% pop°, récidive ++, TDM < 48h  
+    Ⓤ fièvre/anurie/hyperalgie/uropathie  
+    passage spontané possible ↬ 6-8 mm
     </br></br>
     ![](assets/lithiase.jpg){width=650"}
     </br>
