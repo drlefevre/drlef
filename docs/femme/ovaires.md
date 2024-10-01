@@ -16,9 +16,8 @@
     ```
     Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
-    Ovaires latéro-utérins contenant moins de 25 follicules par ovaire.
-    Ovaire droit mesurant  mm pour une surface estimée à  cc.
-    Ovaire gauche mesurant  mm pour une surface estimée à  cc.
+    Ovaires latéraux folliculaires mesurant à droite/gauche  mm et  cm².
+    Ils contiennent moins de 25 follicules par ovaire.
     Pas de dilatation tubaire.
 
     Utérus antéversé antéfléchi mesurant  cm.
@@ -33,16 +32,16 @@
     ```
     Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
-    Ovaires latéraux folliculaires mesurant à droite/gauche  mm.
+    Ovaires latéraux folliculaires mesurant à droite/gauche  mm et  cm².
 
-    Nombre et taille des follicules à droite et à gauche :
-        - De moins de 5 mm :           
+    Nombre et taille des follicules à droite/gauche :
+        - De moins de 5 mm : 
         - Entre 5 et 10 mm : 
         - De plus de 10 mm : 
 
-    Doppler des artères utérines avec IR et IP :
-        - à droite 
-        - à gauche
+    Doppler des artères utérines avec IR/IP :
+        - à droite : 
+        - à gauche : 
 
     Pas de dilatation tubaire.
     Utérus antéversé antéfléchi mesurant  cm.
