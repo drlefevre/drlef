@@ -63,18 +63,19 @@
         <b>4-10 cc/lobe</b> (< 9 cc ♀ et < 8 cc ado), Doppler < 40 cm/s
         </br>↗ taille significative si + 2 mm dans 2 diamètres et/ou 50% en volume
         </br>
-        20% [lobe pyramidal](https://radiopaedia.org/articles/pyramidal-lobe-of-thyroid){:target="_blank"} = reliquat du tractus thyréoglosse
+        20% [lobe pyramidal](https://radiopaedia.org/articles/pyramidal-lobe-of-thyroid){:target="_blank"} = reliquat du tractus thyréoglosse  
+        [cytoponction](https://lamediatheque.radiologie.fr/mediatheque/media.aspx?mediaId=2896&channel=3277){:target="_blank"}
     </figure>
     === "Basedow"
-        - goitre hypoéchogène homogène
-        - hypervascularisation intense > 1 m/s ("thyroid inferno" > 50% parenchyme)
+        - goitre hypoéchogène **homogène**, Ac anti-récepteur de la TSH (TRAK)
+        - hypervascularisation intense **> 1 m/s** ("thyroid inferno" > 50% parenchyme)
         - récidive : plus hétérogène et moins vascularisé
         <figure markdown="span">
             ![](assets/Basedow.jpg){width="500"}
         </figure>
     === "Hashimoto"
-        - goitre hypoéchogène micronodulaire
-        - hypervascularisation modérée < 1 m/s
+        - goitre hypoéchogène **micronodulaire**, Ac anti-TPO +/- anti-Tg
+        - hypervascularisation modérée **< 1 m/s**
         - suivi/an, travées fibreuses hyperécho, /!\ lymphome/cancer
         <figure markdown="span">
             ![](assets/Hashimoto.jpg){width="500"}
@@ -159,7 +160,7 @@
     Absence de hernie ou autre lésion inguinale décelable.
     ```
     <figure markdown="span">
-        [![](assets/ing.jpg){width="600"}](https://lamediatheque.radiologie.fr/mediatheque/media.aspx?mediaId=50350&channel=3277){:target="_blank"}
+        [![](assets/ing.jpg){width="600"}](https://www.youtube.com/watch?v=k7uc1u4TYF4){:target="_blank"}
     </figure>
     <figure markdown="span">
         [![](assets/epigastrique.jpg){width="400"}](https://www.imaios.com/fr/e-anatomy/abdomen-et-pelvis/tdm-axiale-de-l-abdomen-et-du-pelvis-masculin){:target="_blank"}
@@ -237,9 +238,10 @@
     Cadre osseux et parties molles sans particularité.
     ``` 
     <figure markdown="span">
-        ![](assets/rxt.jpg){width="700"}
+        ![](assets/rxt.jpg){width="750"}
         </br>
-        [Syndromes radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"}
+        [syndromes radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"}  
+        [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"} et [bronchiolite](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}
     </figure>
 
 === "PANO"
