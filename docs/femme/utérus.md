@@ -6,7 +6,7 @@
     Endomètre hyperéchogène mesurant  mm.
     Pas d'anomalie significative du myomètre.
 
-    Ovaires latéraux folliculaires mesurant à droite/gauche cm.
+    Ovaires latéraux folliculaires mesurant à droite/gauche  cm.
     Pas de dilatation tubaire.
 
     Pas d'épanchement pelvien significatif.
