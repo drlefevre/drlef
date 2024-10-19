@@ -15,7 +15,6 @@
     En réplétion, avec contenu anéchogène.
     Pas d'anomalie de paroi décelable.
     Pas d'épanchement péritonéal.
-    Pas de résidu post-mictionnel.
     ```
     ```
     Pancréas d'analyse limitée (interpositions aérodigestives), sans anomalie visible.

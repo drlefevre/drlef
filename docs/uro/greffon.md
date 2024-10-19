@@ -1,5 +1,27 @@
 # Greffon rénal
 
+```
+ECHOGRAPHIE DOPPLER DE GREFFON RENAL
+
+INDICATION
+Surveillance d'un greffon rénal en fosse iliaque droite transplanté en
+
+RESULTATS
+Grand axe mesurant
+Pas de dilatation des cavités pyélo-calicielles.
+Contours réguliers et différenciation parenchymo-médullaire satisfaisante.
+Pas de collection péri-rénale ni d'épanchement péritonéal.
+Vessie en semi-réplétion au contenu anéchogène.
+
+Vascularisation intra-rénale homogène.
+Perméabilité des vaisseaux afférents et efférents.
+Vitesse artérielle systolique maximale : 
+Index de résistance intrarénale :
+
+CONCLUSION
+Intégrité morphologique et vasculaire.
+```
+
 <figure markdown="span">
     ![](assets/greffon.jpg){width=250"}
     </br>
