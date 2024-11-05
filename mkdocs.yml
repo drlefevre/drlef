@@ -28,6 +28,8 @@ nav:
     - Plèvre: thorax/plèvre.md
     - Malfo: thorax/malfo.md
     - PID: thorax/PID.md
+  - Ostéo:
+    - Rachis: os/rachis.md
   - Uro:
     - Reins: uro/reins.md
     - Vessie: uro/vessie.md
