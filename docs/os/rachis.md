@@ -1,4 +1,10 @@
 === "LOMB"
+    ``` title="Rx"
+    Lordose physiologique et bon alignement des corps vertébraux.
+    Absence de fracture-tassement ou de déminéralisation osseuse.
+    Intégrité des rapports articulaires et des espaces intersomatiques.
+    Pas de lésion osseuse suspecte et parties molles sans particularité.
+    ```
     ``` title="TDM"
     Pas d'anomalie transitionnelle de la charnière lombo-sacrée.
     Lordose physiologique et bon alignement des corps vertébraux.

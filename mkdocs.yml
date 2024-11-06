@@ -29,6 +29,7 @@ nav:
     - Malfo: thorax/malfo.md
     - PID: thorax/PID.md
   - Ostéo:
+    - Echo: os/écho.md
     - Rachis: os/rachis.md
   - Uro:
     - Reins: uro/reins.md
