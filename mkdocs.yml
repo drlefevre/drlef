@@ -29,9 +29,10 @@ nav:
     - Malfo: thorax/malfo.md
     - PID: thorax/PID.md
   - Ostéo:
-    - Echo: os/écho.md
+    - Genou: os/genou.md
+    - Epaule: os/épaule.md
     - Rachis: os/rachis.md
-    - Trauma: os/membres.md
+    - Trauma: os/trauma.md
   - Uro:
     - Reins: uro/reins.md
     - Vessie: uro/vessie.md

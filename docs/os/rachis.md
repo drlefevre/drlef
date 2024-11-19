@@ -15,6 +15,7 @@
     ```
     ``` title="IRM"
     Projection du cône médullaire en
+    Pas d'anomalie transitionnelle de la charnière lombo-sacrée.
     Respect de la hauteur et bon alignement des corps vertébraux.
     Absence de rétrécissement canalaire ou foraminal.
     Pas d'anomalie de signal des disques ni d'arthrose zygapophysaire.

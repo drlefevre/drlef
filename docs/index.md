@@ -258,7 +258,9 @@
         </br>
         désinclusion (ouverture du sac folliculaire avec formation des racines) < éruption
         </br>
-        /!\ rétention (obstacle) / inclusion (reste dans le sac folliculaire)
-        </br></br>
-        ![](assets/dent.jpg){width="500"}
+        /!\ rétention (obstacle) / inclusion (reste dans le sac folliculaire)  
+        </br>
+        ![](assets/dent.jpg){width="500"}  
+        </br>
+        [Hypertrophie végétations adénoïdes](https://www.radeos.org/maladie/fiche-hypertrophie-des-vegetations-adenoides_1663.html){:target="_blank"}
     </figure>

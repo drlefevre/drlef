@@ -1,4 +1,9 @@
-=== "EPAULE"
+<figure markdown="span">
+    ![](assets/coiffe.jpg){width="540"}  
+    ![](assets/coracoide.jpg){width="420"}
+</figure>
+
+=== "ECHO"
     ```
     Régions antérieure et postérieure (rotation neutre, coude à 90°, paume en haut) :
     Tendon du long biceps en place, d'aspect normal, sans épanchement significatif.
@@ -18,35 +23,14 @@
     Pas de lésion osseuse décelable.
     ```
     <figure markdown="span">
-        ![](assets/coiffe.jpg){width="540"}
-        ![](assets/coracoide.jpg){width="420"}  
         ![](assets/epaule.jpg){width="650"}
     </figure>
 
-=== "COUDE"
+=== "arthroTDM"
     ```
-    ```
-
-=== "POIGNET"
-    ```
-    ```
-
-=== "DOIGT"
-    ```
-    ```
-
-=== "HANCHE"
-    ```
-    ```
-
-=== "GENOU"
-    ```
-    ```
-
-=== "CHEVILLE"
-    ```
-    ```
-
-=== "PIED"
-    ```
+    Bon alignement des structures osseuses.
+    Absence de fracture, d'anomalie osseuse focale, ou de remaniements dégénératifs.
+    Absence de rupture des tendons de la coiffe des rotateurs.
+    Absence d'épanchement intra-articulaire.
+    Trophicité musculaire conservée.
     ```
