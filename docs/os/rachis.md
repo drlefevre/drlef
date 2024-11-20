@@ -35,5 +35,31 @@
         ![](assets/modic.jpg){width="300"}
         **Modic** I = inflammatoire « œdémateux », II = involution graisseuse, III = fibrose
     </figure>
-=== "CERV"
+=== "SCOLIOSE"
+    ```
+    Scoliose  mesurant ° entre le plateau supérieur de  et le plateau inférieur de , avec un sommet au niveau de .
+    Cyphose thoracique (T4-) mesurant ° et lordose lombaire (-S1) mesurant °.
+    Pente sacrée mesurant ° et incidence pelvienne mesurant °.
+
+    Ossification sans particularité pour l'âge, avec un stade Risser 
+    Absence de déséquilibre frontal ou de bascule du bassin.
+    Absence de malformation vertébrale congénitale.
+    ```
+    <figure markdown="span">
+        ![](assets/Cobb.jpg){width="500"}
+        mauvais Pc si > 30°  
+        </br>
+        ![](assets/rotation.jpg){width="230"}
+        degré rotation vertébrale selon Cobb en fonction de l'épineuse  
+        </br>
+        ![](assets/scoliose.jpg){width="900"}
+        déséquilibre frontal (fil à plomb électronique centré sur T1)  
+        bascule du bassin  
+        cyphose thoracique - lordose lombaire (T4 - vertèbre jonctionnelle - S1)  
+        pente sacrée et incidence pelvienne  
+        </br>
+        ![](assets/Risser.jpg){width="450"}
+        évolution à la puberté **jusqu'à Risser 3**  
+        +/- après la ménopause (scoliose dégénérative)
+    </figure>
 
