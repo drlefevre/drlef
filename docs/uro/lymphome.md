@@ -18,6 +18,6 @@
     [**Cheson**](https://imaging.cancer.gov/clinical_trials/docs/Cheson%20(IWG)%20Criteria%20JCO%202007.pdf){:target="_blank"} = max 6 cibles, gg grand axe > 15 mm, lésions extraggR > 10 mm  
     **somme des produits des diamètres** en cm2
     ![](assets/reponse.jpg){width=700"}
-    atteinte bulky si > 7 cm  
+    [atteinte bulky](https://www.lymphoma-care.fr/boite-a-outils/atteinte-volumineuse-des-lymphomes/){:target="_blank"} si > 7-10 cm ou > 1/3 diamètre thorax  
     lésions ostéolytiques
 </figure>
