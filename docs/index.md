@@ -17,10 +17,10 @@
     Pas d'épanchement péritonéal.
     ```
     ```
-    Pancréas d'analyse limitée (interpositions aérodigestives), sans anomalie visible.
     Foie de taille et de morphologie normales, sans lésion focale.
     Tronc porte avec flux hépatopète et veines sus-hépatiques hépatofuges.
     Pas de dilatation des voies biliaires. Vésicule biliaire alithiasique.
+    Pancréas d'analyse limitée (interpositions aérodigestives), sans anomalie visible.
     Rate de taille normale.
 
     Pas de dilatation des cavités pyélocalicielles.
