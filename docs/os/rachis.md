@@ -14,20 +14,27 @@
     Pas de lésion osseuse suspecte et parties molles sans particularité.
     ```
     ``` title="IRM"
-    Projection du cône médullaire en
     Pas d'anomalie transitionnelle de la charnière lombo-sacrée.
-    Respect de la hauteur et bon alignement des corps vertébraux.
-    Absence de rétrécissement canalaire ou foraminal.
-    Pas d'anomalie de signal des disques ni d'arthrose zygapophysaire.
-    Pas de lésion osseuse suspecte et parties molles sans particularité.
+    Projection du cône médullaire en regard de 
+    Pas de fracture-tassement vertébrale.
+    Bon alignement des corps vertébraux.
+    Pas de lésion osseuse suspecte.
+
+    Arthrose articulaire postérieure en
+
+    L1-L2 : Pas de rétrécissement canalaire ou foraminal.
+    L2-L3 : 
+    L3-L4 : 
+    L4-L5 : 
+    L5-S1 : 
     ```
     <figure markdown="span">
-        ![](assets/Castellvi.jpg){width="360"}
+        ![](assets/Castellvi.jpg){width="380"}
         **Castellvi** I = processus transverse élargi ≥ 19 mm d'axe craniocaudal, II = pseudo-articulation avec le sacrum, III = lombalisation ou sacralisation complète, IV = II + III  
         </br>
-        ![](assets/listhesis.jpg){width="215"}  
-        ![](assets/hernie.jpg){width="670"}
-        ![](assets/hernie2.jpg){width="420"}  
+        ![](assets/listhesis.jpg){width="225"}  
+        ![](assets/hernie.jpg){width="680"}
+        ![](assets/hernie2.jpg){width="430"}  
         ![](assets/stenose.jpg){width="400"}
         **Rétrécissement** modéré si diamètre antéro-postérieur < 12 mm voire sévère < 10 mm  
         Sténose minime : LCS visible, modérée : peu visible, sévère : ∅ LCS, extrême : ∅ graisse épidurale  

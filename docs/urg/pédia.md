@@ -3,6 +3,7 @@
 === "APP"
     - non compressible, **> 6 mm** (TDM > 7 mm), hyperhémie, hyperécho autour, 25% stercolithe
     - contenu liquidien + ligne hyper (sous-muqueuse) + anneau hypo (musculeuse)
+    - [complications](https://www.lexipatho.fr/36-appendicite-aigue){:target="_blank"} : plastron, abcès, péritonite
     - DD = [mucocèle](https://radiopaedia.org/articles/appendiceal-mucocele-2){:target="_blank"} (mucoviscidose ++), hyperplasie lymphoïde (âge scolaire ++)
     - DD d'exclusion = [adénolymphite mésentérique](https://radiopaedia.org/articles/mesenteric-adenitis){:target="_blank"} (> 3 gg > 5 mm)
     <figure markdown="span">
