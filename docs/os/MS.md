@@ -15,7 +15,7 @@
     Pas de lésion osseuse décelable.
     ```
     <figure markdown="span">
-        ![](assets/epaule.jpg){width="650"}
+        [![](assets/epaule.jpg){width="650"}](https://www.youtube.com/watch?v=CDN2kX3YkZQ&t=51s){:target="_blank"} 
     </figure>  
     ``` title="arthroTDM"
     Bon alignement des structures osseuses.
