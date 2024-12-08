@@ -56,9 +56,20 @@
     Perméabilité des vaisseaux jugulo-carotidiens.
     Pas d'adénopathie dans les secteurs II, III, IV et VI.
     ```
+    ```
+    Comparaison à l'échographie de
+    
+    Contours thyroïdiens réguliers.
+    Respect du gradient musculo-parenchymateux.
+    Volumes des lobes droit/gauche estimés à  cc.
+
+    Nodule 
+    Pas d'autre image nodulaire significative.
+    Pas d'adénopathie dans les secteurs II, III, IV et VI.
+    ```
     <figure markdown="span">
-        [![](assets/tirads5.jpg){width="650"}](https://cdn-radeos.fra1.digitaloceanspaces.com/capsule/24/resources/capsule-24-ressource-36-comment-faire-et-interpreter-une-echographie-thyroidienne.pdf){:target="_blank"}
-        [![](assets/TIRADS.jpg){width="650"}](https://cireol.net/wp-content/uploads/2017/05/2017-CIREOL-EUTIRADS.pdf){:target="_blank"}
+        [![](assets/tirads5.jpg){width="700"}](https://cdn-radeos.fra1.digitaloceanspaces.com/capsule/24/resources/capsule-24-ressource-36-comment-faire-et-interpreter-une-echographie-thyroidienne.pdf){:target="_blank"}
+        [![](assets/TIRADS.jpg){width="700"}](https://cireol.net/wp-content/uploads/2017/05/2017-CIREOL-EUTIRADS.pdf){:target="_blank"}
         <b>4-10 cc/lobe</b> (< 9 cc ♀ et < 8 cc ado), Doppler < 40 cm/s
         </br>↗ taille significative si + 2 mm dans 2 diamètres et/ou 50% en volume
         </br>
@@ -245,7 +256,7 @@
 
 === "PANO"
     ```
-    Intégrité de la denture.
+    Pas de carie ni de lacune apico-dentaire.
     Dents de sagesse en place. 
 
     Bonne ventilation des cuvettes maxillaires.
