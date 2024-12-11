@@ -22,7 +22,6 @@
     Pas de dilatation des voies biliaires. Vésicule biliaire alithiasique.
     Pancréas d'analyse limitée (interpositions aérodigestives), sans anomalie visible.
     Rate de taille normale.
-
     Pas de dilatation des cavités pyélocalicielles.
     Reins de taille et de morphologie normales, sans lésion focale.
     Vessie en faible réplétion, sans anomalie décelable.

@@ -5,10 +5,9 @@
         ![](assets/coiffe.jpg){width="540"}  
     </figure>
     ``` title="Echo"
-    Régions antérieure et postérieure (rotation neutre, coude à 90°, paume en haut) :
     Tendon du long biceps en place, d'aspect normal, sans épanchement significatif.
     Distance coracoïde-trochin > 6 mm, avec bon glissement du tendon subscapulaire.
-    Intégrité des tendons des muscles supra-épineux, infra-épineux et teres minor.
+    Intégrité des tendons des muscles supra-épineux et infra-épineux.
     Pas d'épaississement ni d'épanchement de la bourse sous-acromio-deltoïdienne.
     Remaniements dégénératifs acromio-claviculaire, sans douleur à l'échopalpation.
     Pas de conflit sous-acromial lors de la manœuvre de Neer.
@@ -26,6 +25,16 @@
     ```
 
 === "COUDE"
+    ``` title="Echo"
+    Pas d'épanchement articulaire.
+    Intégrité du tendon distal du muscle biceps.
+    Pas d'anomalie des tendons communs des épicondyliens latéraux et médiaux.
+    Aspect normal du nerf ulnaire dans son tunnel.
+    Tendon distal du triceps respecté.
+    ```
+    <figure markdown="span">
+        [![](assets/coude.jpg){width="800"}](https://www.youtube.com/watch?v=CDN2kX3YkZQ&t=51s){:target="_blank"} 
+    </figure>  
 
 === "POIGNET"
 
