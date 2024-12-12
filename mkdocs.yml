@@ -44,6 +44,8 @@ nav:
     - Dérivations: uro/dérivations.md
     - Rétropéritoine: uro/rétropé.md
     - Malformations: uro/malfo.md
+  - Dig:
+    - Pancréas: dig/pancréas.md
 
 theme:
   name: material
