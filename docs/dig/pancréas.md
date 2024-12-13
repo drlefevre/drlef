@@ -1,6 +1,31 @@
 === "PA"
+    |  score CTSI (TDM ≥J3-J5) |   |  nécrose pancréatique |  | 
+    | :----------: | :-------: | :----------: | :-------: |
+    | `élargissement focal/diffus` | 1 | `≤ 30%` | 2 |
+    | `infiltration péripancréatique` | 2 | `30-50%` | 4 |
+    | `une/plusieurs collections` | 3/4 | `≥ 50%` | 6 |
 
+    ``` mermaid
+    flowchart TD
+        A(nécrose) -->|oui 15%| B(pancréatite nécrosante);
+        B -->|nécrose péripancréatique isolée 20%| C(collection nécrotique aiguë);
+        B -->|nécrose mixte 75%| C;
+        C -->|4 semaines| D(nécrose organisée pancréatique);
 
+        A -->|non 85%| F(pancréatite œdémato-interstitielle);
+        F --> G(collection liquidienne aiguë péripancréatique);
+        G -->|4 semaines| H(pseudo-kyste);
+    ```
+
+    !!! danger "complications"
+        - a. splénique et gastro/pancréatico-duodénales = **faux-anévrysme** / irrégularité
+        - thrombose veine splénique/VMS/TP => infarctus splénique, HTP segmentaire
+        - rupture du conduit pancréatique principal (40% en cas de nécrose isthmique)
+        - perforation colique, épaississement pariétal et sténose digestive
+
+    <figure markdown="span">
+        [Atlanta 2012](https://onclepaul.net/wp-content/uploads/2011/07/pancr%C3%A9atites-Atlanta-r%C3%A9vis%C3%A9-2012FILEminimizer.pdf){:target="_blank"}
+    </figure>
 
 === "ADK"
     !!! tip "TDM (masse pancréatique => TDM thoracique + IRM hépatique)"
@@ -22,5 +47,6 @@
 
 
 === "TIPMP"
+
 
 === "TNE"
