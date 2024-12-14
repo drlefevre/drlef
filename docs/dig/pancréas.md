@@ -53,6 +53,10 @@
         **80% non fonctionnelles**  
         grande taille avec kyste/nécrose/sang  
         </br>
+        ![](assets/metashyper.jpg){width="300"}
+        **métas hépatiques hypervascularisées**  
+        DD = sein, rein, mélanome, thyroïde  
+        </br>
         ![](assets/insulinome.jpg){width="300"}
         **insulinome** = bénin dans 90%, NEM1  
         surveillance si < 2 cm avec preuve histo  
@@ -88,7 +92,7 @@
     ``` mermaid
     flowchart TD
         style A stroke-width:4px
-        A((paroi épaisse)) -->|face post. corps/queue, ♀, cloisons| B(tumeur kystique mucineuse);
+        A((paroi épaisse)) -->|face post. corps/queue, ♀| B(tumeur kystique mucineuse);
         A -->|♀ jeune, sang, portion tissulaire| C(tumeur pseudo-papillaire et solide); 
         A -->|hypervascularisée| D(TNE); 
     ```
