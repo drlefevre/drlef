@@ -1,7 +1,7 @@
 # Accueil
 
 <p style="text-align: center"><a href="https://www.imaios.com/fr/login"target="_blank">imaios</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://radiopaedia.org/"target="_blank">radiopaedia</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.radrap.ch/comptesrendus"target="_blank">CR types</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://radref.org/ref.php"target="_blank">radref</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.ccam-radiologie.fr/echographie-abdomen-pelvis/"target="_blank">ccam</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://aderim.radiologie.fr/"target="_blank">aderim</a>
-</br>rempl cima / elindo, Lens 1314</p>
+</br>rempl cima / elindo, Lens 1314 pass</p>
 
 === "ABDO"
     ```
@@ -139,7 +139,7 @@
         - finement hétérogène, paroi épaisse hypo, renforcement post
         - **pas de vascularisation**, amincissement dermique > 50%
         - 10% rupture/infection = contours lobulés, hypervasc périph
-        - DD = méta mélanome, sarcome superficiel (rare ++)
+        - DD = [kyste pilonidal](https://radiopaedia.org/articles/pilonidal-sinus){:target="_blank"}, méta mélanome, sarcome superficiel (rare ++)
         <figure markdown="span">
             ![](assets/epidermoide.jpg){width="300"}
         </figure>
