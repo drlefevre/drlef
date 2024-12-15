@@ -169,11 +169,8 @@
     Absence de hernie ou autre lésion inguinale décelable.
     ```
     <figure markdown="span">
-        [![](assets/ing.jpg){width="600"}](https://www.youtube.com/watch?v=k7uc1u4TYF4){:target="_blank"}
-    </figure>
-    <figure markdown="span">
-        [![](assets/epigastrique.jpg){width="400"}](https://www.imaios.com/fr/e-anatomy/abdomen-et-pelvis/tdm-axiale-de-l-abdomen-et-du-pelvis-masculin){:target="_blank"}
-        </br>
+        [![](assets/ing.jpg){width="650"}](https://www.youtube.com/watch?v=k7uc1u4TYF4){:target="_blank"}  
+        [![](assets/epigastrique.jpg){width="400"}](https://www.imaios.com/fr/e-anatomy/abdomen-et-pelvis/tdm-axiale-de-l-abdomen-et-du-pelvis-masculin){:target="_blank"}  
         [DD](https://www.intercomsante57.fr/html/profsante/pdf/L-echographie-dans-les-hernies.pdf){:target="_blank"} douleurs inguinales = arthrose hanche/rachis, pubalgie du sportif
     </figure>
 
@@ -195,18 +192,14 @@
     Vascularisation symétrique sans particularité.
     ```
     <figure markdown="span">
-        ![](assets/testis.jpg){width="740"}
+        ![](assets/testis.jpg){width="800"}
+        12-20 cc  
         </br>
-        12-20 cc
+        <a href="https://radiopaedia.org/articles/adenomatoid-tumours-of-the-scrotum"target="_blank">Tumeur adénomatoïde</a>  
+        <a href="https://radiopaedia.org/articles/spermatocele-1"target="_blank">Spermatocèle</a>  
+        <a href="https://radiopaedia.org/articles/epididymitis"target="_blank">Epididymite</a>  
+        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2728311/"target="_blank">Ectasie tubulaire du rete testis</a>  
         </br>
-        <a href="https://radiopaedia.org/articles/adenomatoid-tumours-of-the-scrotum"target="_blank">Tumeur adénomatoïde</a>
-        </br>
-        <a href="https://radiopaedia.org/articles/spermatocele-1"target="_blank">Spermatocèle</a>
-        </br>
-        <a href="https://radiopaedia.org/articles/epididymitis"target="_blank">Epididymite</a>
-        </br>
-        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2728311/"target="_blank">Ectasie tubulaire du rete testis</a>
-        </br>  
         ![](assets/adptesti.jpg){width="300"}
         lésion = TDM TAP (métas poumons, foie, cerveau, os)
     </figure>
@@ -247,7 +240,7 @@
     Cadre osseux et parties molles sans particularité.
     ``` 
     <figure markdown="span">
-        ![](assets/rxt.jpg){width="750"}
+        ![](assets/rxt.jpg){width="800"}
         </br>
         [syndromes radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"}  
         [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"} et [bronchiolite](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}

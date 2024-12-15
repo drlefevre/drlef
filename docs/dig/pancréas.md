@@ -14,7 +14,7 @@
 
         A -->|non 85%| F(pancréatite œdémato-interstitielle);
         F --> G(collection liquidienne aiguë péripancréatique);
-        G -->|4 semaines| H(pseudokyste);
+        G -->|4 semaines| H(pseudo-kyste);
     ```
 
     !!! danger "complications"
@@ -68,15 +68,27 @@
 
 
 === "TIPMP"
+    <figure markdown="span">
+        ![](assets/tipmp.jpg){width="300"}
+        TIPMP des canaux secondaires = 50% dans l'**uncus** = 5% malignité  
+        </br>
+        ![](assets/tipmpcpp.jpg){width="300"}
+        atteinte du CPP si dilatation sans sténose **> 6 mm** = 60% malignité  
+    </figure> 
 
-
+    !!! warning "[indications chirurgicales](https://www.fmcgastro.org/texte-postu/postu-2019-paris/prise-en-charge-des-tipmp-recommandations-europeennes/){:target="_blank"} (sinon surveillance /an)"
+        - absolues = **ictère**, **bourgeon ≥ 5 mm**, **CPP > 10 mm**
+        - relatives = PA, kyste > 4 cm ou > 5mm/an, CPP 5-9 mm, bourgeon < 5 mm
 
 
 === "KYSTES"
+    <figure markdown="span">
+        **VHL** = cystadénomes séreux, kystes vrais et TNE
+    </figure> 
 
     ``` mermaid
     flowchart TD
-        A(kyste) -->|PA| B("`**pseudokyste**/NOP`");
+        A(kyste) -->|PA| B("`**pseudo-kyste**/NOP`");
         A -->|obstacle ductal| C(kyste rétentionnel);
         A --> D(forme);  
         D --> E((ronde));
