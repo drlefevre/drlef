@@ -30,9 +30,22 @@
     <figure markdown="span">
         ![](assets/dkpa.jpg){width="300"}
         [DKPA](https://onclepaul.fr/wp-content/uploads/2011/07/pancreatites-paraduod%C3%A9nales.pdf){:target="_blank"} = pancréatite paraduodénale = pancréatite du sillon  
-        H40 OH-tabac, épicentre au niveau de la papille mineure,  
-        paroi D2 épaissi avec PDC marquée et kystes
+        H50 OH-tabac, épicentre au niveau de la papille mineure,  
+        paroi D2 épaissi avec PDC marquée et kystes,  
+        évolution subaiguë/chronique
     </figure>
+
+
+=== "PC"
+    <figure markdown="span">
+        ![](assets/PC.jpg){width="430"}
+    </figure>
+
+    !!! info "causes"
+        - OH et tabac +++
+        - hyperCa<sup>2+</sup>, IRC
+        - auto-immune
+        - pancréas *divisum* 
 
 
 === "ADK"
