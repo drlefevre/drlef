@@ -1,4 +1,8 @@
 === "PA"
+    <figure markdown="span">
+        [Atlanta 2012](https://onclepaul.net/wp-content/uploads/2011/07/pancr%C3%A9atites-Atlanta-r%C3%A9vis%C3%A9-2012FILEminimizer.pdf){:target="_blank"}  
+    </figure>
+
     |  score CTSI (TDM ≥J3-J5) |   |  nécrose pancréatique |  | 
     | :----------: | :-------: | :----------: | :-------: |
     | `élargissement focal/diffus` | 1 | `≤ 30%` | 2 |
@@ -24,11 +28,18 @@
         - perforation colique, épaississement pariétal et sténose digestive
 
     <figure markdown="span">
-        [Atlanta 2012](https://onclepaul.net/wp-content/uploads/2011/07/pancr%C3%A9atites-Atlanta-r%C3%A9vis%C3%A9-2012FILEminimizer.pdf){:target="_blank"}
+        ![](assets/dkpa.jpg){width="300"}
+        [DKPA](https://onclepaul.fr/wp-content/uploads/2011/07/pancreatites-paraduod%C3%A9nales.pdf){:target="_blank"} = pancréatite paraduodénale = pancréatite du sillon  
+        H40 OH-tabac, épicentre au niveau de la papille mineure,  
+        paroi D2 épaissi avec PDC marquée et kystes
     </figure>
 
 
 === "ADK"
+    <figure markdown="span">
+        ![](assets/anatpanc.jpg){width="550"}
+    </figure>
+
     !!! tip "TDM (masse pancréatique => TDM thoracique + IRM hépatique)"
         - lésion céphalo-isthmique vs corporéo-caudale (en dh bord gauche VMS)
         - extension vasculaire : aorte, tronc cœliaque, AH, AMS, VMS, TP, VCI, vx spléniques
@@ -83,35 +94,31 @@
 
 === "KYSTES"
     <figure markdown="span">
-        **VHL** = cystadénomes séreux, kystes vrais et TNE
+        ![](assets/kystespanc.jpg){width="550"}
     </figure> 
 
     ``` mermaid
     flowchart TD
-        A(kyste) -->|PA| B("`**pseudo-kyste**/NOP`");
-        A -->|obstacle ductal| C(kyste rétentionnel);
-        A --> D(forme);  
-        D --> E((ronde));
-        D --> F(((polylobé)));      
+        E((paroi fine)) -->|uncus, communication CPP, multiples| G(TIPMP conduit secondaire); 
+        E -->|microkyste périphérique| H(cystadénome séreux uniloculaire);
     ```
 
     ``` mermaid
     flowchart TD
-        A((paroi fine)) -->|communication CPP, multiples| B(TIPMP conduit secondaire);
-        A -->|microkyste périphérique| C(cystadénome séreux uniloculaire);
+        style F stroke-width:4px
+        F((paroi épaisse)) -->|face post. corps/queue, ♀, cloisons perpendiculaires| I(tumeur kystique mucineuse);
+        F -->|♀ jeune, sang, portion tissulaire| J(tumeur pseudo-papillaire et solide); 
+        F -->|hypervascularisée| K(TNE);
     ```
 
     ``` mermaid
     flowchart TD
-        style A stroke-width:4px
-        A((paroi épaisse)) -->|face post. corps/queue, ♀| B(tumeur kystique mucineuse);
-        A -->|♀ jeune, sang, portion tissulaire| C(tumeur pseudo-papillaire et solide); 
-        A -->|hypervascularisée| D(TNE); 
+        D(((polylobé))) -->|uncus, communication CPP, multiples| L(TIPMP conduit secondaire);
+        D -->|forme molle, graisse| M(malformation lymphatique);
+        D -->|calcification centrale| N(cystadénome séreux);
     ```
 
-    ``` mermaid
-    flowchart TD
-        A(((polylobé))) -->|communication CPP, multiples| B(TIPMP conduit secondaire);
-        A -->|forme molle, graisse| C(malformation lymphatique);
-        A -->|calcification centrale| D(cystadénome séreux);
-    ```
+    <figure markdown="span">
+        </br>
+        **VHL** = kystes vrais, cystadénomes séreux, et TNE
+    </figure> 
