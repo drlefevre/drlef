@@ -9,23 +9,23 @@ nav:
     - Mort: urg/mort.md
     - Thorax: urg/thorax.md
     - Femme: urg/femme.md
-    - Pédiatrie: urg/pédia.md
+    - Pédiatrie: urg/pedia.md
   - Femme:
     - EPP: femme/EPP.md
     - Seins: femme/seins.md
-    - Utérus: femme/utérus.md
+    - Utérus: femme/uterus.md
     - Ovaires: femme/ovaires.md
-    - Hystéro: femme/hystéro.md
+    - Hystéro: femme/hystero.md
     - Prolapsus: femme/prolapsus.md
     - Pelviscanner: femme/pelviscanner.md
     - Malformations: femme/malformations.md
   - Thorax:
     - Nodules: thorax/nodules.md
-    - Médiastin: thorax/médiastin.md
+    - Médiastin: thorax/mediastin.md
     - Infections: thorax/infections.md
     - Bronches: thorax/bronches.md
-    - Cavités: thorax/cavités.md
-    - Plèvre: thorax/plèvre.md
+    - Cavités: thorax/cavites.md
+    - Plèvre: thorax/plevre.md
     - Malfo: thorax/malfo.md
     - PID: thorax/PID.md
   - Ostéo:
@@ -41,11 +41,11 @@ nav:
     - Prostate: uro/prostate.md
     - Ouraque: uro/ouraque.md
     - Lymphome: uro/lymphome.md
-    - Dérivations: uro/dérivations.md
-    - Rétropéritoine: uro/rétropé.md
+    - Dérivations: uro/derivations.md
+    - Rétropéritoine: uro/retrope.md
     - Malformations: uro/malfo.md
   - Dig:
-    - Pancréas: dig/pancréas.md
+    - Pancréas: dig/pancreas.md
 
 theme:
   name: material
