@@ -61,6 +61,7 @@
     Contours thyroïdiens réguliers.
     Respect du gradient musculo-parenchymateux.
     Volumes des lobes droit/gauche estimés à  cc.
+    Pas d'hypervascularisation au Doppler.
 
     Nodule 
     Pas d'autre image nodulaire significative.
@@ -153,7 +154,9 @@
             ![](assets/lipome.jpg){width="300"}
         </figure>
         ```
-        Formation ovalaire superficielle, sus-aponévrotique, compressible et indolore, sans flux Doppler : aspect évocateur de lipome.
+        En regard de , formation ovalaire superficielle d'allure graisseuse mesurant , sus-aponévrotique et sans extension au fascia et au plan musculaire, compressible et indolore, sans flux Doppler : aspect évocateur de lipome sans signe d'atypie.
+
+        Un contrôle échographique sera nécessaire en cas d'évolutivité.
         ```
     !!! tip "[tumeur desmoïde](https://radiopaedia.org/articles/desmoid-tumour){:target="_blank"}"
         - paroi abdominale, croissance lente, dans le plan musculaire
@@ -167,6 +170,13 @@
     Examen en position debout lors de manœuvres de Valsalva répétées.
     
     Absence de hernie ou autre lésion inguinale décelable.
+    ```
+    ```
+    Hernie inguinale
+
+    Pas de hernie inguinale controlatérale.
+
+    Consignes de consultation aux urgences en cas de tuméfaction inguinale irréductible et inflammatoire qui ferait suspecter un étranglement.
     ```
     <figure markdown="span">
         [![](assets/ing.jpg){width="650"}](https://www.youtube.com/watch?v=k7uc1u4TYF4){:target="_blank"}  
@@ -265,5 +275,11 @@
         </br>
         ![](assets/dent.jpg){width="500"}  
         </br>
+    </figure>
+    ```title="CAVUM"
+    Discret épaississement des tissus mous du cavum, avec aspect convexe des contours antéro-inférieurs, sans retentissement significatif sur la filière naso-phrayngée.
+    Cadre osseux sans particularité.
+    ```  
+    <figure markdown="span">
         [Hypertrophie végétations adénoïdes](https://www.radeos.org/maladie/fiche-hypertrophie-des-vegetations-adenoides_1663.html){:target="_blank"}
     </figure>

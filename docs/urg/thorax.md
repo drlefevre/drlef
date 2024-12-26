@@ -10,8 +10,10 @@
     - HTP = AP > Ao (> 30 mm), dilatation et hypertrophie VD (> 4 mm)
     - **TEC** = thrombi marginés, synéchies, hypervasc. systémique, perfusion mosaïque
 
-</br><p style="text-align: center"><a href="https://onclepaul.net/wp-content/uploads/2011/07/Syndrome-aortique-aigu.pdf"target="_blank"><b>Syndrome aortique aigu</b></a></p></br>
-
 <figure markdown="span">
-    ![](assets/hemo.jpg){width="700"}
+    </br>
+    [Syndrome aortique aigu](https://onclepaul.net/wp-content/uploads/2011/07/Syndrome-aortique-aigu.pdf){:target="_blank"}  
+    TAP sans, TAP artériel +/- synchronisation ECG, AP veineux  
+    </br></br>
+    ![](assets/hemo.jpg){width="720"}
 </figure>
