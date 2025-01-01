@@ -99,7 +99,7 @@
         atteinte du CPP si dilatation sans sténose **> 6 mm** = 60% malignité  
     </figure> 
 
-    !!! warning "[indications chirurgicales](https://www.fmcgastro.org/texte-postu/postu-2019-paris/prise-en-charge-des-tipmp-recommandations-europeennes/){:target="_blank"} (sinon surveillance /an)"
+    !!! warning "[indications chirurgicales](https://www.fmcgastro.org/texte-postu/postu-2019-paris/prise-en-charge-des-tipmp-recommandations-europeennes/){:target="_blank"} (sinon surveillance M6, 1 an, puis /an)"
         - absolues = **ictère**, **bourgeon ≥ 5 mm**, **CPP > 10 mm**
         - relatives = PA, kyste > 4 cm ou > 5mm/an, CPP 5-9 mm, bourgeon < 5 mm
 

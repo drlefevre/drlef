@@ -16,19 +16,22 @@
     ``` title="IRM"
     Pas d'anomalie transitionnelle de la charnière lombo-sacrée.
     Projection du cône médullaire en regard de 
-    Pas de fracture-tassement vertébrale.
+    Respect de la hauteur des corps vertébraux.
     Pas d'étroitesse constitutionnelle du canal lombaire.
-    Pas de lésion de remplacement médullaire dans le cadre osseux.
+    Pas de lésion de remplacement ostéomédullaire.
 
-    Bon alignement des corps vertébraux.
     Discopathie
-    Arthrose articulaire postérieure en
+    Zygarthrose prédominant en
 
-    L1-L2 : Pas de rétrécissement canalaire ou foraminal.
-    L2-L3 : Pas de rétrécissement canalaire ou foraminal.
-    L3-L4 : Pas de rétrécissement canalaire ou foraminal.
-    L4-L5 : Pas de rétrécissement canalaire ou foraminal.
-    L5-S1 : Pas de rétrécissement canalaire ou foraminal.
+    En L1-L2 : Pas de rétrécissement canalaire ou foraminal.
+
+    En L2-L3 : 
+
+    En L3-L4 : 
+
+    En L4-L5 : 
+    
+    En L5-S1 : 
     ```
     <figure markdown="span">
         ![](assets/Castellvi.jpg){width="380"}

@@ -1,6 +1,6 @@
 # Accueil
 
-<p style="text-align: center"><a href="https://www.imaios.com/fr/login"target="_blank">imaios</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://radiopaedia.org/"target="_blank">radiopaedia</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.radrap.ch/comptesrendus"target="_blank">CR types</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://radref.org/ref.php"target="_blank">radref</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.ccam-radiologie.fr/echographie-abdomen-pelvis/"target="_blank">ccam</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://aderim.radiologie.fr/"target="_blank">aderim</a>
+<p style="text-align: center"><a href="https://www.imaios.com/fr/login"target="_blank">imaios</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://radiopaedia.org/"target="_blank">radiopaedia</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.radrap.ch/comptesrendus"target="_blank">CR types</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://radref.org/ref.php"target="_blank">radref</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.ccam-radiologie.fr/echographie-abdomen-pelvis/"target="_blank">ccam</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://aderim.radiologie.fr/"target="_blank">aderim</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://univers-medecine.com/livres/fr/Lecture%20radiologique%20aux%20urgences.pdf"target="_blank">Rx urg</a>
 </br>rempl cima / elindo, Lens 1314 pass</p>
 
 === "ABDO"
