@@ -3,9 +3,10 @@ site_name: Notes radiologiques
 nav:
   - index.md
   - Urgences:
+    - PDC: urg/PDC.md
     - AVP: urg/AVP.md
     - AVC: urg/AVC.md
-    - CMF: urg/CMF.md
+    - TC: urg/TC.md
     - Mort: urg/mort.md
     - Thorax: urg/thorax.md
     - Femme: urg/femme.md
