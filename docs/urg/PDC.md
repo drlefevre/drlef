@@ -2,12 +2,12 @@
 
 !!! danger "[Réactions d'hypersensibilité](https://www.radiologie.fr/sites/www.radiologie.fr/files/medias/documents/CIRTACI%20Fiche%20Allergie%2029%2009%202009_0.pdf){:target="_blank"} = 10✝/an en France"
     - immédiate = urticaire/angiœdème/anaphylaxie = ↗ histamine et tryptase
-    - non allergique = érythème/urticaire localisé = prévenu par anti-H1  
-    ![](assets/hypersensibilite.jpg){width=480"}
-
+    - non allergique = érythème/urticaire localisé = prémédication anti-H1 1h avt
+    ![](assets/hypersensibilite.jpg){width=480"}  
+    
     | grade | symptômes  |  PEC | 
     | :----------: | :-------: | :----------: | 
-    | I | érythème, urticaire, angiœdème| polaramine | 
+    | I | érythème, urticaire, angiœdème | polaramine + surveillance 30' | 
     | II | hypoTA, tachy<3, dyspnée, nausées | remplissage NaCl |
     | III | choc anaphylactique | adré IM 0.5 mg, O<sup>2</sup>, ventoline | 
 

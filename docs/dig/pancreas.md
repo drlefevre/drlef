@@ -134,3 +134,11 @@
         </br>
         **VHL** = kystes vrais, cystadénomes séreux, et TNE
     </figure> 
+
+
+=== "DIVISUM"
+    <figure markdown="span">
+        CPP s'abouche dans la papille mineure = **5%** = + de PA
+        ![](assets/divisum.jpg){width="800"} 
+    </figure> 
+

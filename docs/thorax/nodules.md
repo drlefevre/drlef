@@ -7,8 +7,8 @@
 </br> 
 
 <figure markdown="span">
-    ![](assets/fleischner.jpg){width="670"}
-    </br>[CAT nodule pulmonaire](https://cerf.radiologie.fr/sites/cerf.radiologie.fr/files/Enseignement/DES/Archives-Documents/02%20ML%20CAT%20d%C3%A9couverte%20fortuite%20nodule%20pulmonaire.pdf){:target="_blank"}
+    [![](assets/fleischner.jpg){width="670"}](https://www.mdcalc.com/calc/10062/fleischner-society-guidelines-incidental-pulmonary-nodules){:target="_blank"}  
+    [CAT nodule pulmonaire](https://cerf.radiologie.fr/sites/cerf.radiologie.fr/files/Enseignement/DES/Archives-Documents/02%20ML%20CAT%20d%C3%A9couverte%20fortuite%20nodule%20pulmonaire.pdf){:target="_blank"}
 </figure>
 
 !!! tip "Causes de **nodules troués**"
