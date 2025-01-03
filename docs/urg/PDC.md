@@ -17,6 +17,10 @@
     - **myélome** => corriger l'hyperCa2+ (∅ risque si ∅ d'IRénale)
     - **metformine** => PAS d'↕ (sauf IRA : ↕ pdt 48h après l'inj)
 
+!!! warning "[Hyperthyroïdie non équilibrée](https://www.radiologie.fr/sites/www.radiologie.fr/files/medias/documents/CIRTACI%20Fiche%20Thyro%C3%AFde%2029%2009%202009_0.pdf){:target="_blank"}"
+    - CI absolue
+    - scintigraphie thyroïdienne et IRA-thérapie > M2 après injection
+
 !!! warning "[Extravasation](https://www.radiologie.fr/sites/www.radiologie.fr/files/medias/documents/CIRTACI%20fiche%20extravasation_0.pdf){:target="_blank"} 1/500"
     - **aspiration** via le cathéter puis expression cutanée
     - **surélévation** du membre pdt 3h si gravité
