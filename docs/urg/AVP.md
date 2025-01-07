@@ -6,27 +6,47 @@
     - enfant < 50 kg = crâne et cou IV- > TAP temps mixte (50s)
 
 ```
+Crâne :
+Pas de lésion hémorragique intra ou péri-cérébrale récente.
+Eléments médians en place. 
+Pas d'hydrocéphalie.
+
 Thorax :
 Pas d'anomalie des gros vaisseaux (sous réserve de quelques artéfacts cinétiques).
 Pas de pneumomédiastin, d'épanchement pleural ni péricardique.
-Pas de contusion parenchymateuse.
+Pas de contusion ni de lacération pulmonaire.
 
 Abdomen et pelvis :
 Pas de lésion traumatique du foie, de la rate, du pancréas, ni des reins.
 Pas d'épanchement péritonéal ni de pneumopéritoine.
 Pas d'infiltration de la racine du mésentère.
 
-Crâne et cadre osseux : cf. CR dédié.
+Cadre osseux :
+Pas de lésion post-traumatique.
 ```
-
-<figure markdown="span">
-    </br>
-    ![](assets/Ao.jpg){width=580"}
-    </br>
-    ![](assets/AAST.jpg){width=700"}
-    /!\ rate faux-a à J3-J7 et **grade IV/V = embolisation** sinon 50% rupture II<sup>R</sup>
-    </br></br>
-    ![](assets/AAST2.jpg){width=700"}
-    </br>
-    ![](assets/Magerl.jpg){width=700"}
-</figure>
+=== "thorax"
+    <figure markdown="span">
+        ![](assets/Ao.jpg){width=620"}  
+        </br>
+        ![](assets/pulm.jpg){width=350"}
+        **contusions** pulmonaires (œdème/hémorragie) = maximales à J2-J3 ↬ SDRA  
+        **lacérations** pulmonaires (rupture alvéolaire) = pneumotacèle et hématocèle
+    </figure>
+    !!! warning "Pc vital menacé"
+        - fracture **sternum**, 3 premières côtes, volet thoracique (3 côtes avec 2 # chacune)
+        - hémothorax, pneumothorax compressif, contusions étendues
+        - EP (graisseuse), pneumopathie d'inhalation
+=== "abdomen"
+    <figure markdown="span">
+        ![](assets/AAST.jpg){width=670"}
+        /!\ rate faux-a à J3-J7 et **grade IV/V = embolisation** sinon 50% rupture II<sup>R</sup>
+        </br></br>
+        ![](assets/AAST2.jpg){width=670"}
+    </figure>
+=== "bassin"
+    <figure markdown="span">
+    </figure>
+=== "rachis"
+    <figure markdown="span">
+        ![](assets/Magerl.jpg){width=700"}
+    </figure>
