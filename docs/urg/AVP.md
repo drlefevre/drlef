@@ -43,10 +43,13 @@ Pas de lésion post-traumatique.
         </br></br>
         ![](assets/AAST2.jpg){width=670"}
     </figure>
-=== "bassin"
-    <figure markdown="span">
-    </figure>
 === "rachis"
     <figure markdown="span">
         ![](assets/Magerl.jpg){width=700"}
+        **A** = compression = 70% / **B** = distraction = 10% / **C** = rotation = 20%  
+        **IRM** si lésion instable ou déficit neuro = sag T1, T2, T2 FS + ax DP
     </figure>
+    !!! warning "Lésion du **complexe ligamentaire postérieur**"
+        - diastasis interépineux ou articulaire postérieur
+        - subluxation du corps vertébral > 2 mm
+        - fracture du processus épineux
