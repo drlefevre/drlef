@@ -29,6 +29,7 @@
             * K épidermoïdes (poumons, ORL, œsophage)
 
 !!! tip "Sd génétiques"
+    * [PKRAD](http://manuel3.cuen.fr/IMG/pdf/17.pdf){:target="_blank"} = HTA, IRC terminale à 50-70 ans, kystes hépatiques, 10% anévrysme cérébral
     * [VHL](https://radiopaedia.org/articles/von-hippel-lindau-disease-5){:target="_blank"} = **CCC**, **kystes** reins et pancréas, phéo, hémangioblastome cervelet
     * [STB](https://radiopaedia.org/articles/tuberous-sclerosis){:target="_blank"} = **AML**, neurofibromes, gliome de nerf optique, taches café au lait
     * [NF1](https://radiopaedia.org/articles/neurofibromatosis-type-1){:target="_blank"} = **AML**, LLM, tubers corticaux, nodules ss-épendymaires

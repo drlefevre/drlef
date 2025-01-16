@@ -19,9 +19,9 @@
     ```
     Foie de taille et de morphologie normales, sans lésion focale.
     Tronc porte avec flux hépatopète et veines sus-hépatiques hépatofuges.
-    Pas de dilatation des voies biliaires. Vésicule biliaire alithiasique.
+    Vésicule biliaire alithiasique. Pas de dilatation des voies biliaires. 
     Pancréas d'analyse limitée (interpositions aérodigestives), sans anomalie visible.
-    Rate de taille normale.
+    Rate homogène de taille normale.
     Pas de dilatation des cavités pyélocalicielles.
     Reins de taille et de morphologie normales, sans lésion focale.
     Vessie en faible réplétion, sans anomalie décelable.
@@ -48,12 +48,11 @@
     Contours réguliers et échostructure hyperéchogène homogène.
     Volumes des lobes droit/gauche estimés à  cc.
     Pas d'hypervascularisation au Doppler.
-
-    Pas d'image nodulaire significative.
-
     Pas d'anomalie du tractus thyréoglosse.    
     Perméabilité des vaisseaux jugulo-carotidiens.
     Pas d'adénopathie dans les secteurs II, III, IV et VI.
+
+    Pas d'image nodulaire significative.
     ```
     ```
     Comparaison à l'échographie de
@@ -62,10 +61,10 @@
     Respect du gradient musculo-parenchymateux.
     Volumes des lobes droit/gauche estimés à  cc.
     Pas d'hypervascularisation au Doppler.
+    Pas d'adénopathie.
 
-    Nodule 
+    Nodule EU-TIRADS
     Pas d'autre image nodulaire significative.
-    Pas d'adénopathie dans les secteurs II, III, IV et VI.
     ```
     <figure markdown="span">
         [![](assets/tirads5.jpg){width="700"}](https://cdn-radeos.fra1.digitaloceanspaces.com/capsule/24/resources/capsule-24-ressource-36-comment-faire-et-interpreter-une-echographie-thyroidienne.pdf){:target="_blank"}
@@ -211,7 +210,10 @@
         <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2728311/"target="_blank">Ectasie tubulaire du rete testis</a>  
         </br>
         ![](assets/adptesti.jpg){width="300"}
-        lésion = TDM TAP (métas poumons, foie, cerveau, os)
+        lésion = TDM TAP (métas poumons, foie, cerveau, os)  
+        </br>
+        ![](assets/cryptorchidie.jpg){width="550"}
+        **cryptorchidie** = descente spontanée avant M3 ++ sinon orchidopexie, RR cancer x30
     </figure>
 
 === "PROS"
@@ -223,15 +225,15 @@
     Pas de lésion suspecte ni d'image lithiasique.
 
     Vessie pré-mictionnelle :
-    En réplétion, avec contenu anéchogène.
-    Détrusor fin et régulier, sans diverticule.
+    En semi-réplétion, avec contenu anéchogène.
+    Détrusor modérément épaissi, sans lésion nodulaire ni diverticule.
     Pas d'épanchement péritonéal.
 
     Prostate par voie sus-pubienne :
-    Volume estimé à 
-    Protrusion intravésicale du lobe médian mesurant  mm.
-    Echostructure homogène avec contours réguliers.
-    Vésicules séminales sans particularité.
+    Volume estimé à  cc.
+    Protrusion intravésicale du lobe médian.
+    Contours prostatiques réguliers. 
+    Intégrité du carrefour vésiculo-déférentiel.
 
     Vessie post-mictionnelle :
     Résidu de  cc.
