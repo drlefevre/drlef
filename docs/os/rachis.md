@@ -1,7 +1,8 @@
 === "LOMB"
     ``` title="Rx"
-    Lordose physiologique et bon alignement des corps vertébraux.
-    Absence de fracture-tassement ou de déminéralisation osseuse.
+    Respect de la lordose physiologique.
+    Bon alignement des corps vertébraux.
+    Pas de fracture vertébrale ni d'hypertransparence osseuse.
     Intégrité des rapports articulaires et des espaces intersomatiques.
     Pas de lésion osseuse suspecte et parties molles sans particularité.
     ```

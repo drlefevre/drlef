@@ -7,7 +7,7 @@
     ```
     Reins :
     Grand axe mesurant à droite/gauche  mm.
-    Contours réguliers et différenciation parenchymo-sinusale satisfaisante.
+    Différenciation parenchymo-sinusale satisfaisante.
     Pas de dilatation des cavités pyélo-calicielles.
     Pas de lésion suspecte ni d'image lithiasique.
 
@@ -20,7 +20,7 @@
     Foie de taille et de morphologie normales, sans lésion focale.
     Tronc porte avec flux hépatopète et veines sus-hépatiques hépatofuges.
     Vésicule biliaire alithiasique. Pas de dilatation des voies biliaires. 
-    Pancréas d'analyse limitée (interpositions aérodigestives), sans anomalie visible.
+    Pas d'anomalie du pancréas explorable.
     Rate homogène de taille normale.
     Pas de dilatation des cavités pyélocalicielles.
     Reins de taille et de morphologie normales, sans lésion focale.
@@ -57,14 +57,13 @@
     ```
     Comparaison à l'échographie de
     
-    Contours thyroïdiens réguliers.
-    Respect du gradient musculo-parenchymateux.
+    Contours réguliers et respect du gradient musculo-parenchymateux.
     Volumes des lobes droit/gauche estimés à  cc.
     Pas d'hypervascularisation au Doppler.
-    Pas d'adénopathie.
 
     Nodule EU-TIRADS
     Pas d'autre image nodulaire significative.
+    Pas d'adénopathie dans les secteurs II, III, IV et VI.
     ```
     <figure markdown="span">
         [![](assets/tirads5.jpg){width="700"}](https://cdn-radeos.fra1.digitaloceanspaces.com/capsule/24/resources/capsule-24-ressource-36-comment-faire-et-interpreter-une-echographie-thyroidienne.pdf){:target="_blank"}
@@ -175,7 +174,7 @@
 
     Pas de hernie inguinale controlatérale.
 
-    Consignes de consultation aux urgences en cas de tuméfaction inguinale irréductible et inflammatoire qui ferait suspecter un étranglement.
+    Consignes de consultation aux urgences en cas de tuméfaction inguinale irréductible et inflammatoire qui ferait suspecter une strangulation intestinale.
     ```
     <figure markdown="span">
         [![](assets/ing.jpg){width="650"}](https://www.youtube.com/watch?v=k7uc1u4TYF4){:target="_blank"}  
@@ -220,19 +219,19 @@
     ```
     Reins :
     Grand axe mesurant à droite/gauche  mm.
-    Contours réguliers et différenciation parenchymo-sinusale satisfaisante.
+    Différenciation parenchymo-sinusale satisfaisante.
     Pas de dilatation des cavités pyélo-calicielles.
-    Pas de lésion suspecte ni d'image lithiasique.
+    Pas d'image lithiasique ni de lésion suspecte.
 
     Vessie pré-mictionnelle :
     En semi-réplétion, avec contenu anéchogène.
-    Détrusor modérément épaissi, sans lésion nodulaire ni diverticule.
+    Détrusor modérément épaissi, sans diverticule ni lésion nodulaire.
     Pas d'épanchement péritonéal.
 
     Prostate par voie sus-pubienne :
+    Contours réguliers. 
     Volume estimé à  cc.
     Protrusion intravésicale du lobe médian.
-    Contours prostatiques réguliers. 
     Intégrité du carrefour vésiculo-déférentiel.
 
     Vessie post-mictionnelle :
