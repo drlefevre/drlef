@@ -184,32 +184,22 @@
 
 === "TESTIS"
     ```
-    Testicule droit :
-    Volume estimé à  cc.
+    Testicules de taille normale et symétrique.
     Echostructure homogène, sans lésion focale suspecte.
-    Epididyme sans particularité.
-    Canal déférent suivi jusqu'à l'anneau inguinal.
-
-    Testicule gauche :
-    Volume estimé à  cc.
-    Echostructure homogène, sans lésion focale suspecte.
-    Epididyme sans particularité.
-    Canal déférent suivi jusqu'à l'anneau inguinal.
-
-    Etude Doppler :
-    Vascularisation symétrique sans particularité.
+    Vascularisation testiculaire symétrique sans particularité. 
+    Epididymes et cordons spermatiques d'aspect normal.
+    Pas d'hydrocèle significative.
     ```
     <figure markdown="span">
         ![](assets/testis.jpg){width="800"}
         12-20 cc  
         </br>
+        <a href="https://onclepaul.net/wp-content/uploads/2011/07/DU-TESTICULE-2011-AGFILEminimizer.pdf"target="_blank">Oncle Paul</a>  
         <a href="https://radiopaedia.org/articles/adenomatoid-tumours-of-the-scrotum"target="_blank">Tumeur adénomatoïde</a>  
-        <a href="https://radiopaedia.org/articles/spermatocele-1"target="_blank">Spermatocèle</a>  
-        <a href="https://radiopaedia.org/articles/epididymitis"target="_blank">Epididymite</a>  
-        <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2728311/"target="_blank">Ectasie tubulaire du rete testis</a>  
+        <a href="https://radiopaedia.org/articles/tubular-ectasia-of-rete-testis"target="_blank">Ectasie tubulaire du rete testis</a>  
         </br>
         ![](assets/adptesti.jpg){width="300"}
-        lésion = TDM TAP (métas poumons, foie, cerveau, os)  
+        lésion = **TDM TAP** (métas poumons, foie, cerveau, os)  
         </br>
         ![](assets/cryptorchidie.jpg){width="550"}
         **cryptorchidie** = descente spontanée avant M3 ++ sinon orchidopexie, RR cancer x30
@@ -254,7 +244,9 @@
         ![](assets/rxt.jpg){width="800"}
         </br>
         [syndromes radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"}  
-        [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"} et [bronchiolite](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}
+        [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"} et [bronchiolite](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}  
+        </br>
+        ![](assets/poumons.jpg){width="300"}
     </figure>
 
 === "PANO"

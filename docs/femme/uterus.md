@@ -6,7 +6,7 @@
     Endomètre hyperéchogène mesurant  mm.
     Pas d'anomalie significative du myomètre.
 
-    Ovaires latéraux folliculaires mesurant à droite/gauche  cm.
+    Ovaires latéraux, folliculaires et de taille normale.
     Pas de dilatation tubaire.
 
     Pas d'épanchement pelvien significatif.
@@ -17,7 +17,7 @@
     Utérus antéversé antéfléchi mesurant  cm.
     Endomètre en hypersignal T2 mesurant  mm.
     Intégrité de la zone jonctionnelle et du myomètre.
-    Ovaires latéraux folliculaires mesurant à droite/gauche  cm.
+    Ovaires en place, folliculaires et de taille normale.
 
     Pas d'adénomégalie.
     Pas d'épanchement pelvien significatif.
