@@ -1,5 +1,9 @@
 # EP, aorte et hémoptysie
 
+<figure markdown="span">
+    [CR **EP**](https://www.radiologie.fr/sites/www.radiologie.fr/files/medias/documents/CR-Embolie.pdf){:target="_blank"}
+</figure>
+
 !!! tip "EP [femme enceinte](https://onclepaul.net/wp-content/uploads/2011/07/EP-chez-la-femme-enceinte-CS-2013+++1.pdf){:target="_blank"} ([risques](https://onclepaul.fr/wp-content/uploads/2011/07/La-femme-enceinte-en-imagerie-pire-angoisse-du-radiologue-New-JFR-2020.pdf){:target="_blank"} de l'irradiation pour le fœtus)"
     - 100 kV
     - Apnée simple

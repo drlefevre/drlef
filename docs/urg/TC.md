@@ -10,6 +10,8 @@
     </br></br></br>
     ![](assets/rocher.jpg){width="300"}
     <p style="color:orange;">80% longitudinale : hémotympan, luxation uncudo-malléaire, PFP </br> = extralabyrinthique++ +/- # tegmen</p> 
-    <p style="color:red;">20% transversale : cophose, vertiges, PFP, /!\ translabyrinthique ++</p>
+    <p style="color:red;">20% transversale : cophose, vertiges, PFP, /!\ translabyrinthique ++</p>  
+    </br>
+    [C'est quoi ce truc dans l'**œil**](https://www.maxilloclic.com/traumatisme-sur-dent-definitive){:target="_blank"}
 </figure>
 
