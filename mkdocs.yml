@@ -2,6 +2,7 @@ site_name: Notes radiologiques
 
 nav:
   - index.md
+  - msk.md
   - Urgences:
     - PDC: urg/PDC.md
     - AVP: urg/AVP.md
@@ -33,7 +34,6 @@ nav:
   - Ostéo:
     - Trauma: os/trauma.md
     - Rachis: os/rachis.md
-    - MS: os/MS.md
     - MI: os/MI.md  
   - Uro:
     - Reins: uro/reins.md

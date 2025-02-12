@@ -9,21 +9,6 @@
     Pas de lésion osseuse suspecte.
     ```
 
-=== "HANCHE"
-    ``` title="Echo"
-    Pas d'épanchement articulaire coxo-fémoral.
-    Pas d'argument pour une fissure de l'enthèse du muscle long adducteur.
-    Pas de lésion traumatique de la jonction myotendineuse du muscle iliopsoas.
-    Intégrité du muscle droit fémoral et de ses insertions tendineuses.
-    Intégrité des tendons glutéaux et de l'insertion proximale des ischio-jambiers.
-    ```
-    <figure markdown="span">
-        [![](assets/adducteurs.jpg){width="900"}](https://www.youtube.com/watch?v=CvP7ZwW3trk&list=PLGV2jHWN573djULLdIjMos1uZ1iMdevnT&index=4){:target="_blank"}  
-        [![](assets/psoas.jpg){width="900"}](https://www.youtube.com/watch?v=ivN3cYggy_w&list=PLGV2jHWN573djULLdIjMos1uZ1iMdevnT&index=4){:target="_blank"}  
-        [![](assets/droitfem.jpg){width="700"}](https://www.youtube.com/watch?v=JJLKE5kArb0&list=PLGV2jHWN573djULLdIjMos1uZ1iMdevnT&index=5){:target="_blank"}  
-        [![](assets/latpost.jpg){width="900"}](https://www.youtube.com/watch?v=8AxHjBnEDPQ&list=PLGV2jHWN573djULLdIjMos1uZ1iMdevnT&index=6){:target="_blank"}  
-    </figure>  
-
 === "GENOU"
     ``` title="IRM"
     Pas d'épanchement articulaire et absence de kyste poplité.
