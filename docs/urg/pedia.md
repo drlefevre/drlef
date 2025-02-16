@@ -31,7 +31,7 @@
     </figure>
 === "VOLVULUS"
     - **vomis bilieux NNé** < S2 à ventre plat, 80% < 1 an mais peut survenir à tout âge
-    - complique une [malrotation intestinale](https://www.radeos.org/maladie/fiche-malrotation-intestinale-mesentere-commun_1266.html){:target="_blank"} (mésentère commun incomplet)
+    - complique une [mésentère commun incomplet](https://onclepaul.fr/wp-content/uploads/2011/07/volvulus-du-gr%C3%AAle-adulte-synth%C3%A8se.pdf){:target="_blank"} (malrotation intestinale)
     <figure markdown="span">
         ![](assets/VMS.jpg){width="250"}
         </br>

@@ -12,6 +12,7 @@ nav:
     - Thorax: urg/thorax.md
     - Femme: urg/femme.md
     - Pédiatrie: urg/pedia.md
+    - Fractures : urg/fractures.md
     - Caustique: urg/caustique.md
   - Femme:
     - EPP: femme/EPP.md
@@ -32,7 +33,6 @@ nav:
     - Malfo: thorax/malfo.md
     - PID: thorax/PID.md
   - Ostéo:
-    - Trauma: os/trauma.md
     - Rachis: os/rachis.md
     - MI: os/MI.md  
   - Uro:

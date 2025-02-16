@@ -1,5 +1,3 @@
-# Membre inférieur
-
 === "BASSIN"
     ``` title="IRM du bassin"
     Pas d'épanchement articulaire coxo-fémoral.
@@ -21,7 +19,3 @@
         ![](assets/chondropathie.jpg){width="900"}
         chondropathie grade **I** : signal hétérogène, **II** : < 50%, **III** : > 50%, **IV** : atteinte ss-chondrale
     </figure>
-
-=== "CHEVILLE"
-
-=== "PIED"
