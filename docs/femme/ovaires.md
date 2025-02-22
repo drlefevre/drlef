@@ -1,68 +1,14 @@
-=== "écho"
-    ```
-    Examen par voie suspubienne puis endovaginale après accord de la patiente.
+```
+Ovaires latéraux folliculaires mesurant à droite/gauche  cm.
 
-    Utérus antéversé antéfléchi mesurant  cm.
-    Endomètre hyperéchogène mesurant  mm.
-    Pas d'anomalie significative du myomètre.
+Utérus antéversé antéfléchi mesurant  cm.
+Endomètre en hypersignal T2 mesurant  mm.
+Intégrité de la zone jonctionnelle et du myomètre.
 
-    Ovaires latéraux folliculaires mesurant à droite/gauche  cm.
-    Pas de dilatation tubaire.
-
-    Pas d'épanchement pelvien significatif.
-    Pas de dilatation des cavités pyélocalicielles.
-    ```
-=== "SOPK"
-    ```
-    Examen par voie suspubienne puis endovaginale après accord de la patiente.
-
-    Ovaires latéraux folliculaires mesurant à droite/gauche  mm et  cm².
-    Ils contiennent moins de 25 follicules par ovaire.
-    Pas de dilatation tubaire.
-
-    Utérus antéversé antéfléchi mesurant  cm.
-    Endomètre hyperéchogène mesurant  mm.
-    Pas d'anomalie significative du myomètre.
-
-    Pas d'épanchement pelvien significatif.
-    Pas de dilatation des cavités pyélocalicielles.
-    ```
-    <p style="text-align: center">ovaire polykystique si <b>> 5,5 cm² + > 25 follicules</b></p>
-=== "CFA"
-    ```
-    Examen par voie suspubienne puis endovaginale après accord de la patiente.
-
-    Ovaires latéraux folliculaires mesurant à droite/gauche  mm et  cm².
-
-    Nombre et taille des follicules à droite/gauche :
-        - De moins de 5 mm : 
-        - Entre 5 et 10 mm : 
-        - De plus de 10 mm : 
-
-    Doppler des artères utérines avec IR/IP :
-        - à droite : 
-        - à gauche : 
-
-    Pas de dilatation tubaire.
-    Utérus antéversé antéfléchi mesurant  cm.
-    Endomètre hyperéchogène mesurant  mm.
-    Pas d'anomalie significative du myomètre.
-    Pas d'épanchement pelvien significatif.
-    Pas de dilatation des cavités pyélocalicielles.
-    ```
-    <p style="text-align: center">écho à <b>J3</b> du cycle, réserve ovarienne faible si < 5 follicules/ovaire</p>
-=== "IRM"
-    ```
-    Ovaires latéraux folliculaires mesurant à droite/gauche  cm.
-    
-    Utérus antéversé antéfléchi mesurant  cm.
-    Endomètre en hypersignal T2 mesurant  mm.
-    Intégrité de la zone jonctionnelle et du myomètre.
-
-    Pas d'adénomégalie.
-    Pas d'épanchement pelvien significatif.
-    Pas de dilatation des cavités pyélo-calicielles.
-    ```
+Pas d'adénomégalie.
+Pas d'épanchement pelvien significatif.
+Pas de dilatation des cavités pyélo-calicielles.
+```
 
 !!! tip "Lésions ovariennes : O-RADS [écho](https://www.acr.org/-/media/ACR/Files/RADS/O-RADS/US-v2022/O-RADS--US-v2022-Assessment-Categories.pdf){:target="_blank"} et [IRM](https://www.acr.org/-/media/ACR/Files/RADS/O-RADS/French-O-RADS-MR-Risk-Table-2020.pdf){:target="_blank"}"
     === "kyste uniloculaire"

@@ -102,13 +102,12 @@
         <figure markdown="span">
             ![](assets/hyperpara.jpg){width="500"}
         </figure>
-
-=== "ORL"
     ```
-    Absence d'adénomégalie cervicale.
-    Perméabilité des vaisseaux jugulo-carotidiens.
-    Aspect normal des glandes submandibulaires et parotides, sans lésion focale.
-    Thyroïde de taille et de morphologie normales, sans image nodulaire significative.
+    Pas d'image lithiasique ni de dilatation canalaire dans les glandes sous-mandibulaires.
+    Pas de lésion focale dans le lobe superficiel des glandes parotides.
+    Pas de ganglion suspect dans les chaînes ganglionnaires cervicales.
+    Perméabilité des axes vasculaires jugulaires et carotidiens.
+    Thyroïde de taille normale sans image nodulaire significative.
     ```
     <figure markdown="span">
         ![](assets/salivaires.jpg){width="700"}
@@ -121,6 +120,24 @@
     </figure>
 
 === "PAROI"
+    ```
+    Examen en position debout lors de manœuvres de Valsalva répétées.
+    
+    Absence de hernie ou autre lésion inguinale décelable.
+    ```
+    ```
+    Hernie inguinale
+
+    Pas de hernie inguinale controlatérale.
+
+    Consignes de consultation aux urgences en cas de tuméfaction inguinale irréductible et inflammatoire qui ferait suspecter une strangulation intestinale.
+    ```
+    <figure markdown="span">
+        [![](assets/ing.jpg){width="650"}](https://www.youtube.com/watch?v=k7uc1u4TYF4){:target="_blank"}
+        [DD](https://www.intercomsante57.fr/html/profsante/pdf/L-echographie-dans-les-hernies.pdf){:target="_blank"} douleurs inguinales = arthrose hanche/rachis, pubalgie du sportif  
+        [Diastiasis](https://www.intercomsante57.fr/html/profsante/pdf/L-echographie-dans-les-hernies.pdf){:target="_blank"} des muscles grands droits si > 20 mm
+    </figure>
+
     | Ganglion | [Territoires de drainage](https://www.chem-sante.fr/elearning/parcours_41/biblio_0/mg_2015_941_384.pdf){:target="_blank"}  |
     | :----------: | :-----------------------------------: |
     | `pré-auriculaire` | partie supérieure du visage |
@@ -130,8 +147,6 @@
     | `Troisier (G)` | poumons, abdo-pelv, testicules |
     | `axillaire` | membre sup, sein, paroi thoracique |
     | `inguinal` | membre inf, OGE, paroi abdo inf |
-
-    <p style="text-align: center"><a href="https://radiopaedia.org/articles/diastasis-recti"target="_blank">Diastasis </a>des muscles grands droits si > 20 mm</p>
 
     !!! tip "[kyste épidermique](https://www.youtube.com/watch?app=desktop&v=HP9j2y5PQoE){:target="_blank"} / épidermoïde / sébacé = 90% des kystes ss-cut"
         - croissance lente, 70% dur > 30% mou, parallèle à la peau
@@ -157,55 +172,18 @@
         Un contrôle échographique sera nécessaire en cas d'évolutivité.
         ```
     !!! tip "[tumeur desmoïde](https://radiopaedia.org/articles/desmoid-tumour){:target="_blank"}"
-        - paroi abdominale, croissance lente, dans le plan musculaire
+        - paroi abdominale, dans le plan musculaire, croissance lente
         - masse hypoéchogène bien circonscrite
         <figure markdown="span">
             ![](assets/desmoide.jpg){width="220"}
         </figure>
+        ```
+        Formation ovalaire hypoéchogène bien circonscrite dans le muscle grand droit mesurant 
 
-=== "ING"
-    ```
-    Examen en position debout lors de manœuvres de Valsalva répétées.
-    
-    Absence de hernie ou autre lésion inguinale décelable.
-    ```
-    ```
-    Hernie inguinale
+        Nous programmons la réalisation rapide d'un scanner abdomino-pelvien complémentaire.
+        ```
 
-    Pas de hernie inguinale controlatérale.
-
-    Consignes de consultation aux urgences en cas de tuméfaction inguinale irréductible et inflammatoire qui ferait suspecter une strangulation intestinale.
-    ```
-    <figure markdown="span">
-        [![](assets/ing.jpg){width="650"}](https://www.youtube.com/watch?v=k7uc1u4TYF4){:target="_blank"}  
-        [![](assets/epigastrique.jpg){width="400"}](https://www.imaios.com/fr/e-anatomy/abdomen-et-pelvis/tdm-axiale-de-l-abdomen-et-du-pelvis-masculin){:target="_blank"}  
-        [DD](https://www.intercomsante57.fr/html/profsante/pdf/L-echographie-dans-les-hernies.pdf){:target="_blank"} douleurs inguinales = arthrose hanche/rachis, pubalgie du sportif
-    </figure>
-
-=== "TESTIS"
-    ```
-    Testicules de taille normale et symétrique.
-    Echostructure homogène, sans lésion focale suspecte.
-    Vascularisation testiculaire symétrique sans particularité. 
-    Epididymes et cordons spermatiques d'aspect normal.
-    Pas d'hydrocèle significative.
-    ```
-    <figure markdown="span">
-        ![](assets/testis.jpg){width="800"}
-        12-20 cc  
-        </br>
-        <a href="https://onclepaul.net/wp-content/uploads/2011/07/DU-TESTICULE-2011-AGFILEminimizer.pdf"target="_blank">Oncle Paul</a>  
-        <a href="https://radiopaedia.org/articles/adenomatoid-tumours-of-the-scrotum"target="_blank">Tumeur adénomatoïde</a>  
-        <a href="https://radiopaedia.org/articles/tubular-ectasia-of-rete-testis"target="_blank">Ectasie tubulaire du rete testis</a>  
-        </br>
-        ![](assets/adptesti.jpg){width="300"}
-        lésion = **TDM TAP** (métas poumons, foie, cerveau, os)  
-        </br>
-        ![](assets/cryptorchidie.jpg){width="550"}
-        **cryptorchidie** = descente spontanée avant M3 ++ sinon orchidopexie, RR cancer x30
-    </figure>
-
-=== "PROS"
+=== "H"
     ```
     Reins :
     Grand axe mesurant à droite/gauche  mm.
@@ -214,8 +192,8 @@
     Pas d'image lithiasique ni de lésion suspecte.
 
     Vessie pré-mictionnelle :
-    En semi-réplétion, avec contenu anéchogène.
-    Détrusor modérément épaissi, sans diverticule ni lésion nodulaire.
+    En semi-réplétion, avec contenu anéchogène, sans lésion nodulaire.
+    Détrusor modérément épaissi, sans diverticule.
     Pas d'épanchement péritonéal.
 
     Prostate par voie sus-pubienne :
@@ -229,11 +207,101 @@
     ```
     <figure markdown="span">
         ![](assets/pros.jpg){width="700"}
-        hypertrophie si > 30 cc
-        </br> RPM significatif si > 20 cc
+        hypertrophie si > 30 cc &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RPM significatif si > 20 cc
+        </br>  
+    </figure>
+    ```
+    Testicules de taille normale et symétrique.
+    Echostructure homogène, sans lésion focale suspecte.
+    Vascularisation testiculaire symétrique sans particularité. 
+    Epididymes et cordons spermatiques d'aspect normal.
+    Pas d'hydrocèle significative.
+    ```
+    <figure markdown="span">
+        ![](assets/testis.jpg){width="800"}
+        12-20 cc &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Pathos](https://onclepaul.net/wp-content/uploads/2011/07/DU-TESTICULE-2011-AGFILEminimizer.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Tumeur adénomatoïde](https://radiopaedia.org/articles/adenomatoid-tumours-of-the-scrotum){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Ectasie tubulaire du rete testis](https://radiopaedia.org/articles/tubular-ectasia-of-rete-testis){:target="_blank"}  
+        </br>
+        ![](assets/adptesti.jpg){width="300"}
+        lésion = **TDM TAP** (métas poumons, foie, cerveau, os)  
+        </br>
+        ![](assets/cryptorchidie.jpg){width="550"}
+        **cryptorchidie** = descente spontanée avant M3 ++ sinon orchidopexie, RR cancer x30
     </figure>
 
-=== "RxT"
+=== "F"
+    ```
+    Examen par voie suspubienne puis endovaginale après accord de la patiente.
+
+    Utérus antéversé antéfléchi mesurant  cm.
+    Endomètre hyperéchogène mesurant  mm.
+    Pas d'anomalie significative du myomètre.
+    Pas de lésion endocavitaire décelable.
+
+    Pas de dilatation tubaire.
+    Ovaires latéraux, folliculaires, de taille normale.
+    Pas d'épanchement pelvien significatif.
+    Pas de dilatation des cavités pyélocalicielles.
+    ```
+    <figure markdown="span">
+        ![](assets/figo.jpg){width="300"}
+        0-1-2 sous-muqueux &nbsp;&nbsp;&nbsp; 3-4-5 intramuraux &nbsp;&nbsp;&nbsp; 6-7 sous-séreux  
+        > 5 myomes ou > 5 cm => IRM
+    </figure> 
+    !!! tip "[Endomètre](https://cglre.org/endometre-page-1/){:target="_blank"} (ménopause ≤ 5 mm, ≤ 10 mm si THS)"
+        - phase menstruelle J1-4 = hyperéchogène 1-4 mm
+        - proliférative J5-13 = hypoéchogène 5-9 mm
+        - ovulatoire J14 = aspect en cible 10 mm
+        - sécrétoire J15-28 = hyperéchogène 8 - 15 mm
+        <figure markdown="span">
+            ![](assets/endometre.jpg){width="550"}
+        </figure>
+    !!! tip "[Adénomyose interne](https://cglre.org/adenomyose1/){:target="_blank"} = 40% des femmes"
+        - focale/diffuse superficielle/profonde (cut-off 1/3 myomètre)
+        - IRM = microkystes sous-endométriaux, **ZJ > 11 mm** ou > 40% du myomètre
+        - écho = utérus globuleux, **interface floue** endo/myomètre, microlacunes myométriales
+    
+    !!! tip "[Tamoxifène](https://radiopaedia.org/articles/tamoxifen-associated-endometrial-changes-2){:target="_blank"}"
+        - **épaississement glandulo-kystique** de l'endomètre (mais /!\ K RR 1,6)
+        - polypes glandulo-kystiques, ↗ myomes et adénomyose
+    ```title="SOPK"
+    Examen par voie suspubienne puis endovaginale après accord de la patiente.
+
+    Ovaires latéraux folliculaires mesurant à droite/gauche  mm et  cm².
+    Ils contiennent moins de 25 follicules par ovaire.
+    Pas de dilatation tubaire.
+
+    Utérus antéversé antéfléchi mesurant  cm.
+    Endomètre hyperéchogène mesurant  mm.
+    Pas d'anomalie significative du myomètre.
+
+    Pas d'épanchement pelvien significatif.
+    Pas de dilatation des cavités pyélocalicielles.
+    ```
+    <p style="text-align: center">ovaire polykystique si <b>> 5,5 cm² et > 25 follicules</b></p>
+    ```title="CFA"
+    Examen par voie suspubienne puis endovaginale après accord de la patiente.
+
+    Ovaires latéraux folliculaires mesurant à droite/gauche  mm et  cm².
+
+    Nombre et taille des follicules à droite/gauche :
+        - De moins de 5 mm : 
+        - Entre 5 et 10 mm : 
+        - De plus de 10 mm : 
+
+    Doppler des artères utérines avec IR/IP :
+        - à droite : 
+        - à gauche : 
+
+    Pas de dilatation tubaire.
+    Utérus antéversé antéfléchi mesurant  cm.
+    Endomètre hyperéchogène mesurant  mm.
+    Pas d'anomalie significative du myomètre.
+    Pas d'épanchement pelvien significatif.
+    Pas de dilatation des cavités pyélocalicielles.
+    ```
+    <p style="text-align: center">écho à <b>J3</b> du cycle, réserve ovarienne faible si < 5 follicules/ovaire</p>
+
+=== "Rx"
     ```
     Silhouette cardiomédiastinale d'aspect normal.
     Pas d'épanchement pleural ni de pneumothorax.
@@ -242,18 +310,11 @@
     ``` 
     <figure markdown="span">
         ![](assets/rxt.jpg){width="800"}
-        </br>
-        [syndromes radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"}  
-        [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"} et [bronchiolite](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}  
-        </br>
-        ![](assets/poumons.jpg){width="300"}
+        [syndromes radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"} et [bronchiolite](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}  
+        </br> 
     </figure>
-
-=== "PANO"
     ```
-    Pas de carie ni de lacune apico-dentaire.
-    Dents de sagesse en place. 
-
+    Pas de lacune apico-dentaire.
     Bonne ventilation des cuvettes maxillaires.
     Condyles de taille et de forme normales.
     Pas de lésion osseuse suspecte.

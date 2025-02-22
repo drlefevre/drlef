@@ -1,17 +1,3 @@
-=== "écho"
-    ```
-    Examen par voie suspubienne puis endovaginale après accord de la patiente.
-
-    Utérus antéversé antéfléchi mesurant  cm.
-    Endomètre hyperéchogène mesurant  mm.
-    Pas d'anomalie significative du myomètre.
-
-    Ovaires latéraux, folliculaires et de taille normale.
-    Pas de dilatation tubaire.
-
-    Pas d'épanchement pelvien significatif.
-    Pas de dilatation des cavités pyélocalicielles.
-    ```
 === "IRM"
     ```
     Utérus antéversé antéfléchi mesurant  cm.
@@ -61,27 +47,3 @@
     ![](assets/myomes.jpg){width="670"}
     /!\ [léiomyosarcome](https://docteurimago.fr/formation/congres/the-better-check-un-acronyme-pour-mieux-differencier-le-leiomyosarcome-du-leiomyome-atypique/){:target="_blank"} si > 45 ans, T2 intermédiaire hétérogène, contours nodulaires, </br> T1 hémorragique hétérogène, ADC < 0.9, nécrose centrale, > 10 cm
 </figure>
-
-!!! tip "**Endomètre** normal (ménopause ≤ 5 mm, ≤ 10 mm sous THS)"
-    - phase menstruelle J1-4 = hyperéchogène 1-4 mm
-    - proliférative J5-13 = hypoéchogène 5-9 mm
-    - ovulatoire J14 = aspect en cible 10 mm
-    - sécrétoire J15-28 = hyperéchogène 8 - 15 mm
-    <figure markdown="span">
-        ![](assets/endometre.jpg){width="550"}
-        </br>
-        [Causes d'épaississement endométrial](https://cglre.org/endometre-page-1/){:target="_blank"}
-    </figure>
-
-!!! tip "[**Adénomyose** interne](https://cglre.org/adenomyose1/){:target="_blank"} = 40% des femmes"
-    - focale/diffuse superficielle/profonde (cut-off 1/3 myomètre)
-    - IRM = microkystes sous-endométriaux, **ZJ > 11 mm** ou > 40% du myomètre
-    - écho = utérus globuleux, **interface floue** endo/myomètre, microlacunes myométriales
-
-
-!!! tip "[Tamoxifène](https://radiopaedia.org/articles/tamoxifen-associated-endometrial-changes-2){:target="_blank"}"
-    - **épaississement glandulo-kystique** de l'endomètre (mais /!\ K RR 1,6)
-    - polypes glandulo-kystiques, ↗ myomes et adénomyose
-    <figure markdown="span">
-        ![](assets/tamox.jpg){width="230"}
-    </figure>
