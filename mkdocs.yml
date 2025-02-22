@@ -13,6 +13,7 @@ nav:
     - Femme: urg/femme.md
     - Pédiatrie: urg/pedia.md
     - Fractures : urg/fractures.md
+    - Occlusion: urg/occlusion.md
     - Caustique: urg/caustique.md
   - Femme:
     - EPP: femme/EPP.md
@@ -51,6 +52,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
   language: fr
   palette:
     primary: grey

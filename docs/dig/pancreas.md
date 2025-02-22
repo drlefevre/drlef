@@ -1,9 +1,5 @@
 === "PA"
-    <figure markdown="span">
-        [Atlanta 2012](https://onclepaul.net/wp-content/uploads/2011/07/pancr%C3%A9atites-Atlanta-r%C3%A9vis%C3%A9-2012FILEminimizer.pdf){:target="_blank"}  
-    </figure>
-
-    |  score CTSI (TDM ≥J3-J5) |   |  nécrose pancréatique |  | 
+    |  [CTSI](https://www.radeos.org/maladie/fiche-pancreatite-aigue_1136.html){:target="_blank"} J3 |   |  nécrose pancréatique |  | 
     | :----------: | :-------: | :----------: | :-------: |
     | `élargissement focal/diffus` | 1 | `≤ 30%` | 2 |
     | `infiltration péripancréatique` | 2 | `30-50%` | 4 |
