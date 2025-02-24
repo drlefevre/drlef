@@ -1,7 +1,7 @@
 # Accueil
 
 <p style="text-align: center"><a href="https://www.imaios.com/fr/login"target="_blank">imaios</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://radiopaedia.org/"target="_blank">radiopaedia</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.radrap.ch/comptesrendus"target="_blank">CR types</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://radref.org/ref.php"target="_blank">radref</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.ccam-radiologie.fr/echographie-abdomen-pelvis/"target="_blank">ccam</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://aderim.radiologie.fr/"target="_blank">aderim</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://univers-medecine.com/livres/fr/Lecture%20radiologique%20aux%20urgences.pdf"target="_blank">Rx urg</a>
-</br>rempl cima / elindo, Lens 1314 pass</p>
+</br>rempl cima / elindo, Lens 1314, pass</p>
 
 === "ABDO"
     ```
@@ -45,8 +45,8 @@
 
 === "THYR"
     ```
-    Contours réguliers et échostructure hyperéchogène homogène.
     Volumes des lobes droit/gauche estimés à  cc.
+    Respect du gradient musculo-parenchymateux.
     Pas d'hypervascularisation au Doppler.
     Pas d'anomalie du tractus thyréoglosse.    
     Perméabilité des vaisseaux jugulo-carotidiens.
@@ -57,8 +57,8 @@
     ```
     Comparaison à l'échographie de
     
-    Contours réguliers et respect du gradient musculo-parenchymateux.
     Volumes des lobes droit/gauche estimés à  cc.
+    Respect du gradient musculo-parenchymateux.
     Pas d'hypervascularisation au Doppler.
 
     Nodule EU-TIRADS
@@ -68,6 +68,8 @@
     <figure markdown="span">
         [![](assets/tirads5.jpg){width="700"}](https://cdn-radeos.fra1.digitaloceanspaces.com/capsule/24/resources/capsule-24-ressource-36-comment-faire-et-interpreter-une-echographie-thyroidienne.pdf){:target="_blank"}
         [![](assets/TIRADS.jpg){width="700"}](https://cireol.net/wp-content/uploads/2017/05/2017-CIREOL-EUTIRADS.pdf){:target="_blank"}
+        contours irréguliers = au moins 3 lobulations/spicules, microcalcifications = au moins 5  
+        nodule EU-TIRADS 3 ≤ 2 cm ou 4 ≤ 1,5 cm => surveillance à 1a, puis 2-3a plus tard, puis 5a  
         <b>4-10 cc/lobe</b> (< 9 cc ♀ et < 8 cc ado), Doppler < 40 cm/s
         </br>↗ taille significative si + 2 mm dans 2 diamètres et/ou 50% en volume
         </br>
