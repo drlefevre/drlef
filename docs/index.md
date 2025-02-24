@@ -263,6 +263,7 @@
     !!! tip "[Tamoxifène](https://radiopaedia.org/articles/tamoxifen-associated-endometrial-changes-2){:target="_blank"}"
         - **épaississement glandulo-kystique** de l'endomètre (mais /!\ K RR 1,6)
         - polypes glandulo-kystiques, ↗ myomes et adénomyose
+    </br>
     ```title="SOPK"
     Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
@@ -278,6 +279,7 @@
     Pas de dilatation des cavités pyélocalicielles.
     ```
     <p style="text-align: center">ovaire polykystique si <b>> 5,5 cm² et > 25 follicules</b></p>
+    </br>
     ```title="CFA"
     Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
