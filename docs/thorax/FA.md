@@ -1,4 +1,4 @@
-# [Bilan avant ablation de FA](https://www.sficv.com/sites/www.sficv.com/files/2023-09/CR-Ablation-FA-20092018.pdf){:target="_blank"}
+# [Ablation de FA](https://www.sficv.com/sites/www.sficv.com/files/2023-09/CR-Ablation-FA-20092018.pdf){:target="_blank"}
 
 ```
 Pas de thrombus dans l'auricule gauche.

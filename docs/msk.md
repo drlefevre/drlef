@@ -28,11 +28,17 @@
     </figure> 
     
 === "POIGNET"
-    ```
-
-    ```
     <figure markdown="span">
+        ![](assets/poignetdos.jpg){width="600"}  
+        ![](assets/extenseurs.jpg){width="300"}  
+        ![](assets/flechisseurs.jpg){width="500"}  
+        ![](assets/carpe.jpg){width="400"}  
+        ![](assets/nerfs.jpg){width="400"}   
+    </figure> 
 
+=== "DOIGT"
+    <figure markdown="span">
+        ![](assets/doigtsflech.jpg){width="500"}  
     </figure> 
 
 === "HANCHE"
