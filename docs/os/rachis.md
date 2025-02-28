@@ -51,7 +51,7 @@
     Absence de malformation vertébrale décelable.
     ```
     <figure markdown="span">
-        ![](assets/Cobb.jpg){width="500"}
+        ![](assets/Cobb.jpg){width="400"}
         mauvais Pc si > 30°  
         </br>
         ![](assets/rotation.jpg){width="230"}

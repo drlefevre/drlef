@@ -14,7 +14,7 @@
         ![](assets/coiffe.jpg){width="540"}  
         [![](assets/epaule.jpg){width="650"}](https://www.youtube.com/watch?v=CDN2kX3YkZQ&t=51s){:target="_blank"} 
     </figure>  
-
+ 
 === "COUDE"
     ```
     Pas d'épanchement articulaire.
