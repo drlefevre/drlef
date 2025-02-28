@@ -7,7 +7,7 @@
     ```
     Reins :
     Grand axe mesurant à droite/gauche  mm.
-    Différenciation parenchymo-sinusale satisfaisante.
+    Bonne différenciation cortico-médullaire.
     Pas de dilatation des cavités pyélo-calicielles.
     Pas de lésion suspecte ni d'image lithiasique.
 
@@ -28,8 +28,7 @@
     Pas d'épanchement péritonéal.
     ```
     ```
-    Utérus d'aspect normal avec endomètre hyperéchogène fin.
-    Ovaires latéro-utérins folliculaires sans particularité.
+    Pas d'anomalie en projection de l'utérus et des ovaires.
     ```
     <figure markdown="span">
         ![](assets/angiome.jpg){width="430"}
@@ -49,10 +48,8 @@
     Respect du gradient musculo-parenchymateux.
     Pas d'hypervascularisation au Doppler.
     Pas d'anomalie du tractus thyréoglosse.    
-    Perméabilité des vaisseaux jugulo-carotidiens.
     Pas d'adénopathie dans les secteurs II, III, IV et VI.
-
-    Pas d'image nodulaire significative.
+    Echostructure thyroïdienne homogène sans image nodulaire.
     ```
     ```
     Comparaison à l'échographie de
@@ -61,6 +58,8 @@
     Respect du gradient musculo-parenchymateux.
     Pas d'hypervascularisation au Doppler.
 
+    Nodule EU-TIRADS
+    Nodule EU-TIRADS
     Nodule EU-TIRADS
     Pas d'autre image nodulaire significative.
     Pas d'adénopathie dans les secteurs II, III, IV et VI.
@@ -205,7 +204,7 @@
     Intégrité du carrefour vésiculo-déférentiel.
 
     Vessie post-mictionnelle :
-    Résidu de  cc.
+    Résidu de  ml.
     ```
     <figure markdown="span">
         ![](assets/pros.jpg){width="700"}
@@ -236,8 +235,9 @@
 
     Utérus antéversé antéfléchi mesurant  cm.
     Endomètre hyperéchogène mesurant  mm.
-    Pas d'anomalie significative du myomètre.
+    Pas d'anomalie dans le myomètre.
     Pas de lésion endocavitaire décelable.
+    Pas de douleur ni de nodule en regard du torus.
 
     Pas de dilatation tubaire.
     Ovaires latéraux, folliculaires, de taille normale.
@@ -275,7 +275,7 @@
 
     Utérus antéversé antéfléchi mesurant  cm.
     Endomètre hyperéchogène mesurant  mm.
-    Pas d'anomalie significative du myomètre.
+    Pas d'anomalie dans le myomètre.
 
     Pas d'épanchement pelvien significatif.
     Pas de dilatation des cavités pyélocalicielles.
@@ -306,18 +306,29 @@
     <p style="text-align: center">écho à <b>J3</b> du cycle, réserve ovarienne faible si < 5 follicules/ovaire</p>
 
 === "Rx"
-    ```
+    ```title="RACHIS"
+    Respect de la hauteur et bon alignement des corps vertébraux.
+    Intégrité des rapports articulaires et des espaces intersomatiques.
+    Aspect normal des interlignes articulaires sacro-iliaques et coxo-fémorales.
+    Pas de lésion osseuse suspecte et parties molles sans particularité.
+    ```    
+    <figure markdown="span">
+        ![](assets/coxarthrose.jpg){width="400"} 
+        </br> 
+    </figure>
+
+    ```title="RT"
     Silhouette cardiomédiastinale d'aspect normal.
-    Pas d'épanchement pleural ni de pneumothorax.
-    Absence d'anomalie dans le parenchyme pulmonaire.
-    Cadre osseux et parties molles sans particularité.
+    Pas d'anomalie en projection des champs pulmonaires.
+    Pas de comblement des récessus costo-diaphragmatiques.
+    Structures osseuses sans particularité significative.
     ``` 
     <figure markdown="span">
         ![](assets/rxt.jpg){width="800"}
         [syndromes radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"} et [bronchiolite](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}  
         </br> 
     </figure>
-    ```
+    ```title="PANO"
     Pas de lacune apico-dentaire.
     Bonne ventilation des cuvettes maxillaires.
     Condyles de taille et de forme normales.

@@ -1,11 +1,4 @@
 === "LOMB"
-    ``` title="Rx"
-    Respect de la lordose physiologique.
-    Bon alignement des corps vertébraux.
-    Pas de fracture vertébrale ni d'hypertransparence osseuse.
-    Intégrité des rapports articulaires et des espaces intersomatiques.
-    Pas de lésion osseuse suspecte et parties molles sans particularité.
-    ```
     ``` title="TDM"
     Pas d'anomalie transitionnelle de la charnière lombo-sacrée.
     Lordose physiologique et bon alignement des corps vertébraux.
@@ -52,13 +45,10 @@
 
 === "SCOLIOSE"
     ```
-    Scoliose  mesurant ° entre le plateau supérieur de  et le plateau inférieur de , avec un sommet au niveau de .
-    Cyphose thoracique (T4-) mesurant ° et lordose lombaire (-S1) mesurant °.
-    Pente sacrée mesurant ° et incidence pelvienne mesurant °.
-
+    Scoliose  mesurant ° entre le plateau supérieur de  et le plateau inférieur de .
     Ossification sans particularité pour l'âge, avec un stade Risser 
-    Absence de déséquilibre frontal ou de bascule du bassin.
-    Absence de malformation vertébrale congénitale.
+    Bascule du bassin par dénivelation vers la 
+    Absence de malformation vertébrale décelable.
     ```
     <figure markdown="span">
         ![](assets/Cobb.jpg){width="500"}
