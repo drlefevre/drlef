@@ -6,7 +6,7 @@
 === "ABDO"
     ```
     Reins :
-    Grand axe mesurant à droite/gauche  mm.
+    Grand axe mesurant à droite et gauche  mm.
     Bonne différenciation cortico-médullaire.
     Pas de dilatation des cavités pyélo-calicielles.
     Pas de lésion suspecte ni d'image lithiasique.
@@ -54,7 +54,7 @@
 
 === "THYR"
     ```
-    Volumes des lobes droit/gauche estimés à  cc.
+    Volumes des lobes droit et gauche estimés à  cc.
     Respect du gradient musculo-parenchymateux.
     Pas d'hypervascularisation au Doppler.
     Pas d'anomalie du tractus thyréoglosse.    
@@ -64,7 +64,7 @@
     ```
     Comparaison à l'échographie de
     
-    Volumes des lobes droit/gauche estimés à  cc.
+    Volumes des lobes droit et gauche estimés à  cc.
     Respect du gradient musculo-parenchymateux.
     Pas d'hypervascularisation au Doppler.
 
@@ -197,7 +197,7 @@
 === "H"
     ```
     Reins :
-    Grand axe mesurant à droite/gauche  mm.
+    Grand axe mesurant à droite et gauche  mm.
     Différenciation parenchymo-sinusale satisfaisante.
     Pas de dilatation des cavités pyélo-calicielles.
     Pas d'image lithiasique ni de lésion suspecte.
@@ -279,7 +279,7 @@
     ```title="SOPK"
     Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
-    Ovaires latéraux folliculaires mesurant à droite/gauche  mm et  cm².
+    Ovaires latéraux folliculaires mesurant à droite et gauche  cm².
     Ils contiennent moins de 25 follicules par ovaire.
     Pas de dilatation tubaire.
 
@@ -295,7 +295,7 @@
     ```title="CFA"
     Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
-    Ovaires latéraux folliculaires mesurant à droite/gauche  mm et  cm².
+    Ovaires latéraux folliculaires mesurant à droite et gauche  mm.
 
     Nombre et taille des follicules à droite/gauche :
         - De moins de 5 mm : 
