@@ -44,7 +44,7 @@
 === "TORSION TESTI"
     - <b>ado / NNé</b>, 3% des dl scrotales aiguës de l'enfant
     - DD orchiépididymite /!\ hypervascularisation testiculaire = orchite/torsion-détorsion
-    - DD <b>torsion d'hydatide</b> (6-12 ans) = masse ovalaire infracm vacuolisée Doppler⊖
+    - DD [torsion d'hydatide](https://comu-occitanie.fr/wp-content/uploads/2024/04/Presentation-echographie-testiculaire-JVial.pdf){:target="_blank"} (6-12 ans) = masse ovalaire infracm vacuolisée Doppler⊖
     <figure markdown="span">
         ![](assets/testi.jpg){width="500"}
     </figure>

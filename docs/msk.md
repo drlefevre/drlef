@@ -3,9 +3,10 @@
 === "EPAULE"
     ```
     Tendon du long biceps en place, fibrillaire, sans épanchement significatif.
-    Tendon subscapulaire d'aspect normal, avec bon glissement sous la coracoïde.
-    Intégrité des tendons des muscles supra-épineux et infra-épineux.
+    Respect des tendons des muscles subscapulaire et infraépineux.
+    Pas d'anomalie tendineuse décelable du muscle supra-épineux.
     Pas d'épaississement de la bourse sous-acromio-deltoïdienne.
+    Trophicité conservée des muscles de la coiffe des rotateurs.
     Liberté de l'échancrure spino-glénoïdienne.
     Arthrose acromio-claviculaire modérée.
     Pas d'épanchement gléno-huméral.
@@ -27,17 +28,23 @@
         [![](assets/coude.jpg){width="800"}](https://www.youtube.com/watch?v=CDN2kX3YkZQ&t=51s){:target="_blank"} 
     </figure> 
     
-=== "POIGNET"
+=== "MAIN"
+    ```
+    Pas d'épanchement dans les articulations radiocarpienne, radioulnaire distale et médiocarpienne.
+    Pas d'épanchement dans les articulations métacarpophalangiennes et interphalangiennes.
+    Remaniements dégénératifs des articulations trapézométarcarpiennes.
+    Pas d'anomalie décelable des tendons extenseurs et fléchisseurs.
+    Pas d'anomalie des nerfs médian et ulnaire au poignet.
+    ```
     <figure markdown="span">
-        ![](assets/poignetdos.jpg){width="600"}  
+        ![](assets/poignetdos.jpg){width="620"}
         ![](assets/extenseurs.jpg){width="300"}  
-        ![](assets/flechisseurs.jpg){width="500"}  
         ![](assets/carpe.jpg){width="400"}  
-        ![](assets/nerfs.jpg){width="400"}   
-    </figure> 
-
-=== "DOIGT"
-    <figure markdown="span">
+        ![](assets/flechisseurs.jpg){width="500"}
+        **sd canal carpien** = nerf > 12-15 mm², index d'aplatissement > 3,  
+        nerf hypo +/- signal Doppler, bombement rétinaculum > 4 mm, 
+        ![](assets/carpien.jpg){width="300"}
+        ![](assets/nerfs.jpg){width="400"}  
         ![](assets/doigtsflech.jpg){width="500"}  
     </figure> 
 
@@ -55,3 +62,23 @@
         [![](assets/droitfem.jpg){width="700"}](https://www.youtube.com/watch?v=JJLKE5kArb0&list=PLGV2jHWN573djULLdIjMos1uZ1iMdevnT&index=5){:target="_blank"}  
         [![](assets/latpost.jpg){width="900"}](https://www.youtube.com/watch?v=8AxHjBnEDPQ&list=PLGV2jHWN573djULLdIjMos1uZ1iMdevnT&index=6){:target="_blank"}  
     </figure>  
+
+=== "PIED"
+    ```
+    Pas d'épanchement dans l'articulation tabio-talienne.
+    Pas d'anomalie décelable du ligament talofibulaire antérieur.
+    Respect des ligaments talonaviculaire dorsale, tibiofibulaire antéro-inférieur, calcanéocuboïdien latéral et calcanéo-fibulaire.
+    Comblement graisseux hyperéchogène sans particularité du sinus du tarse.
+    Tendons court et long fibulaires en place, sans épanchement.
+    ```
+    <figure markdown="span">
+        ![](assets/TAFA.jpg){width="600"}  
+    </figure> 
+    ```
+    Pas d'épaississement des corps ni des enthèses des tendons calcanéens.
+    Pas d'hyperhémie Doppler en regard des douleurs.
+    Pas d'anomalies des aponévroses plantaires.
+    ```
+    <figure markdown="span">
+        ![](assets/pied.jpg){width="350"}
+    </figure> 

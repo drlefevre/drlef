@@ -31,14 +31,24 @@
     Pas d'anomalie en projection de l'utérus et des ovaires.
     ```
     <figure markdown="span">
-        ![](assets/angiome.jpg){width="430"}
+        </br>
+        ![](assets/dysmorphie.jpg){width="580"}
+        [Surveillance cirrhose](https://www.has-sante.fr/upload/docs/application/pdf/2013-03/05r26_form_surveillance_cirrhose_formulaires_de_bilan_echographique_hepatique.pdf){:target="_blank"} avec **HTP** si vitesse TP < 10 cm/s
     </figure>
-    <p style="text-align: center"><a href="https://echo.interniste.com/echographie-foie-us-fr-c2-s0"target="_blank">Lésions hépatiques</a></br><b>HTP</b> si TP > 13 mm et vitesse < 10 cm/s</p>
+    ```
+    Dysmorphie hépatique avec contours bosselés.
+    Echostructure homogène, sans lésion focale suspecte.
+    Tronc porte et branches portales hépatopètes.
+    Vitesse maximale dans le tronc porte :  cm/s.
+    Grand axe de la rate :  cm.
+    Pas de voies de dérivation porto-systémiques décelable.
+    Pas d'ascite.
+    ```
     <figure markdown="span">
-        ![](assets/dysmorphie.jpg){width="600"}
         </br>
-        ![](assets/VB.jpg){width="700"}
-        </br>
+        [Lésion hépatiques](https://echo.interniste.com/echographie-foie-us-fr-c2-s0){:target="_blank"}  
+        ![](assets/angiome.jpg){width="430"}  
+        ![](assets/VB.jpg){width="680"}  
         ![](assets/childliver.jpg){width="500"}
     </figure>
 
