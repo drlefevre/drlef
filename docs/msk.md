@@ -65,7 +65,7 @@
 
 === "PIED"
     ```
-    Pas d'épanchement dans l'articulation tabio-talienne.
+    Pas d'épanchement dans l'articulation tibio-talienne.
     Pas d'anomalie décelable du ligament talofibulaire antérieur.
     Respect des ligaments talonaviculaire dorsale, tibiofibulaire antéro-inférieur, calcanéocuboïdien latéral et calcanéo-fibulaire.
     Comblement graisseux hyperéchogène sans particularité du sinus du tarse.
