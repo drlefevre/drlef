@@ -225,7 +225,7 @@
         </br>  
     </figure>
     ```
-    Testicules de taille normale et symétrique.
+    Testicules de taille normale et symétriques.
     Echostructure homogène, sans lésion focale suspecte.
     Vascularisation testiculaire symétrique sans particularité. 
     Epididymes et cordons spermatiques d'aspect normal.
