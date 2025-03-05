@@ -7,7 +7,7 @@
     ```
     Reins :
     Grand axe mesurant à droite et gauche  mm.
-    Bonne différenciation cortico-médullaire.
+    Différenciation cortico-médullaire satisfaisante.
     Pas de dilatation des cavités pyélo-calicielles.
     Pas de lésion suspecte ni d'image lithiasique.
 
@@ -28,7 +28,7 @@
     Pas d'épanchement péritonéal.
     ```
     ```
-    Pas d'anomalie en projection de l'utérus et des ovaires.
+    Pas d'anomalie en projection de l'utérus et des annexes.
     ```
     <figure markdown="span">
         </br>
@@ -139,14 +139,14 @@
     ```
     Hernie inguinale
 
-    Pas de hernie inguinale controlatérale.
+    Pas de hernie inguinale controlatérale déceable en position debout lors de manœuvres de Valsalva répétées.
 
     Consignes de consultation aux urgences en cas de tuméfaction inguinale irréductible et inflammatoire qui ferait suspecter une strangulation intestinale.
     ```
     <figure markdown="span">
         [![](assets/ing.jpg){width="650"}](https://www.youtube.com/watch?v=k7uc1u4TYF4){:target="_blank"}
         [DD](https://www.intercomsante57.fr/html/profsante/pdf/L-echographie-dans-les-hernies.pdf){:target="_blank"} douleurs inguinales = arthrose hanche/rachis, pubalgie du sportif  
-        [Diastiasis](https://www.intercomsante57.fr/html/profsante/pdf/L-echographie-dans-les-hernies.pdf){:target="_blank"} des muscles grands droits si > 20 mm
+        [Diastiasis](https://radiopaedia.org/articles/diastasis-recti){:target="_blank"} des muscles grands droits si > 20 mm
     </figure>
 
     | Ganglion | [Territoires de drainage](https://www.chem-sante.fr/elearning/parcours_41/biblio_0/mg_2015_941_384.pdf){:target="_blank"}  |
@@ -169,7 +169,10 @@
             ![](assets/epidermoide.jpg){width="300"}
         </figure>
         ```
-        Formation ovalaire sous-cutanée finement hétérogène, aux contours lisses et réguliers, à paroi épaisse hypoéchogène, avec renforcement postérieur, sans vascularisation : aspect évocateur de kyste épidermoïde.
+        Formation ovalaire sous-cutanée , finement hétérogène avec paroi épaisse hypoéchogène, contours lisses et renforcement postérieur, sans vascularisation : aspect évocateur de kyste épidermoïde.
+        ```
+        ```
+        Formation ovalaire sous-cutanée , finement hétérogène avec renforcement postérieur et sans vascularisation, avec contours irréguliers et infiltration de la graisse adjacente : aspect évocateur de kyste épidermoïde rompu.
         ```
     !!! tip "[lipome](https://onclepaul.fr/wp-content/uploads/2011/07/Boules-masses-nodules.pdf){:target="_blank"}"
         - masse superficielle compressible et indolore
@@ -178,7 +181,7 @@
             ![](assets/lipome.jpg){width="300"}
         </figure>
         ```
-        En regard de , formation ovalaire superficielle d'allure graisseuse mesurant , sus-aponévrotique et sans extension au fascia et au plan musculaire, compressible et indolore, sans flux Doppler : aspect évocateur de lipome sans signe d'atypie.
+        Formation ovalaire superficielle d'allure graisseuse mesurant , sus-aponévrotique et sans extension au fascia et au plan musculaire, compressible et indolore, sans flux Doppler : aspect évocateur de lipome sans signe d'atypie.
 
         Un contrôle échographique sera nécessaire en cas d'évolutivité.
         ```
@@ -189,7 +192,7 @@
             ![](assets/desmoide.jpg){width="220"}
         </figure>
         ```
-        Formation ovalaire hypoéchogène bien circonscrite dans le muscle grand droit mesurant 
+        Formation ovalaire hypoéchogène bien circonscrite dans le muscle grand droit  
 
         Nous programmons la réalisation rapide d'un scanner abdomino-pelvien complémentaire.
         ```
@@ -279,8 +282,8 @@
     ```title="SOPK"
     Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
-    Ovaires latéraux folliculaires mesurant à droite et gauche  cm².
-    Ils contiennent moins de 25 follicules par ovaire.
+    Ovaires latéraux folliculaires mesurant à droite et gauche  cc.
+    Ils contiennent moins de 20 follicules par ovaire.
     Pas de dilatation tubaire.
 
     Utérus antéversé antéfléchi mesurant  cm.
@@ -290,8 +293,10 @@
     Pas d'épanchement pelvien significatif.
     Pas de dilatation des cavités pyélocalicielles.
     ```
-    <p style="text-align: center">ovaire polykystique si <b>> 5,5 cm² et > 25 follicules</b></p>
-    </br>
+    <figure markdown="span">
+        ovaire polykystique si [> 20 follicules ou > 10 ml](https://radiopaedia.org/articles/polycystic-ovarian-syndrome-1){:target="_blank"}  
+        </br> 
+    </figure>
     ```title="CFA"
     Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
