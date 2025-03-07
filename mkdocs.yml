@@ -37,6 +37,8 @@ nav:
   - Ostéo:
     - Rachis: os/rachis.md
     - MI: os/MI.md  
+  - ORL:
+    - Sinus: ORL/sinus.md
   - Uro:
     - Reins: uro/reins.md
     - Vessie: uro/vessie.md
