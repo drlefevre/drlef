@@ -73,6 +73,7 @@
     ```
     <figure markdown="span">
         ![](assets/TAFA.jpg){width="600"}  
+        ![](assets/cheville.jpg){width="500"}  
     </figure> 
     ```
     Pas d'épaississement des corps ni des enthèses des tendons calcanéens.
