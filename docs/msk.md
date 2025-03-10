@@ -2,6 +2,15 @@
 
 === "EPAULE"
     ```
+    Radiographies de face avec 3 rotations de profil :
+    Pas de lésion osseuse post-traumatique.
+    Pas de diminution de l'espace sous-acromial.
+    Respect de l'articulation acromio-claviculaire.
+    Intégrité de l'interligne articulaire scapulo-huméral.
+    Pas de calcification en projection des tendons de la coiffe des rotateurs.
+    Pas de lésion suspecte dans les structures osseuses et les parties molles.
+
+    Echographie :
     Tendon du long biceps en place, fibrillaire, sans épanchement significatif.
     Respect des tendons des muscles subscapulaire et infraépineux.
     Pas d'anomalie tendineuse décelable du muscle supra-épineux.
@@ -12,8 +21,10 @@
     Pas d'épanchement gléno-huméral.
     ```
     <figure markdown="span">
-        ![](assets/coiffe.jpg){width="540"}  
-        [![](assets/epaule.jpg){width="650"}](https://www.youtube.com/watch?v=CDN2kX3YkZQ&t=51s){:target="_blank"} 
+        ![](assets/coiffe.jpg){width="540"}
+        espace sous-acromial > 7 mm  
+        </br>
+        [![](assets/epaule.jpg){width="650"}](https://www.youtube.com/watch?v=CDN2kX3YkZQ&t=51s){:target="_blank"}
     </figure>  
  
 === "COUDE"
@@ -66,20 +77,20 @@
 === "PIED"
     ```
     Pas d'épanchement dans l'articulation tibio-talienne.
-    Pas d'anomalie décelable du ligament talofibulaire antérieur.
-    Respect des ligaments talonaviculaire dorsale, tibiofibulaire antéro-inférieur, calcanéocuboïdien latéral et calcanéo-fibulaire.
+    Aspect normal des ligaments talofibulaire antérieur et calcanéofibulaire.
+    Respect des ligaments talonaviculaire dorsale, tibiofibulaire antéro-inférieur et calcanéocuboïdien latéral.
     Comblement graisseux hyperéchogène sans particularité du sinus du tarse.
     Tendons court et long fibulaires en place, sans épanchement.
     ```
     <figure markdown="span">
-        ![](assets/TAFA.jpg){width="600"}  
-        ![](assets/cheville.jpg){width="500"}  
+        ![](assets/TAFA.jpg){width="650"}  
+        ![](assets/cheville.jpg){width="490"}  
     </figure> 
     ```
+    Respect de l'échostructure des aponévroses plantaires, sans épaississement.
     Pas d'épaississement des corps ni des enthèses des tendons calcanéens.
     Pas d'hyperhémie Doppler en regard des douleurs.
-    Pas d'anomalies des aponévroses plantaires.
     ```
     <figure markdown="span">
-        ![](assets/pied.jpg){width="350"}
+        ![](assets/pied.jpg){width="380"}
     </figure> 
