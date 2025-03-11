@@ -159,7 +159,7 @@
     | `axillaire` | membre sup, sein, paroi thoracique |
     | `inguinal` | membre inf, OGE, paroi abdo inf |
 
-    !!! tip "[kyste épidermique](https://www.youtube.com/watch?app=desktop&v=HP9j2y5PQoE){:target="_blank"} / épidermoïde / sébacé = 90% des kystes ss-cut"
+    !!! tip "[kyste épidermoïde](https://www.youtube.com/watch?app=desktop&v=HP9j2y5PQoE){:target="_blank"} / d'inclusion épidermique / sébacé = 90% des kystes ss-cut"
         - croissance lente, 70% dur > 30% mou, parallèle à la peau
         - finement hétérogène, paroi épaisse hypo, renforcement post
         - **pas de vascularisation**, amincissement dermique > 50%
@@ -169,10 +169,22 @@
             ![](assets/epidermoide.jpg){width="300"}
         </figure>
         ```
-        Formation ovalaire sous-cutanée , finement hétérogène avec paroi épaisse hypoéchogène, contours lisses et renforcement postérieur, sans vascularisation : aspect évocateur de kyste épidermoïde.
+        Formation ovalaire sous-cutanée aux contours réguliers mesurant  mm.
+        Son contenu est hypoéchogène hétérogène avec un renforcement postérieur.
+        Absence de vascularisation décelable au Doppler.
+        Amincissement dermique focal en regard.
+        
+        Aspect évocateur de kyste épidermoïde, sans signe de complication.
         ```
         ```
-        Formation ovalaire sous-cutanée , finement hétérogène avec renforcement postérieur et sans vascularisation, avec contours irréguliers et infiltration de la graisse adjacente : aspect évocateur de kyste épidermoïde rompu.
+        Formation ovalaire sous-cutanée aux contours irréguliers mesurant  mm.
+        Son contenu est hypoéchogène hétérogène avec un renforcement postérieur.
+        Infiltration des tissus mous adjacents avec hyperhémie péri-lésionnelle.
+        Absence de vascularisation intrinsèque.
+
+        Aspect évocateur d'une infection de kyste épidermoïde.
+
+        Intérêt d'un contrôle échographique en cas de persistance d'évolution défavorable.
         ```
     !!! tip "[lipome](https://onclepaul.fr/wp-content/uploads/2011/07/Boules-masses-nodules.pdf){:target="_blank"}"
         - masse superficielle compressible et indolore
@@ -181,7 +193,11 @@
             ![](assets/lipome.jpg){width="300"}
         </figure>
         ```
-        Formation ovalaire superficielle d'allure graisseuse mesurant , sus-aponévrotique et sans extension au fascia et au plan musculaire, compressible et indolore, sans flux Doppler : aspect évocateur de lipome sans signe d'atypie.
+        Formation ovalaire superficielle d'allure graisseuse, aux contours bien limités, mesurant  mm.
+        Topographie sus-aponévrotique et sans extension au fascia et au plan musculaire.
+        Absence de vascularisation décelable au Doppler.
+
+        Aspect évocateur de lipome, sans signe d'atypie.
 
         Un contrôle échographique sera nécessaire en cas d'évolutivité.
         ```
@@ -191,11 +207,6 @@
         <figure markdown="span">
             ![](assets/desmoide.jpg){width="220"}
         </figure>
-        ```
-        Formation ovalaire hypoéchogène bien circonscrite dans le muscle grand droit  
-
-        Nous programmons la réalisation rapide d'un scanner abdomino-pelvien complémentaire.
-        ```
 
 === "H"
     ```

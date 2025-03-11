@@ -6,13 +6,14 @@
     Pas de lésion osseuse post-traumatique.
     Pas de diminution de l'espace sous-acromial.
     Respect de l'articulation acromio-claviculaire.
-    Intégrité de l'interligne articulaire scapulo-huméral.
+    Intégrité de l'interligne articulaire gléno-huméral.
     Pas de calcification en projection des tendons de la coiffe des rotateurs.
     Pas de lésion suspecte dans les structures osseuses et les parties molles.
 
     Echographie :
     Tendon du long biceps en place, fibrillaire, sans épanchement significatif.
-    Respect des tendons des muscles subscapulaire et infraépineux.
+    Respect de l'échostructure des tendons des muscles subscapulaire et infraépineux.
+    Pas d'argument pour un conflit antérieur lors des manœuvres dynamiques.
     Pas d'anomalie tendineuse décelable du muscle supra-épineux.
     Pas d'épaississement de la bourse sous-acromio-deltoïdienne.
     Trophicité conservée des muscles de la coiffe des rotateurs.
@@ -28,7 +29,7 @@
     </figure>  
  
 === "COUDE"
-    ```
+    ```title="Epicondylite"
     Pas d'épanchement articulaire.
     Intégrité des tendons communs des épicondyliens latéraux et médiaux.
     Pas d'anomalie des tendon distaux des muscles biceps et triceps.
@@ -38,6 +39,18 @@
         ![](assets/epicond.jpg){width="600"}  
         [![](assets/coude.jpg){width="800"}](https://www.youtube.com/watch?v=CDN2kX3YkZQ&t=51s){:target="_blank"} 
     </figure> 
+    ```title="Nerf ulnaire"
+    Nerf ulnaire en place au sein de la gouttière épitrochléo-olécrânienne.
+    Aspect fasciculaire sans disparité de calibre ni augmentation de sa surface de section.
+    Absence de luxation lors des manœuvres dynamiques.
+    Pas de lésion compressive extrinsèque.
+    ```
+    ```title="Hygroma"
+    Collection anéchogène compressible sous-cutanée rétro-olécrânienne mesurant  mm.
+    En son sein flottent des lobules graisseux hyperéchogènes, sans lésion suspecte.
+    Infiltration et discrète hyperhémie des tissus mous adjacents.
+    Pas d'épanchement articulaire huméro-radial ni huméro-ulnaire.
+    ```
     
 === "MAIN"
     ```
@@ -74,8 +87,17 @@
         [![](assets/latpost.jpg){width="900"}](https://www.youtube.com/watch?v=8AxHjBnEDPQ&list=PLGV2jHWN573djULLdIjMos1uZ1iMdevnT&index=6){:target="_blank"}  
     </figure>  
 
-=== "PIED"
+=== "GENOU"
+    ```title="Entorse"
+    Pas d'épanchement dans l'articulation tibio-talienne.
+    Aspect normal des ligaments talofibulaire antérieur et calcanéofibulaire.
+    Respect des ligaments talonaviculaire dorsale, tibiofibulaire antéro-inférieur et calcanéocuboïdien latéral.
+    Comblement graisseux hyperéchogène sans particularité du sinus du tarse.
+    Tendons court et long fibulaires en place, sans épanchement.
     ```
+
+=== "PIED"
+    ```title="Entorse"
     Pas d'épanchement dans l'articulation tibio-talienne.
     Aspect normal des ligaments talofibulaire antérieur et calcanéofibulaire.
     Respect des ligaments talonaviculaire dorsale, tibiofibulaire antéro-inférieur et calcanéocuboïdien latéral.
@@ -86,7 +108,7 @@
         ![](assets/TAFA.jpg){width="650"}  
         ![](assets/cheville.jpg){width="490"}  
     </figure> 
-    ```
+    ```title="Talalgies"
     Respect de l'échostructure des aponévroses plantaires, sans épaississement.
     Pas d'épaississement des corps ni des enthèses des tendons calcanéens.
     Pas d'hyperhémie Doppler en regard des douleurs.
@@ -94,3 +116,25 @@
     <figure markdown="span">
         ![](assets/pied.jpg){width="380"}
     </figure> 
+    ```title="Névrome de Morton"
+    Pas d'épaississement hypoéchogène dans les espaces intercapitométatarsiens, y compris lors de la manœuvre de Mulder.
+    Absence également de collection anéchogène intercapitométatarsienne qui traduirait une bursite.
+    Respect des plaques plantaires des 2ème et 3ème rayons.
+    Pas d'épanchement dans les articulations métatarso-phalangiennes.
+    ```
+
+=== "INFILTR"
+    ```
+    Sous mesures d'asepsie rigoureuses et avec un contrôle échographique permanent :
+    Abord via une aiguille 25G avec anesthésie locale à la Xylocaïne.
+    Injection  de 2 ml de Diprostène.
+    Pas de complication au cours ni au décours du geste.
+
+    Consignes de surveillance données au patient :
+    Pansement à conserver quelques heures.
+    Mise au repos relatif de l'articulation pendant 48 heures.
+    Attendre plusieurs semaines pour évaluer l'efficacité du geste.
+
+    En cas de signes d'infection (rougeur, douleur, tuméfaction, fièvre) : 
+    Nous recontacter, consulter le médecin traitant, ou aller aux urgences.
+    ```

@@ -1,12 +1,12 @@
 === "IRM"
     ```
     Utérus antéversé antéfléchi mesurant  cm.
-    Endomètre en hypersignal T2 mesurant  mm.
+    Endomètre en hypersignal T2 mesurant  mm.  
     Intégrité de la zone jonctionnelle et du myomètre.
     Ovaires en place, folliculaires et de taille normale.
 
-    Pas d'adénomégalie.
     Pas d'épanchement pelvien significatif.
+    Pas d'adénomégalie pelvienne ou lomboaortique.
     Pas de dilatation des cavités pyélo-calicielles.
     ```
 === "K endomètre"
@@ -20,9 +20,10 @@
     Pas d'atteinte du stroma cervical.
     Pas d'extension vaginale, paramétriale, vésicale ou digestive.
 
-    Pas d'adénopathie pelvienne ou lomboaortique.
     Pas d'épanchement pelvien significatif.
+    Pas d'adénomégalie pelvienne ou lomboaortique.
     Pas de dilatation des cavités pyélocalicielles.
+    Pas de variante anatomique de la veine rénale gauche.
     ```
     <p style="text-align: center"><a href="http://oncologik.fr/referentiels/dsrc/uterus-corps-endometre#12.Classification%20FIGO%202023"target="_blank">FIGO</a></p>
 === "K col"
@@ -35,9 +36,10 @@
     Pas d'extension aux paramètres, au vagin, ni à l'isthme utérin.
     Pas d'atteinte du rectum ni de la vessie.
 
-    Pas d'adénopathie pelvienne ou lomboaortique.
     Pas d'épanchement pelvien significatif.
+    Pas d'adénomégalie pelvienne ou lomboaortique.
     Pas de dilatation des cavités pyélocalicielles.
+    Pas de variante anatomique de la veine rénale gauche.
     ```
     <p style="text-align: center"><a href="http://oncologik.fr/referentiels/interregion/uterus-col#5.Classification%20FIGO%20(2018)"target="_blank">FIGO</a></p>
 
