@@ -1,4 +1,8 @@
-# Echo MSK
+# Echo-Rx
+
+<figure markdown="span">
+    [Rx urg](https://univers-medecine.com/livres/fr/Lecture%20radiologique%20aux%20urgences.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [os accessoires](https://fr.wikipedia.org/wiki/Os_accessoire){:target="_blank"}
+</figure> 
 
 === "EPAULE"
     ```
@@ -70,6 +74,7 @@
         ![](assets/carpien.jpg){width="300"}
         ![](assets/nerfs.jpg){width="400"}  
         ![](assets/doigtsflech.jpg){width="500"}  
+        ![](assets/main.jpg){width="480"}
     </figure> 
 
 === "HANCHE"
@@ -97,6 +102,15 @@
     ```
 
 === "PIED"
+    ```title="Rx"
+    Respect des interlignes articulaires du tarse, métacarpophallangiennes et interphallangiennes.
+    Pas d'érosion osseuse ni de lésion suspecte.
+    Pas de lésion post-traumatique récente.
+    Parties molles sans particularité.
+    ```
+    <figure markdown="span">
+        ![](assets/piedos.jpg){width="500"}  
+    </figure> 
     ```title="Entorse"
     Pas d'épanchement dans l'articulation tibio-talienne.
     Aspect normal des ligaments talofibulaire antérieur et calcanéofibulaire.
@@ -127,7 +141,7 @@
     ```
     Sous mesures d'asepsie rigoureuses et avec un contrôle échographique permanent :
     Abord via une aiguille 25G avec anesthésie locale à la Xylocaïne.
-    Injection  de 2 ml de Diprostène.
+    Injection de 2 ml de Diprostène dans .
     Pas de complication au cours ni au décours du geste.
 
     Consignes de surveillance données au patient :

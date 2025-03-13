@@ -51,7 +51,9 @@ nav:
     - Rétropéritoine: uro/retrope.md
     - Malformations: uro/malfo.md
   - Dig:
+    - RECIST: dig/RECIST.md
     - Pancréas: dig/pancreas.md
+    - Surrénales: dig/surrénales.md
 
 theme:
   name: material
