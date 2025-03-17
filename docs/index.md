@@ -45,9 +45,9 @@
     Pas d'ascite.
     ```
     <figure markdown="span">
-        </br>
         [Lésion hépatiques](https://echo.interniste.com/echographie-foie-us-fr-c2-s0){:target="_blank"}  
         ![](assets/angiome.jpg){width="430"}  
+        ![](assets/mickey.jpg){width="400"}  
         ![](assets/VB.jpg){width="680"}  
         ![](assets/childliver.jpg){width="500"}
     </figure>

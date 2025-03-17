@@ -11,6 +11,7 @@
 .md-typeset table:not([class]) {
   font-size: 0.8rem;
 }
+
 /* extra-styles.css */
 .md-typeset .md-typeset__table {
   display: block;
@@ -18,7 +19,6 @@
 .md-typeset__table table:not([class]) {
   display: table;
 }
-
 
 /* Admonition police size and title weight */
 .md-typeset .admonition,
@@ -28,53 +28,65 @@
   font-size: 0.8rem;
   font-weight: 500;
 }
+
+/* Microb admonition */
+.md-typeset .admonition.bug,
+.md-typeset details.bug {
+  border-color: rgb(81, 161, 88);
+}
+
+/* Centered text in admonition 
+.md-typeset .admonition.success,
+.md-typeset details.success {
+  text-align: center;
+}*/
   
-  /* Abstract admonition 
-  .md-typeset .admonition.abstract,
-  .md-typeset details.abstract {
-    border-color: rgba(99, 108, 101, 0.3);
-  }
-  .md-typeset .abstract > .admonition-title,
-  .md-typeset .abstract > summary {
-    background-color: rgba(100, 100, 100, 0.1);
-  }
-  .md-typeset .abstract > .admonition-title::before,
-  .md-typeset .abstract > summary::before {
-    background-color: rgb(100, 100, 100);
-  }
-  .md-typeset .abstract > .admonition-title::before,
-  .md-typeset .abstract > summary::after {
-    background-color: rgb(100, 100, 100);
-  }
-  */
-  
-  /* Make logo bigger 
-  .md-header__button.md-logo {
-    margin: 0;
-    padding: 0;
-  }
-  .md-header__button.md-logo img, .md-header__button.md-logo svg {
-    height: 2rem;
-    width: 2rem;
-  }
-  */
-  
-  .bleu {
-    color: #2aa4f0;
-  }
-  
-  .rouge {
-    color: #ee0f0f;
-  }
-  
-  .jaune {
-    color: #eeb60f;
-  }
-  
-  .marron {
-    color: #bb7e05;
-  }
-  
-  .vert {
-    color: #2ac71c;
-  }
+/* Abstract admonition 
+.md-typeset .admonition.abstract,
+.md-typeset details.abstract {
+  border-color: rgba(99, 108, 101, 0.3);
+}
+.md-typeset .abstract > .admonition-title,
+.md-typeset .abstract > summary {
+  background-color: rgba(100, 100, 100, 0.1);
+}
+.md-typeset .abstract > .admonition-title::before,
+.md-typeset .abstract > summary::before {
+  background-color: rgb(100, 100, 100);
+}
+.md-typeset .abstract > .admonition-title::before,
+.md-typeset .abstract > summary::after {
+  background-color: rgb(100, 100, 100);
+}
+*/
+
+/* Make logo bigger 
+.md-header__button.md-logo {
+  margin: 0;
+  padding: 0;
+}
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+  height: 2rem;
+  width: 2rem;
+}
+*/
+
+.bleu {
+  color: #2aa4f0;
+}
+
+.rouge {
+  color: #ee0f0f;
+}
+
+.jaune {
+  color: #eeb60f;
+}
+
+.marron {
+  color: #bb7e05;
+}
+
+.vert {
+  color: #2ac71c;
+}
