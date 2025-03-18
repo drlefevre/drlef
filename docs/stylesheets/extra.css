@@ -29,11 +29,11 @@
   font-weight: 500;
 }
 
-/* Microb admonition */
+/* Microb admonition
 .md-typeset .admonition.bug,
 .md-typeset details.bug {
   border-color: rgb(81, 161, 88);
-}
+} */
 
 /* Centered text in admonition 
 .md-typeset .admonition.success,
