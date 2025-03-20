@@ -139,16 +139,17 @@
 
 === "INFILTR"
     ```
+    Information du patient et receuil de l'absence de contre-indication.
+    Positionnement en décubitus dorsal.
+
     Sous mesures d'asepsie rigoureuses et avec un contrôle échographique permanent :
     Abord via une aiguille 25G avec anesthésie locale à la Xylocaïne.
-    Injection de 2 ml de Diprostène dans .
+    Injection d'une ampoule de Diprostène dans .
     Pas de complication au cours ni au décours du geste.
 
-    Consignes de surveillance données au patient :
+    Consignes données au patient :
     Pansement à conserver quelques heures.
-    Mise au repos relatif de l'articulation pendant 48 heures.
+    Mise au repos relatif pendant 48 heures.
     Attendre plusieurs semaines pour évaluer l'efficacité du geste.
-
-    En cas de signes d'infection (rougeur, douleur, tuméfaction, fièvre) : 
-    Nous recontacter, consulter le médecin traitant, ou aller aux urgences.
+    Consultation médicale en cas de signes d'infection (rougeur, douleur, tuméfaction).
     ```

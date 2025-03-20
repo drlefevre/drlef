@@ -1,6 +1,7 @@
 === "BASES"
     <figure markdown="span">
-        stéatose si < 45 UH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; surcharge en fer = hypoT2
+        stéatose si < 45 UH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; surcharge en fer = hypoT2  
+        [cirrhose](https://radiopaedia.org/articles/cirrhosis){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [LI-RADS](https://siad.radiologie.fr/wp-content/uploads/Cours-11-M-Wagner.pdf){:target="_blank"}
     </figure>
 
     !!! tip "**HYPERvasculaire**"
@@ -22,10 +23,11 @@
     !!! success "[angiome](https://radiopaedia.org/articles/hepatic-haemangioma-3){:target="_blank"} caverneux"
         - ECHO hyper, homogène, <u>renforcement post</u>, < 3 cm, Doppler-
         - TDM hypo, PDC centripète en mottes, persistant au tps tardif
-        - IRM hypoT1, <u>hyperT2 > rate et rein</u>, hyperdiff (T2 shine through)
-        - possible shunt artérioveineux en périphérie
+        - IRM hypoT1, <u>hyperT2 > rate et rein</u>, DD = méta TNE
+        - ± shunt artérioveineux en périphérie
         - angiome capillaire = PDC suivant l'Ao
         - angiome géant = kystisation centrale
+        - angiome à circulation lente = PDC retardée
 
     !!! success "[HNF](https://radiopaedia.org/articles/focal-nodular-hyperplasia){:target="_blank"} // femme jeune"
         - ECHO iso, <u>muriforme</u>, cicatrice centrale hyper, artère centrale
