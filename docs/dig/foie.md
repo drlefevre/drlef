@@ -1,10 +1,14 @@
 === "BASES"
     <figure markdown="span">
-        stéatose si < 45 UH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; surcharge en fer = hypoT2  
-        [cirrhose](https://radiopaedia.org/articles/cirrhosis){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [LI-RADS](https://siad.radiologie.fr/wp-content/uploads/Cours-11-M-Wagner.pdf){:target="_blank"}
+        stéatose si < 45 UH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; surcharge en fer = hypoT2
     </figure>
 
-    !!! tip "**HYPERvasculaire**"
+    !!! tip "[cirrhose](https://radiopaedia.org/articles/cirrhosis){:target="_blank"} = [LI-RADS](https://siad.radiologie.fr/wp-content/uploads/Cours-11-M-Wagner.pdf){:target="_blank"}"
+        - HYPERtrophie seg I et lobe gauche / hypotrophie lobe droit (dont seg IV)
+        - [HTP](https://radiopaedia.org/articles/portal-hypertension){:target="_blank"} = ascite, splénomégalie, voies de dérivations porto-systémiques
+        - [nodule régénération](https://radiopaedia.org/articles/regenerative-liver-nodule?lang=us){:target="_blank"} = hypoT2 ± spontanément hyperdense
+
+    !!! tip "**HRPA**"
         |  hépatocytaire (isoT1) |  non hépatocytaire |  
         | :----------: | :-------: |
         | HNF | angiome capillaire | 

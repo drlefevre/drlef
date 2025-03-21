@@ -184,7 +184,7 @@
 
         Aspect évocateur d'une infection de kyste épidermoïde.
 
-        Intérêt d'un contrôle échographique en cas de persistance d'évolution défavorable.
+        Intérêt d'un contrôle échographique en cas de d'évolution défavorable.
         ```
     !!! tip "[lipome](https://onclepaul.fr/wp-content/uploads/2011/07/Boules-masses-nodules.pdf){:target="_blank"}"
         - masse superficielle compressible et indolore
@@ -357,7 +357,7 @@
     ```title="PANO"
     Pas de lacune apico-dentaire.
     Bonne ventilation des cuvettes maxillaires.
-    Condyles de taille et de forme normales.
+    Condyles mandibulaires d'aspect normal.
     Pas de lésion osseuse suspecte.
     ```  
     <figure markdown="span">
