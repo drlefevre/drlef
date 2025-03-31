@@ -36,7 +36,7 @@
     ```title="Epicondylite"
     Pas d'épanchement articulaire.
     Intégrité des tendons communs des épicondyliens latéraux et médiaux.
-    Pas d'anomalie des tendon distaux des muscles biceps et triceps.
+    Pas d'anomalie des tendons distaux des muscles biceps et triceps.
     Aspect normal du nerf ulnaire dans son tunnel.
     ```
     <figure markdown="span">
@@ -64,6 +64,12 @@
     Pas d'anomalie décelable des tendons extenseurs et fléchisseurs.
     Pas d'anomalie des nerfs médian et ulnaire au poignet.
     ```
+    ```title="De Quervain"
+    Epaississement rétinaculaire supérieur à 1 mm autour du premier compartiment des extenseurs.
+    Aspect hypoéchogène. Hyperhémie associée. Douleurs reproduites au passage de la sonde.
+    Pas d'anomalie des tendons du court extenseur et du long abducteur du pouce.
+    Pas d'éperon osseux ni de septum intertendineux.
+    ```
     <figure markdown="span">
         ![](assets/poignetdos.jpg){width="620"}
         ![](assets/extenseurs.jpg){width="300"}  
@@ -85,6 +91,14 @@
     Intégrité du muscle droit fémoral et de ses insertions tendineuses.
     Intégrité des tendons glutéaux et de l'insertion proximale des ischio-jambiers.
     ```
+    ```title="Pubalgie"
+    Ebauches ostéophytiques péri-acétabulaires.
+    Pas d'épanchement coxo-fémoral abondant.
+    Pas de distension de la bourse ilio-pectinée.
+    Respect du tendon direct du muscle long fémoral.
+    Absence de hernie inguinale lors des manœuvres de Valsalva.
+    Pas d'anomalie de l'enthèse proximale des muscles adducteurs.
+    ```
     <figure markdown="span">
         [![](assets/adducteurs.jpg){width="900"}](https://www.youtube.com/watch?v=CvP7ZwW3trk&list=PLGV2jHWN573djULLdIjMos1uZ1iMdevnT&index=4){:target="_blank"}  
         [![](assets/psoas.jpg){width="900"}](https://www.youtube.com/watch?v=ivN3cYggy_w&list=PLGV2jHWN573djULLdIjMos1uZ1iMdevnT&index=4){:target="_blank"}  
@@ -93,13 +107,25 @@
     </figure>  
 
 === "GENOU"
-    ```title="Entorse"
-    Pas d'épanchement dans l'articulation tibio-talienne.
-    Aspect normal des ligaments talofibulaire antérieur et calcanéofibulaire.
-    Respect des ligaments talonaviculaire dorsale, tibiofibulaire antéro-inférieur et calcanéocuboïdien latéral.
-    Comblement graisseux hyperéchogène sans particularité du sinus du tarse.
-    Tendons court et long fibulaires en place, sans épanchement.
     ```
+    Radiographies :
+    Pas d’épanchement intra-articulaire.
+    Respect des interlignes fémoro-tibiaux et fémoro-patellaire.
+    Pas de lésion osseuse suspecte et parties molles sans particularité.
+
+    Echographie :
+    Epanchement intra-articulaire de faible abondance.
+    Tendons quadricipital et patellaire d'aspect fibrillaire avec épaisseur normale.
+    Pas d'anomalie du ligament collatéral latéral et du ligament collatéral médial.
+    Respect des tendons du biceps fémoral et de la patte d'oie.
+    Bandelette ilio-tibiale sans particularité.
+    Pas d'extrusion méniscale.
+    Pas de kyste poplité.
+    ```
+    <figure markdown="span">
+        
+    </figure>  
+
 
 === "PIED"
     ```title="Rx"
@@ -133,8 +159,8 @@
     ```title="Névrome de Morton"
     Pas d'épaississement hypoéchogène dans les espaces intercapitométatarsiens, y compris lors de la manœuvre de Mulder.
     Absence également de collection anéchogène intercapitométatarsienne qui traduirait une bursite.
-    Respect des plaques plantaires des 2ème et 3ème rayons.
     Pas d'épanchement dans les articulations métatarso-phalangiennes.
+    Respect des plaques plantaires des 2ème et 3ème rayons.
     ```
 
 === "INFILTR"
