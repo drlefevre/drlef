@@ -80,8 +80,20 @@
         ![](assets/carpien.jpg){width="300"}
         ![](assets/nerfs.jpg){width="400"}  
         ![](assets/doigtsflech.jpg){width="500"}  
+        ![](assets/doigtext.jpg){width="540"}  
         ![](assets/main.jpg){width="480"}
     </figure> 
+    ```title="Recherche synovite et ténosynovite"
+    Pas d'épanchement ni d'épaississement synovial radioulnaire distal, radiocarpien, ni médiocarpien.
+    Pas de ténosynovite des tendons des muscles fléchisseurs et extenseurs.
+    Pas d'épanchement ni de synovite des articulations MCP et IPP.
+    Pas d'érosion osseuse décelable.
+    ```
+    ```title="Rupture bandelette sagittale radiale 3ème rayon"
+    Infiltration péritendineuse avec hyperhémie Doppler en regard de l'articulation métacarpo-phalangienne du 3ème rayon.
+    Subluxation ulnaire du tendon extenseur. Pas d'anomalie de son échostructure.
+    Respect des bandelettes sagittales des autres MCP.
+    ```
 
 === "HANCHE"
     ```
@@ -125,7 +137,11 @@
     <figure markdown="span">
         
     </figure>  
-
+    ```title="Nerf fibulaire commun"
+        Aspect normal du nerf fibulaire commun, dont le calibre est régulier.
+        Pas de lésion kystique au niveau de l'articulation tibio-fibulaire proximale.
+        Absence d'œdème de dénervation des loges musculaires antérolatérales de la jambe.
+    ```
 
 === "PIED"
     ```title="Rx"
