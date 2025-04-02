@@ -46,9 +46,9 @@
 === "SCOLIOSE"
     ```
     Scoliose  mesurant ° entre le plateau supérieur de  et le plateau inférieur de .
-    Ossification sans particularité pour l'âge, avec un stade Risser 
+    Stade d'ossification Risser 
     Bascule du bassin par dénivelation vers la 
-    Absence de malformation vertébrale décelable.
+    Absence de malformation ou de lésion vertébrale décelable.
     ```
     <figure markdown="span">
         ![](assets/Cobb.jpg){width="400"}

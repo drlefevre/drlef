@@ -5,18 +5,6 @@
 
 === "ABDO"
     ```
-    Reins :
-    Grand axe mesurant à droite et gauche  mm.
-    Différenciation cortico-médullaire satisfaisante.
-    Pas de dilatation des cavités pyélo-calicielles.
-    Pas de lésion suspecte ni d'image lithiasique.
-
-    Vessie :
-    En réplétion, avec contenu anéchogène.
-    Pas d'anomalie de paroi décelable.
-    Pas d'épanchement péritonéal.
-    ```
-    ```
     Foie de taille et de morphologie normales, sans lésion focale.
     Tronc porte avec flux hépatopète et veines sus-hépatiques hépatofuges.
     Vésicule biliaire alithiasique. Pas de dilatation des voies biliaires. 
@@ -29,6 +17,18 @@
     ```
     ```
     Pas d'anomalie en projection de l'utérus et des annexes.
+    ```
+    ```
+    Reins :
+    Grand axe mesurant à droite et gauche  mm.
+    Différenciation cortico-médullaire satisfaisante.
+    Pas de dilatation des cavités pyélo-calicielles.
+    Pas de lésion suspecte ni d'image lithiasique.
+
+    Vessie :
+    En réplétion, avec contenu anéchogène.
+    Pas d'anomalie de paroi décelable.
+    Pas d'épanchement péritonéal.
     ```
     <figure markdown="span">
         </br>
@@ -139,7 +139,7 @@
     ```
     Hernie inguinale
 
-    Pas de hernie inguinale controlatérale déceable en position debout lors de manœuvres de Valsalva répétées.
+    Pas de hernie inguinale controlatérale décelable en position debout lors de manœuvres de Valsalva répétées.
 
     Consignes de consultation aux urgences en cas de tuméfaction inguinale irréductible et inflammatoire qui ferait suspecter une strangulation intestinale.
     ```
@@ -244,7 +244,8 @@
     ```
     <figure markdown="span">
         ![](assets/testis.jpg){width="800"}
-        12-20 cc &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Pathos](https://onclepaul.net/wp-content/uploads/2011/07/DU-TESTICULE-2011-AGFILEminimizer.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Tumeur adénomatoïde](https://radiopaedia.org/articles/adenomatoid-tumours-of-the-scrotum){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Ectasie tubulaire du rete testis](https://radiopaedia.org/articles/tubular-ectasia-of-rete-testis){:target="_blank"}  
+        12-20 cc (1-2 cc ≤ 12 ans) → formule de Lambert = cm³ x 0,71  
+        [Pathos](https://onclepaul.net/wp-content/uploads/2011/07/DU-TESTICULE-2011-AGFILEminimizer.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Tumeur adénomatoïde](https://radiopaedia.org/articles/adenomatoid-tumours-of-the-scrotum){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Ectasie tubulaire du rete testis](https://radiopaedia.org/articles/tubular-ectasia-of-rete-testis){:target="_blank"}  
         </br>
         ![](assets/adptesti.jpg){width="300"}
         lésion = **TDM TAP** (métas poumons, foie, cerveau, os)  
@@ -332,17 +333,6 @@
     <p style="text-align: center">écho à <b>J3</b> du cycle, réserve ovarienne faible si < 5 follicules/ovaire</p>
 
 === "Rx"
-    ```title="RACHIS"
-    Respect de la hauteur et bon alignement des corps vertébraux.
-    Intégrité des rapports articulaires et des espaces intersomatiques.
-    Aspect normal des interlignes articulaires sacro-iliaques et coxo-fémorales.
-    Pas de lésion osseuse suspecte et parties molles sans particularité.
-    ```    
-    <figure markdown="span">
-        ![](assets/coxarthrose.jpg){width="400"} 
-        </br> 
-    </figure>
-
     ```title="RT"
     Silhouette cardiomédiastinale d'aspect normal.
     Pas d'anomalie en projection des champs pulmonaires.
@@ -352,6 +342,26 @@
     <figure markdown="span">
         ![](assets/rxt.jpg){width="800"}
         [syndromes radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"} et [bronchiolite](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}  
+        </br> 
+    </figure>
+    ```title="RACHIS"
+    Respect de la hauteur et bon alignement des corps vertébraux.
+    Intégrité des rapports articulaires et des espaces intersomatiques.
+    Aspect normal des interlignes articulaires sacro-iliaques et coxo-fémorales.
+    Pas de lésion osseuse suspecte et parties molles sans particularité.
+    ```    
+    <figure markdown="span">
+        ![](assets/coxarthrose.jpg){width="450"} 
+        </br> 
+    </figure>
+    ```title="SCOLIOSE"
+    Scoliose  mesurant ° entre le plateau supérieur de  et le plateau inférieur de .
+    Stade d'ossification Risser 
+    Bascule du bassin par dénivelation vers la 
+    Absence de malformation ou de lésion vertébrale décelable.
+    ```    
+    <figure markdown="span">
+        ![](assets/Risser.jpg){width="420"}
         </br> 
     </figure>
     ```title="PANO"
