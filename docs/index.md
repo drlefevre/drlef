@@ -282,6 +282,9 @@
         <figure markdown="span">
             ![](assets/endometre.jpg){width="550"}
         </figure>
+    <figure markdown="span">
+        [malposition DIU](https://www.gyneco-online.com/node/2710#:~:text=Il%20existe%20différents%20mal%20positionnements,du%20DIU%20pénètre%20le%20myomètre){:target="_blank"}  
+    </figure>
     !!! tip "[Adénomyose interne](https://cglre.org/adenomyose1/){:target="_blank"} = 40% des femmes"
         - focale/diffuse superficielle/profonde (cut-off 1/3 myomètre)
         - IRM = microkystes sous-endométriaux, **ZJ > 11 mm** ou > 40% du myomètre
@@ -357,7 +360,7 @@
     ```title="SCOLIOSE"
     Scoliose  mesurant ° entre le plateau supérieur de  et le plateau inférieur de .
     Stade d'ossification Risser 
-    Bascule du bassin par dénivelation vers la 
+    Bascule du bassin par sous-dénivelation vers la 
     Absence de malformation ou de lésion vertébrale décelable.
     ```    
     <figure markdown="span">
@@ -365,7 +368,7 @@
         </br> 
     </figure>
     ```title="PANO"
-    Pas de lacune apico-dentaire.
+    Pas de carie ni de lacune apico-dentaire.
     Bonne ventilation des cuvettes maxillaires.
     Condyles mandibulaires d'aspect normal.
     Pas de lésion osseuse suspecte.
