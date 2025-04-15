@@ -35,6 +35,7 @@ nav:
     - Malfo: thorax/malfo.md
     - PID: thorax/PID.md
     - FA: thorax/FA.md
+    - EI : thorax/EI.md
   - Ostéo:
     - Rachis: os/rachis.md
     - MI: os/MI.md  

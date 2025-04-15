@@ -9,7 +9,7 @@
         - [nodule régénération](https://radiopaedia.org/articles/regenerative-liver-nodule?lang=us){:target="_blank"} = hypoT2 ± spontanément hyperdense
 
     !!! tip "**HRPA**"
-        |  hépatocytaire (isoT1) |  non hépatocytaire |  
+        |  hépatocytaire (isoT1 et T2 hors FS) |  non hépatocytaire |  
         | :----------: | :-------: |
         | HNF | angiome capillaire | 
         | adénome | fistule artério-porte | 
@@ -18,9 +18,9 @@
     !!! tip "**HyperT1**"
         |  graisse |  sang |  mélanine/mucine |
         | :----------: | :-------: | :-------: |
-        | ilôt stéatosique | CHC | mélanome |
-        | CHC | adénome | ovaire | 
-        | adénome | métas | colon | 
+        | CHC | CHC | mélanome |
+        | adénome | adénome | méta ovaire | 
+        | ilôt stéatosique | métas | méta colon | 
 
 
 === "BENIN"
