@@ -11,3 +11,8 @@
     ![](assets/kystes.jpg){width="750"}
     <figcaption>DD = HX, LIP, amylose, maladie de dépôts de chaînes légères</figcaption>
 </figure>
+
+!!! tip "[AEF](https://www.clubthorax.com/web/fiches/file/PID_AEF.pdf){:target="_blank"} = DD du ry de miel"
+    - kystes multiples
+    - sans contact pleural
+    - épargne des bases

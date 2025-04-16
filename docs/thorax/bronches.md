@@ -4,6 +4,5 @@
     ![](assets/tabac.jpg){width="700"}
     [syndrome emphysème-fibrose](https://onclepaul.fr/wp-content/uploads/2011/07/sd-emphyseme-fibrose1.pdf){:target="_blank"}  
     </br>
-    ![](assets/bronches.jpg){width="580"}  
-    [atrésie bronchique](https://radiopaedia.org/articles/bronchial-atresia){:target="_blank"} (sd bronchocèle - hyperaération)
+    ![](assets/bronches.jpg){width="580"}
 </figure>
