@@ -26,6 +26,7 @@ Pas de lésion post-traumatique.
 ```
 === "thorax"
     <figure markdown="span">
+        I lacération intimale < II hématome < III pseudo-anévrysme < IV rupture
         ![](assets/Ao.jpg){width=620"}  
         </br>
         ![](assets/pulm.jpg){width=350"}

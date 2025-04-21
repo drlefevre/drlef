@@ -8,8 +8,9 @@
 </br>
 
 <figure markdown="span">
-    ![](assets/kystes.jpg){width="750"}
-    <figcaption>DD = HX, LIP, amylose, maladie de dépôts de chaînes légères</figcaption>
+    ![](assets/kystes.jpg){width="750"}  
+    [![](assets/kystes2.jpg){width="450"}](https://radiopaedia.org/articles/cystic-lung-disease-2){:target="_blank"}
+    <figcaption>DD rares = amylose, maladie de dépôts de chaînes légères</figcaption>
 </figure>
 
 !!! tip "[AEF](https://www.clubthorax.com/web/fiches/file/PID_AEF.pdf){:target="_blank"} = DD du ry de miel"
