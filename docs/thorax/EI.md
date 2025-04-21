@@ -2,6 +2,7 @@
 
 <figure markdown="span">
     **IRMc** (injectée pour recherche rupture BHE)  
+    ou à défaut TDMc sans/polygone/8 min  
     + **TDM TAP** (AP sans, TAP art, AP veineux)
 </figure>
 
