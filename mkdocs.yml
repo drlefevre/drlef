@@ -58,6 +58,8 @@ nav:
     - RECIST: dig/RECIST.md
     - Pancréas: dig/pancreas.md
     - Surrénales: dig/surrénales.md
+  - Péd:
+    - SNC: ped/SNC.md
 
 theme:
   name: material

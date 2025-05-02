@@ -52,7 +52,7 @@
         ![](assets/childliver.jpg){width="500"}
     </figure>
 
-=== "THYR"
+=== "CERV"
     ```
     Volumes des lobes droit et gauche estimés à  cc.
     Respect du gradient musculo-parenchymateux.
@@ -79,11 +79,8 @@
         [![](assets/TIRADS.jpg){width="700"}](https://cireol.net/wp-content/uploads/2017/05/2017-CIREOL-EUTIRADS.pdf){:target="_blank"}
         contours irréguliers = au moins 3 lobulations/spicules, microcalcifications = au moins 5  
         nodule EU-TIRADS 3 ≤ 2 cm ou 4 ≤ 1,5 cm => surveillance à 1a, puis 2-3a plus tard, puis 5a  
-        <b>4-10 cc/lobe</b> (< 9 cc ♀ et < 8 cc ado), Doppler < 40 cm/s
-        </br>↗ taille significative si + 2 mm dans 2 diamètres et/ou 50% en volume
-        </br>
-        20% [lobe pyramidal](https://radiopaedia.org/articles/pyramidal-lobe-of-thyroid){:target="_blank"} = reliquat du tractus thyréoglosse  
-        [cytoponction](https://lamediatheque.radiologie.fr/mediatheque/media.aspx?mediaId=2896&channel=3277){:target="_blank"}
+        <b>4-10 cc/lobe</b> (< 9 cc ♀ et < 8 cc ado), Doppler < 40 cm/s,  20% [lobe pyramidal](https://radiopaedia.org/articles/pyramidal-lobe-of-thyroid){:target="_blank"}
+        </br>↗ taille significative +2 mm dans 2 diam. / 50% en volume => [cytoponction](https://lamediatheque.radiologie.fr/mediatheque/media.aspx?mediaId=2896&channel=3277){:target="_blank"}
     </figure>
     === "Basedow"
         - goitre hypoéchogène **homogène**, Ac anti-récepteur de la TSH (TRAK)
@@ -121,12 +118,15 @@
     Thyroïde de taille normale sans image nodulaire significative.
     ```
     <figure markdown="span">
-        ![](assets/salivaires.jpg){width="700"}
+        [![](assets/salivaires.jpg){width="700"}](https://radiopaedia.org/articles/pleomorphic-adenoma-of-the-salivary-glands){:target="_blank"} 
     </figure>
+
+    ```
+    Ganglions jugulo-carotidiens supérieurs bilatéraux de petit axe infracentimétrique, de forme ovalaire (rapport grand axe sur petit axe > 2), avec hile hyperéchogène central linéaire, d'échostructure homogène, bien limités, avec un environnement péri-ganglionnaire normal.
+    ```
+
     <figure markdown="span">
-        [![](assets/gg.jpg){width="550"}](https://onclepaul.fr/wp-content/uploads/2011/07/Aires-lymphatiques-cervicales-AF-2022.pdf){:target="_blank"}
-    </figure>
-    <figure markdown="span">
+        [![](assets/gg.jpg){width="550"}](https://onclepaul.fr/wp-content/uploads/2011/07/Aires-lymphatiques-cervicales-AF-2022.pdf){:target="_blank"}  
         [![](assets/ORL.jpg){width="700"}](https://www.sfdermato.org/media/pdf/fmc/kystes-et-fistules-43aafeeba119ceb9a20059d95f63e615.pdf){:target="_blank"}
     </figure>
 
@@ -344,7 +344,7 @@
     ``` 
     <figure markdown="span">
         ![](assets/rxt.jpg){width="800"}
-        [syndromes radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"} et [bronchiolite](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}  
+        [sd radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}
         </br> 
     </figure>
     ```title="RACHIS"

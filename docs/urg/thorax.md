@@ -22,6 +22,7 @@
     !!! warning "Type **B**"
         - porte d'entrée svt au pied de l'ASC gauche
         - sinon préciser distance ASC - porte d'entrée
+        - /!\ artère d'**Adamkiewicz** 80% T8-L1 gauche => paraplégie
 
     !!! warning "Hématome intra-mural"
         - 25% des syndromes aortiques = Ao descendante dans 2/3
@@ -30,10 +31,6 @@
     !!! warning "Ulcère athéromateux pénétrant"
         - 90% Ao descendante
         - hématome, dissection, perforation
-
-    !!! danger "Artère d'**Adamkiewicz**"
-        - 80% T8-L1 gauche
-        - paraplégie
 
 
 === "EP"
