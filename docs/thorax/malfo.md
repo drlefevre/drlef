@@ -25,10 +25,18 @@
     <figure markdown="span">
         [atrésie bronchique](https://radiopaedia.org/articles/bronchial-atresia){:target="_blank"} (sd bronchocèle - hyperaération)
         ![](assets/SBH.jpg){width="350"}  
+        </br></br>
+        dyskinésie ciliaire primitive + situs inversus = sd de [Kartagener](https://radiopaedia.org/articles/kartagener-syndrome-1){:target="_blank"}
+        ![](assets/Kartagener.jpg){width="300"}  
     </figure>
 
 
 === "VAISSEAUX"
+
+    <figure markdown="span">
+        [Variantes anatomiques de l'arc aortique](https://radiopaedia.org/articles/variant-anatomy-of-the-aortic-arch){:target="_blank"}
+        ![](assets/Corone.jpg){width="800"}    
+    </figure>
 
 
 === "STERNUM"
@@ -37,5 +45,17 @@
         [pectus excavatum](https://radiopaedia.org/articles/pectus-excavatum){:target="_blank"} : indice de [Haller](https://radiopaedia.org/articles/haller-index){:target="_blank"}
         ![](assets/Haller.jpg){width="350"}
         diamètre transverse max / distance AP min  
-        léger < 3,2 < modéré < 3,5 < sévère
+        léger < 3,2 < modéré < 3,5 < sévère  
+        </br></br>
+        5% [foramen sternal](https://radiopaedia.org/articles/sternal-foramen?lang=gb){:target="_blank"}
+    </figure>
+
+
+=== "HERNIES"
+
+    <figure markdown="span">
+        hernies diphragmatiques dont 95% de [hernie de Bochdalek](https://radiopaedia.org/articles/bochdalek-hernia){:target="_blank"}
+        ![](assets/hernies.jpg){width="500"}  
+        </br></br>
+        ≠ [éventration diaphragmatique](https://radiopaedia.org/articles/diaphragmatic-eventration){:target="_blank"}
     </figure>

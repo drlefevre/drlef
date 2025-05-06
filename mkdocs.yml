@@ -37,11 +37,13 @@ nav:
     - Ao: thorax/Ao.md
     - FA: thorax/FA.md
     - EI : thorax/EI.md
-  - Ostéo:
-    - Rachis: os/rachis.md
-    - MI: os/MI.md  
+  - Neuro:
+      - Péd: neuro/ped.md
   - ORL:
+    - Amygdales: ORL/amygdales.md
+    - Tumeurs : ORL/tumeurs.md
     - Sinus: ORL/sinus.md
+    - Péd: ORL/ped.md
   - Uro:
     - Reins: uro/reins.md
     - Vessie: uro/vessie.md
@@ -58,8 +60,9 @@ nav:
     - RECIST: dig/RECIST.md
     - Pancréas: dig/pancreas.md
     - Surrénales: dig/surrénales.md
-  - Péd:
-    - SNC: ped/SNC.md
+  - Os:
+    - Rachis: os/rachis.md
+    - MI: os/MI.md  
 
 theme:
   name: material
