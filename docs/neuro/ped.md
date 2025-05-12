@@ -4,7 +4,7 @@
 
     <figure markdown="span">
         ![](assets/sutures.jpg){width="800"}
-        [craniosténose](https://radiopaedia.org/articles/craniosynostosis?lang=us){:target="_blank"} = fermeture prématurée d'une suture  
+        [craniosténose](https://radiopaedia.org/articles/craniosynostosis?lang=us){:target="_blank"} = fermeture prématurée d'une suture ([Vinchon](https://matthieuvinchon.fr/2017/09/12/les-craniostenoses/){:target="_blank"})  
         ![](assets/sutures2.jpg){width="400"}  
     </figure>
 
@@ -12,8 +12,13 @@
         - NNé = fini en sous-tentoriel, puis bas → haut, arr → avt, centre → périph
         - hyperT1 commençant aux bras post. des capsules internes, terminé à M6
         - hypoT2 sus-tentoriel d'apparition très progressive **jusqu'à 2-4 ans**
-        - FLAIR retardé : pas de myélinisation sus-tenoriel avant 1 an
+        - FLAIR retardé : pas de myélinisation sus-tentoriel avant 1 an
         - [leucodystrophies](https://radiopaedia.org/articles/leukodystrophies){:target="_blank"} = anomalies de la myélinisation
+
+    <figure markdown="span">
+        [biométrie du corps calleux](https://www.neuroradiologie.fr/index.php/outils/corps-calleux){:target="_blank"}  
+        [lésions anoxo-ischémiques du NNé](https://radiopaedia.org/articles/patterns-of-neonatal-hypoxicischaemic-brain-injury?lang=gb){:target="_blank"} = prématurité +++ 
+    </figure>
 
     </br>
     !!! warning "DD macrocéphalie"
