@@ -1,1 +1,0 @@
-# [Atlas TDM](http://memoires.scd.univ-tours.fr/Medecine/Theses/2010_Medecine_MorelBaptiste/web/html/index7a44.html?option=com_content&view=article&id=56&Itemid=66){:target="_blank"}

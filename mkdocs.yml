@@ -3,20 +3,8 @@ site_name: Notes radiologiques
 nav:
   - index.md
   - msk.md
-  - Urgences:
-    - PDC: urg/PDC.md
-    - AVP: urg/AVP.md
-    - AVC: urg/AVC.md
-    - TC: urg/TC.md
-    - Mort: urg/mort.md
-    - Abdo: urg/abdo.md
-    - Thorax: urg/thorax.md
-    - Femme: urg/femme.md
-    - Pédiatrie: urg/pedia.md
-    - Fractures : urg/fractures.md
-    - Occlusion: urg/occlusion.md
-    - Caustique: urg/caustique.md
   - Femme:
+    - Urg: femme/urg.md
     - EPP: femme/EPP.md
     - Seins: femme/seins.md
     - Utérus: femme/uterus.md
@@ -26,6 +14,7 @@ nav:
     - Pelviscanner: femme/pelviscanner.md
     - Malformations: femme/malformations.md
   - Thorax:
+    - Urgences: thorax/ep.md
     - Nodules: thorax/nodules.md
     - Médiastin: thorax/mediastin.md
     - Infections: thorax/infections.md
@@ -38,15 +27,16 @@ nav:
     - FA: thorax/FA.md
     - EI : thorax/EI.md
   - Neuro:
-      - AVC: neuro/AVC.md
-      - TC: neuro/TC.md
-      - SEP: neuro/SEP.md
-      - GBM: neuro/gbm.md
-      - h/HTIC: neuro/HTIC.md
-      - Parkinson: neuro/park.md
-      - Démences: neuro/démences.md
-      - Hypophyse: neuro/hypophyse.md
-      - Pédiatrie: neuro/ped.md
+    - Mort: neuro/mort.md
+    - AVC: neuro/AVC.md
+    - TC: neuro/TC.md
+    - SEP: neuro/SEP.md
+    - GBM: neuro/gbm.md
+    - h/HTIC: neuro/HTIC.md
+    - Parkinson: neuro/park.md
+    - Démences: neuro/démences.md
+    - Hypophyse: neuro/hypophyse.md
+    - Pédiatrie: neuro/ped.md
   - ORL:
     - Amygdales: ORL/amygdales.md
     - Tumeurs : ORL/tumeurs.md
@@ -68,9 +58,15 @@ nav:
     - RECIST: dig/RECIST.md
     - Pancréas: dig/pancreas.md
     - Surrénales: dig/surrénales.md
+    - Hernies internes: dig/herniesint.md
+    - Caustique: dig/caustique.md
+    - Urg péd: dig/pedia.md
   - Os:
+    - Fractures: os/fractures.md
     - Rachis: os/rachis.md
     - MI: os/MI.md  
+  - PDC: PDC.md
+  - AVP: AVP.md
 
 theme:
   name: material

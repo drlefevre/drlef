@@ -1,4 +1,4 @@
-# Mort encéphalique
+# [Mort encéphalique](https://www.radiologie.fr/sites/www.radiologie.fr/files/medias/documents/CR-MORTENCÉPHALIQUE.pdf){:target="_blank"}
 
 !!! info "Conditions"
     - **6h après abolition des réflexes du tronc cérébral**
