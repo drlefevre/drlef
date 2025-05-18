@@ -38,12 +38,20 @@ nav:
     - FA: thorax/FA.md
     - EI : thorax/EI.md
   - Neuro:
-      - Péd: neuro/ped.md
+      - AVC: neuro/AVC.md
+      - TC: neuro/TC.md
+      - SEP: neuro/SEP.md
+      - GBM: neuro/gbm.md
+      - h/HTIC: neuro/HTIC.md
+      - Parkinson: neuro/park.md
+      - Démences: neuro/démences.md
+      - Hypophyse: neuro/hypophyse.md
+      - Pédiatrie: neuro/ped.md
   - ORL:
     - Amygdales: ORL/amygdales.md
     - Tumeurs : ORL/tumeurs.md
     - Sinus: ORL/sinus.md
-    - Péd: ORL/ped.md
+    - Pédiatrie: ORL/ped.md
   - Uro:
     - Reins: uro/reins.md
     - Vessie: uro/vessie.md
