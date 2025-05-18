@@ -23,7 +23,7 @@
     Grand axe mesurant à droite et gauche  mm.
     Différenciation cortico-médullaire satisfaisante.
     Pas de dilatation des cavités pyélo-calicielles.
-    Pas de lésion suspecte ni d'image lithiasique.
+    Pas d'image lithiasique ni de lésion suspecte.
 
     Vessie :
     En réplétion, avec contenu anéchogène.
@@ -134,7 +134,9 @@
     ```
     Examen en position debout lors de manœuvres de Valsalva répétées.
     
-    Absence de hernie ou autre lésion inguinale décelable.
+    Pas de hernie ou autre lésion inguinale décelable.
+    Pas d'épanchement dans les articulations coxo-fémorales.
+    Pas d'épanchement ni de syndrome de masse dans le pelvis.
     ```
     ```
     Hernie inguinale
@@ -146,7 +148,8 @@
     <figure markdown="span">
         [![](assets/ing.jpg){width="650"}](https://www.youtube.com/watch?v=k7uc1u4TYF4){:target="_blank"}
         [DD](https://www.intercomsante57.fr/html/profsante/pdf/L-echographie-dans-les-hernies.pdf){:target="_blank"} douleurs inguinales = arthrose hanche/rachis, pubalgie du sportif  
-        [Diastiasis](https://radiopaedia.org/articles/diastasis-recti){:target="_blank"} des muscles grands droits si > 20 mm
+        [Diastiasis](https://radiopaedia.org/articles/diastasis-recti){:target="_blank"} des muscles grands droits si > 20 mm  
+        [Hernie de Spiegel](https://radiopaedia.org/articles/spigelian-hernia-1){:target="_blank"} = ligne semi-lunaire
     </figure>
 
     | Ganglion | [Territoires de drainage](https://www.chem-sante.fr/elearning/parcours_41/biblio_0/mg_2015_941_384.pdf){:target="_blank"}  |

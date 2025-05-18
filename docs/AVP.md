@@ -39,10 +39,12 @@ Pas de lésion post-traumatique.
         - EP (graisseuse), pneumopathie d'inhalation
 === "abdomen"
     <figure markdown="span">
-        ![](assets/AAST.jpg){width=670"}
-        /!\ rate faux-a à J3-J7 et **grade IV/V = embolisation** sinon 50% rupture II<sup>R</sup>
-        </br></br>
-        ![](assets/AAST2.jpg){width=670"}
+        [Causes d'ascite isolée](https://radiopaedia.org/articles/isolated-free-fluid-in-trauma){:target="_blank"} = 5% des traumas  
+        </br>
+        [![](assets/AAST.jpg){width=700"}](https://radiopaedia.org/articles/aast-injury-scoring-scales){:target="_blank"}
+        /!\ rate faux-a à J3-J7 et **grade IV/V = embolisation** sinon 50% rupture II<sup>R</sup>  
+        </br>
+        [![](assets/AAST2.jpg){width=700"}](https://radiopaedia.org/articles/aast-injury-scoring-scales){:target="_blank"}
     </figure>
 === "rachis"
     <figure markdown="span">
