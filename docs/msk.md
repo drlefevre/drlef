@@ -134,13 +134,11 @@
     Pas d'extrusion méniscale.
     Pas de kyste poplité.
     ```
-    <figure markdown="span">
-        
-    </figure>  
+
     ```title="Nerf fibulaire commun"
-        Aspect normal du nerf fibulaire commun, dont le calibre est régulier.
-        Pas de lésion kystique au niveau de l'articulation tibio-fibulaire proximale.
-        Absence d'œdème de dénervation des loges musculaires antérolatérales de la jambe.
+    Aspect normal du nerf fibulaire commun, dont le calibre est régulier.
+    Pas de lésion kystique au niveau de l'articulation tibio-fibulaire proximale.
+    Absence d'œdème de dénervation des loges musculaires antérolatérales de la jambe.
     ```
 
 === "PIED"

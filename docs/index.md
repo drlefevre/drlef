@@ -7,7 +7,7 @@
     ```
     Foie de taille et de morphologie normales, sans lésion focale.
     Tronc porte avec flux hépatopète et veines sus-hépatiques hépatofuges.
-    Vésicule biliaire alithiasique. Pas de dilatation des voies biliaires. 
+    Pas de calcul vésiculaire. Pas de dilatation des voies biliaires. 
     Pas d'anomalie du pancréas explorable.
     Rate homogène de taille normale.
     Pas de dilatation des cavités pyélocalicielles.
@@ -132,18 +132,25 @@
 
 === "PAROI"
     ```
-    Examen en position debout lors de manœuvres de Valsalva répétées.
+    Examen debout lors de manœuvres de Valsalva répétées, puis en décubitus.
     
     Pas de hernie ou autre lésion inguinale décelable.
-    Pas d'épanchement dans les articulations coxo-fémorales.
+    Pas d'épanchement dans l'articulation coxo-fémorale.
+    Pas d'anomalie de l'enthèse du muscle long adducteur.
     Pas d'épanchement ni de syndrome de masse dans le pelvis.
+    Vessie en semi-réplétion, à contenu anéchogène, sans anomalie pariétale.
     ```
     ```
+    Examen debout lors de manœuvres de Valsalva répétées.
+    
     Hernie inguinale
 
-    Pas de hernie inguinale controlatérale décelable en position debout lors de manœuvres de Valsalva répétées.
+    Pas de hernie inguinale controlatérale décelable.
 
-    Consignes de consultation aux urgences en cas de tuméfaction inguinale irréductible et inflammatoire qui ferait suspecter une strangulation intestinale.
+    Consignes de consultation aux urgences en cas de tuméfaction irréductible et inflammatoire qui ferait suspecter une strangulation intestinale.
+    ```
+    ```
+    Consignes de consultation aux urgences en cas de tuméfaction irréductible et inflammatoire qui ferait suspecter une strangulation intestinale.
     ```
     <figure markdown="span">
         [![](assets/ing.jpg){width="650"}](https://www.youtube.com/watch?v=k7uc1u4TYF4){:target="_blank"}

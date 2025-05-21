@@ -11,8 +11,8 @@
     !!! tip "**HRPA**"
         |  hépatocytaire (isoT1 et T2 hors FS) |  non hépatocytaire |  
         | :----------: | :-------: |
-        | HNF | angiome capillaire | 
-        | adénome | fistule artério-porte | 
+        | HNF et adénome | angiome capillaire | 
+        | troubles perfusionnels | fistule artério-porte | 
         | CHC | métas | 
 
     !!! tip "**HyperT1**"
@@ -33,7 +33,7 @@
         - angiome géant = kystisation centrale
         - angiome à circulation lente = PDC retardée
 
-    !!! success "[HNF](https://radiopaedia.org/articles/focal-nodular-hyperplasia){:target="_blank"} // femme jeune"
+    !!! success "[HNF](https://radiopaedia.org/articles/focal-nodular-hyperplasia){:target="_blank"} // femme jeune ([10x plus fréquent](https://www.fmcgastro.org/postu-main/archives/postu-2009-paris/tumeurs-benignes-du-foie-hyperplasie-nodulairefocale-et-adenomes-2/){:target="_blank"} que l'adénome)"
         - ECHO iso, <u>muriforme</u>, cicatrice centrale hyper, artère centrale
         - TDM hypervasc fugace, pas de capsule ni lavage, <u>cicatrice hyper tardif</u>
         - IRM cicatrice hypoT1 hyperT2, <u>hyper gado hépatospécifique tardif</u> vs IV-

@@ -14,19 +14,18 @@
         * III = parois ou cloisons régulières ≥ 4 mm / nodule ≤ 3 mm
         * IV = nodule ≥ 4 mm 
 
-!!! tip "Tumeurs solides (PDC > 25%)"
+!!! tip "[Tumeurs solides](https://radiopaedia.org/articles/primary-renal-neoplasia){:target="_blank"} (PDC > 25%)"
     * HYPERvascularisée  
-        * **80% CCC** = nécrose, thrombose veine, Ca<sup>2+</sup>, Hdiff central, pseudocapsule hT2, HT2
+        * 80% [CCC](https://radiopaedia.org/articles/clear-cell-renal-cell-carcinoma?lang=gb){:target="_blank"} = nécrose, thrombose veine, Ca<sup>2+</sup>, Hdiff central, pseudocapsule hT2, HT2
             * métas poumons, os, gg, foie, surrénales, cerveau
-        * **angiomyolipome** : graisse, cornet de glace, microanévrysmes
+        * [angiomyolipome](https://radiopaedia.org/articles/renal-angiomyolipoma){:target="_blank"} : graisse, cornet de glace, microanévrysmes
             * PAS de Ca<sup>2+</sup>, de capsule hT2, de kyste ni de nécrose
-        * **oncocytome** : HT2, cicatrice centrale hT2 avec PDC tardive, PDC radiaire centrifuge, yin-yang inversion PDC art/vein, HADC, ±capsule hT2
+        * [oncocytome](https://radiopaedia.org/articles/renal-oncocytoma){:target="_blank"} : HT2, cicatrice centrale hT2 avec PDC tardive, PDC radiaire centrifuge, yin-yang inversion PDC art/vein, HADC, ±capsule hT2
             * PAS de graisse (même micro, contrairement au CCC)
     * Hdiff et hypovasc/intermédiaire
-        * carcinome **papillaire** : hypovasc, Hdense, HT1, hypoT2, ↗OP
-        * tumeur **urothéliale** : infiltrant, hématurie, Ca<sup>2+</sup> linéaires
-        * **méta** : ronds, mal limités, kystiques
-            * K épidermoïdes (poumons, ORL, œsophage)
+        * [carcinome papillaire](https://radiopaedia.org/articles/papillary-renal-cell-carcinoma){:target="_blank"} : hypovasc, Hdense, HT1, hypoT2, ↗OP
+        * [tumeur urothéliale](https://radiopaedia.org/articles/transitional-cell-carcinoma-urinary-tract){:target="_blank"} : infiltrant, hématurie, Ca<sup>2+</sup> linéaires
+        * méta = carcinomes épidermoïdes (poumons, ORL, œsophage)
 
 !!! tip "Sd génétiques"
     * [PKRAD](http://manuel3.cuen.fr/IMG/pdf/17.pdf){:target="_blank"} = HTA, IRC terminale à 50-70 ans, kystes hépatiques, 10% anévrysme cérébral

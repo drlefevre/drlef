@@ -18,13 +18,12 @@
         * 5 = ≥ 15 mm ou EEP
 
 <figure markdown="span">
-    ![](assets/PIRADS.jpg){width=700"}
-    </br>
-    ![](assets/prostate.jpg){width=350"}
-    </br>
+    [![](assets/algoprostate.jpg){width=500"}](https://www.urofrance.org/recommandation/recommandations-francaises-du-comite-de-cancerologie-de-lafu-actualisation-2024-2026-cancer-de-la-prostate-diagnostic-et-prise-en-charge/#){:target="_blank"}  
+    ![](assets/PIRADS.jpg){width=700"}  
+    ![](assets/prostate.jpg){width=350"}  
     ![](assets/pros ADP.jpg){width=350"}
-    ![](assets/pros meta.jpg){width=350"}
-    </br></br>
+    ![](assets/pros meta.jpg){width=350"}  
+    </br>
     ![](assets/kystespros.jpg){width=320"}
     1 : <b>kyste utricule</b> prostatique (rare surinfection/dégénérescence)
     </br>2 : kyste mullérien (s'étend au-dessus de la base prostatique)
