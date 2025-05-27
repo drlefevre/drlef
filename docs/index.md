@@ -48,8 +48,8 @@
         [Lésion hépatiques](https://echo.interniste.com/echographie-foie-us-fr-c2-s0){:target="_blank"}  
         ![](assets/angiome.jpg){width="430"}  
         ![](assets/mickey.jpg){width="400"}  
-        ![](assets/VB.jpg){width="680"}  
-        ![](assets/childliver.jpg){width="500"}
+        ![](assets/VB.jpg){width="680"}
+        [polypes cholestéroliques](https://radiopaedia.org/articles/gallbladder-cholesterol-polyps){:target="_blank"}  
     </figure>
 
 === "CERV"
@@ -363,6 +363,13 @@
     Aspect normal des interlignes articulaires sacro-iliaques et coxo-fémorales.
     Pas de lésion osseuse suspecte et parties molles sans particularité.
     ```    
+    ```title="BASSIN"
+    Pas de remaniement dégénératif significatif des articulations coxo-fémorales.
+    Respect des interlignes articulaires sacro-iliaques.
+    Pas de bascule significative du bassin.
+    Pas de lésion osseuse suspecte.
+    Parties molles sans particularité.
+    ```   
     <figure markdown="span">
         ![](assets/coxarthrose.jpg){width="450"} 
         </br> 

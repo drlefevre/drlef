@@ -30,6 +30,7 @@ nav:
     - Mort: neuro/mort.md
     - AVC: neuro/AVC.md
     - TC: neuro/TC.md
+    - CR: neuro/CR.md
     - SEP: neuro/SEP.md
     - GBM: neuro/gbm.md
     - h/HTIC: neuro/HTIC.md

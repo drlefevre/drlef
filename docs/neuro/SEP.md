@@ -1,7 +1,7 @@
 # [Sclérose en plaques](https://radiopaedia.org/articles/multiple-sclerosis){:target="_blank"}
 
-```
-Séquences axiale diffusion, 3D FLAIR, 3D T1 EG et SWI.
+```title="Baseline et rebaseline gado+"
+Séquences axiale diffusion, 3D FLAIR, 3D T1 EG et 3D SWAN.
 Après injection de gadolinium séquence 3D T1 SE.
 ```
 ```
@@ -20,7 +20,39 @@ Prise de contraste des hypersignaux FLAIR : non
 Atrophie parenchymateuse : non
 Atrophie callosale : non
 ```
-
+```
+Séquences sagittale T2 STIR sur l'ensemble du cordon médullaire.
+```
+```
+Terminaison du cône médullaire en L1-L2.
+Absence de lésion médullaire en hypersignal T2.
+Absence d'atrophie cordonale.
+Respect des espaces liquidiens périmédullaires.
+Structures osseuses et parties molles sans particularité.
+```
+<figure markdown="span">
+</figure>
+```title="Suivi annuel gado-"
+Séquences axiale diffusion, 3D FLAIR et 3D T1 EG.
+```
+```
+Pas d'anomalie de signal apparue sur la séquence de diffusion.
+Stabilité des lésions en hypersignal FLAIR dans la substance blanche périventriculaire.
+Stabilité des quelques black holes et de la trophicité cérébrale.
+Intérgité des espaces liquidiens intra et péri-cérébraux.
+```
+```
+Séquences sagittale T2 STIR sur l'ensemble du cordon médullaire.
+```
+```
+Stabilité des lésions médullaires cervicales et thoraciques.
+Absence de nouvelle lésion décelable.
+Absence d'atrophie cordonale.
+Respect des espaces liquidiens périmédullaires.
+Structures osseuses et parties molles sans particularité.
+```
+<figure markdown="span">
+</figure>
 !!! tip "Critères de [McDonald 2024](https://radiopaedia.org/articles/mcdonald-diagnostic-criteria-for-multiple-sclerosis-4){:target="_blank"}"
     - dissémination **spatiale** si ≥ 2 parmi 
         - péri-ventriculaire (collée et ⊥)

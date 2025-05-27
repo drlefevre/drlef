@@ -6,7 +6,7 @@
 </figure>
 
 ```
-Séquences axiale diffusion, 3D FLAIR, 3D T1 EG et SWI.
+Séquences axiale diffusion, 3D FLAIR, 3D T1 EG et 3D SWAN.
 ```
 ```
 Pas de lésion ischémique ou hémorragique récente ni de collection péricérébrale.
