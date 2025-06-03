@@ -1,58 +1,58 @@
 # [Sclérose en plaques](https://radiopaedia.org/articles/multiple-sclerosis){:target="_blank"}
 
-```title="Baseline et rebaseline gado+"
-Séquences axiale diffusion, 3D FLAIR, 3D T1 EG et 3D SWAN.
-Après injection de gadolinium séquence 3D T1 SE.
-```
-```
-Pas de lésion ischémique ou hémorragique récente ou séquellaire.
-Pas de prise de contraste pathologique parenchymateuse ou méningée.
+=== "suivi annuel gado-"
+    ```
+    Séquences axiale diffusion, 3D FLAIR et 3D T1 EG.
+    ```
+    ```
+    Pas d'anomalie de signal apparue sur la séquence de diffusion.
+    Stabilité des lésions en hypersignal FLAIR dans la substance blanche périventriculaire.
+    Stabilité des quelques black holes et de la trophicité cérébrale.
+    Intégrité des espaces liquidiens intra et péri-cérébraux.
+    ```
+    ```
+    Séquences sagittale T2 STIR sur l'ensemble du cordon médullaire.
+    ```
+    ```
+    Stabilité des lésions médullaires cervicales et thoraciques.
+    Absence de nouvelle lésion décelable.
+    Absence d'atrophie cordonale.
+    Respect des espaces liquidiens périmédullaires.
+    Structures osseuses et parties molles sans particularité.
+    ```
 
-Hypersignaux FLAIR du parenchyme cérébral :
-- de la substance blanche périventriculaire : non
-- de la substance blanche juxta-corticale : non
-- de la substance blanche infratentorielle : non
-- de la jonctions cervicomédullaire : non
-- des nerfs optiques : non
+=== "baseline et rebaseline M6 gado+"
+    ```
+    Séquences axiale diffusion, 3D FLAIR, 3D T1 EG et 3D SWAN.
+    Après injection de gadolinium séquence 3D T1 SE.
+    ```
+    ```
+    Pas de lésion ischémique ou hémorragique récente ou séquellaire.
+    Pas de prise de contraste pathologique parenchymateuse ou méningée.
 
-Restriction de la diffusion des hypersignaux FLAIR : non
-Prise de contraste des hypersignaux FLAIR : non
-Atrophie parenchymateuse : non
-Atrophie callosale : non
-```
-```
-Séquences sagittale T2 STIR sur l'ensemble du cordon médullaire.
-```
-```
-Terminaison du cône médullaire en L1-L2.
-Absence de lésion médullaire en hypersignal T2.
-Absence d'atrophie cordonale.
-Respect des espaces liquidiens périmédullaires.
-Structures osseuses et parties molles sans particularité.
-```
-<figure markdown="span">
-</figure>
-```title="Suivi annuel gado-"
-Séquences axiale diffusion, 3D FLAIR et 3D T1 EG.
-```
-```
-Pas d'anomalie de signal apparue sur la séquence de diffusion.
-Stabilité des lésions en hypersignal FLAIR dans la substance blanche périventriculaire.
-Stabilité des quelques black holes et de la trophicité cérébrale.
-Intérgité des espaces liquidiens intra et péri-cérébraux.
-```
-```
-Séquences sagittale T2 STIR sur l'ensemble du cordon médullaire.
-```
-```
-Stabilité des lésions médullaires cervicales et thoraciques.
-Absence de nouvelle lésion décelable.
-Absence d'atrophie cordonale.
-Respect des espaces liquidiens périmédullaires.
-Structures osseuses et parties molles sans particularité.
-```
-<figure markdown="span">
-</figure>
+    Hypersignaux FLAIR du parenchyme cérébral :
+    - de la substance blanche périventriculaire : non
+    - de la substance blanche juxta-corticale : non
+    - de la substance blanche infratentorielle : non
+    - de la jonctions cervicomédullaire : non
+    - des nerfs optiques : non
+
+    Restriction de la diffusion des hypersignaux FLAIR : non
+    Prise de contraste des hypersignaux FLAIR : non
+    Atrophie parenchymateuse : non
+    Atrophie callosale : non
+    ```
+    ```
+    Séquences sagittale T2 STIR sur l'ensemble du cordon médullaire.
+    ```
+    ```
+    Terminaison du cône médullaire en L1-L2.
+    Absence de lésion médullaire en hypersignal T2.
+    Absence d'atrophie cordonale.
+    Respect des espaces liquidiens périmédullaires.
+    Structures osseuses et parties molles sans particularité.
+    ```
+
 !!! tip "Critères de [McDonald 2024](https://radiopaedia.org/articles/mcdonald-diagnostic-criteria-for-multiple-sclerosis-4){:target="_blank"}"
     - dissémination **spatiale** si ≥ 2 parmi 
         - péri-ventriculaire (collée et ⊥)
@@ -77,7 +77,7 @@ Structures osseuses et parties molles sans particularité.
         ![](assets/redflags.jpg){width="600"}
     </figure>
 
-!!! danger "[LEMP](https://radiopaedia.org/articles/progressive-multifocal-leukoencephalopathy){:target="_blank"} si > M18 **natalizumab** = IRM/M3 si JC+"
+!!! danger "[LEMP](https://radiopaedia.org/articles/progressive-multifocal-leukoencephalopathy){:target="_blank"} si > M18 **natalizumab** (Tysabri) = IRM/M3 si JC+"
     <figure markdown="span">
         atteinte SB sous-corticale, bilatérale et symétrique, sans effet de masse  
         + SB cérébelleuse épargnant les noyaux dentelés ([shrimp sign](https://radiopaedia.org/articles/shrimp-sign-progressive-multifocal-leukoencephalopathy){:target="_blank"})

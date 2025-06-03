@@ -105,8 +105,8 @@
         </figure>
     === "Hyperpara"
         - 80% [adénome](https://radiopaedia.org/articles/parathyroid-adenoma){:target="_blank"} parathyroïdien > 15% hyperplasie > 5% carcinome
-        - nodule hypoéchogène homogène > 1 cm
-        - légèrement plus vascularisé que le parenchyme thyroïdien
+        - nodule hypoéchogène homogène > 1 cm + hyperhémie
+        - à confronter à scintigraphie MIBI / TEP choline
         <figure markdown="span">
             ![](assets/hyperpara.jpg){width="500"}
         </figure>
@@ -153,7 +153,8 @@
     Consignes de consultation aux urgences en cas de tuméfaction irréductible et inflammatoire qui ferait suspecter une strangulation intestinale.
     ```
     <figure markdown="span">
-        [![](assets/ing.jpg){width="650"}](https://www.youtube.com/watch?v=k7uc1u4TYF4){:target="_blank"}
+        [![](assets/ing.jpg){width="650"}](https://radiopaedia.org/articles/inguinal-hernia){:target="_blank"}
+        [complications post-op](https://lamediatheque.radiologie.fr/mediatheque/media.aspx?mediaId=50350&channel=3277){:target="_blank"} = hématome, lymphocèle, varicocèle, meshome  
         [DD](https://www.intercomsante57.fr/html/profsante/pdf/L-echographie-dans-les-hernies.pdf){:target="_blank"} douleurs inguinales = arthrose hanche/rachis, pubalgie du sportif  
         [Diastiasis](https://radiopaedia.org/articles/diastasis-recti){:target="_blank"} des muscles grands droits si > 20 mm  
         [Hernie de Spiegel](https://radiopaedia.org/articles/spigelian-hernia-1){:target="_blank"} = ligne semi-lunaire
@@ -257,8 +258,11 @@
         12-20 cc (1-2 cc ≤ 12 ans) → formule de Lambert = cm³ x 0,71  
         [Pathos](https://onclepaul.net/wp-content/uploads/2011/07/DU-TESTICULE-2011-AGFILEminimizer.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Tumeur adénomatoïde](https://radiopaedia.org/articles/adenomatoid-tumours-of-the-scrotum){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Ectasie tubulaire du rete testis](https://radiopaedia.org/articles/tubular-ectasia-of-rete-testis){:target="_blank"}  
         </br>
+        ![](assets/enveloppestesti.jpg){width="470"}
+        [enveloppes testiculaires](https://anatomie-fmpm.uca.ma/wp-content/uploads/2020/07/testicules-et-voies-spermatiques.pdf){:target="_blank"} = albuginée < vaginale < fascias spermatiques  
+        </br>
         ![](assets/adptesti.jpg){width="300"}
-        lésion = **TDM TAP** (métas poumons, foie, cerveau, os)  
+        [tumeur](https://radiopaedia.org/articles/testicular-cancer){:target="_blank"} => **TDM TAP** (métas poumons, foie, cerveau, os)  
         </br>
         ![](assets/cryptorchidie.jpg){width="550"}
         **cryptorchidie** = descente spontanée avant M3 ++ sinon orchidopexie, RR cancer x30

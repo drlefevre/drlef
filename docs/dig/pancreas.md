@@ -17,7 +17,7 @@
         G -->|4 semaines| H(pseudo-kyste);
     ```
 
-    !!! danger "complications"
+    !!! danger "[complications](https://radiopaedia.org/articles/acute-pancreatitis){:target="_blank"}"
         - a. splénique et gastro/pancréatico-duodénales = **faux-anévrysme** / irrégularité
         - thrombose veine splénique/VMS/TP => infarctus splénique, HTP segmentaire
         - rupture du conduit pancréatique principal (40% en cas de nécrose isthmique)
@@ -26,10 +26,10 @@
 
 === "PC"
     <figure markdown="span">
-        ![](assets/PC.jpg){width="430"}
+        ![](assets/PC.jpg){width="380"}
     </figure>
 
-    !!! info "causes"
+    !!! info "[causes](https://radiopaedia.org/articles/chronic-pancreatitis-2){:target="_blank"}"
         - OH et tabac +++
         - hyperCa<sup>2+</sup>, IRC
         - auto-immune
@@ -37,7 +37,7 @@
 
     <figure markdown="span">
         ![](assets/dkpa.jpg){width="300"}
-        [DKPA](https://onclepaul.fr/wp-content/uploads/2011/07/pancreatites-paraduod%C3%A9nales.pdf){:target="_blank"} = pancréatite paraduodénale = pancréatite du sillon  
+        DKPA = [pancréatite paraduodénale](https://radiopaedia.org/articles/paraduodenal-pancreatitis){:target="_blank"} = pancréatite du sillon  
         H50 OH-tabac, épicentre au niveau de la papille mineure,  
         paroi D2 épaissi avec PDC marquée et kystes
     </figure>
@@ -48,7 +48,7 @@
         ![](assets/anatpanc.jpg){width="550"}
     </figure>
 
-    !!! tip "TDM (masse pancréatique => TDM thoracique + IRM hépatique)"
+    !!! tip "[adénocarcinome pancréatique](https://radiopaedia.org/articles/pancreatic-ductal-adenocarcinoma-4){:target="_blank"}"
         - lésion céphalo-isthmique vs corporéo-caudale (en dh bord gauche VMS)
         - extension vasculaire : aorte, tronc cœliaque, AH, AMS, VMS, TP, VCI, vx spléniques
         - **cavernome portal** = CI résection car risque hémorragique
@@ -60,7 +60,7 @@
         - borderline = contact AMS/TC/AHC/VCI, thrombose VMS/TP reconstructible
         - localement avancé = **AMS/TC > 180°** ou **thrombose VMS/TP étendue**
 
-    !!! danger "méta"
+    !!! danger "méta = TDM thoracique + IRM hépatique"
         - 80% **foie** (DD abcès en IRM = tb perfusionnels, PDC annulaire précoce)
         - 15% péritoine / gg à distance
         - 5% poumons
@@ -69,19 +69,19 @@
 === "TNE"
     <figure markdown="span">
         ![](assets/TNE.jpg){width="300"}
-        **80% non fonctionnelles**  
+        [80% non fonctionnelles](https://radiopaedia.org/articles/pancreatic-neuroendocrine-tumours-2){:target="_blank"}  
         grande taille avec kyste/nécrose/sang  
         </br>
         ![](assets/metashyper.jpg){width="300"}
-        **métas hépatiques hypervascularisées**  
+        métas hépatiques hypervascularisées  
         DD = sein, rein, mélanome, thyroïde  
         </br>
         ![](assets/insulinome.jpg){width="300"}
-        **insulinome** = bénin dans 90%, NEM1  
+        [insulinome](https://radiopaedia.org/articles/insulinoma){:target="_blank"} = bénin dans 90%, NEM1  
         surveillance si < 2 cm avec preuve histo  
         </br>
         ![](assets/gastrinome.jpg){width="300"}
-        triangle du **gastrinome** /!\ 90% malin  
+        triangle du [gastrinome](https://radiopaedia.org/articles/gastrinoma){:target="_blank"} /!\ 90% malin  
         25% dans le pancréas < paroi duodénale et ganglions
     </figure>  
 
@@ -89,7 +89,7 @@
 === "TIPMP"
     <figure markdown="span">
         ![](assets/tipmp.jpg){width="300"}
-        TIPMP des canaux secondaires = 50% dans l'**uncus** = 5% malignité  
+        [TIPMP](https://radiopaedia.org/articles/intraductal-papillary-mucinous-neoplasm){:target="_blank"} des canaux secondaires = 50% dans l'**uncus** = 5% malignité  
         </br>
         ![](assets/tipmpcpp.jpg){width="300"}
         atteinte du CPP si dilatation sans sténose **> 6 mm** = 60% malignité  
@@ -102,7 +102,7 @@
 
 === "KYSTES"
     <figure markdown="span">
-        ![](assets/kystespanc.jpg){width="550"}
+        [![](assets/kystespanc.jpg){width="550"}](https://radiopaedia.org/articles/cystic-lesions-of-the-pancreas-differential){:target="_blank"}
     </figure> 
 
     ``` mermaid
@@ -128,13 +128,13 @@
 
     <figure markdown="span">
         </br>
-        **VHL** = kystes vrais, cystadénomes séreux, et TNE
+        [VHL](https://radiopaedia.org/articles/von-hippel-lindau-disease-5){:target="_blank"} = kystes vrais, cystadénomes séreux et TNE
     </figure> 
 
 
 === "DIVISUM"
     <figure markdown="span">
         CPP s'abouche dans la papille mineure = **5%** = + de PA
-        ![](assets/divisum.jpg){width="800"} 
+        [![](assets/divisum.jpg){width="800"}](https://radiopaedia.org/articles/pancreas-divisum){:target="_blank"} 
     </figure> 
 

@@ -1,31 +1,68 @@
 # Modèles de comptes rendus
 
-```title="Métastase ?"
-Séquences axiale diffusion, axiale T1, 3D FLAIR, 3D SWAN.
-Après injection de gadolinium, séquence 3D T1 écho de spin.
-```
-```
-Pas de prise de contraste suspecte de lésion secondaire.
-Structures de la ligne médiane en place et respect du système ventriculaire.
-Pas de lésion ischémique ou hémorragique récente ni de collection péricérébrale.
-Pas de microsaignement chronique, de stigmate hémorragique, ni de cavernome.
-Leucopathie périventriculaire d'origine vasculaire probable, classée Fazekas
-Pas de séquelle ischémique. Respect de la trophicité cortico-sous-corticale.
-Pas d'anomalie de morphologie ou de signal en fosse postérieure.
-```
-<figure markdown="span">
-</figure>
-```title="Céphalées"
-Séquences axiale diffusion, axiale T1, 3D FLAIR, 3D SWAN.
-Après injection de gadolinium, séquence 3D T1 écho de gradient.
-```
-```
-Absence d'anomalie de signal de la substance blanche.
-Structures de la ligne médiane en place et respect du système ventriculaire.
-Pas de lésion ischémique ou hémorragique récente ni de collection péricérébrale.
-Pas de microsaignement chronique, de stigmate hémorragique, ni de cavernome.
-Pas de séquelle ischémique. Respect de la trophicité cortico-sous-corticale.
-Pas d'anomalie de morphologie ou de signal en fosse postérieure.
-Perméabilité des sinus veineux péri-encéphaliques.
-Absence de comblement sinusien.
-```
+=== "méta"
+    ```
+    Séquences axiale diffusion, axiale T1, 3D FLAIR, 3D SWAN.
+    Après injection de gadolinium, séquence 3D T1 écho de spin.
+    ```
+    ```
+    Structures de la ligne médiane en place.
+    Intégrité des espaces liquidiens intra et péri-cérébraux.
+    Absence de prise de contraste suspecte de lésion secondaire.
+    Pas de lésion ischémique ou hémorragique récente.
+    Pas de microsaignement chronique ni de stigmate hémorragique.
+    Leucopathie périventriculaire d'origine vasculaire probable, classée Fazekas
+    Trophicité cortico-sous-corticale en rapport avec l'âge.
+    Pas d'anomalie de morphologie ou de signal en fosse postérieure.
+    Pas de lésion de remplacement médullaire de la boîte crânienne.
+    ```
+=== "céphalées"
+    ```
+    Séquences axiale diffusion, axiale T1, 3D FLAIR, 3D T2 EPI, coronale T2 centrée sur les orbites et contraste de phase veineuse.
+    ```
+    ```
+    Structures de la ligne médiane en place.
+    Intégrité des espaces liquidiens intra et péri-cérébraux.
+    Pas de lésion ischémique ou hémorragique récente ni séquellaire.
+    Absence d'anomalie de signal de la substance blanche.
+    Respect de la trophicité cortico-sous-corticale.
+    Pas d'anomalie de morphologie ou de signal en fosse postérieure.
+    Pas de signe d'hypertension ou d'hypotension intracrânienne.
+    Perméabilité des sinus veineux péri-encéphaliques.
+    Absence de comblement sinusien.
+    ```
+=== "vertiges"
+    ```
+    Séquences axiales diffusion et FLAIR à l'étage encéphalique.
+    Séquences centrées sur les conduits auditifs internes 3D T2 HR, axiales T1 SE sans puis après injection de gadolinium, et 3D T1 EG FS.
+    ```
+    ```
+    Etage supra-tentoriel :
+    Structures de la ligne médiane en place.
+    Intégrité des espaces liquidiens intra et péri-cérébraux.
+    Pas de lésion ischémique ou hémorragique récente.
+    Trophicité cortico-sous-corticale en rapport avec l'âge.
+
+    Fosse postérieure :
+    Tronc cérébral, vermis et hémisphères cérébelleux sans anomalie.
+    Respect des nerfs vestibulo-cochléaires, sans rehaussement pathologique.
+    Signal des liquides labyrinthiques d'aspect normal, sans rehaussement pathologique.
+    ```
+=== "hydrops"
+    ```
+    Séquences axiales diffusion et FLAIR à l'étage encéphalique.
+    Séquences centrées sur les conduits auditifs internes 3D T2 HR et 3D FLAIR 4 heures après injection de gadolinium.
+    ```
+    ```
+    Etage supra-tentoriel :
+    Structures de la ligne médiane en place.
+    Intégrité des espaces liquidiens intra et péri-cérébraux.
+    Pas de lésion ischémique ou hémorragique récente.
+    Trophicité cortico-sous-corticale en rapport avec l'âge.
+
+    Fosse postérieure :
+    Tronc cérébral, vermis et hémisphères cérébelleux sans anomalie.
+    Pas de syndrome de masse des nerfs vestibulo-cochléaires.
+    Pas d'anomalie de signal des liquides labyrinthiques.
+    Pas de dilatation des utricules, saccules et canaux endolymphatiques.
+    ```

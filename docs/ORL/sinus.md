@@ -5,9 +5,8 @@ Bonne aération des cellules frontales, sphénoïdales, ethmoïdales et maxillai
 Liberté des carrefours ostio-méatiques et des canaux naso-frontaux.
 Pas de variante anatomique à risque obstructif ou chirurgical.
 Lames criblées de profondeur symétrique classée Keros 2.
-Pas de parodonthopathie apicodentaire.
-Pas de lésion osseuse suspecte.
-Parties molles sans particularité.
+Pas de granulome apicodentaire dans les quadrants supérieurs.
+Pas de lésion osseuse suspecte et parties molles sans particularité.
 ```
 
 <figure markdown="span">
