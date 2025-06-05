@@ -2,7 +2,7 @@
 
 === "méta"
     ```
-    Séquences axiale diffusion, axiale T1, 3D FLAIR, 3D SWAN.
+    Séquences axiale diffusion, axiale T1 écho de spin, 3D FLAIR, 3D SWAN.
     Après injection de gadolinium, séquence 3D T1 écho de spin.
     ```
     ```
@@ -11,14 +11,14 @@
     Absence de prise de contraste suspecte de lésion secondaire.
     Pas de lésion ischémique ou hémorragique récente.
     Pas de microsaignement chronique ni de stigmate hémorragique.
-    Leucopathie périventriculaire d'origine vasculaire probable, classée Fazekas
+    Leucopathie périventriculaire vraisemblablment vasculaire, classée Fazekas
     Trophicité cortico-sous-corticale en rapport avec l'âge.
     Pas d'anomalie de morphologie ou de signal en fosse postérieure.
     Pas de lésion de remplacement médullaire de la boîte crânienne.
     ```
 === "céphalées"
     ```
-    Séquences axiale diffusion, axiale T1, 3D FLAIR, 3D T2 EPI, coronale T2 centrée sur les orbites et contraste de phase veineuse.
+    Séquences axiale diffusion, axiale T1 SE, 3D FLAIR, 3D T2 EPI, coronale T2 centrée sur les orbites et contraste de phase veineuse.
     ```
     ```
     Structures de la ligne médiane en place.
@@ -30,6 +30,19 @@
     Pas de signe d'hypertension ou d'hypotension intracrânienne.
     Perméabilité des sinus veineux péri-encéphaliques.
     Absence de comblement sinusien.
+    ```
+=== "médullaire"
+    ```
+    Séquences sagittales T2 STIR, et T1 sans puis après injection de gadolinium. 
+    ```
+    ```
+    Projection du cône terminale en regard de .
+    Respect des espaces liquidiens périmédullaires.
+    Cordon médullaire de trophicité normale, sans anomalie de signal.
+    Pas d'anomalie inflammatoire somato-discale.
+    Respect de la hauteur des corps vertébraux.
+    Pas de lésion de remplacement médullaire suspecte.
+    Pas de prise de contraste pathologique du cordon médullaire, du cône terminal, des racines de la queue de cheval, ou du cul-de-sac dural.
     ```
 === "vertiges"
     ```

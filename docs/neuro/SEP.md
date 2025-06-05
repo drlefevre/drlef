@@ -54,7 +54,7 @@
     ```
 
 !!! tip "Critères de [McDonald 2024](https://radiopaedia.org/articles/mcdonald-diagnostic-criteria-for-multiple-sclerosis-4){:target="_blank"}"
-    - dissémination **spatiale** si ≥ 2 parmi 
+    - dissémination **spatiale** si lésions ≥ 3 mm dans ≥ 2 territoires parmi :
         - péri-ventriculaire (collée et ⊥)
         - juxta-corticale ou corticale
         - sous-tentorielle (périphérie du pont ++)

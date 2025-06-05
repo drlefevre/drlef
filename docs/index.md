@@ -361,24 +361,19 @@
         [sd radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}
         </br> 
     </figure>
-    ```title="RACHIS"
+    ```title="Rachis et bassin"
     Respect de la hauteur et bon alignement des corps vertébraux.
-    Intégrité des rapports articulaires et des espaces intersomatiques.
-    Aspect normal des interlignes articulaires sacro-iliaques et coxo-fémorales.
+    Pas de pincement des espaces intersomatiques.
+    Arthrose articulaire postérieure des derniers étages lombaires.
+    Pas de remaniement dégénératif significatif des articulations coxo-fémorales.
+    Aspect normal des interlignes articulaires sacro-iliaques.
     Pas de lésion osseuse suspecte et parties molles sans particularité.
     ```    
-    ```title="BASSIN"
-    Pas de remaniement dégénératif significatif des articulations coxo-fémorales.
-    Respect des interlignes articulaires sacro-iliaques.
-    Pas de bascule significative du bassin.
-    Pas de lésion osseuse suspecte.
-    Parties molles sans particularité.
-    ```   
     <figure markdown="span">
         ![](assets/coxarthrose.jpg){width="450"} 
         </br> 
     </figure>
-    ```title="SCOLIOSE"
+    ```title="Scoliose"
     Scoliose  mesurant ° entre le plateau supérieur de  et le plateau inférieur de .
     Stade d'ossification Risser 
     Bascule du bassin par sous-dénivelation vers la 
@@ -388,7 +383,7 @@
         ![](assets/Risser.jpg){width="420"}
         </br> 
     </figure>
-    ```title="PANO"
+    ```title="Pano"
     Pas de carie ni de lacune apico-dentaire.
     Bonne ventilation des cuvettes maxillaires.
     Condyles mandibulaires d'aspect normal.
@@ -405,7 +400,7 @@
         ![](assets/dent.jpg){width="500"}  
         </br>
     </figure>
-    ```title="CAVUM"
+    ```title="Cavum"
     Discret épaississement des tissus mous du cavum, avec aspect convexe des contours antéro-inférieurs, sans retentissement significatif sur la filière naso-phrayngée.
     Cadre osseux sans particularité.
     ```  
