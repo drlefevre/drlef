@@ -1,3 +1,7 @@
+<figure markdown="span">
+    ![](assets/anatpanc.jpg){width="500"}
+</figure>
+
 === "PA"
     |  [CTSI](https://www.radeos.org/maladie/fiche-pancreatite-aigue_1136.html){:target="_blank"} J3 |   |  nécrose pancréatique |  | 
     | :----------: | :-------: | :----------: | :-------: |
@@ -23,17 +27,14 @@
         - rupture du conduit pancréatique principal (40% en cas de nécrose isthmique)
         - perforation colique, épaississement pariétal et sténose digestive
 
-
 === "PC"
     <figure markdown="span">
         ![](assets/PC.jpg){width="380"}
     </figure>
 
     !!! info "[causes](https://radiopaedia.org/articles/chronic-pancreatitis-2){:target="_blank"}"
-        - OH et tabac +++
-        - hyperCa<sup>2+</sup>, IRC
-        - auto-immune
-        - pancréas *divisum* 
+        - OH et tabac +++, hyperCa<sup>2+</sup>, IRC, pancréas *divisum* 
+        - [auto-immune](https://radiopaedia.org/articles/autoimmune-pancreatitis){:target="_blank"} (maladie à IgG4 avec ± foyers de néphrite, périaortite et cholangite)
 
     <figure markdown="span">
         ![](assets/dkpa.jpg){width="300"}
@@ -45,9 +46,9 @@
 
 === "ADK"
     <figure markdown="span">
-        ![](assets/anatpanc.jpg){width="550"}
+        TDM = 2 verres d'eau juste avant, IV-, **artériel tardif à 40s** à 4 ml/s, veineux à 70s
     </figure>
-
+    
     !!! tip "[adénocarcinome pancréatique](https://radiopaedia.org/articles/pancreatic-ductal-adenocarcinoma-4){:target="_blank"}"
         - lésion céphalo-isthmique vs corporéo-caudale (en dh bord gauche VMS)
         - extension vasculaire : aorte, tronc cœliaque, AH, AMS, VMS, TP, VCI, vx spléniques
@@ -55,7 +56,7 @@
         - **ligament arqué** 10% /!\ ischémie hépatique si DPC
         - **artère hépatique** droite (naissance de l'AMS = 10%)
 
-    !!! warning "résécabilité (classification NCCN cf. [TNCD](https://www.snfge.org/sites/www.snfge.org/files/tncd/2024-05/tncd_chap-09-cancer-pancre%CC%81as_2024-05-17_1.pdf){:target="_blank"})"
+    !!! warning "résécabilité (classification [NCCN](https://www.snfge.org/sites/www.snfge.org/files/tncd/2024-05/tncd_chap-09-cancer-pancre%CC%81as_2024-05-17_1.pdf){:target="_blank"}) = TDM < 30j avant chirurgie"
         - 20% résécable = aucun contact artériel, contact VMS/TP < 180° sans sténose
         - borderline = contact AMS/TC/AHC/VCI, thrombose VMS/TP reconstructible
         - localement avancé = **AMS/TC > 180°** ou **thrombose VMS/TP étendue**
@@ -107,23 +108,17 @@
 
     ``` mermaid
     flowchart TD
-        E((paroi fine)) -->|uncus, communication CPP, multiples| G(TIPMP conduit secondaire); 
-        E -->|microkyste périphérique| H(cystadénome séreux uniloculaire);
+        D(((paroi fine))) -->|uncus, communication CPP, multiples| L(TIPMP);
+        D -->|microkystes, 30% calcif centrale, 60a| N(cystadénome séreux);
+        D -->|forme molle, graisse| M(malformation lymphatique);
     ```
 
     ``` mermaid
     flowchart TD
         style F stroke-width:4px
-        F((paroi épaisse)) -->|face post. corps/queue, ♀, cloisons perpendiculaires| I(tumeur kystique mucineuse);
-        F -->|♀ jeune, sang, portion tissulaire| J(tumeur pseudo-papillaire et solide); 
+        F((épaisse)) -->|face post. corps/queue, ♀ 50a, cloisons| I(tumeur kystique mucineuse);
+        F -->|♀ 30a, sang, portion tissulaire| J(tumeur pseudo-papillaire et solide); 
         F -->|hypervascularisée| K(TNE);
-    ```
-
-    ``` mermaid
-    flowchart TD
-        D(((polylobé))) -->|uncus, communication CPP, multiples| L(TIPMP conduit secondaire);
-        D -->|forme molle, graisse| M(malformation lymphatique);
-        D -->|calcification centrale| N(cystadénome séreux);
     ```
 
     <figure markdown="span">

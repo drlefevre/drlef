@@ -364,7 +364,7 @@
     ```title="Rachis et bassin"
     Respect de la hauteur et bon alignement des corps vertébraux.
     Pas de pincement des espaces intersomatiques.
-    Arthrose articulaire postérieure des derniers étages lombaires.
+    Arthrose articulaire postérieure aux derniers étages lombaires.
     Pas de remaniement dégénératif significatif des articulations coxo-fémorales.
     Aspect normal des interlignes articulaires sacro-iliaques.
     Pas de lésion osseuse suspecte et parties molles sans particularité.
@@ -378,6 +378,7 @@
     Stade d'ossification Risser 
     Bascule du bassin par sous-dénivelation vers la 
     Absence de malformation ou de lésion vertébrale décelable.
+    Restant du cadre osseux et parties molles sans particularité.
     ```    
     <figure markdown="span">
         ![](assets/Risser.jpg){width="420"}

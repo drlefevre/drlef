@@ -56,10 +56,10 @@ nav:
     - Malformations: uro/malfo.md
   - Dig:
     - Foie: dig/foie.md
+    - Grêle: dig/grele.md
     - RECIST: dig/RECIST.md
     - Pancréas: dig/pancreas.md
     - Surrénales: dig/surrénales.md
-    - Hernies internes: dig/herniesint.md
     - Caustique: dig/caustique.md
     - Urg péd: dig/pedia.md
   - Os:

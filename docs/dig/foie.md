@@ -27,7 +27,7 @@
     !!! success "[angiome](https://radiopaedia.org/articles/hepatic-haemangioma-3){:target="_blank"} caverneux"
         - ECHO hyper, homogène, <u>renforcement post</u>, < 3 cm, Doppler-
         - TDM hypo, PDC centripète en mottes, persistant au tps tardif
-        - IRM hypoT1, <u>hyperT2 > rate et rein</u>, DD = méta TNE (et CCR mucineux)
+        - IRM hypoT1, <u>hyperT2 > rate et rein</u>, DD = méta TNE et CCR mucineux
         - ± shunt artérioveineux en périphérie
         - angiome capillaire = PDC suivant l'Ao
         - angiome géant = kystisation centrale
