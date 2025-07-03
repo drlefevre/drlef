@@ -73,8 +73,9 @@
 
     !!! warning "Tumeurs (gado systématique au 1er bilan si anomalie !)"
         - [DNET](https://radiopaedia.org/articles/dysembryoplastic-neuroepithelial-tumour-1){:target="_blank"} = sur dysplasie corticale dans 80%, hypoT1 hyperT2 "bubbly"
+        - [MVNT](https://radiopaedia.org/articles/multinodular-and-vacuolating-neuronal-tumour-2){:target="_blank"} = DD DNET, bubbly **sous-cortical**, chez l'adulte jeune ou d'âge moyen
         - [gangliogliome](https://radiopaedia.org/articles/ganglioglioma){:target="_blank"} = DD DNET avec **PDC**, pas bubbly, ± calcification et kyste
-        - [hamartome](https://radiopaedia.org/articles/hypothalamic-hamartoma){:target="_blank"} = crises gélastiques + puberté précoce + retard intellectuel
+        - [hamartome](https://radiopaedia.org/articles/hypothalamic-hamartoma){:target="_blank"} plancher V3 = crises gélastiques + puberté précoce + retard intellectuel
     
     ```
     Sur une IRM 3 Tesla, séquences 3D T1 EG, 3D FLAIR, SWI, coronale T2 centrée sur les hippocampes.

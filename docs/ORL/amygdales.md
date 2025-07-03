@@ -6,8 +6,7 @@
 
 ```
 Elargissement des amygdales palatines.
-Collection péri-amydgalienne  avec prise contraste périphérique.
-Discrète infiltration de la graisse dans l'espace parapharyngé.
+Collection péri-amydgalienne 
 Absence de collection dans l'espace rétropharyngé.
 Respect du calibre de la filière aéro-digestive.
 Perméabilité des veines jugulaires internes.
@@ -21,5 +20,9 @@ Apex pulmonaires, cadre osseux et coupes encéphaliques sans anomalie.
 
 <figure markdown="span">
     anneau de [Waldeyer](https://radiopaedia.org/articles/waldeyers-ring-1){:target="_blank"} = tonsilles
-    ![](assets/Waldeyer.jpg){width="300"}       
+    ![](assets/Waldeyer.jpg){width="300"}  
+    </br>
+    collection dans le plancher buccal = [angine de Ludwig](https://radiopaedia.org/articles/ludwig-angina){:target="_blank"}
+    ![](assets/ludwig.jpg){width="300"} 
 </figure>
+
