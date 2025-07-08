@@ -117,7 +117,7 @@
     flowchart TD
         style F stroke-width:4px
         F((épaisse)) -->|face post. corps/queue, ♀ 50a, cloisons| I(tumeur kystique mucineuse);
-        F -->|♀ 30a, sang, portion tissulaire| J(tumeur pseudo-papillaire et solide); 
+        F -->|♀ 30a, sang, portion tissulaire| J(tumeur pseudo-papillaire solide et kystique); 
         F -->|hypervascularisée| K(TNE);
     ```
 

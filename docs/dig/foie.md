@@ -1,6 +1,6 @@
-=== "BASES"
+=== "Bases"
     <figure markdown="span">
-        stéatose si < 45 UH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; surcharge en fer = hypoT2
+        stéatose = < 45 UH et ↘ signal en OP &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; surcharge en fer = hypoT2 et ↗ signal OP
     </figure>
 
     !!! tip "[cirrhose](https://radiopaedia.org/articles/cirrhosis){:target="_blank"} = [LI-RADS](https://siad.radiologie.fr/wp-content/uploads/Cours-11-M-Wagner.pdf){:target="_blank"}"
@@ -16,38 +16,44 @@
         | CHC | métas | 
 
     !!! tip "**HyperT1**"
-        |  graisse |  sang |  mélanine/mucine |
+        |  graisse* |  sang |  mélanine/mucine |
         | :----------: | :-------: | :-------: |
         | CHC | CHC | mélanome |
         | adénome | adénome | méta ovaire | 
         | ilôt stéatosique | métas | méta colon | 
 
+        \* plus rarement : HNF, angiomyolipome, métas (liposarcome)
 
-=== "BENIN"
-    !!! success "[angiome](https://radiopaedia.org/articles/hepatic-haemangioma-3){:target="_blank"} caverneux"
+    !!! tip "lésions **pédiculées**"
+        <figure markdown="span">
+            HNF, CHC, angiome, adénome, et TFS
+        </figure>
+
+=== "Bénin"
+    !!! success "[hémangiome](https://radiopaedia.org/articles/hepatic-haemangioma-3){:target="_blank"} caverneux"
         - ECHO hyper, homogène, <u>renforcement post</u>, < 3 cm, Doppler-
         - TDM hypo, PDC centripète en mottes, persistant au tps tardif
-        - IRM hypoT1, <u>hyperT2 > rate et rein</u>, DD = méta TNE et CCR mucineux
+        - IRM hypoT1, <u>hyperT2 > rate et rein</u>, DD = méta TNE et adk mucineux
         - ± shunt artérioveineux en périphérie
-        - angiome capillaire = PDC suivant l'Ao
-        - angiome géant = kystisation centrale
-        - angiome à circulation lente = PDC retardée
+        - atypique = [capillaire](https://radiopaedia.org/articles/flash-filling-hepatic-haemangioma-2){:target="_blank"} / [géant](https://radiopaedia.org/articles/giant-hepatic-haemangioma-1){:target="_blank"} / [pédiculé](https://radiopaedia.org/articles/pedunculated-hepatic-hemangioma){:target="_blank"}
 
     !!! success "[HNF](https://radiopaedia.org/articles/focal-nodular-hyperplasia){:target="_blank"} // femme jeune ([10x plus fréquent](https://www.fmcgastro.org/postu-main/archives/postu-2009-paris/tumeurs-benignes-du-foie-hyperplasie-nodulairefocale-et-adenomes-2/){:target="_blank"} que l'adénome)"
-        - ECHO iso, <u>muriforme</u>, cicatrice centrale hyper, artère centrale
-        - TDM hypervasc fugace, pas de capsule ni lavage, <u>cicatrice hyper tardif</u>
+        - typique = pas d'hépatopathie chronique, semblable au foie avant inj, homogène, contours lobulés, hypervasc sans lavage, cicatrice centrale rehaussée au temps tardif
         - IRM cicatrice hypoT1 hyperT2, <u>hyper gado hépatospécifique tardif</u> vs IV-
 
-    !!! success "[adénome](https://radiopaedia.org/articles/hepatic-adenoma){:target="_blank"} // COP"
-        |   |  muté HNF1α |  inflammatoire | 
+
+    !!! success "[adénome](https://radiopaedia.org/articles/hepatic-adenoma){:target="_blank"} // **COP**"
+        |   |  muté HNF1α |  télangiectasique/inflammatoire | 
         | :----------: | :-------: | :-------: |
-        | terrain | femme jeune | NASH |
+        | terrain | femme jeune | stéatose |
         | ECHO | hyper <u>homogène</u> Doppler- | <u>hétérogène</u>, Doppler+ |
         | TDM | hypo, hypervasc modéré, lavage | hypervasc persiste vx |
-        | IRM | chute homogène en OP | hyperT2 |
-        | risque |  | hémorragie si > 5 cm |
-        
-        **/!\ homme** => dégénérescence CHC
+        | IRM | chute intense et homogène en OP | hyperT2 |
+        | risque | moins de complications | hémorragie et dégénérescence |
+
+        <figure markdown="span">
+            **/!\ homme** => dégénérescence CHC
+        </figure>
 
     !!! success "[HNR](https://radiopaedia.org/articles/nodular-regenerative-hyperplasia){:target="_blank"} // hémopathie, vascularites, chimio, transplantation hépatique"
         - petits nodules hypervasc
@@ -58,17 +64,16 @@
         - [angiomyolipome](https://radiopaedia.org/articles/hepatic-angiomyolipoma-1){:target="_blank"}
         - [pseudo-tumeur inflammatoire](https://radiopaedia.org/articles/hepatic-inflammatory-pseudotumour){:target="_blank"} = nodule nécrotique solitaire > infiltration périportale
 
-=== "MALIN"
+=== "Malin"
     !!! danger "[CHC](https://radiopaedia.org/articles/hepatocellular-carcinoma){:target="_blank"} // OH, NASH, hépatites virales, hémochromatose"
         - wash-in wash-out > 1 cm, hyperT2 modéré ± graisse
         - capsule, thrombose porte, composantes nécrotiques/hémorragiques
         - /!\ CHC hypovasc (y penser devant tout nodule hépatocytaire sur cirrhose)
-        - [carcinome hépatocellulaire fibrolamellaire](https://radiopaedia.org/articles/fibrolamellar-hepatocellular-carcinoma?lang=us){:target="_blank"} = sur foie sain, 20-40 ans
+        - [carcinome fibrolamellaire](https://radiopaedia.org/articles/fibrolamellar-hepatocellular-carcinoma?lang=us){:target="_blank"} = sur foie sain, 20-40 ans, cicatrice centrale, DD HNF
 
     !!! danger "[cholangiocarcinome](https://radiopaedia.org/articles/cholangiocarcinoma){:target="_blank"} // polykystose, cholangite, cirrhose"
         - TDM hypovasc, dilatation VB, zones fibreuses ± nécrotiques
         - IRM hypoT1, hyperT2 modéré/franc, rétractile
-        - parfois hypervasc ...
 
     !!! danger "[métas](https://radiopaedia.org/articles/hepatic-metastases-1){:target="_blank"}"
         - ECHO halo périph hypoéchogène
@@ -77,15 +82,18 @@
 
         |  hypovasculaire | HYPERvasc ± sang  | kystiques |  
         | :----------: | :-------: | :-------: | 
-        | CCR, pancréas | TNE, CCC, CMT, mélanome | TNE | 
-        | poumon | sarcome, chorioK, GIST | K épidermoïde ORL | 
+        | CCR, pancréas | TNE, CCC, CMT, mélanome | TNE, adk mucineux | 
+        | poumon | sarcome, chorioK, GIST | sarcome, mélanome, VADS | 
 
-    !!! danger "[hémangioendothéliome épithélioïde](https://radiopaedia.org/articles/hepatic-epithelioid-hemangioendothelioma-1?lang=us){:target="_blank"} = femme jeune"
+    !!! danger "[hémangioendothéliome épithélioïde](https://radiopaedia.org/articles/hepatic-epithelioid-hemangioendothelioma-1?lang=us){:target="_blank"} = 40a"
         - lésion vasculaire rare, malignité intermédiaire (métas poumon, os, rate)
         - nodules périphériques rétractiles hypovasc avec PDC périph
         - IRM aspect en cible, centre franc hyperT2 > périph, hyperdiff central
+        <figure markdown="span">
+            ![](assets/hemangio.jpg){width="300"}
+        </figure>
 
-=== "KYSTE"
+=== "Kystes"
     !!! info "[kyste hépatique simple](https://radiopaedia.org/articles/simple-hepatic-cyst){:target="_blank"} (polykystose si ≥ 3)"
         - hyperT2 liquidien sur séquence T2 long, franc hypoT1
         - /!\ grande taille => hémorragie, rupture, infection
@@ -105,20 +113,26 @@
         - grand kyste multiloculaire, cloisons et parois épaisses
         - nodule mural = cystadénocarcinome
 
-=== "INFECTION"
+=== "Infection"
     <figure markdown="span">
         [hépatite aiguë](https://radiopaedia.org/articles/acute-hepatitis){:target="_blank"} = hépatomégalie + œdème périportal + œdème parois vésiculaires
     </figure>
 
-    !!! example "[abcès](https://radiopaedia.org/articles/hepatic-abscess-1?lang=us){:target="_blank"} à pyogènes"
+    !!! example "[abcès à pyogènes](https://radiopaedia.org/articles/hepatic-abscess-1?lang=us){:target="_blank"}"
         - TDM stade présuppuratif = plage hypodense peu spécifique
         - stade collecté = coque + halo hypodense + tb perfusionnels
         - multiloculé = conglomérat de petits abcès
         - DD = [tuberculose](https://radiopaedia.org/articles/hepatic-and-splenic-tuberculosis){:target="_blank"} et [amibiase](https://radiopaedia.org/articles/amoebic-hepatic-abscess){:target="_blank"}
 
     !!! example "parasitoses"
-        - [échinococcose kystique](https://radiopaedia.org/articles/hepatic-hydatid-infection?embed_domain=external.radpair.com%2527%255B0%255Dfavicon.ico&lang=us){:target="_blank"} = kyste uniloculaire / multiloculaire avec kystes filles / membranes flottantes
+        - [kyste hydatique](https://radiopaedia.org/articles/hepatic-hydatid-infection?embed_domain=external.radpair.com%2527%255B0%255Dfavicon.ico&lang=us){:target="_blank"} = kyste uniloculaire (Gharbi I) / mb flottante (II) / vésicules filles (III) / pseudo-tumeur (IV) / calcifié (V)
+        <figure markdown="span">
+            [![](assets/gharbi.jpg){width="700"}](https://radiopaedia.org/articles/who-iwgeclassification-of-cystic-echinococcosis?embed_domain=external.radpair.com%2527%255B0%255Dfavicon.ico){:target="_blank"}
+        </figure>
         - [échinococcose alvéolaire](https://radiopaedia.org/articles/alveolar-echinococcosis?lang=us){:target="_blank"} = masse infiltrante avec calcifications et sans rehaussement, microkystes pathognomoniques en IRM
+        <figure markdown="span">
+            ![](assets/echalv.jpg){width="450"}
+        </figure>
         - [abcès amibien](https://radiopaedia.org/articles/amoebic-hepatic-abscess){:target="_blank"} = DD abcès à pyogènes
         - [bilharziose](https://radiopaedia.org/articles/schistosomiasis){:target="_blank"} = fibrose périportale
         - [fasciolose](https://www.radeos.org/maladie/fiche-distomatose-hepatique-a-fasciola-hepatica_1634.html){:target="_blank"} = nodules sous-capsulaires convergeant vers le hile

@@ -3,7 +3,7 @@
 === "méta"
     ```
     Séquences axiale diffusion, axiale T1 écho de spin, 3D FLAIR, 3D SWAN.
-    Après injection de gadolinium, séquence 3D T1 écho de spin.
+    Après injection de gadolinium, séquence 3D T1 écho de spin FS.
     ```
     ```
     Structures de la ligne médiane en place.

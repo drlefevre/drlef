@@ -276,7 +276,6 @@
     Endomètre hyperéchogène mesurant  mm.
     Pas d'anomalie dans le myomètre.
     Pas de lésion endocavitaire décelable.
-    Pas de douleur ni de nodule en regard du torus.
 
     Pas de dilatation tubaire.
     Ovaires latéraux, folliculaires, de taille normale.
@@ -364,7 +363,7 @@
     ```title="Rachis et bassin"
     Respect de la hauteur et bon alignement des corps vertébraux.
     Pas de pincement des espaces intersomatiques.
-    Arthrose articulaire postérieure aux derniers étages lombaires.
+    Arthrose articulaire postérieure prédominant aux derniers étages lombaires.
     Pas de remaniement dégénératif significatif des articulations coxo-fémorales.
     Aspect normal des interlignes articulaires sacro-iliaques.
     Pas de lésion osseuse suspecte et parties molles sans particularité.
