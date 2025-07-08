@@ -33,7 +33,7 @@
     !!! success "[hémangiome](https://radiopaedia.org/articles/hepatic-haemangioma-3){:target="_blank"} caverneux"
         - ECHO hyper, homogène, <u>renforcement post</u>, < 3 cm, Doppler-
         - TDM hypo, PDC centripète en mottes, persistant au tps tardif
-        - IRM hypoT1, <u>hyperT2 > rate et rein</u>, DD = méta TNE et adk mucineux
+        - IRM hypoT1, <u>hyperT2 > rate et rein</u>, DD = méta TNE et CCR mucineux
         - ± shunt artérioveineux en périphérie
         - atypique = [capillaire](https://radiopaedia.org/articles/flash-filling-hepatic-haemangioma-2){:target="_blank"} / [géant](https://radiopaedia.org/articles/giant-hepatic-haemangioma-1){:target="_blank"} / [pédiculé](https://radiopaedia.org/articles/pedunculated-hepatic-hemangioma){:target="_blank"}
 
@@ -56,9 +56,7 @@
         </figure>
 
     !!! success "[HNR](https://radiopaedia.org/articles/nodular-regenerative-hyperplasia){:target="_blank"} // hémopathie, vascularites, chimio, transplantation hépatique"
-        - petits nodules hypervasc
-        - pas de lavage
-        - signes d'<u>HTP</u>
+        &nbsp;&nbsp;&nbsp; petits nodules hypervasc sans lavage + signes d'HTP
     
     !!! success "tumeurs rares"
         - [angiomyolipome](https://radiopaedia.org/articles/hepatic-angiomyolipoma-1){:target="_blank"}
@@ -72,8 +70,8 @@
         - [carcinome fibrolamellaire](https://radiopaedia.org/articles/fibrolamellar-hepatocellular-carcinoma?lang=us){:target="_blank"} = sur foie sain, 20-40 ans, cicatrice centrale, DD HNF
 
     !!! danger "[cholangiocarcinome](https://radiopaedia.org/articles/cholangiocarcinoma){:target="_blank"} // polykystose, cholangite, cirrhose"
-        - TDM hypovasc, dilatation VB, zones fibreuses ± nécrotiques
-        - IRM hypoT1, hyperT2 modéré/franc, rétractile
+        - TDM hypovasc ± hypervasc périph, dilatation VB, zones fibreuses ± nécrotiques
+        - IRM **rétractile**, hypoT1, hyperT2 modéré/franc, DD méta adk mmucineux
 
     !!! danger "[métas](https://radiopaedia.org/articles/hepatic-metastases-1){:target="_blank"}"
         - ECHO halo périph hypoéchogène
@@ -142,7 +140,7 @@
 
 === "Vasc"
     <figure markdown="span">
-        ![](assets/vascfoie.jpg){width="400"}
+        [![](assets/vascfoie.jpg){width="400"}](http://onclepaul.fr/wp-content/uploads/2011/07/incidence-chirurgicale-des-variations-vasculaires-abdominalesFILEminimizer.pdf){:target="_blank"}
     </figure>
 
     !!! danger "sténose du tronc cœliaque"
