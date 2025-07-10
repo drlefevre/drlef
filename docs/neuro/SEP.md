@@ -60,7 +60,7 @@
         - sous-tentorielle (périphérie du pont ++)
         - médullaire (< 2 corps vertébraux et < hémi-moelle)
         - [névrite optique](https://radiopaedia.org/articles/optic-neuritis){:target="_blank"} (PDC intraorbitaire unilatérale et courte)
-    - dissémination **temporelle** 
+    - dissémination **temporelle** (ou > 5 signes de la veine centrale)
         - lésions gado + et - (PDC pdt M1), ou nouvelle lésion
         - bandes oligoclonales ou chaines légères libres kappa à la PL
 

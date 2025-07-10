@@ -351,7 +351,7 @@
 === "Rx"
     ```title="RT"
     Silhouette cardiomédiastinale d'aspect normal.
-    Pas d'anomalie en projection des champs pulmonaires.
+    Pas d'opacité en projection des champs pulmonaires.
     Pas de comblement des récessus costo-diaphragmatiques.
     Structures osseuses sans particularité significative.
     ``` 
