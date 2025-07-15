@@ -1,6 +1,6 @@
 # Emphysème et maladies kystiques
 
-!!! tip "[Emphysème](https://onclepaul.net/wp-content/uploads/2011/07/BPCO-et-emphys%C3%A8meFILEminimizer.pdf){:target="_blank"}"
+!!! tip "[Emphysème](https://onclepaul.net/wp-content/uploads/2011/07/BPCO-et-emphys%C3%A8meFILEminimizer.pdf){:target="_blank"} (fenêtrage C-800 L400)"
     - centro-lobulaire = tabac, prédominance postéro-sup, coalescence en bulles
     - para-septal = sous-pleural et apical &nbsp;&nbsp;&nbsp;&nbsp; ≠ &nbsp;&nbsp;&nbsp;&nbsp; para-cicatriciel (BK++)
     - pan-lobulaire = BPCO et déficit en α1-AT, bases pulmonaires

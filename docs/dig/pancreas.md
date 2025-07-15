@@ -88,6 +88,13 @@
 
 
 === "TIPMP"
+    ```
+    Séquences axiale diffusion, axiales et coronale T2, bili-IRM 3D et 3D, et axiale T1 sans injection de produit de contraste.   
+    ```
+    ```
+    Pas de signe d'atypie, notamment pas d'anomalie de signal en diffusion, de portion tissulaire, ni de dilatation du canal pancréatique principal.    
+    ```
+
     <figure markdown="span">
         ![](assets/tipmp.jpg){width="300"}
         [TIPMP](https://radiopaedia.org/articles/intraductal-papillary-mucinous-neoplasm){:target="_blank"} des canaux secondaires = 50% dans l'**uncus** = 5% malignité  
@@ -99,6 +106,11 @@
     !!! warning "[indications chirurgicales](https://www.fmcgastro.org/texte-postu/postu-2019-paris/prise-en-charge-des-tipmp-recommandations-europeennes/){:target="_blank"} (sinon surveillance M6, 1 an, puis /an)"
         - absolues = **ictère**, **nodule mural intrakystique ≥ 5 mm**, **CPP > 10 mm**
         - relatives = PA, kyste > 4 cm ou > 5mm/an, CPP 5-9 mm, nodule mural < 5 mm
+
+    !!! info "[DD TKA](https://www.fimatho.fr/images/site-cracmo/ressources-pros/tka-mini-revue.pdf){:target="_blank"} F45"
+        <figure markdown="span">
+            kystes multiples accolés + calcifications + pas de communication avec CPP
+        </figure> 
 
 
 === "KYSTES"

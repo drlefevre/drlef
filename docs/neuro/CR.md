@@ -61,6 +61,9 @@
     Respect des nerfs vestibulo-cochléaires, sans rehaussement pathologique.
     Signal des liquides labyrinthiques d'aspect normal, sans rehaussement pathologique.
     ```
+    <figure markdown="span">
+        ![](assets/sevenup.jpg){width="400"}
+    </figure>
 === "hydrops"
     ```
     Séquences axiales diffusion et FLAIR à l'étage encéphalique.
@@ -79,3 +82,6 @@
     Pas d'anomalie de signal des liquides labyrinthiques.
     Pas de dilatation des utricules, saccules et canaux endolymphatiques.
     ```
+    <figure markdown="span">
+        [thèse de Victor Chaton](https://pepite-depot.univ-lille.fr/LIBRE/Th_Medecine/2021/2021LILUM114.pdf){:target="_blank"}
+    </figure>

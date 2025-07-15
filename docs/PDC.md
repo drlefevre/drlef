@@ -1,7 +1,7 @@
 # Produits de contraste
 
 !!! danger "[Réactions d'hypersensibilité](https://www.radiologie.fr/sites/www.radiologie.fr/files/medias/documents/CIRTACI%20Fiche%20Allergie%2029%2009%202009_0.pdf){:target="_blank"} = 10✝/an en France"
-    - immédiate = urticaire/angiœdème/anaphylaxie = ↗ histamine et tryptase
+    - immédiate = urticaire/angiœdème/anaphylaxie = [doser tryptase](https://cep-1f48c.kxcdn.com/wp-content/uploads/2023/07/ITEM_338_ANAPHYLAXIE_2023.pdf){:target="_blank"} H0-H2-H24
     - non allergique = érythème/urticaire localisé = prémédication anti-H1 1h avant
     <figure markdown="span">
         ![](assets/hypersensibilite.jpg){width=520"}  
