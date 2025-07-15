@@ -63,6 +63,7 @@ nav:
     - Caustique: dig/caustique.md
     - Urg péd: dig/pedia.md
   - Os:
+    - Tumeurs: os/tumeurs.md
     - Fractures: os/fractures.md
     - Rachis: os/rachis.md
     - MI: os/MI.md  
