@@ -13,7 +13,6 @@
 
     <div class="results">
       <div class="result">
-        <div class="formula">(1 − B / A) × 100</div>
         <div class="value"><span id="nascet">—</span> %</div>
       </div>
     </div>
@@ -57,6 +56,7 @@
 </script>
 
 <figure markdown="span">
+    (1 − B / A) × 100  
     50% < sténose modérée < 70% < sévère < 90% < pré-occlusive  
     (vide de flux ARM = > 80% si calibre Ⓝ en aval / > 90% si réduit)  
     = athérome linéaire/sessile/pédiculé ± Ca2+/ulcéré

@@ -47,11 +47,10 @@
 
 .box { margin-top:.7rem; margin-bottom: 0; border:1px dashed var(--md-default-fg-color--lighter); border-radius:.7rem; padding:.75rem .9rem; }
 
-.formula { font-size:.95rem; opacity:.75; }
-.value { font-size:1.02rem; line-height:1.5; margin-top:.35rem; }
+.value { font-size:.8rem; line-height:1.5; margin-top:.35rem; }
 .copy-row { display:flex; align-items:center; gap:.75rem; margin-top:.5rem; }
 .copy { border:1px solid var(--md-default-fg-color--lighter); background:transparent; border-radius:.6rem; padding:.35rem .7rem; cursor:pointer; }
-.copied { font-size:.9rem; opacity:.8; }
+.copied { font-size:.8rem; opacity:.8; }
 
 </style>
 
@@ -116,8 +115,8 @@
                    : type==='part' ? "mixte"
                                     : "en verre dépoli";
     const head = (count==='single')
-      ? `Nodule ${typeLbl} unique de ${fmtMm(d)} mm de diamètre moyen`
-      : `Nodules ${typeLbl} multiples de ${fmtMm(d)} mm de diamètre moyen`;
+      ? `Nodule pulmonaire ${typeLbl} unique de ${fmtMm(d)} mm de diamètre moyen`
+      : `Nodules pulmonaires ${typeLbl} multiples de ${fmtMm(d)} mm de diamètre moyen`;
     const rel = (count==='single') ? "pour lequel" : "pour lesquels";
     return `${head} ${rel} ${action} (selon Fleischner 2017).`;
   }

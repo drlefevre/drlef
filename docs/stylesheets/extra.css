@@ -70,7 +70,9 @@
   border:1px dashed var(--md-default-fg-color--lighter);
   border-radius:.5rem; padding:.6rem .8rem;
 }
-.result .formula { font-size:.85rem; opacity:.6; }
-.result .value { font-size:1.6rem; line-height:1.2; margin-top:.25rem; }
+.result .value { font-size:.8rem; line-height:1.2; margin-top:.25rem; }
+.result .title { opacity:.5}
 .actions { margin:.25rem 0 .5rem; }
-.actions button { border:1px solid var(--md-default-fg-color--lighter); background:transparent; border-radius:.5rem; padding:.4rem .7rem; cursor:pointer; }
+.actions button { font-size:.8rem; border:1px solid var(--md-default-fg-color--lighter); background:transparent; border-radius:.5rem; padding:.4rem .7rem; cursor:pointer; }
+
+

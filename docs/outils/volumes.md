@@ -1,89 +1,58 @@
-# Ellipsoïde
+# Volumes
 
-<div class="box md-typeset" data-formula="ellipsoide">
-  <form onsubmit="return false;">
+<div class="box md-typeset" id="volumes">
+  <form onsubmit="return false;" oninput="computeVolumes()">
     <div class="row3">
-      <input type="text" inputmode="decimal" placeholder="mm" />
-      <input type="text" inputmode="decimal" placeholder="mm" />
-      <input type="text" inputmode="decimal" placeholder="mm" />
+      <input id="vol-d1" type="text" inputmode="decimal" placeholder="mm" />
+      <input id="vol-d2" type="text" inputmode="decimal" placeholder="mm" />
+      <input id="vol-d3" type="text" inputmode="decimal" placeholder="mm" />
     </div>
 
     <div class="results">
       <div class="result">
-        <div class="formula">largeur × épaisseur × hauteur × π/6 (0,52)</div>
-        <div class="value"><span class="out">—</span> cc</div>
+        <div class="title">Ellipsoïde (× 0,52)</div>
+        <div class="value"><span id="v-ellip">—</span> cc</div>
       </div>
-    </div>
-
-    <div class="actions">
-      <button class="clear" type="button">Effacer</button>
-    </div>
-  </form>
-</div>
-</br>
-
-# Lambert
-
-<div class="box md-typeset" data-formula="lambert">
-  <form onsubmit="return false;">
-    <div class="row3">
-      <input type="text" inputmode="decimal" placeholder="mm" />
-      <input type="text" inputmode="decimal" placeholder="mm" />
-      <input type="text" inputmode="decimal" placeholder="mm" />
-    </div>
-
-    <div class="results">
       <div class="result">
-        <div class="formula">longueur × épaisseur × largeur × 0,71</div>
-        <div class="value"><span class="out">—</span> cc</div>
+        <div class="title">Lambert (× 0,71)</div>
+        <div class="value"><span id="v-lambert">—</span> cc</div>
       </div>
     </div>
 
     <div class="actions">
-      <button class="clear" type="button">Effacer</button>
+      <button type="button" class="clear" onclick="clearVolumes()">Effacer</button>
     </div>
   </form>
 </div>
-
 
 <script>
-(function () {
-  function num(v) {
-    if (!v) return NaN;
-    v = String(v).replace(/\s/g,'').replace(',', '.');
-    return Number.parseFloat(v);
+/* ==== Fonctions globales, simples et sans dépendance ==== */
+function vol_num(v){
+  if (!v) return NaN;
+  v = String(v).replace(/\s/g,'').replace(',', '.');
+  return Number.parseFloat(v);
+}
+
+function computeVolumes(){
+  const d1 = vol_num(document.getElementById('vol-d1').value);
+  const d2 = vol_num(document.getElementById('vol-d2').value);
+  const d3 = vol_num(document.getElementById('vol-d3').value);
+
+  let ellip = NaN, lamb = NaN;
+  if ([d1,d2,d3].every(Number.isFinite)) {
+    ellip = (Math.PI/6) * d1 * d2 * d3 / 1000;  // mm³ -> cc
+    lamb  = (0.71) * d1 * d2 * d3 / 1000;       // mm³ -> cc
   }
 
-  function computeFor(container) {
-    const [i1,i2,i3] = container.querySelectorAll('input');
-    const outEl = container.querySelector('.out');
-    const mode = container.getAttribute('data-formula'); // "ellipsoide" | "lambert"
+  document.getElementById('v-ellip').textContent   = Number.isFinite(ellip) ? Math.round(ellip).toString() : '—';
+  document.getElementById('v-lambert').textContent = Number.isFinite(lamb)  ? Math.round(lamb).toString()  : '—';
+}
 
-    const a = num(i1.value), b = num(i2.value), c = num(i3.value);
-    let Vcc = NaN;
+function clearVolumes(){
+  document.getElementById('vol-d1').value = '';
+  document.getElementById('vol-d2').value = '';
+  document.getElementById('vol-d3').value = '';
+  computeVolumes();
+}
 
-    if ([a,b,c].every(Number.isFinite)) {
-      if (mode === 'ellipsoide') {
-        // V(mm³) = (π/6) * L * E * H  -> cc
-        Vcc = (Math.PI/6) * a * b * c / 1000;
-      } else {
-        // Lambert: V(mm³) = L * E * l * 0.71  -> cc
-        Vcc = (a * b * c * 0.71) / 1000;
-      }
-    }
-
-    // 0 décimale en cc
-    outEl.textContent = Number.isFinite(Vcc) ? Math.round(Vcc).toString() : '—';
-  }
-
-  function attach(container) {
-    const inputs = container.querySelectorAll('input');
-    const clearBtn = container.querySelector('.clear');
-    inputs.forEach(inp => inp.addEventListener('input', () => computeFor(container)));
-    clearBtn.addEventListener('click', () => { inputs.forEach(inp => inp.value = ''); computeFor(container); });
-    computeFor(container);
-  }
-
-  document.querySelectorAll('.box').forEach(attach);
-})();
 </script>
