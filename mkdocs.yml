@@ -69,6 +69,10 @@ nav:
     - MI: os/MI.md  
   - PDC: PDC.md
   - AVP: AVP.md
+  - Outils:
+    - NASCET: outils/nascet.md
+    - Volumes: outils/volumes.md
+    - Fleischner: outils/fleischner.md
 
 theme:
   name: material

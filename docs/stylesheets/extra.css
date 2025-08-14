@@ -29,64 +29,48 @@
   font-weight: 500;
 }
 
-/* Microb admonition
-.md-typeset .admonition.bug,
-.md-typeset details.bug {
-  border-color: rgb(81, 161, 88);
-} */
+.bleu { color: #2aa4f0; }
+.rouge { color: #ee0f0f; }
+.jaune { color: #eeb60f; }
+.marron { color: #bb7e05; }
+.vert { color: #2ac71c; }
 
-/* Centered text in admonition 
-.md-typeset .admonition.success,
-.md-typeset details.success {
-  text-align: center;
-}*/
-  
-/* Abstract admonition 
-.md-typeset .admonition.abstract,
-.md-typeset details.abstract {
-  border-color: rgba(99, 108, 101, 0.3);
-}
-.md-typeset .abstract > .admonition-title,
-.md-typeset .abstract > summary {
-  background-color: rgba(100, 100, 100, 0.1);
-}
-.md-typeset .abstract > .admonition-title::before,
-.md-typeset .abstract > summary::before {
-  background-color: rgb(100, 100, 100);
-}
-.md-typeset .abstract > .admonition-title::before,
-.md-typeset .abstract > summary::after {
-  background-color: rgb(100, 100, 100);
-}
-*/
 
-/* Make logo bigger 
-.md-header__button.md-logo {
-  margin: 0;
-  padding: 0;
+/* calculateurs */
+.box {
+  max-width: 820px;
+  margin: 1rem 0 2rem;
+  padding: 1rem 1rem .5rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .75rem;
+  background: var(--md-default-bg-color);
 }
-.md-header__button.md-logo img, .md-header__button.md-logo svg {
-  height: 2rem;
-  width: 2rem;
+.row2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: .6rem;
 }
-*/
-
-.bleu {
-  color: #2aa4f0;
+.row3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .6rem;
 }
-
-.rouge {
-  color: #ee0f0f;
+.box input {
+  width: 100%;
+  padding: .55rem .65rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .5rem;
+  background: var(--md-code-bg-color);
 }
-
-.jaune {
-  color: #eeb60f;
+.results {
+  display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap:.75rem; margin:.5rem 0 .5rem;
 }
-
-.marron {
-  color: #bb7e05;
+.result {
+  border:1px dashed var(--md-default-fg-color--lighter);
+  border-radius:.5rem; padding:.6rem .8rem;
 }
-
-.vert {
-  color: #2ac71c;
-}
+.result .formula { font-size:.85rem; opacity:.6; }
+.result .value { font-size:1.6rem; line-height:1.2; margin-top:.25rem; }
+.actions { margin:.25rem 0 .5rem; }
+.actions button { border:1px solid var(--md-default-fg-color--lighter); background:transparent; border-radius:.5rem; padding:.4rem .7rem; cursor:pointer; }
