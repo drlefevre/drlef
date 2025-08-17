@@ -1,4 +1,4 @@
-# [Recommandation Fleischner 2017](https://pubs.rsna.org/doi/10.1148/radiol.2017161659){:target="_blank"}
+# [Fleischner 2017](https://pubs.rsna.org/doi/10.1148/radiol.2017161659){:target="_blank"}
 
 <div class="calc-mini md-typeset" id="fleischner">
   <form onsubmit="return false;">
@@ -66,6 +66,7 @@
     return (isInt ? Math.round(x).toString() : (Math.round(x*10)/10).toFixed(1)).replace('.', ',');
   }
   function band(mm){ if(!Number.isFinite(mm) || mm<=0) return null; if(mm<6) return 'lt6'; if(mm<=8) return '6to8'; return 'gt8'; }
+  function capFirst(s){ return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
 
   // Recommandations (texte de l'action après "pour lequel[s]")
   function actSolid(b, count, risk){
@@ -85,7 +86,7 @@
     // >8 mm
     if(count==='single')
       return "il est recommandé une réévaluation à court terme (~3 mois) avec TDM et discussion TEP-TDM et/ou biopsie selon le contexte";
-    return "il est recommandé de réaliser un contrôle TDM dans 3 à 6 mois ; la suite de la prise en charge sera guidée par le nodule le plus suspect";
+    return "il est recommandé de réaliser un contrôle TDM dans 3 à 6 mois, puis d’envisager un contrôle à 18 à 24 mois";
   }
 
   function actGGN(b, count){
@@ -106,7 +107,7 @@
         : "il est recommandé de réaliser un contrôle TDM dans 3 à 6 mois ; si stable, d’envisager des contrôles à 2 et 4 ans";
     }
     if(count==='single')
-      return "il est recommandé de réaliser un contrôle TDM dans 3 à 6 mois pour confirmer la persistance ; si inchangé et composante solide < 6 mm : contrôle annuel pendant 5 ans ; si composante solide > 6 mm : suspicion élevée, discussion spécialisée";
+      return "il est recommandé de réaliser un contrôle TDM dans 3 à 6 mois pour confirmer la persistance ; si inchangé et composante solide < 6 mm : contrôle annuel pendant 5 ans ; si composante solide ≥ 6 mm : suspicion élevée, discussion spécialisée";
     return "il est recommandé de réaliser un contrôle TDM dans 3 à 6 mois ; la suite de la prise en charge sera guidée par le nodule le plus suspect";
   }
 
@@ -114,11 +115,13 @@
     const typeLbl = type==='solid' ? "solide"
                    : type==='part' ? "mixte"
                                     : "en verre dépoli";
-    const head = (count==='single')
-      ? `Nodule pulmonaire ${typeLbl} unique de ${fmtMm(d)} mm de diamètre moyen`
-      : `Nodules pulmonaires ${typeLbl} multiples de ${fmtMm(d)} mm de diamètre moyen`;
-    const rel = (count==='single') ? "pour lequel" : "pour lesquels";
-    return `${head} ${rel} ${action} (selon Fleischner 2017).`;
+    if(count==='single'){
+      const head = `Nodule pulmonaire ${typeLbl} unique de ${fmtMm(d)} mm de diamètre moyen`;
+      return `${head} pour lequel ${action} (selon Fleischner 2017).`;
+    }
+    // Multiples
+    const sentence1 = `Multiples nodules pulmonaires, dont le plus volumineux est ${typeLbl} et mesure ${fmtMm(d)} mm de diamètre moyen.`;
+    return `${sentence1} ${capFirst(action)} (selon Fleischner 2017).`;
   }
 
   function compute(){
@@ -151,10 +154,15 @@
 
   ['diam','type','count','risk'].forEach(id => $(id).addEventListener('input', compute));
   $('copyBtn').addEventListener('click', copyText);
-  document.querySelector('#fleischner .clear').addEventListener('click', ()=>{
-    $('diam').value=''; $('type').value='solid'; $('count').value='single'; $('risk').value='low';
-    compute();
-  });
+
+  // Rendez ce gestionnaire tolérant si le bouton .clear n'existe pas dans le DOM
+  const clearBtn = document.querySelector('#fleischner .clear');
+  if (clearBtn) {
+    clearBtn.addEventListener('click', ()=>{
+      $('diam').value=''; $('type').value='solid'; $('count').value='single'; $('risk').value='low';
+      compute();
+    });
+  }
 
   compute();
 })();
