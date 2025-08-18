@@ -53,11 +53,11 @@ function chesonFmtInt(x){
 }
 function chesonFmtPctValue(x){
   if(!Number.isFinite(x)) return NaN;
-  return Math.round(x * 10) / 10; // 1 décimale
+  return Math.round(x); // entier
 }
 function chesonPctToStr(val){
   if(!Number.isFinite(val)) return '—';
-  return val.toFixed(1).replace('.', ',') + ' %';
+  return Math.round(val) + '%';
 }
 
 // ====== Calcul principal ======
@@ -83,7 +83,7 @@ function chesonCompute(){
     delta = ((spdNow - spd0) / spd0) * 100;
   }
   const deltaVal = chesonFmtPctValue(delta);
-  document.getElementById('cheson-delta').textContent = Number.isFinite(deltaVal) ? chesonPctToStr(deltaVal) : '—';
+  document.getElementById('cheson-delta').textContent = Number.isFinite(deltaVal) ? String(deltaVal) : '—';
 
   // Interprétation (SPD) : PR ≤ -50 %, SD (-50 ; +50), PD ≥ +50 %
   const phraseEl = document.getElementById('cheson-phrase');
@@ -93,19 +93,20 @@ function chesonCompute(){
 
   if (Number.isFinite(deltaVal)){
     const absPct = Math.abs(deltaVal);
-    const pctStr = chesonPctToStr(absPct);
     const isIncrease = deltaVal > 0;
-    const verb = isIncrease ? 'Majoration' : 'Diminution';
 
-    let cat = 'maladie stable';
-    if (deltaVal >= 50) cat = 'une progression lésionnelle';
-    else if (deltaVal <= -50) cat = 'une réponse partielle';
+    let cat = 'Stabilité lésionnelle';
+    if (deltaVal >= 50) cat = 'Progression lésionnelle';
+    else if (deltaVal <= -50) cat = 'Réponse partielle';
 
-    phraseHtml = `${verb} de ${pctStr} de la somme des produits des diamètres des lésions cibles correspondant à ${cat} selon les critères Cheson.`;
+    phraseHtml = `${cat} selon les critères Cheson.`;
 
     // Note additionnelle pour la RP (italique, non copiée)
     if (deltaVal <= -50){
-      phraseHtml += `<br><span class=\"note\">Sauf nouvelle atteinte ganglionnaire, augmentation en taille des autres ganglions, et seulement si les nodules parenchymateux ont régressé d\u2019au moins 50 % (SPD)</span>`;
+      phraseHtml += `<br><span class=\"note\">Sauf nouvelle atteinte ganglionnaire ou augmentation en taille des autres ganglions, et seulement si les nodules parenchymateux ont régressé d\u2019au moins 50% (SPD).</span>`;
+    }
+    else if (deltaVal <= 50){
+      phraseHtml += `<br><span class=\"note\">⚠ ↗ SPD ≥ 50% d’un seul ganglion suffit pour parler de progression.</span>`;
     }
     canCopy = true;
   }
@@ -191,8 +192,6 @@ chesonCompute();
 .note { display:inline-block; margin-top:.25rem; opacity:.85; font-style: italic; }
 </style>
 
-
-!!! warning "↗ SPD ≥ 50% d’un seul ganglion suffit pour parler de progression"
 
 !!! info "Bilan initial"
     - ↬ 6 lésions cibles = gg > 15 mm de grand axe et lésions extra-gg > 10 mm
