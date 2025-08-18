@@ -70,6 +70,7 @@ nav:
   - PDC: PDC.md
   - AVP: AVP.md
   - Outils:
+    - Cheson: outils/cheson.md
     - NASCET: outils/nascet.md
     - Volumes: outils/volumes.md
     - Fleischner: outils/fleischner.md

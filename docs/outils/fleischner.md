@@ -171,3 +171,8 @@
 !!! info "**Risque élevé** si tabagisme, antécédent familial de cancer du poumon, emphysème, fibrose pulmonaire, âge avancé"
 
 !!! warning "**Non applicable** si < 35 ans, antécédent de cancer, immunodépression, dépistage du cancer du poumon, nodule sous-pleural ou péri-scissural"
+
+<figure markdown="span">  
+    [CAT nodule pulmonaire selon Lederlin](https://cerf.radiologie.fr/sites/cerf.radiologie.fr/files/Enseignement/DES/Archives-Documents/02%20ML%20CAT%20d%C3%A9couverte%20fortuite%20nodule%20pulmonaire.pdf){:target="_blank"}  
+    [Algorithme dépistage selon la SIT](https://www.radiologie.fr/sites/www.radiologie.fr/files/medias/documents/Algorithme%20dépistage%20cancer%20bronchique%20validé.pdf){:target="_blank"}
+</figure>
