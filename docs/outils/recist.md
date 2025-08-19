@@ -48,48 +48,53 @@ function recistFmtInt(x){
   return Math.round(x).toString();
 }
 
+// utilitaire : <10 mm => 0
+function recistClamp(v){
+  return (Number.isFinite(v) && v >= 10) ? v : 0;
+}
+
 // ====== Calcul principal ======
 function recistCompute(){
   const ids = ['1','2','3','4','5'];
 
-  // Sommes "baseline/nadir" et "actuelle"
   let sumPrev = 0, nPrev = 0;
   let sumNow  = 0, nNow  = 0;
 
   ids.forEach(i => {
-    const p = recistNum(document.getElementById('l'+i+'prev').value);
-    const n = recistNum(document.getElementById('l'+i+'now').value);
-    if (Number.isFinite(p) && p > 0){ sumPrev += p; nPrev++; }
-    if (Number.isFinite(n) && n > 0){ sumNow  += n; nNow++;  }
+    const pRaw = recistNum(document.getElementById('l'+i+'prev').value);
+    const nRaw = recistNum(document.getElementById('l'+i+'now').value);
+
+    const p = recistClamp(pRaw);
+    const n = recistClamp(nRaw);
+
+    if (p > 0){ sumPrev += p; nPrev++; }
+    if (n > 0){ sumNow  += n; nNow++;  }
   });
 
   // Affichage somme actuelle
-  const sumNowOut = document.getElementById('recist-sum-now');
-  sumNowOut.textContent = (nNow>0) ? recistFmtInt(sumNow) : '—';
+  document.getElementById('recist-sum-now').textContent =
+    (nNow>0) ? recistFmtInt(sumNow) : '—';
 
-  // % d'évolution vs "baseline/nadir" (entier)
+  // % d'évolution (entier) vs somme précédente (seulement si référence valable)
   const deltaEl = document.getElementById('recist-delta');
   let deltaPct = NaN, deltaInt = NaN, diffAbs = NaN;
 
   if (nPrev>0 && sumPrev>0 && nNow>0){
-    diffAbs  = sumNow - sumPrev;                  // mm (augmentation absolue)
-    deltaPct = (diffAbs / sumPrev) * 100;         // %
-    deltaInt = Math.round(deltaPct);              // entier
+    diffAbs  = sumNow - sumPrev;          // mm
+    deltaPct = (diffAbs / sumPrev) * 100; // %
+    deltaInt = Math.round(deltaPct);      // entier
   }
   deltaEl.textContent = Number.isFinite(deltaInt) ? String(deltaInt) : '—';
 
   // Interprétation RECIST 1.1
-  // PD: augmentation ≥20% ET augmentation absolue ≥5 mm (vs somme de référence)
-  // PR: diminution ≥30%
-  // SD: entre les deux
   const phraseEl = document.getElementById('recist-phrase');
   const copyBtn  = document.getElementById('recist-copy');
   let phraseHtml = '—';
   let canCopy = false;
 
   if (Number.isFinite(deltaPct) && Number.isFinite(diffAbs)){
-    const isPD = (deltaPct >= 20) && (diffAbs >= 5);
-    const isPR = (deltaPct <= -30);
+    const isPD = (deltaPct >= 20) && (diffAbs >= 5); // PD: +≥20% ET +≥5 mm
+    const isPR = (deltaPct <= -30);                  // PR: -≥30%
     const isSD = !isPD && !isPR;
 
     if (isPD){
@@ -184,8 +189,10 @@ recistCompute();
 .note { display:inline-block; margin-top:.25rem; opacity:.85; font-style: italic; }
 </style>
 
+!!! warning "lésion cible ssi tumeur de plus grand diamètre ≥ 10 mm ou gg de petit axe ≥ 15 mm"
+
 !!! info "[Radiology Assistant](https://staging.radiologyassistant.nl/more/recist-1-1/recist-1-1-1){:target="_blank"}"
-    - ↬ 5 lésions cibles = tumeurs > 10 mm et gg de petit axe ≥ 15 mm, max. 2 par organe
-    - lésions non cibles = tumeurs < 10 mm, gg 10-15 mm, lésions non mesurables
-    - somme des plus grands diamètres et des petits axes pour les gg (max. 2)
-    - progression si ↗ ≥ 20% vs nadir / réponse partielle si ↘ ≥ 30% vs baseline
+    - ↬ 5 lésions cibles, max. 2 par organe et max. 2 gg
+    - somme des plus grands diamètres et des petits axes pour les gg
+    - progression ↗ ≥ 20% vs nadir / réponse partielle ↘ ≥ 30% vs baseline
+    - lésions non cibles si < 10 mm, gg 10-15 mm, lésions non mesurables
