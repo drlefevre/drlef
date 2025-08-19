@@ -188,4 +188,4 @@ recistCompute();
     - ↬ 5 lésions cibles = tumeurs > 10 mm et gg de petit axe ≥ 15 mm, max. 2 par organe
     - lésions non cibles = tumeurs < 10 mm, gg 10-15 mm, lésions non mesurables
     - somme des plus grands diamètres et des petits axes pour les gg (max. 2)
-    - progression si + ≥ 20% vs nadir / réponse partielle si - ≥ 30% vs baseline
+    - progression si ↗ ≥ 20% vs nadir / réponse partielle si ↘ ≥ 30% vs baseline
