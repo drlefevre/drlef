@@ -13,7 +13,7 @@
     <div class="results">
       <div class="result">
         <div class="title">Somme</div>
-        <div class="value"><span id="recist-sum-now">—</span> mm²</div>
+        <div class="value"><span id="recist-sum-now">—</span> mm</div>
       </div>
       <div class="result">
         <div class="title">Évolution</div>
