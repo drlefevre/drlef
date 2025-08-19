@@ -99,7 +99,7 @@ function chesonCompute(){
     if (deltaVal >= 50) cat = 'Progression lésionnelle';
     else if (deltaVal <= -50) cat = 'Réponse partielle';
 
-    phraseHtml = `${cat} selon les critères Cheson.`;
+    phraseHtml = `${cat} selon les critères de Cheson.`;
 
     // Note additionnelle pour la RP (italique, non copiée)
     if (deltaVal <= -50){
