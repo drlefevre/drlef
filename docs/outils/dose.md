@@ -174,7 +174,7 @@
     50-100 mSv pour une exposition cumulée
 </figure>
 
-</br>
+</br></br>
 
 |  [Dose reçue à l'utérus en TDM](https://onclepaul.fr/wp-content/uploads/2011/07/La-femme-enceinte-en-imagerie-pire-angoisse-du-radiologue-New-JFR-2020.pdf){:target="_blank"}| mGy |
 | :----------: | :-------: |
@@ -184,3 +184,4 @@
 | `Pelvis` | 25 |
 
 !!! info "Risque malformatif si dose **>100–200 mGy**. Loi du tout ou rien ↬ S2"
+!!! warning "TDM thoracique = risque cancer sein +0,005%/mSv"
