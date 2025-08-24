@@ -183,7 +183,6 @@ chesonCompute();
 .result { border:1px dashed var(--md-default-fg-color--lighter); border-radius:.5rem; padding:.6rem .8rem; }
 .result.wide { grid-column: 1 / -1; }
 .result .value { font-size:.8rem; line-height:1.35; margin-top:.3rem; }
-.result .title { opacity:.5 }
 .copy-row { display:flex; align-items:center; gap:.6rem; margin-top:.35rem; }
 .copy { border:1px solid var(--md-default-fg-color--lighter); background:transparent; border-radius:.5rem; padding:.35rem .7rem; cursor:pointer; }
 .copied { font-size:.8rem; opacity:.8; }
