@@ -70,6 +70,8 @@ nav:
   - PDC: PDC.md
   - AVP: AVP.md
   - Outils:
+    - Dose: outils/dose.md
+    - Haller: outils/haller.md
     - RECIST: outils/recist.md
     - Cheson: outils/cheson.md
     - NASCET: outils/nascet.md

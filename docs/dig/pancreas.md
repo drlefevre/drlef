@@ -5,9 +5,9 @@
 === "PA"
     |  [CTSI](https://www.radeos.org/maladie/fiche-pancreatite-aigue_1136.html){:target="_blank"} J3 |   |  nécrose pancréatique |  | 
     | :----------: | :-------: | :----------: | :-------: |
-    | `élargissement focal/diffus` | 1 | `≤ 30%` | 2 |
-    | `infiltration péripancréatique` | 2 | `30-50%` | 4 |
-    | `une/plusieurs collections` | 3/4 | `≥ 50%` | 6 |
+    | `élargissement` | 1 (B) | `≤ 30%` | 2 |
+    | `infiltration` | 2 (C) | `30-50%` | 4 |
+    | `une/plrs collections` | 3/4 (D/E) | `≥ 50%` | 6 |
 
     ``` mermaid
     flowchart TD
