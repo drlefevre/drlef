@@ -47,7 +47,6 @@
 
 .box { margin-top:.7rem; margin-bottom: 0; border:1px dashed var(--md-default-fg-color--lighter); border-radius:.7rem; padding:.75rem .9rem; }
 
-.value { font-size:.8rem; line-height:1.5; margin-top:.35rem; }
 .copy-row { display:flex; align-items:center; gap:.75rem; margin-top:.5rem; }
 .copy { border:1px solid var(--md-default-fg-color--lighter); background:transparent; border-radius:.6rem; padding:.35rem .7rem; cursor:pointer; }
 .copied { font-size:.8rem; opacity:.8; }

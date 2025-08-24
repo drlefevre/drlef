@@ -77,7 +77,7 @@
       a.textContent = 'Selon les constantes RP154';
       a.href = 'https://www.sprmn.pt/pdf/RP154.pdf';
     } else {
-      a.textContent = 'Selon IRSN adultes (60–80 kg)';
+      a.textContent = 'Selon IRSN adultes (60-80 kg)';
       a.href = 'https://www.irsn.fr/sites/default/files/documents/expertise/rapports_expertise/IRSN-Rapport-dosimetrie-patient-2010-12.pdf';
     }
   }
@@ -132,31 +132,23 @@
 
 <style>
 .box {
-  max-width: 820px;
+  max-width: 920px;
   margin: 1rem 0 2rem;
-  padding: 1rem 1rem .5rem;
+  padding: 1rem 1rem .75rem;
   border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: .75rem;
+  border-radius: .9rem;
   background: var(--md-default-bg-color);
 }
-.pairs { display:grid; grid-template-columns: 1fr; gap:.45rem; }
+.pairs { display:grid; grid-template-columns: 1fr; gap:.6rem; }
 .pair { display:grid; grid-template-columns: repeat(2, 1fr); gap:.6rem; }
 .pair.three { grid-template-columns: repeat(3, 1fr); }
 .box input, .box select {
   width: 100%;
-  padding: .55rem .65rem;
+  padding: .75rem .9rem;
   border: 1px solid var(--md-default-fg-color--lighter);
-  border-radius: .5rem;
+  border-radius: .7rem;
   background: var(--md-code-bg-color);
 }
-.results {
-  display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap:.75rem; margin:.6rem 0 .6rem;
-}
-.result { border:1px dashed var(--md-default-fg-color--lighter); border-radius:.5rem; padding:.6rem .8rem; }
-.result .value { font-size:.8rem; line-height:1.35; margin-top:.3rem; }
-.actions { margin:.25rem 0 .5rem; display:flex; align-items:center; gap:.75rem; flex-wrap:wrap; }
-.actions button { font-size:.8rem; border:1px solid var(--md-default-fg-color--lighter); background:transparent; border-radius:.5rem; padding:.4rem .7rem; cursor:pointer; }
 /* Unifie la hauteur des champs dans le bloc unifié */
 #ct-dose-unified input,
 #ct-dose-unified select {

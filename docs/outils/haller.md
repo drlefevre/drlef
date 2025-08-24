@@ -139,17 +139,9 @@ hallerCompute();
   border-radius: .5rem;
   background: var(--md-code-bg-color);
 }
-.results {
-  display:grid; grid-template-columns: 1fr;
-  gap:.75rem; margin:.6rem 0 .6rem;
-}
-.result { border:1px dashed var(--md-default-fg-color--lighter); border-radius:.5rem; padding:.6rem .8rem; }
 .result.wide { grid-column: 1 / -1; }
-.result .value { font-size:.8rem; line-height:1.35; margin-top:.1rem; }
 .copy-row { display:flex; align-items:center; gap:.6rem; margin-top:.35rem; }
 .copy { border:1px solid var(--md-default-fg-color--lighter); background:transparent; border-radius:.5rem; padding:.35rem .7rem; cursor:pointer; }
 .copied { font-size:.8rem; opacity:.8; }
-.actions { margin:.25rem 0 .5rem; display:flex; align-items:center; gap:.75rem; flex-wrap:wrap; }
-.actions button { font-size:.8rem; border:1px solid var(--md-default-fg-color--lighter); background:transparent; border-radius:.5rem; padding:.4rem .7rem; cursor:pointer; }
 .note { display:inline-block; margin-top:.25rem; opacity:.85; font-style: italic; }
 </style>
