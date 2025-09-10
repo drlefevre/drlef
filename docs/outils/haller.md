@@ -1,7 +1,7 @@
 # Indice de [Haller](https://radiopaedia.org/articles/haller-index?lang=gb){:target="_blank"}
 
 <figure markdown="span">
-    ![](assets/haller.jpg){width="450"}
+    ![](assets/haller.jpg){width="350"}
 </figure>
 
 <div class="box md-typeset" id="haller-box">

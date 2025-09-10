@@ -1,7 +1,7 @@
 # Calcul d'une sténose selon [NASCET](https://www.ahajournals.org/doi/epdf/10.1161/01.STR.22.6.711){:target="_blank"}
 
 <figure markdown="span">
-    ![](assets/nascet.jpg){width="300"}
+    ![](assets/nascet.jpg){width="250"}
 </figure>
 
 <div class="box md-typeset">

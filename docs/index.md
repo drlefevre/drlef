@@ -291,7 +291,7 @@
         - phase menstruelle J1-4 = hyperéchogène 1-4 mm
         - proliférative J5-13 = hypoéchogène 5-9 mm
         - ovulatoire J14 = aspect en cible 10 mm
-        - sécrétoire J15-28 = hyperéchogène 8 - 15 mm
+        - sécrétoire J15-28 = hyperéchogène 8-15 mm
         <figure markdown="span">
             ![](assets/endometre.jpg){width="550"}
         </figure>
