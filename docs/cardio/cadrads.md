@@ -1,5 +1,27 @@
 # [CAD-RADS 2.0](https://radiologyassistant.nl/cardiovascular/cad-rads/coronary-artery-disease-reporting-and-data-system){:target="_blank"}
 
+```
+Score calcique selon Agatston à , correspondant au percentile .
+Absence d'anomalie de naissance ou de trajet des artères coronaires.
+Dominance coronarienne droite.
+
+Analyse de la lumière coronarienne :
+- TCG : pas d'anomalie pariétale, pas de sténose;
+- IVA : pas d'anomalie pariétale, pas de sténose;
+- D1 : pas d'anomalie pariétale, pas de sténose;
+- D2 : pas d'anomalie pariétale, pas de sténose;
+- Cx : pas d'anomalie pariétale, pas de sténose;
+- marginales : pas d'anomalie pariétale, pas de sténose;
+- CD : pas d'anomalie pariétale, pas de sténose.
+
+Coeur de taille normale, sans dilatation des cavités ni thrombus.
+Absence d'épanchement ou de calcification péricardique.
+Valve aortique tricuspide non calcifiée.
+Aorte tubulaire mesurant  mm.
+
+Pas d'anomalie pulmonaire ni osseuse significative.
+```
+
 |  score | sténose  | interprétation | investigation | 
 | :----------: | :-------: | :----------: | :-------: |
 | 0 | 0% | pas de sténose |  |
@@ -16,25 +38,3 @@
     **± HRP** si au moins deux facteurs :
     [![](assets/HRP.jpg){width="360"}](https://pmc.ncbi.nlm.nih.gov/articles/PMC4135448/){:target="_blank"}  
 </figure>
-
-```
-Score calcique selon Agatston à , correspondant au percentile .
-Absence d'anomalie de naissance ou de trajet des artères coronaires.
-Dominance coronarienne droite.
-
-Analyse de la lumière coronarienne :
-- TCG : pas d'anomalie pariétale, pas de sténose ;
-- IVA : pas d'anomalie pariétale, pas de sténose ;
-- D1 : pas d'anomalie pariétale, pas de sténose ;
-- D2 : pas d'anomalie pariétale, pas de sténose ;
-- Cx : pas d'anomalie pariétale, pas de sténose ;
-- marginales : pas d'anomalie pariétale, pas de sténose ;
-- CD : pas d'anomalie pariétale, pas de sténose.
-
-Coeur de taille normale, sans dilatation des cavités ni thrombus.
-Absence d'épanchement ou de calcification péricardique.
-Valve aortique tricuspide non calcifiée.
-Aorte tubulaire mesurant  mm.
-
-Pas d'anomalie pulmonaire ni osseuse significative.
-```

@@ -23,11 +23,12 @@ nav:
     - Plèvre: thorax/plevre.md
     - Malfo: thorax/malfo.md
     - PID: thorax/PID.md
-  - Cardio :
+  - Cardio:
     - EI : cardio/EI.md
     - FA: cardio/FA.md
-    - Ao: cardio/Ao.md
+    - AAA: cardio/AAA.md
     - Malfo: cardio/malfo.md
+    - Score CAC: cardio/cac.md
     - CAD-RADS: cardio/cadrads.md
   - Neuro:
     - Mort: neuro/mort.md
