@@ -1,6 +1,6 @@
 # Malformations
 
-=== "POUMONS"
+=== "Poumons"
 
     <figure markdown="span">
         [CPAM](https://radiopaedia.org/articles/congenital-pulmonary-airway-malformation){:target="_blank"} = MAKP
@@ -20,7 +20,7 @@
     | `malfoutose` | ± | ++ |
 
 
-=== "BRONCHES"
+=== "Bronches"
 
     <figure markdown="span">
         [atrésie bronchique](https://radiopaedia.org/articles/bronchial-atresia){:target="_blank"} (sd bronchocèle - hyperaération)
@@ -31,15 +31,7 @@
     </figure>
 
 
-=== "VAISSEAUX"
-
-    <figure markdown="span">
-        [Variantes anatomiques de l'arc aortique](https://radiopaedia.org/articles/variant-anatomy-of-the-aortic-arch){:target="_blank"}
-        ![](assets/Corone.jpg){width="800"}    
-    </figure>
-
-
-=== "STERNUM"
+=== "Sternum"
 
     <figure markdown="span">
         [pectus excavatum](https://radiopaedia.org/articles/pectus-excavatum){:target="_blank"} : indice de [Haller](https://radiopaedia.org/articles/haller-index){:target="_blank"}
@@ -51,7 +43,7 @@
     </figure>
 
 
-=== "HERNIES"
+=== "Hernies"
 
     <figure markdown="span">
         hernies diphragmatiques dont 95% de [hernie de Bochdalek](https://radiopaedia.org/articles/bochdalek-hernia){:target="_blank"}
