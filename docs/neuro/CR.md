@@ -18,17 +18,17 @@
     ```
 === "céphalées"
     ```
-    Séquences axiale diffusion, axiale T1 SE, 3D FLAIR, 3D T2 EPI, coronale T2 centrée sur les orbites et contraste de phase veineuse.
+    Séquences sagittale T1 EG, axiale diffusion, 3D FLAIR, SWI, TOF, et coronale T2.
     ```
     ```
     Structures de la ligne médiane en place.
     Intégrité des espaces liquidiens intra et péri-cérébraux.
     Pas de lésion ischémique ou hémorragique récente ni séquellaire.
+    Pas d'anomalie de signal des sinus veineux péri-encéphaliques.
+    Pas de signe d'hypertension ou d'hypotension intracrânienne.
     Absence d'anomalie de signal de la substance blanche.
     Respect de la trophicité cortico-sous-corticale.
     Pas d'anomalie de morphologie ou de signal en fosse postérieure.
-    Pas de signe d'hypertension ou d'hypotension intracrânienne.
-    Perméabilité des sinus veineux péri-encéphaliques.
     Absence de comblement sinusien.
     ```
 === "médullaire"

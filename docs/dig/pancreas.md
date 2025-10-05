@@ -89,7 +89,7 @@
 
 === "TIPMP"
     ```
-    Séquences axiale diffusion, axiales et coronale T2, bili-IRM 3D et 3D, et axiale T1 sans injection de produit de contraste.   
+    Séquences axiale diffusion, axiales et coronale T2, bili-IRM 2D et 3D, et axiale T1 sans injection de produit de contraste.   
     ```
     ```
     Pas de signe d'atypie, notamment pas d'anomalie de signal en diffusion, de portion tissulaire, ni de dilatation du canal pancréatique principal.    

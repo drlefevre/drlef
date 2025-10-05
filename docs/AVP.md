@@ -5,6 +5,35 @@
     - enfant > 50 kg = TAP biphasique (80 cc > 60 cc à 60s > acquisition à 90s)
     - enfant < 50 kg = crâne et cou IV- > TAP temps mixte (50s)
 
+=== "CTAP"
+    ```
+    Crâne :
+    Structure médianes en place. Pas d'hydrocéphalie.
+    Pas de lésion hémorragique intra ou péri-encéphalique récente.
+    Pas d'hypodensité encéphalique systématisée et respect des noyaux gris centraux.
+    Pas de lésion osseuse post-traumatique récente, notamment des cadres orbitaires, des rochers, des parois des sinus de la face, et de la mandibule.
+
+    Thorax :
+    Pas d'anomalie des gros vaisseaux (sous réserve de quelques artéfacts cinétiques).
+    Pas de pneumomédiastin, d'épanchement pleural ni péricardique.
+    Pas de contusion ni de lacération pulmonaire.
+
+    Abdomen et pelvis :
+    Pas de lésion traumatique du foie, de la rate, du pancréas, ni des reins.
+    Pas d'épanchement péritonéal ni de pneumopéritoine.
+    Pas d'infiltration de la racine du mésentère.
+
+    Rachis :
+    Pas d'anomalie de la transition cervico-occipital.
+    Respect de la hauteur et bon alignement des corps vertébraux.
+    Pas de fracture des processus transverses ni des pédicules.
+    Bonne congruence des articulations postérieures.
+    Pas d'épaississement des parties molles prévertébrales.
+
+    Restant du cadre osseux :
+    Pas de fracture des scapulas, des clavicules, des côtes, et du sternum.
+    Respect du bassin, et des extrémités supérieurs des fémurs et des humérus.
+    ```
 === "TAP"
     ```
     Thorax :
