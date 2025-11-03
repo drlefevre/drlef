@@ -43,6 +43,32 @@
         **Modic** I = inflammatoire « œdémateux », II = involution graisseuse, III = fibrose
     </figure>
 
+
+=== "CERVICAL"
+    ``` title="TDM"
+    Absence d’anomalie de la charnière cervico-occipitale.
+    Lordose physiologique et bon alignement des corps vertébraux.
+    Rapports articulaires, hauteurs somatiques et espaces intersomatiques respectés.
+    Absence de rétrécissement significatif du canal vertébral ou des foramina.
+    Absence de lésion osseuse post-traumatique ou suspecte.
+    Parties molles paravertébrales sans particularité.
+    ```
+
+    ``` title="IRM"
+    Lordose physiologique du rachis cervical conservée.
+    Hauteurs somatiques et rapports articulaires conservés.
+    Absence d’anomalie de la charnière cervico-occipitale.
+    Absence de discopathie significative.
+    Pas d'étroitesse constitutionnelle du canal rachidien.
+    Absence d’anomalie du signal du cordon médullaire ou du LCR.
+    Parties molles notamment pré-vertébrales sans particularité.
+    ```
+    
+    <figure markdown="span">
+        ![](assets/NCB.jpg){width="420"}
+    </figure>
+
+
 === "SCOLIOSE"
     ```
     Scoliose  mesurant ° entre le plateau supérieur de  et le plateau inférieur de .
@@ -68,7 +94,4 @@
         +/- après la ménopause (scoliose dégénérative)
     </figure>
 
-=== "CERVICAL"
-    <figure markdown="span">
-        ![](assets/NCB.jpg){width="420"}
-    </figure>
+
