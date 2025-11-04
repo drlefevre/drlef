@@ -67,8 +67,9 @@ nav:
     - Caustique: dig/caustique.md
     - Urg péd: dig/pedia.md
   - Os:
-    - Tumeurs: os/tumeurs.md
+    - Urgences: os/urgences.md
     - Fractures: os/fractures.md
+    - Tumeurs: os/tumeurs.md
     - Rachis: os/rachis.md
     - MI: os/MI.md  
   - PDC: PDC.md
