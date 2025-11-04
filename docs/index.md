@@ -243,7 +243,7 @@
     ```
     <figure markdown="span">
         ![](assets/pros.jpg){width="700"}
-        hypertrophie si > 30 cc &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RPM significatif si > 20 cc
+        hypertrophie si > 30 cc &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RPM significatif si > 50 cc ou > 20% du volume pré-mictionnel
         </br>  
     </figure>
     ```
