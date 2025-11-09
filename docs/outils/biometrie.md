@@ -186,9 +186,9 @@
       else { c3.textContent = fmt1(CC[key].p3[ccIdx]); c97.textContent = fmt1(CC[key].p97[ccIdx]); }
     });
 
-    // --- Fosse postérieure ---
+    // --- Fosse postérieure (débute à 3 mois : si <0.25 → vide) ---
     let cbIdx = -1;
-    if(Number.isFinite(age)) cbIdx = closestIndex(age, AGES_CB);
+    if(Number.isFinite(age) && age >= AGES_CB[0]) cbIdx = closestIndex(age, AGES_CB);
     document.querySelectorAll('#cb-table tbody tr').forEach(tr=>{
       const key = tr.getAttribute('data-key');
       const c3 = tr.querySelector('.p3'), c97 = tr.querySelector('.p97');
