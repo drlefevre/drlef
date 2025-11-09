@@ -82,6 +82,7 @@ nav:
     - NASCET: outils/nascet.md
     - Volumes: outils/volumes.md
     - Fleischner: outils/fleischner.md
+    - Biométrie neuropédiatrie: outils/biometrie.md
 
 theme:
   name: material

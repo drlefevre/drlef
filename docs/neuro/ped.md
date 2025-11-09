@@ -14,7 +14,6 @@
 === "RETARD"
 
     <figure markdown="span">
-        [biométrie du corps calleux](https://www.neuroradiologie.fr/index.php/outils/corps-calleux){:target="_blank"}  
         [lésions anoxo-ischémiques du NNé](https://radiopaedia.org/articles/patterns-of-neonatal-hypoxicischaemic-brain-injury?lang=gb){:target="_blank"} = prématurité +++ 
     </figure>
 
