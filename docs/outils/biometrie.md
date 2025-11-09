@@ -23,7 +23,7 @@
         <div class="panel">
           <h4><a href="https://www.ajnr.org/content/ajnr/32/8/1436.full.pdf" target="_blank" rel="noopener">Corps calleux</a></h4>
           <table class="tbl" id="cc-table">
-            <thead><tr><th>Paramètre</th><th>3è p.</th><th>97è p.</th></tr></thead>
+            <thead><tr><th></th><th>3è p.</th><th>97è p.</th></tr></thead>
             <tbody>
               <tr data-key="APD"><td>Grand axe</td><td class="p3"></td><td class="p97"></td></tr>
               <tr data-key="GT"><td>Genou</td><td class="p3"></td><td class="p97"></td></tr>
@@ -38,12 +38,12 @@
         <div class="panel">
           <h4><a href="https://www.ajnr.org/content/ajnr/early/2019/10/17/ajnr.A6257.full.pdf" target="_blank" rel="noopener">Fosse postérieure</a></h4>
           <table class="tbl" id="cb-table">
-            <thead><tr><th>Paramètre</th><th>3è p.</th><th>97è p.</th></tr></thead>
+            <thead><tr><th></th><th>3è p.</th><th>97è p.</th></tr></thead>
             <tbody>
+              <tr data-key="APD-MP"><td>Mésencéphale</td><td class="p3"></td><td class="p97"></td></tr>
+              <tr data-key="APD-P"><td>Pont</td><td class="p3"></td><td class="p97"></td></tr>
               <tr data-key="H-V"><td>Vermis H</td><td class="p3"></td><td class="p97"></td></tr>
               <tr data-key="APD-V"><td>Vermis AP</td><td class="p3"></td><td class="p97"></td></tr>
-              <tr data-key="APD-P"><td>Pont</td><td class="p3"></td><td class="p97"></td></tr>
-              <tr data-key="APD-MP"><td>Mésencéphale</td><td class="p3"></td><td class="p97"></td></tr>
             </tbody>
           </table>
         </div>
@@ -91,7 +91,7 @@
   text-decoration: none; transition: color .15s ease;
 }
 .panel h4 > a:hover, .panel h4 > a:focus-visible{
-  color: var(--md-accent-fg-color); text-decoration: underline;
+  color: var(--md-accent-fg-color);
 }
 .panel h4{ margin:.15rem 0 .4rem; }
 </style>
