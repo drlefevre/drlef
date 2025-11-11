@@ -2,7 +2,7 @@
 
 === "méta"
     ```
-    Séquences axiale diffusion, axiale T1 écho de spin, 3D FLAIR, 3D SWAN.
+    Séquences axiale diffusion, axiale T1 écho de spin, 3D FLAIR, SWI.
     Après injection de gadolinium, séquence 3D T1 écho de spin FS.
     ```
     ```
@@ -11,7 +11,7 @@
     Absence de prise de contraste suspecte de lésion secondaire.
     Pas de lésion ischémique ou hémorragique récente.
     Pas de microsaignement chronique ni de stigmate hémorragique.
-    Leucopathie périventriculaire vraisemblablment vasculaire, classée Fazekas
+    Leucopathie périventriculaire vraisemblablement vasculaire, classée Fazekas
     Trophicité cortico-sous-corticale en rapport avec l'âge.
     Pas d'anomalie de morphologie ou de signal en fosse postérieure.
     Pas de lésion de remplacement médullaire de la boîte crânienne.
@@ -62,7 +62,32 @@
     Signal des liquides labyrinthiques d'aspect normal, sans rehaussement pathologique.
     ```
     <figure markdown="span">
+        </br>
         ![](assets/sevenup.jpg){width="400"}
+    </figure>
+=== "PF"
+    ```
+    Séquences axiales diffusion et FLAIR à l'étage encéphalique.
+    Séquences centrées sur les conduits auditifs internes 3D T2 HR.
+    Après injection de gadolinium, 3D T1 SE sur tout le crâne.
+    ```
+    ```
+    Etage supra-tentoriel :
+    Structures de la ligne médiane en place.
+    Intégrité des espaces liquidiens intra et péri-cérébraux.
+    Pas de lésion ischémique ou hémorragique récente.
+    Trophicité cortico-sous-corticale en rapport avec l'âge.
+    Pas de prise de contraste pathologique.
+
+    Fosse postérieure :
+    Absence de rehaussement pathologique des nerfs faciaux.
+    Tronc cérébral, vermis et hémisphères cérébelleux sans anomalie.
+    Signal des liquides labyrinthiques d'aspect normal, sans rehaussement pathologique.
+    ```
+    <figure markdown="span">
+        </br>
+        ![](assets/nerf facial.jpg){width="700"}
+        [trajet du nerf facial](https://radiopaedia.org/cases/intratemporal-facial-nerve-annotated-ct){:target="_blank"}
     </figure>
 === "hydrops"
     ```
@@ -83,5 +108,6 @@
     Pas de dilatation des utricules, saccules et canaux endolymphatiques.
     ```
     <figure markdown="span">
-        [thèse de Victor Chaton](https://pepite-depot.univ-lille.fr/LIBRE/Th_Medecine/2021/2021LILUM114.pdf){:target="_blank"}
+        </br>
+        [thèse de Victor Chaton (page 27)](https://pepite-depot.univ-lille.fr/LIBRE/Th_Medecine/2021/2021LILUM114.pdf){:target="_blank"}
     </figure>

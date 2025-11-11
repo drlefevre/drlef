@@ -1,12 +1,21 @@
 # [Troubles neuro-cognitifs sévères](https://radiopaedia.org/articles/dementia){:target="_blank"}
 
 <figure markdown="span">
-    [![](assets/Scheltens.jpg){width="600"}](https://radiopaedia.org/articles/medial-temporal-lobe-atrophy-score){:target="_blank"}  
-    [![](assets/Fazekas.jpg){width="600"}](https://radiopaedia.org/articles/fazekas-scale-for-white-matter-lesions){:target="_blank"}  
+    [![](assets/Scheltens.jpg){width="600"}](https://radiopaedia.org/articles/medial-temporal-lobe-atrophy-score){:target="_blank"}
+</figure>
+
+|  [Scheltens](https://www.imaios.com/fr/e-cases/imaios/classifications/atrophie-hippocampique-scheltens){:target="_blank"} | 1 | 2 | 3 | 4 |
+| :----------: | :-------: | :----------: | :-------: | :-------: |
+| `fissure choroïdienne` | ↗ | ↗↗ | ↗↗↗ | ↗↗↗ |
+| `corne temporale` | N | ↗↗ | ↗↗↗ | ↗↗↗ |
+| `hauteur hippocampe` | N | ↘ | ↘↘ | ↘↘↘ |
+
+<figure markdown="span">
+    [![](assets/Fazekas.jpg){width="600"}](https://radiopaedia.org/articles/fazekas-scale-for-white-matter-lesions){:target="_blank"}
 </figure>
 
 ```
-Séquences axiale diffusion, 3D FLAIR, 3D T1 EG et 3D SWAN.
+Séquences axiale diffusion, 3D FLAIR, 3D T1 EG et SWI.
 ```
 ```
 Pas de lésion ischémique ou hémorragique récente ni de collection péricérébrale.

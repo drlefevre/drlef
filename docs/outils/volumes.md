@@ -54,5 +54,4 @@ function clearVolumes(){
   document.getElementById('vol-d3').value = '';
   computeVolumes();
 }
-
 </script>

@@ -1,17 +1,15 @@
 # [Neuropédiatrie](https://onclepaul.fr/wp-content/uploads/2011/07/3-Cours-Radiopediatrie-MERM-Imagerie-Neuroradiologique-Pediatrique.pdf){:target="_blank"}
 
-=== "ANAT"
+=== "craniosténose"
 
     <figure markdown="span">
         ![](assets/sutures.jpg){width="800"}
         [craniosténose](https://radiopaedia.org/articles/craniosynostosis?lang=us){:target="_blank"} = fermeture prématurée d'une suture ([Vinchon](https://matthieuvinchon.fr/2017/09/12/les-craniostenoses/){:target="_blank"})  
         ![](assets/sutures2.jpg){width="400"}  
-        </br>
-        [![](assets/kystesfp.jpg){width="800"}](https://onclepaul.fr/wp-content/uploads/2011/07/Malformations-kystiques-et-pseudo-kystiques-de-la-fosse-postérieure-JFR-2018.pdf){:target="_blank"}  
     </figure>
 
 
-=== "RETARD"
+=== "retard"
 
     <figure markdown="span">
         [lésions anoxo-ischémiques du NNé](https://radiopaedia.org/articles/patterns-of-neonatal-hypoxicischaemic-brain-injury?lang=gb){:target="_blank"} = prématurité +++ 
@@ -25,7 +23,8 @@
         - [leucodystrophies](https://radiopaedia.org/articles/leukodystrophies){:target="_blank"} = anomalies de la myélinisation
 
     ```
-    Séquences 3D T1 EG, 3D FLAIR, sagittale T2 centrée sur la ligne médiane, spectroscopie monovoxel à TE long sur les noyaux gris centraux.
+    Séquences axiale FLAIR, 3D T1 EG, sagittale T2 centrée sur la ligne médiane.
+    Examen réalisé sous anesthésie générale par le Docteur .
     ```
     ```
     Fosse postérieure :
@@ -36,17 +35,21 @@
 
     Etage supra-tentoriel :
     Pas d'anomalie de la gyration ni de la migration neuronale.
-    Hypersignal FLAIR symétrique de la substance blanche péri-trigonale en rapport avec des zones de myélinisation terminales.
+    Hypersignal FLAIR symétrique de la substance blanche péri-trigonale en rapport avec des zones de myélinisation terminales, d'aspect banal.
     Intégrité des noyaux gris centraux et des structures de la ligne médiane.
-    Corps calleux complet, de volume normal.
+    Corps calleux complet, de taille normale.
     Trophicité cérébrale respectée.
-    Pas d'anomalie des métabolites sur la séquence de spectroscopie.
-
-    Comblement bilatéral des cellules mastoïdiennes et de l'oreille moyenne associé à une hypertrophie des végétations adénoïdes.
+    Pas de séquelle hémorragique.
     ```
-
     <figure markdown="span">
-        [![](assets/spectro.jpg){width="330"}](https://www.imaios.com/fr/e-mri/spectroscopie-par-resonance-magnetique/metabolites-en-srm){:target="_blank"}
+        </br>
+        [![](assets/kystesfp.jpg){width="800"}](https://onclepaul.fr/wp-content/uploads/2011/07/Malformations-kystiques-et-pseudo-kystiques-de-la-fosse-postérieure-JFR-2018.pdf){:target="_blank"}  
+    </figure>
+    ```
+    Spectroscopie monovoxel à TE long sur les noyaux gris centraux.
+    ```
+    <figure markdown="span">
+        [![](assets/spectro.jpg){width="330"}](https://www.imaios.com/fr/e-mri/spectroscopie-par-resonance-magnetique/metabolites-en-srm){:target="_blank"}  
     </figure>
 
     !!! warning "DD macrocéphalie"
@@ -54,7 +57,7 @@
         - \> M6 (IRM) = [épanchement péricérébral](https://radiopaedia.org/articles/benign-enlargement-of-the-subarachnoid-space-in-infancy){:target="_blank"} +++, sténose foramens jugulaires, [et autres](https://radiopaedia.org/articles/macrocephaly){:target="_blank"}
 
 
-=== "EPILEPSIE"
+=== "épilepsie"
 
     <figure markdown="span">
         **Convulsions fébriles simples** = > 1 an, crise généralisée, < 15', sans déficit post-critique  
@@ -90,7 +93,7 @@
     Comblement bilatéral des cellules mastoïdiennes et de l'oreille moyenne associé à une hypertrophie des végétations adénoïdes.
     ```
 
-=== "TUMEURS"
+=== "tumeurs"
 
     !!! tip "[Tumeurs en fosse postérieure](https://radiopaedia.org/articles/posterior-cranial-fossa-tumors){:target="_blank"}"
         - hydrocéphalie active = dilatation ventriculaire + résorption transépendymaire

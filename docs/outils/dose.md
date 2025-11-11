@@ -176,4 +176,4 @@
 | `Pelvis` | 25 |
 
 !!! info "Risque malformatif si dose **>100–200 mGy**. Loi du tout ou rien ↬ S2"
-!!! warning "TDM thoracique = risque cancer sein +0,005%/mSv"
+!!! warning "TDM thoracique = risque cancer sein 0,005%/mSv"
