@@ -1,3 +1,18 @@
+=== "CR"
+    ```
+    Séquences axiale diffusion, axiale T1 Dixon, axiale et coronale T2.
+    Après injection dynamique de gadolinium, axiales T1 FS et T1 Dixon tardif.
+    ```
+    ```
+    Foie de taille et de morphologie normale, sans stéatose.
+    Vésicule biliaire en réplétion, à parois fines, sans lithiase.
+    Pas de dilatation des voies biliaires intra ni extra-hépatiques.
+    Perméabilité des vaisseaux hépatiques afférents et efferents.
+    Pas d'adénomégalie ni d'ascite sur le volume exploré.
+    Rate de taille normale. Pas de voie de dérivation porto-systémique.
+    Pancréas d'aspect normal, sans lésion focale, ni dilatation du Wirsung.
+    Surrénales, reins, structures digestives, et bases pulmonaires sans particularité.
+    ```
 === "Bases"
     <figure markdown="span">
         stéatose = < 45 UH et ↘ signal en OP &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; surcharge en fer = hypoT2 et ↗ signal OP

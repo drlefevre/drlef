@@ -17,8 +17,26 @@
     Pas de lésion de remplacement médullaire de la boîte crânienne.
     ```
 === "céphalées"
+    ``` title="IV+"
+    Séquences axiales FLAIR, diffusion, T1 SE, T2*, et 3D TOF.
+    Après injection de gadolinium, 3D T1 EG et axiale T1 SE.
     ```
-    Séquences sagittale T1 EG, axiale diffusion, 3D FLAIR, SWI, TOF, et coronale T2.
+    ```
+    Structures de la ligne médiane en place.
+    Intégrité des espaces liquidiens intra et péri-cérébraux.
+    Pas de lésion ischémique ou hémorragique récente ni séquellaire.
+    Perméabilité des sinus veineux péri-encéphaliques et des veines corticales.
+    Perméabilité des artères du polygone de Willis, sans image d'addition.
+    Pas de signe d'hypertension ou d'hypotension intracrânienne.
+    Absence d'anomalie de signal de la substance blanche.
+    Respect de la trophicité cortico-sous-corticale.
+    Pas d'anomalie en fosse postérieure.
+    Absence de comblement sinusien.
+    Pas de prise de contraste pathologique.
+    ```
+    </br>
+    ``` title="IV-"
+    Séquences axiale diffusion, sagittale T1 EG, 3D FLAIR, axiale T2*, TOF, et coronale T2.
     ```
     ```
     Structures de la ligne médiane en place.
@@ -36,7 +54,7 @@
     Séquences sagittales T2 STIR, et T1 sans puis après injection de gadolinium. 
     ```
     ```
-    Projection du cône terminale en regard de .
+    Projection du cône terminal en regard de .
     Respect des espaces liquidiens périmédullaires.
     Cordon médullaire de trophicité normale, sans anomalie de signal.
     Pas d'anomalie inflammatoire somato-discale.
