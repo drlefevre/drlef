@@ -1,6 +1,8 @@
 # PID
 
 <figure markdown="span">
+    [pneumotox](https://www.pneumotox.com/drug/index/){:target="_blank"}  
+    </br>
     [![](assets/PID.jpg){width="710"}](https://radiopaedia.org/articles/interstitial-lung-disease){:target="_blank"}
     **fibrose** = DDB, ry de miel, scissures irrégulières, perte de volume
 </figure>

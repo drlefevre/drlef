@@ -60,6 +60,7 @@ nav:
     - Malformations: uro/malfo.md
   - Dig:
     - Foie: dig/foie.md
+    - Rate: dig/rate.md
     - Grêle: dig/grele.md
     - RECIST: dig/RECIST.md
     - Pancréas: dig/pancreas.md

@@ -16,6 +16,17 @@
     Pas d'anomalie de morphologie ou de signal en fosse postérieure.
     Pas de lésion de remplacement médullaire de la boîte crânienne.
     ```
+
+    !!! tip "[métas hémorragiques](https://radiopaedia.org/articles/haemorrhagic-intracranial-tumours?lang=us){:target="_blank"}"
+        <figure markdown="span">
+            mélanome, CCC rénal, choriocarcinome, thyroïde
+        </figure>
+
+    !!! tip "DD [PDC cocarde](https://radiopaedia.org/articles/cerebral-ring-enhancing-lesions-differential){:target="_blank"}"
+        <figure markdown="span">
+            Méta Abcès Glio Infarctus Contusion (hématome) Démyélinisation Radionécrose
+        </figure>
+
 === "céphalées"
     ``` title="IV+"
     Séquences axiales FLAIR, diffusion, T1 SE, T2*, et 3D TOF.

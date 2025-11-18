@@ -66,6 +66,7 @@
   width:100%; padding:.55rem .65rem;
   border:1px solid var(--md-default-fg-color--lighter);
   border-radius:.7rem; background: var(--md-code-bg-color);
+  font-size: .8rem;
 }
 
 /* Boîte résultats */

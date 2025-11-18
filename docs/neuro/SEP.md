@@ -1,7 +1,7 @@
 # [Sclérose en plaques](https://radiopaedia.org/articles/multiple-sclerosis){:target="_blank"}
 
 === "suivi annuel gado-"
-    ```
+    ```title="cerveau"
     Séquences axiale diffusion, 3D FLAIR et 3D T1 EG.
     ```
     ```
@@ -10,7 +10,7 @@
     Stabilité des quelques black holes et de la trophicité cérébrale.
     Intégrité des espaces liquidiens intra et péri-cérébraux.
     ```
-    ```
+    ```title="moelle"
     Séquences sagittale T2 STIR sur l'ensemble du cordon médullaire.
     ```
     ```
@@ -22,7 +22,7 @@
     ```
 
 === "baseline et rebaseline M6 gado+"
-    ```
+    ```title="cerveau"
     Séquences axiale diffusion, 3D FLAIR, 3D T1 EG et 3D SWAN.
     Après injection de gadolinium séquence 3D T1 SE.
     ```
@@ -42,7 +42,7 @@
     Atrophie parenchymateuse : non
     Atrophie callosale : non
     ```
-    ```
+    ```title="moelle"
     Séquences sagittale T2 STIR sur l'ensemble du cordon médullaire.
     ```
     ```

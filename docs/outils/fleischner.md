@@ -3,7 +3,7 @@
 <div class="calc-mini md-typeset" id="fleischner">
   <form onsubmit="return false;">
     <div class="row4">
-      <input id="diam" type="text" inputmode="decimal" placeholder="Diamètre moyen (mm)" />
+      <input id="diam" type="text" inputmode="decimal" placeholder="Diam. moyen (mm)" />
       <select id="type">
         <option value="solid" selected>Solide</option>
         <option value="part">Mixte</option>
@@ -14,8 +14,8 @@
         <option value="multiple">Multiples</option>
       </select>
       <select id="risk">
-        <option value="low" selected>Risque bas</option>
-        <option value="high">Risque élevé</option>
+        <option value="low">Risque bas</option>
+        <option value="high" selected>Risque élevé</option>
       </select>
     </div>
 
@@ -43,6 +43,7 @@
   width:100%; padding:.55rem .65rem;
   border:1px solid var(--md-default-fg-color--lighter);
   border-radius:.7rem; background: var(--md-code-bg-color);
+  font-size: .8rem;
 }
 
 .box { margin-top:.7rem; margin-bottom: 0; border:1px dashed var(--md-default-fg-color--lighter); border-radius:.7rem; padding:.75rem .9rem; }

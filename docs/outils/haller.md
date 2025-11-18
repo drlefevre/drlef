@@ -138,6 +138,7 @@ hallerCompute();
   border: 1px solid var(--md-default-fg-color--lighter);
   border-radius: .5rem;
   background: var(--md-code-bg-color);
+  font-size: .8rem;   
 }
 .result.wide { grid-column: 1 / -1; }
 .copy-row { display:flex; align-items:center; gap:.6rem; margin-top:.35rem; }

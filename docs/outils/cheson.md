@@ -175,6 +175,7 @@ chesonCompute();
   border: 1px solid var(--md-default-fg-color--lighter);
   border-radius: .5rem;
   background: var(--md-code-bg-color);
+  font-size: .8rem;
 }
 .results {
   display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));

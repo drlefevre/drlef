@@ -161,12 +161,11 @@
 </style>
 
 <figure markdown="span">
-    [Seuil de survenue d’un excès de cancer](https://pmc.ncbi.nlm.nih.gov/articles/PMC283495/pdf/10013761.pdf){:target="_blank"} :  
-    10 et 50 mSv pour une exposition aiguë  
-    50-100 mSv pour une exposition cumulée
+  [Seuil de survenue d’un excès de cancer](https://pmc.ncbi.nlm.nih.gov/articles/PMC283495/pdf/10013761.pdf){:target="_blank"} :  
+  10-50 mSv exposition aiguë / 50-100 mSv exposition cumulée
 </figure>
 
-</br></br>
+</br>
 
 |  [Dose reçue à l'utérus en TDM](https://onclepaul.fr/wp-content/uploads/2011/07/La-femme-enceinte-en-imagerie-pire-angoisse-du-radiologue-New-JFR-2020.pdf){:target="_blank"}| mGy |
 | :----------: | :-------: |
