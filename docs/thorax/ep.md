@@ -50,7 +50,7 @@
         - **TEC** = thrombi marginés, synéchies, hypervasc. systémique, perfusion mosaïque
 
 
-=== "HEMOPTYSIE"
+=== "hémoptysie"
 
     <figure markdown="span">
         ![](assets/hemo.jpg){width="720"}

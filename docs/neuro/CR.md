@@ -4,8 +4,7 @@
     ```
     Séquences axiale diffusion, axiale T1 écho de spin, 3D FLAIR, SWI.
     Après injection de gadolinium, séquence 3D T1 écho de spin FS.
-    ```
-    ```
+
     Structures de la ligne médiane en place.
     Intégrité des espaces liquidiens intra et péri-cérébraux.
     Absence de prise de contraste suspecte de lésion secondaire.
@@ -31,8 +30,7 @@
     ``` title="IV+"
     Séquences axiales FLAIR, diffusion, T1 SE, T2*, et 3D TOF.
     Après injection de gadolinium, 3D T1 EG et axiale T1 SE.
-    ```
-    ```
+
     Structures de la ligne médiane en place.
     Intégrité des espaces liquidiens intra et péri-cérébraux.
     Pas de lésion ischémique ou hémorragique récente ni séquellaire.
@@ -48,8 +46,7 @@
     </br>
     ``` title="IV-"
     Séquences axiale diffusion, sagittale T1 EG, 3D FLAIR, axiale T2*, TOF, et coronale T2.
-    ```
-    ```
+
     Structures de la ligne médiane en place.
     Intégrité des espaces liquidiens intra et péri-cérébraux.
     Pas de lésion ischémique ou hémorragique récente ni séquellaire.
@@ -63,8 +60,7 @@
 === "médullaire"
     ```
     Séquences sagittales T2 STIR, et T1 sans puis après injection de gadolinium. 
-    ```
-    ```
+
     Projection du cône terminal en regard de .
     Respect des espaces liquidiens périmédullaires.
     Cordon médullaire de trophicité normale, sans anomalie de signal.
@@ -77,8 +73,7 @@
     ```
     Séquences axiales diffusion et FLAIR à l'étage encéphalique.
     Séquences centrées sur les conduits auditifs internes 3D T2 HR, axiales T1 SE sans puis après injection de gadolinium, et 3D T1 EG FS.
-    ```
-    ```
+
     Etage supra-tentoriel :
     Structures de la ligne médiane en place.
     Intégrité des espaces liquidiens intra et péri-cérébraux.
@@ -99,8 +94,7 @@
     Séquences axiales diffusion et FLAIR à l'étage encéphalique.
     Séquences centrées sur les conduits auditifs internes 3D T2 HR.
     Après injection de gadolinium, 3D T1 SE sur tout le crâne.
-    ```
-    ```
+
     Etage supra-tentoriel :
     Structures de la ligne médiane en place.
     Intégrité des espaces liquidiens intra et péri-cérébraux.
@@ -122,8 +116,7 @@
     ```
     Séquences axiales diffusion et FLAIR à l'étage encéphalique.
     Séquences centrées sur les conduits auditifs internes 3D T2 HR et 3D FLAIR 4 heures après injection de gadolinium.
-    ```
-    ```
+
     Etage supra-tentoriel :
     Structures de la ligne médiane en place.
     Intégrité des espaces liquidiens intra et péri-cérébraux.

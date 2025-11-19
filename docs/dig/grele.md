@@ -1,7 +1,7 @@
 # [Intestin grêle](https://radiopaedia.org/articles/small-bowel){:target="_blank"}
 
 
-=== "Ischémie mésentérique"
+=== "ischémie mésentérique"
     <figure markdown="span">
         [dl abdo intense brutale](https://radiopaedia.org/articles/mesenteric-ischaemia){:target="_blank"} chez l'homme avec FDRCV = APx3   
         **80% occlusion artérielle** > 10% ischémie non-occlusive et 10% occlusion veineuse  
@@ -18,7 +18,7 @@
         - 50% **sd de reperfusion** = dl, saignement, SIB = épaississement pariétal
         - entérite post-ischémique = sténose Crohn-like
 
-=== "Hernies internes"
+=== "hernies internes"
     <figure markdown="span">
         [Hernies internes](https://radiopaedia.org/articles/internal-hernia){:target="_blank"} = 2% des occlusion gréliques
         [![](assets/herniesint.jpg){width="350"}](https://onclepaul.fr/wp-content/uploads/2011/07/hernies-internes-emc-2015.pdf){:target="_blank"}

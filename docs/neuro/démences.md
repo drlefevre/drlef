@@ -16,8 +16,7 @@
 
 ```
 Séquences axiale diffusion, 3D FLAIR, 3D T1 EG et SWI.
-```
-```
+
 Pas de lésion ischémique ou hémorragique récente ni de collection péricérébrale.
 Pas de microsaignement chronique, de cavernome ni de stigmate hémorragique.
 Pas de séquelle ischémique visualisée aux étage supra et infratentoriel.

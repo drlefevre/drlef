@@ -7,8 +7,7 @@
 
 ```
 Séquences axiale diffusion, 3D T1 EG, axiales T2 deux échos, 3D SWI et séquence dédiée aux nigrosomes.
-```
-```
+
 Pas de lésion ischémique ou hémorragique récente ni de collection péricérébrale.
 Pas de microsaignement chronique, de cavernome ni de stigmate hémorragique.
 Pas de séquelle ischémique visualisée aux étage supra et infratentoriel.

@@ -4,7 +4,7 @@
     [Rx urg](https://univers-medecine.com/livres/fr/Lecture%20radiologique%20aux%20urgences.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [os accessoires](https://fr.wikipedia.org/wiki/Os_accessoire){:target="_blank"}
 </figure> 
 
-=== "EPAULE"
+=== "épaule"
     ```
     Radiographies de face avec 3 rotations de profil :
     Pas de lésion osseuse post-traumatique.
@@ -32,7 +32,7 @@
         [![](assets/epaule.jpg){width="650"}](https://www.youtube.com/watch?v=CDN2kX3YkZQ&t=51s){:target="_blank"}
     </figure>  
  
-=== "COUDE"
+=== "coude"
     ```title="Epicondylite"
     Pas d'épanchement articulaire.
     Intégrité des tendons communs des épicondyliens latéraux et médiaux.
@@ -56,7 +56,7 @@
     Pas d'épanchement articulaire huméro-radial ni huméro-ulnaire.
     ```
     
-=== "MAIN"
+=== "main"
     ```
     Pas d'épanchement dans les articulations radiocarpienne, radioulnaire distale et médiocarpienne.
     Pas d'épanchement dans les articulations métacarpophalangiennes et interphalangiennes.
@@ -95,7 +95,7 @@
     Respect des bandelettes sagittales des autres MCP.
     ```
 
-=== "HANCHE"
+=== "hanche"
     ```
     Pas d'épanchement articulaire coxo-fémoral.
     Pas d'argument pour une fissure de l'enthèse du muscle long adducteur.
@@ -118,7 +118,7 @@
         [![](assets/latpost.jpg){width="900"}](https://www.youtube.com/watch?v=8AxHjBnEDPQ&list=PLGV2jHWN573djULLdIjMos1uZ1iMdevnT&index=6){:target="_blank"}  
     </figure>  
 
-=== "GENOU"
+=== "genou"
     ```
     Radiographies :
     Pas d’épanchement intra-articulaire.
@@ -141,7 +141,7 @@
     Absence d'œdème de dénervation des loges musculaires antérolatérales de la jambe.
     ```
 
-=== "PIED"
+=== "pied"
     ```title="Rx"
     Respect des interlignes articulaires du tarse, métacarpophallangiennes et interphallangiennes.
     Pas d'érosion osseuse ni de lésion suspecte.
@@ -177,7 +177,7 @@
     Respect des plaques plantaires des 2ème et 3ème rayons.
     ```
 
-=== "INFILTR"
+=== "infiltration"
     ```
     Information du patient et receuil de l'absence de contre-indication.
     Positionnement en décubitus dorsal.

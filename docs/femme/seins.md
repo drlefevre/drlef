@@ -1,6 +1,6 @@
 # [Seins](https://www.acr.org/-/media/ACR/Files/RADS/BI-RADS/BIRADS-Poster.pdf){:target="_blank"}
 
-=== "MAMMO"
+=== "mammo"
     ```
     MAMMOGRAPHIE BILATÉRALE
     Densité mammaire de type

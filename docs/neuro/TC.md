@@ -1,6 +1,15 @@
 # [Traumatismes cranio-faciaux](https://onclepaul.fr/wp-content/uploads/2011/07/Trauma-cranio-enc%C3%A9phalique-2018.pdf){:target="_blank"}
 
+```
+Structures médianes en place.
+Pas de lésion hémorragique intra ou péri-cérébrale récente.
+Elargissement passif des espaces liquidiens intra et péri-cérébraux.
+Bonne aération des sinus de la face et des cellules mastoïdiennes.
+Pas de lésion osseuse post-traumatique.
+```
+
 <figure markdown="span">
+    </br>
     ![](assets/lefort.jpg){width="680"}  
     </br>
     ![](assets/rocher.jpg){width="300"}
@@ -18,7 +27,7 @@
 </figure>
 
 !!! tip "DD HFLAIR sous-arachnoïdien"
-    - artéfacts (entrée de coupe / métal / maquillage)
+    - artefacts (entrée de coupe / métal / maquillage)
     - sang frais
     - méningite infectieuse / carcinomateuse
     - hyperoxygénation (FiO2 = 100%)

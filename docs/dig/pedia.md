@@ -1,6 +1,6 @@
 # Urgences pédiatriques
 
-=== "APP"
+=== "app"
     - non compressible, **> 6 mm** (TDM > 7 mm), hyperhémie, hyperécho autour, 25% stercolithe
     - contenu liquidien + ligne hyper (sous-muqueuse) + anneau hypo (musculeuse)
     - complications : plastron, abcès, péritonite
@@ -32,14 +32,14 @@
     !!! warning "invagination iléo-iléale = plutôt &gt; 2a"
         - diverticule de [Meckel](https://radiopaedia.org/articles/meckel-diverticulum-3){:target="_blank"}
         - **lymphome**, tumeur, purpura rhumatoïde
-=== "PYLORE"
+=== "pylore"
     - garçon **M1-M3**, vomis alimentaires en jet, [musculeuse > 3 mm et L > 14 mm](https://radiopaedia.org/articles/pyloric-stenosis-1){:target="_blank"}
     - négatif => répéter écho à 24-48h = tourner vers la droite
     <figure markdown="span">
         ![](assets/pylore.jpg){width="550"}
         Sténose hypertrophique du pylore
     </figure>
-=== "VOLVULUS"
+=== "volvulus"
     - **vomis bilieux NNé** < S2 à ventre plat, 80% < 1 an mais peut survenir à tout âge
     - complique une [mésentère commun incomplet](https://onclepaul.fr/wp-content/uploads/2011/07/volvulus-du-gr%C3%AAle-adulte-synth%C3%A8se.pdf){:target="_blank"} (malrotation intestinale)
     <figure markdown="span">
@@ -51,7 +51,7 @@
         ![](assets/volvulus.jpg){width="250"}
         écho non contributive / négative => opacification digestive haute
     </figure>
-=== "TORSION TESTI"
+=== "torsion testi"
     - <b>ado / NNé</b>, 3% des dl scrotales aiguës de l'enfant
     - DD orchiépididymite /!\ hypervascularisation testiculaire = orchite/torsion-détorsion
     - DD [torsion d'hydatide](https://comu-occitanie.fr/wp-content/uploads/2024/04/Presentation-echographie-testiculaire-JVial.pdf){:target="_blank"} (6-12 ans) = masse ovalaire infracm vacuolisée Doppler⊖

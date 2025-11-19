@@ -3,8 +3,7 @@
 ```
 Séquences coronales T1 et T2, sagittale T1.
 Après injection de gadolinium, séquences coronales T1 dynamiques.
-```
-```
+
 Antéhypophyse de taille et de morphologie normales, de signal homogène.
 Pas d'anomalie focale dans l'antéhypophyse après injection de gadolinium.
 Post-hypophyse en hypersignal spontané T1, d’aspect normal.

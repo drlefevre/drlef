@@ -2,8 +2,7 @@
     ```
     Séquences axiale diffusion, axiale T1 Dixon, axiale et coronale T2.
     Après injection dynamique de gadolinium, axiales T1 FS et T1 Dixon tardif.
-    ```
-    ```
+
     Foie de taille et de morphologie normale, sans stéatose.
     Vésicule biliaire en réplétion, à parois fines, sans lithiase.
     Pas de dilatation des voies biliaires intra ni extra-hépatiques.
@@ -13,7 +12,7 @@
     Pancréas d'aspect normal, sans lésion focale, ni dilatation du Wirsung.
     Surrénales, reins, structures digestives, et bases pulmonaires sans particularité.
     ```
-=== "Bases"
+=== "bases"
     <figure markdown="span">
         stéatose = < 45 UH et ↘ signal en OP &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; surcharge en fer = hypoT2 et ↗ signal OP
     </figure>
@@ -44,7 +43,7 @@
             HNF, CHC, angiome, adénome, et TFS
         </figure>
 
-=== "Bénin"
+=== "bénin"
     !!! success "[hémangiome](https://radiopaedia.org/articles/hepatic-haemangioma-3){:target="_blank"} caverneux"
         - ECHO hyper, homogène, <u>renforcement post</u>, < 3 cm, Doppler-
         - TDM hypo, PDC centripète en mottes, persistant au tps tardif
@@ -77,7 +76,7 @@
         - [angiomyolipome](https://radiopaedia.org/articles/hepatic-angiomyolipoma-1){:target="_blank"}
         - [pseudo-tumeur inflammatoire](https://radiopaedia.org/articles/hepatic-inflammatory-pseudotumour){:target="_blank"} = nodule nécrotique solitaire > infiltration périportale
 
-=== "Malin"
+=== "malin"
     !!! danger "[CHC](https://radiopaedia.org/articles/hepatocellular-carcinoma){:target="_blank"} // OH, NASH, hépatites virales, hémochromatose"
         - wash-in wash-out > 1 cm, hyperT2 modéré ± graisse
         - capsule, thrombose porte, composantes nécrotiques/hémorragiques
@@ -106,7 +105,7 @@
             ![](assets/hemangio.jpg){width="300"}
         </figure>
 
-=== "Kystes"
+=== "kystes"
     !!! info "[kyste hépatique simple](https://radiopaedia.org/articles/simple-hepatic-cyst){:target="_blank"} (polykystose si ≥ 3)"
         - hyperT2 liquidien sur séquence T2 long, franc hypoT1
         - /!\ grande taille => hémorragie, rupture, infection
@@ -126,7 +125,7 @@
         - grand kyste multiloculaire, cloisons et parois épaisses
         - nodule mural = cystadénocarcinome
 
-=== "Infection"
+=== "infection"
     <figure markdown="span">
         [hépatite aiguë](https://radiopaedia.org/articles/acute-hepatitis){:target="_blank"} = hépatomégalie + œdème périportal + œdème parois vésiculaires
     </figure>
@@ -153,7 +152,7 @@
     !!! example "DD granulomes hépatiques"
         tuberculose, sarcoïdose, histoplasmose, bartonellose, brucellose, candidose
 
-=== "Vasc"
+=== "vasc"
     <figure markdown="span">
         [![](assets/vascfoie.jpg){width="400"}](http://onclepaul.fr/wp-content/uploads/2011/07/incidence-chirurgicale-des-variations-vasculaires-abdominalesFILEminimizer.pdf){:target="_blank"}
     </figure>

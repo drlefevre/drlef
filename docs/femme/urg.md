@@ -8,7 +8,7 @@
     <figure markdown="span">
         [![](assets/GEU.jpg){width="300"}](https://cglre.org/geu1/){:target="_blank"}
     </figure>
-=== "TORSION"
+=== "torsion"
     - dl pelvienne brutale intense + nausées
     - médialisation ovaire + œdème stromal + tour de spire
     - complique notamment **kyste dermoïde** et **fibrome** ovarien (tumeurs denses)
@@ -30,7 +30,7 @@
     <figure markdown="span">
         ![](assets/TVO.jpg){width="300"}
     </figure>
-=== "CN GRAVIDIQUE"
+=== "CN gravidique"
     - 80% urétérohydronéphrose droite du T2 ↬ M3 post-partum
     - [pyélon mesurant ↬ 2 cm](https://link.springer.com/article/10.1007/s41973-022-00185-y#:~:text=L'hydron%C3%A9phrose%20et%20l'hydro,des%20modifications%20hormonales%20%5B1%5D.){:target="_blank"}
     - 2/3 d'élimination spontanée du calcul pendant la grossesse

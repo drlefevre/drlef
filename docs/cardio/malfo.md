@@ -1,6 +1,6 @@
 # Malformations vasculaires
 
-=== "Arc aortique"
+=== "arc aortique"
 
     <figure markdown="span">
         [Variantes anatomiques de l'arc aortique](https://radiopaedia.org/articles/variant-anatomy-of-the-aortic-arch){:target="_blank"}
@@ -8,7 +8,7 @@
     </figure>
 
 
-=== "Coronaires"
+=== "coronaires"
 
     <figure markdown="span">
         [![](assets/coronaires.jpg){width="500"}](https://radiologyassistant.nl/cardiovascular/cad-rads/coronary-artery-disease-reporting-and-data-system){:target="_blank"}  

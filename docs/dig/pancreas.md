@@ -90,8 +90,7 @@
 === "TIPMP"
     ```
     Séquences axiale diffusion, axiales et coronale T2, bili-IRM 2D et 3D, et axiale T1 sans injection de produit de contraste.   
-    ```
-    ```
+
     Pas de signe d'atypie, notamment pas d'anomalie de signal en diffusion, de portion tissulaire, ni de dilatation du canal pancréatique principal.    
     ```
 
@@ -113,7 +112,7 @@
         </figure> 
 
 
-=== "KYSTES"
+=== "kystes"
     <figure markdown="span">
         [![](assets/kystespanc.jpg){width="550"}](https://radiopaedia.org/articles/cystic-lesions-of-the-pancreas-differential){:target="_blank"}
     </figure> 
@@ -139,7 +138,7 @@
     </figure> 
 
 
-=== "DIVISUM"
+=== "divisum"
     <figure markdown="span">
         CPP s'abouche dans la papille mineure = **5%** = + de PA
         [![](assets/divisum.jpg){width="800"}](https://radiopaedia.org/articles/pancreas-divisum){:target="_blank"} 

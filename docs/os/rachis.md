@@ -7,40 +7,12 @@
     Pas d'arthrose articulaire postérieure.
     Pas de lésion osseuse suspecte et parties molles sans particularité.
     ```
-    ``` title="IRM"
-    Pas d'anomalie transitionnelle de la charnière lombo-sacrée.
-    Projection du cône médullaire en regard de 
-    Respect de la hauteur des corps vertébraux.
-    Pas d'étroitesse constitutionnelle du canal lombaire.
-    Pas de lésion de remplacement ostéomédullaire.
 
-    Discopathie
-    Zygarthrose prédominant en
-
-    En L1-L2 : Pas de rétrécissement canalaire ou foraminal.
-
-    En L2-L3 : 
-
-    En L3-L4 : 
-
-    En L4-L5 : 
-    
-    En L5-S1 : 
-    ```
     <figure markdown="span">
         ![](assets/Castellvi.jpg){width="380"}
         **Castellvi** I = processus transverse élargi ≥ 19 mm d'axe craniocaudal, II = pseudo-articulation avec le sacrum, III = lombalisation ou sacralisation complète, IV = II + III  
         </br>
-        ![](assets/listhesis.jpg){width="230"}  
-        ![](assets/sciatique.jpg){width="400"}
-        ![](assets/hernie.jpg){width="690"}
-        ![](assets/hernie2.jpg){width="440"}  
-        ![](assets/stenose.jpg){width="420"}
-        **Rétrécissement** modéré si diamètre antéro-postérieur < 12 mm voire sévère < 10 mm  
-        Sténose minime : LCS visible, modérée : peu visible, sévère : ∅ LCS, extrême : ∅ graisse épidurale  
-        </br>
-        ![](assets/modic.jpg){width="300"}
-        **Modic** I = inflammatoire « œdémateux », II = involution graisseuse, III = fibrose
+        ![](assets/listhesis.jpg){width="270"}  
     </figure>
 
 
@@ -65,7 +37,7 @@
     ```
     
     <figure markdown="span">
-        ![](assets/NCB.jpg){width="420"}
+        ![](assets/NCB.jpg){width="500"}
     </figure>
 
 

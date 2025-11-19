@@ -10,23 +10,10 @@
 
 
 === "retard"
-
-    <figure markdown="span">
-        [lésions anoxo-ischémiques du NNé](https://radiopaedia.org/articles/patterns-of-neonatal-hypoxicischaemic-brain-injury?lang=gb){:target="_blank"} = prématurité +++ 
-    </figure>
-
-    !!! tip "[Myélinisation](https://radiopaedia.org/articles/normal-myelination){:target="_blank"} de la substance blanche = [atlas](https://www.myelinationmriatlas.com/6-months.html){:target="_blank"} ![](assets/myelinisation.jpg){width="150"} "
-        - NNé = fini en sous-tentoriel, puis bas → haut, arr → avt, centre → périph
-        - hyperT1 commençant aux bras post. des capsules internes, terminé à M6
-        - hypoT2 sus-tentoriel d'apparition très progressive **jusqu'à 2-4 ans**
-        - FLAIR retardé : pas de myélinisation sus-tentoriel avant 1 an
-        - [leucodystrophies](https://radiopaedia.org/articles/leukodystrophies){:target="_blank"} = anomalies de la myélinisation
-
     ```
     Séquences axiale FLAIR, 3D T1 EG, sagittale T2 centrée sur la ligne médiane.
     Examen réalisé sous anesthésie générale par le Docteur .
-    ```
-    ```
+
     Fosse postérieure :
     Pas d'anomalie de la morphologie ni du signal du tronc cérébral.
     Cervelet et en particulier vermis de taille et morphologie normales.
@@ -41,6 +28,18 @@
     Trophicité cérébrale respectée.
     Pas de séquelle hémorragique.
     ```
+
+    <figure markdown="span">
+        [lésions anoxo-ischémiques du NNé](https://radiopaedia.org/articles/patterns-of-neonatal-hypoxicischaemic-brain-injury?lang=gb){:target="_blank"} = prématurité +++ 
+    </figure>
+
+    !!! tip "[Myélinisation](https://radiopaedia.org/articles/normal-myelination){:target="_blank"} de la substance blanche = [atlas](https://www.myelinationmriatlas.com/6-months.html){:target="_blank"} ![](assets/myelinisation.jpg){width="150"} "
+        - NNé = fini en sous-tentoriel, puis bas → haut, arr → avt, centre → périph
+        - hyperT1 commençant aux bras post. des capsules internes, terminé à M6
+        - hypoT2 sus-tentoriel d'apparition très progressive **jusqu'à 2-4 ans**
+        - FLAIR retardé : pas de myélinisation sus-tentoriel avant 1 an
+        - [leucodystrophies](https://radiopaedia.org/articles/leukodystrophies){:target="_blank"} = anomalies de la myélinisation
+
     <figure markdown="span">
         </br>
         [![](assets/kystesfp.jpg){width="800"}](https://onclepaul.fr/wp-content/uploads/2011/07/Malformations-kystiques-et-pseudo-kystiques-de-la-fosse-postérieure-JFR-2018.pdf){:target="_blank"}  
@@ -58,6 +57,19 @@
 
 
 === "épilepsie"
+
+    ```
+    Sur une IRM 3 Tesla, séquences 3D T1 EG, 3D FLAIR, SWI, coronale T2 centrée sur les hippocampes.
+
+    Pas d'anomalie de la gyration, de la migration neuronale ni de la myélinisation.
+    Aspect sans particularité du signal et de la trophicité des hippocampes.
+    Hypersignaux FLAIR symétriques dans la substance blanche péri-trigonale en rapport avec des zones de myélinisation terminales, d'aspect banal.
+    Intégrité des noyaux gris centraux et des structures de la ligne médiane.
+    Pas de lésion hémorragique ni de calcification anormale.
+    Corps calleux complet, de volume normal.
+    Trophicité cérébrale respectée.
+    Pas de processus expansif.
+    ```
 
     <figure markdown="span">
         **Convulsions fébriles simples** = > 1 an, crise généralisée, < 15', sans déficit post-critique  
@@ -78,20 +90,7 @@
         - [MVNT](https://radiopaedia.org/articles/multinodular-and-vacuolating-neuronal-tumour-2){:target="_blank"} = DD DNET, bubbly **sous-cortical**, chez l'adulte jeune ou d'âge moyen
         - [gangliogliome](https://radiopaedia.org/articles/ganglioglioma){:target="_blank"} = DD DNET avec **PDC**, pas bubbly, ± calcification et kyste
         - [hamartome](https://radiopaedia.org/articles/hypothalamic-hamartoma){:target="_blank"} plancher V3 = crises gélastiques + puberté précoce + retard intellectuel
-    
-    ```
-    Sur une IRM 3 Tesla, séquences 3D T1 EG, 3D FLAIR, SWI, coronale T2 centrée sur les hippocampes.
-    ```
-    ```
-    Pas d'anomalie de la gyration, de la migration neuronale ni de la myélinisation.
-    Aspect sans particularité du signal et de la trophicité des hippocampes.
-    Hypersignal FLAIR symétrique de la substance blanche péri-trigonale en rapport avec des zones de myélinisation terminales.
-    Intégrité des noyaux gris centraux et des structures de la ligne médiane.
-    Corps calleux complet, de volume normal.
-    Trophicité cérébrale respectée.
 
-    Comblement bilatéral des cellules mastoïdiennes et de l'oreille moyenne associé à une hypertrophie des végétations adénoïdes.
-    ```
 
 === "tumeurs"
 

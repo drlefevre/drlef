@@ -3,8 +3,7 @@
 === "suivi annuel gado-"
     ```title="cerveau"
     Séquences axiale diffusion, 3D FLAIR et 3D T1 EG.
-    ```
-    ```
+
     Pas d'anomalie de signal apparue sur la séquence de diffusion.
     Stabilité des lésions en hypersignal FLAIR dans la substance blanche périventriculaire.
     Stabilité des quelques black holes et de la trophicité cérébrale.
@@ -12,8 +11,7 @@
     ```
     ```title="moelle"
     Séquences sagittale T2 STIR sur l'ensemble du cordon médullaire.
-    ```
-    ```
+
     Stabilité des lésions médullaires cervicales et thoraciques.
     Absence de nouvelle lésion décelable.
     Absence d'atrophie cordonale.
@@ -25,8 +23,7 @@
     ```title="cerveau"
     Séquences axiale diffusion, 3D FLAIR, 3D T1 EG et 3D SWAN.
     Après injection de gadolinium séquence 3D T1 SE.
-    ```
-    ```
+
     Pas de lésion ischémique ou hémorragique récente ou séquellaire.
     Pas de prise de contraste pathologique parenchymateuse ou méningée.
 

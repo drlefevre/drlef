@@ -2,7 +2,6 @@ site_name: Notes radiologiques
 
 nav:
   - index.md
-  - msk.md
   - Femme:
     - Urg: femme/urg.md
     - EPP: femme/EPP.md
@@ -62,13 +61,13 @@ nav:
     - Foie: dig/foie.md
     - Rate: dig/rate.md
     - Grêle: dig/grele.md
-    - RECIST: dig/RECIST.md
     - Pancréas: dig/pancreas.md
     - Surrénales: dig/surrénales.md
     - Caustique: dig/caustique.md
     - Urg péd: dig/pedia.md
   - Os:
     - Urgences: os/urgences.md
+    - Echo et Rx: os/echorx.md
     - Fractures: os/fractures.md
     - Tumeurs: os/tumeurs.md
     - Rachis: os/rachis.md
