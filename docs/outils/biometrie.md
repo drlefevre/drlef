@@ -207,3 +207,7 @@
   update();
 })();
 </script>
+
+<figure markdown="span">
+  Validé par le Dr Wozniak
+</figure>
