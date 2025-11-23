@@ -23,8 +23,8 @@ Pas de séquelle ischémique visualisée aux étage supra et infratentoriel.
 Leucopathie périventriculaire d'origine vasculaire probable classée Fazekas
 Pas de signe morphologique évocateur d'hydrocéphalie chronique de l'adulte.
 Pas d'anomalie de signal ni d'atrophie des noyaux gris centraux.
-Trophicité cérébrale en rapport avec l'âge, sans atrophie lobaire prédominante.
-Trophicité hippocampique respectée classée Scheltens 0 de façon bilatérale.
+Atrophie cortico-sous-corticale diffuse, sans atrophie lobaire prédominante.
+Atrophie hippocampique modérée classée Scheltens 0 de façon bilatérale.
 Pas d'anomalie de morphologie ou de signal en fosse postérieure.
 ```
 

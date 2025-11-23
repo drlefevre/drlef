@@ -1,7 +1,7 @@
 === "CR"
     ```
     Séquences axiale diffusion, axiale T1 Dixon, axiale et coronale T2.
-    Après injection dynamique de gadolinium, axiales T1 FS et T1 Dixon tardif.
+    Après injection de gadolinium, séries dynamiques T1 FS et Dixon.
 
     Foie de taille et de morphologie normale, sans stéatose.
     Vésicule biliaire en réplétion, à parois fines, sans lithiase.

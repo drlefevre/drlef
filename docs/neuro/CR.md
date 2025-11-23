@@ -2,7 +2,7 @@
 
 === "méta"
     ```
-    Séquences axiale diffusion, axiale T1 écho de spin, 3D FLAIR, SWI.
+    Séquences axiales diffusion, T1 écho de spin, et T2*. 3D FLAIR.
     Après injection de gadolinium, séquence 3D T1 écho de spin FS.
 
     Structures de la ligne médiane en place.

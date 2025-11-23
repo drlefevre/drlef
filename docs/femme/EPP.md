@@ -1,6 +1,8 @@
 # Endométriose  
 
 ```
+Séquences T2 dans les trois plans, axiales T1 Dixon, et T2 EG jusqu'aux reins.
+
 Utérus antéversé antéfléchi mesurant  cm.
 Endomètre en hypersignal T2 mesurant  mm.
 Intégrité de la zone jonctionnelle et du myomètre.
