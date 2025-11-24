@@ -117,7 +117,7 @@ input[type=number] { -moz-appearance: textfield; }
     width: 24px; height: 24px;
     display: flex; justify-content: center; align-items: center;
     border-radius: 4px; cursor: pointer;
-    font-weight: bold; font-family: sans-serif; font-size: 12px; line-height: 1; 
+    font-weight: bold; font-family: sans-serif; font-size: .7rem; line-height: 1; 
     opacity: 0.35; transition: 0.2s ease-in-out; 
     color: black; 
     flex-shrink: 0;
@@ -134,7 +134,7 @@ input[type=number] { -moz-appearance: textfield; }
     width: 24px; height: 24px;
     display: flex; justify-content: center; align-items: center;
     border-radius: 4px; cursor: pointer;
-    font-weight: bold; font-family: sans-serif; font-size: 11px;
+    font-weight: bold; font-family: sans-serif; font-size: .7rem;
     background: white; color: black;
     border: 1px solid transparent; 
     transition: 0.2s; flex-shrink: 0;
@@ -150,7 +150,6 @@ input[type=number] { -moz-appearance: textfield; }
 
 .pirads-selector { display: flex; gap: 2px; }
 .zone-selector { display: flex; gap: 2px; margin-left: 6px; margin-right: 4px; }
-.pi-sm { font-size: 9px; }
 
 .lesion-inputs-wrapper {
     display: grid; grid-template-columns: 1fr 1fr; gap: 4px;
@@ -159,7 +158,7 @@ input[type=number] { -moz-appearance: textfield; }
 .lesion-input {
     width: 100% !important;
     background: white !important; border: 1px solid #ddd !important;
-    height: 26px !important; padding: 0 2px !important; margin: 0 !important;
+    height: 30px !important; padding: 0 2px !important; margin: 0 !important;
     font-size: 0.8rem !important; text-align: center;
 }
 
@@ -207,9 +206,9 @@ input[type=number] { -moz-appearance: textfield; }
 const PIRADS_CONF = [
     { k: '1',   lbl: '1',  v: 1, ord: 10, c: '#4cd137', cls: 'c-green' },
     { k: '2',   lbl: '2',  v: 2, ord: 20, c: '#c4e538', cls: 'c-yellow' },
-    { k: '2+1', lbl: '+1', v: 3, ord: 29, c: '#fbc531', cls: 'c-gold pi-sm' }, 
+    { k: '2+1', lbl: '+1', v: 3, ord: 29, c: '#fbc531', cls: 'c-gold' }, 
     { k: '3',   lbl: '3',  v: 3, ord: 30, c: '#fbc531', cls: 'c-gold' },
-    { k: '3+1', lbl: '+1', v: 4, ord: 39, c: '#e17055', cls: 'c-orange pi-sm' }, 
+    { k: '3+1', lbl: '+1', v: 4, ord: 39, c: '#e17055', cls: 'c-orange' }, 
     { k: '4',   lbl: '4',  v: 4, ord: 40, c: '#e17055', cls: 'c-orange' },
     { k: '5',   lbl: '5',  v: 5, ord: 50, c: '#e84118', cls: 'c-red' }
 ];
@@ -324,7 +323,7 @@ function addLesionRow(internalId) {
         </div>
 
         <div class="lesion-inputs-wrapper">
-            <input type="text" class="lesion-input" id="zone-txt-${internalId}" placeholder="Zone (ex: 9a)" oninput="updateLesionData(${internalId})">
+            <input type="text" class="lesion-input" id="zone-txt-${internalId}" placeholder="zone" oninput="updateLesionData(${internalId})">
             <input type="number" class="lesion-input" id="size-${internalId}" placeholder="mm" oninput="updateLesionData(${internalId})" onblur="sortAndRenameLesions()">
         </div>
         
@@ -660,14 +659,10 @@ async function copyFullReport() {
 
     let htmlContent = `
         <div style="font-family: Calibri, sans-serif; font-size: 11pt; color: #000;">
-            <p><strong style="text-decoration: underline;">INDICATION</strong><br>${formatHTML(currentReportData.indication)}</p></br>
-            <p><strong style="text-decoration: underline;">TECHNIQUE</strong><br>${formatHTML(currentReportData.technique)}</p></br>
-            <p><strong style="text-decoration: underline;">RESULTAT</strong><br>${formatHTML(currentReportData.resultat)}</p></br>
-            
-            <p>
-                <strong style="text-decoration: underline;">CONCLUSION</strong><br>
-                <strong>${formatHTML(currentReportData.conclusion)}</strong>
-            </p>
+            <p><strong style="text-decoration: underline;">INDICATION</strong><br>${formatHTML(currentReportData.indication)}</p>
+            <p><strong style="text-decoration: underline;">TECHNIQUE</strong><br>${formatHTML(currentReportData.technique)}</p>
+            <p><strong style="text-decoration: underline;">RESULTAT</strong><br>${formatHTML(currentReportData.resultat)}</p>
+            <p><strong style="text-decoration: underline;">CONCLUSION</strong><br><strong>${formatHTML(currentReportData.conclusion)}</strong></p>
 
             <p style="text-align: center; margin: 10px 0;">
                 <img src="${imgData}" style="max-width: 200px; height: auto;" alt="Schéma Prostatique">
