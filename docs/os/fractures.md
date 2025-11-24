@@ -2,7 +2,7 @@
     <figure markdown="span">
         [Radius](https://onclepaul.fr/wp-content/uploads/2011/07/Fractures-de-lextre%CC%81mite%CC%81-infe%CC%81rieure-du-radius-AT-2022.pdf){:target="_blank"}
     </figure>
-=== "BASSIN"
+=== "bassin"
     <figure markdown="span">
         ![](assets/acetabulum.jpg){width="630"}  
         </br>

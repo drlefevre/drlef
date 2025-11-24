@@ -14,7 +14,7 @@
 === "K endomètre"
     ```
     Séquences T2 dans les trois plans, axiales T1 Dixon, diffusion et T2 EG jusqu'aux reins.
-    Après injection de gadolinium, séries dynamiques pondérées en T1 avec saturation de la graisse.
+    Après injection de gadolinium, séries dynamiques axiales T1 FS et 3D T1 FS tardif.
 
     Utérus antéversé antéfléchi mesurant  cm.
     Masse endométriale mesurant  mm.
@@ -34,7 +34,7 @@
 === "K col"
     ```
     Séquences T2 dans les trois plans, axiales T1 Dixon, diffusion et T2 EG jusqu'aux reins.
-    Après injection de gadolinium, séries dynamiques pondérées en T1 avec saturation de la graisse.
+    Après injection de gadolinium, 3D T1 avec saturation de la graisse.
 
     Utérus antéversé antéfléchi mesurant  cm.
     Endomètre en hypersignal T2 mesurant  mm.

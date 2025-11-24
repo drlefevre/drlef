@@ -117,7 +117,7 @@ input[type=number] { -moz-appearance: textfield; }
     width: 24px; height: 24px;
     display: flex; justify-content: center; align-items: center;
     border-radius: 4px; cursor: pointer;
-    font-weight: bold; font-family: sans-serif; font-size: .7rem; line-height: 1; 
+    font-weight: bold; font-family: sans-serif; font-size: .8rem; line-height: 1; 
     opacity: 0.35; transition: 0.2s ease-in-out; 
     color: black; 
     flex-shrink: 0;

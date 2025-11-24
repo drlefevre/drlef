@@ -1,5 +1,17 @@
 === "CR"
+    ``` title="cirrhose"
+    Séquences axiale diffusion, axiale T1 Dixon, axiale et coronale T2.
+    Après injection de gadolinium, séries dynamiques T1 FS et Dixon.
+
+    Foie d'hépatopathie chronique avec des contours bosselés, une hypertrophie du foie gauche et du lobe caudé, ainsi qu'une hypotrophie du segment IV.
+    Absence de lésion hépatique hypervascularisée ou avec washout qui serait suspecte de carcinome hépatocellulaire.
+    Signes d'hypertension portale associant une ascite de faible abondance, une splénomégalie et des voies de dérivations porto-systémiques.
+    Perméabilité des vaisseaux hépatiques.
+    Pas de dilatation des voies biliaires. 
+    Pas d'adénomégalie sur le volume exploré.
+    Vésicule biliaire, pancréas, surrénales, et reins sans particularité.
     ```
+    ``` title="normale"
     Séquences axiale diffusion, axiale T1 Dixon, axiale et coronale T2.
     Après injection de gadolinium, séries dynamiques T1 FS et Dixon.
 

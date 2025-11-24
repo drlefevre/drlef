@@ -6,9 +6,9 @@
     Après injection de gadolinium, séquence 3D T1 écho de spin FS.
 
     Structures de la ligne médiane en place.
+    Pas de lésion ischémique ou hémorragique récente.    
     Intégrité des espaces liquidiens intra et péri-cérébraux.
     Absence de prise de contraste suspecte de lésion secondaire.
-    Pas de lésion ischémique ou hémorragique récente.
     Pas de microsaignement chronique ni de stigmate hémorragique.
     Leucopathie périventriculaire vraisemblablement vasculaire, classée Fazekas
     Trophicité cortico-sous-corticale en rapport avec l'âge.
@@ -28,7 +28,7 @@
 
 === "céphalées"
     ``` title="IV+"
-    Séquences axiales FLAIR, diffusion, T1 SE, T2*, et 3D TOF.
+    Séquences axiales diffusion, FLAIR, T1 SE, SWI, et TOF.
     Après injection de gadolinium, 3D T1 EG et axiale T1 SE.
 
     Structures de la ligne médiane en place.

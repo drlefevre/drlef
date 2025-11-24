@@ -50,3 +50,15 @@
     <figure markdown="span">
         ![](assets/Achille rompu.jpg){width="400"}  
     </figure>
+
+=== "Boiterie fébrile"
+    ```
+    Hanche :
+    Pas d'épanchement en regard du col fémoral.
+    
+    Genou :
+    Pas d'épanchement au sein du récessus sous-quadricipital.
+    
+    Cheville :
+    Pas d'épanchement talo-crural.
+    ```
