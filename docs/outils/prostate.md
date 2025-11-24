@@ -33,7 +33,7 @@
                 <i class="fas fa-plus"></i> Lésion
               </button>
               <button type="button" class="action-btn" onclick="copySchema()">
-                <i class="fas fa-copy"></i> Copier
+                <i class="fas fa-copy"></i>
               </button>
           </div>
       </div>
@@ -41,49 +41,45 @@
 
   <div id="lesion-rows-container"></div>
 
-  <div class="results" style="margin-top: 1rem;">
-    <div class="result wide">
-      <textarea id="report-text" readonly></textarea>
+  <div class="final-actions">
+      <button type="button" class="btn-main-copy" id="btn-copy-full" onclick="copyFullReport()">
+         CR + schéma
+      </button>
       
-      <div class="copy-row">
-        <button type="button" class="copy" id="btn-copy">Copier</button>
-        <span class="copied" id="msg-copied" aria-live="polite"></span>
-      </div>
-    </div>
-  </div>
-
-  <div class="actions">
-    <button type="button" class="clear" onclick="fullReset()">Effacer</button>
+      <button type="button" class="btn-reset" onclick="fullReset()">
+         Effacer
+      </button>
   </div>
 </div>
 
 <style>
-/* Style Global Box */
+/* --- Style Global --- */
 .box {
   max-width: 820px;
   margin: 1rem 0 2rem;
-  padding: 1rem 1rem .5rem;
+  padding: 1rem 1rem 1.5rem;
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: .75rem;
   background: var(--md-default-bg-color);
+  font-family: sans-serif;
 }
 .pairs { display:grid; grid-template-columns: 1fr; gap:.45rem; }
 .pair { display:grid; grid-template-columns: repeat(2, 1fr); gap:.6rem; }
-.result.wide { grid-column: 1 / -1; }
 
-/* Inputs */
 .box input, .box select {
   width: 100%; padding: .4rem .6rem;
   border: 1px solid var(--md-default-fg-color--lighter); 
   border-radius: .4rem; background: var(--md-code-bg-color);
   font-size: .8rem; color: var(--md-default-fg-color);
   margin: 0;
-
-
 }
 .box input:focus, .box select:focus { border-color: var(--md-default-fg-color--light); }
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; margin: 0; 
+}
 input[type=number] { -moz-appearance: textfield; }
-input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
 
 /* Canvas */
 .canvas-container-wrapper { display: flex; justify-content: center; margin-top: 1rem; width: 100%; }
@@ -108,95 +104,123 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 /* Lignes Lésions */
 #lesion-rows-container { margin-top: 15px; }
 .lesion-row {
-    background: var(--md-code-bg-color); padding: 0 8px;
+    background: var(--md-code-bg-color); padding: 4px 6px;
     border-radius: 4px; margin-bottom: 6px;
     border-left: 5px solid #ccc;
-    display: flex; align-items: center; gap: 8px;
-    transition: all 0.2s; height: 38px;
+    display: flex; align-items: center; gap: 6px;
+    flex-wrap: nowrap; 
 }
-.lesion-name { font-weight: bold; font-size: 0.9rem; min-width: 25px; }
+.lesion-name { font-weight: bold; font-size: 0.85rem; min-width: 18px; flex-shrink: 0; }
 
-/* --- STYLE BOUTONS PI-RADS SIMPLIFIÉ --- */
-.pirads-selector { display: flex; gap: 4px; align-items: center; }
-
+/* BOUTONS PI-RADS */
 .pi-btn {
-    width: 28px; height: 28px;
+    width: 24px; height: 24px;
     display: flex; justify-content: center; align-items: center;
     border-radius: 4px; cursor: pointer;
-    font-weight: bold; font-family: sans-serif; font-size: 13px;
-    opacity: 0.4; transition: 0.2s;
-    user-select: none; -webkit-user-select: none; color: white;
-    box-sizing: border-box; padding: 0; margin: 0;
+    font-weight: bold; font-family: sans-serif; font-size: 12px; line-height: 1; 
+    opacity: 0.35; transition: 0.2s ease-in-out; 
+    color: black; 
+    flex-shrink: 0;
+    user-select: none;
 }
-.pi-btn:hover { opacity: 0.8; }
-.pi-btn.selected { opacity: 1; transform: scale(1.1); box-shadow: 0 1px 3px rgba(0,0,0,0.3); }
+.pi-btn:hover { opacity: 0.7; }
+.pi-btn.selected { 
+    opacity: 1; transform: scale(1.1); 
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3); z-index: 1;
+}
 
-/* Classe pour réduire la police des boutons "+1" */
-.pi-sm { font-size: 10px; letter-spacing: -1px; }
+/* BOUTONS ZP/ZT */
+.zone-btn {
+    width: 24px; height: 24px;
+    display: flex; justify-content: center; align-items: center;
+    border-radius: 4px; cursor: pointer;
+    font-weight: bold; font-family: sans-serif; font-size: 11px;
+    background: white; color: black;
+    border: 1px solid transparent; 
+    transition: 0.2s; flex-shrink: 0;
+    opacity: 0.5;
+}
+.zone-btn:hover { opacity: 0.8; background: #f9f9f9; }
+.zone-btn.selected {
+    opacity: 1; background: white; color: black;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    transform: scale(1.1); z-index: 1;
+    font-weight: 800;
+}
+
+.pirads-selector { display: flex; gap: 2px; }
+.zone-selector { display: flex; gap: 2px; margin-left: 6px; margin-right: 4px; }
+.pi-sm { font-size: 9px; }
+
+.lesion-inputs-wrapper {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 4px;
+    flex-grow: 1; 
+}
+.lesion-input {
+    width: 100% !important;
+    background: white !important; border: 1px solid #ddd !important;
+    height: 26px !important; padding: 0 2px !important; margin: 0 !important;
+    font-size: 0.8rem !important; text-align: center;
+}
 
 /* Couleurs */
 .c-green  { background: #4cd137; }
-.c-yellow { background: #c4e538; color: #333; }
-.c-gold   { background: #fbc531; color: #333; }
+.c-yellow { background: #c4e538; }
+.c-gold   { background: #fbc531; }
 .c-orange { background: #e17055; }
 .c-red    { background: #e84118; }
 
-
-/* Input Taille */
-.size-input.box { 
-    flex-grow: 1; background: white !important;
-    border: 1px solid #ddd !important; text-align: center;
-    min-width: 50px; height: 30px !important; padding: 0 5px !important;
-    vertical-align: middle;
-}
-
 .trash-btn {
     border: none; background: transparent; cursor: pointer; 
-    color: #000000ff; opacity: 0.6; padding: 0 5px; font-size: 0.9rem;
-    height: 30px; display: flex; align-items: center;
+    color: #555; opacity: 0.5; padding: 0; 
+    display: flex; justify-content: center; align-items: center; 
+    height: 24px; width: 24px; flex-shrink: 0;
 }
-.trash-btn:hover { opacity: 1; }
+.trash-btn:hover { opacity: 1; color: #d63031; }
 
-#report-text {
-    width: 100%; min-height: 80px; border: none; background: transparent;
-    resize: none; font-family: inherit; color: var(--md-default-fg-color);
-    overflow: hidden; line-height: 1.4; padding: 0; font-size: 0.85rem;
-    outline: none !important;
-    box-shadow: none !important;
+.final-actions {
+    margin-top: 1.5rem; display: flex; flex-direction: column; align-items: center; gap: 12px;
 }
-#report-text:focus { outline: none !important; box-shadow: none !important; }
+.btn-main-copy {
+    background-color: #f0f0f0; border: 1px solid #ccc; color: #333;
+    padding: 10px 20px; font-size: 1rem; font-weight: bold;
+    border-radius: 6px; cursor: pointer; transition: all 0.2s;
+    display: flex; align-items: center; gap: 8px;
+}
+.btn-main-copy:hover {
+    background-color: #e0e0e0; border-color: #bbb;
+    transform: translateY(-1px); box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.btn-reset {
+    background: transparent; border: none; color: #888;
+    cursor: pointer; font-size: 0.85rem; text-decoration: underline;
+}
+.btn-reset:hover { color: #d63031; }
 
-.copy-row { display:flex; justify-content: flex-end; align-items:center; gap:.6rem; margin-top:.35rem; }
-.copy { border:1px solid var(--md-default-fg-color--lighter); background:transparent; border-radius:.4rem; padding:.25rem .6rem; cursor:pointer; color: var(--md-default-fg-color); font-size: 0.8rem;}
-.copy:hover { background: var(--md-default-fg-color--lightest); }
-.copied { font-size:.8rem; opacity:.8; color: green; }
-.actions { margin-top: .8rem; display: flex; justify-content: flex-end; }
-.clear { background: transparent; border: none; color: var(--md-default-fg-color); opacity: 0.6; cursor: pointer; font-size: 0.8rem; }
-.clear:hover { background: var(--md-default-fg-color--lightest); }
+#report-text { display: none; }
 </style>
 
+<textarea id="report-text"></textarea>
+
 <script>
-// --- CONFIGURATION SIMPLIFIÉE ---
-// k: identifiant interne, lbl: texte affiché, v: valeur score, c: couleur hexa, cls: classes CSS
+// --- CONFIGURATION ---
 const PIRADS_CONF = [
-    { k: '1',   lbl: '1',  v: 1, c: '#4cd137', cls: 'c-green' },
-    { k: '2',   lbl: '2',  v: 2, c: '#c4e538', cls: 'c-yellow' },
-    { k: '2+1', lbl: '+1', v: 3, c: '#fbc531', cls: 'c-gold pi-sm' }, // Texte +1, Couleur du 3
-    { k: '3',   lbl: '3',  v: 3, c: '#fbc531', cls: 'c-gold' },
-    { k: '3+1', lbl: '+1', v: 4, c: '#e17055', cls: 'c-orange pi-sm' }, // Texte +1, Couleur du 4
-    { k: '4',   lbl: '4',  v: 4, c: '#e17055', cls: 'c-orange' },
-    { k: '5',   lbl: '5',  v: 5, c: '#e84118', cls: 'c-red' }
+    { k: '1',   lbl: '1',  v: 1, ord: 10, c: '#4cd137', cls: 'c-green' },
+    { k: '2',   lbl: '2',  v: 2, ord: 20, c: '#c4e538', cls: 'c-yellow' },
+    { k: '2+1', lbl: '+1', v: 3, ord: 29, c: '#fbc531', cls: 'c-gold pi-sm' }, 
+    { k: '3',   lbl: '3',  v: 3, ord: 30, c: '#fbc531', cls: 'c-gold' },
+    { k: '3+1', lbl: '+1', v: 4, ord: 39, c: '#e17055', cls: 'c-orange pi-sm' }, 
+    { k: '4',   lbl: '4',  v: 4, ord: 40, c: '#e17055', cls: 'c-orange' },
+    { k: '5',   lbl: '5',  v: 5, ord: 50, c: '#e84118', cls: 'c-red' }
 ];
 
 const TARGET_WIDTH = 320; 
 let CANVAS_HEIGHT = 400; 
-
-// --- STATE ---
 let canvas;
 let uniqueIdCounter = 0; 
 let lesions = []; 
+let currentReportData = {}; 
 
-// --- INIT ---
 window.addEventListener('load', function() {
     initCanvas();
     toggleVolInputs(); 
@@ -215,16 +239,6 @@ function initCanvas() {
         }
         setupBackground(img);
     });
-    
-    canvas.on('object:moving', function(e) {
-        if(e.target.internalId) detectZoneDetailed(e.target);
-    });
-    canvas.on('object:scaling', function(e) {
-        const obj = e.target;
-        if(obj.type === 'group' && obj.internalId) {
-            obj.item(1).set({ scaleX: 1/obj.scaleX, scaleY: 1/obj.scaleY });
-        }
-    });
 }
 
 function setupBackground(img) {
@@ -233,114 +247,6 @@ function setupBackground(img) {
     canvas.setDimensions({ width: TARGET_WIDTH, height: CANVAS_HEIGHT });
     img.set({ scaleX: TARGET_WIDTH/img.width, scaleY: CANVAS_HEIGHT/img.height, originX: 'left', originY: 'top' });
     canvas.setBackgroundImage(img, canvas.renderAll.bind(canvas));
-}
-
-// --- ALGORITHME DE ZONAGE V8 (OFFSET -22px) ---
-function detectZoneDetailed(fabricObj) {
-    const x = fabricObj.left;
-    const y = fabricObj.top;
-    const id = fabricObj.internalId;
-
-    const H = CANVAS_HEIGHT;
-    const W = TARGET_WIDTH;
-    const CENTER_X = (W / 2) - 22; // Correctif de centrage (Offset -22px)
-
-    // Hauteurs
-    const Y_LIMIT_BASE_MID = H * 0.33;
-    const Y_LIMIT_MID_APEX = H * 0.67;
-
-    // Lignes Rouges (a/p)
-    const Y_DASH_BASE = H * 0.17; 
-    const Y_DASH_MID = H * 0.50;  
-    const Y_DASH_APEX = H * 0.83; 
-
-    // Limites Latérales Grille
-    const MEDIAL_LIMIT_X = W * 0.30; 
-
-    // Limites TACHE VERTE (ZT)
-    const GREEN_RAD_X_BASE = W * 0.28; 
-    const GREEN_RAD_X_MID = W * 0.30;
-    const GREEN_RAD_X_APEX = W * 0.22;
-
-    const GREEN_BOTTOM_BASE = H * 0.25; 
-    const GREEN_BOTTOM_MID = H * 0.58;  
-    const GREEN_BOTTOM_APEX = H * 0.88;
-
-    // Variables de calcul
-    let heightStr = ""; 
-    let sideStr = (x < CENTER_X) ? "droite" : "gauche";
-    let dist = Math.abs(x - CENTER_X);
-    
-    let yDash = 0;
-    let greenRadX = 0;
-    let greenBottom = 0;
-    let baseZoneNum = 0;
-    
-    // Rayon du SFMA dynamique
-    let stromaRadX = 0; 
-
-    if (y < Y_LIMIT_BASE_MID) {
-        heightStr = "basale";
-        yDash = Y_DASH_BASE;
-        greenRadX = GREEN_RAD_X_BASE;
-        greenBottom = GREEN_BOTTOM_BASE;
-        baseZoneNum = 1;
-        stromaRadX = W * 0.13; 
-    } else if (y < Y_LIMIT_MID_APEX) {
-        heightStr = "médio-lobaire";
-        yDash = Y_DASH_MID;
-        greenRadX = GREEN_RAD_X_MID;
-        greenBottom = GREEN_BOTTOM_MID;
-        baseZoneNum = 3;
-        stromaRadX = W * 0.09; 
-    } else {
-        heightStr = "apicale";
-        yDash = Y_DASH_APEX;
-        greenRadX = GREEN_RAD_X_APEX;
-        greenBottom = GREEN_BOTTOM_APEX;
-        baseZoneNum = 5;
-        stromaRadX = W * 0.06; 
-    }
-
-    // 1. Grille : Secteur a/p
-    let isAnt = (y < yDash);
-    let sectorChar = isAnt ? "a" : "p";
-
-    // 2. Grille : Médian/Latéral
-    let isMedialGrid = (dist < MEDIAL_LIMIT_X);
-    let finalZoneNum = isMedialGrid ? baseZoneNum : (baseZoneNum + 1);
-    
-    if (sideStr === "gauche") finalZoneNum += 6;
-    let zoneCode = finalZoneNum + sectorChar;
-
-    // 3. Type de Tissu
-    let regionType = "PZ"; 
-
-    // Vérification SFMA avec le nouveau rayon dynamique
-    if (isAnt && dist < stromaRadX) {
-        regionType = "AS";
-        if (heightStr === "basale") zoneCode = "13a";
-        else if (heightStr === "médio-lobaire") zoneCode = "14a";
-        else zoneCode = "15a";
-    } else {
-        // Test ZT (Vert)
-        let isInGreen = (dist < greenRadX) && (y < greenBottom);
-        if (isInGreen) {
-            regionType = "TZ"; 
-        } else {
-            regionType = "PZ"; 
-        }
-    }
-
-    const lesion = lesions.find(l => l.internalId === id);
-    if(lesion) {
-        lesion.heightStr = heightStr;
-        lesion.sideStr = sideStr;
-        lesion.sectorStr = (sectorChar === 'a') ? "antérieure" : "postérieure";
-        lesion.zoneCode = zoneCode;
-        lesion.regionType = regionType;
-    }
-    updateReport();
 }
 
 function toggleVolInputs() {
@@ -359,15 +265,10 @@ function toggleVolInputs() {
     }
 }
 
-function autoResizeTextarea() {
-    const tx = document.getElementById('report-text');
-    tx.style.height = 'auto'; 
-    tx.style.height = (tx.scrollHeight + 5) + 'px';
-}
-
 function addLesionVisual() {
     uniqueIdCounter++;
     const internalId = uniqueIdCounter;
+    
     const circle = new fabric.Ellipse({
         rx: 25, ry: 25, fill: '#fbc531', stroke: 'black', strokeWidth: 1,
         originX: 'center', originY: 'center', opacity: 0.85 
@@ -382,85 +283,130 @@ function addLesionVisual() {
         cornerSize: 8, transparentCorners: false
     });
     group.internalId = internalId;
+    
+    group.on('scaling', function() {
+        this.item(1).set({ scaleX: 1/this.scaleX, scaleY: 1/this.scaleY });
+    });
+
     canvas.add(group);
     canvas.setActiveObject(group);
+    
     lesions.push({ 
         internalId: internalId, fabricObj: group, 
-        piradsKey: '3', val: 3, size: '',
-        heightStr: "médio-lobaire", sideStr: "droite", sectorStr: "antérieure", zoneCode:"??", regionType: "TZ" 
+        piradsKey: '3', val: 3, ord: 30, size: '',
+        zoneType: 'ZP', 
+        zoneText: '' 
     });
+    
     addLesionRow(internalId);
-    detectZoneDetailed(group); 
-    sortAndRenameLesions();
+    sortAndRenameLesions(); 
 }
 
-// --- GESTION DES BOUTONS SIMPLIFIÉE ---
 function addLesionRow(internalId) {
     const container = document.getElementById('lesion-rows-container');
     const row = document.createElement('div');
     row.className = 'lesion-row';
     row.id = `lesion-row-${internalId}`;
     
-    // Génération simple des boutons
     let btns = PIRADS_CONF.map(p => {
-        // Le 3 est sélectionné par défaut
         let sel = (p.k === '3') ? 'selected' : ''; 
-        return `<div class="pi-btn ${p.cls} ${sel}" onclick="setLesionScore(${internalId}, '${p.k}', this)">${p.lbl}</div>`;
+        return `<div class="pi-btn ${p.cls} ${sel}" data-key="${p.k}" onclick="setLesionScore(${internalId}, '${p.k}')">${p.lbl}</div>`;
     }).join('');
 
     row.innerHTML = `
         <div class="lesion-name">L?</div>
+        
         <div class="pirads-selector">${btns}</div>
-        <input type="number" class="size-input box" id="size-${internalId}" placeholder="mm" oninput="updateLesionSize(${internalId})">
+        
+        <div class="zone-selector">
+            <div class="zone-btn selected" onclick="setLesionZoneType(${internalId}, 'ZP', this)">ZP</div>
+            <div class="zone-btn" onclick="setLesionZoneType(${internalId}, 'ZT', this)">ZT</div>
+        </div>
+
+        <div class="lesion-inputs-wrapper">
+            <input type="text" class="lesion-input" id="zone-txt-${internalId}" placeholder="Zone (ex: 9a)" oninput="updateLesionData(${internalId})">
+            <input type="number" class="lesion-input" id="size-${internalId}" placeholder="mm" oninput="updateLesionData(${internalId})" onblur="sortAndRenameLesions()">
+        </div>
+        
         <button class="trash-btn" onclick="removeLesion(${internalId})"><i class="fas fa-trash"></i></button>
     `;
     container.appendChild(row);
 }
 
-function setLesionScore(id, key, elem) {
-    // 1. Trouver la lésion et la config
+function setLesionScore(id, key) {
     let l = lesions.find(x => x.internalId === id);
     let conf = PIRADS_CONF.find(x => x.k === key);
     if (!l || !conf) return;
 
-    // 2. Mettre à jour les données
     l.piradsKey = key;
     l.val = conf.v;
+    l.ord = conf.ord; 
 
-    // 3. Mettre à jour l'interface (classe selected)
-    let parent = elem.parentElement;
-    for(let child of parent.children) child.classList.remove('selected');
-    elem.classList.add('selected');
-
-    // 4. Mettre à jour le Canvas et la Bordure
     if(l.fabricObj) {
         l.fabricObj.item(0).set('fill', conf.c);
         canvas.requestRenderAll();
     }
-    let row = document.getElementById(`lesion-row-${id}`);
-    if(row) row.style.borderLeftColor = conf.c;
     
-    sortAndRenameLesions();
+    sortAndRenameLesions(); 
 }
 
-function updateLesionSize(internalId) {
-    const lesion = lesions.find(l => l.internalId === internalId);
-    if (lesion) { lesion.size = document.getElementById(`size-${internalId}`).value; updateReport(); }
+function setLesionZoneType(id, type, elem) {
+    let l = lesions.find(x => x.internalId === id);
+    if(!l) return;
+    l.zoneType = type;
+    
+    let parent = elem.parentElement;
+    for(let child of parent.children) child.classList.remove('selected');
+    elem.classList.add('selected');
+    updateReport();
+}
+
+function updateLesionData(id) {
+    let l = lesions.find(x => x.internalId === id);
+    if(l) {
+        l.zoneText = document.getElementById(`zone-txt-${id}`).value;
+        l.size = document.getElementById(`size-${id}`).value;
+        updateReport();
+    }
 }
 
 function sortAndRenameLesions() {
     lesions.sort((a, b) => {
-        if (b.val !== a.val) return b.val - a.val;
-        return (parseFloat(b.size)||0) - (parseFloat(a.size)||0);
+        if (b.ord !== a.ord) return b.ord - a.ord; 
+        return (parseFloat(b.size)||0) - (parseFloat(a.size)||0); 
     });
+
     const container = document.getElementById('lesion-rows-container');
     lesions.forEach((l, index) => {
         const newLabel = "L" + (index + 1);
         l.label = newLabel;
-        if (l.fabricObj) { l.fabricObj.item(1).set('text', newLabel); l.fabricObj.addWithUpdate(); }
+        
+        if (l.fabricObj) { 
+            l.fabricObj.item(1).set('text', newLabel); 
+            l.fabricObj.addWithUpdate(); 
+        }
+        
         const row = document.getElementById(`lesion-row-${l.internalId}`);
-        if(row) { row.querySelector('.lesion-name').innerText = newLabel; container.appendChild(row); }
+        if(row) { 
+            row.querySelector('.lesion-name').innerText = newLabel; 
+            
+            // Mise à jour visuelle des boutons
+            let conf = PIRADS_CONF.find(c => c.k === l.piradsKey);
+            if(conf) row.style.borderLeftColor = conf.c;
+            
+            const btns = row.querySelectorAll('.pi-btn');
+            btns.forEach(b => {
+                b.classList.remove('selected');
+                // C'est ici que data-key est indispensable
+                if(b.getAttribute('data-key') === l.piradsKey) {
+                    b.classList.add('selected');
+                }
+            });
+
+            container.appendChild(row); 
+        }
     });
+    
     canvas.requestRenderAll();
     updateReport();
 }
@@ -472,6 +418,53 @@ function removeLesion(internalId) {
     if(row) row.remove();
     lesions = lesions.filter(l => l.internalId !== internalId);
     sortAndRenameLesions();
+}
+
+// --- LOGIQUE TRADUCTION ---
+function translateZoneInput(input) {
+    if (!input) return "";
+    let s = input.toLowerCase().trim();
+    let match = s.match(/^(\d+)([ap])$/);
+    if(!match) return input; 
+
+    let num = parseInt(match[1]);
+    let suffix = match[2]; 
+
+    let height = "";
+    if([1, 2, 7, 8, 13].includes(num)) height = "basale";
+    else if([3, 4, 9, 10, 14].includes(num)) height = "médio-lobaire";
+    else if([5, 6, 11, 12, 15].includes(num)) height = "apicale";
+    else return input; 
+
+    let depth = (suffix === 'a') ? "antérieure" : "postérieure";
+
+    let side = "";
+    if([1, 2, 3, 4, 5, 6].includes(num)) side = "droite";
+    else if([7, 8, 9, 10, 11, 12].includes(num)) side = "gauche";
+
+    if([13, 14, 15].includes(num)) {
+        return height; 
+    }
+
+    return `${height} ${depth} ${side}`;
+}
+
+function formatLesionList(lesionArray) {
+    if(lesionArray.length === 0) return "";
+    
+    let descs = lesionArray.map(l => {
+        let loc = translateZoneInput(l.zoneText);
+        let sz = (l.size) ? ` de ${l.size} mm` : "";
+        let orig = l.zoneText ? `dans z${l.zoneText}` : "";
+        return `${loc} PI-RADS ${l.piradsKey}${sz} (« ${l.label} » sur le schéma ${orig})`;
+    });
+
+    if(descs.length === 1) {
+        return "On y individualise une lésion " + descs[0] + ".";
+    } else {
+        let last = descs.pop();
+        return "On y individualise plusieurs lésions : " + descs.join(", ") + (descs.length > 0 ? ", et " : "") + last + ".";
+    }
 }
 
 function updateReport() {
@@ -486,115 +479,225 @@ function updateReport() {
         vol = parseFloat(document.getElementById('vol-auto').value) || 0;
     }
     
+    currentReportData.vol = vol.toFixed(0);
     const psa = parseFloat(document.getElementById('psa').value) || 0;
-    let txt = "";
-    if (psa > 0) txt += `Taux de PSA récemment dosé à ${psa} ng/ml.\n`;
-    txt += "Analyse PI-RADS multiparamétrique (T2, diffusion, perfusion).\n\n";
-    txt += `Le volume de la glande est estimé à ${vol.toFixed(0)} cc.\n`;
     
-    if(psa > 0 && vol > 0) {
-        let densStr = (psa / vol).toFixed(2);
-        txt += `Densité de PSA évaluée à ${densStr} ng/mL/cc.\n`;
+    let txt = "";
+    currentReportData.indication = "";
+    
+    if (psa > 0) {
+        let psaStr = `Taux de PSA récemment dosé à ${psa.toString().replace('.', ',')} ng/ml.`;
+        txt += psaStr + "\n";
+        currentReportData.indication = psaStr;
     }
 
-    txt += "Pas d'épaississement significatif du détrusor.\n"; 
-    txt += "Pas de dilatation des cavités pyélocalicielles.\n\n";
+    txt += "Analyse PI-RADS multiparamétrique (T2, diffusion, et perfusion).\n\n";
+    currentReportData.technique = "Analyse PI-RADS multiparamétrique (T2, diffusion, et perfusion).";
+    
+    let resTxt = `Le volume de la glande est estimé à ${vol.toFixed(0)} cc.\n`;
+    
+    if(psa > 0 && vol > 0) {
+        let densStr = (psa / vol).toFixed(2).replace('.', ',');
+        resTxt += `Densité de PSA évaluée à ${densStr} ng/mL/cc.\n`;
+    }
 
-    const pzLesionsText = [];
-    const tzLesionsText = [];
-    const asLesionsText = [];
-    const significantLesions = []; 
+    resTxt += "Pas d'épaississement significatif du détrusor.\n"; 
+    resTxt += "Pas de dilatation des cavités pyélocalicielles.\n\n";
 
-    lesions.forEach((l) => {
-        // --- Construction du texte descriptif (Corps du CR) ---
-        let locString = "";
-        
-        if(l.regionType === 'AS') {
-            // Pour le SFMA : pas de côté, juste la hauteur
-            locString = `du SFMA ${l.heightStr}`; 
+    let pzLesions = [];
+    let tzLesions = [];
+    let asLesions = [];
+
+    lesions.forEach(l => {
+        let zRaw = (l.zoneText || "").trim().toLowerCase();
+        if(['13a', '14a', '15a'].includes(zRaw)) {
+            asLesions.push(l);
         } else {
-            // Pour ZT et ZP : Hauteur + Secteur + Côté
-            // Ex: "apicale postérieure gauche"
-            locString = `${l.heightStr} ${l.sectorStr} ${l.sideStr}`;
-        }
-
-        let piradsShort = `PI-RADS ${l.piradsKey}`;
-        let desc = `On y individualise une lésion ${locString} ${piradsShort}`;
-        if(l.size && l.size > 0) desc += ` de ${l.size} mm`;
-        desc += ` (« ${l.label} » dans z${l.zoneCode}).`;
-
-        if(l.regionType === 'PZ') pzLesionsText.push(desc);
-        else if(l.regionType === 'TZ') tzLesionsText.push(desc);
-        else asLesionsText.push(desc);
-
-        // --- Construction de la conclusion (Dernière ligne) ---
-        if (l.val >= 3) {
-            let riskText = "équivoque"; 
-            if (l.val === 4) riskText = "suspecte"; 
-            if (l.val === 5) riskText = "très suspecte"; 
-            
-            let prep = "dans la";
-            let regionFull = "";
-            let locDetails = ""; 
-
-            if (l.regionType === 'PZ') {
-                regionFull = "zone périphérique";
-                // Ordre : Hauteur -> Secteur -> Côté
-                locDetails = `${l.heightStr} ${l.sectorStr} ${l.sideStr}`;
-            } else if (l.regionType === 'TZ') {
-                regionFull = "zone de transition";
-                // Ordre : Hauteur -> Secteur -> Côté
-                locDetails = `${l.heightStr} ${l.sectorStr} ${l.sideStr}`;
-            } else { 
-                // Cas SFMA (AS)
-                regionFull = "stroma fibromusculaire antérieur";
-                prep = "dans le";
-                // Pas de secteur (toujours ant), pas de côté pour le SFMA
-                locDetails = `${l.heightStr}`;
-            }
-            
-            let conclusionLine = `Lésion ${riskText} (PI-RADS ${l.piradsKey}) ${prep} ${regionFull} ${locDetails}.`;
-            significantLesions.push(conclusionLine);
+            if (l.zoneType === 'ZP') pzLesions.push(l);
+            else tzLesions.push(l);
         }
     });
 
-    txt += "La zone périphérique présente quelques remaniements ne gênant pas l'interprétation du signal. ";
-    if(pzLesionsText.length > 0) txt += pzLesionsText.join(" ");
-    else txt += "Pas de lésion significative décelable.";
-    txt += "\n";
+    resTxt += "La zone périphérique présente quelques remaniements ne gênant pas l'interprétation du signal. ";
+    if (pzLesions.length > 0) resTxt += formatLesionList(pzLesions);
+    else resTxt += "Pas de lésion significative décelable.";
+    resTxt += "\n";
 
-    txt += "La zone de transition présente quelques remaniements ne gênant pas l'interprétation du signal. ";
-    if(tzLesionsText.length > 0) txt += tzLesionsText.join(" ");
-    else txt += "Pas de lésion significative décelable.";
-    txt += "\n";
+    resTxt += "La zone de transition présente quelques remaniements ne gênant pas l'interprétation du signal. ";
+    if (tzLesions.length > 0) resTxt += formatLesionList(tzLesions);
+    else resTxt += "Pas de lésion significative décelable.";
+    resTxt += "\n";
 
-    if(asLesionsText.length > 0) {
-        txt += "Le stroma fibromusculaire antérieur est le siège d'une anomalie. " + asLesionsText.join(" ");
+    if (asLesions.length > 0) {
+        let sfmaDescs = asLesions.map(l => {
+             let loc = translateZoneInput(l.zoneText);
+             let sz = (l.size) ? ` de ${l.size} mm` : "";
+             let orig = l.zoneText ? `dans z${l.zoneText}` : "";
+             return `une lésion ${loc} PI-RADS ${l.piradsKey}${sz} (« ${l.label} » sur le schéma ${orig})`;
+        });
+        resTxt += "Le stroma fibromusculaire antérieur présente " + sfmaDescs.join(" et ") + ".";
     } else {
-        txt += "Le stroma fibromusculaire antérieur est fin et très hypointense en T2.";
+        resTxt += "Le stroma fibromusculaire antérieur est fin et très hypointense en T2.";
     }
-    txt += "\n\n";
+    resTxt += "\n\n";
 
-    txt += "Vésicules séminales symétriques d'aspect normal.\nPas d'adénopathie pelvienne significative.\nPas de lésion osseuse suspecte.";
+    resTxt += "Vésicules séminales symétriques d'aspect normal.\nPas d'adénopathie pelvienne significative.\nPas de lésion osseuse suspecte.";
+    
+    currentReportData.resultat = resTxt;
+    txt += resTxt;
 
-    if(significantLesions.length > 0) {
-        txt += "\n\n" + significantLesions.join("\n");
+    // --- CONCLUSION ---
+    let conclusionTxt = "";
+    let sigLesions = lesions.filter(l => l.val >= 3);
+    
+    if(sigLesions.length > 0) {
+        let groups = {};
+        sigLesions.forEach(l => {
+            let k = l.piradsKey;
+            if(!groups[k]) groups[k] = [];
+            groups[k].push(l);
+        });
+
+        let sortedKeys = Object.keys(groups).sort((a,b) => {
+            let ordA = PIRADS_CONF.find(p => p.k === a).ord;
+            let ordB = PIRADS_CONF.find(p => p.k === b).ord;
+            return ordB - ordA; 
+        });
+
+        let conclusionSentences = [];
+
+        sortedKeys.forEach(key => {
+            let group = groups[key];
+            let scoreVal = group[0].val; 
+            
+            let riskText = "équivoque";
+            if (scoreVal === 4) riskText = "suspecte";
+            if (scoreVal === 5) riskText = "très suspecte";
+            if (group.length > 1) {
+                if(scoreVal === 3) riskText = "équivoques"; else riskText += "s";
+            }
+            
+            let cPZ = [], cTZ = [], cAS = [];
+            group.forEach(l => {
+                let zRaw = (l.zoneText || "").trim().toLowerCase();
+                if(['13a', '14a', '15a'].includes(zRaw)) cAS.push(l);
+                else if(l.zoneType === 'ZP') cPZ.push(l);
+                else cTZ.push(l);
+            });
+
+            let segments = [];
+            const fmt = (arr) => arr.map(l => {
+                let z = translateZoneInput(l.zoneText);
+                let sz = (l.size) ? ` de ${l.size} mm` : "";
+                return `${z}${sz} (« ${l.label} »)`;
+            }).join(" et ");
+
+            if(cPZ.length > 0) segments.push(`dans la zone périphérique ${fmt(cPZ)}`);
+            if(cTZ.length > 0) segments.push(`dans la zone de transition ${fmt(cTZ)}`);
+            if(cAS.length > 0) segments.push(`dans le stroma fibromusculaire antérieur ${fmt(cAS)}`);
+
+            let sentence = `Lésion${group.length > 1 ? 's' : ''} ${riskText} (PI-RADS ${key}) ${segments.join(" et ")}.`;
+            conclusionSentences.push(sentence);
+        });
+        conclusionTxt = conclusionSentences.join("\n");
+        txt += conclusionTxt;
     }
-
+    
+    currentReportData.conclusion = conclusionTxt;
     const area = document.getElementById('report-text');
     area.value = txt;
-    autoResizeTextarea();
+}
+
+// Fonction Fallback (pour quand HTTPS n'est pas dispo)
+function copyHtmlLegacy(htmlContent) {
+    const tempDiv = document.createElement("div");
+    tempDiv.innerHTML = htmlContent;
+    tempDiv.style.position = "fixed";
+    tempDiv.style.left = "-9999px";
+    tempDiv.style.top = "0";
+    document.body.appendChild(tempDiv);
+    
+    const range = document.createRange();
+    range.selectNode(tempDiv);
+    const selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+    
+    try {
+        const successful = document.execCommand('copy');
+        if(successful) {
+            showCopyFeedback(true);
+        } else {
+            alert("Copie impossible via méthode secours.");
+        }
+    } catch (err) {
+        alert("Erreur copie secours : " + err);
+    }
+    
+    document.body.removeChild(tempDiv);
+}
+
+function showCopyFeedback(success) {
+    const btn = document.getElementById('btn-copy-full');
+    const originalHtml = btn.innerHTML;
+    if(success) {
+        btn.innerHTML = '<i class="fas fa-check"></i> Copié !';
+        btn.style.borderColor = "green";
+        btn.style.color = "green";
+    }
+    setTimeout(() => {
+        btn.innerHTML = originalHtml;
+        btn.style.borderColor = "";
+        btn.style.color = "";
+    }, 2000);
+}
+
+async function copyFullReport() {
+    canvas.discardActiveObject().renderAll();
+    const imgData = canvas.toDataURL({ format: 'png', multiplier: 1.5, quality: 1 });
+
+    const formatHTML = (text) => text ? text.replace(/\n/g, '<br>') : "";
+
+    let htmlContent = `
+        <div style="font-family: Calibri, sans-serif; font-size: 11pt; color: #000;">
+            <p><strong style="text-decoration: underline;">INDICATION</strong><br>${formatHTML(currentReportData.indication)}</p></br>
+            <p><strong style="text-decoration: underline;">TECHNIQUE</strong><br>${formatHTML(currentReportData.technique)}</p></br>
+            <p><strong style="text-decoration: underline;">RESULTAT</strong><br>${formatHTML(currentReportData.resultat)}</p></br>
+            
+            <p>
+                <strong style="text-decoration: underline;">CONCLUSION</strong><br>
+                <strong>${formatHTML(currentReportData.conclusion)}</strong>
+            </p>
+
+            <p style="text-align: center; margin: 10px 0;">
+                <img src="${imgData}" style="max-width: 200px; height: auto;" alt="Schéma Prostatique">
+            </p>
+        </div>
+    `;
+
+    try {
+        const blobHtml = new Blob([htmlContent], { type: 'text/html' });
+        const plainText = document.getElementById('report-text').value;
+        const blobText = new Blob([plainText], { type: 'text/plain' });
+
+        const data = [new ClipboardItem({
+            'text/html': blobHtml,
+            'text/plain': blobText
+        })];
+
+        await navigator.clipboard.write(data);
+        showCopyFeedback(true);
+
+    } catch (err) {
+        console.warn("Clipboard API failed (HTTPS?), trying legacy execCommand...", err);
+        copyHtmlLegacy(htmlContent);
+    }
 }
 
 function copySchema() {
-    // 1. Enlever la sélection (cadres bleus)
     canvas.discardActiveObject().renderAll();
-    
-    // 2. Générer l'image HD
     const dataURL = canvas.toDataURL({ format: 'png', quality: 1, multiplier: 1 });
-
     try {
-        // 3. Conversion technique de l'image pour le presse-papier
         const byteString = atob(dataURL.split(',')[1]);
         const mimeString = dataURL.split(',')[0].split(':')[1].split(';')[0];
         const ab = new ArrayBuffer(byteString.length);
@@ -604,24 +707,18 @@ function copySchema() {
         }
         const blob = new Blob([ab], {type: mimeString});
         const item = new ClipboardItem({ [mimeString]: blob });
-
-        // 4. Écriture dans le presse-papier
         navigator.clipboard.write([item]).then(() => {
-            // Feedback visuel sur le bouton
             const btn = document.querySelector('button[onclick="copySchema()"]');
             if(btn) {
                 const originalHtml = btn.innerHTML;
-                btn.innerHTML = '<i class="fas fa-check"></i> Copié !';
+                btn.innerHTML = '<i class="fas fa-check"></i>';
                 setTimeout(() => btn.innerHTML = originalHtml, 1500);
             }
-        }).catch(err => {
-            console.error(err);
-            alert("Impossible de copier : votre navigateur bloque l'accès au presse-papier (nécessite HTTPS).");
         });
-
     } catch (e) {
         console.error(e);
-        alert("Erreur lors de la création de l'image.");
+        // Fallback image seule simple (juste alert car execCommand image est complexe)
+        alert("Erreur copie image (HTTPS requis). Essayez 'Copier CR + Schéma' qui a une méthode de secours.");
     }
 }
 
@@ -633,13 +730,4 @@ function fullReset() {
     toggleVolInputs(); 
     updateReport();
 }
-
-document.getElementById('btn-copy').addEventListener('click', function() {
-    const text = document.getElementById('report-text').value;
-    navigator.clipboard.writeText(text).then(() => {
-        const msg = document.getElementById('msg-copied');
-        msg.textContent = 'Copié ✓';
-        setTimeout(() => msg.textContent='', 1500);
-    });
-});
 </script>
