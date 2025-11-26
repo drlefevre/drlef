@@ -481,14 +481,9 @@ function updateReport() {
     currentReportData.vol = vol.toFixed(0);
     const psa = parseFloat(document.getElementById('psa').value) || 0;
     
-    let txt = "";
-    currentReportData.indication = "";
-    
-    if (psa > 0) {
-        let psaStr = `Taux de PSA récemment dosé à ${psa.toString().replace('.', ',')} ng/ml.`;
-        txt += psaStr + "\n";
-        currentReportData.indication = psaStr;
-    }
+    let psaStr = psa > 0 ? `Taux de PSA récemment dosé à ${psa.toString().replace('.', ',')} ng/ml.` : `Taux de PSA non disponible.`;
+    let txt = psaStr + "\n";
+    currentReportData.indication = psaStr;
 
     txt += "Analyse PI-RADS multiparamétrique (T2, diffusion, et perfusion).\n\n";
     currentReportData.technique = "Analyse PI-RADS multiparamétrique (T2, diffusion, et perfusion).";

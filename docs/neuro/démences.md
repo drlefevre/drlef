@@ -15,17 +15,18 @@
 </figure>
 
 ```
-Séquences axiale diffusion, 3D FLAIR, 3D T1 EG et SWI.
+Séquences axiales diffusion, FLAIR, T2* et 3D T1 EG.
 
 Pas de lésion ischémique ou hémorragique récente ni de collection péricérébrale.
 Pas de microsaignement chronique, de cavernome ni de stigmate hémorragique.
 Pas de séquelle ischémique visualisée aux étage supra et infratentoriel.
-Leucopathie périventriculaire d'origine vasculaire probable classée Fazekas
-Pas de signe morphologique évocateur d'hydrocéphalie chronique de l'adulte.
-Pas d'anomalie de signal ni d'atrophie des noyaux gris centraux.
+Pas de syndrome de masse intracrânien.
+
 Atrophie cortico-sous-corticale diffuse, sans atrophie lobaire prédominante.
 Atrophie hippocampique modérée classée Scheltens 0 de façon bilatérale.
-Pas d'anomalie de morphologie ou de signal en fosse postérieure.
+Leucopathie d'origine vasculaire probable classée Fazekas
+Pas de signe d'hydrocéphalie chronique de l'adulte.
+Pas d'anomalie des noyaux gris centraux.
 ```
 
 <figure markdown="span">

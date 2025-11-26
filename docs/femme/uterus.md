@@ -2,7 +2,7 @@
     ```
     Séquences T2 dans les trois plans, axiales T1 Dixon, et T2 EG jusqu'aux reins.
     
-    Utérus antéversé antéfléchi mesurant  cm.
+    Utérus antéversé antéfléchi mesurant  mm.
     Endomètre en hypersignal T2 mesurant  mm.  
     Intégrité de la zone jonctionnelle et du myomètre.
     Ovaires en place, folliculaires et de taille normale.
@@ -16,7 +16,7 @@
     Séquences T2 dans les trois plans, axiales T1 Dixon, diffusion et T2 EG jusqu'aux reins.
     Après injection de gadolinium, séries dynamiques axiales T1 FS et 3D T1 FS tardif.
 
-    Utérus antéversé antéfléchi mesurant  cm.
+    Utérus antéversé antéfléchi mesurant  mm.
     Masse endométriale mesurant  mm.
     Envahissement de plus/moins de 50% du myomètre.
 
@@ -34,15 +34,15 @@
 === "K col"
     ```
     Séquences T2 dans les trois plans, axiales T1 Dixon, diffusion et T2 EG jusqu'aux reins.
-    Après injection de gadolinium, 3D T1 avec saturation de la graisse.
-
-    Utérus antéversé antéfléchi mesurant  cm.
-    Endomètre en hypersignal T2 mesurant  mm.
-    Ovaires latéro-utérins fibreux.
+    Après injection de gadolinium, séries dynamiques axiales T1 FS et 3D T1 FS tardif.
 
     Masse centrée sur le col utérin mesurant  mm.
     Pas d'extension aux paramètres, au vagin, ni à l'isthme utérin.
     Pas d'atteinte du rectum ni de la vessie.
+
+    Utérus antéversé antéfléchi mesurant  mm.
+    Endomètre en hypersignal T2 mesurant  mm.
+    Ovaires latéro-utérins oligofolliculaires.
 
     Pas d'épanchement pelvien significatif.
     Pas d'adénomégalie pelvienne ou lomboaortique.

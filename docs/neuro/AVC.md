@@ -1,16 +1,15 @@
 # [AVC](https://onclepaul.fr/wp-content/uploads/2011/07/AVC-ischemiques-.-RD-2021.pdf){:target="_blank"}
 
-```
-Séquences axiales diffusion, FLAIR, T2* et TOF.
-
-Absence de lésion ischémique ou hémorragique récente.
-Absence de flux de lent ou de thrombus décelable.
-Perméabilité des artères du polygone de Willis.
-Absence de processus expansif intracrânien.
-Respect des espaces liquidiens intra et péri-cérébraux.
-```
-
 === "ischémique"
+    ```
+    Séquences axiales diffusion, FLAIR, T2* et TOF.
+
+    Absence de lésion ischémique ou hémorragique récente.
+    Absence de flux de lent ou de thrombus décelable.
+    Perméabilité des artères du polygone de Willis.
+    Absence de processus expansif intracrânien.
+    Respect des espaces liquidiens intra et péri-cérébraux.
+    ```
 
     <figure markdown="span">
         [lobes cérébraux](https://radiopaedia.org/cases/61691/studies/69700?lang=gb){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[territoires artériels](https://radiopaedia.org/cases/10814/studies/11258?lang=gb){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [stroke mimics](assets/mimics.pdf){:target="_blank"}  
@@ -26,6 +25,22 @@ Respect des espaces liquidiens intra et péri-cérébraux.
 
 
 === "TSA"
+    ```
+    Séquences axiale diffusion, 3D FLAIR, SWI, axiale T1 SE.
+    Après injection de gadolinium, ARM des TSA et axiale T1 spin écho.
+
+    
+    Structures médianes en place. Pas d'hydrocéphalie.
+    Pas de prise de contraste pathologique.
+    
+    Étude vasculaire :
+    
+    Perméabilité des TSA et des artères du polygone de Willis par ailleurs sans disparité de calibre.
+    ```
+    ```
+    Acquisition 3D T1 SE FS sur l'étage cervical.
+    ```
+    
     <figure markdown="span">
         supsi [dissection](https://radiopaedia.org/articles/internal-carotid-artery-dissection-1){:target="_blank"}   = 3D T1 FS + ARM  
         </br>

@@ -1,7 +1,7 @@
 === "CR"
     ``` title="cirrhose"
     Séquences axiale diffusion, axiale T1 Dixon, axiale et coronale T2.
-    Après injection de gadolinium, séries dynamiques T1 FS et Dixon.
+    Après injection de gadolinium, séries dynamiques T1 FS et T1 Dixon.
 
     Foie d'hépatopathie chronique avec des contours bosselés, une hypertrophie du foie gauche et du lobe caudé, ainsi qu'une hypotrophie du segment IV.
     Absence de lésion hépatique hypervascularisée ou avec washout qui serait suspecte de carcinome hépatocellulaire.
@@ -13,7 +13,7 @@
     ```
     ``` title="normale"
     Séquences axiale diffusion, axiale T1 Dixon, axiale et coronale T2.
-    Après injection de gadolinium, séries dynamiques T1 FS et Dixon.
+    Après injection de gadolinium, séries dynamiques T1 FS et T1 Dixon.
 
     Foie de taille et de morphologie normale, sans stéatose.
     Vésicule biliaire en réplétion, à parois fines, sans lithiase.
