@@ -10,7 +10,7 @@ Pas d'épanchement pelvien significatif.
 Pas de dilatation des cavités pyélo-calicielles.
 ```
 
-!!! tip "Lésions ovariennes : O-RADS [écho](https://www.acr.org/-/media/ACR/Files/RADS/O-RADS/US-v2022/O-RADS--US-v2022-Assessment-Categories.pdf){:target="_blank"} et [IRM](https://www.acr.org/-/media/ACR/Files/RADS/O-RADS/French-O-RADS-MR-Risk-Table-2020.pdf){:target="_blank"}"
+!!! tip "Lésions ovariennes : O-RADS [écho](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS--Ultrasound-v2022-Assessment-Categories.pdf){:target="_blank"} et [IRM](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS-MRI-Risk-Score-Assessment.pdf){:target="_blank"}"
     === "kyste uniloculaire"
         - contrôle **M3 si > 5 cm** (fonctionnel++), kyste ovarien/paraovarien = **IRM si > 8 cm**
         - cystadénome séreux bénin = contrôle à 1 an si post-ménopause

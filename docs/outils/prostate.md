@@ -6,17 +6,26 @@
 <div class="box md-typeset" id="prostate-box">
   
   <div class="pairs">
-    <div style="grid-column: 1 / -1; margin-bottom: 0.4rem;">
-        <input id="psa" type="number" inputmode="decimal" placeholder="PSA (ng/ml)" oninput="updateReport()" />
-    </div>
-
-    <div class="pair">
+    <div style="grid-column: 1 / -1; margin-bottom: 0.4rem; display:flex; gap:0.6rem;">
+        <select id="perfusion" onchange="updateReport()">
+            <option value="multiparametrique" selected>Multiparamétrique</option>
+            <option value="biparametrique">Biparamétrique</option>
+        </select>
         <select id="vol-method" onchange="toggleVolInputs(); updateReport()">
             <option value="auto" selected>Contourage automatique</option>
             <option value="manual">3 diamètres</option>
         </select>
-        <input id="d1" type="number" class="manual-input" inputmode="decimal" placeholder="mm" oninput="updateReport()" style="display:none;"/>
-        <input id="vol-auto" type="number" class="auto-input" inputmode="decimal" placeholder="cc" oninput="updateReport()" />
+    </div>
+
+    <div class="pair">
+        <input id="psa" type="number" inputmode="decimal" placeholder="PSA" oninput="updateReport()" />
+
+        <div id="vol-right" style="display:flex; align-items:center; gap:6px;">
+            <input id="vol-auto" type="number" class="auto-input" inputmode="decimal" placeholder="cc" oninput="updateReport()" />
+            <div id="d1-wrapper" style="display:none; align-items:center; width:100%;">
+                <input id="d1" type="number" class="manual-input" inputmode="decimal" placeholder="mm" oninput="updateReport()" style="flex:1; width:100%;" />
+            </div>
+        </div>
     </div>
 
     <div class="pair manual-input" id="dims-row-2" style="display:none;">
@@ -43,7 +52,7 @@
 
   <div class="final-actions">
       <button type="button" class="btn-main-copy" id="btn-copy-full" onclick="copyFullReport()">
-         CR + schéma
+         CR ± schéma
       </button>
       
       <button type="button" class="btn-reset" onclick="fullReset()">
@@ -165,9 +174,9 @@ input[type=number] { -moz-appearance: textfield; }
 /* Couleurs */
 .c-green  { background: #4cd137; }
 .c-yellow { background: #c4e538; }
-.c-gold   { background: #fbc531; }
-.c-orange { background: #e17055; }
-.c-red    { background: #e84118; }
+.c-gold   { background: #FFD966; }
+.c-orange { background: #FFA500; }
+.c-red    { background: #FF0000; }
 
 .trash-btn {
     border: none; background: transparent; cursor: pointer; 
@@ -206,11 +215,11 @@ input[type=number] { -moz-appearance: textfield; }
 const PIRADS_CONF = [
     { k: '1',   lbl: '1',  v: 1, ord: 10, c: '#4cd137', cls: 'c-green' },
     { k: '2',   lbl: '2',  v: 2, ord: 20, c: '#c4e538', cls: 'c-yellow' },
-    { k: '2+1', lbl: '+1', v: 3, ord: 29, c: '#fbc531', cls: 'c-gold' }, 
-    { k: '3',   lbl: '3',  v: 3, ord: 30, c: '#fbc531', cls: 'c-gold' },
-    { k: '3+1', lbl: '+1', v: 4, ord: 39, c: '#e17055', cls: 'c-orange' }, 
-    { k: '4',   lbl: '4',  v: 4, ord: 40, c: '#e17055', cls: 'c-orange' },
-    { k: '5',   lbl: '5',  v: 5, ord: 50, c: '#e84118', cls: 'c-red' }
+    { k: '2+1', lbl: '+1', v: 3, ord: 29, c: '#FFD966', cls: 'c-gold' }, 
+    { k: '3',   lbl: '3',  v: 3, ord: 30, c: '#FFD966', cls: 'c-gold' },
+    { k: '3+1', lbl: '+1', v: 4, ord: 39, c: '#FFA500', cls: 'c-orange' }, 
+    { k: '4',   lbl: '4',  v: 4, ord: 40, c: '#FFA500', cls: 'c-orange' },
+    { k: '5',   lbl: '5',  v: 5, ord: 50, c: '#FF0000', cls: 'c-red' }
 ];
 
 const TARGET_WIDTH = 320; 
@@ -250,17 +259,18 @@ function setupBackground(img) {
 
 function toggleVolInputs() {
     const method = document.getElementById('vol-method').value;
-    const manualInputs = document.querySelectorAll('.manual-input');
-    const autoInput = document.querySelector('.auto-input');
-    
+    const volAuto = document.getElementById('vol-auto');
+    const d1wrap = document.getElementById('d1-wrapper');
+    const dimsRow2 = document.getElementById('dims-row-2');
+
     if (method === 'manual') {
-        manualInputs.forEach(el => el.style.display = (el.tagName === 'DIV' || el.tagName === 'INPUT') ? '' : 'block');
-        document.getElementById('dims-row-2').style.display = 'grid';
-        autoInput.style.display = 'none';
-        document.getElementById('d1').style.display = 'block';
+        volAuto.style.display = 'none';
+        d1wrap.style.display = 'flex';
+        dimsRow2.style.display = 'grid';
     } else {
-        manualInputs.forEach(el => el.style.display = 'none');
-        autoInput.style.display = 'block';
+        volAuto.style.display = 'block';
+        d1wrap.style.display = 'none';
+        dimsRow2.style.display = 'none';
     }
 }
 
@@ -269,7 +279,7 @@ function addLesionVisual() {
     const internalId = uniqueIdCounter;
     
     const circle = new fabric.Ellipse({
-        rx: 25, ry: 25, fill: '#fbc531', stroke: 'black', strokeWidth: 1,
+        rx: 25, ry: 25, fill: '#FFD966', stroke: 'black', strokeWidth: 1,
         originX: 'center', originY: 'center', opacity: 0.85 
     });
     const text = new fabric.Text("?", {
@@ -294,7 +304,8 @@ function addLesionVisual() {
         internalId: internalId, fabricObj: group, 
         piradsKey: '3', val: 3, ord: 30, size: '',
         zoneType: 'ZP', 
-        zoneText: '' 
+        zoneText: '',
+        likertScore: 3
     });
     
     addLesionRow(internalId);
@@ -322,9 +333,10 @@ function addLesionRow(internalId) {
             <div class="zone-btn" onclick="setLesionZoneType(${internalId}, 'ZT', this)">ZT</div>
         </div>
 
-        <div class="lesion-inputs-wrapper">
-            <input type="text" class="lesion-input" id="zone-txt-${internalId}" placeholder="zone" oninput="updateLesionData(${internalId})">
-            <input type="number" class="lesion-input" id="size-${internalId}" placeholder="mm" oninput="updateLesionData(${internalId})" onblur="sortAndRenameLesions()">
+        <div class="lesion-inputs-wrapper" style="grid-template-columns: 1fr 1fr 1fr;">
+            <input type="text" class="lesion-input" id="zone-txt-${internalId}" placeholder="zone" oninput="updateLesionDataTemp(${internalId})" onblur="updateLesionData(${internalId})">
+            <input type="number" class="lesion-input" id="size-${internalId}" placeholder="mm" oninput="updateLesionDataTemp(${internalId})" onblur="updateLesionData(${internalId})">
+            <input type="number" class="lesion-input" id="likert-${internalId}" placeholder="Likert" min="1" max="5" oninput="updateLesionDataTemp(${internalId})" onblur="updateLesionData(${internalId})" />
         </div>
         
         <button class="trash-btn" onclick="removeLesion(${internalId})"><i class="fas fa-trash"></i></button>
@@ -360,18 +372,27 @@ function setLesionZoneType(id, type, elem) {
     updateReport();
 }
 
-function updateLesionData(id) {
+function updateLesionDataTemp(id) {
     let l = lesions.find(x => x.internalId === id);
     if(l) {
         l.zoneText = document.getElementById(`zone-txt-${id}`).value;
         l.size = document.getElementById(`size-${id}`).value;
-        updateReport();
+        const likertInput = document.getElementById(`likert-${id}`).value;
+        l.likertScore = likertInput ? parseInt(likertInput) : l.val;
     }
+}
+
+function updateLesionData(id) {
+    updateLesionDataTemp(id);
+    sortAndRenameLesions();
 }
 
 function sortAndRenameLesions() {
     lesions.sort((a, b) => {
-        if (b.ord !== a.ord) return b.ord - a.ord; 
+        if (b.ord !== a.ord) return b.ord - a.ord;
+        // Si ordre PI-RADS identique, trier par Likert (décroissant : risque plus élevé en premier)
+        if (b.likertScore !== a.likertScore) return b.likertScore - a.likertScore;
+        // Puis par taille (décroissante)
         return (parseFloat(b.size)||0) - (parseFloat(a.size)||0); 
     });
 
@@ -419,6 +440,18 @@ function removeLesion(internalId) {
     sortAndRenameLesions();
 }
 
+// --- LOGIQUE TRADUCTION LIKERT ---
+function getLikertLabel(likertScore) {
+    const likertMap = {
+        1: "très peu suspecte",
+        2: "peu suspecte",
+        3: "équivoque",
+        4: "suspecte",
+        5: "très suspecte"
+    };
+    return likertMap[likertScore] || "équivoque";
+}
+
 // --- LOGIQUE TRADUCTION ---
 function translateZoneInput(input) {
     if (!input) return "";
@@ -455,7 +488,20 @@ function formatLesionList(lesionArray) {
         let loc = translateZoneInput(l.zoneText);
         let sz = (l.size) ? ` de ${l.size} mm` : "";
         let orig = l.zoneText ? `dans z${l.zoneText}` : "";
-        return `${loc} PI-RADS ${l.piradsKey}${sz} (« ${l.label} » sur le schéma ${orig})`;
+        
+        // Déterminer si Likert diffère de PI-RADS pour la formulation
+        let likertLabel = getLikertLabel(l.likertScore);
+        let riskDesc = "";
+        
+        if (l.likertScore !== l.val) {
+            // Likert diffère du PI-RADS : inclure la mention "classée Likert X malgré une sémiologie PI-RADS Y"
+            riskDesc = `${likertLabel} (classée Likert ${l.likertScore} malgré une sémiologie PI-RADS ${l.piradsKey})`;
+        } else {
+            // Likert = PI-RADS : utiliser simplement le libellé
+            riskDesc = `PI-RADS ${l.piradsKey}`;
+        }
+        
+        return `${loc} ${riskDesc}${sz} (« ${l.label} » sur le schéma ${orig})`;
     });
 
     if(descs.length === 1) {
@@ -482,11 +528,15 @@ function updateReport() {
     const psa = parseFloat(document.getElementById('psa').value) || 0;
     
     let psaStr = psa > 0 ? `Taux de PSA récemment dosé à ${psa.toString().replace('.', ',')} ng/ml.` : `Taux de PSA non disponible.`;
-    let txt = psaStr + "\n";
     currentReportData.indication = psaStr;
 
-    txt += "Analyse PI-RADS multiparamétrique (T2, diffusion, et perfusion).\n\n";
-    currentReportData.technique = "Analyse PI-RADS multiparamétrique (T2, diffusion, et perfusion).";
+    const perf = (document.getElementById('perfusion') && document.getElementById('perfusion').value) || 'multiparametrique';
+    const techniqueTxt = perf === 'biparametrique'
+        ? 'Analyse PI-RADS biparamétrique (T2 et diffusion).'
+        : 'Analyse PI-RADS multiparamétrique (T2, diffusion, et perfusion).';
+
+    currentReportData.technique = techniqueTxt;
+    let txt = psaStr + "\n" + techniqueTxt + "\n\n";
     
     let resTxt = `Le volume de la glande est estimé à ${vol.toFixed(0)} cc.\n`;
     
@@ -542,59 +592,76 @@ function updateReport() {
 
     // --- CONCLUSION ---
     let conclusionTxt = "";
-    let sigLesions = lesions.filter(l => l.val >= 3);
-    
-    if(sigLesions.length > 0) {
-        let groups = {};
-        sigLesions.forEach(l => {
-            let k = l.piradsKey;
-            if(!groups[k]) groups[k] = [];
-            groups[k].push(l);
-        });
 
-        let sortedKeys = Object.keys(groups).sort((a,b) => {
-            let ordA = PIRADS_CONF.find(p => p.k === a).ord;
-            let ordB = PIRADS_CONF.find(p => p.k === b).ord;
-            return ordB - ordA; 
-        });
-
-        let conclusionSentences = [];
-
-        sortedKeys.forEach(key => {
-            let group = groups[key];
-            let scoreVal = group[0].val; 
-            
-            let riskText = "équivoque";
-            if (scoreVal === 4) riskText = "suspecte";
-            if (scoreVal === 5) riskText = "très suspecte";
-            if (group.length > 1) {
-                if(scoreVal === 3) riskText = "équivoques"; else riskText += "s";
-            }
-            
-            let cPZ = [], cTZ = [], cAS = [];
-            group.forEach(l => {
-                let zRaw = (l.zoneText || "").trim().toLowerCase();
-                if(['13a', '14a', '15a'].includes(zRaw)) cAS.push(l);
-                else if(l.zoneType === 'ZP') cPZ.push(l);
-                else cTZ.push(l);
+    // Si aucune lésion renseignée => conclusion simple et on n'ajoute pas le schéma lors de la copie
+    if (lesions.length === 0) {
+        conclusionTxt = `Volume prostatique estimé à ${vol.toFixed(0)} cc. Pas de lésion suspecte.`;
+        txt += conclusionTxt;
+    } else {
+        let sigLesions = lesions.filter(l => l.val >= 3);
+        
+        if(sigLesions.length > 0) {
+            let groups = {};
+            sigLesions.forEach(l => {
+                let k = l.piradsKey;
+                if(!groups[k]) groups[k] = [];
+                groups[k].push(l);
             });
 
-            let segments = [];
-            const fmt = (arr) => arr.map(l => {
-                let z = translateZoneInput(l.zoneText);
-                let sz = (l.size) ? ` de ${l.size} mm` : "";
-                return `${z}${sz} (« ${l.label} »)`;
-            }).join(" et ");
+            let sortedKeys = Object.keys(groups).sort((a,b) => {
+                let ordA = PIRADS_CONF.find(p => p.k === a).ord;
+                let ordB = PIRADS_CONF.find(p => p.k === b).ord;
+                return ordB - ordA; 
+            });
 
-            if(cPZ.length > 0) segments.push(`dans la zone périphérique ${fmt(cPZ)}`);
-            if(cTZ.length > 0) segments.push(`dans la zone de transition ${fmt(cTZ)}`);
-            if(cAS.length > 0) segments.push(`dans le stroma fibromusculaire antérieur ${fmt(cAS)}`);
+            let conclusionSentences = [];
 
-            let sentence = `Lésion${group.length > 1 ? 's' : ''} ${riskText} (PI-RADS ${key}) ${segments.join(" et ")}.`;
-            conclusionSentences.push(sentence);
-        });
-        conclusionTxt = conclusionSentences.join("\n");
-        txt += conclusionTxt;
+            sortedKeys.forEach(key => {
+                let group = groups[key];
+                let scoreVal = group[0].val; 
+                
+                let riskText = "équivoque";
+                if (scoreVal === 4) riskText = "suspecte";
+                if (scoreVal === 5) riskText = "très suspecte";
+                if (group.length > 1) {
+                    if(scoreVal === 3) riskText = "équivoques"; else riskText += "s";
+                }
+                
+                let cPZ = [], cTZ = [], cAS = [];
+                group.forEach(l => {
+                    let zRaw = (l.zoneText || "").trim().toLowerCase();
+                    if(['13a', '14a', '15a'].includes(zRaw)) cAS.push(l);
+                    else if(l.zoneType === 'ZP') cPZ.push(l);
+                    else cTZ.push(l);
+                });
+
+                let segments = [];
+                const fmt = (arr) => arr.map(l => {
+                    let z = translateZoneInput(l.zoneText);
+                    let sz = (l.size) ? ` de ${l.size} mm` : "";
+                    
+                    // Inclure Likert dans la conclusion si différent du PI-RADS
+                    let likertLabel = getLikertLabel(l.likertScore);
+                    let riskDescInclusion = "";
+                    if (l.likertScore !== l.val) {
+                        riskDescInclusion = `${likertLabel} (classée Likert ${l.likertScore} malgré une sémiologie PI-RADS ${l.piradsKey})`;
+                    } else {
+                        riskDescInclusion = riskText;
+                    }
+                    
+                    return `${riskDescInclusion} ${z}${sz} (« ${l.label} »)`;
+                }).join(" et ");
+
+                if(cPZ.length > 0) segments.push(`dans la zone périphérique ${fmt(cPZ)}`);
+                if(cTZ.length > 0) segments.push(`dans la zone de transition ${fmt(cTZ)}`);
+                if(cAS.length > 0) segments.push(`dans le stroma fibromusculaire antérieur ${fmt(cAS)}`);
+
+                let sentence = `Lésion${group.length > 1 ? 's' : ''} ${segments.join(" et ")}.`;
+                conclusionSentences.push(sentence);
+            });
+            conclusionTxt = conclusionSentences.join("\n");
+            txt += conclusionTxt;
+        }
     }
     
     currentReportData.conclusion = conclusionTxt;
@@ -648,9 +715,19 @@ function showCopyFeedback(success) {
 
 async function copyFullReport() {
     canvas.discardActiveObject().renderAll();
-    const imgData = canvas.toDataURL({ format: 'png', multiplier: 1.5, quality: 1 });
 
     const formatHTML = (text) => text ? text.replace(/\n/g, '<br>') : "";
+
+    const includeImage = lesions.length > 0;
+    let imgTag = "";
+    let imgData = null;
+    if (includeImage) {
+        imgData = canvas.toDataURL({ format: 'png', multiplier: 1.5, quality: 1 });
+        imgTag = `
+            <p style="text-align: center; margin: 10px 0;">
+                <img src="${imgData}" style="max-width: 200px; height: auto;" alt="Schéma Prostatique">
+            </p>`;
+    }
 
     let htmlContent = `
         <div style="font-family: Calibri, sans-serif; font-size: 11pt; color: #000;">
@@ -659,9 +736,7 @@ async function copyFullReport() {
             <p><strong style="text-decoration: underline;">RESULTAT</strong><br>${formatHTML(currentReportData.resultat)}</p>
             <p><strong style="text-decoration: underline;">CONCLUSION</strong><br><strong>${formatHTML(currentReportData.conclusion)}</strong></p>
 
-            <p style="text-align: center; margin: 10px 0;">
-                <img src="${imgData}" style="max-width: 200px; height: auto;" alt="Schéma Prostatique">
-            </p>
+            ${imgTag}
         </div>
     `;
 
@@ -714,10 +789,16 @@ function copySchema() {
 
 function fullReset() {
     document.querySelectorAll('input').forEach(i => i.value = '');
-    document.getElementById('vol-method').value = 'auto'; 
     [...lesions].forEach(l => removeLesion(l.internalId));
     uniqueIdCounter = 0;
     toggleVolInputs(); 
     updateReport();
 }
 </script>
+
+| ZP = DWI | [PI-RADS](https://radiologyassistant.nl/abdomen/prostate/prostate-cancer-pi-rads-v2-1){:target="_blank"}  |  ZT = T2 |
+| :----------: | :-------: | :----------: |
+| linéaire/angulaire | <b>2</b> | ∅capsule/incomplète `+1 DWI marquée` | 
+| focale modérée `+1 DCE` | <b>3</b> | hétérogène mal limité `+1 DWI ≥ 15 mm` |
+| marquée | <b>4</b> | signal intermédiaire homogène |
+| ≥ 15 mm ou EEP | <b>5</b> | ≥ 15 mm ou EEP |

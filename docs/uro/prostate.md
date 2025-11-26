@@ -13,7 +13,7 @@
         * 2 = capsule incomplète / circonscrit / hypoT2 entre des nodules
             * +1 si restriction DWI marquée
         * 3 = hétérogène avec contours incertains / inclassable
-            * +1 si restriction DWI marquée > 15 mm
+            * +1 si restriction DWI marquée ≥ 15 mm
         * 4 = signal intermédiaire homogène
         * 5 = ≥ 15 mm ou EEP
 
