@@ -13,7 +13,7 @@
         </select>
         <select id="vol-method" onchange="toggleVolInputs(); updateReport()">
             <option value="auto" selected>Contourage automatique</option>
-            <option value="manual">3 diamètres</option>
+            <option value="manual">3 dimensions</option>
         </select>
     </div>
 
