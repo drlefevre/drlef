@@ -172,7 +172,6 @@ input[type=number] { -moz-appearance: textfield; }
 }
 
 /* Couleurs */
-.c-green  { background: #4cd137; }
 .c-yellow { background: #c4e538; }
 .c-gold   { background: #FFD966; }
 .c-orange { background: #FFA500; }
@@ -213,7 +212,6 @@ input[type=number] { -moz-appearance: textfield; }
 <script>
 // --- CONFIGURATION ---
 const PIRADS_CONF = [
-    { k: '1',   lbl: '1',  v: 1, ord: 10, c: '#4cd137', cls: 'c-green' },
     { k: '2',   lbl: '2',  v: 2, ord: 20, c: '#c4e538', cls: 'c-yellow' },
     { k: '2+1', lbl: '+1', v: 3, ord: 29, c: '#FFD966', cls: 'c-gold' }, 
     { k: '3',   lbl: '3',  v: 3, ord: 30, c: '#FFD966', cls: 'c-gold' },
