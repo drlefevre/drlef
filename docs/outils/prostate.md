@@ -656,9 +656,6 @@ function updateReport() {
                 let riskText = "équivoque";
                 if (scoreVal === 4) riskText = "suspecte";
                 if (scoreVal === 5) riskText = "très suspecte";
-                if (group.length > 1) {
-                    if(scoreVal === 3) riskText = "équivoques"; else riskText += "s";
-                }
                 
                 let cPZ = [], cTZ = [], cAS = [];
                 group.forEach(l => {
@@ -668,24 +665,51 @@ function updateReport() {
                     else cTZ.push(l);
                 });
 
+                // Vérifier si toutes les lésions du groupe (sans distinction de zone) ont le même Likert override
+                let allHaveSameLikert = group.every(l => l.likertScore === l.val);
+                
+                // Construire la description du risque
+                let globalRiskDesc = "";
+                if (allHaveSameLikert) {
+                    globalRiskDesc = `${riskText} (PI-RADS ${group[0].piradsKey})`;
+                    if (group.length > 1) {
+                        globalRiskDesc = globalRiskDesc.replace(riskText, riskText === "équivoque" ? "équivoques" : riskText + "s");
+                    }
+                }
+
                 let conclusionSegments = [];
+                let isFirstZone = true;
                 
                 if(cPZ.length > 0) {
                     const descs = cPZ.map(l => {
                         let z = translateZoneInput(l.zoneText);
                         let sz = (l.size) ? ` de ${l.size} mm` : "";
                         
-                        let likertLabel = getLikertLabel(l.likertScore);
-                        let riskDesc = "";
-                        if (l.likertScore !== l.val) {
-                            riskDesc = `${likertLabel} (classée Likert ${l.likertScore} malgré une sémiologie PI-RADS ${l.piradsKey})`;
-                        } else {
-                            riskDesc = riskText;
+                        let itemRiskDesc = "";
+                        if (!allHaveSameLikert) {
+                            if (l.likertScore !== l.val) {
+                                let likertLabel = getLikertLabel(l.likertScore);
+                                itemRiskDesc = `${likertLabel} (classée Likert ${l.likertScore} malgré une sémiologie PI-RADS ${l.piradsKey})`;
+                            } else {
+                                itemRiskDesc = `${riskText} (PI-RADS ${l.piradsKey})`;
+                            }
                         }
                         
-                        return `${riskDesc} dans la zone périphérique ${z}${sz} (« ${l.label} »)`;
-                    }).join(" et ");
-                    conclusionSegments.push(descs);
+                        return {
+                            riskDesc: itemRiskDesc,
+                            location: `dans la zone périphérique ${z}${sz} (« ${l.label} »)`
+                        };
+                    });
+                    
+                    if (allHaveSameLikert) {
+                        const locations = descs.map(d => d.location).join(" et ");
+                        conclusionSegments.push(`${globalRiskDesc} ${locations}`);
+                        isFirstZone = false;
+                    } else {
+                        descs.forEach(d => {
+                            conclusionSegments.push(`${d.riskDesc} ${d.location}`);
+                        });
+                    }
                 }
                 
                 if(cTZ.length > 0) {
@@ -693,17 +717,35 @@ function updateReport() {
                         let z = translateZoneInput(l.zoneText);
                         let sz = (l.size) ? ` de ${l.size} mm` : "";
                         
-                        let likertLabel = getLikertLabel(l.likertScore);
-                        let riskDesc = "";
-                        if (l.likertScore !== l.val) {
-                            riskDesc = `${likertLabel} (classée Likert ${l.likertScore} malgré une sémiologie PI-RADS ${l.piradsKey})`;
-                        } else {
-                            riskDesc = riskText;
+                        let itemRiskDesc = "";
+                        if (!allHaveSameLikert) {
+                            if (l.likertScore !== l.val) {
+                                let likertLabel = getLikertLabel(l.likertScore);
+                                itemRiskDesc = `${likertLabel} (classée Likert ${l.likertScore} malgré une sémiologie PI-RADS ${l.piradsKey})`;
+                            } else {
+                                itemRiskDesc = `${riskText} (PI-RADS ${l.piradsKey})`;
+                            }
                         }
                         
-                        return `${riskDesc} dans la zone de transition ${z}${sz} (« ${l.label} »)`;
-                    }).join(" et ");
-                    conclusionSegments.push(descs);
+                        return {
+                            riskDesc: itemRiskDesc,
+                            location: `dans la zone de transition ${z}${sz} (« ${l.label} »)`
+                        };
+                    });
+                    
+                    if (allHaveSameLikert) {
+                        const locations = descs.map(d => d.location).join(" et ");
+                        if (isFirstZone) {
+                            conclusionSegments.push(`${globalRiskDesc} ${locations}`);
+                        } else {
+                            conclusionSegments.push(locations);
+                        }
+                        isFirstZone = false;
+                    } else {
+                        descs.forEach(d => {
+                            conclusionSegments.push(`${d.riskDesc} ${d.location}`);
+                        });
+                    }
                 }
                 
                 if(cAS.length > 0) {
@@ -711,20 +753,38 @@ function updateReport() {
                         let z = translateZoneInput(l.zoneText);
                         let sz = (l.size) ? ` de ${l.size} mm` : "";
                         
-                        let likertLabel = getLikertLabel(l.likertScore);
-                        let riskDesc = "";
-                        if (l.likertScore !== l.val) {
-                            riskDesc = `${likertLabel} (classée Likert ${l.likertScore} malgré une sémiologie PI-RADS ${l.piradsKey})`;
-                        } else {
-                            riskDesc = riskText;
+                        let itemRiskDesc = "";
+                        if (!allHaveSameLikert) {
+                            if (l.likertScore !== l.val) {
+                                let likertLabel = getLikertLabel(l.likertScore);
+                                itemRiskDesc = `${likertLabel} (classée Likert ${l.likertScore} malgré une sémiologie PI-RADS ${l.piradsKey})`;
+                            } else {
+                                itemRiskDesc = `${riskText} (PI-RADS ${l.piradsKey})`;
+                            }
                         }
                         
-                        return `${riskDesc} dans le stroma fibromusculaire antérieur ${z}${sz} (« ${l.label} »)`;
-                    }).join(" et ");
-                    conclusionSegments.push(descs);
+                        return {
+                            riskDesc: itemRiskDesc,
+                            location: `dans le stroma fibromusculaire antérieur ${z}${sz} (« ${l.label} »)`
+                        };
+                    });
+                    
+                    if (allHaveSameLikert) {
+                        const locations = descs.map(d => d.location).join(" et ");
+                        if (isFirstZone) {
+                            conclusionSegments.push(`${globalRiskDesc} ${locations}`);
+                        } else {
+                            conclusionSegments.push(locations);
+                        }
+                        isFirstZone = false;
+                    } else {
+                        descs.forEach(d => {
+                            conclusionSegments.push(`${d.riskDesc} ${d.location}`);
+                        });
+                    }
                 }
 
-                let sentence = `Lésion ${conclusionSegments.join(" et ")}.`;
+                let sentence = `Lésion${group.length > 1 ? 's' : ''} ${conclusionSegments.join(" et ")}.`;
                 conclusionSentences.push(sentence);
             });
             conclusionTxt = conclusionSentences.join("\n");
@@ -868,7 +928,9 @@ function fullReset() {
     document.querySelectorAll('input').forEach(i => i.value = '');
     [...lesions].forEach(l => removeLesion(l.internalId));
     uniqueIdCounter = 0;
-    toggleVolInputs(); 
+    toggleVolInputs();
+    document.getElementById('zone-zp').value = '0';
+    document.getElementById('zone-zt').value = '0';
     updateReport();
 }
 </script>
