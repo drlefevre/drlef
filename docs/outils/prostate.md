@@ -20,9 +20,9 @@
     <div class="pair">
         <input id="psa" type="number" inputmode="decimal" placeholder="PSA" oninput="updateReport()" />
 
-        <div id="vol-right" style="display:flex; align-items:center; gap:6px;">
+        <div id="vol-right" style="display:contents;">
             <input id="vol-auto" type="number" class="auto-input" inputmode="decimal" placeholder="cc" oninput="updateReport()" />
-            <div id="d1-wrapper" style="display:none; align-items:center; width:100%;">
+            <div id="d1-wrapper" style="display:none; width:100%;">
                 <input id="d1" type="number" class="manual-input" inputmode="decimal" placeholder="mm" oninput="updateReport()" style="flex:1; width:100%;" />
             </div>
         </div>
@@ -31,6 +31,27 @@
     <div class="pair manual-input" id="dims-row-2" style="display:none;">
         <input id="d2" type="number" inputmode="decimal" placeholder="mm" oninput="updateReport()" />
         <input id="d3" type="number" inputmode="decimal" placeholder="mm" oninput="updateReport()" />
+    </div>
+
+    <div class="pair">
+        <div style="display:flex; align-items:center; gap:0.3rem; flex:1;">
+            <span style=" width:1.2rem;">ZP</span>
+            <select id="zone-zp" onchange="updateReport()" style="flex:1;">
+                <option value="pas">Pas de remaniements</option>
+                <option value="quelques" selected>Quelques remaniements</option>
+                <option value="multiples">Multiples remaniements</option>
+                <option value="hypointense">Hypointensité T2 diffuse</option>
+            </select>
+        </div>
+        <div style="display:flex; align-items:center; gap:0.3rem; flex:1;">
+            <span style=" width:1.2rem;">ZT</span>
+            <select id="zone-zt" onchange="updateReport()" style="flex:1;">
+                <option value="pas">Pas de remaniements</option>
+                <option value="quelques" selected>Quelques remaniements</option>
+                <option value="multiples">Multiples remaniements</option>
+                <option value="hypointense">Hypointensité T2 diffuse</option>
+            </select>
+        </div>
     </div>
   </div>
 
@@ -73,7 +94,7 @@
   font-family: sans-serif;
 }
 .pairs { display:grid; grid-template-columns: 1fr; gap:.45rem; }
-.pair { display:grid; grid-template-columns: repeat(2, 1fr); gap:.6rem; }
+.pair { display:grid; grid-template-columns: repeat(2, 1fr); gap:.6rem; align-items: flex-start; }
 
 .box input, .box select {
   width: 100%; padding: .4rem .6rem;
@@ -91,12 +112,13 @@ input[type=number]::-webkit-outer-spin-button {
 input[type=number] { -moz-appearance: textfield; }
 
 /* Canvas */
-.canvas-container-wrapper { display: flex; justify-content: center; margin-top: 1rem; width: 100%; }
+.canvas-container-wrapper { display: flex; justify-content: center; margin-top: 1rem; width: 100%; padding: 0; }
 .canvas-container {
     position: relative; background: white;
     border: 1px solid var(--md-default-fg-color--lighter);
     border-radius: .5rem; overflow: hidden;
     box-shadow: 0 2px 4px -1px rgba(0,0,0,0.1);
+    width: 100%;
 }
 .canvas-controls {
     display: flex; justify-content: center; gap: 8px; padding: 5px;
@@ -172,8 +194,8 @@ input[type=number] { -moz-appearance: textfield; }
 }
 
 /* Couleurs */
-.c-yellow { background: #c4e538; }
-.c-gold   { background: #FFD966; }
+.c-green { background: #c4e538; }
+.c-yellow   { background: #FFD966; }
 .c-orange { background: #FFA500; }
 .c-red    { background: #FF0000; }
 
@@ -212,15 +234,15 @@ input[type=number] { -moz-appearance: textfield; }
 <script>
 // --- CONFIGURATION ---
 const PIRADS_CONF = [
-    { k: '2',   lbl: '2',  v: 2, ord: 20, c: '#c4e538', cls: 'c-yellow' },
-    { k: '2+1', lbl: '+1', v: 3, ord: 29, c: '#FFD966', cls: 'c-gold' }, 
-    { k: '3',   lbl: '3',  v: 3, ord: 30, c: '#FFD966', cls: 'c-gold' },
+    { k: '2',   lbl: '2',  v: 2, ord: 20, c: '#c4e538', cls: 'c-green' },
+    { k: '2+1', lbl: '+1', v: 3, ord: 29, c: '#FFD966', cls: 'c-yellow' }, 
+    { k: '3',   lbl: '3',  v: 3, ord: 30, c: '#FFD966', cls: 'c-yellow' },
     { k: '3+1', lbl: '+1', v: 4, ord: 39, c: '#FFA500', cls: 'c-orange' }, 
     { k: '4',   lbl: '4',  v: 4, ord: 40, c: '#FFA500', cls: 'c-orange' },
     { k: '5',   lbl: '5',  v: 5, ord: 50, c: '#FF0000', cls: 'c-red' }
 ];
 
-const TARGET_WIDTH = 320; 
+let TARGET_WIDTH = 0;
 let CANVAS_HEIGHT = 400; 
 let canvas;
 let uniqueIdCounter = 0; 
@@ -234,6 +256,8 @@ window.addEventListener('load', function() {
 });
 
 function initCanvas() {
+    const container = document.querySelector('.canvas-container');
+    TARGET_WIDTH = container.offsetWidth || 800;
     canvas = new fabric.Canvas('prostateCanvas');
     const imagePath = '../assets/prostate.jpg'; 
     fabric.Image.fromURL(imagePath, function(img) {
@@ -415,7 +439,6 @@ function sortAndRenameLesions() {
             const btns = row.querySelectorAll('.pi-btn');
             btns.forEach(b => {
                 b.classList.remove('selected');
-                // C'est ici que data-key est indispensable
                 if(b.getAttribute('data-key') === l.piradsKey) {
                     b.classList.add('selected');
                 }
@@ -448,6 +471,17 @@ function getLikertLabel(likertScore) {
         5: "très suspecte"
     };
     return likertMap[likertScore] || "équivoque";
+}
+
+// --- LOGIQUE REMANIEMENTS ZONES ---
+function getZoneText(zoneValue, zoneName) {
+    const templates = {
+        pas: `La zone ${zoneName} ne présente pas de remaniement notable.`,
+        quelques: `La zone ${zoneName} présente quelques remaniements ne gênant pas l'interprétation du signal.`,
+        multiples: `La zone ${zoneName} présente de multiples remaniements gênant l'interprétation du signal.`,
+        hypointense: `La zone ${zoneName} présente des remaniements hypointenses T2 diffus gênant l'interprétation du signal.`
+    };
+    return templates[zoneValue] || templates.quelques;
 }
 
 // --- LOGIQUE TRADUCTION ---
@@ -536,15 +570,13 @@ function updateReport() {
     currentReportData.technique = techniqueTxt;
     let txt = psaStr + "\n" + techniqueTxt + "\n\n";
     
-    let resTxt = `Le volume de la glande est estimé à ${vol.toFixed(0)} cc.\n`;
+    let resTxt = `Le volume de la glande est estimé à ${vol.toFixed(0)} cc`;
     
     if(psa > 0 && vol > 0) {
         let densStr = (psa / vol).toFixed(2).replace('.', ',');
-        resTxt += `Densité de PSA évaluée à ${densStr} ng/mL/cc.\n`;
+        resTxt += `, donnant une densité de PSA de ${densStr} ng/mL/cc`;
     }
-
-    resTxt += "Pas d'épaississement significatif du détrusor.\n"; 
-    resTxt += "Pas de dilatation des cavités pyélocalicielles.\n\n";
+    resTxt += ".\n";
 
     let pzLesions = [];
     let tzLesions = [];
@@ -560,12 +592,15 @@ function updateReport() {
         }
     });
 
-    resTxt += "La zone périphérique présente quelques remaniements ne gênant pas l'interprétation du signal. ";
+    const zpValue = document.getElementById('zone-zp').value;
+    const ztValue = document.getElementById('zone-zt').value;
+
+    resTxt += getZoneText(zpValue, "périphérique") + " ";
     if (pzLesions.length > 0) resTxt += formatLesionList(pzLesions);
     else resTxt += "Pas de lésion significative décelable.";
     resTxt += "\n";
 
-    resTxt += "La zone de transition présente quelques remaniements ne gênant pas l'interprétation du signal. ";
+    resTxt += getZoneText(ztValue, "de transition") + " ";
     if (tzLesions.length > 0) resTxt += formatLesionList(tzLesions);
     else resTxt += "Pas de lésion significative décelable.";
     resTxt += "\n";
@@ -583,7 +618,7 @@ function updateReport() {
     }
     resTxt += "\n\n";
 
-    resTxt += "Vésicules séminales symétriques d'aspect normal.\nPas d'adénopathie pelvienne significative.\nPas de lésion osseuse suspecte.";
+    resTxt += "<i>Par ailleurs :</i>\nVésicules séminales symétriques d'aspect normal.\nPas d'épaississement significatif du détrusor.\nPas de dilatation des cavités pyélocalicielles.\nPas d'adénopathie pelvienne significative.\nPas de lésion osseuse suspecte.";
     
     currentReportData.resultat = resTxt;
     txt += resTxt;
@@ -633,28 +668,63 @@ function updateReport() {
                     else cTZ.push(l);
                 });
 
-                let segments = [];
-                const fmt = (arr) => arr.map(l => {
-                    let z = translateZoneInput(l.zoneText);
-                    let sz = (l.size) ? ` de ${l.size} mm` : "";
-                    
-                    // Inclure Likert dans la conclusion si différent du PI-RADS
-                    let likertLabel = getLikertLabel(l.likertScore);
-                    let riskDescInclusion = "";
-                    if (l.likertScore !== l.val) {
-                        riskDescInclusion = `${likertLabel} (classée Likert ${l.likertScore} malgré une sémiologie PI-RADS ${l.piradsKey})`;
-                    } else {
-                        riskDescInclusion = riskText;
-                    }
-                    
-                    return `${riskDescInclusion} ${z}${sz} (« ${l.label} »)`;
-                }).join(" et ");
+                let conclusionSegments = [];
+                
+                if(cPZ.length > 0) {
+                    const descs = cPZ.map(l => {
+                        let z = translateZoneInput(l.zoneText);
+                        let sz = (l.size) ? ` de ${l.size} mm` : "";
+                        
+                        let likertLabel = getLikertLabel(l.likertScore);
+                        let riskDesc = "";
+                        if (l.likertScore !== l.val) {
+                            riskDesc = `${likertLabel} (classée Likert ${l.likertScore} malgré une sémiologie PI-RADS ${l.piradsKey})`;
+                        } else {
+                            riskDesc = riskText;
+                        }
+                        
+                        return `${riskDesc} dans la zone périphérique ${z}${sz} (« ${l.label} »)`;
+                    }).join(" et ");
+                    conclusionSegments.push(descs);
+                }
+                
+                if(cTZ.length > 0) {
+                    const descs = cTZ.map(l => {
+                        let z = translateZoneInput(l.zoneText);
+                        let sz = (l.size) ? ` de ${l.size} mm` : "";
+                        
+                        let likertLabel = getLikertLabel(l.likertScore);
+                        let riskDesc = "";
+                        if (l.likertScore !== l.val) {
+                            riskDesc = `${likertLabel} (classée Likert ${l.likertScore} malgré une sémiologie PI-RADS ${l.piradsKey})`;
+                        } else {
+                            riskDesc = riskText;
+                        }
+                        
+                        return `${riskDesc} dans la zone de transition ${z}${sz} (« ${l.label} »)`;
+                    }).join(" et ");
+                    conclusionSegments.push(descs);
+                }
+                
+                if(cAS.length > 0) {
+                    const descs = cAS.map(l => {
+                        let z = translateZoneInput(l.zoneText);
+                        let sz = (l.size) ? ` de ${l.size} mm` : "";
+                        
+                        let likertLabel = getLikertLabel(l.likertScore);
+                        let riskDesc = "";
+                        if (l.likertScore !== l.val) {
+                            riskDesc = `${likertLabel} (classée Likert ${l.likertScore} malgré une sémiologie PI-RADS ${l.piradsKey})`;
+                        } else {
+                            riskDesc = riskText;
+                        }
+                        
+                        return `${riskDesc} dans le stroma fibromusculaire antérieur ${z}${sz} (« ${l.label} »)`;
+                    }).join(" et ");
+                    conclusionSegments.push(descs);
+                }
 
-                if(cPZ.length > 0) segments.push(`dans la zone périphérique ${fmt(cPZ)}`);
-                if(cTZ.length > 0) segments.push(`dans la zone de transition ${fmt(cTZ)}`);
-                if(cAS.length > 0) segments.push(`dans le stroma fibromusculaire antérieur ${fmt(cAS)}`);
-
-                let sentence = `Lésion${group.length > 1 ? 's' : ''} ${segments.join(" et ")}.`;
+                let sentence = `Lésion ${conclusionSegments.join(" et ")}.`;
                 conclusionSentences.push(sentence);
             });
             conclusionTxt = conclusionSentences.join("\n");
@@ -727,14 +797,23 @@ async function copyFullReport() {
             </p>`;
     }
 
+    // Diviser le résultat pour insérer le schéma avant "Par ailleurs :"
+    let resultatHtml = formatHTML(currentReportData.resultat);
+    let resultatFinal = resultatHtml;
+    
+    if (includeImage && resultatHtml.includes("<i>Par ailleurs :</i>")) {
+        const parts = resultatHtml.split("<i>Par ailleurs :</i>");
+        resultatFinal = parts[0] + imgTag + "<i>Par ailleurs :</i>" + parts[1];
+    } else if (includeImage) {
+        resultatFinal = resultatHtml + imgTag;
+    }
+
     let htmlContent = `
         <div style="font-family: Calibri, sans-serif; font-size: 11pt; color: #000;">
             <p><strong style="text-decoration: underline;">INDICATION</strong><br>${formatHTML(currentReportData.indication)}</p>
             <p><strong style="text-decoration: underline;">TECHNIQUE</strong><br>${formatHTML(currentReportData.technique)}</p>
-            <p><strong style="text-decoration: underline;">RESULTAT</strong><br>${formatHTML(currentReportData.resultat)}</p>
+            <p><strong style="text-decoration: underline;">RÉSULTATS</strong><br>${resultatFinal}</p>
             <p><strong style="text-decoration: underline;">CONCLUSION</strong><br><strong>${formatHTML(currentReportData.conclusion)}</strong></p>
-
-            ${imgTag}
         </div>
     `;
 
