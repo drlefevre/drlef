@@ -43,13 +43,13 @@ graph TD
     B -->|NON| C[Contenu graisseux ?]
     
     C -->|OUI| R2a(ORADS 2)
-    C -->|NON| E[Nodule/végétation/cloison ?]
+    C -->|NON| E[Nodule/végétation ?]
     
-    E -->|OUI| F[Hyposignal T2 + Hypo DWI ?]
+    E -->|OUI| F[HypoT2 + hypoDWI ?]
     F -->|OUI| R2b(ORADS 2)
     F -->|NON| G[Perfusion]
     
-    G -->|Courbe type 1| R3a(ORADS 3)
+    G -->|Type 1| R3a(ORADS 3)
     G -->|Type 2| R4(ORADS 4)
     G -->|Type 3| R5b(ORADS 5)
     
@@ -72,7 +72,7 @@ graph TD
 ```
 
 <figure markdown="span">
-    [![](assets/courbes.jpg){width="700"}](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS-MRI-Risk-Score-Assessment.pdf){:target="_blank"}  
+    [![](assets/courbes.jpg){width="650"}](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS-MRI-Risk-Score-Assessment.pdf){:target="_blank"}  
     végétation = tumeur épithéliale / graisse = tumeur germinale (tératome)
 </figure>
 
