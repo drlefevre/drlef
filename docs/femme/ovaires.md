@@ -39,26 +39,26 @@ Pas de dilatation des cavités pyélo-calicielles.
 
 ``` mermaid
 graph TD
-    B[Implant péritonéal ?] -->|OUI| R5(ORADS 5)
+    B[Implant péritonéal ?] -->|OUI| R5(O-RADS 5)
     B -->|NON| C[Contenu graisseux ?]
     
-    C -->|OUI| R2a(ORADS 2)
+    C -->|OUI| R2a(O-RADS 2)
     C -->|NON| E[Nodule/végétation ?]
     
     E -->|OUI| F[HypoT2 + hypoDWI ?]
-    F -->|OUI| R2b(ORADS 2)
+    F -->|OUI| R2b(O-RADS 2)
     F -->|NON| G[Perfusion]
     
-    G -->|Type 1| R3a(ORADS 3)
-    G -->|Type 2| R4(ORADS 4)
-    G -->|Type 3| R5b(ORADS 5)
+    G -->|Type 1| R3a(O-RADS 3)
+    G -->|Type 2| R4(O-RADS 4)
+    G -->|Type 3| R5b(O-RADS 5)
     
     E -->|NON| H[Multiloculaire ?]
-    H -->|OUI| R3b(ORADS 3)
+    H -->|OUI| R3b(O-RADS 3)
     H -->|NON| I[Uniloculaire]
 
-    I -->|eau/endométriome| R2c(ORADS 2)
-    I -->|pus/sang/colloïde/mucine| R3c(ORADS 3)
+    I -->|eau/endométriome| R2c(O-RADS 2)
+    I -->|pus/sang/colloïde/mucine| R3c(O-RADS 3)
 
     style R2a fill:#90ee90,stroke:#333,stroke-width:2px
     style R2b fill:#90ee90,stroke:#333,stroke-width:2px
