@@ -1,13 +1,13 @@
 # Endométriose  
 
 ```
-Séquences T2 dans les trois plans, axiales T1 Dixon, et T2 EG jusqu'aux reins.
+Séquences 3D T2, 3D T1 Dixon, et axiale T2 jusqu'aux reins.
 
-Utérus antéversé antéfléchi mesurant  cm.
+Utérus antéversé antéfléchi mesurant  mm.
 Endomètre en hypersignal T2 mesurant  mm.
 Intégrité de la zone jonctionnelle et du myomètre.
 
-Ovaires latéraux folliculaires mesurant à droite et gauche  cm.
+Ovaires latéraux folliculaires mesurant à droite et gauche  mm.
 Pas d'endométriome ou d'implant hémorragique.
 Pas de dilatation tubaire.
 
@@ -36,6 +36,8 @@ Pas d'adénomégalie.
     - séreuse **+/-** musculeuse => rectosonographie en cas de décision chirurgicale
     - **musculeuse** : ép. +/- microkystes (largeur ? hauteur ? distance marge anale ? circonf ?)
     - **endoluminale** (préciser épaisseur et degré de sténose si coloscanner)
+
+!!! tip "KLH vs [endométriome => T1 sans FS plus hyper que la graisse]"
 
 !!! tip "Atteinte [diaphragmatique](https://services.medicalcongress.online/congress/Medias/2012/JFR2012-Posters/c1e19078-c57c-4f2d-bc40-5534e9a9e884/pdf/poster.pdf){:target="_blank"} (T1 FS sag et coro)"
     - dl thoraciques ou scapulalgies cataméniales, **pneumothorax**/hémothorax

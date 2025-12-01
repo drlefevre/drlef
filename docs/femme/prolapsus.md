@@ -1,8 +1,10 @@
 # Dysfonctions pelvi-périnéales
 
 ```
+Après balisage vaginal et rectal, séquence 3D T2, séquences sagittale T2 dynamiques en poussée progressive répétée, puis 3 plans T2 en poussée maximale bloquée.
+
 Du point de vue morphologique : 
-Utérus antéversé antéfléchi mesurant  cm.
+Utérus antéversé antéfléchi mesurant  mm.
 Endomètre en hypersignal T2, millimétrique.
 Ovaires latéro-utérins fibreux.
 Pas de syndrome de masse ni d'adénomégalie dans le pelvis.

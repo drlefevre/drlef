@@ -13,7 +13,8 @@
     ```
 === "K endomètre"
     ```
-    Séquences T2 dans les trois plans, axiales T1 Dixon, diffusion et T2 EG jusqu'aux reins.
+    Séquences T2 sagittale et axiale perpendiculaire au corps utérin.
+    Acquisitions axiale T1 Dixon, sagittale diffusion et axiale T2 jusqu'aux reins.
     Après injection de gadolinium, séries dynamiques axiales T1 FS et 3D T1 FS tardif.
 
     Utérus antéversé antéfléchi mesurant  mm.
@@ -33,7 +34,8 @@
     <p style="text-align: center"><a href="http://oncologik.fr/referentiels/dsrc/uterus-corps-endometre#12.Classification%20FIGO%202023"target="_blank">FIGO</a></p>
 === "K col"
     ```
-    Séquences T2 dans les trois plans, axiales T1 Dixon, diffusion et T2 EG jusqu'aux reins.
+    Séquences T2 sagittale et axiale perpendiculaire au col utérin.
+    Acquisitions axiale T1 Dixon, sagittale diffusion et axiale T2 jusqu'aux reins.
     Après injection de gadolinium, séries dynamiques axiales T1 FS et 3D T1 FS tardif.
 
     Masse centrée sur le col utérin mesurant  mm.

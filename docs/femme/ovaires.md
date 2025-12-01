@@ -1,7 +1,12 @@
 ```
-Ovaires latéraux folliculaires mesurant à droite/gauche  cm.
+Séquences T2 dans les trois plans centrées sur le pelvis.
+Acquisitions axiales T1 Dixon, diffusion et T2 jusqu'aux reins.
+Après injection de gadolinium, séries dynamiques axiales T1 FS et 3D T1 FS tardif.
 
-Utérus antéversé antéfléchi mesurant  cm.
+Ovaires droit latéro-utérin folliculaire mesurant  mm.
+Ovaires gauche latéro-utérin folliculaire mesurant  mm.
+
+Utérus antéversé antéfléchi mesurant  mm.
 Endomètre en hypersignal T2 mesurant  mm.
 Intégrité de la zone jonctionnelle et du myomètre.
 
@@ -32,10 +37,43 @@ Pas de dilatation des cavités pyélo-calicielles.
         - solide si > 80% de la masse = cystadénocarcinome, fibrome, [kyste dermoïde](https://www.radeos.org/maladie/fiche-kyste-dermoide-de-lovaire-teratome-kystique-mature_841.html){:target="_blank"}
         - métas = sd de Krukenberg = estomac/CCR et sein
 
+``` mermaid
+graph TD
+    B[Implant péritonéal ?] -->|OUI| R5(ORADS 5)
+    B -->|NON| C[Contenu graisseux ?]
+    
+    C -->|OUI| R2a(ORADS 2)
+    C -->|NON| E[Nodule/végétation/cloison ?]
+    
+    E -->|OUI| F[Hyposignal T2 + Hypo DWI ?]
+    F -->|OUI| R2b(ORADS 2)
+    F -->|NON| G[Perfusion]
+    
+    G -->|Courbe type 1| R3a(ORADS 3)
+    G -->|Type 2| R4(ORADS 4)
+    G -->|Type 3| R5b(ORADS 5)
+    
+    E -->|NON| H[Multiloculaire ?]
+    H -->|OUI| R3b(ORADS 3)
+    H -->|NON| I[Uniloculaire]
+
+    I -->|eau/endométriome| R2c(ORADS 2)
+    I -->|pus/sang/colloïde/mucine| R3c(ORADS 3)
+
+    style R2a fill:#90ee90,stroke:#333,stroke-width:2px
+    style R2b fill:#90ee90,stroke:#333,stroke-width:2px
+    style R2c fill:#90ee90,stroke:#333,stroke-width:2px
+    style R3a fill:#ffff00,stroke:#333,stroke-width:2px
+    style R3b fill:#ffff00,stroke:#333,stroke-width:2px
+    style R3c fill:#ffff00,stroke:#333,stroke-width:2px
+    style R4 fill:#ffa500,stroke:#333,stroke-width:2px
+    style R5 fill:#ff0000,stroke:#333,stroke-width:2px
+    style R5b fill:#ff0000,stroke:#333,stroke-width:2px
+```
+
 <figure markdown="span">
+    [![](assets/courbes.jpg){width="700"}](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS-MRI-Risk-Score-Assessment.pdf){:target="_blank"}  
     végétation = tumeur épithéliale / graisse = tumeur germinale (tératome)
-    </br></br>
-    [![](assets/O-RADS.jpg){width="340"}](https://www.acr.org/-/media/ACR/Files/RADS/O-RADS/MRI-Assessment-Categories-Algorithm-Feb-2024.pdf){:target="_blank"}
 </figure>
 
 </br>
