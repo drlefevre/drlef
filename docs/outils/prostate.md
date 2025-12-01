@@ -1,4 +1,4 @@
-# IRM Prostate
+# [IRM Prostate](https://www.pcih.fr/portal/pst_selectapp.php){:target="_blank"}
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -327,7 +327,7 @@ function addLesionVisual() {
         piradsKey: '3', val: 3, ord: 30, size: '',
         zoneType: 'ZP', 
         zoneText: '',
-        likertScore: 3
+        likertScore: null
     });
     
     addLesionRow(internalId);
@@ -400,7 +400,7 @@ function updateLesionDataTemp(id) {
         l.zoneText = document.getElementById(`zone-txt-${id}`).value;
         l.size = document.getElementById(`size-${id}`).value;
         const likertInput = document.getElementById(`likert-${id}`).value;
-        l.likertScore = likertInput ? parseInt(likertInput) : l.val;
+        l.likertScore = likertInput ? parseInt(likertInput) : null;
     }
 }
 
@@ -413,7 +413,10 @@ function sortAndRenameLesions() {
     lesions.sort((a, b) => {
         if (b.ord !== a.ord) return b.ord - a.ord;
         // Si ordre PI-RADS identique, trier par Likert (décroissant : risque plus élevé en premier)
-        if (b.likertScore !== a.likertScore) return b.likertScore - a.likertScore;
+        // Traiter null comme 0 (non renseigné)
+        const aLikert = a.likertScore !== null ? a.likertScore : 0;
+        const bLikert = b.likertScore !== null ? b.likertScore : 0;
+        if (bLikert !== aLikert) return bLikert - aLikert;
         // Puis par taille (décroissante)
         return (parseFloat(b.size)||0) - (parseFloat(a.size)||0); 
     });
@@ -521,15 +524,15 @@ function formatLesionList(lesionArray) {
         let sz = (l.size) ? ` de ${l.size} mm` : "";
         let orig = l.zoneText ? `dans z${l.zoneText}` : "";
         
-        // Déterminer si Likert diffère de PI-RADS pour la formulation
-        let likertLabel = getLikertLabel(l.likertScore);
+        // Afficher la mention Likert seulement si renseigné ET différent du PI-RADS
         let riskDesc = "";
         
-        if (l.likertScore !== l.val) {
-            // Likert diffère du PI-RADS : inclure la mention "classée Likert X malgré une sémiologie PI-RADS Y"
+        if (l.likertScore !== null && l.likertScore !== l.val) {
+            // Likert renseigné et diffère du PI-RADS : inclure la mention override
+            let likertLabel = getLikertLabel(l.likertScore);
             riskDesc = `${likertLabel} (classée Likert ${l.likertScore} malgré une sémiologie PI-RADS ${l.piradsKey})`;
         } else {
-            // Likert = PI-RADS : utiliser simplement le libellé
+            // Likert non renseigné ou = PI-RADS : utiliser simplement le libellé
             riskDesc = `PI-RADS ${l.piradsKey}`;
         }
         
@@ -606,13 +609,14 @@ function updateReport() {
     resTxt += "\n";
 
     if (asLesions.length > 0) {
-        let sfmaDescs = asLesions.map(l => {
-             let loc = translateZoneInput(l.zoneText);
-             let sz = (l.size) ? ` de ${l.size} mm` : "";
-             let orig = l.zoneText ? `dans z${l.zoneText}` : "";
-             return `une lésion ${loc} PI-RADS ${l.piradsKey}${sz} (« ${l.label} » sur le schéma ${orig})`;
-        });
-        resTxt += "Le stroma fibromusculaire antérieur présente " + sfmaDescs.join(" et ") + ".";
+        resTxt += "Le stroma fibromusculaire antérieur présente ";
+        // Utiliser formatLesionList() pour appliquer la logique Likert
+        let sfmaFormatted = formatLesionList(asLesions);
+        if (sfmaFormatted.startsWith('On y individualise')) {
+            resTxt += sfmaFormatted.substring('On y individualise '.length);
+        } else {
+            resTxt += sfmaFormatted;
+        }
     } else {
         resTxt += "Le stroma fibromusculaire antérieur est fin et très hypointense en T2.";
     }
@@ -626,170 +630,49 @@ function updateReport() {
     // --- CONCLUSION ---
     let conclusionTxt = "";
 
-    // Si aucune lésion renseignée => conclusion simple et on n'ajoute pas le schéma lors de la copie
+    // Si aucune lésion renseignée => conclusion simple
     if (lesions.length === 0) {
         conclusionTxt = `Volume prostatique estimé à ${vol.toFixed(0)} cc. Pas de lésion suspecte.`;
         txt += conclusionTxt;
     } else {
-        let sigLesions = lesions.filter(l => l.val >= 3);
-        
-        if(sigLesions.length > 0) {
-            let groups = {};
-            sigLesions.forEach(l => {
-                let k = l.piradsKey;
-                if(!groups[k]) groups[k] = [];
-                groups[k].push(l);
-            });
+        // Produire une ligne par lésion, triée par label (L1, L2...)
+        const sortedByLabel = lesions.slice().sort((a, b) => {
+            const ai = parseInt((a.label || '').replace(/^L/i, '')) || 0;
+            const bi = parseInt((b.label || '').replace(/^L/i, '')) || 0;
+            return ai - bi;
+        });
 
-            let sortedKeys = Object.keys(groups).sort((a,b) => {
-                let ordA = PIRADS_CONF.find(p => p.k === a).ord;
-                let ordB = PIRADS_CONF.find(p => p.k === b).ord;
-                return ordB - ordA; 
-            });
+        const lines = sortedByLabel.map(l => {
+            const label = l.label || '';
+            const loc = translateZoneInput(l.zoneText) || 'non précisée';
+            const sz = (l.size) ? ` de ${l.size} mm` : '';
+            
+            // Déterminer la zone (périphérique, transition, SFMA)
+            const zRaw = (l.zoneText || '').trim().toLowerCase();
+            const isSFMA = ['13a', '14a', '15a'].includes(zRaw);
+            const zonePrefix = isSFMA ? 'dans le stroma fibromusculaire antérieur ' :
+                              (l.zoneType === 'ZP') ? 'dans la zone périphérique ' : 
+                              (l.zoneType === 'ZT') ? 'dans la zone de transition ' : 
+                              'dans la zone périphérique ';
 
-            let conclusionSentences = [];
+            let riskText = 'équivoque';
+            if (l.val === 4) riskText = 'suspecte';
+            if (l.val === 5) riskText = 'très suspecte';
 
-            sortedKeys.forEach(key => {
-                let group = groups[key];
-                let scoreVal = group[0].val; 
-                
-                let riskText = "équivoque";
-                if (scoreVal === 4) riskText = "suspecte";
-                if (scoreVal === 5) riskText = "très suspecte";
-                
-                let cPZ = [], cTZ = [], cAS = [];
-                group.forEach(l => {
-                    let zRaw = (l.zoneText || "").trim().toLowerCase();
-                    if(['13a', '14a', '15a'].includes(zRaw)) cAS.push(l);
-                    else if(l.zoneType === 'ZP') cPZ.push(l);
-                    else cTZ.push(l);
-                });
+            let riskDesc = '';
+            if (l.likertScore !== null && l.likertScore !== l.val) {
+                // Likert renseigné et différent : format override
+                riskDesc = `${getLikertLabel(l.likertScore)} (classée Likert ${l.likertScore} malgré une sémiologie PI-RADS ${l.piradsKey})`;
+            } else {
+                // Pas de Likert ou Likert = PI-RADS : utiliser le texte de risque
+                riskDesc = `${riskText} (PI-RADS ${l.piradsKey})`;
+            }
 
-                // Vérifier si toutes les lésions du groupe (sans distinction de zone) ont le même Likert override
-                let allHaveSameLikert = group.every(l => l.likertScore === l.val);
-                
-                // Construire la description du risque
-                let globalRiskDesc = "";
-                if (allHaveSameLikert) {
-                    globalRiskDesc = `${riskText} (PI-RADS ${group[0].piradsKey})`;
-                    if (group.length > 1) {
-                        globalRiskDesc = globalRiskDesc.replace(riskText, riskText === "équivoque" ? "équivoques" : riskText + "s");
-                    }
-                }
+            return `Lésion ${riskDesc} ${zonePrefix}${loc}${sz} (« ${label} »).`;
+        });
 
-                let conclusionSegments = [];
-                let isFirstZone = true;
-                
-                if(cPZ.length > 0) {
-                    const descs = cPZ.map(l => {
-                        let z = translateZoneInput(l.zoneText);
-                        let sz = (l.size) ? ` de ${l.size} mm` : "";
-                        
-                        let itemRiskDesc = "";
-                        if (!allHaveSameLikert) {
-                            if (l.likertScore !== l.val) {
-                                let likertLabel = getLikertLabel(l.likertScore);
-                                itemRiskDesc = `${likertLabel} (classée Likert ${l.likertScore} malgré une sémiologie PI-RADS ${l.piradsKey})`;
-                            } else {
-                                itemRiskDesc = `${riskText} (PI-RADS ${l.piradsKey})`;
-                            }
-                        }
-                        
-                        return {
-                            riskDesc: itemRiskDesc,
-                            location: `dans la zone périphérique ${z}${sz} (« ${l.label} »)`
-                        };
-                    });
-                    
-                    if (allHaveSameLikert) {
-                        const locations = descs.map(d => d.location).join(" et ");
-                        conclusionSegments.push(`${globalRiskDesc} ${locations}`);
-                        isFirstZone = false;
-                    } else {
-                        descs.forEach(d => {
-                            conclusionSegments.push(`${d.riskDesc} ${d.location}`);
-                        });
-                    }
-                }
-                
-                if(cTZ.length > 0) {
-                    const descs = cTZ.map(l => {
-                        let z = translateZoneInput(l.zoneText);
-                        let sz = (l.size) ? ` de ${l.size} mm` : "";
-                        
-                        let itemRiskDesc = "";
-                        if (!allHaveSameLikert) {
-                            if (l.likertScore !== l.val) {
-                                let likertLabel = getLikertLabel(l.likertScore);
-                                itemRiskDesc = `${likertLabel} (classée Likert ${l.likertScore} malgré une sémiologie PI-RADS ${l.piradsKey})`;
-                            } else {
-                                itemRiskDesc = `${riskText} (PI-RADS ${l.piradsKey})`;
-                            }
-                        }
-                        
-                        return {
-                            riskDesc: itemRiskDesc,
-                            location: `dans la zone de transition ${z}${sz} (« ${l.label} »)`
-                        };
-                    });
-                    
-                    if (allHaveSameLikert) {
-                        const locations = descs.map(d => d.location).join(" et ");
-                        if (isFirstZone) {
-                            conclusionSegments.push(`${globalRiskDesc} ${locations}`);
-                        } else {
-                            conclusionSegments.push(locations);
-                        }
-                        isFirstZone = false;
-                    } else {
-                        descs.forEach(d => {
-                            conclusionSegments.push(`${d.riskDesc} ${d.location}`);
-                        });
-                    }
-                }
-                
-                if(cAS.length > 0) {
-                    const descs = cAS.map(l => {
-                        let z = translateZoneInput(l.zoneText);
-                        let sz = (l.size) ? ` de ${l.size} mm` : "";
-                        
-                        let itemRiskDesc = "";
-                        if (!allHaveSameLikert) {
-                            if (l.likertScore !== l.val) {
-                                let likertLabel = getLikertLabel(l.likertScore);
-                                itemRiskDesc = `${likertLabel} (classée Likert ${l.likertScore} malgré une sémiologie PI-RADS ${l.piradsKey})`;
-                            } else {
-                                itemRiskDesc = `${riskText} (PI-RADS ${l.piradsKey})`;
-                            }
-                        }
-                        
-                        return {
-                            riskDesc: itemRiskDesc,
-                            location: `dans le stroma fibromusculaire antérieur ${z}${sz} (« ${l.label} »)`
-                        };
-                    });
-                    
-                    if (allHaveSameLikert) {
-                        const locations = descs.map(d => d.location).join(" et ");
-                        if (isFirstZone) {
-                            conclusionSegments.push(`${globalRiskDesc} ${locations}`);
-                        } else {
-                            conclusionSegments.push(locations);
-                        }
-                        isFirstZone = false;
-                    } else {
-                        descs.forEach(d => {
-                            conclusionSegments.push(`${d.riskDesc} ${d.location}`);
-                        });
-                    }
-                }
-
-                let sentence = `Lésion${group.length > 1 ? 's' : ''} ${conclusionSegments.join(" et ")}.`;
-                conclusionSentences.push(sentence);
-            });
-            conclusionTxt = conclusionSentences.join("\n");
-            txt += conclusionTxt;
-        }
+        conclusionTxt = lines.join('\n');
+        txt += conclusionTxt;
     }
     
     currentReportData.conclusion = conclusionTxt;
@@ -850,10 +733,10 @@ async function copyFullReport() {
     let imgTag = "";
     let imgData = null;
     if (includeImage) {
-        imgData = canvas.toDataURL({ format: 'png', multiplier: 1.5, quality: 1 });
+        imgData = canvas.toDataURL({ format: 'png', multiplier: 2.5, quality: 1 });
         imgTag = `
             <p style="text-align: center; margin: 10px 0;">
-                <img src="${imgData}" style="max-width: 200px; height: auto;" alt="Schéma Prostatique">
+                <img src="${imgData}" style="max-width: 520px; height: auto;" alt="Schéma Prostatique">
             </p>`;
     }
 
@@ -872,7 +755,7 @@ async function copyFullReport() {
         <div style="font-family: Calibri, sans-serif; font-size: 11pt; color: #000;">
             <p><strong style="text-decoration: underline;">INDICATION</strong><br>${formatHTML(currentReportData.indication)}</p>
             <p><strong style="text-decoration: underline;">TECHNIQUE</strong><br>${formatHTML(currentReportData.technique)}</p>
-            <p><strong style="text-decoration: underline;">RÉSULTATS</strong><br>${resultatFinal}</p>
+            <p><strong style="text-decoration: underline;">RÉSULTAT</strong><br>${resultatFinal}</p>
             <p><strong style="text-decoration: underline;">CONCLUSION</strong><br><strong>${formatHTML(currentReportData.conclusion)}</strong></p>
         </div>
     `;
@@ -898,7 +781,7 @@ async function copyFullReport() {
 
 function copySchema() {
     canvas.discardActiveObject().renderAll();
-    const dataURL = canvas.toDataURL({ format: 'png', quality: 1, multiplier: 1 });
+    const dataURL = canvas.toDataURL({ format: 'png', quality: 1, multiplier: 2.5 });
     try {
         const byteString = atob(dataURL.split(',')[1]);
         const mimeString = dataURL.split(',')[0].split(':')[1].split(';')[0];
@@ -929,8 +812,9 @@ function fullReset() {
     [...lesions].forEach(l => removeLesion(l.internalId));
     uniqueIdCounter = 0;
     toggleVolInputs();
-    document.getElementById('zone-zp').value = '0';
-    document.getElementById('zone-zt').value = '0';
+    // Remettre les menus déroulants ZP / ZT sur la valeur par défaut "Quelques remaniements"
+    if (document.getElementById('zone-zp')) document.getElementById('zone-zp').value = 'quelques';
+    if (document.getElementById('zone-zt')) document.getElementById('zone-zt').value = 'quelques';
     updateReport();
 }
 </script>
@@ -941,3 +825,7 @@ function fullReset() {
 | focale modérée `+1 DCE` | <b>3</b> | hétérogène mal limité `+1 DWI ≥ 15 mm` |
 | marquée | <b>4</b> | signal intermédiaire homogène |
 | ≥ 15 mm ou EEP | <b>5</b> | ≥ 15 mm ou EEP |
+
+<figure markdown="span">
+    [![](assets/algoprostate.jpg){width=600"}](https://www.urofrance.org/recommandation/recommandations-francaises-du-comite-de-cancerologie-de-lafu-actualisation-2024-2026-cancer-de-la-prostate-diagnostic-et-prise-en-charge/#){:target="_blank"}
+</figure>
