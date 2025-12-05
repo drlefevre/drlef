@@ -27,6 +27,8 @@
     ```
 
     ``` title="IRM"
+    Séquences sagittale T1 et T2 STIR, ainsi que 3D T2.
+
     Lordose physiologique du rachis cervical conservée.
     Hauteurs somatiques et rapports articulaires conservés.
     Absence d’anomalie de la charnière cervico-occipitale.

@@ -2,27 +2,21 @@
 
 === "Hernie discale"
     ```
-    Séquences sagittales T1 et T2 Dixon, 3D T2 et coronale T2 STIR.
-
-    Pas d'anomalie transitionnelle de la charnière lombo-sacrée.
-    Pas de lésion de remplacement ostéomédullaire suspecte.
-    Projection du cône médullaire en regard de 
-    Pas d'anomalie de signal du cordon médullaire.
-    Respect de la hauteur des corps vertébraux.
-    Pas d'étroitesse constitutionnelle du canal lombaire.
-    Zygarthrose prédominant en
-
-    En L1-L2 : 
-    Intégrité du disque intevertébrale.
-    Pas de rétrécissement canalaire ou foraminal.
-
-    En L2-L3 : 
-
-    En L3-L4 : 
-
-    En L4-L5 : 
+    Séquences sagittale T1, sagittale et coronale T2 STIR, ainsi que 3D T2.
     
-    En L5-S1 : 
+    Dernier disque mobile nommé L5-S1.
+    Projection du cône médullaire en regard de L.
+    Pas de lésion de remplacement ostéomédullaire suspecte.
+    Respect de la hauteur des corps vertébraux.
+    Pas d'étroitesse constitutionnelle du canal.
+    Pas d'anomalie de signal du cordon médullaire.
+    Discopathie
+
+    En T12-L1 : Pas de rétrécissement canalaire ni foraminal.
+
+    En
+
+    En
     ```
 
     <figure markdown="span">
