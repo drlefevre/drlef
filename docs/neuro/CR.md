@@ -28,14 +28,13 @@
 
 === "céphalées"
     ``` title="IV+"
-    Séquences axiales diffusion, FLAIR, T1 SE, SWI, et TOF.
+    Séquences axiales diffusion, FLAIR, T1 SE, et T2*.
     Après injection de gadolinium, 3D T1 EG et axiale T1 SE.
 
     Structures de la ligne médiane en place.
     Intégrité des espaces liquidiens intra et péri-cérébraux.
     Pas de lésion ischémique ou hémorragique récente ni séquellaire.
     Perméabilité des sinus veineux péri-encéphaliques et des veines corticales.
-    Perméabilité des artères du polygone de Willis, sans image d'addition.
     Pas de signe d'hypertension ou d'hypotension intracrânienne.
     Absence d'anomalie de signal de la substance blanche.
     Respect de la trophicité cortico-sous-corticale.
@@ -71,8 +70,9 @@
     ```
 === "vertiges"
     ```
-    Séquences axiales diffusion et FLAIR à l'étage encéphalique.
-    Séquences centrées sur les conduits auditifs internes 3D T2 HR, axiales T1 SE sans puis après injection de gadolinium, et 3D T1 EG FS.
+    Séquences axiales diffusion, FLAIR et T2* à l'étage encéphalique.
+    Acquisition centrée sur les conduits auditifs internes en 3D T2 HR.
+    Séquences axiales T1 SE sans puis après injection de gadolinium, et 3D T1 EG FS.
 
     Etage supra-tentoriel :
     Structures de la ligne médiane en place.

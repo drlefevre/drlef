@@ -10,7 +10,7 @@
     Intégrité des espaces liquidiens intra et péri-cérébraux.
     ```
     ```title="moelle"
-    Séquences sagittale T2 STIR sur l'ensemble du cordon médullaire.
+    Séquence sagittale T2 STIR sur l'ensemble du cordon médullaire.
 
     Stabilité des lésions médullaires cervicales et thoraciques.
     Absence de nouvelle lésion décelable.
@@ -40,7 +40,7 @@
     Atrophie callosale : non
     ```
     ```title="moelle"
-    Séquences sagittale T2 STIR sur l'ensemble du cordon médullaire.
+    Séquence sagittale T2 STIR sur l'ensemble du cordon médullaire.
     ```
     ```
     Terminaison du cône médullaire en L1-L2.
