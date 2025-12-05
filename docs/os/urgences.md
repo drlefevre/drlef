@@ -7,12 +7,10 @@
     Dernier disque mobile nommé L5-S1.
     Projection du cône médullaire en regard de L.
     Pas de lésion de remplacement ostéomédullaire suspecte.
-    Respect de la hauteur des corps vertébraux.
+    Respect de la hauteur et bon alignement des corps vertébraux.
     Pas d'étroitesse constitutionnelle du canal.
-    Pas d'anomalie de signal du cordon médullaire.
-    Discopathie
 
-    En T12-L1 : Pas de rétrécissement canalaire ni foraminal.
+    En T12-L1, L1-L2, L2-L3, L3-L4, L4-L5, L5-S1 : Pas de rétrécissement canalaire ni foraminal.
 
     En
 
