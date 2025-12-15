@@ -3,7 +3,7 @@
 <p style="text-align: center"><a href="https://www.imaios.com/fr/login"target="_blank">imaios</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://radiopaedia.org/"target="_blank">radiopaedia</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.radrap.ch/comptesrendus"target="_blank">CR types</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://radref.org/ref.php"target="_blank">radref</a> <br> <a href="https://www.ccam-radiologie.fr/echographie-abdomen-pelvis/"target="_blank">ccam</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://aderim.radiologie.fr/"target="_blank">aderim</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.imaios.com/fr/e-mri/sequences/sequences-acronymes"target="_blank">acronymes séquences IRM</a>
 </br>rempl cima / elindo, Lens 1314, pass</p>
 
-=== "ABDO"
+=== "Abdo"
     ```
     Foie de taille et de morphologie normales, sans lésion focale.
     Tronc porte avec flux hépatopète et veines sus-hépatiques hépatofuges.
@@ -12,6 +12,7 @@
     Rate homogène de taille normale.
     Pas de dilatation des cavités pyélocalicielles.
     Reins de taille et de morphologie normales, sans lésion focale.
+    Absence de lésion individualisable dans le rétropéritoine médian.
     Vessie en faible réplétion, sans anomalie décelable.
     Pas d'épanchement péritonéal.
     ```
@@ -52,7 +53,7 @@
         [polypes cholestéroliques](https://radiopaedia.org/articles/gallbladder-cholesterol-polyps){:target="_blank"}  
     </figure>
 
-=== "CERV"
+=== "Cervical"
     ```
     Volumes des lobes droit et gauche estimés à  cc.
     Respect du gradient musculo-parenchymateux.
@@ -130,14 +131,13 @@
         [![](assets/ORL.jpg){width="700"}](https://www.sfdermato.org/media/pdf/fmc/kystes-et-fistules-43aafeeba119ceb9a20059d95f63e615.pdf){:target="_blank"}
     </figure>
 
-=== "PAROI"
+=== "Paroi"
     ```
     Examen debout lors de manœuvres de Valsalva répétées, puis en décubitus.
     
     Pas de hernie ou autre lésion inguinale décelable.
     Pas d'épanchement dans l'articulation coxo-fémorale.
-    Pas d'anomalie de l'enthèse du muscle long adducteur.
-    Pas d'épanchement ni de syndrome de masse dans le pelvis.
+    Pas d'ascite ni de syndrome de masse dans le pelvis.
     Vessie en semi-réplétion, à contenu anéchogène, sans anomalie pariétale.
     ```
     ```
@@ -236,7 +236,7 @@
     Contours réguliers. 
     Volume estimé à  cc.
     Protrusion intravésicale du lobe médian.
-    Intégrité du carrefour vésiculo-déférentiel.
+    Pas d'anomalie du carrefour vésiculo-déférentiel.
 
     Vessie post-mictionnelle :
     Résidu de  ml.
