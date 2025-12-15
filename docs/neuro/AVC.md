@@ -26,7 +26,7 @@
 
 === "TSA"
     ```
-    Séquences axiale diffusion, FLAIR, T2*, et T1 SE.
+    Séquences axiales diffusion, FLAIR, T2* et T1 SE.
     Après injection de gadolinium, ARM des TSA et séquence axiale T1 SE.
 
     
