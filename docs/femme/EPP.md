@@ -8,7 +8,7 @@ Endomètre en hypersignal T2 mesurant  mm.
 Intégrité de la zone jonctionnelle et du myomètre.
 
 Ovaires latéraux folliculaires mesurant à droite et gauche  mm.
-Pas d'endométriome ou d'implant hémorragique.
+Pas d'endométriome ni d'implant hémorragique.
 Pas de dilatation tubaire.
 
 Pas de nodule d'endométriose du torus ou des ligaments utéro-sacrés.
@@ -27,8 +27,18 @@ Pas d'adénomégalie.
     </br>→ extension faible ≤ 2 / modérée 3-4 / majeure ≥ 5
 </figure>
 
-!!! tip "**LUS** proximal (< 2 cm du torus)"
-    épaississement > 5 mm / nodule / rétraction spiculée / implant hémorragique
+!!! tip "[Endométriome](https://radiopaedia.org/articles/endometrioma){:target="_blank"} (implant hémorragique si ≤ 1 cm, aspécifique si isolé)"
+    - écho : **fin piqueté échogène homogène**, spots pariétaux hyper, ± septas, multiples++
+    - ± niveau liquide-liquide, caillot (déclive, mobile, avasculaire), **hématosalpinx**
+    - IRM : **HT1 ≥ graisse**, **shading** en T2 (HT2 20% voire hT2 si ancien)
+    - complications : décidualisation pdt grossesse, surinfection, transformation maligne
+    <figure markdown="span">
+        ![](assets/klh.jpg){width="400"}
+        DD **KLH** : couronne hypervascularisée et HT1 < graisse
+    </figure>
+
+!!! tip "**LUS** proximal (si critères non remplis « atteinte incertaine »)"
+    épaississement > 3 mm, nodulaire/spiculé dans 2 plans, implant hémorragique
 
 !!! tip "Atteinte digestive"
     - **adhérence**
@@ -36,8 +46,6 @@ Pas d'adénomégalie.
     - séreuse **+/-** musculeuse => rectosonographie en cas de décision chirurgicale
     - **musculeuse** : ép. +/- microkystes (largeur ? hauteur ? distance marge anale ? circonf ?)
     - **endoluminale** (préciser épaisseur et degré de sténose si coloscanner)
-
-!!! tip "KLH vs [endométriome => T1 sans FS plus hyper que la graisse]"
 
 !!! tip "Atteinte [diaphragmatique](https://services.medicalcongress.online/congress/Medias/2012/JFR2012-Posters/c1e19078-c57c-4f2d-bc40-5534e9a9e884/pdf/poster.pdf){:target="_blank"} (T1 FS sag et coro)"
     - dl thoraciques ou scapulalgies cataméniales, **pneumothorax**/hémothorax

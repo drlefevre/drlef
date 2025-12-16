@@ -47,3 +47,9 @@ Pas d'anomalie des noyaux gris centraux.
     ![](assets/DLFT.jpg){width="500"}
     gliose hyperFLAIR en regard de l'atrophie
 </figure>
+
+!!! tip "[Angiopathie amyloïde](https://radiopaedia.org/articles/cerebral-amyloid-angiopathy-1){:target="_blank"} : critères de [Boston 2.0](https://radiopaedia.org/articles/boston-criteria-20-for-cerebral-amyloid-angiopathy){:target="_blank"}"
+    - **≥ 50 ans** + hémorragie intracérébrale / TNC / tb neuro focaux transitoires
+    - lésions hémorragiques lobaires = hématome / microsaignement / sidérose corticale
+    - **AA probable = ≥ 2 lésions** OU 1 seule + EPV dilatés sévères / multispots SB (> 10)
+    - DD = microangiopathie hypertensive (microsaignements prédominants dans les NGC)
