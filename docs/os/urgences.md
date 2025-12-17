@@ -25,11 +25,25 @@
         Etroitesse constitutionnelle relative si diam. ant.-post. < 12 mm voire absolue < 10 mm  
         Sténose minime : LCS visible, modérée : peu visible, sévère : ∅ LCS, extrême : ∅ graisse épidurale  
         </br>
-        ![](assets/hernieanat.jpg){width="450"}  
+        ![](assets/hernieanat.jpg){width="450"}
         </br>
         ![](assets/modic.jpg){width="350"}
         **Modic** I = inflammatoire « œdémateux », II = involution graisseuse, III = fibrose
     </figure>
+
+    ``` mermaid
+    graph TD
+        A[Symptôme principal ?] --> B[Lombalgie]
+        A --> C[Radiculalgie]
+        A --> D[Claudication]
+
+        B -->|médiane| H[discopathie</br>Baastrup]
+        B -->|latéralisée| I[AAP]
+        B -->|musculaire| J[scoliose]
+
+        C --> K[HD</br>kyste articulaire</br>sténose foraminale]
+        D --> L[canal étroit]
+    ```
 
 === "Tendon d'Achille"
     ```
