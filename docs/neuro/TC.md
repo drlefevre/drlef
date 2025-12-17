@@ -10,15 +10,28 @@ Pas de lésion osseuse post-traumatique.
 
 <figure markdown="span">
     </br>
-    ![](assets/lefort.jpg){width="680"}  
+    ![](assets/lefort.jpg){width="680"}
+    --------------- **ssi # apophyse ptérygoïde** ---------------  
+    Le Fort 2 et 3 /!\ brèche ostéo-méningée et fistule carotido-caverneuse  
+    </br>
+    ![](assets/CNEMFO.jpg){width="700"}
+    fracture frontale associée ++, /!\ nerf alvéolaire inférieur (V2)   
+    </br>
+    ![](assets/zygoma.jpg){width="800"}
+    muscle masséter => déplacement ++  
+    </br>
+    ![](assets/mandibule.jpg){width="800"}
+    bifocale dans 30% des cas, /!\ nerf alvéolaire inférieur (V3)  
     </br>
     ![](assets/rocher.jpg){width="300"}
-    <p style="color:orange;">80% longitudinale</p> hémotympan, luxation uncudo-malléaire, PFP </br> = extralabyrinthique++ +/- # tegmen
-    <p style="color:red;">20% transversale</p> cophose, vertiges, PFP, /!\ translabyrinthique ++  
-    </br></br>
-    ![](assets/mandibule.jpg){width="400"}
-    bifocale dans 30% des cas  
-    </br></br>
+</figure>
+
+| <div style="color:orange;"> 80% longitudinale </div> | <div style="color:red;"> 20% transversale </div>   |
+| :----------: | :-------: |
+| hémotympan, luxation uncudo-malléaire, PFP | cophose, vertiges, PFP |
+| extralabyrinthique ++ ± # tegmen | /!\ translabyrinthique ++ |
+
+<figure markdown="span">
     [Trauma **dent**aire](https://www.maxilloclic.com/traumatisme-sur-dent-definitive){:target="_blank"}  
     </br>
     [C'est quoi ce truc dans l'**œil**](https://onclepaul.fr/wp-content/uploads/2011/07/C_est-quoi-ce-truc-dans-l_oeil-JFR-2018.pdf){:target="_blank"}  
@@ -32,4 +45,3 @@ Pas de lésion osseuse post-traumatique.
     - méningite infectieuse / carcinomateuse
     - hyperoxygénation (FiO2 = 100%)
     - injection récente de gadolinium
-

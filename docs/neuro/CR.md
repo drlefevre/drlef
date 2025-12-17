@@ -28,8 +28,8 @@
 
 === "céphalées"
     ``` title="IV+"
-    Séquences axiales diffusion, FLAIR, T1 SE, et T2*.
-    Après injection de gadolinium, 3D T1 EG et axiale T1 SE.
+    Séquences axiales diffusion, FLAIR, T1 SE et SWI.
+    Après injection de gadolinium, ARM veineuse, 3D T1 EG et axiale T1 SE.
 
     Structures de la ligne médiane en place.
     Intégrité des espaces liquidiens intra et péri-cérébraux.
