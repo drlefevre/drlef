@@ -13,21 +13,50 @@ Trophicité conservée des faisceaux puborectaux et iliococcygien du muscle rele
 Du point de vue dynamique :
 Compartiment antérieur :
 Compartiment moyen :
-Compartiement postérieur :
+Compartiment postérieur :
 - Pas de rectocèle antérieure.
 - Respect de la cloison rectovaginale.
 - Pas de prolapsus muqueux intracanalaire.
 ```
 
-!!! tip "Grades de sévérité"
-    -  **cysto/hystéro/péritonéocèle** = minime 1-3 cm, modérée 3-6 cm, sévère > 6 cm
-        - hypermobilité urétrale = horizontalisation > 30° + col sous la LPC
-        - trigonoptose = bandelette sous-urétrale
-    - **rectocèle antérieure** = physiologique < 2 cm, modérée 2-4 cm, sévère > 4 cm
-        - anisme = fermeture paradoxale de l'angle anorectal en poussée
-        - intussusception = intra-rectale < intra-anale < extra-anale
+<figure markdown="span">
+    Examen réussi si **vidange rectale**  
+    Echec => défécographie (position assise)  
+</figure>
 
+| Grades | cystocèle/hystérocèle/péritonéocèle vaginale |
+| :---: | :---: | 
+| 1 | intra-vaginal | 
+| 2 | affleure l'introitus |
+| 3 | extériorisé | 
+
+!!! tip "**Rectocèle** antérieure = rétentionniste ?"
     <figure markdown="span">
-        ![](assets/lignes.jpg){width="500"}
+        ![](assets/rectocele.jpg){width="250"}
+        significative si > 2 cm de profondeur
     </figure>
 
+!!! tip "**Prolapsus rectal** (intussusception) = obstructif ?"
+    <figure markdown="span">
+        grade 1 physiologique = intra-rectal
+        ![](assets/prolapsus rectal.jpg){width="750"}
+        2 = affleure le canal anal, 3 = intra-anal, 4 = extériorisé  
+        → même gradation pour les **péritonéocèles rectales**
+    </figure>
+
+!!! tip "**Asynchronisme ano-rectal** = anisme "
+    <figure markdown="span">
+        ![](assets/anisme.jpg){width="250"}
+        fermeture paradoxale du muscle élévateur en poussée
+    </figure>
+
+!!! tip "**Périnée descendant** "
+    <figure markdown="span">
+        ![](assets/perinee descendant.jpg){width="250"}
+        > 6 cm sous la ligne pubo-coccygienne
+    </figure>
+
+!!! warning "Complications"
+    - dilatation des uretères
+    - allongement hypertrophique lèvre antérieure col (> 3 cm)
+    - ulcère solitaire du rectum (pseudopolypoïde face antérieure)

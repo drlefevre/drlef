@@ -9,12 +9,13 @@
     Pas de lésion endocavitaire décelable.
 
     Pas de dilatation tubaire.
-    Ovaires latéraux, folliculaires, de taille normale.
+    Ovaire droit latéro-utérin, folliculaire, 
+    Ovaire gauche latéro-utérin, folliculaire, 
     Pas d'épanchement pelvien significatif.
     Pas de dilatation des cavités pyélocalicielles.
     ```
 
-    | Score | [ORADS US](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS--Ultrasound-v2022-Assessment-Categories.pdf){:target="_blank"} (IRM si > 7 cm ou ≥ score 3)|
+    | Score | [O-RADS US](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS--Ultrasound-v2022-Assessment-Categories.pdf){:target="_blank"} (IRM si > 7 cm ou ≥ score 3)|
     | :--- | :--- |
     | <span style="background-color: #90ee90; color: black; padding: 2px 6px; font-weight: bold;">2</span> | • Kyste simple / KLH / dermoïde / endométriome **< 10 cm**<br>• Kyste para-ovarien, faux kyste péritonéal, hydrosalpinx | 
     | <span style="background-color: #ffff00; color: black; padding: 2px 6px; font-weight: bold;">3</span> | • Kyste uni ou biloculaire / KLH / dermoïde / endométriome ≥ 10 cm<br>• Kyste uniloculaire à paroi irrégulière < 3 mm<br>• Kyste **multiloculaire sans atypie < 10 cm**<br> | 
@@ -64,31 +65,31 @@
     ```
 
     <figure markdown="span">
-        [ORADS IRM](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS-MRI-Risk-Score-Assessment.pdf){:target="_blank"} 
+        [O-RADS IRM](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS-MRI-Risk-Score-Assessment.pdf){:target="_blank"} 
     </figure>
 
     ``` mermaid
     graph TD
-        B[Implant péritonéal ?] -->|OUI| R5(ORADS 5)
+        B[Implant péritonéal ?] -->|OUI| R5(O-RADS 5)
         B -->|NON| C[Contenu graisseux ?]
         
-        C -->|OUI| R2a(ORADS 2)
+        C -->|OUI| R2a(O-RADS 2)
         C -->|NON| E[Nodule/végétation ?]
         
         E -->|OUI| F[HypoT2 + hypoDWI ?]
-        F -->|OUI| R2b(ORADS 2)
+        F -->|OUI| R2b(O-RADS 2)
         F -->|NON| G[Perfusion]
         
-        G -->|Type 1| R3a(ORADS 3)
-        G -->|Type 2| R4(ORADS 4)
-        G -->|Type 3| R5b(ORADS 5)
+        G -->|Type 1| R3a(O-RADS 3)
+        G -->|Type 2| R4(O-RADS 4)
+        G -->|Type 3| R5b(O-RADS 5)
         
         E -->|NON| H[Multiloculaire ?]
-        H -->|OUI| R3b(ORADS 3)
+        H -->|OUI| R3b(O-RADS 3)
         H -->|NON| I[Uniloculaire]
 
-        I -->|eau/endométriome| R2c(ORADS 2)
-        I -->|pus/sang/colloïde/mucine| R3c(ORADS 3)
+        I -->|eau/endométriome| R2c(O-RADS 2)
+        I -->|pus/sang/colloïde/mucine| R3c(O-RADS 3)
 
         style R2a fill:#90ee90,stroke:#333,stroke-width:2px
         style R2b fill:#90ee90,stroke:#333,stroke-width:2px

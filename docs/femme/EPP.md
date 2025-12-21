@@ -1,7 +1,7 @@
 # Endométriose  
 
 ```
-Séquences 3D T2, 3D T1 Dixon, et axiale T2 jusqu'aux reins.
+Séquences axiale et sagittale T2, axiale T1 Dixon, et axiale T2 EG jusqu'aux reins.
 
 Utérus antéversé antéfléchi mesurant  mm.
 Endomètre en hypersignal T2 mesurant  mm.
