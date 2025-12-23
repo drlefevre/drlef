@@ -5,17 +5,18 @@ Après balisage vaginal et rectal, séquence 3D T2, séquences sagittale T2 dyna
 
 Du point de vue morphologique : 
 Utérus antéversé antéfléchi mesurant  mm.
-Endomètre en hypersignal T2, millimétrique.
-Ovaires latéro-utérins fibreux.
-Pas de syndrome de masse ni d'adénomégalie dans le pelvis.
-Trophicité conservée des faisceaux puborectaux et iliococcygien du muscle releveur de l'anus.
+Endomètre en hypersignal T2 d'épaisseur millimétrique.
+Ovaires latéro-utérins fibreux, sans syndrome de masse.
+Pas d'panchement ni d'adénomégalie dans le pelvis.
+Trophicité du muscle releveur de l'anus.
 
 Du point de vue dynamique :
 Compartiment antérieur :
 Compartiment moyen :
+- Pas de descente de l'utérus.
+- Respect de la cloison rectovaginale.
 Compartiment postérieur :
 - Pas de rectocèle antérieure.
-- Respect de la cloison rectovaginale.
 - Pas de prolapsus muqueux intracanalaire.
 ```
 

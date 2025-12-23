@@ -141,7 +141,7 @@
     Vessie en semi-réplétion, à contenu anéchogène, sans anomalie pariétale.
     ```
     ```
-    Examen debout lors de manœuvres de Valsalva répétées.
+    Examen debout lors de manœuvres de Valsalva répétées, puis en décubitus.
     
     Hernie inguinale
 

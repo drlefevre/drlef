@@ -12,6 +12,7 @@ nav:
     - Prolapsus: femme/prolapsus.md
     - Pelviscanner: femme/pelviscanner.md
     - Malformations: femme/malformations.md
+    - Puberté précoce: femme/puberte.md
   - Thorax:
     - Urgences: thorax/ep.md
     - Nodules: thorax/nodules.md
@@ -82,6 +83,7 @@ nav:
     - Prostate: outils/prostate.md
     - NASCET: outils/nascet.md
     - Volumes: outils/volumes.md
+    - Pas venu: outils/pasvenu.md
     - Fleischner: outils/fleischner.md
     - Biométrie neuropédiatrie: outils/biometrie.md
 

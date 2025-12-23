@@ -5,8 +5,7 @@ Confrontation fœto-pelvienne.
 ```
 ```
 Acquisition basse dose centrée sur le pelvis.
-```
-```
+
 Diamètre promonto-rétropubien :  cm (N > 10,5 cm)
 Diamètre transverse médian :  cm (N > 12,5 cm)
 Indice de Magnin (PRP + TM) :  (favorable si > 23)
