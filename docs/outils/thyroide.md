@@ -20,23 +20,9 @@
         </select>
     </div>
 
-    <div style="display:grid; grid-template-columns: 1fr 1fr; gap:0.6rem;">
-        <div style="background: var(--md-code-bg-color); padding: 5px; border-radius: 4px; border: 1px solid #ddd;">
-            <div style="font-size: 0.8rem; margin-bottom: 4px; text-align: center;">Lobe droit (mm)</div>
-            <div style="display: flex; gap: 4px;">
-                <input id="ld1" type="number" placeholder="" oninput="updateReport()">
-                <input id="ld2" type="number" placeholder="" oninput="updateReport()">
-                <input id="ld3" type="number" placeholder="" oninput="updateReport()">
-            </div>
-        </div>
-        <div style="background: var(--md-code-bg-color); padding: 5px; border-radius: 4px; border: 1px solid #ddd;">
-             <div style="font-size: 0.8rem; margin-bottom: 4px; text-align: center;">Lobe gauche (mm)</div>
-             <div style="display: flex; gap: 4px;">
-                <input id="lg1" type="number" placeholder="" oninput="updateReport()">
-                <input id="lg2" type="number" placeholder="" oninput="updateReport()">
-                <input id="lg3" type="number" placeholder="" oninput="updateReport()">
-            </div>
-        </div>
+    <div class="pair">
+        <input id="ld" type="number" inputmode="decimal" placeholder="Lobe droit (cc)" oninput="updateReport()" />
+        <input id="lg" type="number" inputmode="decimal" placeholder="Lobe gauche (cc)" oninput="updateReport()" />
     </div>
 
   </div>
@@ -86,9 +72,8 @@
   border: 1px solid var(--md-default-fg-color--lighter); 
   border-radius: .4rem; background: var(--md-code-bg-color);
   font-size: .8rem; color: var(--md-default-fg-color);
-  margin: 0; 
+  margin: 0; text-align: center;
 }
-.box input {text-align: center; background: #ffffff;}
 .box input:focus, .box select:focus { border-color: var(--md-default-fg-color--light); }
 
 /* Masquer les flèches (spinners) dans les inputs number */
@@ -421,15 +406,8 @@ function removeNodule(internalId) {
 
 function updateReport() {
     // 1. Volumes Lobes
-    const ld1 = document.getElementById('ld1').value;
-    const ld2 = document.getElementById('ld2').value;
-    const ld3 = document.getElementById('ld3').value;
-    const volD = getVolume(ld1, ld2, ld3).toFixed(0);
-
-    const lg1 = document.getElementById('lg1').value;
-    const lg2 = document.getElementById('lg2').value;
-    const lg3 = document.getElementById('lg3').value;
-    const volG = getVolume(lg1, lg2, lg3).toFixed(0);
+    const volD = document.getElementById('ld').value;
+    const volG = document.getElementById('lg').value;
 
     let txt = `Volumes des lobes droit et gauche estimés à ${volD} et ${volG} cc.\n`;
 

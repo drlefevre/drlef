@@ -101,7 +101,7 @@
   border: 1px solid var(--md-default-fg-color--lighter); 
   border-radius: .4rem; background: var(--md-code-bg-color);
   font-size: .8rem; color: var(--md-default-fg-color);
-  margin: 0;
+  margin: 0; text-align: center;
 }
 .box input:focus, .box select:focus { border-color: var(--md-default-fg-color--light); }
 

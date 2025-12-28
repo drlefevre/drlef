@@ -19,7 +19,7 @@
     | :--- | :--- |
     | <span style="background-color: #c4e538; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">2</span> | • Kyste simple / KLH / dermoïde / endométriome **< 10 cm**<br>• Kyste para-ovarien, faux kyste péritonéal, hydrosalpinx | 
     | <span style="background-color: #FFD966; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">3</span> | • Kyste uni ou biloculaire / KLH / dermoïde / endométriome ≥ 10 cm<br>• Kyste uniloculaire à paroi irrégulière < 3 mm<br>• Kyste **multiloculaire sans atypie < 10 cm**<br> | 
-    | <span style="background-color: #FFA500; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">4</span> | • Kyste multiloculaire sans portion solide ≥ 10 cm / cloisons très vascularisées / paroi ou cloisons irrégulières<br>• Kyste multiloculaire avec portion solide faiblement vascularisée<br>• Kyste uniloculaire avec **0-3 végétations**<br>• Masse **solide modérément vascularisée** |
+    | <span style="background-color: #FFA500; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">4</span> | • Kyste multiloculaire sans portion solide ≥ 10 cm / cloisons très vascularisées / paroi ou cloisons irrégulières<br>• Kyste multiloculaire avec portion solide faiblement vascularisée<br>• Kyste uniloculaire avec **1-3 végétations**<br>• Masse **solide modérément vascularisée** |
     | <span style="background-color: #ff0000; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">5</span> | • Kyste uniloculaire **≥ 4 végétations**<br>• Portion solide **très vascularisée** / de **contours irréguliers**<br>• **Ascite** (en dehors des masses ORADS 2) / **implants péritonéaux** |
 
     !!! tip "Caractérisation"
@@ -108,8 +108,11 @@
         [![](assets/courbes.jpg){width="650"}](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS-MRI-Risk-Score-Assessment.pdf){:target="_blank"}
     </figure>
 
+=== "caractérisation"
 
-=== "TDM"
+
+
+=== "bilan d'extension TDM"
 
     ```
     Masse annexielle
