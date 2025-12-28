@@ -342,7 +342,7 @@ function addLesionRow(internalId) {
     
     let btns = PIRADS_CONF.map(p => {
         let sel = (p.k === '3') ? 'selected' : ''; 
-        return `<div class="pi-btn ${p.cls} ${sel}" data-key="${p.k}" onclick="setLesionScore(${internalId}, '${p.k}')">${p.lbl}</div>`;
+        return `<div class="pi-btn ${p.cls} ${sel}" data-key="${p.k}" onmousedown="setLesionScore(${internalId}, '${p.k}')">${p.lbl}</div>`;
     }).join('');
 
     row.innerHTML = `
@@ -351,8 +351,8 @@ function addLesionRow(internalId) {
         <div class="pirads-selector">${btns}</div>
         
         <div class="zone-selector">
-            <div class="zone-btn selected" onclick="setLesionZoneType(${internalId}, 'ZP', this)">ZP</div>
-            <div class="zone-btn" onclick="setLesionZoneType(${internalId}, 'ZT', this)">ZT</div>
+            <div class="zone-btn selected" onmousedown="setLesionZoneType(${internalId}, 'ZP', this)">ZP</div>
+            <div class="zone-btn" onmousedown="setLesionZoneType(${internalId}, 'ZT', this)">ZT</div>
         </div>
 
         <div class="lesion-inputs-wrapper" style="grid-template-columns: 1fr 1fr 1fr;">
@@ -361,7 +361,7 @@ function addLesionRow(internalId) {
             <input type="number" class="lesion-input" id="likert-${internalId}" placeholder="Likert" min="1" max="5" oninput="updateLesionDataTemp(${internalId})" onblur="updateLesionData(${internalId})" />
         </div>
         
-        <button class="trash-btn" onclick="removeLesion(${internalId})"><i class="fas fa-trash"></i></button>
+        <button class="trash-btn" onmousedown="removeLesion(${internalId})"><i class="fas fa-trash"></i></button>
     `;
     container.appendChild(row);
 }
@@ -447,7 +447,9 @@ function sortAndRenameLesions() {
                 }
             });
 
-            container.appendChild(row); 
+            if (container.children[index] !== row) {
+                container.appendChild(row);
+            }
         }
     });
     
@@ -779,31 +781,39 @@ async function copyFullReport() {
     }
 }
 
-function copySchema() {
+async function copySchema() {
+    // 1. Désélectionner les objets pour ne pas voir les cadres de sélection
     canvas.discardActiveObject().renderAll();
-    const dataURL = canvas.toDataURL({ format: 'png', quality: 1, multiplier: 2.5 });
+
+    // 2. Générer l'image (multiplier: 2 permet d'avoir une image nette même réduite)
+    const imgData = canvas.toDataURL({ 
+        format: 'png', 
+        multiplier: 2.5, 
+        quality: 1 
+    });
+
+    // 3. Créer le contenu HTML avec la contrainte de largeur
+    const htmlContent = `
+        <img src="${imgData}" style="max-width: 500px; height: auto; display: block;" alt="Schéma Thyroïde">
+    `;
+
     try {
-        const byteString = atob(dataURL.split(',')[1]);
-        const mimeString = dataURL.split(',')[0].split(':')[1].split(';')[0];
-        const ab = new ArrayBuffer(byteString.length);
-        const ia = new Uint8Array(ab);
-        for (let i = 0; i < byteString.length; i++) {
-            ia[i] = byteString.charCodeAt(i);
-        }
-        const blob = new Blob([ab], {type: mimeString});
-        const item = new ClipboardItem({ [mimeString]: blob });
-        navigator.clipboard.write([item]).then(() => {
-            const btn = document.querySelector('button[onclick="copySchema()"]');
-            if(btn) {
-                const originalHtml = btn.innerHTML;
-                btn.innerHTML = '<i class="fas fa-check"></i>';
-                setTimeout(() => btn.innerHTML = originalHtml, 1500);
-            }
-        });
-    } catch (e) {
-        console.error(e);
-        // Fallback image seule simple (juste alert car execCommand image est complexe)
-        alert("Erreur copie image (HTTPS requis). Essayez 'Copier CR + Schéma' qui a une méthode de secours.");
+        // 4. Préparer les formats pour le presse-papier
+        const blobHtml = new Blob([htmlContent], { type: 'text/html' });
+        // Fallback texte simple si le HTML n'est pas supporté
+        const blobText = new Blob(["[Schéma Prostate]"], { type: 'text/plain' });
+
+        const data = [new ClipboardItem({ 
+            'text/html': blobHtml, 
+            'text/plain': blobText 
+        })];
+
+        // 5. Écrire dans le presse-papier
+        await navigator.clipboard.write(data);
+        
+    } catch (err) {
+        console.error(err);
+        alert("Erreur de copie (HTTPS requis).");
     }
 }
 
@@ -821,10 +831,10 @@ function fullReset() {
 
 | ZP = DWI | [PI-RADS](https://radiologyassistant.nl/abdomen/prostate/prostate-cancer-pi-rads-v2-1){:target="_blank"}  |  ZT = T2 |
 | :----------: | :-------: | :----------: |
-| linéaire/angulaire | <b>2</b> | ∅capsule/incomplète `+1 DWI marquée` | 
-| focale modérée `+1 DCE` | <b>3</b> | hétérogène mal limité `+1 DWI ≥ 15 mm` |
-| marquée | <b>4</b> | signal intermédiaire homogène |
-| ≥ 15 mm ou EEP | <b>5</b> | ≥ 15 mm ou EEP |
+| linéaire/angulaire | <span style="background-color: #c4e538; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">2</span> | ∅capsule/incomplète `+1 DWI marquée` | 
+| focale modérée `+1 DCE` | <span style="background-color: #FFD966; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">3</span> | hétérogène mal limité `+1 DWI ≥ 15 mm` |
+| marquée | <span style="background-color: #FFA500; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">4</span> | signal intermédiaire homogène |
+| ≥ 15 mm ou EEP | <span style="background-color: #FF0000; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">5</span> | ≥ 15 mm ou EEP |
 
 <figure markdown="span">
     [![](assets/algoprostate.jpg){width=600"}](https://www.urofrance.org/recommandation/recommandations-francaises-du-comite-de-cancerologie-de-lafu-actualisation-2024-2026-cancer-de-la-prostate-diagnostic-et-prise-en-charge/#){:target="_blank"}

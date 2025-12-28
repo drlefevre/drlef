@@ -17,10 +17,10 @@
 
     | Score | [O-RADS US](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS--Ultrasound-v2022-Assessment-Categories.pdf){:target="_blank"} (IRM si > 7 cm ou ≥ score 3)|
     | :--- | :--- |
-    | <span style="background-color: #90ee90; color: black; padding: 2px 6px; font-weight: bold;">2</span> | • Kyste simple / KLH / dermoïde / endométriome **< 10 cm**<br>• Kyste para-ovarien, faux kyste péritonéal, hydrosalpinx | 
-    | <span style="background-color: #ffff00; color: black; padding: 2px 6px; font-weight: bold;">3</span> | • Kyste uni ou biloculaire / KLH / dermoïde / endométriome ≥ 10 cm<br>• Kyste uniloculaire à paroi irrégulière < 3 mm<br>• Kyste **multiloculaire sans atypie < 10 cm**<br> | 
-    | <span style="background-color: #ffa500; color: black; padding: 2px 6px; font-weight: bold;">4</span> | • Kyste multiloculaire sans portion solide ≥ 10 cm / cloisons très vascularisées / paroi ou cloisons irrégulières<br>• Kyste multiloculaire avec portion solide faiblement vascularisée<br>• Kyste uniloculaire avec **0-3 végétations**<br>• Masse **solide modérément vascularisée** |
-    | <span style="background-color: #ff0000; color: black; padding: 2px 6px; font-weight: bold;">5</span> | • Kyste uniloculaire **≥ 4 végétations**<br>• Portion solide **très vascularisée** / de **contours irréguliers**<br>• **Ascite** (en dehors des masses ORADS 2) / **implants péritonéaux** |
+    | <span style="background-color: #c4e538; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">2</span> | • Kyste simple / KLH / dermoïde / endométriome **< 10 cm**<br>• Kyste para-ovarien, faux kyste péritonéal, hydrosalpinx | 
+    | <span style="background-color: #FFD966; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">3</span> | • Kyste uni ou biloculaire / KLH / dermoïde / endométriome ≥ 10 cm<br>• Kyste uniloculaire à paroi irrégulière < 3 mm<br>• Kyste **multiloculaire sans atypie < 10 cm**<br> | 
+    | <span style="background-color: #FFA500; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">4</span> | • Kyste multiloculaire sans portion solide ≥ 10 cm / cloisons très vascularisées / paroi ou cloisons irrégulières<br>• Kyste multiloculaire avec portion solide faiblement vascularisée<br>• Kyste uniloculaire avec **0-3 végétations**<br>• Masse **solide modérément vascularisée** |
+    | <span style="background-color: #ff0000; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">5</span> | • Kyste uniloculaire **≥ 4 végétations**<br>• Portion solide **très vascularisée** / de **contours irréguliers**<br>• **Ascite** (en dehors des masses ORADS 2) / **implants péritonéaux** |
 
     !!! tip "Caractérisation"
         === "kyste uniloculaire"
@@ -49,7 +49,7 @@
 
     ```
     Séquences T2 dans les trois plans centrées sur le pelvis.
-    Acquisitions axiales T1 Dixon, diffusion et T2 jusqu'aux reins.
+    Acquisitions 3D T1 Dixon, ainsi que axiales diffusion et T2 jusqu'aux reins.
     Après injection de gadolinium, séries dynamiques axiales T1 FS et 3D T1 FS tardif.
 
     Ovaires droit latéro-utérin folliculaire mesurant  mm.
@@ -64,17 +64,13 @@
     Pas de dilatation des cavités pyélo-calicielles.
     ```
 
-    <figure markdown="span">
-        [O-RADS IRM](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS-MRI-Risk-Score-Assessment.pdf){:target="_blank"} 
-    </figure>
-
     ``` mermaid
     graph TD
-        B[Implant péritonéal ?] -->|OUI| R5(O-RADS 5)
+        B[Implants péritonéaux ?] -->|OUI| R5(O-RADS 5)
         B -->|NON| C[Contenu graisseux ?]
         
         C -->|OUI| R2a(O-RADS 2)
-        C -->|NON| E[Nodule/végétation ?]
+        C -->|NON| E[Portion tissulaire ?*]
         
         E -->|OUI| F[HypoT2 + hypoDWI ?]
         F -->|OUI| R2b(O-RADS 2)
@@ -86,26 +82,30 @@
         
         E -->|NON| H[Multiloculaire ?]
         H -->|OUI| R3b(O-RADS 3)
-        H -->|NON| I[Uniloculaire]
+        H -->|NON| I[Uniloculaire cf. tableau]
 
         I -->|eau/endométriome| R2c(O-RADS 2)
         I -->|pus/sang/colloïde/mucine| R3c(O-RADS 3)
 
-        style R2a fill:#90ee90,stroke:#333,stroke-width:2px
-        style R2b fill:#90ee90,stroke:#333,stroke-width:2px
-        style R2c fill:#90ee90,stroke:#333,stroke-width:2px
-        style R3a fill:#ffff00,stroke:#333,stroke-width:2px
-        style R3b fill:#ffff00,stroke:#333,stroke-width:2px
-        style R3c fill:#ffff00,stroke:#333,stroke-width:2px
-        style R4 fill:#ffa500,stroke:#333,stroke-width:2px
+        style R2a fill:#c4e538,stroke:#333,stroke-width:2px
+        style R2b fill:#c4e538,stroke:#333,stroke-width:2px
+        style R2c fill:#c4e538,stroke:#333,stroke-width:2px
+        style R3a fill:#FFD966,stroke:#333,stroke-width:2px
+        style R3b fill:#FFD966,stroke:#333,stroke-width:2px
+        style R3c fill:#FFD966,stroke:#333,stroke-width:2px
+        style R4 fill:#FFA500,stroke:#333,stroke-width:2px
         style R5 fill:#ff0000,stroke:#333,stroke-width:2px
         style R5b fill:#ff0000,stroke:#333,stroke-width:2px
     ```
 
     <figure markdown="span">
+    [O-RADS IRM et caractérisation](https://onlinelibrary.wiley.com/doi/epdf/10.1002/jmri.28947){:target="_blank"}  
+    \*végétation, nodule, cloisons ou parois irrégulières  
+    lésion considérée **solide si composante tissulaire > 80%**  
+    **végétation** = tumeur épithéliale / **graisse** = tumeur germinale (tératome)  
     </br>
-        [![](assets/courbes.jpg){width="650"}](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS-MRI-Risk-Score-Assessment.pdf){:target="_blank"}  
-        **végétation** = tumeur épithéliale / **graisse** = tumeur germinale (tératome)
+        ![](assets/uniloculaire.jpg){width="750"}  
+        [![](assets/courbes.jpg){width="650"}](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS-MRI-Risk-Score-Assessment.pdf){:target="_blank"}
     </figure>
 
 

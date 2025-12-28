@@ -54,63 +54,10 @@
     </figure>
 
 === "Cervical"
-    ```
-    Volumes des lobes droit et gauche estimés à  cc.
-    Respect du gradient musculo-parenchymateux.
-    Pas d'hypervascularisation au Doppler.
-    Pas d'anomalie du tractus thyréoglosse.    
-    Pas d'adénopathie dans les secteurs II, III, IV et VI.
-    Echostructure thyroïdienne homogène sans image nodulaire.
-    ```
-    ```
-    Comparaison à l'échographie de
-    
-    Volumes des lobes droit et gauche estimés à  cc.
-    Respect du gradient musculo-parenchymateux.
-    Pas d'hypervascularisation au Doppler.
-
-    Nodule EU-TIRADS
-    Nodule EU-TIRADS
-    Nodule EU-TIRADS
-    Pas d'autre image nodulaire significative.
-    Pas d'adénopathie dans les secteurs II, III, IV et VI.
-    ```
     <figure markdown="span">
-        [![](assets/tirads5.jpg){width="700"}](https://cdn-radeos.fra1.digitaloceanspaces.com/capsule/24/resources/capsule-24-ressource-36-comment-faire-et-interpreter-une-echographie-thyroidienne.pdf){:target="_blank"}
-        [![](assets/TIRADS.jpg){width="700"}](https://cireol.net/wp-content/uploads/2017/05/2017-CIREOL-EUTIRADS.pdf){:target="_blank"}
-        contours irréguliers = au moins 3 lobulations/spicules, microcalcifications = au moins 5  
-        nodule EU-TIRADS 3 ≤ 2 cm ou 4 ≤ 1,5 cm => surveillance à 1a, puis 2-3a plus tard, puis 5a  
-        <b>4-10 cc/lobe</b> (< 9 cc ♀ et < 8 cc ado), Doppler < 40 cm/s,  20% [lobe pyramidal](https://radiopaedia.org/articles/pyramidal-lobe-of-thyroid){:target="_blank"}
-        </br>↗ taille significative +2 mm dans 2 diam. / 50% en volume => [cytoponction](https://lamediatheque.radiologie.fr/mediatheque/media.aspx?mediaId=2896&channel=3277){:target="_blank"}
+        [Thyroïde](outils/thyroide.md)  
     </figure>
-    === "Basedow"
-        - goitre hypoéchogène **homogène**, Ac anti-récepteur de la TSH (TRAK)
-        - hypervascularisation intense **> 1 m/s** ("thyroid inferno" > 50% parenchyme)
-        - récidive : plus hétérogène et moins vascularisé
-        <figure markdown="span">
-            ![](assets/Basedow.jpg){width="500"}
-        </figure>
-    === "Hashimoto"
-        - goitre hypoéchogène **micronodulaire**, Ac anti-TPO +/- anti-Tg
-        - hypervascularisation modérée **< 1 m/s**
-        - suivi/an, travées fibreuses hyperécho, /!\ lymphome/cancer
-        <figure markdown="span">
-            ![](assets/Hashimoto.jpg){width="500"}
-        </figure>
-    === "De Quervain"
-        - contexte viral, douloureux
-        - plages hypoéchogènes mal limitées peu vascularisées
-        - contrôle à M3 si pseudonodulaire
-        <figure markdown="span">
-            ![](assets/Quervain.jpg){width="500"}
-        </figure>
-    === "Hyperpara"
-        - 80% [adénome](https://radiopaedia.org/articles/parathyroid-adenoma){:target="_blank"} parathyroïdien > 15% hyperplasie > 5% carcinome
-        - nodule hypoéchogène homogène > 1 cm + hyperhémie
-        - à confronter à scintigraphie MIBI / TEP choline
-        <figure markdown="span">
-            ![](assets/hyperpara.jpg){width="500"}
-        </figure>
+
     ```
     Pas d'image lithiasique ni de dilatation canalaire dans les glandes sous-mandibulaires.
     Pas de lésion focale dans le lobe superficiel des glandes parotides.

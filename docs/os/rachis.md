@@ -65,7 +65,7 @@
         </br>
         ![](assets/Risser.jpg){width="450"}
         évolution à la puberté **jusqu'à Risser 3**  
-        +/- après la ménopause (scoliose dégénérative)
+        (Risser 1 à 13-14 ans pour les filles et 15-16 ans pour les garçons)
     </figure>
 
 
