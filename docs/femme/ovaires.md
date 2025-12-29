@@ -17,15 +17,19 @@
 
     | Score | [O-RADS US](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS--Ultrasound-v2022-Assessment-Categories.pdf){:target="_blank"} (IRM si > 7 cm ou ≥ score 3)|
     | :--- | :--- |
-    | <span style="background-color: #c4e538; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">2</span> | • Kyste simple / KLH / dermoïde / endométriome **< 10 cm**<br>• Kyste para-ovarien, faux kyste péritonéal, hydrosalpinx | 
+    | <span style="background-color: #c4e538; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">2</span> | • Kyste simple\* / KLH / dermoïde / endométriome **< 10 cm**<br>• Kyste para-ovarien, faux kyste péritonéal, hydrosalpinx | 
     | <span style="background-color: #FFD966; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">3</span> | • Kyste uni ou biloculaire / KLH / dermoïde / endométriome ≥ 10 cm<br>• Kyste uniloculaire à paroi irrégulière < 3 mm<br>• Kyste **multiloculaire sans atypie < 10 cm**<br> | 
     | <span style="background-color: #FFA500; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">4</span> | • Kyste multiloculaire sans portion solide ≥ 10 cm / cloisons très vascularisées / paroi ou cloisons irrégulières<br>• Kyste multiloculaire avec portion solide faiblement vascularisée<br>• Kyste uniloculaire avec **1-3 végétations**<br>• Masse **solide modérément vascularisée** |
     | <span style="background-color: #ff0000; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">5</span> | • Kyste uniloculaire **≥ 4 végétations**<br>• Portion solide **très vascularisée** / de **contours irréguliers**<br>• **Ascite** (en dehors des masses ORADS 2) / **implants péritonéaux** |
 
+    <figure markdown="span">
+       *si > 3 cm / 1 cm si post-ménopause
+    </figure>
+
     !!! tip "Caractérisation"
         === "kyste uniloculaire"
             - contrôle **M12 si > 5 cm** (fonctionnel++), **IRM si > 7 cm**
-            - cystadénome séreux bénin = contrôle à 1 an si > 3 cm post-ménopause
+            - [cystadénome séreux](https://radiopaedia.org/articles/ovarian-serous-cystadenoma?lang=gb){:target="_blank"} (bilatéral 20%) = contrôle à 1 an si > 3 cm post-ménopause
             - pseudokyste péritonéal = déformable, post-op/IGH, ± dystrophie macroantrale
         === "liquidien impur"
             - **endométriome** = isoéchogène = IRM (hyperT1 > graisse, shading T2)
@@ -160,11 +164,13 @@
     Cadre osseux sans lésion suspecte.
     ```
 
-    !!! info "[**FIGO**](http://oncologik.fr/referentiels/dsrc/ovaire#3.Classifications%202018%20FIGO%20et%20TNM%20(8%C3%A8me%20%C3%A9dition)%20des%20tumeurs%20%C3%A9pith%C3%A9liales%20de%20l'ovaire,%20trompes%20et%20p%C3%A9riton%C3%A9ales%20primitives){:target="_blank"} (TDM TAP + laparoscopie = 70% découvert stade ≥ III)"
-        * I = tumeur limitée aux ovaires/trompes
-        * II = carcinose péritonéale pelvienne
-        * III = carcinose péritonéale extra-pelvienne / ADP rétropé
-        * IV = méta à distance (pleurale, foie, gg inguinal, nodule ombilical, dig transmurale)
+    !!! tip "**carcinose extra-pelvienne** = grand omentum > coupole droite > gouttières paracoliques"
+
+    !!! info "[**FIGO**](http://oncologik.fr/referentiels/dsrc/ovaire#3.Classifications%202018%20FIGO%20et%20TNM%20(8%C3%A8me%20%C3%A9dition)%20des%20tumeurs%20%C3%A9pith%C3%A9liales%20de%20l'ovaire,%20trompes%20et%20p%C3%A9riton%C3%A9ales%20primitives){:target="_blank"} (TDM TAP + laparoscopie = 75% découvert stade ≥ III)"
+        * **I** = tumeur limitée aux ovaires/trompes
+        * **II** = carcinose péritonéale pelvienne
+        * **III** = carcinose péritonéale extra-pelvienne / ADP rétropé
+        * **IV** = méta à distance (pleurale, foie, gg inguinal, nodule ombilical, dig transmurale)
 
     !!! warning "Critères de **non résécabilité** => chimio néoadjuvante"
         * ADP > veines rénales (au-delà du curage)

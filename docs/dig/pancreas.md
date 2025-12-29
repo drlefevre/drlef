@@ -66,6 +66,8 @@
         - 15% péritoine / gg à distance
         - 5% poumons
 
+    !!! tip "causes **carcinose** = pancréas, estomac, CCR, ovaires, sein (lobulaire)"
+
 
 === "TNE"
     <figure markdown="span">
