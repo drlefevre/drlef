@@ -108,9 +108,42 @@
         [![](assets/courbes.jpg){width="650"}](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS-MRI-Risk-Score-Assessment.pdf){:target="_blank"}
     </figure>
 
-=== "caractérisation"
 
+=== "O-RADS 1"
 
+    ``` mermaid
+    graph TD
+        A[<b>Ovaires pseudo-tumoraux</b>] --> B(pathologie folliculaire)
+        A --> C(perturbation du stroma ovarien)
+
+        B -->|pelvis adhérentiel| D(dystrophie<br>macro-antrale)
+        B -->|PMA| E(sd d'hyperstim)
+
+        C -->|torsion<br>méta<br>insuff <3| F(œ massif)
+        C -->|atcd torsion<br>atcd chir.| G(fibromatose)
+        C -->|♀ ménopausée<br>bilatérale| H(hyperplasie<br>stromale)
+
+        H -->|hyperandrogénie| I(hyperthécose)
+    ```
+   
+    <figure markdown="span">
+    </figure>
+
+    | Masses non ovariennes | tissulaires | kystiques | 
+    | :---: | :---: | :---: | 
+    | `Utérine` | myome FIGO 7 | myome kystique | 
+    | `Digestive` | GIST, adk app | mucocèle app | 
+    | `Péritonéale` | TFS | kyste mésothélial, lymphangiome | 
+
+    <figure markdown="span">
+    </figure>
+
+    ``` mermaid
+    graph TD
+        A[<b>Nodules péritonéaux</b>] -->|atcd EPP| B(EPP pseudo-tumorale)
+        A -->|DIU| C(actinomycose)
+        A -->|Maghreb| D(tuberculose)
+    ```
 
 === "bilan d'extension TDM"
 
