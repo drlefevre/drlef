@@ -70,23 +70,23 @@
 
     ``` mermaid
     graph TD
-        B[Implants péritonéaux ?] -->|OUI| R5(O-RADS 5)
-        B -->|NON| C[Contenu graisseux ?]
+        B(Implants péritonéaux ?) -->|OUI| R5(O-RADS 5)
+        B -->|NON| C(Contenu graisseux ?)
         
         C -->|OUI| R2a(O-RADS 2)
-        C -->|NON| E[Portion tissulaire ?*]
+        C -->|NON| E(Portion tissulaire ?*)
         
-        E -->|OUI| F[HypoT2 + hypoDWI ?]
+        E -->|OUI| F(HypoT2 + hypoDWI ?)
         F -->|OUI| R2b(O-RADS 2)
-        F -->|NON| G[Perfusion]
+        F -->|NON| G(Perfusion)
         
         G -->|Type 1| R3a(O-RADS 3)
         G -->|Type 2| R4(O-RADS 4)
         G -->|Type 3| R5b(O-RADS 5)
         
-        E -->|NON| H[Multiloculaire ?]
+        E -->|NON| H(Multiloculaire ?)
         H -->|OUI| R3b(O-RADS 3)
-        H -->|NON| I[Uniloculaire cf. tableau]
+        H -->|NON| I(Uniloculaire cf. tableau)
 
         I -->|eau/endométriome| R2c(O-RADS 2)
         I -->|pus/sang/colloïde/mucine| R3c(O-RADS 3)
