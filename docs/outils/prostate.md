@@ -62,8 +62,14 @@
               <button type="button" class="action-btn" onclick="addLesionVisual()">
                 <i class="fas fa-plus"></i> Lésion
               </button>
-              <button type="button" class="action-btn" onclick="copySchema()">
+              <button type="button" class="action-btn" id="btn-copy-schema" onclick="copySchema()" title="Copier le schéma">
                 <i class="fas fa-copy"></i>
+              </button>
+              <button type="button" class="action-btn" id="btn-download-schema" onclick="downloadSchema()" title="Télécharger le schéma">
+                <i class="fas fa-download"></i>
+              </button>
+              <button type="button" class="action-btn" onclick="copyReportOnly()" title="Copier le compte-rendu sans schéma" id="btn-copy-cr">
+                CR
               </button>
           </div>
       </div>
@@ -624,7 +630,7 @@ function updateReport() {
     }
     resTxt += "\n\n";
 
-    resTxt += "<i>Par ailleurs :</i>\nVésicules séminales symétriques d'aspect normal.\nPas d'épaississement significatif du détrusor.\nPas de dilatation des cavités pyélocalicielles.\nPas d'adénopathie pelvienne significative.\nPas de lésion osseuse suspecte.";
+    resTxt += "Par ailleurs :\nVésicules séminales symétriques d'aspect normal.\nPas d'épaississement significatif du détrusor.\nPas de dilatation des cavités pyélocalicielles.\nPas d'adénopathie pelvienne significative.\nPas de lésion osseuse suspecte.";
     
     currentReportData.resultat = resTxt;
     txt += resTxt;
@@ -735,7 +741,7 @@ async function copyFullReport() {
     let imgTag = "";
     let imgData = null;
     if (includeImage) {
-        imgData = canvas.toDataURL({ format: 'png', multiplier: 2.5, quality: 1 });
+        imgData = canvas.toDataURL({ format: 'png', multiplier: 3, quality: 1 });
         imgTag = `
             <p style="text-align: center; margin: 10px 0;">
                 <img src="${imgData}" style="max-width: 520px; height: auto;" alt="Schéma Prostatique">
@@ -785,10 +791,10 @@ async function copySchema() {
     // 1. Désélectionner les objets pour ne pas voir les cadres de sélection
     canvas.discardActiveObject().renderAll();
 
-    // 2. Générer l'image (multiplier: 2 permet d'avoir une image nette même réduite)
+    // 2. Générer l'image
     const imgData = canvas.toDataURL({ 
         format: 'png', 
-        multiplier: 2.5, 
+        multiplier: 3, 
         quality: 1 
     });
 
@@ -811,9 +817,58 @@ async function copySchema() {
         // 5. Écrire dans le presse-papier
         await navigator.clipboard.write(data);
         
+        // Feedback visuel sur le bouton "Copier schéma"
+        try {
+            const btn = document.getElementById('btn-copy-schema');
+            if (btn) {
+                const original = btn.innerHTML;
+                btn.innerHTML = '<i class="fas fa-check"></i> Copié';
+                btn.style.borderColor = 'green'; btn.style.color = 'green';
+                setTimeout(() => { btn.innerHTML = original; btn.style.borderColor = ''; btn.style.color = ''; }, 1800);
+            }
+        } catch (e) { /* silent */ }
+        
     } catch (err) {
         console.error(err);
         alert("Erreur de copie (HTTPS requis).");
+    }
+}
+
+// Télécharger le schéma en PNG
+function downloadSchema() {
+    canvas.discardActiveObject().renderAll();
+    const imgData = canvas.toDataURL({ format: 'png', multiplier: 3, quality: 1 });
+    const a = document.createElement('a');
+    a.href = imgData;
+    a.download = 'schema-prostate.png';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    // Feedback visuel sur le bouton "Télécharger"
+    try {
+        const btn = document.getElementById('btn-download-schema');
+        if (btn) {
+            const original = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-check"></i> Téléchargé';
+            btn.style.borderColor = 'green'; btn.style.color = 'green';
+            setTimeout(() => { btn.innerHTML = original; btn.style.borderColor = ''; btn.style.color = ''; }, 1800);
+        }
+    } catch (e) { /* silent */ }
+}
+
+// Copier uniquement le compte-rendu texte (sans schéma)
+async function copyReportOnly() {
+    const text = (currentReportData && currentReportData.text) ? currentReportData.text : document.getElementById('report-text').value || '';
+    try {
+        await navigator.clipboard.writeText(text);
+        const btn = document.getElementById('btn-copy-cr');
+        const original = btn.innerHTML;
+        btn.innerHTML = '<i class="fas fa-check"></i> Copié';
+        btn.style.borderColor = 'green'; btn.style.color = 'green';
+        setTimeout(() => { btn.innerHTML = original; btn.style.borderColor = ''; btn.style.color = ''; }, 1800);
+    } catch (err) {
+        console.error(err);
+        alert('Erreur de copie (HTTPS requis).');
     }
 }
 

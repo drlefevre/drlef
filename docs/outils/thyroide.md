@@ -9,9 +9,19 @@
     
     <div class="pair">
         <select id="echostructure" onchange="updateReport()">
-            <option value="hyper_homogene" selected>Hyperéchogène homogène</option>
-            <option value="hypo_homogene">Hypoéchogène homogène</option>
-            <option value="hypo_micro">Hypoéchogène micronodulaire</option>
+            <option value="hyper" selected>Hyperéchogène</option>
+            <option value="hypo">Hypoéchogène</option>
+        </select>
+        <select id="aspect" onchange="updateReport()">
+            <option value="homo" selected>Homogène</option>
+            <option value="heter">Hétérogène</option>
+        </select>
+    </div>
+
+    <div class="pair">
+        <select id="contours" onchange="updateReport()">
+            <option value="reguliers" selected>Contours réguliers</option>
+            <option value="lobules">Contours lobulés</option>
         </select>
         <select id="vascularisation" onchange="updateReport()">
             <option value="none" selected>Pas d'hypervascularisation</option>
@@ -34,8 +44,14 @@
               <button type="button" class="action-btn" onclick="addNoduleVisual()">
                 <i class="fas fa-plus"></i> Nodule
               </button>
-              <button type="button" class="action-btn" onclick="copySchema()">
+              <button type="button" class="action-btn" id="btn-copy-schema" onclick="copySchema()" title="Copier le schéma">
                 <i class="fas fa-copy"></i>
+              </button>
+              <button type="button" class="action-btn" id="btn-download-schema" onclick="downloadSchema()" title="Télécharger le schéma">
+                <i class="fas fa-download"></i>
+              </button>
+              <button type="button" class="action-btn" onclick="copyReportOnly()" title="Copier le compte-rendu sans schéma" id="btn-copy-cr">
+                CR
               </button>
           </div>
       </div>
@@ -95,7 +111,7 @@ input[type=number] { -moz-appearance: textfield; }
     box-shadow: 0 2px 4px -1px rgba(0,0,0,0.1); 
     
     width: 100%;           /* Largeur par défaut (mobile) */
-    max-width: 500px;      /* <--- AJOUTER CECI (400px, 450px ou 500px selon votre goût) */
+    max-width: 450px;      /* <--- AJOUTER CECI (400px, 450px ou 500px selon votre goût) */
 }
 .canvas-controls {
     display: flex; justify-content: center; gap: 8px; padding: 5px;
@@ -411,11 +427,20 @@ function updateReport() {
 
     let txt = `Volumes des lobes droit et gauche estimés à ${volD} et ${volG} cc.\n`;
 
-    // 2. Echostructure
+    // 2. Echostructure et contours
     const echoVal = document.getElementById('echostructure').value;
     let echoTxt = "Echostructure hyperéchogène homogène.";
-    if(echoVal === 'hypo_homogene') echoTxt = "Echostructure hypoéchogène homogène.";
-    if(echoVal === 'hypo_micro') echoTxt = "Echostructure hypoéchogène micronodulaire.";
+    if(echoVal === 'hyper') echoTxt = "Echostructure hyperéchogène";
+    if(echoVal === 'hypo') echoTxt = "Echostructure hypoéchogène";
+
+    const aspectVal = document.getElementById('aspect').value;
+    if(aspectVal === 'homo') echoTxt += " homogène";
+    if(aspectVal === 'heter') echoTxt += " hetérogène"; 
+
+    const contoursVal = document.getElementById('contours').value;
+    if(contoursVal === 'reguliers') echoTxt += " avec contours réguliers.";
+    if(contoursVal === 'lobules') echoTxt += " avec contours lobulés."; 
+
     txt += echoTxt + "\n";
 
     // 3. Vascularisation
@@ -475,7 +500,7 @@ async function copyFullReport() {
         let imgData = canvas.toDataURL({ format: 'png', multiplier: 3, quality: 1 });
         imgTag = `
             <p style="text-align: center; margin: 10px 0;">
-                <img src="${imgData}" style="max-width: 320px; height: auto;" alt="Schéma Thyroïde">
+                <img src="${imgData}" style="max-width: 300px; height: auto;" alt="Schéma Thyroïde">
             </p>`;
     }
 
@@ -520,10 +545,10 @@ async function copySchema() {
     // 1. Désélectionner les objets pour ne pas voir les cadres de sélection
     canvas.discardActiveObject().renderAll();
 
-    // 2. Générer l'image (multiplier: 2 permet d'avoir une image nette même réduite)
+    // 2. Générer l'image
     const imgData = canvas.toDataURL({ 
         format: 'png', 
-        multiplier: 2, 
+        multiplier: 3, 
         quality: 1 
     });
 
@@ -545,10 +570,58 @@ async function copySchema() {
 
         // 5. Écrire dans le presse-papier
         await navigator.clipboard.write(data);
-        
+
+        // Feedback visuel sur le bouton "Copier schéma"
+        try {
+            const btn = document.getElementById('btn-copy-schema');
+            if (btn) {
+                const original = btn.innerHTML;
+                btn.innerHTML = '<i class="fas fa-check"></i> Copié';
+                btn.style.borderColor = 'green'; btn.style.color = 'green';
+                setTimeout(() => { btn.innerHTML = original; btn.style.borderColor = ''; btn.style.color = ''; }, 1800);
+            }
+        } catch (e) { /* silent */ }
     } catch (err) {
         console.error(err);
         alert("Erreur de copie (HTTPS requis).");
+    }
+}
+
+// Télécharger le schéma en PNG
+function downloadSchema() {
+    canvas.discardActiveObject().renderAll();
+    const imgData = canvas.toDataURL({ format: 'png', multiplier: 3, quality: 1});
+    const a = document.createElement('a');
+    a.href = imgData;
+    a.download = 'schema-thyroide.png';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    // Feedback visuel sur le bouton "Télécharger"
+    try {
+        const btn = document.getElementById('btn-download-schema');
+        if (btn) {
+            const original = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-check"></i> Téléchargé';
+            btn.style.borderColor = 'green'; btn.style.color = 'green';
+            setTimeout(() => { btn.innerHTML = original; btn.style.borderColor = ''; btn.style.color = ''; }, 1800);
+        }
+    } catch (e) { /* silent */ }
+}
+
+// Copier uniquement le compte-rendu texte (sans schéma)
+async function copyReportOnly() {
+    const text = (currentReportData && currentReportData.text) ? currentReportData.text : document.getElementById('report-text').value || '';
+    try {
+        await navigator.clipboard.writeText(text);
+        const btn = document.getElementById('btn-copy-cr');
+        const original = btn.innerHTML;
+        btn.innerHTML = '<i class="fas fa-check"></i> Copié';
+        btn.style.borderColor = 'green'; btn.style.color = 'green';
+        setTimeout(() => { btn.innerHTML = original; btn.style.borderColor = ''; btn.style.color = ''; }, 1800);
+    } catch (err) {
+        console.error(err);
+        alert('Erreur de copie (HTTPS requis).');
     }
 }
 
