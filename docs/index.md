@@ -234,7 +234,7 @@
         0-1-2 sous-muqueux &nbsp;&nbsp;&nbsp; 3-4-5 intramuraux &nbsp;&nbsp;&nbsp; 6-7 sous-séreux  
         > 5 myomes ou > 5 cm => IRM
     </figure> 
-    !!! tip "[Endomètre](https://cglre.org/endometre-page-1/){:target="_blank"} (ménopause ≤ 5 mm, ≤ 10 mm si THS)"
+    !!! tip "[Endomètre](https://cglre.org/endometre-page-1/){:target="_blank"} (ménopause < 5 mm, < 10 mm si THS)"
         - phase menstruelle J1-4 = hyperéchogène 1-4 mm
         - proliférative J5-13 = hypoéchogène 5-9 mm
         - ovulatoire J14 = aspect en cible 10 mm
@@ -247,8 +247,12 @@
     </figure>
     !!! tip "[Adénomyose interne](https://cglre.org/adenomyose1/){:target="_blank"} = 40% des femmes"
         - focale/diffuse superficielle/profonde (cut-off 1/3 myomètre)
-        - IRM = microkystes sous-endométriaux, **ZJ > 11 mm** ou > 40% du myomètre
+        - IRM = microkystes sous-endométriaux ± sang, **ZJ ≥ 12 mm** et > 40% du myomètre
         - écho = utérus globuleux, **interface floue** endo/myomètre, microlacunes myométriales
+        <figure markdown="span">
+            [![](assets/adenomyose.jpg){width="800"}](https://obgyn.onlinelibrary.wiley.com/doi/full/10.1002/uog.14806){:target="_blank"}  
+            (a) épaississement asymétrique, (b) microkystes, (c) plages hyperéchogènes, (d) cônes d'ombre radiaires, (e) aspect strié, (f) vascularisation translésionnelle, (g) zone jonctionnelle irrégulière ou interrompue (h)
+        </figure>
     
     !!! tip "[Tamoxifène](https://radiopaedia.org/articles/tamoxifen-associated-endometrial-changes-2){:target="_blank"}"
         - **épaississement glandulo-kystique** de l'endomètre (mais /!\ K RR 1,6)

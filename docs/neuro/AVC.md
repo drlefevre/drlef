@@ -2,7 +2,7 @@
 
 === "ischémique"
     ```
-    Séquences axiales diffusion, FLAIR, T2* et TOF.
+    Séquences axiales diffusion, FLAIR, T2* et 3D TOF.
 
     Absence de lésion ischémique ou hémorragique récente.
     Absence de flux de lent ou de thrombus décelable.

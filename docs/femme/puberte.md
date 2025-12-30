@@ -1,4 +1,4 @@
-# Puberté précoce
+# [Puberté précoce](https://dumas.ccsd.cnrs.fr/dumas-01371881/document){:target="_blank"}
 
 ```
 Reins de taille et de morphologie normales.
@@ -12,9 +12,9 @@ Vessie en faible réplétion sans anomalie. Pas d'épanchement péritonéal.
 | :---: | :---: |:---: |
 | `longueur utérus` | < 35 mm | > 45 mm |
 | `morphologie` | tubulaire | piriforme |
-| `rapport corps/col` | ≤ 1 | > 1 |
+| `épaisseur corps/col` | ≤ 1 | > 1 |
 | `endomètre` | non visible | épaissi |
-| `ovaires` | < 1 ml | > 2 ml |
+| `ovaires` | < 25 mm / < 1 ml | > 25 mm / > 2 ml |
 | `follicules` | rares et < 5 mm | multiples |
 
 !!! warning "Tumeur ovarienne sécrétant des œstrogènes ?"
