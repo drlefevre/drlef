@@ -184,4 +184,5 @@
     !!! danger "Variantes anatomiques pour **curage lombo-aortique**"
         * veine rénale rétro-aortique
         * duplication urétérale
+        * artère rénale polaire
 

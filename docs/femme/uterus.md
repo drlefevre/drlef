@@ -11,10 +11,22 @@
     Pas d'adénomégalie pelvienne ou lomboaortique.
     Pas de dilatation des cavités pyélo-calicielles.
     ```
+
+    <figure markdown="span">
+        ![](assets/figo.jpg){width="730"}
+        > 5 myomes / > 5 cm => IRM  
+        <br>
+        ![](assets/myomes.jpg){width="670"}
+        **Si Hdiff ≥ endomètre => gado** pour ROI ADC dans composante rehaussée  
+        <br>
+        /!\ [léiomyosarcome](https://radiopaedia.org/articles/uterine-leiomyosarcoma){:target="_blank"} si T2 intermédiaire hétérogène, ADC < 0.9,  
+        ménopausée, contours irréguliers, T1 hémorragique hétérogène 
+    </figure>
+
 === "K endomètre"
     ```
     Séquences T2 sagittale et axiale perpendiculaire au corps utérin.
-    Acquisitions axiale T1 Dixon, sagittale diffusion et axiale T2 jusqu'aux reins.
+    Acquisitions axiale T1 Dixon, axiale diffusion, et axiale T2 jusqu'aux reins.
     Après injection de gadolinium, séries dynamiques axiales T1 FS et 3D T1 FS tardif.
 
     Utérus antéversé antéfléchi mesurant  mm.
@@ -31,12 +43,27 @@
     Pas de dilatation des cavités pyélocalicielles.
     Pas de variante anatomique de la veine rénale gauche.
     ```
-    <p style="text-align: center"><a href="http://oncologik.fr/referentiels/dsrc/uterus-corps-endometre#12.Classification%20FIGO%202023"target="_blank">FIGO</a></p>
+    
+    | [FIGO](http://oncologik.fr/referentiels/dsrc/uterus-corps-endometre#12.Classification%20FIGO%202023){:target="_blank"} | *ssi preuve histologique* | 
+    | :--- | :--- | 
+    | **Stade I** | **cancer limité au corps utérin** | 
+    | **A** | invasion < 50% profondeur du myomètre | 
+    | **B** | ≥ 50% |
+    | **Stade II** | **envahissement du stroma cervical** | 
+    | **Stade  III** | **extension adjacente** | 
+    | **A** | séreuse utérine / annexes | 
+    | **B** | vagin / paramètres | 
+    | **C** | **C1** gg pelviens / **C2** lombo-aortiques |
+    | **Stade IV** | **extension** | |
+    | **A** | vessie / intestin |
+    | **B** | méta péritoine abdominal |
+    | **C** | méta foie, os, poumons, gg inguinaux ou sus-rénaux |
+  
 === "K col"
     ```
+    Balisage vaginal pour évaluer l'atteinte vaginale.
     Séquences T2 sagittale et axiale perpendiculaire au col utérin.
-    Acquisitions axiale T1 Dixon, sagittale diffusion et axiale T2 jusqu'aux reins.
-    Après injection de gadolinium, séries dynamiques axiales T1 FS et 3D T1 FS tardif.
+    Acquisitions axiale et sagittale diffusion, et axiale T2 jusqu'aux reins.
 
     Masse centrée sur le col utérin mesurant  mm.
     Pas d'extension aux paramètres, au vagin, ni à l'isthme utérin.
@@ -51,11 +78,20 @@
     Pas de dilatation des cavités pyélocalicielles.
     Pas de variante anatomique de la veine rénale gauche.
     ```
-    <p style="text-align: center"><a href="http://oncologik.fr/referentiels/interregion/uterus-col#5.Classification%20FIGO%20(2018)"target="_blank">FIGO</a></p>
 
-<figure markdown="span">
-    ![](assets/figo.jpg){width="730"}
-    > 5 myomes / > 5 cm => IRM
-    ![](assets/myomes.jpg){width="670"}
-    /!\ [léiomyosarcome](https://docteurimago.fr/formation/congres/the-better-check-un-acronyme-pour-mieux-differencier-le-leiomyosarcome-du-leiomyome-atypique/){:target="_blank"} si > 45 ans, T2 intermédiaire hétérogène, contours nodulaires, </br> T1 hémorragique hétérogène, ADC < 0.9, nécrose centrale, > 10 cm
-</figure>
+    | [FIGO](http://oncologik.fr/referentiels/interregion/uterus-col#5.Classification%20FIGO%20(2018)){:target="_blank"} | *ssi preuve histologique* | 
+    | :--- | :--- | 
+    | **Stade I** | **cancer limité au col** | 
+    | **A** | non visible en IRM | 
+    | **B** | **B1** < 2 cm / **B2** < 4 cm / **B3** ≥ 4 cm |
+    | **Stade II** | **extension extra-cervicale** | 
+    | **A** | **A1** ≤ 4 cm, **A2** > 4 cm | 
+    | **B** | paramètres |
+    | **Stade  III** | **paroi pelvienne** | 
+    | **A** | tiers inférieur du vagin | 
+    | **B** | paroi pelvienne / hydronéphrose | 
+    | **C** | **C1** gg pelviens / **C2** lombo-aortiques |
+    | **Stade IV** | **extension** | |
+    | **A** | vessie / rectum |
+    | **B** | méta péritoine, foie, os, poumons, gg inguinaux ou sus-rénaux |
+
