@@ -5,7 +5,7 @@ Balisage vaginal.
 Séquences T2 dans les 3 plans, axiale et sagittale T1 Dixon, et axiale T2 EG jusqu'aux reins.
 
 Utérus antéversé antéfléchi mesurant  mm.
-Endomètre en hypersignal T2 mesurant  mm.
+Endomètre en hypersignal T2 mesurant  mm d'épaisseur.
 Intégrité de la zone jonctionnelle et du myomètre.
 
 Ovaires latéraux folliculaires mesurant à droite et gauche  mm.

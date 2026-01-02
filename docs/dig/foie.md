@@ -18,7 +18,7 @@
     Foie de taille et de morphologie normale, sans stéatose.
     Vésicule biliaire en réplétion, à parois fines, sans lithiase.
     Pas de dilatation des voies biliaires intra ni extra-hépatiques.
-    Perméabilité des vaisseaux hépatiques afférents et efferents.
+    Perméabilité des vaisseaux hépatiques afférents et efférents.
     Pas d'adénomégalie ni d'ascite sur le volume exploré.
     Rate de taille normale. Pas de voie de dérivation porto-systémique.
     Pancréas d'aspect normal, sans lésion focale, ni dilatation du Wirsung.

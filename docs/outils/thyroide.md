@@ -272,7 +272,7 @@ function addNoduleVisual() {
     
     // Valeurs par défaut : TIRADS 3
     nodules.push({ 
-        internalId: internalId, fabricObj: group, 
+        internalId: internalId, fabricObjs: [group], 
         tiradsKey: '3', val: 3,
         d1: '', d2: '', d3: ''
     });
@@ -294,6 +294,8 @@ function addNoduleRow(internalId) {
     }).join('');
 
     row.innerHTML = `
+        <button class="tirads-btn" onmousedown="moveNoduleUp(${internalId})" title="Monter">▲</button>
+        <button class="tirads-btn" onmousedown="moveNoduleDown(${internalId})" title="Descendre">▼</button>
         <div class="nodule-name">N?</div>
         
         <div class="tirads-selector">${btns}</div>
@@ -317,8 +319,12 @@ function setNoduleScore(id, key) {
     n.tiradsKey = key;
     n.val = conf.v;
 
-    if(n.fabricObj) {
-        n.fabricObj.item(0).set('fill', conf.c);
+    if(n.fabricObjs || n.fabricObj) {
+        if (Array.isArray(n.fabricObjs)) {
+            n.fabricObjs.forEach(obj => { try { obj.item(0).set('fill', conf.c); } catch(e){} });
+        } else if (n.fabricObj) {
+            n.fabricObj.item(0).set('fill', conf.c);
+        }
         canvas.requestRenderAll();
     }
     
@@ -358,64 +364,79 @@ function getVolume(d1, d2, d3) {
 }
 
 function sortAndRenameNodules() {
-    // 1. Tri des données
-    nodules.sort((a, b) => {
-        if (b.val !== a.val) return b.val - a.val;
-        return getMaxDim(b) - getMaxDim(a);
-    });
-
+    // Ne pas trier automatiquement : conserver l'ordre d'ajout dans `nodules`.
     const container = document.getElementById('nodule-rows-container');
 
-    // 2. Mise à jour visuelle
+    // Mise à jour visuelle et numérotation selon l'ordre actuel du tableau
     nodules.forEach((n, index) => {
         const newLabel = "N" + (index + 1);
         n.label = newLabel;
-        
-        // MAJ Canvas
-        if (n.fabricObj) { 
-            n.fabricObj.item(1).set('text', newLabel); 
-            n.fabricObj.addWithUpdate(); 
+
+        // MAJ Canvas (tous les objets associés)
+        if (n.fabricObjs || n.fabricObj) {
+            if (Array.isArray(n.fabricObjs)) {
+                n.fabricObjs.forEach(obj => { try { obj.item(1).set('text', newLabel); obj.addWithUpdate(); } catch(e){} });
+            } else if (n.fabricObj) {
+                n.fabricObj.item(1).set('text', newLabel);
+                n.fabricObj.addWithUpdate();
+            }
         }
-        
+
         // MAJ DOM
         const row = document.getElementById(`nodule-row-${n.internalId}`);
-        
-        if(row) { 
-            row.querySelector('.nodule-name').innerText = newLabel; 
-            
+        if(row) {
+            row.querySelector('.nodule-name').innerText = newLabel;
+
             // Bordure couleur
             let conf = TIRADS_CONF.find(c => c.k === n.tiradsKey);
             if(conf) row.style.borderLeftColor = conf.c;
-            
+
             // Boutons actifs
             const btns = row.querySelectorAll('.tirads-btn');
             btns.forEach(b => {
                 b.classList.remove('selected');
-                if(b.getAttribute('data-key') === n.tiradsKey) {
-                    b.classList.add('selected');
-                }
+                if(b.getAttribute('data-key') === n.tiradsKey) b.classList.add('selected');
             });
-            
-            // --- OPTIMISATION ---
-            // On ne déplace la ligne que si elle n'est pas déjà au bon endroit.
-            // Cela évite de "tuer" les événements de clic en cours.
+
             if (container.children[index] !== row) {
                 container.appendChild(row);
             }
         }
     });
-    
+
     canvas.requestRenderAll();
     updateReport();
 }
 
 function removeNodule(internalId) {
     const nObj = nodules.find(l => l.internalId === internalId);
-    if(nObj) canvas.remove(nObj.fabricObj);
+    if(nObj) {
+        if (Array.isArray(nObj.fabricObjs)) {
+            nObj.fabricObjs.forEach(obj => { try { canvas.remove(obj); } catch(e){} });
+        } else if (nObj.fabricObj) {
+            canvas.remove(nObj.fabricObj);
+        }
+    }
     const row = document.getElementById(`nodule-row-${internalId}`);
     if(row) row.remove();
     nodules = nodules.filter(l => l.internalId !== internalId);
     sortAndRenameNodules();
+}
+
+function moveNoduleUp(internalId) {
+    const idx = nodules.findIndex(l => l.internalId === internalId);
+    if (idx > 0) {
+        [nodules[idx - 1], nodules[idx]] = [nodules[idx], nodules[idx - 1]];
+        sortAndRenameNodules();
+    }
+}
+
+function moveNoduleDown(internalId) {
+    const idx = nodules.findIndex(l => l.internalId === internalId);
+    if (idx >= 0 && idx < nodules.length - 1) {
+        [nodules[idx + 1], nodules[idx]] = [nodules[idx], nodules[idx + 1]];
+        sortAndRenameNodules();
+    }
 }
 
 // --- GENERATION RAPPORT ---
@@ -481,7 +502,7 @@ function updateReport() {
         });
     }
 
-    txt += "Pas d'adénopathie dans les secteurs II, III, IV et VI.\n\n";
+    txt += "Pas de ganglion suspect dans les secteurs II, III, IV et VI.\n\n";
 
     currentReportData.text = txt;
     document.getElementById('report-text').value = txt;

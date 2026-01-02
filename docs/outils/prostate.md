@@ -188,6 +188,13 @@ input[type=number] { -moz-appearance: textfield; }
 .pirads-selector { display: flex; gap: 2px; }
 .zone-selector { display: flex; gap: 2px; margin-left: 6px; margin-right: 4px; }
 
+.add-circle-btn {
+    width: 24px; height: 24px; display:flex; align-items:center; justify-content:center;
+    border-radius:4px; background: white; border: 1px solid var(--md-default-fg-color--lighter);
+    cursor: pointer; font-weight: bold; flex-shrink: 0; margin-right:6px;
+}
+.add-circle-btn:hover { background: #f7f7f7; }
+
 .lesion-inputs-wrapper {
     display: grid; grid-template-columns: 1fr 1fr; gap: 4px;
     flex-grow: 1; 
@@ -329,7 +336,7 @@ function addLesionVisual() {
     canvas.setActiveObject(group);
     
     lesions.push({ 
-        internalId: internalId, fabricObj: group, 
+        internalId: internalId, fabricObjs: [group], 
         piradsKey: '3', val: 3, ord: 30, size: '',
         zoneType: 'ZP', 
         zoneText: '',
@@ -354,6 +361,8 @@ function addLesionRow(internalId) {
     row.innerHTML = `
         <div class="lesion-name">L?</div>
         
+        <button class="add-circle-btn" onmousedown="addDuplicateCircle(${internalId})" title="Ajouter un cercle">+</button>
+
         <div class="pirads-selector">${btns}</div>
         
         <div class="zone-selector">
@@ -381,8 +390,15 @@ function setLesionScore(id, key) {
     l.val = conf.v;
     l.ord = conf.ord; 
 
-    if(l.fabricObj) {
-        l.fabricObj.item(0).set('fill', conf.c);
+    if(l.fabricObjs || l.fabricObj) {
+        // Support multiple fabric objects per lesion
+        if (Array.isArray(l.fabricObjs)) {
+            l.fabricObjs.forEach(obj => {
+                try { obj.item(0).set('fill', conf.c); } catch(e){}
+            });
+        } else if (l.fabricObj) {
+            l.fabricObj.item(0).set('fill', conf.c);
+        }
         canvas.requestRenderAll();
     }
     
@@ -432,9 +448,16 @@ function sortAndRenameLesions() {
         const newLabel = "L" + (index + 1);
         l.label = newLabel;
         
-        if (l.fabricObj) { 
-            l.fabricObj.item(1).set('text', newLabel); 
-            l.fabricObj.addWithUpdate(); 
+        if (l.fabricObjs || l.fabricObj) { 
+            // update all fabric objects when multiple circles exist
+            if (Array.isArray(l.fabricObjs)) {
+                l.fabricObjs.forEach(obj => {
+                    try { obj.item(1).set('text', newLabel); obj.addWithUpdate(); } catch(e){}
+                });
+            } else {
+                l.fabricObj.item(1).set('text', newLabel);
+                l.fabricObj.addWithUpdate(); 
+            }
         }
         
         const row = document.getElementById(`lesion-row-${l.internalId}`);
@@ -465,11 +488,54 @@ function sortAndRenameLesions() {
 
 function removeLesion(internalId) {
     const lesionObj = lesions.find(l => l.internalId === internalId);
-    if(lesionObj) canvas.remove(lesionObj.fabricObj);
+    if(lesionObj) {
+        if (Array.isArray(lesionObj.fabricObjs)) {
+            lesionObj.fabricObjs.forEach(obj => { try { canvas.remove(obj); } catch(e){} });
+        } else if (lesionObj.fabricObj) {
+            canvas.remove(lesionObj.fabricObj);
+        }
+    }
     const row = document.getElementById(`lesion-row-${internalId}`);
     if(row) row.remove();
     lesions = lesions.filter(l => l.internalId !== internalId);
     sortAndRenameLesions();
+}
+
+function addDuplicateCircle(internalId) {
+    const l = lesions.find(x => x.internalId === internalId);
+    if(!l) return;
+    const base = (Array.isArray(l.fabricObjs) && l.fabricObjs[0]) || l.fabricObj;
+    if(!base) return;
+
+    // Try to copy visual properties from base
+    let rx = 25, ry = 25;
+    try { rx = base.item(0).get('rx') || rx; ry = base.item(0).get('ry') || ry; } catch(e){}
+    let fill = '#FFD966';
+    try { fill = base.item(0).get('fill') || fill; } catch(e){}
+    let labelText = l.label || '?';
+    try { labelText = base.item(1).get('text') || labelText; } catch(e){}
+
+    const left = (base.left || TARGET_WIDTH/2) + 30;
+    const top = (base.top || CANVAS_HEIGHT/2) + 30;
+
+    const circle = new fabric.Ellipse({ rx: rx, ry: ry, fill: fill, stroke: 'black', strokeWidth: 1, originX: 'center', originY: 'center', opacity: 0.85 });
+    const text = new fabric.Text(labelText, { fontSize: 16, fontFamily: 'Arial', fontWeight: 'bold', originX: 'center', originY: 'center', fill: 'black', padding: 5 });
+    const group = new fabric.Group([circle, text], { left: left, top: top, hasControls: true, hasBorders: true, lockRotation: false, cornerSize: 8, transparentCorners: false });
+    group.internalId = internalId;
+
+    group.on('scaling', function() {
+        this.item(1).set({ scaleX: 1/this.scaleX, scaleY: 1/this.scaleY });
+    });
+
+    canvas.add(group);
+    canvas.setActiveObject(group);
+
+    // Ensure fabricObjs is an array
+    if (!Array.isArray(l.fabricObjs)) {
+        l.fabricObjs = l.fabricObjs ? [l.fabricObjs] : [];
+    }
+    l.fabricObjs.push(group);
+    canvas.requestRenderAll();
 }
 
 // --- LOGIQUE TRADUCTION LIKERT ---
@@ -585,7 +651,7 @@ function updateReport() {
     
     if(psa > 0 && vol > 0) {
         let densStr = (psa / vol).toFixed(2).replace('.', ',');
-        resTxt += `, donnant une densité de PSA de ${densStr} ng/mL/cc`;
+        resTxt += ` (densité de PSA = ${densStr} ng/mL/cc)`;
     }
     resTxt += ".\n";
 
@@ -630,7 +696,7 @@ function updateReport() {
     }
     resTxt += "\n\n";
 
-    resTxt += "Par ailleurs :\nVésicules séminales symétriques d'aspect normal.\nPas d'épaississement significatif du détrusor.\nPas de dilatation des cavités pyélocalicielles.\nPas d'adénopathie pelvienne significative.\nPas de lésion osseuse suspecte.";
+    resTxt += "Par ailleurs :\nVésicules séminales symétriques d'aspect normal.\nPas d'épaississement significatif du détrusor.\nPas de dilatation des cavités pyélocalicielles.\nPas d'adénopathie pelvienne significative.";
     
     currentReportData.resultat = resTxt;
     txt += resTxt;
@@ -752,9 +818,9 @@ async function copyFullReport() {
     let resultatHtml = formatHTML(currentReportData.resultat);
     let resultatFinal = resultatHtml;
     
-    if (includeImage && resultatHtml.includes("<i>Par ailleurs :</i>")) {
-        const parts = resultatHtml.split("<i>Par ailleurs :</i>");
-        resultatFinal = parts[0] + imgTag + "<i>Par ailleurs :</i>" + parts[1];
+    if (includeImage && resultatHtml.includes("Par ailleurs :")) {
+        const parts = resultatHtml.split("Par ailleurs :");
+        resultatFinal = parts[0] + imgTag + "Par ailleurs :" + parts[1];
     } else if (includeImage) {
         resultatFinal = resultatHtml + imgTag;
     }

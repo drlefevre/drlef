@@ -3,7 +3,7 @@
     Séquences T2 dans les trois plans, axiales T1 Dixon, et T2 EG jusqu'aux reins.
     
     Utérus antéversé antéfléchi mesurant  mm.
-    Endomètre en hypersignal T2 mesurant  mm.  
+    Endomètre en hypersignal T2 mesurant  mm d'épaisseur.  
     Intégrité de la zone jonctionnelle et du myomètre.
     Ovaires en place, folliculaires et de taille normale.
 
@@ -70,7 +70,7 @@
     Pas d'atteinte du rectum ni de la vessie.
 
     Utérus antéversé antéfléchi mesurant  mm.
-    Endomètre en hypersignal T2 mesurant  mm.
+    Endomètre en hypersignal T2 mesurant  mm d'épaisseur.
     Ovaires latéro-utérins oligofolliculaires.
 
     Pas d'épanchement pelvien significatif.

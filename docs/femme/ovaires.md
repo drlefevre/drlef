@@ -4,7 +4,7 @@
     Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
     Utérus antéversé antéfléchi mesurant  cm.
-    Endomètre hyperéchogène mesurant  mm.
+    Endomètre hyperéchogène mesurant  mm d'épaisseur.
     Pas d'anomalie dans le myomètre.
     Pas de lésion endocavitaire décelable.
 
@@ -56,11 +56,16 @@
     Acquisitions 3D T1 Dixon, ainsi que axiales diffusion et T2 jusqu'aux reins.
     Après injection de gadolinium, séries dynamiques axiales T1 FS et 3D T1 FS tardif.
 
-    Ovaires droit latéro-utérin folliculaire mesurant  mm.
-    Ovaires gauche latéro-utérin folliculaire mesurant  mm.
+    Ovaire droit :
+    Latéro-utérin, folliculaire, mesurant  mm.
+    Absence de lésion focale individualisable.
+
+    Ovaire gauche :
+    Latéro-utérin, folliculaire, mesurant  mm.
+    Absence de lésion focale individualisable.
 
     Utérus antéversé antéfléchi mesurant  mm.
-    Endomètre en hypersignal T2 mesurant  mm.
+    Endomètre en hypersignal T2 mesurant  mm d'épaisseur.
     Intégrité de la zone jonctionnelle et du myomètre.
 
     Pas d'adénomégalie.

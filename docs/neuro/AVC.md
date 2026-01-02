@@ -6,9 +6,9 @@
 
     Absence de lésion ischémique ou hémorragique récente.
     Absence de flux de lent ou de thrombus décelable.
-    Perméabilité des artères du polygone de Willis.
-    Absence de processus expansif intracrânien.
+    Perméabilité proximale des artères du polygone de Willis.
     Respect des espaces liquidiens intra et péri-cérébraux.
+    Absence de processus expansif intracrânien.
     ```
 
     <figure markdown="span">
