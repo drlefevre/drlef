@@ -13,7 +13,8 @@
     <figcaption>DD rares = amylose, maladie de dépôts de chaînes légères</figcaption>
 </figure>
 
-!!! tip "[AEF](https://www.clubthorax.com/web/fiches/file/PID_AEF.pdf){:target="_blank"} = DD du ry de miel"
-    - kystes multiples
-    - sans contact pleural
+!!! tip "[AEF](https://www.clubthorax.com/web/fiches/file/PID_AEF.pdf){:target="_blank"} ([SRIF](https://radiopaedia.org/articles/smoking-related-interstitial-fibrosis){:target="_blank"}) = DD du ry de miel"
+    - kystes de plus grande taille à parois plus fines
+    - sans contact pleural pour certains
     - épargne des bases
+    - pas de perte de volume ni de bronchectasie de traction
