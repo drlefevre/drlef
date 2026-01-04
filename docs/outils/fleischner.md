@@ -117,7 +117,7 @@
                                     : "en verre dépoli";
     if(count==='single'){
       const head = `Nodule pulmonaire ${typeLbl} unique de ${fmtMm(d)} mm de diamètre moyen`;
-      return `${head} pour lequel ${action} (selon Fleischner 2017).`;
+      return `${head} pour lequel ${action} (selon la recommandation Fleischner 2017).`;
     }
     // Multiples
     const sentence1 = `Multiples nodules pulmonaires, dont le plus volumineux est ${typeLbl} et mesure ${fmtMm(d)} mm de diamètre moyen.`;
@@ -175,5 +175,4 @@
 <figure markdown="span">  
     [CAT nodule pulmonaire selon Lederlin](https://cerf.radiologie.fr/sites/cerf.radiologie.fr/files/Enseignement/DES/Archives-Documents/02%20ML%20CAT%20d%C3%A9couverte%20fortuite%20nodule%20pulmonaire.pdf){:target="_blank"}  
     [Algorithme dépistage selon la SIT](https://www.radiologie.fr/sites/www.radiologie.fr/files/medias/documents/Algorithme%20dépistage%20cancer%20bronchique%20validé.pdf){:target="_blank"}  
-    /!\ MAV => injection avant biopsie
 </figure>
