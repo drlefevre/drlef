@@ -195,4 +195,4 @@ recistCompute();
     - ↬ 5 lésions cibles, max. 2 par organe et max. 2 gg
     - somme des plus grands diamètres et des petits axes pour les gg
     - progression ↗ ≥ 20% vs nadir / réponse partielle ↘ ≥ 30% vs baseline
-    - lésions non cibles si < 10 mm, gg 10-15 mm, lésions non mesurables
+    - lésions non cibles si < 10 mm / gg 10-15 mm / lésions non mesurables
