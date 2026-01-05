@@ -1,8 +1,7 @@
 # Endométriose  
 
 ```
-Balisage vaginal.
-Séquences T2 dans les 3 plans, axiale et sagittale T1 Dixon, et axiale T2 EG jusqu'aux reins.
+Après balisage vaginal, séquences T2 dans les 3 plans, axiale et sagittale T1 Dixon, et axiale T2 EG jusqu'aux reins.
 
 Utérus antéversé antéfléchi mesurant  mm.
 Endomètre en hypersignal T2 mesurant  mm d'épaisseur.

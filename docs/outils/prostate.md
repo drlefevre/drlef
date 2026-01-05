@@ -694,12 +694,11 @@ function updateReport() {
     } else {
         resTxt += "Le stroma fibromusculaire antérieur est fin et très hypointense en T2.";
     }
-    resTxt += "\n\n";
 
-    resTxt += "Par ailleurs :\nVésicules séminales symétriques d'aspect normal.\nPas d'épaississement significatif du détrusor.\nPas de dilatation des cavités pyélocalicielles.\nPas d'adénopathie pelvienne significative.";
+    resTxt += "\n\nPar ailleurs :\nVésicules séminales symétriques d'aspect normal.\nPas d'épaississement significatif du détrusor.\nPas de dilatation des cavités pyélocalicielles.\nPas d'adénopathie pelvienne significative.";
     
     currentReportData.resultat = resTxt;
-    txt += resTxt;
+    txt += resTxt + "\n\n";
 
     // --- CONCLUSION ---
     let conclusionTxt = "";
@@ -959,4 +958,6 @@ function fullReset() {
 
 <figure markdown="span">
     [![](assets/algoprostate.jpg){width=600"}](https://www.urofrance.org/recommandation/recommandations-francaises-du-comite-de-cancerologie-de-lafu-actualisation-2024-2026-cancer-de-la-prostate-diagnostic-et-prise-en-charge/#){:target="_blank"}
+    <br>
+    [**Récidive** après prostatectomie/radiothérapie/HIFU](assets/PI-RR.pdf){:target="_blank"} 
 </figure>

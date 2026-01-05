@@ -7,8 +7,8 @@ Du point de vue morphologique :
 Utérus antéversé antéfléchi mesurant  mm.
 Endomètre en hypersignal T2 d'épaisseur millimétrique.
 Ovaires latéro-utérins fibreux, sans syndrome de masse.
-Pas d'panchement ni d'adénomégalie dans le pelvis.
-Trophicité du muscle releveur de l'anus.
+Pas d'épanchement ni d'adénomégalie dans le pelvis.
+Trophicité respectée du muscle releveur de l'anus.
 
 Du point de vue dynamique :
 Compartiment antérieur :
