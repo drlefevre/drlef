@@ -462,47 +462,66 @@ function updateReport() {
     if(contoursVal === 'reguliers') echoTxt += " avec contours réguliers.";
     if(contoursVal === 'lobules') echoTxt += " avec contours lobulés."; 
 
-    txt += echoTxt + "\n";
+    txt += echoTxt + "\nPas de ganglion suspect dans les secteurs II, III, IV et VI.\n";
 
     // 3. Vascularisation
     const vascVal = document.getElementById('vascularisation').value;
-    let vascTxt = "Pas d'hypervascularisation au Doppler.";
-    if(vascVal === 'moderate') vascTxt = "Hypervascularisation modérée.";
-    if(vascVal === 'intense') vascTxt = "Hypervascularisation intense.";
+    let vascTxt = "Pas d'hypervascularisation de la thyroïde au Doppler.";
+    if(vascVal === 'moderate') vascTxt = "Hypervascularisation modérée du parenchyme thyroïdien.";
+    if(vascVal === 'intense') vascTxt = "Hypervascularisation intense du parenchyme thyroïdien.";
     txt += vascTxt + "\n";
 
-    txt += "Pas d'anomalie du tractus thyréoglosse.\n";
-
     // 4. Nodules
-    if(nodules.length === 0) {
-        txt += "Absence d'image nodulaire dans la thyroïde.\n";
+    if (nodules.length === 0) {
+        txt += "Absence de nodule thyroïdien individualisable.\n";
+    } else if (nodules.length === 1) {
+        const n = nodules[0];
+        let volN = getVolume(n.d1, n.d2, n.d3).toFixed(1).replace('.', ',');
+        let d1 = n.d1 || '?';
+        let d2 = n.d2 || '?';
+        let d3 = n.d3 || '?';
+
+        txt += `Nodule « ${n.label} » EU-TIRADS ${n.tiradsKey} de ${d1} x ${d2} x ${d3} mm soit ${volN} cc`;
+
+        let maxD = getMaxDim(n);
+        let indication = false;
+        if (n.val === 3 && maxD > 20) indication = true;
+        if (n.val === 4 && maxD > 15) indication = true;
+        if (n.val === 5 && maxD > 10) indication = true;
+
+        if (indication) {
+            txt += ", avec indication théorique à une cytoponction.\n";
+        } else {
+            txt += ".\n";
+        }
+
+        txt += "Pas d'autre nodule thyroïdien significatif.\n";
     } else {
-        nodules.forEach(n => {
-            // Nodule EU-TIRADS 4 de 10 x 5 x 5 mm soit 0,1 cc nommé N1 sur le schéma
+        // Plusieurs nodules : lister sur une même ligne séparés par des points-virgules
+        const parts = nodules.map(n => {
             let volN = getVolume(n.d1, n.d2, n.d3).toFixed(1).replace('.', ',');
             let d1 = n.d1 || '?';
             let d2 = n.d2 || '?';
             let d3 = n.d3 || '?';
-            
-            txt += `Nodule « ${n.label} » EU-TIRADS ${n.tiradsKey} de ${d1} x ${d2} x ${d3} mm soit ${volN} cc`;
 
             let maxD = getMaxDim(n);
             let indication = false;
-            
-            // Règles cytoponction
             if (n.val === 3 && maxD > 20) indication = true;
             if (n.val === 4 && maxD > 15) indication = true;
             if (n.val === 5 && maxD > 10) indication = true;
 
-            if(indication) {
-                txt += ", avec indication théorique à une cytoponction.\n";
-            } else {
-                txt += ".\n";
-            }
+            let txtN = `« ${n.label} » EU-TIRADS ${n.tiradsKey} de ${d1} x ${d2} x ${d3} mm soit ${volN} cc`;
+            if (indication) txtN += ", avec indication théorique à une cytoponction";
+            return txtN;
         });
+
+        txt += `\nNodules thyroïdiens :\n${parts.join(';\n')}.\n\n`;
     }
 
-    txt += "Pas de ganglion suspect dans les secteurs II, III, IV et VI.\n\n";
+    // N'ajouter la mention du tractus thyréoglosse que s'il n'y a pas plusieurs nodules
+    if (nodules.length <= 1) {
+        txt += "Pas d'anomalie du tractus thyréoglosse.\n";
+    }
 
     currentReportData.text = txt;
     document.getElementById('report-text').value = txt;
