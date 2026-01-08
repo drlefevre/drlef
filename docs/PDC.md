@@ -34,7 +34,7 @@
 !!! warning "[IRA post-contraste](https://www.radiologie.fr/sites/www.radiologie.fr/files/medias/documents/CIRTACI%20Fiche%20Rein_2020_2_4_0.pdf){:target="_blank"} (< J3 ↗ créat ≥ 0,3 mg/dL)"
     - risque ssi **DFG < 30 => 10 mL/kg NaCl** réparti avant et après
     - **> 4h entre deux** injections / > 48h si DFG < 30 ou dialyse
-    - **myélome** => corriger l'hyperCa2+ (∅ risque si ∅ d'IRénale)
+    - **myélome** => corriger l'hyperCa<sup>2+</sup> (∅ risque si ∅ d'IRénale)
     - **metformine** => PAS d'↕ (sauf IRA : ↕ pdt 48h après l'inj)
 
 !!! warning "[Hyperthyroïdie non équilibrée](https://www.radiologie.fr/sites/www.radiologie.fr/files/medias/documents/CIRTACI%20Fiche%20Thyro%C3%AFde%2029%2009%202009_0.pdf){:target="_blank"}"

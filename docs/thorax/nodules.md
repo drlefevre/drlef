@@ -16,15 +16,15 @@
 | `≥ 10 mm` <br> (> 500 mm³) | ATB + M1 | si persistance TEP-TDM et RCP |
 
 <figure markdown="span">
-    Nodule **mixte** avec large zone solide = contrôle M1 puis RCP si persistance  
-    Nodule en **verre dépoli** = contrôle à M6 puis annuel  
+    Nodule **mixte** avec large zone solide = contrôle M3 puis RCP si persistance  
+    Nodule en **verre dépoli** = contrôle à M6 puis annuel à vie
     <br>
     ![](assets/gg.jpg){width="400"}
 </figure>
 
 !!! tip "Causes de **nodules troués**"
     - cancer : primitif ou méta
-    - infectieux : endocardite, abcès, BK
+    - infectieux : embolies septiques (endocardite), BK
     - maladies auto-immunes : GPA et PR
 
 | [TNM](https://oncologik.fr/referentiels/dsrc/cancer-bronchique-non-a-petites-cellules#11.1.1.Classification%20TNM%208%C3%A8me%20%C3%A9dition){:target="_blank"} | critères |

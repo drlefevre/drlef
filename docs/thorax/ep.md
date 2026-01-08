@@ -36,7 +36,8 @@
 === "EP"
 
     <figure markdown="span">
-        [CR **EP**](https://www.radiologie.fr/sites/www.radiologie.fr/files/medias/documents/CR-Embolie.pdf){:target="_blank"}
+        [CR **EP**](https://www.radiologie.fr/sites/www.radiologie.fr/files/medias/documents/CR-Embolie.pdf){:target="_blank"}  
+        **TVP + dl tho ou dyspnée = EP** (∅ angioTDM)
     </figure>
 
     !!! tip "EP [femme enceinte](https://onclepaul.net/wp-content/uploads/2011/07/EP-chez-la-femme-enceinte-CS-2013+++1.pdf){:target="_blank"} ([risques](https://onclepaul.fr/wp-content/uploads/2011/07/La-femme-enceinte-en-imagerie-pire-angoisse-du-radiologue-New-JFR-2020.pdf){:target="_blank"} de l'irradiation pour le fœtus)"
@@ -45,9 +46,9 @@
         - 120 cc ≥ 4,5 cc/s de Ioméron 400
         - Couper apex et culs-de-sac pleuraux
 
-    !!! info "HTP"
+    !!! info "[HTP](https://radiopaedia.org/articles/pulmonary-hypertension-1?lang=gb){:target="_blank"} => temps artériel pulm en apnée ± inspi profonde, procu, expi"
         - HTP = AP > Ao (> 30 mm), dilatation et hypertrophie VD (> 4 mm)
-        - **TEC** = thrombi marginés, synéchies, hypervasc. systémique, perfusion mosaïque
+        - **TEC** = thrombi marginés, synéchies, hypervasc. systémique, perfusion mosaïque (avec piégeage expi)
 
 
 === "hémoptysie"
