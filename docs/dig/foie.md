@@ -15,7 +15,7 @@
     Séquences axiale diffusion, axiale T1 Dixon, axiale et coronale T2.
     Après injection de gadolinium, séries dynamiques T1 FS et T1 Dixon.
 
-    Foie de taille et de morphologie normale, sans stéatose.
+    Foie de taille et de morphologie normales, sans stéatose.
     Vésicule biliaire en réplétion, à parois fines, sans lithiase.
     Pas de dilatation des voies biliaires intra ni extra-hépatiques.
     Perméabilité des vaisseaux hépatiques afférents et efférents.

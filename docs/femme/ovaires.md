@@ -81,7 +81,7 @@
         C -->|OUI| R2a(O-RADS 2)
         C -->|NON| E(Portion tissulaire ?*)
         
-        E -->|OUI| F(HypoT2 + hypoDWI ?)
+        E -->|OUI| F(<b>HypoT2 + hypoDWI ?</b>)
         F -->|OUI| R2b(O-RADS 2)
         F -->|NON| G(Perfusion)
         
@@ -114,7 +114,7 @@
     **végétation** = tumeur épithéliale / **graisse** = tumeur germinale (tératome)  
     </br>
         ![](assets/uniloculaire.jpg){width="750"}  
-        [![](assets/courbes.jpg){width="650"}](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS-MRI-Risk-Score-Assessment.pdf){:target="_blank"}
+        [![](assets/courbes.jpg){width="500"}](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS-MRI-Risk-Score-Assessment.pdf){:target="_blank"}
     </figure>
 
 
