@@ -41,9 +41,10 @@
     Echostructure homogène, sans lésion focale suspecte.
     Tronc porte et branches portales hépatopètes.
     Vitesse maximale dans le tronc porte :  cm/s.
+    Pas de dilatation des voies biliaires.
     Grand axe de la rate :  cm.
     Pas de voies de dérivation porto-systémiques décelable.
-    Pas d'ascite.
+    Absence d'ascite.
     ```
     <figure markdown="span">
         [Lésion hépatiques](https://echo.interniste.com/echographie-foie-us-fr-c2-s0){:target="_blank"}  
@@ -335,7 +336,7 @@
         </br> 
     </figure>
     ```title="Pano"
-    Pas de carie ni de lacune apico-dentaire.
+    Pas de lacune apico-dentaire.
     Bonne ventilation des cuvettes maxillaires.
     Condyles mandibulaires d'aspect normal.
     Pas de lésion osseuse suspecte.

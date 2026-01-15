@@ -456,7 +456,7 @@ function updateReport() {
 
     const aspectVal = document.getElementById('aspect').value;
     if(aspectVal === 'homo') echoTxt += " homogène";
-    if(aspectVal === 'heter') echoTxt += " hetérogène"; 
+    if(aspectVal === 'heter') echoTxt += " hétérogène"; 
 
     const contoursVal = document.getElementById('contours').value;
     if(contoursVal === 'reguliers') echoTxt += " avec contours réguliers.";
