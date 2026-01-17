@@ -9,6 +9,6 @@
     - 85 : métas
     - 88 : Pancoast Tobias
     - 91 : lymphome
-    - 92 : tumeur fibreuse solitaire
+    - 92 : [TFS](https://radiopaedia.org/articles/solitary-fibrous-tumour-of-the-thorax){:target="_blank"}
     - 108 : malformations osseuses
     - 110 : tumeurs os (dysplasie fibreuse 118)
