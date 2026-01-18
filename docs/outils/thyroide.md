@@ -481,7 +481,7 @@ function updateReport() {
         let d2 = n.d2 || '?';
         let d3 = n.d3 || '?';
 
-        txt += `Nodule « ${n.label} » EU-TIRADS ${n.tiradsKey} de ${d1} x ${d2} x ${d3} mm soit ${volN} cc`;
+        txt += `Nodule « ${n.label} » EU-TIRADS ${n.tiradsKey} de ${d1} x ${d2} x ${d3} mm (${volN} cc)`;
 
         let maxD = getMaxDim(n);
         let indication = false;
@@ -510,12 +510,12 @@ function updateReport() {
             if (n.val === 4 && maxD > 15) indication = true;
             if (n.val === 5 && maxD > 10) indication = true;
 
-            let txtN = `« ${n.label} » EU-TIRADS ${n.tiradsKey} de ${d1} x ${d2} x ${d3} mm soit ${volN} cc`;
+            let txtN = `« ${n.label} » EU-TIRADS ${n.tiradsKey} de ${d1} x ${d2} x ${d3} mm (${volN} cc)`;
             if (indication) txtN += ", avec indication théorique à une cytoponction";
             return txtN;
         });
 
-        txt += `\nNodules thyroïdiens :\n${parts.join(';\n')}.\n\n`;
+        txt += `\nNodules thyroïdiens significatifs :\n${parts.join(';\n')}.\n\n`;
     }
 
     // N'ajouter la mention du tractus thyréoglosse que s'il n'y a pas plusieurs nodules
