@@ -18,18 +18,19 @@
     ```
 
     <figure markdown="span">
-        ![](assets/sciatique.jpg){width="400"}  c 
+        ![](assets/sciatique.jpg){width="400"}  
         ![](assets/hernie.jpg){width="720"}
         ![](assets/hernie2.jpg){width="480"}  
         <br>
-        ![](assets/LLP.jpg){width="56 0"}
+        ![](assets/LLP.jpg){width="560"}
         vocabulaire = migration craniale/caudale; fragment exclu épidural  
         <br>
         ![](assets/stenose.jpg){width="450"}
         Etroitesse constitutionnelle relative si diam. ant.-post. < 12 mm voire absolue < 10 mm  
         Sténose minime : LCS visible, modérée : peu visible, sévère : ∅ LCS, extrême : ∅ graisse épidurale  
         <br>
-        ![](assets/hernieanat.jpg){width="450"}
+        ![](assets/hernieanat.jpg){width="430"}  
+        ![](assets/ligaments.jpg){width="590"}          
         <br>
         ![](assets/modic.jpg){width="350"}
         **Modic** I = inflammatoire « œdémateux », II = involution graisseuse, III = fibrose
