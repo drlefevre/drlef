@@ -18,15 +18,19 @@
     ```
 
     <figure markdown="span">
-        ![](assets/sciatique.jpg){width="400"}
+        ![](assets/sciatique.jpg){width="400"}  c 
         ![](assets/hernie.jpg){width="720"}
         ![](assets/hernie2.jpg){width="480"}  
+        <br>
+        ![](assets/LLP.jpg){width="56 0"}
+        vocabulaire = migration craniale/caudale; fragment exclu épidural  
+        <br>
         ![](assets/stenose.jpg){width="450"}
         Etroitesse constitutionnelle relative si diam. ant.-post. < 12 mm voire absolue < 10 mm  
         Sténose minime : LCS visible, modérée : peu visible, sévère : ∅ LCS, extrême : ∅ graisse épidurale  
-        </br>
+        <br>
         ![](assets/hernieanat.jpg){width="450"}
-        </br>
+        <br>
         ![](assets/modic.jpg){width="350"}
         **Modic** I = inflammatoire « œdémateux », II = involution graisseuse, III = fibrose
     </figure>
@@ -37,12 +41,12 @@
         A --> C[Radiculalgie]
         A --> D[Claudication]
 
-        B -->|médiane| H[discopathie</br>Baastrup]
-        B -->|latéralisée| I[AAP]
+        B -->|médiane| H[discopathie<br>Baastrup]
+        B -->|latéralisée| I[AAP<br>Bartolotti]
         B -->|musculaire| J[scoliose]
 
-        C --> K[HD</br>kyste articulaire</br>sténose foraminale]
-        D --> L[canal étroit]
+        C --> K[HD</br>kyste articulaire<br>sténose foraminale]
+        D --> L[canal étroit<br>et/ou rétréci]
     ```
 
 === "Tendon d'Achille"
