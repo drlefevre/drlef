@@ -671,6 +671,8 @@ function fullReset() {
     uniqueIdCounter = 0;
     // Reset selects
     document.getElementById('echostructure').selectedIndex = 0;
+    document.getElementById('aspect').selectedIndex = 0;
+    document.getElementById('contours').selectedIndex = 0;
     document.getElementById('vascularisation').selectedIndex = 0;
     updateReport();
 }
