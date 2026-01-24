@@ -1,4 +1,4 @@
-=== "LOMB"
+=== "Lombaire"
     ``` title="TDM"
     Pas d'anomalie transitionnelle de la charnière lombo-sacrée.
     Lordose physiologique et bon alignement des corps vertébraux.
@@ -16,7 +16,7 @@
     </figure>
 
 
-=== "CERVICAL"
+=== "Cervical"
     ``` title="TDM"
     Absence d’anomalie de la charnière cervico-occipitale.
     Lordose physiologique et bon alignement des corps vertébraux.
@@ -43,7 +43,7 @@
     </figure>
 
 
-=== "SCOLIOSE"
+=== "Scoliose"
     ```
     Scoliose  mesurant ° entre le plateau supérieur de  et le plateau inférieur de .
     Stade d'ossification Risser 
@@ -59,7 +59,7 @@
         </br>
         ![](assets/scoliose.jpg){width="900"}
         déséquilibre frontal (fil à plomb électronique centré sur T1)  
-        bascule du bassin  
+        bascule du bassin (axe du pleateau supérieur de S1)  
         cyphose thoracique - lordose lombaire (T4 - vertèbre jonctionnelle - S1)  
         pente sacrée et incidence pelvienne  
         </br>
@@ -69,3 +69,15 @@
     </figure>
 
 
+=== "Scheuermann"
+
+    !!! tip "[Distrophie rachidienne de croissance](https://radiopaedia.org/articles/scheuermann-disease-2){:target="_blank"} = ado avec cyphose > 45° ± douleurs"
+        - **cunéïformisation** vertébrale
+        - **irrégularité** des plateaux vertébraux
+        - **élargissement** antéro-postérieur
+        - **pincements** intersomatiques
+        - atteinte **listels** marginaux antérieurs
+
+    <figure markdown="span">
+        ![](assets/DRC.jpg){width="300"}
+    </figure>

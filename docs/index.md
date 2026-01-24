@@ -262,7 +262,7 @@
     ```title="SOPK"
     Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
-    Ovaires latéraux folliculaires mesurant à droite et gauche  cc.
+    Ovaires latéraux dont la surface mesure à droite et gauche  cm².
     Ils contiennent moins de 20 follicules par ovaire.
     Pas de dilatation tubaire.
 
@@ -328,7 +328,9 @@
     Scoliose  mesurant ° entre le plateau supérieur de  et le plateau inférieur de .
     Stade d'ossification Risser 
     Bascule du bassin par sous-dénivelation vers la 
-    Absence de malformation ou de lésion vertébrale décelable.
+    Absence de malformation vertébrale décelable.
+    Pas d'anomalie transitionnelle lombo-sacrée.
+    Resepct de la cyphose thoracique et de la lordose lombaire.
     Restant du cadre osseux et parties molles sans particularité.
     ```    
     <figure markdown="span">
