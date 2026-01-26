@@ -115,6 +115,8 @@
     </br>
         ![](assets/uniloculaire.jpg){width="750"}  
         [![](assets/courbes.jpg){width="500"}](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS-MRI-Risk-Score-Assessment.pdf){:target="_blank"}
+        type 1 < 5% malignité < type 2 < 95% malignité type 3  
+        **faux positif type 3 = tératome** (nodule Rokitansky), goitre, tumeur stromale sclérosante
     </figure>
 
 

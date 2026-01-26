@@ -163,12 +163,3 @@
     
     !!! example "DD granulomes hépatiques"
         tuberculose, sarcoïdose, histoplasmose, bartonellose, brucellose, candidose
-
-=== "vasc"
-    <figure markdown="span">
-        [![](assets/vascfoie.jpg){width="400"}](http://onclepaul.fr/wp-content/uploads/2011/07/incidence-chirurgicale-des-variations-vasculaires-abdominalesFILEminimizer.pdf){:target="_blank"}
-    </figure>
-
-    !!! danger "sténose du tronc cœliaque"
-        - sur hypertrophie du ligament arqué médian = peut être sectionné au bloc
-        - sur athérome = **CI ligature art. gastro-duodénale** (arcade de suppléance via l'AMS)

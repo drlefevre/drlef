@@ -274,7 +274,7 @@
     Pas de dilatation des cavités pyélocalicielles.
     ```
     <figure markdown="span">
-        ovaire polykystique si [> 20 follicules ou > 5,5 cm²](https://radiopaedia.org/articles/polycystic-ovarian-syndrome-1){:target="_blank"}  
+        ovaire polykystique si [> 20 follicules 2-9 mm / > 6 cm² / > 10 ml](https://radiopaedia.org/articles/polycystic-ovarian-syndrome-1){:target="_blank"}  
         </br> 
     </figure>
     ```title="CFA"

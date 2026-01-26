@@ -1,7 +1,3 @@
-<figure markdown="span">
-    ![](assets/anatpanc.jpg){width="500"}
-</figure>
-
 === "PA"
     |  [CTSI](https://www.radeos.org/maladie/fiche-pancreatite-aigue_1136.html){:target="_blank"} J3 |   |  nécrose pancréatique |  | 
     | :----------: | :-------: | :----------: | :-------: |
@@ -138,11 +134,3 @@
         </br>
         [VHL](https://radiopaedia.org/articles/von-hippel-lindau-disease-5){:target="_blank"} = kystes vrais, cystadénomes séreux et TNE
     </figure> 
-
-
-=== "divisum"
-    <figure markdown="span">
-        CPP s'abouche dans la papille mineure = **5%** = + de PA
-        [![](assets/divisum.jpg){width="800"}](https://radiopaedia.org/articles/pancreas-divisum){:target="_blank"} 
-    </figure> 
-
