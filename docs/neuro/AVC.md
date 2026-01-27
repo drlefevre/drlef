@@ -12,15 +12,35 @@
     ```
 
     <figure markdown="span">
-        [lobes cérébraux](https://radiopaedia.org/cases/61691/studies/69700?lang=gb){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[territoires artériels](https://radiopaedia.org/cases/10814/studies/11258?lang=gb){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [stroke mimics](assets/mimics.pdf){:target="_blank"}  
-        </br>
+        [stroke mimics](assets/mimics.pdf){:target="_blank"}  
+        [lobes cérébraux](https://radiopaedia.org/cases/61691/studies/69700?lang=gb){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[territoires artériels](https://radiopaedia.org/cases/10814/studies/11258?lang=gb){:target="_blank"}  
+        <br> 
         ![](assets/aspects.jpg){width="250"}  
-        </br>
         ![](assets/AVC.jpg){width="410"}  
-        </br>
         ![](assets/TM.jpg){width="330"}  
-        </br>
         ![](assets/ECASS.jpg){width="300"}  
+        ![](assets/aoph.jpg){width="500"}          
+    </figure>
+
+
+=== "TVC"
+
+    ```
+    Séquences axiales diffusion, FLAIR, T2* et T1 SE.
+    Après injection de gadolinium, ARM veineuse et 3D T1 EG.
+
+    Perméabilité des sinus veineux intracrâniens.
+    Pas d'argument pour une thrombose des veines corticales et internes.
+    Absence de remaniement œdémato-hémorragique dans le parenchyme.
+    Respect des espaces liquidiens intra et péri-cérébraux.
+    Absence de processus expansif intracrânien.
+    Pas de prise de contraste pathologique.
+    ```
+
+    <figure markdown="span"> 
+        <br>
+        ![](assets/TVC.jpg){width="800"}  
+        [territoires vasculaires veineux](https://radiopaedia.org/cases/brain-venous-vascular-territories-diagram){:target="_blank"} 
     </figure>
 
 
@@ -65,16 +85,8 @@
         ![](assets/hematome.jpg){width="340"}
         TDM sans/art/vx sauf hématome profond >65a avec HTA  
         /!\ [spot sign](https://radiopaedia.org/articles/ct-angiographic-spot-sign-intracerebral-haemorrhage){:target="_blank"} = extravasation PDC = mauvais Pc  
-        </br>
+        <br>
         ![](assets/sg IRM.jpg){width="300"}  
-        </br>
+        <br>
         ![](assets/volume.jpg){width="370"}
-    </figure>
-
-
-=== "mimics"
-
-    <figure markdown="span">
-        [![](assets/mimics.jpg){width="900"}](https://insightsimaging.springeropen.com/articles/10.1007/s13244-018-0637-y){:target="_blank"}  
-        [Oncle Paul diapo 633](https://onclepaul.fr/wp-content/uploads/2011/07/AVC-ischemiques-.-RD-2021.pdf){:target="_blank"} 
     </figure>

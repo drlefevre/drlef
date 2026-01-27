@@ -17,9 +17,9 @@
         [![](assets/torsion.jpg){width="300"}](https://cglre.org/torsions-page-1/){:target="_blank"}
     </figure>
 === "MAV"
-    - **curetage**, après ttt d'une tumeur trophoblastique gestationnelle (15%)
+    - FDR = **curetage** (++ après ttt tumeur trophoblastique gestationnelle)
     - dilatations vasculaires dans le myomètre avec flux **> 1 m/s** et IR < 0,5
-    - IRM = flow voids hypoT2, PDC précoce, **retour veineux précoce**
+    - IRM = flow voids hypoT2, **retour veineux précoce** (veine ovarienne droite)
     <figure markdown="span">
         ![](assets/MAV.jpg){width="600"}
     </figure>
