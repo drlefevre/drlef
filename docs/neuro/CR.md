@@ -2,8 +2,8 @@
 
 === "méta"
     ```
-    Séquences axiales diffusion, T1 écho de spin, et T2*. 3D FLAIR.
-    Après injection de gadolinium, séquence 3D T1 écho de spin FS.
+    Séquences axiales diffusion et T1 écho de spin. 3D FLAIR.
+    Après injection de gadolinium, SWI et 3D T1 écho de spin FS.
 
     Structures de la ligne médiane en place.
     Pas de lésion ischémique ou hémorragique récente.    
@@ -56,6 +56,19 @@
     Pas d'anomalie de morphologie ou de signal en fosse postérieure.
     Absence de comblement sinusien.
     ```
+
+=== "coma"
+    ```
+    Acquisitions sans puis après injection au temps artériel.
+    
+    Structures médianes encéphaliques en place.
+    Pas de lésion hémorragique intracrânienne récente.
+    Respect des espaces liquidiens intra et péri-cérébraux.
+    Pas d'anomalie des noyaux gris centraux ni en fosse postérieure.
+    Perméabilité du tronc basilsaire des artères du polygone de Willis.
+    Pas de lésion osseuse décelable.
+    ```
+
 === "médullaire"
     ```
     Séquences sagittales T2 STIR, et T1 sans puis après injection de gadolinium. 
@@ -68,6 +81,7 @@
     Pas de lésion de remplacement médullaire suspecte.
     Pas de prise de contraste pathologique du cordon médullaire, du cône terminal, des racines de la queue de cheval, ou du cul-de-sac dural.
     ```
+
 === "vertiges"
     ```
     Séquences axiales diffusion, FLAIR et T2* à l'étage encéphalique.
@@ -89,6 +103,7 @@
         </br>
         ![](assets/sevenup.jpg){width="400"}
     </figure>
+
 === "PF"
     ```
     Séquences axiales diffusion et FLAIR à l'étage encéphalique.
@@ -112,6 +127,7 @@
         ![](assets/nerf facial.jpg){width="700"}
         [trajet du nerf facial](https://radiopaedia.org/cases/intratemporal-facial-nerve-annotated-ct){:target="_blank"}
     </figure>
+
 === "hydrops"
     ```
     Séquences axiales diffusion et FLAIR à l'étage encéphalique.

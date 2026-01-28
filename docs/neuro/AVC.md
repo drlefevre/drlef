@@ -34,7 +34,7 @@
     Absence de remaniement œdémato-hémorragique dans le parenchyme.
     Respect des espaces liquidiens intra et péri-cérébraux.
     Absence de processus expansif intracrânien.
-    Pas de prise de contraste pathologique.
+    Pas de comblement des sinus de la face.
     ```
 
     <figure markdown="span"> 
