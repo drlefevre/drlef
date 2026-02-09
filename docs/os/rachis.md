@@ -10,7 +10,8 @@
 
     <figure markdown="span">
         ![](assets/Castellvi.jpg){width="380"}
-        **Castellvi** I = processus transverse élargi ≥ 19 mm d'axe craniocaudal, II = pseudo-articulation avec le sacrum, III = lombalisation ou sacralisation complète, IV = II + III  
+        **Castellvi** **I** = processus transverse élargi ≥ 19 mm d'axe craniocaudal,  
+        **II** = pseudo-articulation avec le sacrum, **III** = lombalisation ou sacralisation complète, **IV** = II + III  
         </br>
         ![](assets/listhesis.jpg){width="270"}  
     </figure>

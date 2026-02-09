@@ -70,7 +70,7 @@ nav:
   - Os:
     - Urgences: os/urgences.md
     - Echo et Rx: os/echorx.md
-    - Microcristaux: os/microcristaux.md
+    - Inflammatoire: os/inflammatoire.md
     - Fractures: os/fractures.md
     - Tumeurs: os/tumeurs.md
     - Rachis: os/rachis.md
@@ -99,6 +99,7 @@ theme:
     accent: grey
   features:
     - content.code.copy
+    - toc.integrate
 
 markdown_extensions:
   - attr_list
@@ -110,7 +111,7 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - toc:
-      toc_depth: 3
+      toc_depth: 0
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
