@@ -1,11 +1,13 @@
 # Patient non venu
 
 ```    
-M  n'a pas honoré son rendez-vous d'imagerie. Cela est préjudiciable pour sa prise en charge médicale et entraîne un allongement des délais pour les autres patients.
+Cher confrère, 
 
-Si la convocation n'a pas été adressée, nous présentons nos excuses. S'il s'agit d'un empêchement de dernière minute, il aurait été approprié de nous prévenir.
+Nous avons convoqué votre patient pour la réalisation d'une 
 
-En tout état de cause, nous restons à votre disposition pour reprogrammer l'examen. 
+Malheureusement celui-ci ne s'est pas présenté à son rendez-vous.
+
+Sensible à votre confiance, 
 
 Bien confraternellement,
 ```

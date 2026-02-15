@@ -308,7 +308,7 @@
     Structures osseuses sans particularité significative.
     ``` 
     <figure markdown="span">
-        ![](assets/rxt.jpg){width="800"}
+        ![](assets/rxt.jpg){width="750"}
         [sd radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}
         </br> 
     </figure>

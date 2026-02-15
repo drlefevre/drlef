@@ -4,7 +4,8 @@
 
     <figure markdown="span">
         ![](assets/estomac.jpg){width="450"}  
-        ![](assets/estomacvx.jpg){width="700"}          
+        ![](assets/estomacvx.jpg){width="700"}  
+        ![](assets/hernieshiatales.jpg){width="500"}          
     </figure>
 
 
