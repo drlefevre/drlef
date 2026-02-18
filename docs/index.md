@@ -308,7 +308,6 @@
     Structures osseuses sans particularité significative.
     ``` 
     <figure markdown="span">
-        ![](assets/rxt.jpg){width="750"}
         [sd radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}
         </br> 
     </figure>
@@ -330,7 +329,6 @@
     Bascule du bassin par sous-dénivelation vers la 
     Absence de malformation vertébrale décelable.
     Pas d'anomalie transitionnelle lombo-sacrée.
-    Resepct de la cyphose thoracique et de la lordose lombaire.
     Restant du cadre osseux et parties molles sans particularité.
     ```    
     <figure markdown="span">
@@ -341,7 +339,7 @@
     Pas de lacune apico-dentaire.
     Bonne ventilation des cuvettes maxillaires.
     Condyles mandibulaires d'aspect normal.
-    Pas de lésion osseuse suspecte.
+    Pas de lésion osseuse focale.
     ```  
     <figure markdown="span">
         ![](assets/numero.jpg){width="600"}

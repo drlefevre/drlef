@@ -1,6 +1,6 @@
 === "IRM"
     ```
-    Séquences T2 dans les trois plans, axiales T1 Dixon, et T2 EG jusqu'aux reins.
+    Séquences T2 dans les trois plans, axiale T1 Dixon, et T2 EG jusqu'aux reins.
     
     Utérus antéversé antéfléchi mesurant  mm.
     Endomètre en hypersignal T2 mesurant  mm d'épaisseur.  
@@ -61,7 +61,7 @@
   
 === "K col"
     ```
-    Balisage vaginal pour évaluer l'atteinte vaginale.
+    Balisage vaginal (pour évaluer l'atteinte vaginale).
     Séquences T2 sagittale et axiale perpendiculaire au col utérin.
     Acquisitions axiale et sagittale diffusion, et axiale T2 jusqu'aux reins.
 

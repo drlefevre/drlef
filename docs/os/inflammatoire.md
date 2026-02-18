@@ -17,7 +17,7 @@
     ## [SpA](https://radiopaedia.org/articles/seronegative-spondyloarthritis-1){:target="_blank"}
 
     !!! tip "[SpA ankylosante](https://radiopaedia.org/articles/ankylosing-spondylitis-1){:target="_blank"} = forme axiale, H35"
-        - **sacro-iliite** bilatérale (DD arthrose = 1/3 moyen, bien limité, ostéophytes)
+        - **sacro-iliite** bilatérale (DD [ostéose iliaque condensante et arthrose](https://onclepaul.fr/wp-content/uploads/2011/07/Sacro-iliite-ou-arthrose-sacro-iliaque-_-MC.pdf){:target="_blank"})
         - **charnière thoraco-lombaire** = coins antérieurs des vertèbres (mise au carré) + syndesmophytes
         - **enthésopathies périphériques** = tendon calcanéen++
         - articulations périphériques = hanches++

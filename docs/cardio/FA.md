@@ -7,10 +7,9 @@ Aspect normal du septum interatrial.
 Pas d'anomalie de position de l'œsophage.
 
 Calcifications coronariennes tritronculaires.
-Pas d'épanchement pleural ni péripardique.
+Pas d'épanchement pleuro-péripardique ni d'adénomégalie.
 Pas de lésion significative dans le parenchyme pulmonaire.
-Coupes sous-diaphragmatiques sans particularité.
-Cadre osseux sans lésion suspecte.
+Coupes sous-diaphragmatiques et cadre osseux sans particularité.
 ```
 
 !!! tip "**Veines pulmonaires** = 30% [variantes anatomiques](https://www.researchgate.net/figure/Modified-diagram-of-pulmonary-venous-origin-category-by-Marom-et-al-1-BSRLL-basilar_fig1_230834461){:target="_blank"}"
