@@ -301,36 +301,55 @@
     <p style="text-align: center">écho à <b>J3</b> du cycle, réserve ovarienne faible si < 5 follicules/ovaire</p>
 
 === "Rx"
-    ```title="RT"
-    Silhouette cardiomédiastinale d'aspect normal.
-    Pas d'opacité en projection des champs pulmonaires.
-    Pas de comblement des récessus costo-diaphragmatiques.
-    Structures osseuses sans particularité significative.
-    ``` 
+    === "vieux"
+        ```
+        Aspect déroulé de la crosse aortique.
+        Respect de la silhouette cardiomédiastinale par ailleurs.
+        Pas d'opacité en projection des champs pulmonaires.
+        Pas de comblement des récessus costo-diaphragmatiques.
+        Remaniements dégénératifs modérés du rachis.
+        ``` 
+    === "jeune"
+        ```
+        Silhouette cardiomédiastinale d'aspect normal.
+        Pas d'opacité en projection des champs pulmonaires.
+        Pas de comblement des récessus costo-diaphragmatiques.
+        Structures osseuses sans particularité significative.
+        ``` 
     <figure markdown="span">
         [sd radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}
-        </br> 
     </figure>
-    ```title="Rachis et bassin"
-    Respect de la hauteur et bon alignement des corps vertébraux.
-    Pas de pincement des espaces intersomatiques.
-    Arthrose articulaire postérieure prédominant aux derniers étages lombaires.
-    Pas de remaniement dégénératif significatif des articulations coxo-fémorales.
-    Aspect normal des interlignes articulaires sacro-iliaques.
-    Pas de lésion osseuse suspecte et parties molles sans particularité.
-    ```    
-    <figure markdown="span">
-        ![](assets/coxarthrose.jpg){width="450"} 
-        </br> 
-    </figure>
-    ```title="Scoliose"
-    Scoliose  mesurant ° entre le plateau supérieur de  et le plateau inférieur de .
-    Stade d'ossification Risser 
-    Bascule du bassin par sous-dénivelation vers la 
-    Absence de malformation vertébrale décelable.
-    Pas d'anomalie transitionnelle lombo-sacrée.
-    Restant du cadre osseux et parties molles sans particularité.
-    ```    
+    === "RLB"
+        ```
+        Respect de la hauteur et bon alignement des corps vertébraux.
+        Pas de pincement des espaces intersomatiques.
+        Arthrose articulaire postérieure prédominant aux derniers étages lombaires.
+        Pas de remaniement dégénératif significatif des articulations coxo-fémorales.
+        Aspect normal des interlignes articulaires sacro-iliaques.
+        Pas de lésion osseuse suspecte et parties molles sans particularité.
+        ```    
+    === "RACE"
+        ```
+        Lordose cervicale conservée.
+        Bon alignement des corps vertébraux.
+        Pas de pincement des espaces intersomatiques.
+        Pas d'épaississement des parties molles prévertébrales.
+        ``` 
+    === "Scoliose"
+        ```
+        Scoliose  mesurant ° entre le plateau supérieur de  et le plateau inférieur de .
+        Stade d'ossification Risser 
+        Bascule du bassin par sous-dénivelation vers la 
+        Absence de malformation vertébrale décelable.
+        Pas d'anomalie transitionnelle lombo-sacrée.
+        Restant du cadre osseux et parties molles sans particularité.
+        ```    
+    === "DMO"
+        ```
+        T-score du rachis lombaire (L1-L4) =  (normale ≥ -1)
+        T-score du col fémorale droit =  (normale ≥ -1)
+        T-score du col fémorale gauche =  (normale ≥ -1)
+        ```            
     <figure markdown="span">
         ![](assets/Risser.jpg){width="420"}
         </br> 

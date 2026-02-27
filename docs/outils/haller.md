@@ -123,7 +123,6 @@ hallerCompute();
 
 <style>
 .box {
-  max-width: 820px;
   margin: 1rem 0 2rem;
   padding: 1rem 1rem .5rem;
   border: 1px solid var(--md-default-fg-color--lightest);

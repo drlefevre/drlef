@@ -12,7 +12,7 @@ Pas de lésion significative dans le parenchyme pulmonaire.
 Coupes sous-diaphragmatiques et cadre osseux sans particularité.
 ```
 
-!!! tip "**Veines pulmonaires** = 30% [variantes anatomiques](https://www.researchgate.net/figure/Modified-diagram-of-pulmonary-venous-origin-category-by-Marom-et-al-1-BSRLL-basilar_fig1_230834461){:target="_blank"}"
+!!! tip "**Veines pulmonaires** = 30% variantes anatomiques : [classification de Marom](https://www.researchgate.net/figure/Modified-diagram-of-pulmonary-venous-origin-category-by-Marom-et-al-1-BSRLL-basilar_fig1_230834461){:target="_blank"}"
     - ostium commun
     - veine surnuméraire
     - division précoce (< 5 mm après la naissance)

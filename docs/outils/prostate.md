@@ -91,7 +91,6 @@
 <style>
 /* --- Style Global --- */
 .box {
-  max-width: 820px;
   margin: 1rem 0 2rem;
   padding: 1rem 1rem 1.5rem;
   border: 1px solid var(--md-default-fg-color--lightest);
@@ -125,6 +124,7 @@ input[type=number] { -moz-appearance: textfield; }
     border-radius: .5rem; overflow: hidden;
     box-shadow: 0 2px 4px -1px rgba(0,0,0,0.1);
     width: 100%;
+    max-width: 800px;
 }
 .canvas-controls {
     display: flex; justify-content: center; gap: 8px; padding: 5px;
