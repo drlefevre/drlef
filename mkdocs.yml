@@ -78,6 +78,7 @@ nav:
   - PDC: PDC.md
   - AVP: AVP.md
   - Outils:
+    - PSAd: outils/PSAd.md
     - Dose: outils/dose.md
     - Haller: outils/haller.md
     - RECIST: outils/recist.md

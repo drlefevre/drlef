@@ -11,3 +11,26 @@
     - hémorragie intracrânienne
     - anévrysmes mycotiques
     - méningite et abcès
+
+=== "IRMc"
+    ```
+    Séquences axiales diffusion, FLAIR, T2*, T1 et 3D TOF.
+    Après injection de gadolinium, séquence 3D T1 SE FS.
+
+    Absence de lésion ischémique ou hémorragique récente.
+    Respect des espaces liquidiens intra et péri-cérébraux.
+    Perméabilité des artères du polygone de Willis, sans image d'addition.
+    Absence de prise de contraste pathologique.
+    ```
+
+=== "TDMc"
+    ```
+    Acquisitions sans puis après injection au temps artériel et à 8 minutes.
+
+    Structures médianes encéphaliques en place.
+    Absence de lésion hémorragique intracrânienne récente.
+    Pas d'hypodensité systématisée à un territoire artériel.
+    Perméabilité des artères du polygone de Willis, sans image d'addition.
+    Pas de prise de contraste pathologique du parenchyme cérébral.
+    Cadre osseux sans particularité.
+    ```
