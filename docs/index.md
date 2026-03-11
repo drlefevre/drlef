@@ -301,7 +301,7 @@
     <p style="text-align: center">écho à <b>J3</b> du cycle, réserve ovarienne faible si < 5 follicules/ovaire</p>
 
 === "Rx"
-    === "vieux"
+    === "tho vieux"
         ```
         Aspect déroulé de la crosse aortique.
         Respect de la silhouette cardiomédiastinale par ailleurs.
@@ -309,16 +309,13 @@
         Pas de comblement des récessus costo-diaphragmatiques.
         Remaniements dégénératifs modérés du rachis.
         ``` 
-    === "jeune"
+    === "tho jeune"
         ```
         Silhouette cardiomédiastinale d'aspect normal.
         Pas d'opacité en projection des champs pulmonaires.
         Pas de comblement des récessus costo-diaphragmatiques.
         Structures osseuses sans particularité significative.
         ``` 
-    <figure markdown="span">
-        [sd radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}
-    </figure>
     === "RLB"
         ```
         Respect de la hauteur et bon alignement des corps vertébraux.
@@ -333,9 +330,10 @@
         Lordose cervicale conservée.
         Bon alignement des corps vertébraux.
         Pas de pincement des espaces intersomatiques.
+        Pas de sténose osseuse des foramens intervertébraux.
         Pas d'épaississement des parties molles prévertébrales.
         ``` 
-    === "Scoliose"
+    === "scoliose"
         ```
         Scoliose  mesurant ° entre le plateau supérieur de  et le plateau inférieur de .
         Stade d'ossification Risser 
@@ -350,17 +348,29 @@
         T-score du col fémorale droit =  (normale ≥ -1)
         T-score du col fémorale gauche =  (normale ≥ -1)
         ```            
+    === "divers"
+        ```
+        Bon alignement des structures osseuses et respect des rapports anatomiques.
+        Absence de lésion osseuse décelable, notamment post-traumatique.
+        Aspect sans particularité des parties molles.
+        ```  
+    === "pano"
+        ```
+        Pas de lacune apico-dentaire.
+        Bonne ventilation des cuvettes maxillaires.
+        Condyles mandibulaires d'aspect normal.
+        Pas de lésion osseuse focale.
+        ```  
+    === "cavum"
+        ```
+        Discret épaississement des tissus mous du cavum, avec aspect convexe des contours antéro-inférieurs, sans retentissement significatif sur la filière naso-phrayngée.
+        Cadre osseux sans particularité.
+        ``` 
     <figure markdown="span">
+        [sd radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}  
+        <br>
         ![](assets/Risser.jpg){width="420"}
         </br> 
-    </figure>
-    ```title="Pano"
-    Pas de lacune apico-dentaire.
-    Bonne ventilation des cuvettes maxillaires.
-    Condyles mandibulaires d'aspect normal.
-    Pas de lésion osseuse focale.
-    ```  
-    <figure markdown="span">
         ![](assets/numero.jpg){width="600"}
         denture lactéale terminée à M30, dentition définitive de 6 à 20 ans
         </br>
@@ -369,12 +379,6 @@
         /!\ rétention (obstacle) / inclusion (reste dans le sac folliculaire)  
         </br>
         ![](assets/dent.jpg){width="500"}  
-        </br>
-    </figure>
-    ```title="Cavum"
-    Discret épaississement des tissus mous du cavum, avec aspect convexe des contours antéro-inférieurs, sans retentissement significatif sur la filière naso-phrayngée.
-    Cadre osseux sans particularité.
-    ```  
-    <figure markdown="span">
+        </br> 
         [Hypertrophie végétations adénoïdes](https://www.radeos.org/maladie/fiche-hypertrophie-des-vegetations-adenoides_1663.html){:target="_blank"}
     </figure>
