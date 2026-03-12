@@ -358,7 +358,7 @@
         ```
         Pas de lacune apico-dentaire.
         Bonne ventilation des cuvettes maxillaires.
-        Condyles mandibulaires d'aspect normal.
+        Condyles mandibulaires sans anomalie.
         Pas de lésion osseuse focale.
         ```  
     === "cavum"

@@ -87,7 +87,7 @@
     ```
     Séquences axiales diffusion, FLAIR et T2* à l'étage encéphalique.
     Acquisition centrée sur les conduits auditifs internes en 3D T2 HR.
-    Séquences axiales T1 SE sans puis après injection de gadolinium, et 3D T1 EG FS.
+    Séquences axiales T1 SE sans puis après injection de gadolinium, et 3D T1 EG.
 
     Etage supra-tentoriel :
     Structures de la ligne médiane en place.
