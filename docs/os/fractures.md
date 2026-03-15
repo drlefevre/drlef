@@ -1,9 +1,19 @@
 === "vertébrale"
     !!! tip "**ostéoporose** [vs malin](https://radiopaedia.org/articles/spinal-compression-fracture?lang=gb){:target="_blank"}"
-        - symétrique dans le plan frontal, rétropulsion coin postéro-sup.
-        - multiples fractures vertébrales en compression
+        - symétrique dans le plan frontal, rétropulsion coin postéro-sup, vide intrasomatique
+        - multiples tassements en-dessous de T6
         - persistance de signal graisseux dans la moelle en T1
         - si doute => T1 post-gado montre une homogénéisation du signal 
+
+    <figure markdown="span">
+        ![](assets/fracver.jpg){width="550"}  
+    </figure>
+
+    | T-score | critères OMS |  
+    | :----------: | :-------: | 
+    | > -1 | normal | 
+    | de -1 à -2,5 | ostéopénie | 
+    | ≤ -2,5 | ostéoporose | 
 
 === "bassin"
     <figure markdown="span">
@@ -37,4 +47,15 @@
 
     <figure markdown="span">
         ![](assets/paget.jpg){width="650"}  
+    </figure>
+
+=== "hyperparathyroïdie"
+    !!! tip "[Sémiologie](https://radiopaedia.org/articles/hyperparathyroidism){:target="_blank"}"
+        - résorption sous-périostée = main 2è et 3è rayons +++ avec acroostéolyse
+        - tumeurs brunes = lésions lytiques sans franche réaction osseuse
+        - dépôts de PPC
+
+    <figure markdown="span">
+        ![](assets/hyperpara.jpg){width="300"}  
+        ![](assets/tumeurs brunes.jpg){width="500"}  
     </figure>
