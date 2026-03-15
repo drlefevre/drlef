@@ -1,8 +1,20 @@
 # Echo-Rx
 
 <figure markdown="span">
-    [Rx urg](https://univers-medecine.com/livres/fr/Lecture%20radiologique%20aux%20urgences.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [os accessoires](https://fr.wikipedia.org/wiki/Os_accessoire){:target="_blank"}
+    [Rx urg](https://univers-medecine.com/livres/fr/Lecture%20radiologique%20aux%20urgences.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [os accessoires](https://fr.wikipedia.org/wiki/Os_accessoire){:target="_blank"}
 </figure> 
+
+=== "boiterie fébrile"
+    ```
+    Hanche :
+    Pas d'épanchement en regard du col fémoral.
+    
+    Genou :
+    Pas d'épanchement au sein du récessus sous-quadricipital.
+    
+    Cheville :
+    Pas d'épanchement talo-crural.
+    ```
 
 === "épaule"
     ```
@@ -142,6 +154,16 @@
     ```
 
 === "pied"
+    ```title="Tendon d'Achille"
+    Solution de continuité des fibres du tendon calcanéen occupée par une plage hétérogène mesurant  mm.
+    Distance entre le rebord supérieur du calcanéum et la rupture :  mm.
+    Pas de réductibilité lors de la flexion plantaire du pied.
+    Pas d'argument pour une tendinopathie sous-jacente.
+    Pas d'arrachement osseux.
+    ```
+    <figure markdown="span">
+        ![](assets/Achille rompu.jpg){width="400"}  
+    </figure>
     ```title="Rx"
     Respect des interlignes articulaires du tarse, métacarpophallangiennes et interphallangiennes.
     Pas d'érosion osseuse ni de lésion suspecte.

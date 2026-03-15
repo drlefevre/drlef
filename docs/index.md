@@ -344,9 +344,9 @@
         ```    
     === "DMO"
         ```
-        T-score du rachis lombaire (L1-L4) =  (normale ≥ -1)
-        T-score du col fémorale droit =  (normale ≥ -1)
-        T-score du col fémorale gauche =  (normale ≥ -1)
+        T-score du rachis lombaire (L1-L4) =  (norme ≥ -1)
+        T-score du col fémoral droit =  (norme ≥ -1)
+        T-score du col fémoral gauche =  (norme ≥ -1)
         ```            
     === "divers"
         ```

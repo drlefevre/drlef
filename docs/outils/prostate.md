@@ -665,7 +665,7 @@ function updateTextareaFromSelects() {
     } else if (vsValue === 'atrophie') {
         vsText = "Atrophie symétrique des vésicules séminales.";
     } else if (vsValue === 'dilatation') {
-        vsText = "Dilatation symétriques des vésicules séminales d'aspect banal.";
+        vsText = "Dilatation symétrique des vésicules séminales d'aspect banal.";
     }
 
     const detruValue = document.getElementById('detru-select').value;

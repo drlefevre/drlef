@@ -1,4 +1,4 @@
-=== "BASSIN"
+=== "Bassin"
     ``` title="IRM du bassin"
     Pas d'épanchement articulaire coxo-fémoral.
     Pas de chondropathie coxo-fémorale significative.
@@ -7,7 +7,7 @@
     Pas de lésion osseuse suspecte.
     ```
 
-=== "GENOU"
+=== "Genou"
     ``` title="IRM"
     Pas d'épanchement articulaire et absence de kyste poplité.
     Intégrité des structures osseuses, sans oedème ni remaniements dégénératifs.

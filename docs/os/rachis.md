@@ -1,4 +1,53 @@
 === "Lombaire"
+    ```
+    Séquences sagittale T1, sagittale et coronale T2 STIR, ainsi que 3D T2.
+    
+    Dernier disque mobile nommé L5-S1.
+    Projection du cône médullaire en regard de L.
+    Pas de lésion de remplacement ostéomédullaire suspecte.
+    Respect de la hauteur et bon alignement des corps vertébraux.
+    Pas d'étroitesse constitutionnelle du canal rachidien.
+
+    En T12-L1, L1-L2, L2-L3, L3-L4, L4-L5, L5-S1 : Pas de rétrécissement canalaire ni foraminal.
+
+    En
+
+    En
+    ```
+
+    <figure markdown="span">
+        ![](assets/sciatique.jpg){width="400"}  
+        ![](assets/hernie.jpg){width="720"}
+        ![](assets/hernie2.jpg){width="480"}  
+        <br>
+        ![](assets/LLP.jpg){width="560"}
+        vocabulaire = migration craniale/caudale; fragment exclu épidural  
+        <br>
+        ![](assets/stenose.jpg){width="450"}
+        Etroitesse constitutionnelle relative si diam. ant.-post. < 12 mm voire absolue < 10 mm  
+        Sténose minime : LCS visible, modérée : peu visible, sévère : ∅ LCS, extrême : ∅ graisse épidurale  
+        <br>
+        ![](assets/hernieanat.jpg){width="430"}  
+        ![](assets/ligaments.jpg){width="590"}          
+        <br>
+        ![](assets/modic.jpg){width="350"}
+        **Modic** I = inflammatoire « œdémateux », II = involution graisseuse, III = fibrose
+    </figure>
+
+    ``` mermaid
+    graph TD
+        A[Symptôme principal ?] --> B[Lombalgie]
+        A --> C[Radiculalgie]
+        A --> D[Claudication]
+
+        B -->|médiane| H[discopathie<br>Baastrup]
+        B -->|latéralisée| I[AAP<br>Bartolotti]
+        B -->|musculaire| J[scoliose]
+
+        C --> K[HD</br>kyste articulaire<br>sténose foraminale]
+        D --> L[canal étroit<br>et/ou rétréci]
+    ```
+
     ``` title="TDM"
     Pas d'anomalie transitionnelle de la charnière lombo-sacrée.
     Lordose physiologique et bon alignement des corps vertébraux.
@@ -51,6 +100,7 @@
     Bascule du bassin par dénivelation vers la 
     Absence de malformation ou de lésion vertébrale décelable.
     ```
+    
     <figure markdown="span">
         ![](assets/Cobb.jpg){width="400"}
         mauvais Pc si > 30°  
