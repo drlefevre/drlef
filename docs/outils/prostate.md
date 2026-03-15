@@ -77,6 +77,26 @@
 
   <div id="lesion-rows-container"></div>
 
+  <div class="pairs">
+    <div style="grid-column: 1 / -1; margin-top: 0.5rem; display:flex; gap:0.6rem;">
+        <select id="vs-select" onchange="updateTextareaFromSelects()">
+        <option value="normales" selected>VS normales</option>
+        <option value="atrophie">Atrophie des VS</option>
+        <option value="dilatation">Dilatation des VS</option>
+        </select>
+        <select id="detru-select" onchange="updateTextareaFromSelects()">
+        <option value="fin" selected>Détrusor fin</option>
+        <option value="epaissi">Détrusor épaissi</option>
+        <option value="epaissi-divert">Détrusor épaissi avec diverticules</option>
+        </select>
+    </div>
+  </div>
+
+  <textarea id="par-ailleurs-text" rows="4" oninput="updateReport(); adjustTextareaHeight()" style="overflow: hidden;">Vésicules séminales symétriques d'aspect normal.
+Pas d'épaississement significatif du détrusor.
+Pas de dilatation des cavités pyélocalicielles.
+Pas d'adénopathie pelvienne significative.</textarea>
+
   <div class="final-actions">
       <button type="button" class="btn-main-copy" id="btn-copy-full" onclick="copyFullReport()">
          CR ± schéma
@@ -99,6 +119,7 @@
   font-family: sans-serif;
 }
 .pairs { display:grid; grid-template-columns: 1fr; gap:.45rem; }
+.select-options { display: flex; gap: 0.6rem; margin: 1rem 0 0 0; flex-wrap: wrap; }
 .pair { display:grid; grid-template-columns: repeat(2, 1fr); gap:.6rem; align-items: flex-start; }
 
 .box input, .box select {
@@ -108,7 +129,14 @@
   font-size: .8rem; color: var(--md-default-fg-color);
   margin: 0; text-align: center;
 }
-.box input:focus, .box select:focus { border-color: var(--md-default-fg-color--light); }
+.box textarea {
+  width: 100%; padding: .4rem .6rem;
+  border: 1px solid var(--md-default-fg-color--lighter); 
+  border-radius: .4rem; background: var(--md-code-bg-color);
+  font-size: .8rem; color: var(--md-default-fg-color);
+  margin: 1rem 0 0 0; text-align: left; resize: vertical;
+}
+.box input:focus, .box select:focus, .box textarea:focus { border-color: var(--md-default-fg-color--light); }
 
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
@@ -265,7 +293,9 @@ let currentReportData = {};
 window.addEventListener('load', function() {
     initCanvas();
     toggleVolInputs(); 
+    updateTextareaFromSelects();
     updateReport(); 
+    adjustTextareaHeight();
 });
 
 function initCanvas() {
@@ -621,6 +651,38 @@ function formatLesionList(lesionArray) {
     }
 }
 
+function adjustTextareaHeight() {
+    const textarea = document.getElementById('par-ailleurs-text');
+    textarea.style.height = 'auto';
+    textarea.style.height = textarea.scrollHeight + 'px';
+}
+
+function updateTextareaFromSelects() {
+    const vsValue = document.getElementById('vs-select').value;
+    let vsText = '';
+    if (vsValue === 'normales') {
+        vsText = "Vésicules séminales symétriques d'aspect normal.";
+    } else if (vsValue === 'atrophie') {
+        vsText = "Atrophie symétrique des vésicules séminales.";
+    } else if (vsValue === 'dilatation') {
+        vsText = "Dilatation symétriques des vésicules séminales d'aspect banal.";
+    }
+
+    const detruValue = document.getElementById('detru-select').value;
+    let detruText = '';
+    if (detruValue === 'fin') {
+        detruText = "Pas d'épaississement significatif du détrusor.";
+    } else if (detruValue === 'epaissi') {
+        detruText = "Epaississement significatif du détrusor, sans diverticule.";
+    } else if (detruValue === 'epaissi-divert') {
+        detruText = "Epaississement significatif du détrusor, avec diverticules.";
+    }
+
+    const fullText = vsText + "\n" + detruText + "\nPas de dilatation des cavités pyélocalicielles.\nPas d'adénopathie pelvienne significative.";
+    document.getElementById('par-ailleurs-text').value = fullText;
+    adjustTextareaHeight();
+}
+
 function updateReport() {
     let vol = 0;
     const isManual = document.getElementById('vol-method').value === 'manual';
@@ -695,7 +757,7 @@ function updateReport() {
         resTxt += "Le stroma fibromusculaire antérieur est fin et très hypointense en T2.";
     }
 
-    resTxt += "\n\nPar ailleurs :\nVésicules séminales symétriques d'aspect normal.\nPas d'épaississement significatif du détrusor.\nPas de dilatation des cavités pyélocalicielles.\nPas d'adénopathie pelvienne significative.";
+    resTxt += "\n\n<em>Par ailleurs :</em>\n" + document.getElementById('par-ailleurs-text').value;
     
     currentReportData.resultat = resTxt;
     txt += resTxt + "\n\n";
@@ -751,6 +813,7 @@ function updateReport() {
     currentReportData.conclusion = conclusionTxt;
     const area = document.getElementById('report-text');
     area.value = txt;
+    adjustTextareaHeight();
 }
 
 // Fonction Fallback (pour quand HTTPS n'est pas dispo)
@@ -945,6 +1008,10 @@ function fullReset() {
     // Remettre les menus déroulants ZP / ZT sur la valeur par défaut "Quelques remaniements"
     if (document.getElementById('zone-zp')) document.getElementById('zone-zp').value = 'quelques';
     if (document.getElementById('zone-zt')) document.getElementById('zone-zt').value = 'quelques';
+    // Remettre les selects
+    document.getElementById('vs-select').value = 'normales';
+    document.getElementById('detru-select').value = 'fin';
+    updateTextareaFromSelects();
     updateReport();
 }
 </script>

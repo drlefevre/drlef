@@ -49,13 +49,13 @@
     Séquences axiales diffusion, FLAIR, T2* et T1 SE.
     Après injection de gadolinium, ARM des TSA et axiale T1 SE.
 
-    
-    Structures médianes en place. Pas d'hydrocéphalie.
+    Lésion ischémique récente constituée
+    Absence de remaniement hémorragique.
+    Pas de nouvelle lésion ischémique.
+    Structures médianes en place.
     Pas de prise de contraste pathologique.
-    
-    Étude vasculaire :
-    
-    Perméabilité des TSA et des artères du polygone de Willis par ailleurs sans disparité de calibre.
+    Perméabilité proximale des artères du polygone de Willis.
+    Perméabilité des troncs supra-aortiques sans sténose significative.
     ```
     ```
     Acquisition 3D T1 SE FS sur l'étage cervical.

@@ -25,7 +25,7 @@ Pas de syndrome de masse intracrânien.
 Atrophie cortico-sous-corticale diffuse, sans atrophie lobaire prédominante.
 Atrophie hippocampique modérée classée Scheltens 0 de façon bilatérale.
 Leucopathie d'origine vasculaire probable classée Fazekas
-Pas de signe d'hydrocéphalie chronique de l'adulte.
+Pas de signe d'hydrocéphalie à pression normale.
 Pas d'anomalie des noyaux gris centraux.
 ```
 
