@@ -1,16 +1,16 @@
 # Greffon rénal
 
 ```
-Grand axe mesurant
+Grand axe du greffon mesurant
 Pas de dilatation des cavités pyélo-calicielles.
 Contours réguliers et différenciation parenchymo-médullaire satisfaisante.
 Pas de collection péri-rénale ni d'épanchement péritonéal.
 Vessie en semi-réplétion au contenu anéchogène.
-
 Vascularisation intra-rénale homogène.
 Perméabilité des vaisseaux afférents et efférents.
-Vitesse artérielle systolique maximale : 
-Index de résistance intrarénale :
+Vitesse artérielle systolique maximale :  (normale < 200 cm/s).
+Index de résistance intrarénal :  (normal entre 0,6 et 0,8).
+Reins natifs atrophiques sans lésion focale.
 ```
 
 <figure markdown="span">

@@ -4,48 +4,65 @@
 </br>rempl cima / elindo, Lens 1314, pass</p>
 
 === "Abdo"
-    ```
-    Foie de taille et de morphologie normales, sans lésion focale.
-    Tronc porte avec flux hépatopète et veines sus-hépatiques hépatofuges.
-    Pas de calcul vésiculaire. Pas de dilatation des voies biliaires. 
-    Pas d'anomalie du pancréas explorable.
-    Rate homogène de taille normale.
-    Pas de dilatation des cavités pyélocalicielles.
-    Reins de taille et de morphologie normales, sans lésion focale.
-    Absence de lésion individualisable dans le rétropéritoine médian.
-    Vessie en faible réplétion, sans anomalie décelable.
-    Pas d'épanchement péritonéal.
-    ```
-    ```
-    Pas d'anomalie en projection de l'utérus et des annexes.
-    ```
-    ```
-    Reins :
-    Grand axe mesurant à droite et gauche  mm.
-    Différenciation cortico-médullaire satisfaisante.
-    Pas de dilatation des cavités pyélo-calicielles.
-    Pas d'image lithiasique ni de lésion suspecte.
+    === "H"
+        ```
+        Foie de taille et de morphologie normales, sans lésion focale.
+        Tronc porte avec flux hépatopète et veines sus-hépatiques hépatofuges.
+        Pas de calcul vésiculaire. Pas de dilatation des voies biliaires. 
+        Pas d'anomalie du pancréas explorable.
+        Rate homogène de taille normale.
+        Pas de dilatation des cavités pyélocalicielles.
+        Reins de taille et de morphologie normales, sans lésion focale.
+        Absence de lésion individualisable dans le rétropéritoine médian.
+        Vessie en faible réplétion, sans anomalie décelable.
+        Pas d'épanchement péritonéal.
+        ```
+    === "F"
+        ```
+        Foie de taille et de morphologie normales, sans lésion focale.
+        Tronc porte avec flux hépatopète et veines sus-hépatiques hépatofuges.
+        Pas de calcul vésiculaire. Pas de dilatation des voies biliaires. 
+        Pas d'anomalie du pancréas explorable.
+        Rate homogène de taille normale.
+        Pas de dilatation des cavités pyélocalicielles.
+        Reins de taille et de morphologie normales, sans lésion focale.
+        Absence de lésion individualisable dans le rétropéritoine médian.
+        Pas d'anomalie en projection de l'utérus et des annexes.
+        Vessie en faible réplétion, sans anomalie décelable.
+        Pas d'épanchement péritonéal.
+        ```
+    === "reins"    
+        ```
+        Reins :
+        Grand axe mesurant à droite et gauche  mm.
+        Différenciation cortico-médullaire satisfaisante.
+        Pas de dilatation des cavités pyélo-calicielles.
+        Pas d'image lithiasique ni de lésion suspecte.
 
-    Vessie :
-    En réplétion, avec contenu anéchogène.
-    Pas d'anomalie de paroi décelable.
-    Pas d'épanchement péritonéal.
-    ```
-    <figure markdown="span">
-        </br>
-        ![](assets/dysmorphie.jpg){width="580"}
-        [Surveillance cirrhose](https://www.has-sante.fr/upload/docs/application/pdf/2013-03/05r26_form_surveillance_cirrhose_formulaires_de_bilan_echographique_hepatique.pdf){:target="_blank"} avec **HTP** si vitesse TP < 10 cm/s
-    </figure>
-    ```
-    Dysmorphie hépatique avec contours bosselés.
-    Echostructure homogène, sans lésion focale suspecte.
-    Tronc porte et branches portales hépatopètes.
-    Vitesse maximale dans le tronc porte :  cm/s.
-    Pas de dilatation des voies biliaires.
-    Grand axe de la rate :  cm.
-    Pas de voies de dérivation porto-systémiques décelable.
-    Absence d'ascite.
-    ```
+        Vessie :
+        En réplétion, avec contenu anéchogène.
+        Pas d'anomalie de paroi décelable.
+        Pas d'épanchement péritonéal.
+        Pas de syndrome de masse pelvien ni rétropéritonéal.
+        ```
+    === "cirrhose"
+        ```
+        Dysmorphie hépatique avec contours bosselés.
+        Echostructure homogène, sans lésion focale suspecte.
+        Tronc porte et branches portales hépatopètes.
+        Vitesse maximale dans le tronc porte :  cm/s.
+        Pas de dilatation des voies biliaires.
+        Grand axe de la rate :  cm.
+        Absence d'ascite.
+        Pas de voie de dérivation porto-systémique décelable.
+        ```
+
+        <figure markdown="span">
+            ![](assets/dysmorphie.jpg){width="580"}
+            [Surveillance cirrhose](https://www.has-sante.fr/upload/docs/application/pdf/2013-03/05r26_form_surveillance_cirrhose_formulaires_de_bilan_echographique_hepatique.pdf){:target="_blank"}  
+            **HTP** si vitesse TP < 10 cm/s
+        </figure>
+
     <figure markdown="span">
         [Lésion hépatiques](https://echo.interniste.com/echographie-foie-us-fr-c2-s0){:target="_blank"}  
         ![](assets/angiome.jpg){width="430"}  
@@ -80,77 +97,91 @@
     </figure>
 
 === "Paroi"
-    ```
-    Examen debout lors de manœuvres de Valsalva répétées, puis en décubitus.
-    
-    Pas de hernie ou autre lésion inguinale décelable.
-    Pas d'épanchement dans l'articulation coxo-fémorale.
-    Pas d'ascite ni de syndrome de masse dans le pelvis.
-    Vessie en semi-réplétion, à contenu anéchogène, sans anomalie pariétale.
-    ```
-    ```
-    Examen debout lors de manœuvres de Valsalva répétées, puis en décubitus.
-    
-    Hernie inguinale
 
-    Pas de hernie inguinale controlatérale décelable.
-
-    Consignes de consultation aux urgences en cas de tuméfaction irréductible et inflammatoire qui ferait suspecter une strangulation intestinale.
-    ```
-    ```
-    Consignes de consultation aux urgences en cas de tuméfaction irréductible et inflammatoire qui ferait suspecter une strangulation intestinale.
-    ```
-    <figure markdown="span">
-        [![](assets/ing.jpg){width="650"}](https://radiopaedia.org/articles/inguinal-hernia){:target="_blank"}
-        [complications post-op](https://lamediatheque.radiologie.fr/mediatheque/media.aspx?mediaId=50350&channel=3277){:target="_blank"} = hématome, lymphocèle, varicocèle, meshome  
-        [DD](https://www.intercomsante57.fr/html/profsante/pdf/L-echographie-dans-les-hernies.pdf){:target="_blank"} douleurs inguinales = arthrose hanche/rachis, pubalgie du sportif  
-        [Diastiasis](https://radiopaedia.org/articles/diastasis-recti){:target="_blank"} des muscles grands droits si > 20 mm  
-        [Hernie de Spiegel](https://radiopaedia.org/articles/spigelian-hernia-1){:target="_blank"} = ligne semi-lunaire
-    </figure>
-
-    | Ganglion | [Territoires de drainage](https://www.chem-sante.fr/elearning/parcours_41/biblio_0/mg_2015_941_384.pdf){:target="_blank"}  |
-    | :----------: | :-----------------------------------: |
-    | `pré-auriculaire` | partie supérieure du visage |
-    | `rétro-auriculaire` | cuir chevelu, oreille |
-    | `jugulo-carotidien` | thyroïde, oropharynx, anneau de Waldeyer |
-    | `sus-claviculaire D` | médiastin, poumons, œsophage |
-    | `Troisier (G)` | poumons, abdo-pelv, testicules |
-    | `axillaire` | membre sup, sein, paroi thoracique |
-    | `inguinal` | membre inf, OGE, paroi abdo inf |
-
-    !!! tip "[kyste épidermoïde](https://www.youtube.com/watch?app=desktop&v=HP9j2y5PQoE){:target="_blank"} / d'inclusion épidermique / sébacé = 90% des kystes ss-cut"
-        - croissance lente, 70% dur > 30% mou, parallèle à la peau
-        - finement hétérogène, paroi épaisse hypo, renforcement post
-        - **pas de vascularisation**, amincissement dermique > 50%
-        - 10% rupture/infection = contours lobulés, hypervasc périph
-        - DD = [kyste pilonidal](https://radiopaedia.org/articles/pilonidal-sinus){:target="_blank"}, méta mélanome, sarcome superficiel (rare ++)
-        <figure markdown="span">
-            ![](assets/epidermoide.jpg){width="300"}
-        </figure>
+    === "inguinale"
         ```
-        Formation ovalaire sous-cutanée aux contours réguliers mesurant  mm.
-        Son contenu est hypoéchogène hétérogène avec un renforcement postérieur.
-        Absence de vascularisation décelable au Doppler.
-        Amincissement dermique focal en regard.
+        Examen debout lors de manœuvres de Valsalva répétées, puis en décubitus.
         
-        Aspect évocateur de kyste épidermoïde, sans signe de complication.
+        Pas de hernie ou autre lésion inguinale décelable.
+        Pas d'épanchement dans l'articulation coxo-fémorale.
+        Pas d'ascite ni de syndrome de masse dans le pelvis.
+        Vessie en semi-réplétion, à contenu anéchogène, sans anomalie pariétale.
         ```
         ```
-        Formation ovalaire sous-cutanée aux contours irréguliers mesurant  mm.
-        Son contenu est hypoéchogène hétérogène avec un renforcement postérieur.
-        Infiltration des tissus mous adjacents avec hyperhémie péri-lésionnelle.
-        Absence de vascularisation intrinsèque.
+        Examen debout lors de manœuvres de Valsalva répétées, puis en décubitus.
+        
+        Hernie inguinale
 
-        Aspect évocateur d'une infection de kyste épidermoïde.
+        Pas de hernie inguinale controlatérale décelable.
 
-        Intérêt d'un contrôle échographique en cas de d'évolution défavorable.
+        Consignes de consultation aux urgences en cas de tuméfaction irréductible et inflammatoire qui ferait suspecter une strangulation intestinale.
         ```
-    !!! tip "[lipome](https://onclepaul.fr/wp-content/uploads/2011/07/Boules-masses-nodules.pdf){:target="_blank"}"
-        - masse superficielle compressible et indolore
-        - bien limitée, < 5 cm, pas de flux doppler, septas fibreux < 2 mm
         <figure markdown="span">
-            ![](assets/lipome.jpg){width="300"}
+            [![](assets/ing.jpg){width="650"}](https://radiopaedia.org/articles/inguinal-hernia){:target="_blank"}
+            [complications post-op](https://lamediatheque.radiologie.fr/mediatheque/media.aspx?mediaId=50350&channel=3277){:target="_blank"} = hématome, lymphocèle, varicocèle, meshome  
+            [DD](https://www.intercomsante57.fr/html/profsante/pdf/L-echographie-dans-les-hernies.pdf){:target="_blank"} douleurs inguinales = arthrose hanche/rachis, pubalgie du sportif  
+            [Diastiasis](https://radiopaedia.org/articles/diastasis-recti){:target="_blank"} des muscles grands droits si > 20 mm  
+            [Hernie de Spiegel](https://radiopaedia.org/articles/spigelian-hernia-1){:target="_blank"} = ligne semi-lunaire
         </figure>
+
+    === "ganglions"
+
+        | Ganglion | [Territoires de drainage](https://www.chem-sante.fr/elearning/parcours_41/biblio_0/mg_2015_941_384.pdf){:target="_blank"}  |
+        | :----------: | :-----------------------------------: |
+        | `pré-auriculaire` | partie supérieure du visage |
+        | `rétro-auriculaire` | cuir chevelu, oreille |
+        | `jugulo-carotidien` | thyroïde, oropharynx, anneau de Waldeyer |
+        | `sus-claviculaire D` | médiastin, poumons, œsophage |
+        | `Troisier (G)` | poumons, abdo-pelv, testicules |
+        | `axillaire` | membre sup, sein, paroi thoracique |
+        | `inguinal` | membre inf, OGE, paroi abdo inf |
+
+        ```title="normal"
+        Formation hypoéchogène homogène ovalaire de petit axe infracentimétrique, avec hile hyperéchogène central linéaire, aux contours bien limités, avec un environnement normal, en faveur d'un ganglion physiologique.
+        ```
+
+        ```title="adénomégalie"
+        Formation hypoéchogène homogène arrondie mesurant  mm, aux contours bien limités, avec un environnement normal, en faveur d'une adénomégalie.
+        ```
+
+    === "kyste"
+
+        !!! tip "[kyste épidermoïde](https://www.youtube.com/watch?app=desktop&v=HP9j2y5PQoE){:target="_blank"} / d'inclusion épidermique / sébacé = 90% des kystes ss-cut"
+            - croissance lente, 70% dur > 30% mou, parallèle à la peau
+            - finement hétérogène, paroi épaisse hypo, renforcement post
+            - **pas de vascularisation**, amincissement dermique > 50%
+            - 10% rupture/infection = contours lobulés, hypervasc périph
+            - DD = [kyste pilonidal](https://radiopaedia.org/articles/pilonidal-sinus){:target="_blank"}, méta mélanome, sarcome superficiel (rare ++)
+            <figure markdown="span">
+                ![](assets/epidermoide.jpg){width="300"}
+            </figure>
+            ```
+            Formation ovalaire sous-cutanée aux contours réguliers mesurant  mm.
+            Son contenu est hypoéchogène hétérogène avec un renforcement postérieur.
+            Absence de vascularisation décelable au Doppler.
+            Amincissement dermique focal en regard.
+            
+            Aspect évocateur de kyste épidermoïde, sans signe de complication.
+            ```
+            ```
+            Formation ovalaire sous-cutanée aux contours irréguliers mesurant  mm.
+            Son contenu est hypoéchogène hétérogène avec un renforcement postérieur.
+            Infiltration des tissus mous adjacents avec hyperhémie péri-lésionnelle.
+            Absence de vascularisation intrinsèque.
+
+            Aspect évocateur d'une infection de kyste épidermoïde.
+
+            Intérêt d'un contrôle échographique en cas de d'évolution défavorable.
+            ```
+
+    === "lipome"
+
+        !!! tip "[lipome](https://onclepaul.fr/wp-content/uploads/2011/07/Boules-masses-nodules.pdf){:target="_blank"}"
+            - masse superficielle compressible et indolore
+            - bien limitée, < 5 cm, pas de flux doppler, septas fibreux < 2 mm
+            <figure markdown="span">
+                ![](assets/lipome.jpg){width="300"}
+            </figure>
         ```
         Formation ovalaire superficielle d'allure graisseuse, aux contours bien limités, mesurant  mm.
         Topographie sus-aponévrotique et sans extension au fascia et au plan musculaire.
@@ -160,12 +191,17 @@
 
         Un contrôle échographique sera nécessaire en cas d'évolutivité.
         ```
-    !!! tip "[tumeur desmoïde](https://radiopaedia.org/articles/desmoid-tumour){:target="_blank"}"
-        - paroi abdominale, dans le plan musculaire, croissance lente
-        - masse hypoéchogène bien circonscrite
+
         <figure markdown="span">
-            ![](assets/desmoide.jpg){width="220"}
+            <br>
         </figure>
+
+        !!! tip "[tumeur desmoïde](https://radiopaedia.org/articles/desmoid-tumour){:target="_blank"}"
+            - paroi abdominale, dans le plan musculaire, croissance lente
+            - masse hypoéchogène bien circonscrite
+            <figure markdown="span">
+                ![](assets/desmoide.jpg){width="220"}
+            </figure>
 
 === "H"
     ```
@@ -301,30 +337,45 @@
     <p style="text-align: center">écho à <b>J3</b> du cycle, réserve ovarienne faible si < 5 follicules/ovaire</p>
 
 === "Rx"
-    === "tho vieux"
-        ```
-        Aspect déroulé de la crosse aortique.
-        Respect de la silhouette cardiomédiastinale par ailleurs.
-        Pas d'opacité en projection des champs pulmonaires.
-        Pas de comblement des récessus costo-diaphragmatiques.
-        Remaniements dégénératifs modérés du rachis.
-        ``` 
-    === "tho jeune"
-        ```
-        Silhouette cardiomédiastinale d'aspect normal.
-        Pas d'opacité en projection des champs pulmonaires.
-        Pas de comblement des récessus costo-diaphragmatiques.
-        Structures osseuses sans particularité significative.
-        ``` 
+    === "thorax"
+        === "vieux"
+            ```
+            Aspect déroulé de la crosse aortique.
+            Respect de la silhouette cardiomédiastinale par ailleurs.
+            Pas d'opacité en projection des champs pulmonaires.
+            Pas de comblement des récessus costo-diaphragmatiques.
+            Remaniements dégénératifs modérés du rachis.
+            ``` 
+        === "jeune"
+            ```
+            Silhouette cardiomédiastinale d'aspect normal.
+            Pas d'opacité en projection des champs pulmonaires.
+            Pas de comblement des récessus costo-diaphragmatiques.
+            Structures osseuses sans particularité significative.
+            ``` 
+    
+        <figure markdown="span">
+            [sd radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}  
+        </figure>   
+
     === "RLB"
-        ```
-        Respect de la hauteur et bon alignement des corps vertébraux.
-        Pas de pincement des espaces intersomatiques.
-        Arthrose articulaire postérieure prédominant aux derniers étages lombaires.
-        Pas de remaniement dégénératif significatif des articulations coxo-fémorales.
-        Aspect normal des interlignes articulaires sacro-iliaques.
-        Pas de lésion osseuse suspecte et parties molles sans particularité.
-        ```    
+        === "vieux"
+            ```
+            Respect de la hauteur et bon alignement des corps vertébraux.
+            Pas de pincement des espaces intersomatiques.
+            Arthrose articulaire postérieure prédominant aux derniers étages lombaires.
+            Pas de remaniement dégénératif significatif des articulations coxo-fémorales.
+            Aspect normal des interlignes articulaires sacro-iliaques.
+            Pas de lésion osseuse suspecte et parties molles sans particularité.
+            ``` 
+        === "jeune"
+            ```
+            Pas de pincement des espaces intersomatiques.
+            Respect de la hauteur et bon alignement des corps vertébraux.
+            Aspect normal des interlignes articulaires sacro-iliaques et coxo-fémorales.
+            Pas de lésion osseuse suspecte et parties molles sans particularité.
+            ``` 
+   
     === "RACE"
         ```
         Lordose cervicale conservée.
@@ -333,6 +384,7 @@
         Pas de sténose osseuse des foramens intervertébraux.
         Pas d'épaississement des parties molles prévertébrales.
         ``` 
+
     === "scoliose"
         ```
         Scoliose  mesurant ° entre le plateau supérieur de  et le plateau inférieur de .
@@ -342,18 +394,24 @@
         Pas d'anomalie transitionnelle lombo-sacrée.
         Restant du cadre osseux et parties molles sans particularité.
         ```    
+
+        <figure markdown="span">
+            ![](assets/Risser.jpg){width="420"}
+        </figure>
+
     === "DMO"
         ```
         T-score du rachis lombaire (L1-L4) =  (norme > -1)
         T-score du col fémoral droit =  (norme > -1)
         T-score du col fémoral gauche =  (norme > -1)
-        ```            
-    === "divers"
-        ```
-        Bon alignement des structures osseuses et respect des rapports anatomiques.
-        Absence de lésion osseuse décelable, notamment post-traumatique.
-        Aspect sans particularité des parties molles.
-        ```  
+        ```      
+
+        | T-score | critères OMS |  
+        | :----------: | :-------: | 
+        | > -1 | normal | 
+        | de -1 à -2,5 | ostéopénie | 
+        | ≤ -2,5 | ostéoporose | 
+
     === "pano"
         ```
         Pas de lacune apico-dentaire.
@@ -361,24 +419,34 @@
         Condyles mandibulaires sans anomalie.
         Pas de lésion osseuse focale.
         ```  
+
+        <figure markdown="span">
+            ![](assets/numero.jpg){width="600"}
+            denture lactéale terminée à M30, dentition définitive de 6 à 20 ans
+            </br>
+            désinclusion (ouverture du sac folliculaire avec formation des racines) < éruption
+            </br>
+            /!\ rétention (obstacle) / inclusion (reste dans le sac folliculaire)  
+            </br>
+            ![](assets/dent.jpg){width="500"}  
+        </figure>
+
     === "cavum"
         ```
-        Discret épaississement des tissus mous du cavum, avec aspect convexe des contours antéro-inférieurs, sans retentissement significatif sur la filière naso-phrayngée.
+        Bombement antérieur des parties molles du cavum.
+        Pas de retentissement significatif sur la filière naso-pharyngée.
+        Fente aérienne mesurant  mm (norme > 5 mm).
         Cadre osseux sans particularité.
         ``` 
-    <figure markdown="span">
-        [sd radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}  
-        <br>
-        ![](assets/Risser.jpg){width="420"}
-        </br> 
-        ![](assets/numero.jpg){width="600"}
-        denture lactéale terminée à M30, dentition définitive de 6 à 20 ans
-        </br>
-        désinclusion (ouverture du sac folliculaire avec formation des racines) < éruption
-        </br>
-        /!\ rétention (obstacle) / inclusion (reste dans le sac folliculaire)  
-        </br>
-        ![](assets/dent.jpg){width="500"}  
-        </br> 
-        [Hypertrophie végétations adénoïdes](https://www.radeos.org/maladie/fiche-hypertrophie-des-vegetations-adenoides_1663.html){:target="_blank"}
-    </figure>
+
+        <figure markdown="span">
+            ![](assets/hva.jpg){width="400"}
+            hypertrophie végétations adénoïdes = h>s et fente < 5 mm
+        </figure>
+
+    === "divers"
+        ```
+        Bon alignement des structures osseuses et respect des rapports anatomiques.
+        Absence de lésion osseuse décelable, notamment post-traumatique.
+        Aspect sans particularité des parties molles.
+        ```  

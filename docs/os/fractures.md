@@ -6,7 +6,7 @@
         - si doute => T1 post-gado montre une homogénéisation du signal 
 
     <figure markdown="span">
-        ![](assets/fracver.jpg){width="550"}  
+        ![](assets/fracver.jpg){width="530"}  
     </figure>
 
     | T-score | critères OMS |  

@@ -6,13 +6,13 @@
 
 === "boiterie fébrile"
     ```
-    Hanche :
+    Hanches :
     Pas d'épanchement en regard du col fémoral.
     
-    Genou :
+    Genoux :
     Pas d'épanchement au sein du récessus sous-quadricipital.
     
-    Cheville :
+    Chevilles :
     Pas d'épanchement talo-crural.
     ```
 
