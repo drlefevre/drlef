@@ -7,13 +7,9 @@
 
     <figure markdown="span">
         ![](assets/fracver.jpg){width="530"}  
+        ![](assets/fracbenin.jpg){width="730"}
+        T2 Dixon = **graisse si chute signal OP > 20%** (# œdème d'une lésion tumorale)
     </figure>
-
-    | T-score | critères OMS |  
-    | :----------: | :-------: | 
-    | > -1 | normal | 
-    | de -1 à -2,5 | ostéopénie | 
-    | ≤ -2,5 | ostéoporose | 
 
 === "bassin"
     <figure markdown="span">

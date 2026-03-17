@@ -93,6 +93,31 @@
     </figure>
 
 
+=== "Moelle"
+
+    <figure markdown="span">
+        ![](assets/moellenorm.jpg){width="700"}
+        aspect normal **moelle jaune** (graisse) = HT1 avec **ilôts de moelle rouge** (hématopoïétique) = hT1  
+        <br>
+        ![](assets/moellerouge.jpg){width="700"}
+        apparition progressive **moelle jaune dans les membres** = épiphyses > diaphyses > métaphyses
+    </figure>
+
+    !!! tip "Modifications"
+        - ↗ moelle <span style="background-color: #FFD966; color: black; padding: 2px 6px; border-radius:4px; ">jaune</span> = fracture ancienne, discopathie Modic 3, radiothérapie
+        - ↗ moelle <span style="background-color: #ff0000; color: black; padding: 2px 6px; border-radius:4px; ">rouge</span> (épargne les apophyses et épiphyses) = sportif, fumeur, obèse, anémie, G-CSF
+
+        <figure markdown="span">
+            ![](assets/reconversion.jpg){width="700"}
+            **reconversion médullaire** = ilôts hT1 avec faible rehaussement
+        </figure>
+
+    <figure markdown="span">
+        ![](assets/infiltration.jpg){width="750"}
+        moelle en **hT1 par rapport au disque** et HSTIR par rapport aux muscles  
+        => à confronter au bilan biologique avec électrophorèse des protéines sériques
+    </figure>
+
 === "Scoliose"
     ```
     Scoliose  mesurant ° entre le plateau supérieur de  et le plateau inférieur de .
