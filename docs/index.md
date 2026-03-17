@@ -120,7 +120,7 @@
             [![](assets/ing.jpg){width="650"}](https://radiopaedia.org/articles/inguinal-hernia){:target="_blank"}
             [complications post-op](https://lamediatheque.radiologie.fr/mediatheque/media.aspx?mediaId=50350&channel=3277){:target="_blank"} = hématome, lymphocèle, varicocèle, meshome  
             [DD](https://www.intercomsante57.fr/html/profsante/pdf/L-echographie-dans-les-hernies.pdf){:target="_blank"} douleurs inguinales = arthrose hanche/rachis, pubalgie du sportif  
-            [Diastiasis](https://radiopaedia.org/articles/diastasis-recti){:target="_blank"} des muscles grands droits si > 20 mm  
+            [Diastasis](https://radiopaedia.org/articles/diastasis-recti){:target="_blank"} des muscles grands droits si > 20 mm  
             [Hernie de Spiegel](https://radiopaedia.org/articles/spigelian-hernia-1){:target="_blank"} = ligne semi-lunaire
         </figure>
 
@@ -157,17 +157,17 @@
             </figure>
             ```
             Formation ovalaire sous-cutanée aux contours réguliers mesurant  mm.
-            Son contenu est hypoéchogène hétérogène avec un renforcement postérieur.
-            Absence de vascularisation décelable au Doppler.
+            Contenu hypoéchogène hétérogène avec renforcement acoustique postérieur.
+            Absence de vascularisation intrinsèque décelable au Doppler.
             Amincissement dermique focal en regard.
             
             Aspect évocateur de kyste épidermoïde, sans signe de complication.
             ```
             ```
             Formation ovalaire sous-cutanée aux contours irréguliers mesurant  mm.
-            Son contenu est hypoéchogène hétérogène avec un renforcement postérieur.
+            Contenu hypoéchogène hétérogène avec renforcement acoustique postérieur.
             Infiltration des tissus mous adjacents avec hyperhémie péri-lésionnelle.
-            Absence de vascularisation intrinsèque.
+            Absence de vascularisation intrinsèque décelable au Doppler.
 
             Aspect évocateur d'une infection de kyste épidermoïde.
 

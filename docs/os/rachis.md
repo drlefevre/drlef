@@ -157,3 +157,6 @@
     <figure markdown="span">
         ![](assets/DRC.jpg){width="300"}
     </figure>
+
+
+=== "Spondylodiscite"

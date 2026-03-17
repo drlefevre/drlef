@@ -55,3 +55,16 @@
         ![](assets/hyperpara.jpg){width="300"}  
         ![](assets/tumeurs brunes.jpg){width="500"}  
     </figure>
+
+=== "consolidation"
+
+    <figure markdown="span">
+        ![](assets/consonorm.jpg){width="600"}
+        retard de consolidation si ∅ consolidation à M3  
+        à M6 = pseudarthrose (hypertrophique >> atrophique)
+    </figure>
+
+    !!! warning "Ossification anormale"
+        - cal vicieux = avec raccourcissement / angulation
+        - ossification ectopique (nuage adjacent)
+        - synostose (avec l'os adjacent)
