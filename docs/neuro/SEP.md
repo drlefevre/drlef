@@ -27,17 +27,17 @@
     Pas de lésion ischémique ou hémorragique récente ou séquellaire.
     Pas de prise de contraste pathologique parenchymateuse ou méningée.
 
-    Hypersignaux FLAIR du parenchyme cérébral :
-    - de la substance blanche périventriculaire : non
-    - de la substance blanche juxta-corticale : non
-    - de la substance blanche infratentorielle : non
-    - de la jonctions cervicomédullaire : non
-    - des nerfs optiques : non
+    Hypersignaux FLAIR dans le parenchyme cérébral :
+    - substance blanche périventriculaire : 
+    - substance blanche juxta-corticale : 
+    - substance blanche infratentorielle : 
+    - moelle cervicale haute : non
+    - nerfs optiques : non
 
-    Restriction de la diffusion des hypersignaux FLAIR : non
-    Prise de contraste des hypersignaux FLAIR : non
-    Atrophie parenchymateuse : non
-    Atrophie callosale : non
+    Pas de lésion ischémique ou hémorragique récente ou séquellaire.
+    Pas de prise de contraste pathologique parenchymateuse.
+    Atrophie cortico-sous-corticale diffuse modérée.
+    Quelques black holes périventriculaires.
     ```
     ```title="moelle"
     Séquence sagittale T2 STIR sur l'ensemble du cordon médullaire.

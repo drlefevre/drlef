@@ -42,7 +42,7 @@
     Absence de comblement sinusien.
     Pas de prise de contraste pathologique.
     ```
-    </br>
+
     ``` title="IV-"
     Séquences axiale diffusion, 3D FLAIR, axiale T2*, TOF, et coronale T2.
 
@@ -52,7 +52,7 @@
     Perméabilité des artères du polygone de Willis, sans image d'addition.
     Pas d'anomalie de signal des sinus veineux péri-encéphaliques.
     Pas de signe d'hypertension ou d'hypotension intracrânienne.
-    Absence d'anomalie de signal de la substance blanche.
+    Absence d'anomalie de signal dans la substance blanche.
     Respect de la trophicité cortico-sous-corticale.
     Pas d'anomalie de morphologie ou de signal en fosse postérieure.
     Absence de comblement sinusien.
@@ -100,6 +100,7 @@
     Respect des nerfs vestibulo-cochléaires, sans rehaussement pathologique.
     Signal des liquides labyrinthiques d'aspect normal, sans rehaussement pathologique.
     ```
+
     <figure markdown="span">
         </br>
         ![](assets/sevenup.jpg){width="400"}
@@ -108,8 +109,7 @@
 === "PF"
     ```
     Séquences axiales diffusion et FLAIR à l'étage encéphalique.
-    Séquences centrées sur les conduits auditifs internes 3D T2 HR.
-    Après injection de gadolinium, 3D T1 SE sur tout le crâne.
+    Séquences centrées sur les CAI 3D T2 HR et axiales T1 avant et après injection.
 
     Etage supra-tentoriel :
     Structures de la ligne médiane en place.
@@ -123,11 +123,25 @@
     Tronc cérébral, vermis et hémisphères cérébelleux sans anomalie.
     Signal des liquides labyrinthiques d'aspect normal, sans rehaussement pathologique.
     ```
+
     <figure markdown="span">
         </br>
         ![](assets/nerf facial.jpg){width="700"}
         [trajet du nerf facial](https://radiopaedia.org/cases/intratemporal-facial-nerve-annotated-ct){:target="_blank"}
     </figure>
+
+=== "psy"
+    ```
+    Séquences axiales diffusion, FLAIR, T2* et 3D T1 EG.
+
+    Structures médianes en place.
+    Pas de syndrome de masse intracrânien.
+    Pas d'anomalie des noyaux gris centraux.
+    Respect de la trophicité cortico-sous-corticale.
+    Absence d'anomalie de signal de la substance blanche.
+    Intégrité des espaces liquidiens intra et péri-cérébraux.
+    Pas de lésion ischémique ou hémorragique récente ni séquellaire.
+    ```
 
 === "hydrops"
     ```
@@ -146,6 +160,7 @@
     Pas d'anomalie de signal des liquides labyrinthiques.
     Pas de dilatation des utricules, saccules et canaux endolymphatiques.
     ```
+    
     <figure markdown="span">
         </br>
         [thèse de Victor Chaton (page 27)](https://pepite-depot.univ-lille.fr/LIBRE/Th_Medecine/2021/2021LILUM114.pdf){:target="_blank"}

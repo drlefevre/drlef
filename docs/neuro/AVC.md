@@ -19,7 +19,8 @@
         ![](assets/AVC.jpg){width="410"}  
         ![](assets/TM.jpg){width="330"}  
         ![](assets/ECASS.jpg){width="300"}  
-        ![](assets/aoph.jpg){width="500"}          
+        ![](assets/aoph.jpg){width="500"}  
+        [![](assets/anox.jpg){width="800"}](https://radiopaedia.org/articles/hypoxic-ischaemic-encephalopathy-adults-and-children-2){:target="_blank"}   
     </figure>
 
 
@@ -90,3 +91,10 @@
         <br>
         ![](assets/volume.jpg){width="370"}
     </figure>
+
+    !!! tip "DD [hypersignaux FLAIR des espaces sous-arachnoïdiens](https://radiopaedia.org/articles/sulcal-flair-hyperintensity){:target="_blank"}"
+        - **pendant 24h après injection** de gadolinium
+        - **hyperoxygénation** et propofol (anesth-réa)
+        - **artéfacts** de flux, métal, mouvements
+        - **méningite** infectieuse/inflammatoire/carcinomateuse
+        - **rupture de BHE** (=> globes oculaires HFLAIR) // insuffisance rénale, HTA
