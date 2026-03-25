@@ -76,25 +76,43 @@
         [Thyroïde](outils/thyroide.md)  
     </figure>
 
-    ```
-    Pas d'image lithiasique ni de dilatation canalaire dans les glandes sous-mandibulaires.
-    Pas de lésion focale dans le lobe superficiel des glandes parotides.
-    Pas de ganglion suspect dans les chaînes ganglionnaires cervicales.
-    Perméabilité des axes vasculaires jugulaires et carotidiens.
-    Thyroïde de taille normale sans image nodulaire significative.
-    ```
-    <figure markdown="span">
-        [![](assets/salivaires.jpg){width="700"}](https://radiopaedia.org/articles/pleomorphic-adenoma-of-the-salivary-glands){:target="_blank"} 
-    </figure>
+    === "normal"
+        ```
+        Pas de ganglion suspect dans les chaînes ganglionnaires cervicales.
+        Pas de lésion focale dans les glandes submandibulaire et parotides.
+        Perméabilité des axes vasculaires jugulaires et carotidiens.
+        Thyroïde de taille normale sans image nodulaire significative.
+        ```
 
-    ```
-    Ganglions jugulo-carotidiens supérieurs bilatéraux de petit axe infracentimétrique, de forme ovalaire (rapport grand axe sur petit axe > 2), avec hile hyperéchogène central linéaire, d'échostructure homogène, bien limités, avec un environnement péri-ganglionnaire normal.
-    ```
+        <figure markdown="span">
+            [![](assets/ORL.jpg){width="700"}](https://www.sfdermato.org/media/pdf/fmc/kystes-et-fistules-43aafeeba119ceb9a20059d95f63e615.pdf){:target="_blank"}
+        </figure>
 
-    <figure markdown="span">
-        [![](assets/gg.jpg){width="550"}](https://onclepaul.fr/wp-content/uploads/2011/07/Aires-lymphatiques-cervicales-AF-2022.pdf){:target="_blank"}  
-        [![](assets/ORL.jpg){width="700"}](https://www.sfdermato.org/media/pdf/fmc/kystes-et-fistules-43aafeeba119ceb9a20059d95f63e615.pdf){:target="_blank"}
-    </figure>
+    === "gg"
+        ```
+        Ganglions jugulo-carotidiens bilatéraux de petit axe infracentimétrique, de forme ovalaire (rapport grand axe sur petit axe > 2), avec hile hyperéchogène central linéaire, d'échostructure homogène, bien limités, avec un environnement péri-ganglionnaire normal.
+        Pas de ganglion suspect dans les chaînes ganglionnaires cervicales.
+        Pas de lésion focale dans les glandes submandibulaire et parotides.
+        Perméabilité des axes vasculaires jugulaires et carotidiens.
+        Thyroïde de taille normale sans image nodulaire significative.
+        ```
+
+        <figure markdown="span">
+            [![](assets/gg.jpg){width="550"}](https://onclepaul.fr/wp-content/uploads/2011/07/Aires-lymphatiques-cervicales-AF-2022.pdf){:target="_blank"}  
+        </figure>
+
+    === "glandes salivaires"
+        ```
+        Pas d'image lithiasique ni de dilatation canalaire dans les glandes sous-mandibulaires.
+        Pas de lésion focale dans le lobe superficiel des glandes parotides.
+        Pas de ganglion suspect dans les chaînes ganglionnaires cervicales.
+        Perméabilité des axes vasculaires jugulaires et carotidiens.
+        Thyroïde de taille normale sans image nodulaire significative.
+        ```
+
+        <figure markdown="span">
+            [![](assets/salivaires.jpg){width="700"}](https://radiopaedia.org/articles/pleomorphic-adenoma-of-the-salivary-glands){:target="_blank"} 
+        </figure>
 
 === "Paroi"
 
@@ -182,19 +200,15 @@
             <figure markdown="span">
                 ![](assets/lipome.jpg){width="300"}
             </figure>
-        ```
-        Formation ovalaire superficielle d'allure graisseuse, aux contours bien limités, mesurant  mm.
-        Topographie sus-aponévrotique et sans extension au fascia et au plan musculaire.
-        Absence de vascularisation décelable au Doppler.
+            ```
+            Formation ovalaire superficielle d'allure graisseuse, aux contours bien limités, mesurant  mm.
+            Topographie sus-aponévrotique et sans extension au fascia et au plan musculaire.
+            Absence de vascularisation décelable au Doppler.
 
-        Aspect évocateur de lipome, sans signe d'atypie.
+            Aspect évocateur de lipome, sans signe d'atypie.
 
-        Un contrôle échographique sera nécessaire en cas d'évolutivité.
-        ```
-
-        <figure markdown="span">
-            <br>
-        </figure>
+            Un contrôle échographique sera nécessaire en cas d'évolutivité.
+            ```
 
         !!! tip "[tumeur desmoïde](https://radiopaedia.org/articles/desmoid-tumour){:target="_blank"}"
             - paroi abdominale, dans le plan musculaire, croissance lente
@@ -204,68 +218,106 @@
             </figure>
 
 === "H"
-    ```
-    Reins :
-    Grand axe mesurant à droite et gauche  mm.
-    Différenciation parenchymo-sinusale satisfaisante.
-    Pas de dilatation des cavités pyélo-calicielles.
-    Pas d'image lithiasique ni de lésion suspecte.
 
-    Vessie pré-mictionnelle :
-    En semi-réplétion, avec contenu anéchogène, sans lésion nodulaire.
-    Détrusor modérément épaissi, sans diverticule.
-    Pas d'épanchement péritonéal.
+    === "prostate"
 
-    Prostate par voie sus-pubienne :
-    Contours réguliers. 
-    Volume estimé à  cc.
-    Protrusion intravésicale du lobe médian.
-    Pas d'anomalie du carrefour vésiculo-déférentiel.
+        ```
+        Reins :
+        Grand axe mesurant à droite et gauche  mm.
+        Différenciation parenchymo-sinusale satisfaisante.
+        Pas de dilatation des cavités pyélo-calicielles.
+        Pas d'image lithiasique ni de lésion suspecte.
 
-    Vessie post-mictionnelle :
-    Résidu de  ml.
-    ```
-    <figure markdown="span">
-        ![](assets/pros.jpg){width="700"}
-        hypertrophie si > 30 cc &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RPM significatif si > 50 cc ou > 20% du volume pré-mictionnel
-        </br>  
-    </figure>
-    ```
-    Testicules de taille normale et symétriques.
-    Echostructure homogène, sans lésion focale suspecte.
-    Vascularisation testiculaire symétrique sans particularité. 
-    Epididymes et cordons spermatiques d'aspect normal.
-    Pas d'hydrocèle significative.
-    ```
-    <figure markdown="span">
-        ![](assets/testis.jpg){width="800"}
-        12-20 cc (1-2 cc ≤ 12 ans) → formule de Lambert = cm³ x 0,71  
-        [Pathos](https://onclepaul.net/wp-content/uploads/2011/07/DU-TESTICULE-2011-AGFILEminimizer.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Tumeur adénomatoïde](https://radiopaedia.org/articles/adenomatoid-tumours-of-the-scrotum){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Ectasie tubulaire du rete testis](https://radiopaedia.org/articles/tubular-ectasia-of-rete-testis){:target="_blank"}  
-        </br>
-        ![](assets/enveloppestesti.jpg){width="470"}
-        [enveloppes testiculaires](https://anatomie-fmpm.uca.ma/wp-content/uploads/2020/07/testicules-et-voies-spermatiques.pdf){:target="_blank"} = albuginée < vaginale < fascias spermatiques  
-        </br>
-        ![](assets/adptesti.jpg){width="300"}
-        [tumeur](https://radiopaedia.org/articles/testicular-cancer){:target="_blank"} => **TDM TAP** (métas poumons, foie, cerveau, os)  
-        </br>
-        ![](assets/cryptorchidie.jpg){width="550"}
-        **cryptorchidie** = descente spontanée avant M3 ++ sinon orchidopexie, RR cancer x30
-    </figure>
+        Vessie pré-mictionnelle :
+        En semi-réplétion, avec contenu anéchogène, sans lésion nodulaire.
+        Détrusor modérément épaissi, sans diverticule.
+        Pas d'épanchement péritonéal.
+
+        Prostate par voie sus-pubienne :
+        Contours réguliers. 
+        Volume estimé à  cc.
+        Protrusion intravésicale du lobe médian.
+        Pas d'anomalie du carrefour vésiculo-déférentiel.
+
+        Vessie post-mictionnelle :
+        Résidu de  ml.
+        ```
+
+        <figure markdown="span">
+            ![](assets/pros.jpg){width="700"}
+            hypertrophie si > 30 cc &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RPM significatif si > 50 cc ou > 20% du volume pré-mictionnel
+            </br>  
+        </figure>
+
+    === "testicules"
+
+        ```
+        Testicules de taille normale et symétriques.
+        Echostructure homogène, sans lésion focale suspecte.
+        Vascularisation testiculaire symétrique sans particularité. 
+        Epididymes et cordons spermatiques d'aspect normal.
+        Pas d'hydrocèle significative.
+        ```
+
+        <figure markdown="span">
+            ![](assets/testis.jpg){width="800"}
+            12-20 cc (1-2 cc ≤ 12 ans) → formule de Lambert = cm³ x 0,71  
+            [Pathos](https://onclepaul.net/wp-content/uploads/2011/07/DU-TESTICULE-2011-AGFILEminimizer.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Tumeur adénomatoïde](https://radiopaedia.org/articles/adenomatoid-tumours-of-the-scrotum){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Ectasie tubulaire du rete testis](https://radiopaedia.org/articles/tubular-ectasia-of-rete-testis){:target="_blank"}  
+            </br>
+            ![](assets/enveloppestesti.jpg){width="470"}
+            [enveloppes testiculaires](https://anatomie-fmpm.uca.ma/wp-content/uploads/2020/07/testicules-et-voies-spermatiques.pdf){:target="_blank"} = albuginée < vaginale < fascias spermatiques  
+            </br>
+            ![](assets/adptesti.jpg){width="300"}
+            [tumeur](https://radiopaedia.org/articles/testicular-cancer){:target="_blank"} => **TDM TAP** (métas poumons, foie, cerveau, os)  
+            </br>
+            ![](assets/cryptorchidie.jpg){width="550"}
+            **cryptorchidie** = descente spontanée avant M3 ++ sinon orchidopexie, RR cancer x30
+        </figure>
 
 === "F"
-    ```
-    Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
-    Utérus antéversé antéfléchi mesurant  cm.
-    Endomètre hyperéchogène mesurant  mm.
-    Pas d'anomalie dans le myomètre.
-    Pas de lésion endocavitaire décelable.
+    === "endo jeune"
+        ```
+        Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
-    Pas de dilatation tubaire.
-    Ovaires latéraux, folliculaires, de taille normale.
-    Pas d'épanchement pelvien significatif.
-    Pas de dilatation des cavités pyélocalicielles.
-    ```
+        Utérus antéversé antéfléchi mesurant  cm.
+        Endomètre hyperéchogène mesurant  mm.
+        Pas d'anomalie dans le myomètre.
+        Pas de lésion endocavitaire décelable.
+
+        Pas de dilatation tubaire.
+        Ovaires latéraux, folliculaires, de taille normale.
+        Pas d'épanchement pelvien significatif.
+        Pas de dilatation des cavités pyélocalicielles.
+        ```
+
+    === "endo vieille"
+        ```
+        Examen par voie suspubienne puis endovaginale après accord de la patiente.
+
+        Utérus antéversé antéfléchi mesurant  cm.
+        Endomètre hyperéchogène mesurant  mm.
+        Pas d'anomalie dans le myomètre.
+        Pas de lésion endocavitaire décelable.
+        Ovaires non individualisables.
+        Pas de syndrome de masse pelvien.
+        Pas d'épanchement pelvien significatif.
+        Pas de dilatation des cavités pyélocalicielles.
+        ```
+
+    === "sus-pub"
+            ```
+        Examen par voie suspubienne exclusive (voie endovaginale non souhaitée par la patiente).
+
+        Utérus antéversé antéfléchi mesurant  cm.
+        Endomètre difficilement individualisable mesurant environ  mm.
+        Pas d'anomalie dans le myomètre ni de lésion endocavitaire décelable.
+        Ovaires non individualisables.
+        Pas de syndrome de masse pelvien.
+        Pas d'épanchement pelvien significatif.
+        Pas de dilatation des cavités pyélocalicielles.
+        ```
+
     <figure markdown="span">
         ![](assets/figo.jpg){width="300"}
         0-1-2 sous-muqueux &nbsp;&nbsp;&nbsp; 3-4-5 intramuraux &nbsp;&nbsp;&nbsp; 6-7 sous-séreux  

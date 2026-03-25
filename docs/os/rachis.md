@@ -49,7 +49,7 @@
     ```
 
     ``` title="TDM"
-    Pas d'anomalie transitionnelle de la charnière lombo-sacrée.
+    Le dernier disque mobile est nommé L5-S1.
     Lordose physiologique et bon alignement des corps vertébraux.
     Absence de fracture-tassement ou de déminéralisation osseuse.
     Pas de rétrécissement canalaire ou foraminal.

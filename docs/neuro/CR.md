@@ -50,7 +50,7 @@
     Intégrité des espaces liquidiens intra et péri-cérébraux.
     Pas de lésion ischémique ou hémorragique récente ni séquellaire.
     Perméabilité des artères du polygone de Willis, sans image d'addition.
-    Pas d'anomalie de signal des sinus veineux péri-encéphaliques.
+    Pas d'anomalie de signal dans les sinus veineux péri-encéphaliques.
     Pas de signe d'hypertension ou d'hypotension intracrânienne.
     Absence d'anomalie de signal dans la substance blanche.
     Respect de la trophicité cortico-sous-corticale.
