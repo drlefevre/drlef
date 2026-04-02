@@ -8,11 +8,14 @@
     Respect de la hauteur et bon alignement des corps vertébraux.
     Pas d'étroitesse constitutionnelle du canal rachidien.
 
-    En T12-L1, L1-L2, L2-L3, L3-L4, L4-L5, L5-S1 : Pas de rétrécissement canalaire ni foraminal.
+    Discopathie dégénérative pluriétagée prédominant en  avec remaniements de type Modic .
+    Arthrose zygapophysaire pluriétagée prédominant en  avec œdème des berges articulaires.
 
-    En
-
-    En
+    En L1-L2 : Le disque est en place. Pas de rétrécissement canalaire ou foraminal. 
+    En L2-L3 : Le disque est en place. Pas de rétrécissement canalaire ou foraminal. 
+    En L3-L4 : Le disque est en place. Pas de rétrécissement canalaire ou foraminal. 
+    En L4-L5 : Etalement discal global avec composante foraminale, sans rétrécissement canalaire ou foraminal significatif ni argument en faveur d’un conflit discoradiculaire.
+    En L5-S1 : Etalement discal global avec composante foraminale, sans rétrécissement canalaire ou foraminal significatif ni argument en faveur d’un conflit discoradiculaire.
     ```
 
     <figure markdown="span">

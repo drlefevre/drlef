@@ -46,6 +46,8 @@ nav:
     - Amygdalite: ORL/amygdales.md
     - Tumeurs : ORL/tumeurs.md
     - Sinus: ORL/sinus.md
+    - CR: ORL/CR.md
+    - Rocher: ORL/rocher.md
     - Pédiatrie: ORL/ped.md
   - Uro:
     - Reins: uro/reins.md
@@ -67,13 +69,14 @@ nav:
     - Surrénales: dig/surrénales.md
     - Caustique: dig/caustique.md
     - Urg péd: dig/pedia.md
+    - Gestes: dig/gestes.md
   - Os:
     - Echo et Rx: os/echorx.md
     - Inflammatoire: os/inflammatoire.md
     - Fractures: os/fractures.md
     - Tumeurs: os/tumeurs.md
     - Rachis: os/rachis.md
-    - MI: os/MI.md  
+    - Genou: os/genou.md
   - PDC: PDC.md
   - AVP: AVP.md
   - Outils:

@@ -28,7 +28,7 @@
     </figure>
 
 
-=== "PAROTIDE"
+=== "Parotide"
 
     <figure markdown="span">
         [![](assets/parotide.jpg){width="800"}](https://radiopaedia.org/articles/salivary-gland-tumours){:target="_blank"}  
@@ -36,7 +36,7 @@
     </figure>
 
 
-=== "BASE DU CRÂNE"
+=== "Base du crâne"
 
     <figure markdown="span">
         [Tumeurs de la bases du crâne](https://radiopaedia.org/articles/tumors-of-the-base-of-skull-differential-diagnosis){:target="_blank"}

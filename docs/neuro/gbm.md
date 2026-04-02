@@ -16,11 +16,15 @@
     IRM baseline à J2 post-op (PDC péri-cavitaire après) = plages ischémiques ? (↕ BHE après)
 </figure>
 
-|  lésion cible si > 10x10 mm |  critères [RANO](https://radiopaedia.org/articles/rano-criteria-for-glioma){:target="_blank"} = Σ produits ∅ lésions rehaussées |
+|  lésion cible si > 10x10 mm bien limité |  critères [RANO](https://radiopaedia.org/articles/rano-criteria-for-glioma){:target="_blank"} = Σ produits ∅ lésions rehaussées |
 | :----------: | :-------: | 
-| `progression` (sauf ↘CTC) | ↗ >25% vs nadir, ↗ autres lésions, nvelle lésion | 
-| `réponse partielle` (sauf ↗CTC) | ↘ >50% vs baseline pdt > M1, sinon « stable » | 
-| `réponse complète` (ssi ∅CTC) | disparition des lésions rehaussées pdt > M1 | 
+| `progression*` (sauf ↘CTC) | ↗ >25% vs nadir, ↗ autres lésions, nvelle lésion | 
+| `réponse partielle*` (sauf ↗CTC) | ↘ >50% vs baseline pdt > M1, sinon « stable » | 
+| `réponse complète*` (ssi ∅CTC) | disparition des lésions rehaussées pdt > M1 | 
+
+<figure markdown="span">
+    * si évolution significative, nécessité de la confirmer à 1 mois
+</figure>
 
 <figure markdown="span">
     ![](assets/RT.jpg){width="415"}

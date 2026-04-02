@@ -31,6 +31,19 @@
         Vessie en faible réplétion, sans anomalie décelable.
         Pas d'épanchement péritonéal.
         ```
+    === "VB"
+        ```
+        Vésicule biliaire à parois fines, non distendue, sans image lithiasique.
+        Pas de dilatation des voies biliaires. Perméabilité des vaisseaux hépatiques.
+        Foie de taille et de morphologie normales, sans lésion focale.
+        Pas d'anomalie du pancréas explorable.
+        Rate homogène de taille normale.
+        Pas de dilatation des cavités pyélocalicielles.
+        Reins de taille et de morphologie normales, sans lésion focale.
+        Absence de lésion individualisable dans le rétropéritoine médian.
+        Vessie en faible réplétion, sans anomalie décelable.
+        Pas d'épanchement péritonéal.
+        ```
     === "reins"    
         ```
         Reins :
@@ -81,7 +94,7 @@
         Pas de ganglion suspect dans les chaînes ganglionnaires cervicales.
         Pas de lésion focale dans les glandes submandibulaire et parotides.
         Perméabilité des axes vasculaires jugulaires et carotidiens.
-        Thyroïde de taille normale sans image nodulaire significative.
+        Thyroïde de taille normale sans image nodulaire.
         ```
 
         <figure markdown="span">
@@ -92,9 +105,9 @@
         ```
         Ganglions jugulo-carotidiens bilatéraux de petit axe infracentimétrique, de forme ovalaire (rapport grand axe sur petit axe > 2), avec hile hyperéchogène central linéaire, d'échostructure homogène, bien limités, avec un environnement péri-ganglionnaire normal.
         Pas de ganglion suspect dans les chaînes ganglionnaires cervicales.
-        Pas de lésion focale dans les glandes submandibulaire et parotides.
         Perméabilité des axes vasculaires jugulaires et carotidiens.
-        Thyroïde de taille normale sans image nodulaire significative.
+        Pas de lésion focale dans les glandes submandibulaires.
+        Thyroïde de taille normale sans image nodulaire.
         ```
 
         <figure markdown="span">
@@ -107,7 +120,7 @@
         Pas de lésion focale dans le lobe superficiel des glandes parotides.
         Pas de ganglion suspect dans les chaînes ganglionnaires cervicales.
         Perméabilité des axes vasculaires jugulaires et carotidiens.
-        Thyroïde de taille normale sans image nodulaire significative.
+        Thyroïde de taille normale sans image nodulaire.
         ```
 
         <figure markdown="span">
@@ -123,8 +136,9 @@
         Pas de hernie ou autre lésion inguinale décelable.
         Pas d'épanchement dans l'articulation coxo-fémorale.
         Pas d'ascite ni de syndrome de masse dans le pelvis.
-        Vessie en semi-réplétion, à contenu anéchogène, sans anomalie pariétale.
+        Vessie en semi-réplétion, sans anomalie pariétale.
         ```
+
         ```
         Examen debout lors de manœuvres de Valsalva répétées, puis en décubitus.
         
@@ -134,6 +148,7 @@
 
         Consignes de consultation aux urgences en cas de tuméfaction irréductible et inflammatoire qui ferait suspecter une strangulation intestinale.
         ```
+
         <figure markdown="span">
             [![](assets/ing.jpg){width="650"}](https://radiopaedia.org/articles/inguinal-hernia){:target="_blank"}
             [complications post-op](https://lamediatheque.radiologie.fr/mediatheque/media.aspx?mediaId=50350&channel=3277){:target="_blank"} = hématome, lymphocèle, varicocèle, meshome  
@@ -144,6 +159,14 @@
 
     === "ganglions"
 
+        ```title="normal"
+        Formation hypoéchogène homogène ovalaire de petit axe infracentimétrique, avec hile hyperéchogène central linéaire, aux contours bien limités, avec un environnement normal, en faveur d'un ganglion physiologique.
+        ```
+
+        ```title="adénomégalie"
+        Formation hypoéchogène homogène arrondie mesurant  mm, aux contours bien limités, avec un environnement normal, en faveur d'une adénomégalie.
+        ```
+
         | Ganglion | [Territoires de drainage](https://www.chem-sante.fr/elearning/parcours_41/biblio_0/mg_2015_941_384.pdf){:target="_blank"}  |
         | :----------: | :-----------------------------------: |
         | `pré-auriculaire` | partie supérieure du visage |
@@ -153,14 +176,6 @@
         | `Troisier (G)` | poumons, abdo-pelv, testicules |
         | `axillaire` | membre sup, sein, paroi thoracique |
         | `inguinal` | membre inf, OGE, paroi abdo inf |
-
-        ```title="normal"
-        Formation hypoéchogène homogène ovalaire de petit axe infracentimétrique, avec hile hyperéchogène central linéaire, aux contours bien limités, avec un environnement normal, en faveur d'un ganglion physiologique.
-        ```
-
-        ```title="adénomégalie"
-        Formation hypoéchogène homogène arrondie mesurant  mm, aux contours bien limités, avec un environnement normal, en faveur d'une adénomégalie.
-        ```
 
     === "kyste"
 
@@ -258,6 +273,24 @@
         Epididymes et cordons spermatiques d'aspect normal.
         Pas d'hydrocèle significative.
         ```
+    
+        ```
+        Testicule droit :
+        Volume testiculaire estimé à  cc (selon la formule de Lambert).
+        Echostructure homogène, sans lésion focale suspecte.
+        Epididymes et cordons spermatiques d'aspect normal.
+        Pas d'hydrocèle significative.
+
+        Testicule gauche :
+        Volume testiculaire estimé à  cc (selon la formule de Lambert).
+        Echostructure homogène, sans lésion focale suspecte.
+        Epididymes et cordons spermatiques d'aspect normal.
+        Pas d'hydrocèle significative.
+        ```
+
+        <figure markdown="span">
+            [Volume](outils/volumes.md)  
+        </figure>
 
         <figure markdown="span">
             ![](assets/testis.jpg){width="800"}
@@ -306,7 +339,7 @@
         ```
 
     === "sus-pub"
-            ```
+        ```
         Examen par voie suspubienne exclusive (voie endovaginale non souhaitée par la patiente).
 
         Utérus antéversé antéfléchi mesurant  cm.
@@ -317,6 +350,65 @@
         Pas d'épanchement pelvien significatif.
         Pas de dilatation des cavités pyélocalicielles.
         ```
+
+    === "EPP"
+        ```
+        Examen par voie suspubienne puis endovaginale après accord de la patiente.
+
+        Utérus antéversé antéfléchi mesurant  cm, avec endomètre de  mm.
+        Pas d'anomalie dans le myomètre ni de lésion endocavitaire.
+        Absence de nodule rétractile en regard du torus.
+        Intérgrité de la cloison recto-vaginale et de l'espace vésico-utérin.
+        Pas de dilatation tubaire. Ovaires latéraux, folliculaires, sans endométriome.
+        Pas d'épanchement pelvien significatif.
+        Pas de dilatation des cavités pyélocalicielles.
+        ```
+
+    === "SOPK"
+        ```
+        Examen par voie suspubienne puis endovaginale après accord de la patiente.
+
+        Ovaires latéraux dont la surface mesure à droite et gauche  cm².
+        Ils contiennent moins de 20 follicules par ovaire.
+        Pas de dilatation tubaire.
+
+        Utérus antéversé antéfléchi mesurant  cm.
+        Endomètre hyperéchogène mesurant  mm.
+        Pas d'anomalie dans le myomètre.
+
+        Pas d'épanchement pelvien significatif.
+        Pas de dilatation des cavités pyélocalicielles.
+        ```
+
+        <figure markdown="span">
+            ovaire polykystique si [> 20 follicules 2-9 mm / > 6 cm² / > 10 ml](https://radiopaedia.org/articles/polycystic-ovarian-syndrome-1){:target="_blank"}  
+            </br> 
+        </figure>
+
+    === "CFA"
+        ```
+        Examen par voie suspubienne puis endovaginale après accord de la patiente.
+
+        Ovaires latéraux folliculaires mesurant à droite et gauche  mm.
+
+        Nombre et taille des follicules à droite/gauche :
+            - De moins de 5 mm : 
+            - Entre 5 et 10 mm : 
+            - De plus de 10 mm : 
+
+        Doppler des artères utérines avec IR/IP :
+            - à droite : 
+            - à gauche : 
+
+        Pas de dilatation tubaire.
+        Utérus antéversé antéfléchi mesurant  cm.
+        Endomètre hyperéchogène mesurant  mm.
+        Pas d'anomalie significative du myomètre.
+        Pas d'épanchement pelvien significatif.
+        Pas de dilatation des cavités pyélocalicielles.
+        ```
+
+        <p style="text-align: center">écho à <b>J3</b> du cycle, réserve ovarienne faible si < 5 follicules/ovaire</p>
 
     <figure markdown="span">
         ![](assets/figo.jpg){width="300"}
@@ -347,46 +439,6 @@
         - **épaississement glandulo-kystique** de l'endomètre (mais /!\ K RR 1,6)
         - polypes glandulo-kystiques, ↗ myomes et adénomyose
     </br>
-    ```title="SOPK"
-    Examen par voie suspubienne puis endovaginale après accord de la patiente.
-
-    Ovaires latéraux dont la surface mesure à droite et gauche  cm².
-    Ils contiennent moins de 20 follicules par ovaire.
-    Pas de dilatation tubaire.
-
-    Utérus antéversé antéfléchi mesurant  cm.
-    Endomètre hyperéchogène mesurant  mm.
-    Pas d'anomalie dans le myomètre.
-
-    Pas d'épanchement pelvien significatif.
-    Pas de dilatation des cavités pyélocalicielles.
-    ```
-    <figure markdown="span">
-        ovaire polykystique si [> 20 follicules 2-9 mm / > 6 cm² / > 10 ml](https://radiopaedia.org/articles/polycystic-ovarian-syndrome-1){:target="_blank"}  
-        </br> 
-    </figure>
-    ```title="CFA"
-    Examen par voie suspubienne puis endovaginale après accord de la patiente.
-
-    Ovaires latéraux folliculaires mesurant à droite et gauche  mm.
-
-    Nombre et taille des follicules à droite/gauche :
-        - De moins de 5 mm : 
-        - Entre 5 et 10 mm : 
-        - De plus de 10 mm : 
-
-    Doppler des artères utérines avec IR/IP :
-        - à droite : 
-        - à gauche : 
-
-    Pas de dilatation tubaire.
-    Utérus antéversé antéfléchi mesurant  cm.
-    Endomètre hyperéchogène mesurant  mm.
-    Pas d'anomalie significative du myomètre.
-    Pas d'épanchement pelvien significatif.
-    Pas de dilatation des cavités pyélocalicielles.
-    ```
-    <p style="text-align: center">écho à <b>J3</b> du cycle, réserve ovarienne faible si < 5 follicules/ovaire</p>
 
 === "Rx"
     === "thorax"
@@ -398,6 +450,11 @@
             Pas de comblement des récessus costo-diaphragmatiques.
             Remaniements dégénératifs modérés du rachis.
             ``` 
+
+            <figure markdown="span">
+                [sd radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"} 
+            </figure>   
+
         === "jeune"
             ```
             Silhouette cardiomédiastinale d'aspect normal.
@@ -405,13 +462,21 @@
             Pas de comblement des récessus costo-diaphragmatiques.
             Structures osseuses sans particularité significative.
             ``` 
-    
-        <figure markdown="span">
-            [sd radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}  
-        </figure>   
 
-    === "RLB"
-        === "vieux"
+            <figure markdown="span">
+                [sd radiographiques](https://onclepaul.fr/wp-content/uploads/2011/07/La-radiographie-du-thorax-pathologique-RD-2021-pdf.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [pédiatrie](https://onclepaul.net/wp-content/uploads/2011/07/5-Cours-radiopediatrie-MERM-Imagerie-Thoracique-pediatrique.pdf){:target="_blank"}  
+            </figure>   
+
+        === "gril costal"
+            ```
+            Absence de lésion osseuse post-traumatique décelable.
+            Silhouette cardiomédiastinale d'aspect normal.
+            Pas d'opacité en projection des champs pulmonaires.
+            Pas de comblement des récessus costo-diaphragmatiques.
+            ``` 
+
+    === "rachis"
+        === "RLB vieux"
             ```
             Respect de la hauteur et bon alignement des corps vertébraux.
             Pas de pincement des espaces intersomatiques.
@@ -420,36 +485,110 @@
             Aspect normal des interlignes articulaires sacro-iliaques.
             Pas de lésion osseuse suspecte et parties molles sans particularité.
             ``` 
-        === "jeune"
+        === "RLB jeune"
             ```
             Pas de pincement des espaces intersomatiques.
             Respect de la hauteur et bon alignement des corps vertébraux.
             Aspect normal des interlignes articulaires sacro-iliaques et coxo-fémorales.
             Pas de lésion osseuse suspecte et parties molles sans particularité.
             ``` 
-   
-    === "RACE"
-        ```
-        Lordose cervicale conservée.
-        Bon alignement des corps vertébraux.
-        Pas de pincement des espaces intersomatiques.
-        Pas de sténose osseuse des foramens intervertébraux.
-        Pas d'épaississement des parties molles prévertébrales.
-        ``` 
+        === "RACE jeune"
+            ```
+            Lordose cervicale conservée.
+            Bon alignement des corps vertébraux.
+            Pas de pincement des espaces intersomatiques.
+            Pas de sténose osseuse des foramens intervertébraux.
+            Pas d'épaississement des parties molles prévertébrales.
+            ``` 
+        === "RACE vieux"
+            ```
+            Lordose cervicale conservée.
+            Bon alignement des corps vertébraux.
+            Uncodiscarthrose étagée prédominant en .
+            Pas de franche sténose osseuse des foramens intervertébraux.
+            Pas d'épaississement des parties molles prévertébrales.
+            ```
+        === "scoliose"
+            ```
+            Scoliose  mesurant ° entre le plateau supérieur de  et le plateau inférieur de .
+            Stade d'ossification Risser 
+            Bascule du bassin par sous-dénivelation vers la 
+            Absence de malformation vertébrale décelable.
+            Pas d'anomalie transitionnelle lombo-sacrée.
+            Restant du cadre osseux et parties molles sans particularité.
+            ```    
 
-    === "scoliose"
-        ```
-        Scoliose  mesurant ° entre le plateau supérieur de  et le plateau inférieur de .
-        Stade d'ossification Risser 
-        Bascule du bassin par sous-dénivelation vers la 
-        Absence de malformation vertébrale décelable.
-        Pas d'anomalie transitionnelle lombo-sacrée.
-        Restant du cadre osseux et parties molles sans particularité.
-        ```    
+            <figure markdown="span">
+                ![](assets/Risser.jpg){width="420"}
+            </figure>   
 
-        <figure markdown="span">
-            ![](assets/Risser.jpg){width="420"}
-        </figure>
+    === "membres"
+        === "épaule"
+            ```
+            Pas de lésion osseuse post-traumatique.
+            Pas de diminution de l'espace sous-acromial.
+            Respect de l'articulation acromio-claviculaire.
+            Intégrité de l'interligne articulaire gléno-huméral.
+            Pas de calcification en projection des tendons de la coiffe des rotateurs.
+            Pas de lésion suspecte dans les structures osseuses et les parties molles.
+            ```   
+
+            <figure markdown="span">
+                ![](assets/CSA.jpg){width="350"}
+                [angle CSA](https://radiopaedia.org/articles/critical-shoulder-angle){:target="_blank"} < 30° arthrose / > 35° rupture coiffe  
+                <br>
+                ![](assets/DAH.jpg){width="350"}
+                [distance acromio-humérale](https://radiopaedia.org/articles/acromiohumeral-interval){:target="_blank"} < 7 mm rupture coiffe
+            </figure>       
+        === "coude"
+            ```
+            Bon alignement des structures osseuses et respect des rapports anatomiques.
+            Absence de lésion osseuse décelable, notamment post-traumatique.
+            Pas de signe d'épanchement articulaire.
+            Parties molles sans particularité.
+            ```
+        === "poignet"
+            ```
+            Respect des interlignes articulaires du carpe et des phalanges.
+            Pas d'érosion osseuse ni de lésion suspecte.
+            Pas de lésion post-traumatique récente.
+            Parties molles sans particularité.
+            ```
+
+            <figure markdown="span">
+                ![](assets/carpe.jpg){width="400"}  
+            </figure>
+        === "hanche"
+            ```
+            Aspect normal des interlignes articulaires coxo-fémorales.
+            Pas d'anomalie des articulations sacro-iliaques.
+            Pas de lésion osseuse suspecte.
+            Parties molles sans particularité.
+            ``` 
+        === "genou"
+            ```
+            Pas d’épanchement intra-articulaire.
+            Respect des interlignes fémoro-tibiaux et fémoro-patellaire.
+            Pas de lésion osseuse suspecte et parties molles sans particularité.
+            ```
+        === "cheville"
+            ```
+            Bon alignement des structures osseuses et respect des rapports anatomiques.
+            Pas d'élargissement pathologique de la mortaise crurale.
+            Absence de lésion post-traumatique récente.
+            Parties molles, notamment périmalléolaires, sans particularité.
+            ```        
+        === "pied"
+            ```
+            Respect des interlignes articulaires du tarse et des phalanges.
+            Pas d'érosion osseuse ni de lésion suspecte.
+            Pas de lésion post-traumatique récente.
+            Parties molles sans particularité.
+            ```
+
+            <figure markdown="span">
+                ![](assets/piedos.jpg){width="500"}  
+            </figure>
 
     === "DMO"
         ```
@@ -496,9 +635,11 @@
             hypertrophie végétations adénoïdes = h>s et fente < 5 mm
         </figure>
 
-    === "divers"
+    === "ASP"
         ```
-        Bon alignement des structures osseuses et respect des rapports anatomiques.
-        Absence de lésion osseuse décelable, notamment post-traumatique.
-        Aspect sans particularité des parties molles.
-        ```  
+        Absence d'air libre sous les coupoles diaphragmatiques.
+        Absence de niveaux hydro-aériques visibles.
+        Coprostase banale dans le cadre colique.
+        Bases pulmonaires sans particularité.
+        Pas d'anomalie des structures osseuses.
+        ``` 
