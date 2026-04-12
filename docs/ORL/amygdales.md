@@ -4,15 +4,29 @@
     [espaces profonds](https://radiopaedia.org/cases/deep-spaces-of-the-head-and-neck-annotated-mri-1#image-20791865){:target="_blank"} de la face et du cou et [anatomie](https://radiopaedia.org/cases/ct-neck-with-annotated-scrollable-images-1){:target="_blank"}
 </figure>
 
-```
-Elargissement des amygdales palatines.
-Collection péri-amydgalienne 
-Absence de collection dans l'espace rétropharyngé.
-Respect du calibre de la filière aéro-digestive.
-Perméabilité des veines jugulaires internes.
-Ganglions jugulo-carotidiens supérieurs centrimétriques.
-Apex pulmonaires, cadre osseux et coupes encéphaliques sans anomalie.
-```
+=== "angine"
+    ```
+    Acquisition cervico-faciale après injection biphasique de produit de contraste.
+    
+    Elargissement des tissus lymphoïdes oropharyngés.
+    Pas de collection péri-amydgalienne ni dans l'espace rétropharyngé.
+    Respect du calibre de la filière aéro-digestive.
+    Perméabilité des veines jugulaires internes.
+    Ganglions jugulo-carotidiens supérieurs centrimétriques.
+    Apex pulmonaires, cadre osseux et coupes encéphaliques sans anomalie.
+    ```
+=== "collection"
+    ```
+    Acquisition cervico-faciale après injection biphasique de produit de contraste.
+
+    Elargissement des tissus lymphoïdes oropharyngés.
+    Collection péri-amydgalienne
+    Pas de collection dans l'espace rétropharyngé.
+    Respect du calibre de la filière aéro-digestive.
+    Perméabilité des veines jugulaires internes.
+    Ganglions jugulo-carotidiens supérieurs centrimétriques.
+    Apex pulmonaires, cadre osseux et coupes encéphaliques sans anomalie.
+    ```
 
 !!! warning "complications"
     - [abcès rétropharyngé](https://radiopaedia.org/articles/retropharyngeal-abscess){:target="_blank"} ↬ compression laryngée, médiastinite, abcès épidural

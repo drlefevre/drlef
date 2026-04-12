@@ -244,7 +244,7 @@
         Pas d'image lithiasique ni de lésion suspecte.
 
         Vessie pré-mictionnelle :
-        En semi-réplétion, avec contenu anéchogène, sans lésion nodulaire.
+        En semi-réplétion ( ml), avec contenu anéchogène, sans lésion nodulaire.
         Détrusor modérément épaissi, sans diverticule.
         Pas d'épanchement péritonéal.
 
@@ -259,10 +259,37 @@
         ```
 
         <figure markdown="span">
-            ![](assets/pros.jpg){width="700"}
+            [Densité de PSA](outils/PSAd.md)  
+        </figure>
+
+        <figure markdown="span">
+            ![](assets/pros.jpg){width="750"}
             hypertrophie si > 30 cc &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RPM significatif si > 50 cc ou > 20% du volume pré-mictionnel
             </br>  
         </figure>
+
+    === "prostate jeune"
+
+        ```
+        Reins :
+        Grand axe mesurant à droite et gauche  mm.
+        Différenciation parenchymo-sinusale satisfaisante.
+        Pas de dilatation des cavités pyélo-calicielles.
+        Pas d'image lithiasique ni de lésion suspecte.
+
+        Vessie pré-mictionnelle :
+        En semi-réplétion ( ml), avec contenu anéchogène.
+        Détrusor fin, sans lésion nodulaire.
+        Pas d'épanchement péritonéal.
+
+        Prostate par voie sus-pubienne :
+        Contours réguliers. 
+        Volume estimé à  cc.
+        Pas d'anomalie du carrefour vésiculo-déférentiel.
+
+        Vessie post-mictionnelle :
+        Résidu de  ml.
+        ```
 
     === "testicules"
 
@@ -345,10 +372,10 @@
         Utérus antéversé antéfléchi mesurant  cm.
         Endomètre difficilement individualisable mesurant environ  mm.
         Pas d'anomalie dans le myomètre ni de lésion endocavitaire décelable.
-        Ovaires non individualisables.
-        Pas de syndrome de masse pelvien.
-        Pas d'épanchement pelvien significatif.
+        Ovaires non individualisables en raison d'interpositions digestives.
+        Pas de syndrome de masse pelvien ni rétropéritonéal.
         Pas de dilatation des cavités pyélocalicielles.
+        Pas d'épanchement pelvien significatif.
         ```
 
     === "EPP"
@@ -510,16 +537,19 @@
             ```
         === "scoliose"
             ```
-            Scoliose  mesurant ° entre le plateau supérieur de  et le plateau inférieur de .
-            Stade d'ossification Risser 
+            Scoliose  mesurant ° entre  et .
+            Pas de déséquilibre frontal entre l'épineuse de T1 et le sacrum.
             Bascule du bassin par sous-dénivelation vers la 
             Absence de malformation vertébrale décelable.
             Pas d'anomalie transitionnelle lombo-sacrée.
-            Restant du cadre osseux et parties molles sans particularité.
+            Stade d'ossification Risser 
+            Parties molles sans particularité.
             ```    
 
             <figure markdown="span">
-                ![](assets/Risser.jpg){width="420"}
+                [scoliose](https://radiopaedia.org/articles/scoliosis){:target="_blank"} si angle de Cobb > 10°  
+                <br>
+                ![](assets/Risser.jpg){width="450"}
             </figure>   
 
     === "membres"
@@ -534,6 +564,7 @@
             ```   
 
             <figure markdown="span">
+                ![](assets/humerus.jpg){width="550"}  
                 ![](assets/CSA.jpg){width="350"}
                 [angle CSA](https://radiopaedia.org/articles/critical-shoulder-angle){:target="_blank"} < 30° arthrose / > 35° rupture coiffe  
                 <br>
@@ -560,7 +591,7 @@
             </figure>
         === "hanche"
             ```
-            Aspect normal des interlignes articulaires coxo-fémorales.
+            Pas de remaniement dégénératif significatif des articulations coxo-fémorales.
             Pas d'anomalie des articulations sacro-iliaques.
             Pas de lésion osseuse suspecte.
             Parties molles sans particularité.

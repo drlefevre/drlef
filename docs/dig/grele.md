@@ -36,7 +36,7 @@
         3 = en arrière de l'anastomose jéjunojénunale (au pied de l'anse montée)  
         4 = hernie transmésocolique, ssi anse montée en rétro-colique (rare)  
     </figure>
-    !!! tip "**TDM avec balisage** par PDC hydrosoluble"
+    !!! tip "**TDM avec balisage** par PDC hydrosoluble (30 ml Gastrographin + 100 ml eau juste avant)"
         - occlusion du grêle avec disposition radiaire des anses
         - signe du tourbillon (Se 80% Sp 80%), avec pincement de la VMS ++
         - engorgement lymphatique (adénomégalie et infiltration du mésentère)

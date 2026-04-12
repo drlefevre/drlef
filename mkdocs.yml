@@ -43,6 +43,7 @@ nav:
     - Hypophyse: neuro/hypophyse.md
     - Pédiatrie: neuro/ped.md
   - ORL:
+    - Parathyroïde: ORL/parathyroide.md
     - Amygdalite: ORL/amygdales.md
     - Tumeurs : ORL/tumeurs.md
     - Sinus: ORL/sinus.md

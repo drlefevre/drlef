@@ -1,11 +1,10 @@
 # Gestes interventionnels
 
 === "drainage"
-
     ```
     Information du patient et recueil du consentement.
     Asepsie rigoureuse et champ stérile.
-    Anesthésie locale à la lidocaïne.
+    Anesthésie locale à la xylocaïne.
     Ponction de la collection à l'aiguille fine avec retour de liquide purulent.
     Mise en place d'une guide métallique puis dilatation progressive du trajet.
     Positionnement d'un drain de 14 Fr avec vérification scannographique.
@@ -20,9 +19,9 @@
     Information du patient et vérification de l’hémostase.
     Repérage échographique de la cible hépatique.
     Asepsie rigoureuse et champ stérile.
-    Anesthésie du point de ponction par lidocaïne.
+    Anesthésie du point de ponction par xylocaïne.
     Obtention de 3 carottes biopsiques par voie sous-costale.
-    Prélèvements conditionnés en formol.
+    Prélèvements dans un pot formolé adressés au laboratoire d'anatomopathologie.
     Pas de complication immédiate.
 
     Biopsie hépatique dirigée techniquement satisfaisante.

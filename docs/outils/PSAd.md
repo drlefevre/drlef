@@ -53,10 +53,10 @@ function psadCompute(){
     const psad = (psa / vol).toFixed(2).replace('.', ',');
     let core = `Densité de PSA = ${psad} ng/mL/cc, `;
 
-    if (psa/vol > 0.15) {
-      core += `suspecte.`;
-    } else {
+    if (psa/vol < 0.15) {
       core += `peu suspecte.`;
+    } else {
+      core += `suspecte.`;
     }
 
     phraseHtml = core;

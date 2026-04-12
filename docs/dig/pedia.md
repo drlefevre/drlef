@@ -33,6 +33,12 @@
         - diverticule de [Meckel](https://radiopaedia.org/articles/meckel-diverticulum-3){:target="_blank"}
         - **lymphome**, tumeur, purpura rhumatoïde
 === "pylore"
+    ```
+    Aspect normal du pylore, avec grand axe < 14 mm et épaisseur de la musculeuse < 3 mm.
+
+    Intérêt d'un contrôle échographique en cas d'évolution défavorable.
+    ```
+
     - garçon **M1-M3**, vomis alimentaires en jet, [musculeuse > 3 mm et L > 14 mm](https://radiopaedia.org/articles/pyloric-stenosis-1){:target="_blank"}
     - négatif => répéter écho à 24-48h = tourner vers la droite
     <figure markdown="span">

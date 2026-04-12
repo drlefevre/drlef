@@ -7,5 +7,6 @@
 
 <figure markdown="span">
     ![](assets/hHTIC.jpg){width="650"}  
-    20% de [sténose d'un sinus transverse](https://radiopaedia.org/articles/transverse-sinus-stenosis){:target="_blank"} en population générale
+    [sténose d'un sinus transverse](https://radiopaedia.org/articles/transverse-sinus-stenosis){:target="_blank"} dans 20%  
+    (50% hypoplasie à gauche > 10% à droite)
 </figure>

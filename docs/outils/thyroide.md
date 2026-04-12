@@ -718,7 +718,7 @@ function fullReset() {
     </figure>
 === "Hyperpara"
     - 80% [adénome](https://radiopaedia.org/articles/parathyroid-adenoma){:target="_blank"} parathyroïdien > 15% hyperplasie > 5% carcinome
-    - nodule hypoéchogène homogène > 1 cm + hyperhémie
+    - nodule hypoéchogène homogène > 1 cm + vascularisation
     - à confronter à scintigraphie MIBI / TEP choline
     <figure markdown="span">
         ![](assets/hyperpara.jpg){width="500"}
