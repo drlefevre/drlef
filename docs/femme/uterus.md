@@ -1,6 +1,6 @@
 === "IRM"
     ```
-    Séquences T2 dans les trois plans, axiale T1 Dixon, et T2 EG jusqu'aux reins.
+    Séquences T2 dans les trois plans, axiales T1 Dixon et T2 EG jusqu'aux reins.
     
     Utérus antéversé antéfléchi mesurant  mm.
     Endomètre en hypersignal T2 mesurant  mm d'épaisseur.  

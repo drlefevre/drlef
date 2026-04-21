@@ -1,6 +1,8 @@
 # [Traumatismes cranio-faciaux](https://onclepaul.fr/wp-content/uploads/2011/07/Trauma-cranio-enc%C3%A9phalique-2018.pdf){:target="_blank"}
 
 ```title="vieux"
+Acquisition spiralée sur le crâne sans injection.
+
 Structures médianes encéphaliques en place.
 Pas de lésion hémorragique intra ou péri-cérébrale récente.
 Elargissement passif des espaces liquidiens intra et péri-cérébraux.
@@ -8,6 +10,8 @@ Bonne aération des sinus de la face et des cellules mastoïdiennes.
 Pas de lésion osseuse post-traumatique.
 ```
 ```title="jeune"
+Acquisition spiralée sur le crâne sans injection.
+
 Structures médianes encéphaliques en place.
 Pas de lésion hémorragique intracrânienne récente.
 Respect des espaces liquidiens intra et péri-cérébraux.

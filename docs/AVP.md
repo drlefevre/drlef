@@ -7,8 +7,10 @@
 
 === "CTAP"
     ```
-    Acquisition sans injection sur le crâne ainsi que l'abdomen et le pelvis.
-    Acquisitions après injection au temps artériel sur le thorax, l'abdomen et le pelvis, puis au temps veineux sur l'abdomen et le pelvis.
+    Acquisition sans injection sur le crâne et le rachis cervical.
+    Acquisition sans injection sur l'abdomen et le pelvis.
+    Acquisition après injection au temps artériel sur le thorax, l'abdomen et le pelvis.
+    Acquisition après injection au temps veineux sur l'abdomen et le pelvis.
     
     Crâne :
     Structure médianes en place. Pas d'hydrocéphalie.

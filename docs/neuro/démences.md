@@ -23,8 +23,8 @@ Pas de séquelle ischémique visualisée aux étage supra et infratentoriel.
 Pas de syndrome de masse intracrânien.
 
 Atrophie cortico-sous-corticale diffuse, sans atrophie lobaire prédominante.
-Atrophie hippocampique modérée classée Scheltens 0 de façon bilatérale.
-Leucopathie d'origine vasculaire probable classée Fazekas
+Trophicité hippocampique classée Scheltens  de façon bilatérale.
+Leucopathie d'origine vasculaire probable classée Fazekas .
 Pas de signe d'hydrocéphalie à pression normale.
 Pas d'anomalie des noyaux gris centraux.
 ```

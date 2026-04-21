@@ -1,17 +1,16 @@
 # Dysfonctions pelvi-périnéales
 
 ```
-Après balisage vaginal et rectal, séquence 3D T2, séquences sagittale T2 dynamiques en poussée progressive répétée, puis 3 plans T2 en poussée maximale bloquée.
+Après balisage vaginal et rectal, séquence 3D T2, séquences sagittale T2 dynamiques en poussée progressive répétée, puis axiale et sagittale T2 en poussée maximale bloquée.
 
 Du point de vue morphologique : 
-Utérus antéversé antéfléchi mesurant  mm.
-Endomètre en hypersignal T2 d'épaisseur millimétrique.
+Utérus antéversé antéfléchi avec endomètre fin.
 Ovaires latéro-utérins fibreux, sans syndrome de masse.
 Pas d'épanchement ni d'adénomégalie dans le pelvis.
-Trophicité respectée du muscle releveur de l'anus.
 
-Du point de vue dynamique :
-Compartiment antérieur :
+Du point de vue dynamique (vidange rectale satisfaisante) :
+Compartiment antérieur : 
+- Pas de cystocèle.
 Compartiment moyen :
 - Pas de descente de l'utérus.
 - Respect de la cloison rectovaginale.

@@ -57,6 +57,7 @@
     Pas de prise de contraste pathologique.
     Perméabilité proximale des artères du polygone de Willis.
     Perméabilité des troncs supra-aortiques sans sténose significative.
+    Leucopathie d'origine vasculaire probable classée Fazekas .
     ```
     ```
     Acquisition 3D T1 SE FS sur l'étage cervical.

@@ -21,7 +21,7 @@
 
 === "baseline et rebaseline M6 gado+"
     ```title="cerveau"
-    Séquences axiale diffusion, 3D FLAIR, 3D T1 EG et 3D SWAN.
+    Séquences axiale diffusion, 3D FLAIR, 3D T1 EG et 3D SWI.
     Après injection de gadolinium séquence 3D T1 SE.
 
     Pas de lésion ischémique ou hémorragique récente ou séquellaire.

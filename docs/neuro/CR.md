@@ -26,6 +26,15 @@
             Méta Abcès Glio Infarctus Contusion (hématome) Démyélinisation Radionécrose
         </figure>
 
+=== "tumeur"
+    ```
+    Séquences axiales diffusion et T1 écho de spin. 3D FLAIR.
+    Après injection de gadolinium, perfusion T2*, axiale T2*, et 3D T1 SE.
+
+    Structures de la ligne médiane en place.
+    Intégrité des espaces liquidiens intra et péri-cérébraux.
+    ```
+
 === "céphalées"
     ``` title="IV+"
     Séquences axiales diffusion, FLAIR, T1 SE, et T2*.

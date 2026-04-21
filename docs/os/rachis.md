@@ -7,9 +7,9 @@
     Pas de lésion de remplacement ostéomédullaire suspecte.
     Respect de la hauteur et bon alignement des corps vertébraux.
     Pas d'étroitesse constitutionnelle du canal rachidien.
-
-    Discopathie dégénérative pluriétagée prédominant en  avec remaniements de type Modic .
-    Arthrose zygapophysaire pluriétagée prédominant en  avec œdème des berges articulaires.
+    
+    Arthrose zygapophysaire prédominant en  sans œdème des berges articulaires.
+    Discopathie dégénérative prédominant en  avec remaniements de type Modic .
 
     En L1-L2 : Le disque est en place. Pas de rétrécissement canalaire ou foraminal. 
     En L2-L3 : Le disque est en place. Pas de rétrécissement canalaire ou foraminal. 

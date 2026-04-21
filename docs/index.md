@@ -145,7 +145,9 @@
         Hernie inguinale
 
         Pas de hernie inguinale controlatérale décelable.
-
+        ```
+    
+        ```
         Consignes de consultation aux urgences en cas de tuméfaction irréductible et inflammatoire qui ferait suspecter une strangulation intestinale.
         ```
 
@@ -251,7 +253,7 @@
         Prostate par voie sus-pubienne :
         Contours réguliers. 
         Volume estimé à  cc.
-        Protrusion intravésicale du lobe médian.
+        Protrusion intravésicale centimétrique.
         Pas d'anomalie du carrefour vésiculo-déférentiel.
 
         Vessie post-mictionnelle :
@@ -367,7 +369,7 @@
 
     === "sus-pub"
         ```
-        Examen par voie suspubienne exclusive (voie endovaginale non souhaitée par la patiente).
+        Examen par voie suspubienne.
 
         Utérus antéversé antéfléchi mesurant  cm.
         Endomètre difficilement individualisable mesurant environ  mm.
@@ -565,11 +567,11 @@
 
             <figure markdown="span">
                 ![](assets/humerus.jpg){width="550"}  
+                ![](assets/DAH.jpg){width="350"}
+                [distance acromio-humérale](https://radiopaedia.org/articles/acromiohumeral-interval){:target="_blank"} < 7 mm rupture coiffe = omarthose excentrée  
+                <br>
                 ![](assets/CSA.jpg){width="350"}
                 [angle CSA](https://radiopaedia.org/articles/critical-shoulder-angle){:target="_blank"} < 30° arthrose / > 35° rupture coiffe  
-                <br>
-                ![](assets/DAH.jpg){width="350"}
-                [distance acromio-humérale](https://radiopaedia.org/articles/acromiohumeral-interval){:target="_blank"} < 7 mm rupture coiffe
             </figure>       
         === "coude"
             ```
@@ -596,6 +598,11 @@
             Pas de lésion osseuse suspecte.
             Parties molles sans particularité.
             ``` 
+
+            <figure markdown="span">
+                ![](assets/CFA.jpg){width="500"}  
+                conflit fémoro-acétabulaire (radio de face + profil Dunn ou faux profil)
+            </figure>
         === "genou"
             ```
             Pas d’épanchement intra-articulaire.
@@ -617,8 +624,13 @@
             Parties molles sans particularité.
             ```
 
+            ```
+            Ossification de l'insertion de l'aponévrose plantaire sur le calcanéum.
+            ```
+
             <figure markdown="span">
                 ![](assets/piedos.jpg){width="500"}  
+                Angle de Djian normal 115-135°
             </figure>
 
     === "DMO"
@@ -674,3 +686,143 @@
         Bases pulmonaires sans particularité.
         Pas d'anomalie des structures osseuses.
         ``` 
+
+    === "OPN"
+        ```
+        Pas de déviation de la cloison nasale.
+        Absence de lésion osseuse post-traumatique décelable.
+        Parties molles sans anomalie évidente.
+
+        En cas de discordance clinico-radiologique, intérêt d'un complément par TDM.
+        ```    
+
+=== "TDM"
+
+    === "crâne vieux"
+        ```
+        Acquisition hélicoïdale sur le crâne sans injection.
+
+        Structures médianes encéphaliques en place.
+        Elargissement passif des espaces liquidiens intra et péri-cérébraux.
+        Absence de processus expansif intracrânien.
+        Respect des noyaux gris centraux.
+        Leucopathie périventriculaire d'allure vasculaire.
+        Bonne aération des sinus de la face et des cellules mastoïdiennes.
+        Cadre osseux sans particularité.
+        ``` 
+
+    === "crâne jeune"
+        ```
+        Acquisition hélicoïdale sur le crâne sans injection.
+
+        Structures médianes encéphaliques en place.
+        Intégrité des espaces liquidiens intra et péri-cérébraux.
+        Absence de processus expansif intracrânien.
+        Respect des noyaux gris centraux.
+        Pas d'anomalie dans la substance blanche.
+        Bonne aération des sinus de la face et des cellules mastoïdiennes.
+        Cadre osseux sans particularité.
+        ``` 
+
+    === "thorax"
+        ```
+        Acquisition hélicoïdale sur le thorax sans injection.
+
+        Intégrité de la trachée et des bronches proximales.
+        Pas de nodule suspect dans le parenchyme pulmonaire.
+        Pas d'adénomégalie médiastino-hilaire ni axillaire.
+        Absence d'épanchement pleural ou péricardique.
+        Coupes sous-diaphragmatiques sans particularité.
+        Pas d'anomalie dans le cadre osseux.
+        ``` 
+
+    === "AP vieux"
+        ```
+        Acquisitions hélicoïdales sans puis après injection au temps portal.
+    
+        Absence d'épanchement péritonéal.
+        Perméabilité des vaisseaux mésentériques et hépatiques.
+        Pas d'adénomégalie coeliomésentérique, rétropéritonéale ni pelvienne.
+        Surrénales, reins, foie, vésicule, pancréas et rate sans particularité.
+        Troubles ventilatoires banals dans les bases pulmonaires.
+        Pas d'anomalie dans le cadre osseux.
+        ```      
+
+    === "AP jeune"
+        ```
+        Acquisition hélicoïdale après injection au temps portal.
+    
+        Absence d'épanchement péritonéal.
+        Perméabilité des vaisseaux mésentériques et hépatiques.
+        Pas d'adénomégalie coeliomésentérique, rétropéritonéale ni pelvienne.
+        Surrénales, reins, foie, vésicule, pancréas et rate sans particularité.
+        Pas d'anomalie dans les bases pulmonaires et le cadre osseux.
+        ```  
+
+    === "AP sans"
+        ```
+        Acquisition hélicoïdale abdomino-pelvienne sans injection.
+    
+        Pas de dilatation des cavités pyélocalicielles.
+        Absence d'image lithiasique urinaire.
+        Reins de taille et de morphologie normales.
+        Pas d'épanchement péritonéal ni d'adénomégalie.
+        Surrénales, foie, vésicule, pancréas et rate sans particularité.
+        Pas d'anomalie dans les bases pulmonaires et le cadre osseux.
+        ```
+
+    === "TAP"
+        ```
+        Acquisition hélicoïdale sans injection sur l'abdomen.
+        Acquisition thoraco-abdominale après injection au temps artériel.
+        Acquisition abdomino-pelvienne au temps portal.
+    
+        Thorax :
+        Intégrité de la trachée et des bronches proximales.
+        Pas de nodule suspect dans le parenchyme pulmonaire.
+        Pas d'adénomégalie ni d'épanchement pleuro-péricardique.
+
+        Abdomen et pelvis :
+        Absence d'épanchement péritonéal.
+        Perméabilité des vaisseaux mésentériques et hépatiques.
+        Pas d'adénomégalie coeliomésentérique, rétropéritonéale ni pelvienne.
+        Surrénales, reins, foie, vésicule, pancréas et rate sans particularité.
+        
+        Cadre osseux :
+        Absence de lésion suspecte dans les limites de la modalité d'imagerie.
+        ```      
+
+    === "uroTDM"
+        ```
+        Après injection de furosémide, acquisitions sans puis après injection de produit de contraste aux temps cortical, médullaire et excréteur.
+
+        Absence de lésion décelable dans les voies urinaires.
+        Reins de taille et de morphologies normales.
+        Absence de lésion rénale suspecte.
+        Pas d'épanchement péritonéal.
+        Pas d'adénomégalie rétropéritonéale ni pelvienne.
+        Perméabilité des vaisseaux mésentériques et hépatiques.
+        Surrénales, foie, vésicule, pancréas et rate sans particularité.
+        Pas d'anomalie dans les bases pulmonaires et le cadre osseux.
+        ```
+
+    === "angioMI"
+        ```
+        Acquisition hélicoïdale abdomino-pelvienne et sur les membres inférieurs après injection de produit de contraste au temps artériel.
+
+        Athéromatose calcifiée de l'aorte et de ses branches.
+        Perméabilité sans sténose significative des artères rénales et de l'AMS.
+
+        A droite :
+        Perméabilité sans sténose significative des artères iliaques.
+
+        A gauche :
+        Perméabilité sans sténose significative des artères iliaques.
+
+        Par ailleurs :
+        Pas d'épanchement péritonéal ni d'adénomégalie.
+        Surrénales, foie, vésicule, pancréas et rate sans particularité.
+        Troubles ventilatoires banals dans les bases pulmonaires.
+        Pas d'anomalie dans le cadre osseux.
+        ```
+
