@@ -81,8 +81,10 @@
     <div style="grid-column: 1 / -1; margin-top: 0.5rem; display:flex; gap:0.6rem;">
         <select id="vs-select" onchange="updateTextareaFromSelects()">
         <option value="normales" selected>VS normales</option>
-        <option value="atrophie">Atrophie des VS</option>
-        <option value="dilatation">Dilatation des VS</option>
+        <option value="atrophie">Atrophie</option>
+        <option value="dilatation">Dilatation</option>
+        <option value="sang">Hémospermie récente</option>
+        <option value="sangvieux">Hémospermie ancienne</option>
         </select>
         <select id="detru-select" onchange="updateTextareaFromSelects()">
         <option value="fin" selected>Détrusor fin</option>
@@ -666,6 +668,10 @@ function updateTextareaFromSelects() {
         vsText = "Atrophie symétrique des vésicules séminales.";
     } else if (vsValue === 'dilatation') {
         vsText = "Dilatation symétrique des vésicules séminales d'aspect banal.";
+    } else if (vsValue === 'sang') {
+        vsText = "Remaniements hémorragiques intravésiculaires d'allure récents.";
+    } else if (vsValue === 'sangvieux') {
+        vsText = "Remaniements hémorragiques intravésiculaires d'allure chroniques.";
     }
 
     const detruValue = document.getElementById('detru-select').value;
@@ -681,6 +687,7 @@ function updateTextareaFromSelects() {
     const fullText = vsText + "\n" + detruText + "\nPas de dilatation des cavités pyélocalicielles.\nPas d'adénopathie pelvienne significative.";
     document.getElementById('par-ailleurs-text').value = fullText;
     adjustTextareaHeight();
+    updateReport();
 }
 
 function updateReport() {
@@ -757,7 +764,7 @@ function updateReport() {
         resTxt += "Le stroma fibromusculaire antérieur est fin et très hypointense en T2.";
     }
 
-    resTxt += "\n\n<em>Par ailleurs :</em>\n" + document.getElementById('par-ailleurs-text').value;
+    resTxt += "\n\nPar ailleurs :\n" + document.getElementById('par-ailleurs-text').value;
     
     currentReportData.resultat = resTxt;
     txt += resTxt + "\n\n";

@@ -307,13 +307,13 @@
         Testicule droit :
         Volume testiculaire estimé à  cc (selon la formule de Lambert).
         Echostructure homogène, sans lésion focale suspecte.
-        Epididymes et cordons spermatiques d'aspect normal.
+        Epididyme et cordon spermatique d'aspect normal.
         Pas d'hydrocèle significative.
 
         Testicule gauche :
         Volume testiculaire estimé à  cc (selon la formule de Lambert).
         Echostructure homogène, sans lésion focale suspecte.
-        Epididymes et cordons spermatiques d'aspect normal.
+        Epididyme et cordon spermatique d'aspect normal.
         Pas d'hydrocèle significative.
         ```
 
@@ -591,6 +591,17 @@
             <figure markdown="span">
                 ![](assets/carpe.jpg){width="400"}  
             </figure>
+
+            ```
+            L'âge osseux basé sur les caractéristiques d'ossification de la main est estimé à  ans.
+            Intégrité de la trame osseuse.
+            Pas de brachymétacarpie.
+            ```
+
+            <figure markdown="span">
+                [![](assets/age os.jpg){width="800"}](https://www.jposna.com/article/S2768-2765%2824%2900607-2/fulltext){:target="_blank"}  
+            </figure>
+
         === "hanche"
             ```
             Pas de remaniement dégénératif significatif des articulations coxo-fémorales.
@@ -698,78 +709,146 @@
 
 === "TDM"
 
-    === "crâne vieux"
-        ```
-        Acquisition hélicoïdale sur le crâne sans injection.
+    === "crâne"
 
-        Structures médianes encéphaliques en place.
-        Elargissement passif des espaces liquidiens intra et péri-cérébraux.
-        Absence de processus expansif intracrânien.
-        Respect des noyaux gris centraux.
-        Leucopathie périventriculaire d'allure vasculaire.
-        Bonne aération des sinus de la face et des cellules mastoïdiennes.
-        Cadre osseux sans particularité.
-        ``` 
+        === "vieux"
+            ```
+            Acquisition hélicoïdale sur le crâne sans injection.
 
-    === "crâne jeune"
-        ```
-        Acquisition hélicoïdale sur le crâne sans injection.
+            Structures médianes encéphaliques en place.
+            Elargissement passif des espaces liquidiens intra et péri-cérébraux.
+            Absence de processus expansif intracrânien.
+            Respect des noyaux gris centraux.
+            Leucopathie périventriculaire d'allure vasculaire.
+            Bonne aération des sinus de la face et des cellules mastoïdiennes.
+            Cadre osseux sans particularité.
+            ``` 
 
-        Structures médianes encéphaliques en place.
-        Intégrité des espaces liquidiens intra et péri-cérébraux.
-        Absence de processus expansif intracrânien.
-        Respect des noyaux gris centraux.
-        Pas d'anomalie dans la substance blanche.
-        Bonne aération des sinus de la face et des cellules mastoïdiennes.
-        Cadre osseux sans particularité.
-        ``` 
+        === "jeune"
+            ```
+            Acquisition hélicoïdale sur le crâne sans injection.
+
+            Structures médianes encéphaliques en place.
+            Intégrité des espaces liquidiens intra et péri-cérébraux.
+            Absence de processus expansif intracrânien.
+            Respect des noyaux gris centraux.
+            Pas d'anomalie dans la substance blanche.
+            Bonne aération des sinus de la face et des cellules mastoïdiennes.
+            Cadre osseux sans particularité.
+            ``` 
 
     === "thorax"
-        ```
-        Acquisition hélicoïdale sur le thorax sans injection.
 
-        Intégrité de la trachée et des bronches proximales.
-        Pas de nodule suspect dans le parenchyme pulmonaire.
-        Pas d'adénomégalie médiastino-hilaire ni axillaire.
-        Absence d'épanchement pleural ou péricardique.
-        Coupes sous-diaphragmatiques sans particularité.
-        Pas d'anomalie dans le cadre osseux.
-        ``` 
+        === "sans"
+            ```
+            Acquisition hélicoïdale sur le thorax sans injection.
 
-    === "AP vieux"
-        ```
-        Acquisitions hélicoïdales sans puis après injection au temps portal.
-    
-        Absence d'épanchement péritonéal.
-        Perméabilité des vaisseaux mésentériques et hépatiques.
-        Pas d'adénomégalie coeliomésentérique, rétropéritonéale ni pelvienne.
-        Surrénales, reins, foie, vésicule, pancréas et rate sans particularité.
-        Troubles ventilatoires banals dans les bases pulmonaires.
-        Pas d'anomalie dans le cadre osseux.
-        ```      
+            Intégrité de la trachée et des bronches proximales.
+            Pas de nodule suspect dans le parenchyme pulmonaire.
+            Pas d'adénomégalie médiastino-hilaire ni axillaire.
+            Absence d'épanchement pleural ou péricardique.
+            Coupes sous-diaphragmatiques sans particularité.
+            Pas d'anomalie dans le cadre osseux.
+            ``` 
 
-    === "AP jeune"
-        ```
-        Acquisition hélicoïdale après injection au temps portal.
-    
-        Absence d'épanchement péritonéal.
-        Perméabilité des vaisseaux mésentériques et hépatiques.
-        Pas d'adénomégalie coeliomésentérique, rétropéritonéale ni pelvienne.
-        Surrénales, reins, foie, vésicule, pancréas et rate sans particularité.
-        Pas d'anomalie dans les bases pulmonaires et le cadre osseux.
-        ```  
+        === "EP"
+            ```
+            Acquisition hélicoïdale sur le thorax après injection au temps artériel.
 
-    === "AP sans"
-        ```
-        Acquisition hélicoïdale abdomino-pelvienne sans injection.
-    
-        Pas de dilatation des cavités pyélocalicielles.
-        Absence d'image lithiasique urinaire.
-        Reins de taille et de morphologie normales.
-        Pas d'épanchement péritonéal ni d'adénomégalie.
-        Surrénales, foie, vésicule, pancréas et rate sans particularité.
-        Pas d'anomalie dans les bases pulmonaires et le cadre osseux.
-        ```
+            Absence d'embolie pulmonaire jusqu'au niveau segmentaire.
+            Absence de dilatation des cavités cardiaques droites.
+            Pas d'adénomégalie ni d'épanchement pleuro-péricardique.
+            Pas de nodule suspect dans le parenchyme pulmonaire.
+            Coupes sous-diaphragmatiques sans particularité.
+            Pas d'anomalie dans le cadre osseux.
+            ``` 
+
+    === "AP"
+        === "vieux"
+            ```
+            Acquisitions hélicoïdales sans puis après injection au temps portal.
+        
+            Absence d'épanchement péritonéal.
+            Perméabilité des vaisseaux mésentériques et hépatiques.
+            Pas d'adénomégalie coeliomésentérique, rétropéritonéale ni pelvienne.
+            Surrénales, reins, foie, vésicule, pancréas et rate sans particularité.
+            Pas de lésion significative dans les bases pulmonaires.
+            Pas d'anomalie dans le cadre osseux.
+            ```   
+
+        === "jeune"
+            ```
+            Acquisition hélicoïdale après injection au temps portal.
+        
+            Absence d'épanchement péritonéal.
+            Perméabilité des vaisseaux mésentériques et hépatiques.
+            Pas d'adénomégalie coeliomésentérique, rétropéritonéale ni pelvienne.
+            Surrénales, reins, foie, vésicule, pancréas et rate sans particularité.
+            Pas de lésion significative dans les bases pulmonaires.
+            Pas d'anomalie dans le cadre osseux.
+            ```  
+
+        === "sans"
+            ```
+            Acquisition hélicoïdale abdomino-pelvienne sans injection.
+        
+            Pas de dilatation des cavités pyélocalicielles.
+            Absence d'image lithiasique urinaire.
+            Reins de taille et de morphologie normales.
+            Pas d'épanchement péritonéal ni d'adénomégalie.
+            Surrénales, foie, vésicule, pancréas et rate sans particularité.
+            Pas de lésion significative dans les bases pulmonaires.
+            Pas d'anomalie dans le cadre osseux.
+            ```
+
+        === "F3"
+            ```
+            Acquisition hélicoïdale sans injection sur l'abdomen.
+            Acquisition après injection au temps artériel sur l'abdomen.
+            Acquisition au temps veineux sur l'abdomen et le pelvis.
+        
+            Pancréas de taille et de morphologie normales, sans lésion focale.
+            Pas de dilatation du canal pancréatique ni des voies biliaires.
+            Vésicule biliaire d'aspect normal, sans image lithiasique.
+            Perméabilité des vaisseaux mésentériques et hépatiques.
+            Absence d'épanchement péritonéal.
+            Pas d'adénomégalie coeliomésentérique, rétropéritonéale ni pelvienne.
+            Surrénales, reins, foie et rate sans particularité.
+            Pas de lésion significative dans les bases pulmonaires.
+            Pas d'anomalie dans le cadre osseux.
+            ``` 
+
+        === "F4"
+            ```
+            Acquisition hélicoïdale sans injection sur l'abdomen.
+            Acquisition après injection au temps artériel sur l'abdomen.
+            Acquisition au temps veineux sur l'abdomen et le pelvis.
+            Acquisition au temps tardif sur l'abdomen.
+        
+            Dysmorphie hépatique avec contours bosselés.
+            Absence de lésion hépatique hypervascularisée ou en washout.
+            Perméabilité des vaisseaux hépatiques afférents et efférents.
+            Vésicule biliaire d'aspect normal. Pas de dilatation des voies biliaires.
+            Pas d'adénomégalie coeliomésentérique, rétropéritonéale ni pelvienne.
+            Surrénales, reins, pancréas et rate sans particularité.
+            Pas de lésion significative dans les bases pulmonaires.
+            Pas d'anomalie dans le cadre osseux.
+            ```
+
+        === "uroTDM"
+            ```
+            Après injection de furosémide, acquisitions sans puis après injection de produit de contraste aux temps cortical, médullaire et excréteur.
+
+            Absence de lésion décelable dans les voies urinaires.
+            Reins de taille et de morphologies normales.
+            Absence de lésion rénale suspecte.
+            Pas d'épanchement péritonéal.
+            Pas d'adénomégalie rétropéritonéale ni pelvienne.
+            Perméabilité des vaisseaux mésentériques et hépatiques.
+            Surrénales, foie, vésicule, pancréas et rate sans particularité.
+            Pas de lésion significative dans les bases pulmonaires.
+            Pas d'anomalie dans le cadre osseux.
+            ```
 
     === "TAP"
         ```
@@ -791,20 +870,6 @@
         Cadre osseux :
         Absence de lésion suspecte dans les limites de la modalité d'imagerie.
         ```      
-
-    === "uroTDM"
-        ```
-        Après injection de furosémide, acquisitions sans puis après injection de produit de contraste aux temps cortical, médullaire et excréteur.
-
-        Absence de lésion décelable dans les voies urinaires.
-        Reins de taille et de morphologies normales.
-        Absence de lésion rénale suspecte.
-        Pas d'épanchement péritonéal.
-        Pas d'adénomégalie rétropéritonéale ni pelvienne.
-        Perméabilité des vaisseaux mésentériques et hépatiques.
-        Surrénales, foie, vésicule, pancréas et rate sans particularité.
-        Pas d'anomalie dans les bases pulmonaires et le cadre osseux.
-        ```
 
     === "angioMI"
         ```

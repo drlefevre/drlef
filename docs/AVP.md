@@ -29,7 +29,7 @@
     Pas d'infiltration de la racine du mésentère.
 
     Rachis :
-    Pas d'anomalie de la transition cervico-occipital.
+    Pas d'anomalie de la transition cervico-occipitale.
     Respect de la hauteur et bon alignement des corps vertébraux.
     Pas de fracture des processus transverses ni des pédicules.
     Bonne congruence des articulations postérieures.
