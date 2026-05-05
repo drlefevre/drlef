@@ -1,7 +1,7 @@
 # AVP
 
 !!! info "Protocole"
-    - crâne, cou et AP IV- > TAP art > AP vx > **excrétoire si lésion rein/bassin**
+    - crâne, cou IV- > TAP art > AP vx > **excréteur si lésion rein/bassin**
     - enfant > 50 kg = TAP biphasique (80 cc > 60 cc à 60s > acquisition à 90s)
     - enfant < 50 kg = crâne et cou IV- > TAP temps mixte (50s)
 
@@ -88,7 +88,7 @@
         - fracture **sternum**, 3 premières côtes, volet thoracique (3 côtes avec 2 # chacune)
         - hémothorax, pneumothorax compressif, contusions étendues
         - EP (graisseuse), pneumopathie d'inhalation
-=== "abdomen"
+=== "AAST"
     <figure markdown="span">
         [Causes d'ascite isolée](https://radiopaedia.org/articles/isolated-free-fluid-in-trauma){:target="_blank"} = 5% des traumas  
         </br>
@@ -97,6 +97,30 @@
         </br>
         [![](assets/AAST2.jpg){width=700"}](https://radiopaedia.org/articles/aast-injury-scoring-scales){:target="_blank"}
     </figure>
+=== "mésentère"
+    <figure markdown="span">
+        [Epanchement péritonéal isolé](https://radiopaedia.org/articles/isolated-free-fluid-in-trauma){:target="_blank"} = 5% des traumas  
+        </br>
+        [![](assets/seatbelt.jpg){width=700"}](https://radiopaedia.org/articles/aast-injury-scoring-scales){:target="_blank"}
+        Seat belt sd = lacération/hématome/perfo mésentère + dissection Ao + # Chance   
+    </figure>
+
+    | [Score Faget](https://hal.umontpellier.fr/hal-01768625v1/file/2015%20Faget%20et%20al.%2C%20Eur%20Radiol._2.pdf){:target="_blank"} ≥ 5 => chirurgie |  points |
+    | :----------: | :-------: |
+    | Pneumopéritoine enchassé dans le mésentère | 5 |
+    | Solution de continuité pariétale grélique | 5 | 
+    | Saignement actif artériel mésentérique | 3 |   
+    | Hémopéritoine peu abondant / abondant | 1 / 3 |
+    | Epaississement pariétal digestif | 2 |
+    | Infiltration focale mésentère | 2 |
+    | Lésion paroi abdominale antérieure | 2 |
+    | Défaut de rehaussement pariétal | 1 |
+    | Traumatisme splénique | -1 |
+
+    <figure markdown="span">
+        Si < 5 => contrôle **AP vx à 6-8h**
+    </figure>
+
 === "rachis"
     <figure markdown="span">
         ![](assets/Magerl.jpg){width=700"}
