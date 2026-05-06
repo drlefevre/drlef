@@ -90,8 +90,6 @@
         - EP (graisseuse), pneumopathie d'inhalation
 === "AAST"
     <figure markdown="span">
-        [Causes d'ascite isolée](https://radiopaedia.org/articles/isolated-free-fluid-in-trauma){:target="_blank"} = 5% des traumas  
-        </br>
         [![](assets/AAST.jpg){width=700"}](https://radiopaedia.org/articles/aast-injury-scoring-scales){:target="_blank"}
         /!\ rate faux-a à J3-J7 et **grade IV/V = embolisation** sinon 50% rupture II<sup>R</sup>  
         </br>

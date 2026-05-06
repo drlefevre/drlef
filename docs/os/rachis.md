@@ -28,7 +28,8 @@
         <br>
         ![](assets/stenose.jpg){width="450"}
         Etroitesse constitutionnelle relative si diam. ant.-post. < 12 mm voire absolue < 10 mm  
-        Sténose minime : LCS visible, modérée : peu visible, sévère : ∅ LCS, extrême : ∅ graisse épidurale  
+        **Schizas** A sténose minime : LCS visible, B modérée : peu visible,  
+        C sévère : ∅ LCS, D extrême : ∅ graisse épidurale  
         <br>
         ![](assets/hernieanat.jpg){width="430"}  
         ![](assets/ligaments.jpg){width="590"}          
