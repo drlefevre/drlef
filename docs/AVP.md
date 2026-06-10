@@ -111,7 +111,7 @@
     | Hémopéritoine peu abondant / abondant | 1 / 3 |
     | Epaississement pariétal digestif | 2 |
     | Infiltration focale mésentère | 2 |
-    | Lésion paroi abdominale antérieure | 2 |
+    | Contusion pariétale antérieure (seat-belt sign radiologique) | 2 |
     | Défaut de rehaussement pariétal | 1 |
     | Traumatisme splénique | -1 |
 

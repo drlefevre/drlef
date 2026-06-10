@@ -18,7 +18,19 @@
     Contrôle radiologique à discuter selon l'évolution.
     ```
 
-=== "BHD"
+=== "PBH/BHD"
+    ```
+    Information du patient et vérification de l’hémostase.
+    Repérage échographique.
+    Asepsie rigoureuse et champ stérile.
+    Anesthésie du point de ponction par xylocaïne.
+    Mise en place d'une aiguille coaxiale par voie sous-costale. 
+    Obtention de 2 carottes de parenchyme hépatique à l’aiguille 16G.
+    Prélèvements dans un pot formolé adressé au laboratoire d'anatomopathologie.
+    Absence de complication immédiate lors du contrôle échographique.
+
+    Ponction biopsie hépatique techniquement satisfaisante.
+    ```
     ```
     Information du patient et vérification de l’hémostase.
     Repérage de la cible mesurant  mm dans le segment .
@@ -32,7 +44,7 @@
     Biopsie hépatique dirigée techniquement satisfaisante.
     ```
 
-    !!! warning "CI"
+    !!! warning "CI ([recommandations](https://afef.asso.fr/wp-content/uploads/2023/06/Ponction-Biopsie-Hepatique.pdf){:target="_blank"})" 
         - anticoagulation curative / double AAP (**Plavix** ↕ 5j)
         - dilatation des **voies biliaires** (/!\ cholépéritoine)
         - **ascite** abondante, amylose et IRC = risque hémorragique augmenté
