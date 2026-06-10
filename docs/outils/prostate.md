@@ -1023,7 +1023,7 @@ function fullReset() {
 }
 </script>
 
-| ZP = DWI | [PI-RADS](https://radiologyassistant.nl/abdomen/prostate/prostate-cancer-pi-rads-v2-1){:target="_blank"}  |  ZT = T2 |
+| ZP = DWI (postéro-latéral ++) | [PI-RADS](https://radiologyassistant.nl/abdomen/prostate/prostate-cancer-pi-rads-v2-1){:target="_blank"}  |  ZT = T2 (antéro-apical ++)|
 | :----------: | :-------: | :----------: |
 | linéaire/angulaire | <span style="background-color: #c4e538; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">2</span> | ∅capsule/incomplète `+1 DWI marquée` | 
 | focale modérée `+1 DCE` | <span style="background-color: #FFD966; color: black; padding: 2px 6px; border-radius:4px; font-weight: bold;">3</span> | hétérogène mal limité `+1 DWI ≥ 15 mm` |

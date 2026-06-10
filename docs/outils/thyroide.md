@@ -475,12 +475,14 @@ function updateReport() {
         txt += "Absence de nodule thyroïdien individualisable.\n";
     } else if (nodules.length === 1) {
         const n = nodules[0];
-        let volN = getVolume(n.d1, n.d2, n.d3).toFixed(1).replace('.', ',');
+        const volumeValue = getVolume(n.d1, n.d2, n.d3);
+        let volN = volumeValue.toFixed(1).replace('.', ',');
+        let volText = volumeValue >= 0.1 ? ` (${volN} cc)` : '';
         let d1 = n.d1 || '?';
         let d2 = n.d2 || '?';
         let d3 = n.d3 || '?';
 
-        txt += `Nodule « ${n.label} » EU-TIRADS ${n.tiradsKey} de ${d1} x ${d2} x ${d3} mm (${volN} cc)`;
+        txt += `Nodule « ${n.label} » EU-TIRADS ${n.tiradsKey} de ${d1} x ${d2} x ${d3} mm${volText}`;
 
         let maxD = getMaxDim(n);
         let indication = false;
@@ -498,7 +500,9 @@ function updateReport() {
     } else {
         // Plusieurs nodules : lister sur une même ligne séparés par des points-virgules
         const parts = nodules.map(n => {
-            let volN = getVolume(n.d1, n.d2, n.d3).toFixed(1).replace('.', ',');
+            const volumeValue = getVolume(n.d1, n.d2, n.d3);
+            let volN = volumeValue.toFixed(1).replace('.', ',');
+            let volText = volumeValue >= 0.1 ? ` (${volN} cc)` : '';
             let d1 = n.d1 || '?';
             let d2 = n.d2 || '?';
             let d3 = n.d3 || '?';
@@ -509,7 +513,7 @@ function updateReport() {
             if (n.val === 4 && maxD > 15) indication = true;
             if (n.val === 5 && maxD > 10) indication = true;
 
-            let txtN = `« ${n.label} » EU-TIRADS ${n.tiradsKey} de ${d1} x ${d2} x ${d3} mm (${volN} cc)`;
+            let txtN = `« ${n.label} » EU-TIRADS ${n.tiradsKey} de ${d1} x ${d2} x ${d3} mm${volText}`;
             if (indication) txtN += ", avec indication théorique à une cytoponction";
             return txtN;
         });
@@ -711,7 +715,7 @@ function fullReset() {
     </figure>
 === "De Quervain"
     - contexte viral, douloureux
-    - plages hypoéchogènes mal limitées peu vascularisées
+    - plage hypoéchogène antéro-externe mal limitée peu vascularisée
     - contrôle à M3 si pseudonodulaire
     <figure markdown="span">
         ![](assets/Quervain.jpg){width="500"}
@@ -723,3 +727,11 @@ function fullReset() {
     <figure markdown="span">
         ![](assets/hyperpara.jpg){width="500"}
     </figure>
+
+| Bethesda | Signification | CAT |
+| :---: | :---: | :---: | 
+| I | prélèvement non contributif | refaire des ponctions |
+| II | bénin | surveillance à 1 an|
+| III | indéterminé | surveillance à M6 ± ponctions |
+| IV | tumeur vésiculaire ou oncocytaire | avis endoc (20% de cancer) |
+| V et VI | suspect d'être malin et malin | chirurgie |
