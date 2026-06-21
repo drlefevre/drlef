@@ -13,6 +13,13 @@
         </br>
         ![](assets/app.jpg){width="370"}
     </figure>
+
+    |  tumeur épithéliale  |  TNE  | 
+    | :----------: | :-------: | 
+    |  ![](assets/apptumepi.jpg){width="600"} | ![](assets/apptne.jpg){width="600"} |
+    |  60 ans, adénopathies ± mucocèle  |  25 ans, pointe ++, très bon Pc si < 2 cm  |
+
+
 === "IIA"
     <figure markdown="span">
         **95%** [**iléo-colique**](https://radiopaedia.org/articles/intussusception){:target="_blank"}, M3 - 3 ans, pneumopéritoine ?!  
