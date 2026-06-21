@@ -4,8 +4,8 @@
     - non compressible, **> 6 mm** (TDM > 7 mm), hyperhémie, hyperécho autour, 25% stercolithe
     - contenu liquidien + ligne hyper (sous-muqueuse) + anneau hypo (musculeuse)
     - complications : plastron, abcès, péritonite
-    - DD = [mucocèle](https://radiopaedia.org/articles/appendiceal-mucocele-2){:target="_blank"} (mucoviscidose ++), hyperplasie lymphoïde (âge scolaire ++)
-    - DD d'exclusion = [adénolymphite mésentérique](https://radiopaedia.org/articles/mesenteric-adenitis){:target="_blank"} (> 3 gg > 5 mm)
+    - <s>[mucocèle](https://radiopaedia.org/articles/appendiceal-mucocele-2){:target="_blank"}</s> tumeur mucineuse probable (mucoviscidose ++) = ∅ > 13 mm sans stercolithe ± calcif pariétales
+    - DD d'exclusion = [adénolymphite mésentérique](https://radiopaedia.org/articles/mesenteric-adenitis){:target="_blank"} (> 3 gg > 5 mm plutôt chez l'enfant/ado)
     <figure markdown="span">
         ![](assets/appendicite.jpg){width="500"}
         </br>
