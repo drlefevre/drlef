@@ -1,4 +1,4 @@
-# [Intestin grêle](https://radiopaedia.org/articles/small-bowel){:target="_blank"}
+# Grêle et côlon
 
 === "ischémie mésentérique"
     <figure markdown="span">
@@ -60,3 +60,26 @@
         3 = en arrière de l'anastomose jéjunojénunale (au pied de l'anse montée)  
         4 = hernie transmésocolique, ssi anse montée en rétro-colique (rare)  
     </figure>
+
+=== "Crohn"
+
+    |  sténose  | inflammatoire |  fibrose  |  
+    | :----------: | :-------: | :-------: | 
+    | `paroi`  | épaissie (> 3mm) | fine | 
+    | `T2`  | hyper (œdème sous-muqueux) | hypo | 
+    |  `rehaussement` | en cible, intense | homogène, moins intense | 
+
+    !!! warning "Complications"
+        - ulcérations, fistule et abcès
+        - masse mésentérique (magma inflammatoire)
+        - thrombose veineuse
+        - cancer
+
+=== "CCR"
+
+    |  [TNM](https://oncologik.fr/referentiels/dsrc/colon#5.Classifications%20TNM%202017%20(8ème%20édition)%C2%A0:%20cancers%20colorectaux){:target="_blank"} | signification | aspect | 
+    | :----------: | :-------: | :-------: |
+    | T1/T2 | envahi sous-muqueuse/musculeuse | ![](assets/T1.jpg){width="200"} |
+    | T3 | envahissement péricolique | ![](assets/T3.jpg){width="200"} |
+    | T4a | perfore le péritoine | ![](assets/T4a.jpg){width="200"} |
+    | T4b | envahi un organe | ![](assets/T4b.jpg){width="200"} |
