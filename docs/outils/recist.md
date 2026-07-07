@@ -3,17 +3,21 @@
 <div class="box md-typeset" id="recist-sum">
   <form onsubmit="return false;" oninput="recistCompute()">
     <div class="pairs" style="margin-top:.4rem">
-      <div class="pair"><input id="l1prev" type="text" inputmode="decimal" placeholder="L1 baseline/nadir (mm)" /><input id="l1now" type="text" inputmode="decimal" placeholder="L1 actuelle (mm)" /></div>
-      <div class="pair"><input id="l2prev" type="text" inputmode="decimal" placeholder="L2 baseline/nadir (mm)" /><input id="l2now" type="text" inputmode="decimal" placeholder="L2 actuelle (mm)" /></div>
-      <div class="pair"><input id="l3prev" type="text" inputmode="decimal" placeholder="L3 baseline/nadir (mm)" /><input id="l3now" type="text" inputmode="decimal" placeholder="L3 actuelle (mm)" /></div>
-      <div class="pair"><input id="l4prev" type="text" inputmode="decimal" placeholder="L4 baseline/nadir (mm)" /><input id="l4now" type="text" inputmode="decimal" placeholder="L4 actuelle (mm)" /></div>
-      <div class="pair"><input id="l5prev" type="text" inputmode="decimal" placeholder="L5 baseline/nadir (mm)" /><input id="l5now" type="text" inputmode="decimal" placeholder="L5 actuelle (mm)" /></div>
+      <div class="pair"><input id="l1now" type="text" inputmode="decimal" placeholder="L1 actuelle (mm)" /><input id="l1prev" type="text" inputmode="decimal" placeholder="L1 baseline/nadir (mm)" /></div>
+      <div class="pair"><input id="l2now" type="text" inputmode="decimal" placeholder="L2 actuelle (mm)" /><input id="l2prev" type="text" inputmode="decimal" placeholder="L2 baseline/nadir (mm)" /></div>
+      <div class="pair"><input id="l3now" type="text" inputmode="decimal" placeholder="L3 actuelle (mm)" /><input id="l3prev" type="text" inputmode="decimal" placeholder="L3 baseline/nadir (mm)" /></div>
+      <div class="pair"><input id="l4now" type="text" inputmode="decimal" placeholder="L4 actuelle (mm)" /><input id="l4prev" type="text" inputmode="decimal" placeholder="L4 baseline/nadir (mm)" /></div>
+      <div class="pair"><input id="l5now" type="text" inputmode="decimal" placeholder="L5 actuelle (mm)" /><input id="l5prev" type="text" inputmode="decimal" placeholder="L5 baseline/nadir (mm)" /></div>
     </div>
 
     <div class="results">
       <div class="result">
         <div class="title">Somme</div>
         <div class="value"><span id="recist-sum-now">—</span> mm</div>
+      </div>
+      <div class="result">
+        <div class="title">Somme antérieure</div>
+        <div class="value"><span id="recist-sum-prev">—</span> mm</div>
       </div>
       <div class="result">
         <div class="title">Évolution</div>
@@ -75,6 +79,10 @@ function recistCompute(){
   document.getElementById('recist-sum-now').textContent =
     (nNow>0) ? recistFmtInt(sumNow) : '—';
 
+  // Affichage somme antérieure
+  document.getElementById('recist-sum-prev').textContent =
+    (nPrev>0) ? recistFmtInt(sumPrev) : '—';
+
   // % d'évolution (entier) vs somme précédente (seulement si référence valable)
   const deltaEl = document.getElementById('recist-delta');
   let deltaPct = NaN, deltaInt = NaN, diffAbs = NaN;
@@ -84,7 +92,9 @@ function recistCompute(){
     deltaPct = (diffAbs / sumPrev) * 100; // %
     deltaInt = Math.round(deltaPct);      // entier
   }
-  deltaEl.textContent = Number.isFinite(deltaInt) ? String(deltaInt) : '—';
+  deltaEl.textContent = Number.isFinite(deltaInt)
+    ? (deltaInt > 0 ? '+' + String(deltaInt) : String(deltaInt))
+    : '—';
 
   // Interprétation RECIST 1.1
   const phraseEl = document.getElementById('recist-phrase');
@@ -96,14 +106,15 @@ function recistCompute(){
     const isPD = (deltaPct >= 20) && (diffAbs >= 5); // PD: +≥20% ET +≥5 mm
     const isPR = (deltaPct <= -30);                  // PR: -≥30%
     const isSD = !isPD && !isPR;
+    const summaryText = ` (somme des cibles = ${recistFmtInt(sumNow)} mm contre ${recistFmtInt(sumPrev)} mm soit ${deltaInt > 0 ? '+' : ''}${deltaInt} %).`;
 
     if (isPD){
-      phraseHtml = 'Progression lésionnelle selon les critères RECIST 1.1.';
+      phraseHtml = 'Progression lésionnelle selon les critères RECIST 1.1' + summaryText;
     } else if (isPR){
-      phraseHtml = 'Réponse partielle selon les critères RECIST 1.1.'
+      phraseHtml = 'Réponse partielle selon les critères RECIST 1.1' + summaryText
                  + '<br><span class="note">Sauf nouvelle lésion ou progression non équivoque des lésions non cibles.</span>';
     } else if (isSD){
-      phraseHtml = 'Stabilité lésionnelle selon les critères RECIST 1.1.'
+      phraseHtml = 'Stabilité lésionnelle selon les critères RECIST 1.1' + summaryText
                  + '<br><span class="note">Sauf nouvelle lésion ou progression non équivoque des lésions non cibles.</span>';
     }
     canCopy = true;

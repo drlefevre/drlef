@@ -728,6 +728,10 @@ function fullReset() {
         ![](assets/hyperpara.jpg){width="500"}
     </figure>
 
+```
+Thyroïde de petite taille, siège de ponctuations hypoéchogènes disséminées, sans hypervascularisation ni nodule suspect, compatible avec une thyroïdite ancienne ou peu active.
+```
+
 | Bethesda | Signification | CAT |
 | :---: | :---: | :---: | 
 | I | prélèvement non contributif | refaire des ponctions |
@@ -735,3 +739,14 @@ function fullReset() {
 | III | indéterminé | surveillance à M6 ± ponctions |
 | IV | tumeur vésiculaire ou oncocytaire | avis endoc (20% de cancer) |
 | V et VI | suspect d'être malin et malin | chirurgie |
+
+```
+Suivi après thyroïdectomie totale.
+
+Vacuité de la loge thyroïde, sans lésion adjacente.
+Absence de ganglion cervical antérieur pathologique.
+Perméabilité des vaisseaux jugulo-carotidiens.
+Glandes sub-mandibulaires sans anomalie.
+
+Absence de lésion suspecte de récidive néoplasique.
+```

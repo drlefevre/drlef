@@ -55,15 +55,16 @@
         Vessie :
         En réplétion, avec contenu anéchogène.
         Pas d'anomalie de paroi décelable.
-        Pas d'épanchement péritonéal.
+        Absence d'épanchement péritonéal.
         Pas de syndrome de masse pelvien ni rétropéritonéal.
         ```
     === "cirrhose"
         ```
-        Dysmorphie hépatique avec contours bosselés.
+        Dysmorphie hépatique avec contours bosselés et hypertrophie du segment I.
         Echostructure homogène, sans lésion focale suspecte.
         Tronc porte et branches portales hépatopètes.
-        Vitesse maximale dans le tronc porte :  cm/s.
+        Vitesse moyenne dans le tronc porte :  cm/s.
+        Pas de reperméabilisation de la veine paraombilicale.
         Pas de dilatation des voies biliaires.
         Grand axe de la rate :  cm.
         Absence d'ascite.
@@ -103,7 +104,8 @@
 
     === "gg"
         ```
-        Ganglions jugulo-carotidiens bilatéraux de petit axe infracentimétrique, de forme ovalaire (rapport grand axe sur petit axe > 2), avec hile hyperéchogène central linéaire, d'échostructure homogène, bien limités, avec un environnement péri-ganglionnaire normal.
+        En regard de la tuméfaction centimétrique on met en évidence un ganglion mesurant  mm d'épaisseur pour  mm de grand axe, avec hile hyperéchogène central linéaire, d'échostructure homogène et bien limité, avec un environnement péri-ganglionnaire normal.
+        Par ailleurs, présence de quelques ganglions jugulo-carotidiens bilatéraux de petit axe infracentimétrique, d'aspect banal.
         Pas de ganglion suspect dans les chaînes ganglionnaires cervicales.
         Perméabilité des axes vasculaires jugulaires et carotidiens.
         Pas de lésion focale dans les glandes submandibulaires.
@@ -136,19 +138,17 @@
         Pas de hernie ou autre lésion inguinale décelable.
         Pas d'épanchement dans l'articulation coxo-fémorale.
         Pas d'ascite ni de syndrome de masse dans le pelvis.
-        Vessie en semi-réplétion, sans anomalie pariétale.
         ```
 
         ```
         Examen debout lors de manœuvres de Valsalva répétées, puis en décubitus.
         
         Hernie inguinale
+        Celle-ci est réductible en décubitus et ne présente pas de signe de complication.
 
-        Pas de hernie inguinale controlatérale décelable.
-        ```
-    
-        ```
-        Consignes de consultation aux urgences en cas de tuméfaction irréductible et inflammatoire qui ferait suspecter une strangulation intestinale.
+        Absence de hernie inguinale controlatérale décelable.
+
+        Consignes de consultation aux urgences en cas de tuméfaction irréductible et inflammatoire qui ferait suspecter une strangulation herniaire.
         ```
 
         <figure markdown="span">
@@ -616,7 +616,18 @@
             </figure>
         === "genou"
             ```
-            Pas d’épanchement intra-articulaire.
+            Pas de comblement du récessus sous-quadricipital.
+            Respect des interlignes fémoro-tibiaux et fémoro-patellaire.
+            Pas de lésion osseuse suspecte et parties molles sans particularité.
+            ```
+            ```
+            A droite :
+            Pas de comblement du récessus sous-quadricipital.
+            Respect des interlignes fémoro-tibiaux et fémoro-patellaire.
+            Pas de lésion osseuse suspecte et parties molles sans particularité.
+
+            A gauche :
+            Pas de comblement du récessus sous-quadricipital.
             Respect des interlignes fémoro-tibiaux et fémoro-patellaire.
             Pas de lésion osseuse suspecte et parties molles sans particularité.
             ```
@@ -642,6 +653,12 @@
             <figure markdown="span">
                 ![](assets/piedos.jpg){width="500"}  
                 Angle de Djian normal 115-135°
+                ![](assets/djian.jpg){width="500"}  
+                Angles :
+                <div style="color:#ff3937;">hallux valgus M1-P1 > 15°</div>
+                <div style="color:#1bcffa;">métatarsus valgus M1-M2 > 10°</div>
+                <div style="color:#03ff00;">avant-pied étalé M1-M5 > 25°</div>
+                ![](assets/halluxvalgus.jpg){width="300"}  
             </figure>
 
     === "DMO"
@@ -662,7 +679,7 @@
         Pas de lacune apico-dentaire.
         Bonne ventilation des cuvettes maxillaires.
         Condyles mandibulaires sans anomalie.
-        Pas de lésion osseuse focale.
+        Pas de lésion osseuse suspecte.
         ```  
 
         <figure markdown="span">

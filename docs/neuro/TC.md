@@ -18,6 +18,17 @@ Respect des espaces liquidiens intra et péri-cérébraux.
 Bonne aération des sinus de la face et des cellules mastoïdiennes.
 Pas de lésion osseuse post-traumatique.
 ```
+```title="cervical"
+Acquisition spiralée sur l'étage cervical sans injection.
+
+Absence de lésion osseuse traumatique récente.
+Pas de recul du mur postérieur.
+Absence de lésion intracanalaire.
+Pas d'anomalie des parties molles prévertébrales.
+Pas de distasis ou de signe indirect d'entorse grave.
+
+Absence de fracture cervicale ou de signe indirect d'entorse grave.
+```
 
 <figure markdown="span">
     </br>

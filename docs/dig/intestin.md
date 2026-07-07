@@ -75,6 +75,16 @@
         - thrombose veineuse
         - cancer
 
+    ```
+    Absence d'épaississement pariétal iléal ou jéjunal.
+    Pas d'hypersignal diffusion ni de prise de contraste pathologique.
+    Pas de collection péritonéale ni de trajet fistuleux.
+    Pas d'adénopathie mésentérique ou rétropéritonéale.
+    Absence d'épanchement péritonéal.
+
+    Pas d'argument pour une atteinte inflammatoire de l'intestin.
+    ```
+
 === "CCR"
 
     |  [TNM](https://oncologik.fr/referentiels/dsrc/colon#5.Classifications%20TNM%202017%20(8ème%20édition)%C2%A0:%20cancers%20colorectaux){:target="_blank"} | signification | aspect | 

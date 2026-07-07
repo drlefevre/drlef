@@ -1,5 +1,11 @@
 # Anatomie
 
+=== "Péritoine"
+
+    <figure markdown="span">
+        ![](assets/peritoine 1.jpg){width="400"}          
+    </figure>
+
 === "Estomac"
 
     <figure markdown="span">

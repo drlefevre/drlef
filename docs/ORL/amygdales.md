@@ -12,7 +12,7 @@
     Pas de collection péri-amydgalienne ni dans l'espace rétropharyngé.
     Respect du calibre de la filière aéro-digestive.
     Perméabilité des veines jugulaires internes.
-    Ganglions jugulo-carotidiens supérieurs centrimétriques.
+    Ganglions jugulo-carotidiens supérieurs centimétriques.
     Apex pulmonaires, cadre osseux et coupes encéphaliques sans anomalie.
     ```
 === "collection"
@@ -24,7 +24,7 @@
     Pas de collection dans l'espace rétropharyngé.
     Respect du calibre de la filière aéro-digestive.
     Perméabilité des veines jugulaires internes.
-    Ganglions jugulo-carotidiens supérieurs centrimétriques.
+    Ganglions jugulo-carotidiens supérieurs centimétriques.
     Apex pulmonaires, cadre osseux et coupes encéphaliques sans anomalie.
     ```
 
