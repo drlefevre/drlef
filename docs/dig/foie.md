@@ -188,27 +188,27 @@
 
 === "infection"
     <figure markdown="span">
-        [hépatite aiguë](https://radiopaedia.org/articles/acute-hepatitis){:target="_blank"} = hépatomégalie + œdème périportal + œdème parois vésiculaires
+        [hépatite virale aiguë](https://radiopaedia.org/articles/acute-hepatitis){:target="_blank"} = hépatomégalie + œdème périportal + épaississement parois vésiculaires  
+        <br>
+        ![](assets/inffoie.jpg){width="900"}
+        <br>
+        ![](assets/echino.jpg){width="800"}        
     </figure>
-
-    !!! example "[abcès à pyogènes](https://radiopaedia.org/articles/hepatic-abscess-1?lang=us){:target="_blank"}"
-        - TDM stade présuppuratif = plage hypodense peu spécifique
-        - stade collecté = coque + halo hypodense + tb perfusionnels
-        - multiloculé = conglomérat de petits abcès
-        - DD = [tuberculose](https://radiopaedia.org/articles/hepatic-and-splenic-tuberculosis){:target="_blank"} et [amibiase](https://radiopaedia.org/articles/amoebic-hepatic-abscess){:target="_blank"}
 
     !!! example "parasitoses"
         - [kyste hydatique](https://radiopaedia.org/articles/hepatic-hydatid-infection?embed_domain=external.radpair.com%2527%255B0%255Dfavicon.ico&lang=us){:target="_blank"} = kyste uniloculaire (Gharbi I) / mb flottante (II) / vésicules filles (III) / pseudo-tumeur (IV) / calcifié (V)
         <figure markdown="span">
             [![](assets/gharbi.jpg){width="700"}](https://radiopaedia.org/articles/who-iwgeclassification-of-cystic-echinococcosis?embed_domain=external.radpair.com%2527%255B0%255Dfavicon.ico){:target="_blank"}
         </figure>
-        - [échinococcose alvéolaire](https://radiopaedia.org/articles/alveolar-echinococcosis?lang=us){:target="_blank"} = masse infiltrante avec calcifications et sans rehaussement, microkystes pathognomoniques en IRM
+        - [échinococcose alvéolaire](https://radiopaedia.org/articles/alveolar-echinococcosis?lang=us){:target="_blank"} = masse infiltrante avec calcifications et sans rehaussement, microkystes en IRM +++
         <figure markdown="span">
             ![](assets/echalv.jpg){width="450"}
         </figure>
-        - [abcès amibien](https://radiopaedia.org/articles/amoebic-hepatic-abscess){:target="_blank"} = DD abcès à pyogènes
-        - [bilharziose](https://radiopaedia.org/articles/schistosomiasis){:target="_blank"} = fibrose périportale
-        - [fasciolose](https://www.radeos.org/maladie/fiche-distomatose-hepatique-a-fasciola-hepatica_1634.html){:target="_blank"} = nodules sous-capsulaires convergeant vers le hile
-    
-    !!! example "DD granulomes hépatiques"
-        tuberculose, sarcoïdose, histoplasmose, bartonellose, brucellose, candidose
+        - [abcès amibien](https://radiopaedia.org/articles/amoebic-hepatic-abscess){:target="_blank"} = DD abcès à pyogènes = Afrique, Asie du sud-est, Amérique latine
+        <figure markdown="span">
+            ![](assets/amibiase.jpg){width="300"}
+        </figure>
+        - [distomatose](https://www.radeos.org/maladie/fiche-distomatose-hepatique-a-fasciola-hepatica_1634.html){:target="_blank"} = nodules sous-capsulaires serpigineux convergeant vers le hile
+        <figure markdown="span">
+            ![](assets/distomatose.jpg){width="350"}
+        </figure>

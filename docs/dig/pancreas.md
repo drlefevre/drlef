@@ -26,6 +26,7 @@
 === "PC"
     <figure markdown="span">
         ![](assets/PC.jpg){width="380"}
+        = calcifications + lésions ductales
     </figure>
 
     !!! info "[causes](https://radiopaedia.org/articles/chronic-pancreatitis-2){:target="_blank"}"
@@ -112,6 +113,9 @@
 
 === "kystes"
     <figure markdown="span">
+        ① atcd de pancréatite aiguë ?  
+        ② kyste rétentionnel (tumeur, Ca<sup>2+</sup>, fibrose) ?  
+        <br>
         [![](assets/kystespanc.jpg){width="550"}](https://radiopaedia.org/articles/cystic-lesions-of-the-pancreas-differential){:target="_blank"}
     </figure> 
 
@@ -125,8 +129,8 @@
     ``` mermaid
     flowchart TD
         style F stroke-width:4px
-        F((épaisse)) -->|face post. corps/queue, ♀ 50a, cloisons| I(tumeur kystique mucineuse);
-        F -->|♀ 30a, sang, portion tissulaire| J(tumeur pseudo-papillaire solide et kystique); 
+        F((épaisse)) -->|face post. corps/queue, ♀ 50a, cloisons| I(tumeur mucineuse kystique);
+        F -->|♀ 30a, sang, portion tissulaire, Ca<sup>2+</sup> périph| J(tumeur pseudo-papillaire solide et kystique); 
         F -->|hypervascularisée| K(TNE);
     ```
 

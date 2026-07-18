@@ -17,5 +17,5 @@
     ![](assets/viradsIRM.jpg){width=600"}
     </br>
     ![](assets/leiomyome.jpg){width=300"}
-    léiomyome = hT2, bénin, rare
+    [léiomyome](https://radiopaedia.org/articles/leiomyoma-of-the-urinary-bladder){:target="_blank"} = hT2, bien limité, bénin
 </figure>

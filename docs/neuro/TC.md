@@ -1,34 +1,74 @@
 # [Traumatismes cranio-faciaux](https://onclepaul.fr/wp-content/uploads/2011/07/Trauma-cranio-enc%C3%A9phalique-2018.pdf){:target="_blank"}
 
-```title="vieux"
-Acquisition spiralée sur le crâne sans injection.
+=== "crâne"
 
-Structures médianes encéphaliques en place.
-Pas de lésion hémorragique intra ou péri-cérébrale récente.
-Elargissement passif des espaces liquidiens intra et péri-cérébraux.
-Bonne aération des sinus de la face et des cellules mastoïdiennes.
-Pas de lésion osseuse post-traumatique.
-```
-```title="jeune"
-Acquisition spiralée sur le crâne sans injection.
+    ```title="vieux"
+    Acquisition spiralée sur le crâne sans injection.
 
-Structures médianes encéphaliques en place.
-Pas de lésion hémorragique intracrânienne récente.
-Respect des espaces liquidiens intra et péri-cérébraux.
-Bonne aération des sinus de la face et des cellules mastoïdiennes.
-Pas de lésion osseuse post-traumatique.
-```
-```title="cervical"
-Acquisition spiralée sur l'étage cervical sans injection.
+    Structures médianes encéphaliques en place.
+    Pas de lésion hémorragique intra ou péri-cérébrale récente.
+    Elargissement passif des espaces liquidiens intra et péri-cérébraux.
+    Bonne aération des sinus de la face et des cellules mastoïdiennes.
+    Pas de lésion osseuse post-traumatique.
 
-Absence de lésion osseuse traumatique récente.
-Pas de recul du mur postérieur.
-Absence de lésion intracanalaire.
-Pas d'anomalie des parties molles prévertébrales.
-Pas de distasis ou de signe indirect d'entorse grave.
+    Absence de lésion hémorragique intra ou péri-cérébrale récente.
+    ```
+    ```title="jeune"
+    Acquisition spiralée sur le crâne sans injection.
 
-Absence de fracture cervicale ou de signe indirect d'entorse grave.
-```
+    Structures médianes encéphaliques en place.
+    Pas de lésion hémorragique intracrânienne récente.
+    Respect des espaces liquidiens intra et péri-cérébraux.
+    Bonne aération des sinus de la face et des cellules mastoïdiennes.
+    Pas de lésion osseuse post-traumatique.
+
+    Absence de lésion cranio-encéphalique post-traumatique.
+    ```
+
+=== "crâne + cervical"
+
+    ```title="vieux"
+    Acquisition spiralée sur le crâne sans injection.
+    Acquisition spiralée sur l'étage cervical sans injection.
+
+    Crâne :
+    Structures médianes encéphaliques en place.
+    Pas de lésion hémorragique intra ou péri-cérébrale récente.
+    Elargissement passif des espaces liquidiens intra et péri-cérébraux.
+    Bonne aération des sinus de la face et des cellules mastoïdiennes.
+    Pas de lésion osseuse post-traumatique.
+
+    Rachis cervical :
+    Absence de lésion osseuse traumatique récente.
+    Pas de recul du mur postérieur.
+    Absence de lésion intracanalaire.
+    Pas d'anomalie des parties molles prévertébrales.
+    Pas de diastasis ou de signe indirect d'entorse grave.
+
+    Absence de lésion hémorragique intra ou péri-cérébrale récente.
+    Pas de fracture cervicale ou de signe indirect d'entorse grave.
+    ```
+    ```title="jeune"
+    Acquisition spiralée sur le crâne sans injection.
+    Acquisition spiralée sur l'étage cervical sans injection.
+
+    Crâne :
+    Structures médianes encéphaliques en place.
+    Pas de lésion hémorragique intracrânienne récente.
+    Respect des espaces liquidiens intra et péri-cérébraux.
+    Bonne aération des sinus de la face et des cellules mastoïdiennes.
+    Pas de lésion osseuse post-traumatique.
+
+    Rachis cervical :
+    Absence de lésion osseuse traumatique récente.
+    Pas de recul du mur postérieur.
+    Absence de lésion intracanalaire.
+    Pas d'anomalie des parties molles prévertébrales.
+    Pas de diastasis ou de signe indirect d'entorse grave.
+
+    Absence de lésion cranio-encéphalique post-traumatique.
+    Pas de fracture cervicale ou de signe indirect d'entorse grave.
+    ```
 
 <figure markdown="span">
     </br>
