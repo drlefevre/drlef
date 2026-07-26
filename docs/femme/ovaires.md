@@ -73,6 +73,10 @@
     Pas de dilatation des cavités pyélo-calicielles.
     ```
 
+    <figure markdown="span">
+        O-RADS NON APPLICABLE EN situation AIGUE (torsion, IGH, ...)
+    </figure>
+
     ``` mermaid
     graph TD
         B(Implants péritonéaux ?) -->|OUI| R5(O-RADS 5)
@@ -108,7 +112,7 @@
     ```
 
     <figure markdown="span">
-    [O-RADS IRM et caractérisation](https://onlinelibrary.wiley.com/doi/epdf/10.1002/jmri.28947){:target="_blank"}  
+    [caractérisation des lésions ovariennes](https://link.springer.com/article/10.1007/s00330-024-10817-1#Tab3){:target="_blank"}  
     \*végétation, nodule, cloisons ou parois irrégulières  
     lésion considérée **solide si composante tissulaire > 80%**  
     **végétation** = tumeur épithéliale / **graisse** = tumeur germinale (tératome)  
@@ -144,7 +148,7 @@
     | :---: | :---: | :---: | 
     | `Utérine` | myome FIGO 7 | myome kystique | 
     | `Digestive` | GIST, adk app | mucocèle app | 
-    | `Péritonéale` | TFS | kyste mésothélial, lymphangiome | 
+    | `Péritonéale` | TFS | pseudokyste, kyste mésothélial, lymphangiome | 
 
     <figure markdown="span">
     </figure>
