@@ -85,6 +85,44 @@
     Pas d'argument pour une atteinte inflammatoire de l'intestin.
     ```
 
+
+=== "fistules anales"
+
+    <figure markdown="span">
+        [![](assets/fistules anales.jpg){width="500"}](https://www.radeos.org/maladie/fiche-fistule-anale_1447.html){:target="_blank"}
+    </figure>
+
+    === "intersphinctérien"
+        ```
+        Trajet fistuleux unique naissant à  heures au niveau de la ligne pectinée.
+        Il se prolonge dans l'espace intersphinctérien jusqu'à un orifice cutané à  heures.
+
+        Pas d'extension en fer à cheval ni supra-lévatorienne.
+        Pas de trajet fistuleux secondaire.
+        Pas d'abcès.
+        ```    
+    === "transphinctérien"
+        ```
+        Trajet fistuleux unique naissant à  heures au niveau de la ligne pectinée.
+        Il traverse l'espace intersphinctérien et le tiers inférieur du sphincter externe.
+        Puis il se prolonge dans la fosse ischio-anale jusqu'à un orifice cutané postérieur.
+
+        Pas d'extension en fer à cheval ni supra-lévatorienne.
+        Pas de trajet fistuleux secondaire.
+        Pas d'abcès.
+        ```   
+    === "suprasphinctérien"
+        ```
+        Trajet fistuleux unique naissant à  heures au niveau de la ligne pectinée.
+        Il chemine dans l'espace intersphinctérien et remonte au-dessus du sphincter externe.
+        Puis il contourne le muscle élévateur de l'anus avant de redescendre dans la fosse ischio-anale .
+        Enfin, il se prolonge jusqu'à un orifice externe cutané périnéal .
+
+        Pas d'extension en fer à cheval ni supra-lévatorienne.
+        Pas de trajet fistuleux secondaire.
+        Pas d'abcès. 
+        ```   
+
 === "CCR"
 
     |  [TNM](https://oncologik.fr/referentiels/dsrc/colon#5.Classifications%20TNM%202017%20(8ème%20édition)%C2%A0:%20cancers%20colorectaux){:target="_blank"} | signification | aspect | 

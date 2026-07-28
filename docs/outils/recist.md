@@ -106,7 +106,7 @@ function recistCompute(){
     const isPD = (deltaPct >= 20) && (diffAbs >= 5); // PD: +≥20% ET +≥5 mm
     const isPR = (deltaPct <= -30);                  // PR: -≥30%
     const isSD = !isPD && !isPR;
-    const summaryText = ` (somme des cibles = ${recistFmtInt(sumNow)} mm contre ${recistFmtInt(sumPrev)} mm soit ${deltaInt > 0 ? '+' : ''}${deltaInt} %).`;
+    const summaryText = ` (somme des cibles = ${recistFmtInt(sumNow)} mm vs ${recistFmtInt(sumPrev)} mm = ${deltaInt > 0 ? '+' : ''}${deltaInt} %).`;
 
     if (isPD){
       phraseHtml = 'Progression lésionnelle selon les critères RECIST 1.1' + summaryText;

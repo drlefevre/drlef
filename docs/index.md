@@ -105,7 +105,7 @@
     === "gg"
         ```
         En regard de la tuméfaction centimétrique on met en évidence un ganglion mesurant  mm d'épaisseur pour  mm de grand axe, avec hile hyperéchogène central linéaire, d'échostructure homogène et bien limité, avec un environnement péri-ganglionnaire normal.
-        Par ailleurs, présence de quelques ganglions jugulo-carotidiens bilatéraux de petit axe infracentimétrique, d'aspect banal.
+        Par ailleurs, présence de quelques ganglions jugulo-carotidiens bilatéraux de petit axe infracentimétrique, d'aspect banal, sans adénomégalie.
         Pas de ganglion suspect dans les chaînes ganglionnaires cervicales.
         Perméabilité des axes vasculaires jugulaires et carotidiens.
         Pas de lésion focale dans les glandes submandibulaires.

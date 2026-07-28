@@ -135,7 +135,10 @@
 === "malin"
     !!! danger "[CHC](https://radiopaedia.org/articles/hepatocellular-carcinoma){:target="_blank"} // OH, NASH, hépatites virales, hémochromatose"
         - HRPA et lavage > 1 cm, hyperT2 modéré ± graisse
-        - capsule, thrombose porte, composantes nécrotiques/hémorragiques
+        - capsule, composantes nécrotiques/hémorragiques, **thrombose porte**
+        <figure markdown="span">
+            [![](assets/Vp.jpg){width="500"}](https://www.mdpi.com/1422-0067/22/23/12880){:target="_blank"}
+        </figure>
         - /!\ CHC hypovasc (y penser devant tout nodule hépatocytaire sur cirrhose)
         - [carcinome fibrolamellaire](https://radiopaedia.org/articles/fibrolamellar-hepatocellular-carcinoma?lang=us){:target="_blank"} = sur foie sain, 20-40 ans, cicatrice centrale, DD HNF
 

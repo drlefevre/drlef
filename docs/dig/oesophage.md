@@ -27,7 +27,7 @@
         TDM **sans + 90s avec ingestion** PDC dilué à 10%  
         <br>
         Syndrome de [Boerhaave](https://radiopaedia.org/articles/boerhaave-syndrome?lang=gb){:target="_blank"}  
-        = perforation 1/3 inférieur sur vomissement
+        = perforation 1/3 inf sur vomissement
         ![](assets/Boerhaave.jpg){width="300"}
         => fistule œso-pleurale ? (parfois retardée)
     </figure>
