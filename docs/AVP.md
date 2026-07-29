@@ -90,6 +90,8 @@
         - EP (graisseuse), pneumopathie d'inhalation
 === "AAST"
     <figure markdown="span">
+        **trauma abdo = ttt conservateur +++** sauf perfo dig / perfo urinaire / sg actif abondant / rupture Wirsung  
+        <br>
         [![](assets/AAST.jpg){width=700"}](https://radiopaedia.org/articles/aast-injury-scoring-scales){:target="_blank"}
         /!\ rate faux-a à J3-J7 et **grade IV/V = embolisation** sinon 50% rupture II<sup>R</sup>  
         </br>

@@ -33,7 +33,9 @@
 === "Omentums"
 
     <figure markdown="span">
-        [![](assets/omentums.jpg){width="500"}](https://onclepaul.fr/wp-content/uploads/2011/07/Bourse-omentaleanatomie-lFILEminimizer.pdf){:target="_blank"}  
+        [![](assets/omentums.jpg){width="500"}](https://onclepaul.fr/wp-content/uploads/2011/07/Bourse-omentaleanatomie-lFILEminimizer.pdf){:target="_blank"}
+        petit omentum = ligaments gastro-hépatique et duodéno-hépatique  
+        <br>
         [![](assets/bourseomentale.jpg){width="500"}](https://onclepaul.fr/wp-content/uploads/2011/07/Bourse-omentaleanatomie-lFILEminimizer.pdf){:target="_blank"}
         **bourse omentale** (anciennement arrière cavité des épiploons)  
         <br>
@@ -45,7 +47,9 @@
     <figure markdown="span">
         [![](assets/anatperitoine.jpg){width="600"}](https://pepite-depot.univ-lille.fr/LIBRE/Th_Medecine/2023/2023ULILM193.pdf){:target="_blank"}
         <br>
-        [![](assets/anatcarcinose.jpg){width="600"}](https://pepite-depot.univ-lille.fr/LIBRE/Th_Medecine/2023/2023ULILM193.pdf){:target="_blank"}  
-        <br>
+        [![](assets/anatcarcinose.jpg){width="300"}](https://pepite-depot.univ-lille.fr/LIBRE/Th_Medecine/2023/2023ULILM193.pdf){:target="_blank"}
+        flux stoppé par les ligaments falciforme et phréno-colique
+        <br>  
         [![](assets/carcinose p.webp){width="850"}](https://link.springer.com/article/10.1007/s00330-024-10817-1#Fig5){:target="_blank"}  
+        [nodules péritonéaux calcifiés](https://radiopaedia.org/articles/peritoneal-calcification){:target="_blank"}  (psammomes) = cystadénocarcinome ovarien +++
     </figure>
