@@ -1,6 +1,6 @@
 # Grêle et côlon
 
-=== "ischémie mésentérique"
+=== "ischémie més"
     <figure markdown="span">
         [dl abdo intense brutale](https://radiopaedia.org/articles/mesenteric-ischaemia){:target="_blank"} chez l'homme avec FDRCV = APx3 4 cc/s et 2 ml/kg   
         **80% occlusion artérielle** (embolique / athéro-thrombotique) = 50% †  
@@ -19,7 +19,7 @@
         - 50% **sd de reperfusion** = dl, saignement, SIB = épaississement pariétal
         - entérite post-ischémique = sténose Crohn-like
 
-=== "sd occlusif"
+=== "occlusion"
 
     !!! warning "Signes de **souffrance ischémique**"
         - anse fermée (distance entre les becs < 2 cm)
@@ -84,7 +84,6 @@
 
     Pas d'argument pour une atteinte inflammatoire de l'intestin.
     ```
-
 
 === "fistules anales"
 

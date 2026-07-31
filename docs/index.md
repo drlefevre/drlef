@@ -631,6 +631,13 @@
             Respect des interlignes fémoro-tibiaux et fémoro-patellaire.
             Pas de lésion osseuse suspecte et parties molles sans particularité.
             ```
+
+            <figure markdown="span">
+                [![](assets/patella.jpg){width="450"}](https://www.jposna.com/article/S2768-2765%2824%2900607-2/fulltext){:target="_blank"}
+                alta = instabilité + sd de l'essuie-glace + arthrose  
+                baja = raideur + craquements + douleurs
+            </figure>
+
         === "cheville"
             ```
             Bon alignement des structures osseuses et respect des rapports anatomiques.

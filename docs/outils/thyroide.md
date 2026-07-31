@@ -522,7 +522,7 @@ function updateReport() {
     }
 
     // N'ajouter la mention du tractus thyréoglosse que s'il n'y a pas de nodule
-    if (nodules.length = 0) {
+    if (nodules.length == 0) {
         txt += "Pas d'anomalie du tractus thyréoglosse.\n";
     }
 

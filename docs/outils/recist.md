@@ -202,7 +202,7 @@ recistCompute();
 !!! warning "lésion cible ssi tumeur de plus grand diamètre ≥ 10 mm ou gg de petit axe ≥ 15 mm"
 
 !!! info "[Radiology Assistant](https://staging.radiologyassistant.nl/more/recist-1-1/recist-1-1-1){:target="_blank"}"
-    - ↬ 5 lésions cibles, max. 2 par organe et max. 2 gg
+    - ↬ 5 lésions cibles, max. 2 par organe et max. 2 gg, pas de lésion osseuse
     - somme des plus grands diamètres et des petits axes pour les gg
     - progression ↗ ≥ 20% vs nadir / réponse partielle ↘ ≥ 30% vs baseline
     - lésions non cibles si < 10 mm / gg 10-15 mm / lésions non mesurables
