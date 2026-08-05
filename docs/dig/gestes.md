@@ -1,7 +1,8 @@
 # Gestes interventionnels
 
 <figure markdown="span">
-    ssi **TP > 50%**, **plaquettes > 60** G/L, **TCA < 1,5**
+    [Gestion des anticoagulants](https://fluidifiants.radiolor.fr){:target="_blank"}  
+    /!\ **TP > 50%**, **plaquettes > 60** G/L, **TCA < 1,5**
 </figure>
 
 === "drainage"
@@ -19,6 +20,18 @@
     Mise en place d'un drain dans la collection techniquement satisfaisante.
     Surveillance clinico-biologique et du débit du drain recommandée.
     Contrôle radiologique à discuter selon l'évolution.
+    ```
+
+=== "ponction"
+    ```
+    Information du patient et recueil du consentement.
+    Repérage scannographique de la voie d'abord.
+    Asepsie rigoureuse et champ stérile.
+    Anesthésie du trajet de ponction à la xylocaïne, sous contrôle TDM.
+    Ponction de la collection à l'aiguille fine avec retour de liquide purulent.
+    Prélèvement dans un pot remis au patient, à adresser au laboratoire.
+    
+    Ponction techniquement satisfaisante.
     ```
 
 === "PBH/BHD"
