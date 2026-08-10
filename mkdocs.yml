@@ -92,6 +92,7 @@ nav:
     - Volumes: outils/volumes.md
     - Pas venu: outils/pasvenu.md
     - Fleischner: outils/fleischner.md
+    - Temps de doublement: outils/doublement.md
     - Biométrie neuropédiatrie: outils/biometrie.md
 
 theme:
