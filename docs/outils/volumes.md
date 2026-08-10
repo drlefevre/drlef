@@ -32,7 +32,7 @@
 
     <div class="sentence-block">
       <div class="result wide">
-        <div class="value" id="lambert-sentence">Volumes testiculaires estimés elon la formule de Lambert à — cc à droite et à — cc à gauche (normal entre 12 et 20 cc).</div>
+        <div class="value" id="lambert-sentence">Volumes testiculaires estimés selon la formule de Lambert à — cc à droite et à — cc à gauche (normal entre 12 et 20 cc).</div>
         <div class="copy-row">
           <button id="copy-lambert-btn" type="button" class="copy" onclick="copyLambertSentence()" disabled>Copier</button>
           <span class="copied" id="lambert-copied" aria-live="polite"></span>

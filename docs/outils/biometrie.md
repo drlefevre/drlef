@@ -168,9 +168,9 @@
     const y = num(yEl.value);
     const m = num(mEl.value);
     if(!Number.isFinite(y) && !Number.isFinite(m)) return NaN;
-    const ySafe = Number.isFinite(y) ? clamp(y, 0, 15) : 0;
-    const mSafe = Number.isFinite(m) ? clamp(Math.floor(m), 0, 11) : 0;
-    return clamp(ySafe + mSafe/12, 0, 15);
+    const years = Number.isFinite(y) ? Math.max(0, y) : 0;
+    const months = Number.isFinite(m) ? Math.max(0, Math.floor(m)) : 0;
+    return clamp((years * 12 + months) / 12, 0, 15);
   }
 
   function update(){
