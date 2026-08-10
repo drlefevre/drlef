@@ -39,9 +39,6 @@
 			</div>
 		</div>
 
-		<div class="doubling-note" id="doubling-note" aria-live="polite">
-		</div>
-
 		<div class="doubling-sentence">
 			<div class="result wide">
 				<div class="value" id="doubling-sentence-text">Volume lésionnel estimé à — cc contre — cc le —/—/—, soit un temps de doublement de — jours.</div>
@@ -53,12 +50,20 @@
 		</div>
 
 		<div class="actions">
+			<div class="doubling-note" id="doubling-note" aria-live="polite">
+			</div>
 			<button type="button" class="clear" onclick="clearDoublingTime()">Effacer</button>
 		</div>
 	</form>
 </div>
 
 <style>
+    .actions { 
+        margin: 0.45rem 0 0.35rem; 
+		flex-direction: column;
+		align-items: flex-start;
+    }
+
     .group-title {
         font-weight: 600;
     }
@@ -97,7 +102,7 @@
 	.doubling-note {
 		font-size: 0.8rem;
 		line-height: 1.35;
-		margin: 0.65rem 0 0.35rem;
+		margin: 0 0 0.35rem;
 	}
 
 	.doubling-sentence {
@@ -106,10 +111,6 @@
 
 	.doubling-sentence .wide {
 		grid-column: 1 / -1;
-	}
-
-	.actions {
-		margin: 0.45rem 0 0.35rem;
 	}
 
 	.copy-row {
