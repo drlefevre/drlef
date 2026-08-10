@@ -258,4 +258,11 @@ function clearDoublingTime(){
 	});
 	computeDoublingTime();
 }
+
+const today = new Date();
+document.getElementById('doubling-date-2').value = [
+	today.getFullYear(),
+	String(today.getMonth() + 1).padStart(2, '0'),
+	String(today.getDate()).padStart(2, '0')
+].join('-');
 </script>
