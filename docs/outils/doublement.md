@@ -221,7 +221,7 @@ function computeDoublingTime(){
 	const roundedDoublingDays = Math.round(doublingDays);
 	result.textContent = `${roundedDoublingDays} jours (${(doublingDays / 30.44).toFixed(1).replace('.', ',')} mois)`;
 	note.textContent = `Intervalle : ${Math.round(intervalDays)} jours ; rapport volumique = ${formatVolumeRatio(volume2 / volume1)}.`;
-	document.getElementById('doubling-sentence-text').textContent = `Volume lésionnel estimé à ${formatDoublingVolume(volume2)} cc contre ${formatDoublingVolume(volume1)} cc le ${formatDoublingDate(document.getElementById('doubling-date-1').value)} soit un temps de doublement de ${roundedDoublingDays} jours.`;
+	document.getElementById('doubling-sentence-text').textContent = `Volume lésionnel estimé à ${formatDoublingVolume(volume2)} cc contre ${formatDoublingVolume(volume1)} cc le ${formatDoublingDate(document.getElementById('doubling-date-1').value)}, soit un temps de doublement de ${roundedDoublingDays} jours.`;
 	document.getElementById('copy-doubling-btn').disabled = false;
 }
 
