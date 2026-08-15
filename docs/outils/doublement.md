@@ -1,68 +1,68 @@
-# Temps de doublement
+# [Temps de doublement volumique](https://pubs.rsna.org/doi/epdf/10.1148/radiol.2017151022){:target="_blank"}
 
 <div class="box md-typeset" id="volume-doubling-time">
 	<form onsubmit="return false;" oninput="computeDoublingTime()">
+		<div class="mode-toggle" role="tablist" aria-label="Mode de saisie">
+			<label class="mode-option">
+				<input id="mode-volume" name="doubling-mode" type="radio" value="volume" checked>
+				<span>Volume</span>
+			</label>
+			<label class="mode-option">
+				<input id="mode-diameter" name="doubling-mode" type="radio" value="diameter">
+				<span>Diamètre</span>
+			</label>
+		</div>
 		<div class="doubling-grid">
 			<div class="doubling-exam">
 				<div class="group-title">Examen actuel</div>
 				<input id="doubling-date-2" type="date" />
-				<div class="doubling-dimensions">
-					<input id="doubling-d1-2" type="text" inputmode="decimal" placeholder="mm" />
-					<input id="doubling-d2-2" type="text" inputmode="decimal" placeholder="mm" />
-					<input id="doubling-d3-2" type="text" inputmode="decimal" placeholder="mm" />
-				</div>
+				<!-- dimension fields removed; mode selector controls interpretation of the result boxes -->
 			</div>
 
 			<div class="doubling-exam">
 				<div class="group-title">Examen initial</div>
 				<input id="doubling-date-1" type="date" />
-				<div class="doubling-dimensions">
-					<input id="doubling-d1-1" type="text" inputmode="decimal" placeholder="mm" />
-					<input id="doubling-d2-1" type="text" inputmode="decimal" placeholder="mm" />
-					<input id="doubling-d3-1" type="text" inputmode="decimal" placeholder="mm" />
-				</div>
+				<!-- dimension fields removed; mode selector controls interpretation of the result boxes -->
 			</div>
 		</div>
 
 		<div class="results doubling-results">
 			<div class="result">
-				<div class="title">Volume actuel</div>
-				<div class="value"><span id="doubling-volume-2">—</span> cc</div>
+				<div class="title">Volume actuel (cc)</div>
+				<div class="value">
+					<input id="doubling-vol-2" class="vol-input" type="text" inputmode="decimal" placeholder="" title="Saisir un volume en cc (sera rempli par le calcul si 3 dimensions renseignées)" />
+				</div>
 			</div>
 			<div class="result">
-				<div class="title">Volume initial</div>
-				<div class="value"><span id="doubling-volume-1">—</span> cc</div>
+				<div class="title">Volume initial (cc)</div>
+				<div class="value">
+					<input id="doubling-vol-1" class="vol-input" type="text" inputmode="decimal" placeholder="" title="Saisir un volume en cc (sera rempli par le calcul si 3 dimensions renseignées)" />
+				</div>
 			</div>
 			<div class="result doubling-main-result">
-				<div class="title">Temps de doublement</div>
 				<div class="value"><span id="doubling-result">—</span></div>
+				<div class="subvalue"><span id="doubling-subtext"></span></div>
 			</div>
 		</div>
 
 		<div class="doubling-sentence">
 			<div class="result wide">
 				<div class="value" id="doubling-sentence-text">Volume lésionnel estimé à — cc contre — cc le —/—/—, soit un temps de doublement de — jours.</div>
-				<div class="copy-row">
-					<button id="copy-doubling-btn" type="button" class="copy" onclick="copyDoublingSentence()" disabled>Copier</button>
-					<span class="copied" id="doubling-copied" aria-live="polite"></span>
-				</div>
 			</div>
 		</div>
 
 		<div class="actions">
-			<div class="doubling-note" id="doubling-note" aria-live="polite">
-			</div>
+			<button id="copy-doubling-btn" type="button" class="copy" onclick="copyDoublingSentence()" disabled>Copier</button>
 			<button type="button" class="clear" onclick="clearDoublingTime()">Effacer</button>
+			<span class="copied" id="doubling-copied" aria-live="polite"></span>
 		</div>
 	</form>
 </div>
 
 <style>
-    .actions { 
-        margin: 0.45rem 0 0.35rem; 
-		flex-direction: column;
-		align-items: flex-start;
-    }
+	.actions { 
+		margin: 0.45rem 0 0.35rem; 
+	}
 
     .group-title {
         font-weight: 600;
@@ -95,19 +95,64 @@
 		margin-top: 1rem;
 	}
 
-	.doubling-main-result .value {
-		font-weight: 600;
+	/* mode toggle: centered pill, halves look like clickable buttons */
+	.mode-toggle { display:flex; gap:0; margin:0 auto 0.8rem; width:14rem; border-radius:999px; overflow:hidden; border:1px solid rgba(0,0,0,0.06); background:var(--md-sys-color-surface-container, transparent); }
+	.mode-option { flex:1; }
+	.mode-option input { display:none; }
+	.mode-option span { display:block; text-align:center; padding:0.5rem 0; font-size:0.8rem; cursor:pointer; background:transparent; color:inherit; transition: background .14s ease; user-select:none; }
+	.mode-option:first-child span { border-right:1px solid rgba(0,0,0,0.06); }
+	.mode-option input:checked + span { background: linear-gradient(to bottom, rgba(0,0,0,0.03), rgba(0,0,0,0.01)); font-weight:700; box-shadow: inset 0 -4px 10px rgba(0,0,0,0.04); }
+
+	/* center exam titles, dates, sentence and buttons */
+	.doubling-exam { align-items: center; }
+	.doubling-exam .group-title { text-align:center; }
+	.doubling-exam input[type="date"] { text-align:center; }
+
+	/* center Copy and Effacer with identical width and margins */
+	.copy-row, .actions { display:flex; justify-content:center; max-width:14rem; margin:0.5rem auto 0; gap:0.6rem; }
+
+	.doubling-results .result .value { display:flex; justify-content:center; align-items:center; }
+
+	.doubling-results .result .title { text-align: center; }
+
+	.vol-input {
+		width: 6.4rem;
+		padding: 0.25rem 0.4rem;
+		border: 1px solid var(--md-default-fg-color--lighter);
+		border-radius: 0.4rem;
+		background: var(--md-code-bg-color);
+		font-size: 0.8rem;
+		text-align: center;
 	}
 
-	.doubling-note {
-		font-size: 0.8rem;
-		line-height: 1.35;
-		margin: 0 0 0.35rem;
+	.doubling-main-result .value {
+		font-weight: 600;
+		text-align: center;
 	}
+
+	/* center the main result vertically and horizontally */
+	.doubling-main-result {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		min-height: 3.2rem;
+	}
+
+	.doubling-main-result .subvalue {
+		text-align: center;
+		font-size: 0.85rem;
+		margin-top: 0.25rem;
+		color: inherit;
+	}
+
+
 
 	.doubling-sentence {
 		margin-top: 0.6rem;
 	}
+
+	.doubling-sentence .value { text-align: center; }
 
 	.doubling-sentence .wide {
 		grid-column: 1 / -1;
@@ -117,7 +162,6 @@
 		display: flex;
 		align-items: center;
 		gap: 0.6rem;
-		margin-top: 0.35rem;
 	}
 
 	.copy {
@@ -162,20 +206,13 @@ function doublingDate(value){
 	return parts.length === 3 ? Date.UTC(parts[0], parts[1] - 1, parts[2]) : NaN;
 }
 
-function doublingVolume(prefix){
-	const dimensions = [1, 2, 3].map(index => doublingNum(document.getElementById(`doubling-d${index}-${prefix}`).value));
-	return dimensions.every(Number.isFinite) && dimensions.every(value => value > 0)
-		? (Math.PI / 6) * dimensions[0] * dimensions[1] * dimensions[2] / 1000
-		: NaN;
-}
+// removed: previous function for 3-axis volume calculation
 
 function formatDoublingVolume(value){
-	return Number.isFinite(value) ? value.toFixed(value < 10 ? 2 : 1).replace('.', ',') : '—';
+	return Number.isFinite(value) ? String(Math.round(value)) : '—';
 }
 
-function formatVolumeRatio(value){
-	return value.toFixed(2).replace('.', ',');
-}
+
 
 function formatDoublingDate(value){
 	const [year, month, day] = value.split('-');
@@ -190,37 +227,90 @@ function resetDoublingSentence(){
 function computeDoublingTime(){
 	const date1 = doublingDate(document.getElementById('doubling-date-1').value);
 	const date2 = doublingDate(document.getElementById('doubling-date-2').value);
-	const volume1 = doublingVolume('1');
-	const volume2 = doublingVolume('2');
+	// read mode: 'volume' or 'diameter'
+	const mode = document.getElementById('mode-diameter').checked ? 'diameter' : 'volume';
+	const volInput1 = document.getElementById('doubling-vol-1');
+	const volInput2 = document.getElementById('doubling-vol-2');
+	const raw1 = doublingNum(volInput1.value);
+	const raw2 = doublingNum(volInput2.value);
+
+	// interpret inputs according to mode
+	let volume1 = NaN, volume2 = NaN;
+	if (mode === 'diameter') {
+		// inputs are diameters (same units as entered)
+		if (Number.isFinite(raw1) && raw1 > 0) volume1 = (Math.PI / 6) * Math.pow(raw1, 3) / 1000; // mm^3->cc if diameter in mm
+		if (Number.isFinite(raw2) && raw2 > 0) volume2 = (Math.PI / 6) * Math.pow(raw2, 3) / 1000;
+		// update titles
+		document.querySelectorAll('.doubling-results .result')[0].querySelector('.title').textContent = 'Diamètre actuel (mm)';
+		document.querySelectorAll('.doubling-results .result')[1].querySelector('.title').textContent = 'Diamètre initial (mm)';
+	} else {
+		// volume mode: inputs are volumes in cc
+		if (Number.isFinite(raw1) && raw1 > 0) volume1 = raw1;
+		if (Number.isFinite(raw2) && raw2 > 0) volume2 = raw2;
+		// restore titles
+		document.querySelectorAll('.doubling-results .result')[0].querySelector('.title').textContent = 'Volume actuel (cc)';
+		document.querySelectorAll('.doubling-results .result')[1].querySelector('.title').textContent = 'Volume initial (cc)';
+	}
+	// update input title according to mode
+	volInput1.title = mode === 'diameter' ? 'Saisir diamètre en mm' : 'Saisir volume en cc';
+	volInput2.title = mode === 'diameter' ? 'Saisir diamètre en mm' : 'Saisir volume en cc';
 	const result = document.getElementById('doubling-result');
-	const note = document.getElementById('doubling-note');
+	const subTextEl = document.getElementById('doubling-subtext');
 
-	document.getElementById('doubling-volume-1').textContent = formatDoublingVolume(volume1);
-	document.getElementById('doubling-volume-2').textContent = formatDoublingVolume(volume2);
+	// display input placeholders/values: keep inputs as entered (diameter or volume)
 	result.textContent = '—';
-	note.textContent = '';
-	resetDoublingSentence();
+	subTextEl.textContent = '';
 
+	// no immediate update on diameter input — sentence updates only after full compute
+
+	// require all numeric values to compute doubling time
 	if (![date1, date2, volume1, volume2].every(Number.isFinite)) return;
-	if (date2 <= date1) {
-		note.textContent = 'La date de contrôle doit être postérieure à la date initiale.';
+
+	// compute intervalDays early to enforce the 10000 days limit
+	const intervalDays = (date2 - date1) / 86400000;
+	if (intervalDays >= 10000) {
+		// do not compute doubling time for excessively long intervals
+		result.textContent = '—';
+		subTextEl.textContent = '';
+		document.getElementById('copy-doubling-btn').disabled = true;
 		return;
 	}
-	if (volume2 === volume1) {
-		note.textContent = 'Volume stable : pas de doublement mesurable sur cet intervalle.';
+	if (date2 <= date1) {
+		// report error in the main sentence area; keep subtext empty
+		document.getElementById('doubling-sentence-text').textContent = 'La date de contrôle doit être postérieure à la date initiale.';
+		document.getElementById('copy-doubling-btn').disabled = true;
+		subTextEl.textContent = '';
+		return;
+	}
+	if (Math.abs(volume2 - volume1) < 1e-9) {
+		document.getElementById('doubling-sentence-text').textContent = 'Volume stable : pas de doublement mesurable sur cet intervalle.';
+		document.getElementById('copy-doubling-btn').disabled = true;
+		subTextEl.textContent = '';
 		return;
 	}
 
-	const intervalDays = (date2 - date1) / 86400000;
 	const doublingDays = intervalDays * Math.log(2) / Math.log(volume2 / volume1);
 	if (doublingDays < 0) {
-		note.textContent = `Volume en diminution ; rapport volumique = ${formatVolumeRatio(volume2 / volume1)}.`;
+		const pctNeg = Math.round(((volume2 - volume1) / volume1) * 100);
+		const signNeg = pctNeg > 0 ? '+' : '';
+		// subtext contains only the percent change and interval
+		subTextEl.textContent = `(${signNeg}${pctNeg}% en ${Math.round(intervalDays)} jours)`;
+		// update main sentence
+		document.getElementById('doubling-sentence-text').textContent = `Volume lésionnel estimé à ${formatDoublingVolume(volume2)} cc contre ${formatDoublingVolume(volume1)} cc le ${formatDoublingDate(document.getElementById('doubling-date-1').value)}.`;
+		document.getElementById('copy-doubling-btn').disabled = false;
 		return;
 	}
 
 	const roundedDoublingDays = Math.round(doublingDays);
-	result.textContent = `${roundedDoublingDays} jours (${(doublingDays / 30.44).toFixed(1).replace('.', ',')} mois)`;
-	note.textContent = `Intervalle : ${Math.round(intervalDays)} jours ; rapport volumique = ${formatVolumeRatio(volume2 / volume1)}.`;
+	const months = Math.round(doublingDays / 30.44);
+	result.textContent = `${roundedDoublingDays} jours = ${months} mois`;
+
+
+	// afficher uniquement "+/- ...% en ... jours" dans la subtext
+	const pct = Math.round(((volume2 - volume1) / volume1) * 100);
+	const sign = pct > 0 ? '+' : '';
+	subTextEl.textContent = `(${sign}${pct}% en ${Math.round(intervalDays)} jours)`;
+
 	document.getElementById('doubling-sentence-text').textContent = `Volume lésionnel estimé à ${formatDoublingVolume(volume2)} cc contre ${formatDoublingVolume(volume1)} cc le ${formatDoublingDate(document.getElementById('doubling-date-1').value)}, soit un temps de doublement de ${roundedDoublingDays} jours.`;
 	document.getElementById('copy-doubling-btn').disabled = false;
 }
@@ -253,9 +343,15 @@ function copyDoublingSentence(){
 }
 
 function clearDoublingTime(){
+	// clear all inputs except set the control date (Examen actuel) to today
 	document.querySelectorAll('#volume-doubling-time input').forEach(input => {
+		if (input.id === 'doubling-date-2') return;
+		if (input.type === 'date') { input.value = ''; return; }
 		input.value = '';
 	});
+	const today = new Date();
+	const todayStr = [today.getFullYear(), String(today.getMonth() + 1).padStart(2, '0'), String(today.getDate()).padStart(2, '0')].join('-');
+	document.getElementById('doubling-date-2').value = todayStr;
 	computeDoublingTime();
 }
 
@@ -265,4 +361,18 @@ document.getElementById('doubling-date-2').value = [
 	String(today.getMonth() + 1).padStart(2, '0'),
 	String(today.getDate()).padStart(2, '0')
 ].join('-');
+
+// Reset volume/diameter input fields and the copy sentence when mode changes
+['mode-volume', 'mode-diameter'].forEach(id => {
+	const el = document.getElementById(id);
+	if (!el) return;
+	el.addEventListener('change', () => {
+		const v1 = document.getElementById('doubling-vol-1');
+		const v2 = document.getElementById('doubling-vol-2');
+		if (v1) v1.value = '';
+		if (v2) v2.value = '';
+		resetDoublingSentence();
+		computeDoublingTime();
+	});
+});
 </script>
