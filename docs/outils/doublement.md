@@ -96,10 +96,10 @@
 	}
 
 	/* mode toggle: centered pill, halves look like clickable buttons */
-	.mode-toggle { display:flex; gap:0; margin:0 auto 0.8rem; width:14rem; border-radius:999px; overflow:hidden; border:1px solid rgba(0,0,0,0.06); background:var(--md-sys-color-surface-container, transparent); }
+	.mode-toggle { display:flex; gap:0; margin:0 auto 0.5rem; width:10rem; border-radius:999px; overflow:hidden; border:1px solid rgba(0,0,0,0.06); background:var(--md-sys-color-surface-container, transparent); }
 	.mode-option { flex:1; }
 	.mode-option input { display:none; }
-	.mode-option span { display:block; text-align:center; padding:0.5rem 0; font-size:0.8rem; cursor:pointer; background:transparent; color:inherit; transition: background .14s ease; user-select:none; }
+	.mode-option span { display:block; text-align:center; padding:0.25rem 0; font-size:0.8rem; cursor:pointer; background:transparent; color:inherit; transition: background .14s ease; user-select:none; }
 	.mode-option:first-child span { border-right:1px solid rgba(0,0,0,0.06); }
 	.mode-option input:checked + span { background: linear-gradient(to bottom, rgba(0,0,0,0.03), rgba(0,0,0,0.01)); font-weight:700; box-shadow: inset 0 -4px 10px rgba(0,0,0,0.04); }
 

@@ -1,4 +1,4 @@
-# [RECIST 1.1](https://recist.eortc.org/recist-1-1-2/){:target="_blank"}
+# [RECIST 1.1](https://recist.eortc.org/recist-1-1/){:target="_blank"}
 
 <div class="box md-typeset" id="recist-sum">
   <form onsubmit="return false;" oninput="recistCompute()">

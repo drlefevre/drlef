@@ -1,10 +1,14 @@
 # [Adénome parathyroïdien](https://radiopaedia.org/articles/parathyroid-adenoma){:target="_blank"}
 
 <figure markdown="span">
-    ![](assets/parathyrecho.jpg){width="275"}
-    ectopique dans 5% (médiastin sup.)  
+    ![](assets/parathyr.jpg){width="600"}
+
     scintigraphie MIBI < TEP choline  
-    ![](assets/parathyr.jpg){width="275"}  
-    hyperplasie des parathyroïdes = moins hypervascularisé
+    <br>
     ![](assets/hyperplasieparathyr.jpg){width="600"}
+    hyperplasie des parathyroïdes = moins hypervascularisées  
+    <br>
+    ![](assets/anatparathyr.jpg){width="250"}
+    parathyroïdes **inf. = 1/3 inf. ou sous-thyr**  
+    ectopique dans 5% (médiastin sup.)   
 </figure>

@@ -8,7 +8,7 @@
 
 !!! info "**FDR de malignité** = tabac, atcd familial, emphysème/fibrose, âge avancé"
 
-|  Nodule solide | contrôle | CAT ([calcul du TDV](/outils/doublement))  | 
+|  Nodule solide | contrôle | CAT ([calcul du TDV](../outils/doublement.md))  | 
 | :----------: | :-------: | :----------: |
 | `< 6 mm` <br> (< 100 mm³) | 1 an <br> ssi FDR | si majoration (TDV < 500 j) RCP <br> sinon contrôle 2 ans |
 | `6-8 mm` <br> (100-250 mm³) | M6 | si majoration (TDV < 400 j) RCP <br> sinon contrôle 1 an |

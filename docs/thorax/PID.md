@@ -2,6 +2,7 @@
 
 <figure markdown="span">
     [pneumotox](https://www.pneumotox.com/drug/index/){:target="_blank"}  
+    [atoll sign](https://radiopaedia.org/articles/atoll-sign-lungs){:target="_blank"} = PO, fongique, vascularite  
     </br>
     [![](assets/PID.jpg){width="710"}](https://radiopaedia.org/articles/usual-interstitial-pneumonia){:target="_blank"}
     **fibrose** = bronchectasies par traction, ry de miel, distorsion scissurale, perte de volume

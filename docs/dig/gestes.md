@@ -40,12 +40,12 @@
     Repérage échographique.
     Asepsie rigoureuse et champ stérile.
     Anesthésie du point de ponction par xylocaïne.
-    Mise en place d'une aiguille coaxiale par voie sous-costale. 
-    Obtention de 2 carottes de parenchyme hépatique à l’aiguille 16G.
+    Obtention d'une carotte de parenchyme hépatique à l’aiguille 16G.
     Prélèvements dans un pot formolé adressé au laboratoire d'anatomopathologie.
     Absence de complication immédiate lors du contrôle échographique.
 
     Ponction biopsie hépatique techniquement satisfaisante.
+    Le patient doit rester 4 heures allongé sur le côté droit puis 2 heures sur le dos.
     ```
     ```
     Information du patient et vérification de l’hémostase.
@@ -58,6 +58,7 @@
     Absence de complication immédiate lors du contrôle échographique.
 
     Biopsie hépatique dirigée techniquement satisfaisante.
+    Le patient doit rester 4 heures allongé sur le côté droit puis 2 heures sur le dos.
     ```
 
     !!! warning "CI ([recommandations](https://afef.asso.fr/wp-content/uploads/2023/06/Ponction-Biopsie-Hepatique.pdf){:target="_blank"})" 
@@ -104,10 +105,10 @@
 
 === "gastrostomie"
     ```
-    Information du patient sur le geste et des complications potentielles.
+    Information du patient sur le geste et les complications potentielles.
     Repérage échographique du bord gauche du foie.
     Insufflation de l'estomac par la sonde naso-gastrique.
-    Gastropexie avec 3 points d'ancrage.
+    Gastropexie avec 3 points d'ancrage sous contrôle scopique.
     Mise en place d'une sonde 16 French dans l'estomac.
     Contrôle scopique de la position satisfaisant.
 

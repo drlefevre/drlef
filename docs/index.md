@@ -1,7 +1,6 @@
 # Accueil
 
-<p style="text-align: center"><a href="https://www.imaios.com/fr/login"target="_blank">imaios</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://radiopaedia.org/"target="_blank">radiopaedia</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.radrap.ch/comptesrendus"target="_blank">CR types</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://radref.org/ref.php"target="_blank">radref</a> <br> <a href="https://www.ccam-radiologie.fr/echographie-abdomen-pelvis/"target="_blank">ccam</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://aderim.radiologie.fr/"target="_blank">aderim</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.imaios.com/fr/e-mri/sequences/sequences-acronymes"target="_blank">acronymes séquences IRM</a>
-</br>rempl cima / elindo, Lens 1314, pass</p>
+<p style="text-align: center"><a href="https://www.imaios.com/fr/login"target="_blank">imaios</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://radiopaedia.org/"target="_blank">radiopaedia</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.radrap.ch/comptesrendus"target="_blank">CR types</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://radref.org/ref.php"target="_blank">radref</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://fr.wikipedia.org/wiki/Os_accessoire"target="_blank">os accessoires</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.ccam-radiologie.fr/echographie-abdomen-pelvis/"target="_blank">ccam</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://aderim.radiologie.fr/"target="_blank">aderim</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.imaios.com/fr/e-mri/sequences/sequences-acronymes"target="_blank">acronymes IRM</a></p>
 
 === "Abdo"
     === "H"
@@ -93,7 +92,7 @@
     === "normal"
         ```
         Pas de ganglion suspect dans les chaînes ganglionnaires cervicales.
-        Pas de lésion focale dans les glandes submandibulaire et parotides.
+        Pas de lésion focale dans les glandes submandibulaires et parotides.
         Perméabilité des axes vasculaires jugulaires et carotidiens.
         Thyroïde de taille normale sans image nodulaire.
         ```
@@ -374,7 +373,7 @@
         Utérus antéversé antéfléchi mesurant  cm.
         Endomètre difficilement individualisable mesurant environ  mm.
         Pas d'anomalie dans le myomètre ni de lésion endocavitaire décelable.
-        Ovaires non individualisables en raison d'interpositions digestives.
+        Ovaires latéro-utérins, folliculaires, de taille normale.x
         Pas de syndrome de masse pelvien ni rétropéritonéal.
         Pas de dilatation des cavités pyélocalicielles.
         Pas d'épanchement pelvien significatif.
@@ -397,7 +396,7 @@
         ```
         Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
-        Ovaires latéraux dont la surface mesure à droite et gauche  cm².
+        Ovaires latéraux dont la volume mesure à droite et gauche  cc.
         Ils contiennent moins de 20 follicules par ovaire.
         Pas de dilatation tubaire.
 
@@ -410,7 +409,7 @@
         ```
 
         <figure markdown="span">
-            ovaire polykystique si [> 20 follicules 2-9 mm / > 6 cm² / > 10 ml](https://radiopaedia.org/articles/polycystic-ovarian-syndrome-1){:target="_blank"}  
+            ovaire polykystique si au moins un des deux a [> 20 follicules 2-9 mm / > 6 cm² / > 10 cc](https://radiopaedia.org/articles/polycystic-ovarian-syndrome-1){:target="_blank"}  
             </br> 
         </figure>
 
@@ -580,7 +579,7 @@
             Pas de signe d'épanchement articulaire.
             Parties molles sans particularité.
             ```
-        === "poignet"
+        === "poignet/main"
             ```
             Respect des interlignes articulaires du carpe et des phalanges.
             Pas d'érosion osseuse ni de lésion suspecte.
@@ -591,6 +590,12 @@
             <figure markdown="span">
                 ![](assets/carpe.jpg){width="400"}  
             </figure>
+
+            | [arthrose](https://radiopaedia.org/articles/osteoarthritis){:target="_blank"} | [PR](https://radiopaedia.org/articles/rheumatoid-arthritis?lang=gb){:target="_blank"}  | [rhum pso](https://radiopaedia.org/articles/psoriatic-arthritis){:target="_blank"} | [goutte](https://radiopaedia.org/articles/gout){:target="_blank"} | [PPC](https://radiopaedia.org/articles/calcium-pyrophosphate-dihydrate-deposition-disease-1){:target="_blank"} |
+            | :----------: | :-------: | :-------: | :-------: | :-------: |
+            | ![](assets/arthrose.jpg){width="300"} | ![](assets/PR.jpg){width="300"} | ![](assets/RP.jpg){width="300"} | ![](assets/goutte.jpg){width="300"} | ![](assets/PPC.jpg){width="300"} |
+
+            <br>
 
             ```
             L'âge osseux basé sur les caractéristiques d'ossification de la main est estimé à  ans.
@@ -633,9 +638,12 @@
             ```
 
             <figure markdown="span">
-                [![](assets/patella.jpg){width="450"}](https://www.jposna.com/article/S2768-2765%2824%2900607-2/fulltext){:target="_blank"}
+                ![](assets/patella.jpg){width="400"}
                 alta = instabilité + sd de l'essuie-glace + arthrose  
-                baja = raideur + craquements + douleurs
+                baja = raideur + craquements + douleurs  
+                <br>
+                ![](assets/dysplasietrochlee.jpg){width="650"}
+                [dysplasie de la trochlée](https://radiopaedia.org/articles/trochlear-dysplasia){:target="_blank"} => instabilité patellaire
             </figure>
 
         === "cheville"
@@ -915,3 +923,28 @@
         Pas d'anomalie dans le cadre osseux.
         ```
 
+=== "Pas venu"
+
+    ```title="H"    
+    Cher confrère, 
+
+    Nous avons convoqué votre patient pour la réalisation d'une 
+
+    Malheureusement celui-ci ne s'est pas présenté à son rendez-vous.
+
+    Sensible à votre confiance, 
+
+    Bien confraternellement,
+    ```
+
+    ```title="F"  
+    Cher confrère, 
+
+    Nous avons convoqué votre patiente pour la réalisation d'une 
+
+    Malheureusement celle-ci ne s'est pas présentée à son rendez-vous.
+
+    Sensible à votre confiance, 
+
+    Bien confraternellement,
+    ```

@@ -1,9 +1,5 @@
 # [Maladies rhumatismales](https://radiopaedia.org/articles/inflammatory-arthritis){:target="_blank"}
 
-| [arthrose](https://radiopaedia.org/articles/osteoarthritis){:target="_blank"} | [PR](https://radiopaedia.org/articles/rheumatoid-arthritis?lang=gb){:target="_blank"}  | [rhum pso](https://radiopaedia.org/articles/psoriatic-arthritis){:target="_blank"} | [goutte](https://radiopaedia.org/articles/gout){:target="_blank"} | [PPC](https://radiopaedia.org/articles/calcium-pyrophosphate-dihydrate-deposition-disease-1){:target="_blank"} |
-| :----------: | :-------: | :-------: | :-------: | :-------: |
-| ![](assets/arthrose.jpg){width="300"} | ![](assets/PR.jpg){width="300"} | ![](assets/RP.jpg){width="300"} | ![](assets/goutte.jpg){width="300"} | ![](assets/PPC.jpg){width="300"} |
-
 === "Maladies auto-immunes"
 
     ## [PR](https://radiopaedia.org/articles/rheumatoid-arthritis?lang=gb){:target="_blank"} 

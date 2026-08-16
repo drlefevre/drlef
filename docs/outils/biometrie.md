@@ -1,7 +1,7 @@
-# [Biométrie neuropédiatrique](https://www.neuroradiologie.fr/index.php/outils/corps-calleux){:target="_blank"}
+# [Biométrie neuropédiatrique](https://neuroradiologie.fr/outils){:target="_blank"}
 
 <figure markdown="span">
-    ![](assets/biometries.jpg){width="800"}
+    ![](assets/biometries.jpg){width="700"}
 </figure>
 
 <div class="calc-mini md-typeset" id="neuro">
@@ -21,7 +21,7 @@
       <div class="grid-2">
         <!-- Corps calleux -->
         <div class="panel">
-          <h4><a href="https://www.ajnr.org/content/ajnr/32/8/1436.full.pdf" target="_blank" rel="noopener">Corps calleux</a></h4>
+          <h4><a href="https://www.ajnr.org/content/ajnr/32/8/1436.full.pdf" target="_blank" rel="noopener">Corps calleux</a> (mm)</h4>
           <table class="tbl" id="cc-table">
             <thead><tr><th></th><th>3è p.</th><th>97è p.</th></tr></thead>
             <tbody>
@@ -36,7 +36,7 @@
 
         <!-- Fosse postérieure -->
         <div class="panel">
-          <h4><a href="https://www.ajnr.org/content/ajnr/early/2019/10/17/ajnr.A6257.full.pdf" target="_blank" rel="noopener">Fosse postérieure</a></h4>
+          <h4><a href="https://www.ajnr.org/content/ajnr/early/2019/10/17/ajnr.A6257.full.pdf" target="_blank" rel="noopener">Fosse postérieure</a> (mm)</h4>
           <table class="tbl" id="cb-table">
             <thead><tr><th></th><th>3è p.</th><th>97è p.</th></tr></thead>
             <tbody>
@@ -48,17 +48,38 @@
           </table>
         </div>
       </div>
+
+      <!-- Mesures hypophysaires -->
+      <div class="panel panel-wide">
+        <h4><a href="https://www.em-consulte.com/article/231459/imagerie-de-la-region-sellaire-normale-et-patholog" target="_blank" rel="noopener">Mesures hypophysaires</a></h4>
+        <div class="table-scroll">
+          <table class="tbl" id="pit-table">
+            <thead>
+              <tr><th></th><th>5è p.</th><th>10è p.</th><th>25è p.</th><th>50è p.</th><th>75è p.</th><th>90è p.</th><th>95è p.</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row"><a href="https://link.springer.com/article/10.1007/BF02018614" target="_blank" rel="noopener">Hauteur</a> (mm)</th><td class="height-minus" colspan="3"></td><td class="height-mean"></td><td class="height-plus" colspan="3"></td></tr>
+              <tr><th scope="row"><a href="https://link.springer.com/article/10.1007/s00247-022-05505-5" target="_blank" rel="noopener">Volume</a> (mm³)</th><td class="p5"></td><td class="p10"></td><td class="p25"></td><td class="p50"></td><td class="p75"></td><td class="p90"></td><td class="p95"></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
   </form>
 </div>
 
 <style>
+/* Centrage général de la page */
+.md-typeset h1{ text-align:center; }
+.md-typeset figure{ text-align:center; }
+
 /* Base identique à l’outil Fleischner */
 .calc-mini{
-  max-width:920px; margin:1rem 0 2rem;
+  max-width:920px; margin:1rem auto 1rem;
   padding:1rem 1rem .75rem;
   border:1px solid var(--md-default-fg-color--lightest);
   border-radius:.9rem; background:var(--md-default-bg-color);
+  text-align:center;
 }
 /* 3 colonnes : années | mois | sexe */
 .row3{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:.6rem; }
@@ -66,7 +87,7 @@
   width:100%; padding:.55rem .65rem;
   border:1px solid var(--md-default-fg-color--lighter);
   border-radius:.7rem; background: var(--md-code-bg-color);
-  font-size: .8rem;
+  font-size: .8rem; text-align:center;
 }
 
 /* Boîte résultats */
@@ -80,11 +101,18 @@
 /* Deux tableaux côte à côte */
 .grid-2{ display:grid; grid-template-columns:1fr 1fr; gap:1rem; align-items:start; }
 @media (max-width:820px){ .grid-2{ grid-template-columns:1fr; } }
+.panel-wide{ margin-top:1rem; }
+.table-scroll{ overflow-x:auto; }
+#pit-table{ min-width:700px; }
+#pit-table th,#pit-table td{ text-align:center; }
+#pit-table th:first-child{ white-space:nowrap; }
 
 /* Tables */
-.tbl{ width:100%; border-collapse:collapse; margin-top:.35rem; }
-.tbl th,.tbl td{ border:1px solid var(--md-default-fg-color--lighter); padding:.4rem .5rem; text-align:left; }
+.tbl{ width:100%; border-collapse:collapse; margin:.35rem auto 0; }
+.tbl th,.tbl td{ border:1px solid var(--md-default-fg-color--lighter); padding:.4rem .5rem; text-align:center; }
 .tbl th{ background:rgba(127,127,127,.08); }
+#cc-table tbody td:first-child,
+#cb-table tbody td:first-child{ background:rgba(127,127,127,.08); }
 
 /* Liens titres : respecter le thème et hover */
 .panel h4 > a{
@@ -159,6 +187,58 @@
     }
   };
 
+  const AGES_PIT = Array.from({length:18}, (_, i) => i);
+  const PIT_PCTS = ['p5','p10','p25','p50','p75','p90','p95'];
+  const PIT_HEIGHT = [
+    {maxAge:1, mean:3.5, sd:0.5},
+    {maxAge:5, mean:4.0, sd:0.7},
+    {maxAge:10, mean:4.5, sd:0.6},
+    {maxAge:15, mean:5.3, sd:0.8},
+    {maxAge:20, mean:6.1, sd:0.3}
+  ];
+  const PIT = {
+    F:[
+      [94.0,105.5,119.2,151.6,199.6,221.6,252.2],
+      [126.7,144.0,171.2,199.0,220.0,263.4,293.3],
+      [154.8,189.4,205.0,237.4,289.0,312.7,325.7],
+      [189.3,233.4,258.5,275.0,300.8,356.1,369.3],
+      [184.2,228.2,254.6,302.4,364.5,387.9,388.8],
+      [240.0,245.4,273.0,340.5,395.3,444.7,467.9],
+      [254.0,265.2,297.4,376.0,415.8,548.2,559.4],
+      [247.4,260.8,322.0,388.0,459.6,511.2,621.0],
+      [205.6,223.0,274.1,362.4,425.5,498.9,519.7],
+      [267.8,304.9,331.2,381.2,476.7,586.7,644.0],
+      [271.3,321.4,396.5,512.1,609.5,641.7,719.5],
+      [270.1,366.6,418.2,515.0,620.5,755.5,794.9],
+      [342.8,432.5,592.3,662.0,742.9,851.7,1004.4],
+      [423.4,519.2,620.5,689.0,882.0,947.3,970.8],
+      [510.9,591.8,641.8,710.5,797.7,872.8,1007.0],
+      [523.4,579.4,646.2,755.8,812.5,936.8,991.2],
+      [574.6,598.1,660.7,774.0,870.4,936.2,1126.0],
+      [550.6,580.0,655.0,715.0,766.8,914.1,1042.8]
+    ],
+    G:[
+      [94.0,110.6,121.6,154.5,182.2,212.2,229.4],
+      [153.2,163.6,184.0,206.0,233.0,292.7,296.1],
+      [155.2,169.9,207.2,251.0,286.2,325.3,361.1],
+      [197.9,209.8,226.0,244.0,287.0,328.6,331.3],
+      [202.0,214.6,243.2,265.0,320.5,384.7,452.2],
+      [194.7,210.1,242.0,313.0,375.7,504.1,555.3],
+      [212.1,216.0,273.3,378.6,418.8,532.3,575.1],
+      [235.9,255.3,327.3,352.2,398.7,439.0,502.0],
+      [247.1,325.5,337.7,380.0,408.5,430.3,511.8],
+      [302.1,324.6,341.7,418.1,475.1,621.0,652.9],
+      [246.0,273.3,326.2,383.0,452.7,523.0,532.4],
+      [223.5,257.2,369.5,417.2,510.3,598.8,670.4],
+      [269.2,348.7,396.3,487.0,514.9,666.1,802.3],
+      [344.5,394.1,439.7,558.6,654.9,838.6,924.8],
+      [383.8,408.9,497.7,570.4,775.0,898.1,953.4],
+      [427.0,435.1,592.5,711.9,792.0,843.5,873.2],
+      [526.0,526.8,608.6,667.5,740.7,763.7,768.9],
+      [476.0,524.0,538.0,686.4,769.0,824.0,1207.4]
+    ]
+  };
+
   // ===== Logique =====
   const yEl = document.getElementById('years');
   const mEl = document.getElementById('months');
@@ -170,7 +250,7 @@
     if(!Number.isFinite(y) && !Number.isFinite(m)) return NaN;
     const years = Number.isFinite(y) ? Math.max(0, y) : 0;
     const months = Number.isFinite(m) ? Math.max(0, Math.floor(m)) : 0;
-    return clamp((years * 12 + months) / 12, 0, 15);
+    return clamp((years * 12 + months) / 12, 0, 20);
   }
 
   function update(){
@@ -201,6 +281,22 @@
         c3.textContent = fmt1(p3); c97.textContent = fmt1(p97);
       }
     });
+
+    // --- Hauteur hypophysaire (moyenne ± écart-type par tranche d'âge) ---
+    const height = Number.isFinite(age) ? PIT_HEIGHT.find(item => age <= item.maxAge) : null;
+    const heightMinus = document.querySelector('#pit-table .height-minus');
+    const heightMean = document.querySelector('#pit-table .height-mean');
+    const heightPlus = document.querySelector('#pit-table .height-plus');
+    heightMinus.textContent = height ? `${fmt1(height.mean - height.sd)} (−1σ)` : '';
+    heightMean.textContent = height ? fmt1(height.mean) : '';
+    heightPlus.textContent = height ? `${fmt1(height.mean + height.sd)} (+1σ)` : '';
+
+    // --- Volumétrie hypophysaire (snap à l'âge entier publié le + proche) ---
+    const pitIdx = Number.isFinite(age) && age <= AGES_PIT[AGES_PIT.length - 1] ? closestIndex(age, AGES_PIT) : -1;
+    PIT_PCTS.forEach((pct, i) => {
+      const cell = document.querySelector(`#pit-table .${pct}`);
+      cell.textContent = pitIdx === -1 ? '' : fmt1(PIT[sex][pitIdx][i]);
+    });
   }
 
   [yEl, mEl, sEl].forEach(el => el.addEventListener('input', update));
@@ -209,5 +305,6 @@
 </script>
 
 <figure markdown="span">
-  Validé par le Dr Wozniak
+    ![](assets/hauteurhypo.jpg){width="600"}
+    Mesurer la hauteur hypophysaire perpendiculairement au plan parallèle au palais
 </figure>
