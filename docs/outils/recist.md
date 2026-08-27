@@ -12,7 +12,7 @@
 
     <div class="results">
       <div class="result">
-        <div class="title">Somme</div>
+        <div class="title">Somme actuelle</div>
         <div class="value"><span id="recist-sum-now">—</span> mm</div>
       </div>
       <div class="result">
@@ -52,11 +52,6 @@ function recistFmtInt(x){
   return Math.round(x).toString();
 }
 
-// utilitaire : <10 mm => 0
-function recistClamp(v){
-  return (Number.isFinite(v) && v >= 10) ? v : 0;
-}
-
 // ====== Calcul principal ======
 function recistCompute(){
   const ids = ['1','2','3','4','5'];
@@ -68,11 +63,8 @@ function recistCompute(){
     const pRaw = recistNum(document.getElementById('l'+i+'prev').value);
     const nRaw = recistNum(document.getElementById('l'+i+'now').value);
 
-    const p = recistClamp(pRaw);
-    const n = recistClamp(nRaw);
-
-    if (p > 0){ sumPrev += p; nPrev++; }
-    if (n > 0){ sumNow  += n; nNow++;  }
+    if (Number.isFinite(pRaw)){ sumPrev += pRaw; nPrev++; }
+    if (Number.isFinite(nRaw)){ sumNow  += nRaw; nNow++; }
   });
 
   // Affichage somme actuelle
@@ -106,7 +98,8 @@ function recistCompute(){
     const isPD = (deltaPct >= 20) && (diffAbs >= 5); // PD: +≥20% ET +≥5 mm
     const isPR = (deltaPct <= -30);                  // PR: -≥30%
     const isSD = !isPD && !isPR;
-    const summaryText = ` (somme des cibles = ${recistFmtInt(sumNow)} mm vs ${recistFmtInt(sumPrev)} mm = ${deltaInt > 0 ? '+' : ''}${deltaInt} %).`;
+    const smallAbsoluteIncrease = (deltaPct >= 20) && (diffAbs < 5);
+    const summaryText = ` (somme des cibles = ${recistFmtInt(sumNow)} mm vs ${recistFmtInt(sumPrev)} mm = ${deltaInt > 0 ? '+' : ''}${deltaInt} %${smallAbsoluteIncrease ? ' mais Δ < 5 mm' : ''}).`;
 
     if (isPD){
       phraseHtml = 'Progression lésionnelle selon les critères RECIST 1.1' + summaryText;
@@ -114,7 +107,8 @@ function recistCompute(){
       phraseHtml = 'Réponse partielle selon les critères RECIST 1.1' + summaryText
                  + '<br><span class="note">Sauf nouvelle lésion ou progression non équivoque des lésions non cibles.</span>';
     } else if (isSD){
-      phraseHtml = 'Stabilité lésionnelle selon les critères RECIST 1.1' + summaryText
+      phraseHtml = 'Stabilité lésionnelle selon les critères RECIST 1.1'
+                 + summaryText
                  + '<br><span class="note">Sauf nouvelle lésion ou progression non équivoque des lésions non cibles.</span>';
     }
     canCopy = true;
