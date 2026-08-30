@@ -92,6 +92,7 @@ nav:
     - Volumes: outils/volumes.md
     - Fleischner: outils/fleischner.md
     - Temps de doublement: outils/doublement.md
+    - MR parkinsonism index: outils/mrpi.md
     - Biométrie neuropédiatrie: outils/biometrie.md
 
 theme:
