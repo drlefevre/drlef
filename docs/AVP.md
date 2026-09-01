@@ -93,7 +93,7 @@
         **trauma abdo = ttt conservateur +++** sauf perfo dig / perfo urinaire / sg actif abondant / rupture Wirsung  
         <br>
         [![](assets/AAST.jpg){width=700"}](https://radiopaedia.org/articles/aast-injury-scoring-scales){:target="_blank"}
-        /!\ rate faux-a à J3-J7 et **grade IV/V = embolisation** sinon 50% rupture II<sup>R</sup>  
+        /!\ rate faux-a à J3-J7 et grade III/**IV/V = embolisation** sinon 50% rupture II<sup>R</sup>  
         </br>
         [![](assets/AAST2.jpg){width=700"}](https://radiopaedia.org/articles/aast-injury-scoring-scales){:target="_blank"}
     </figure>

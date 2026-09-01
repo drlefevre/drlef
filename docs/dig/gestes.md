@@ -8,24 +8,28 @@
 === "drainage"
     ```
     Information du patient et recueil du consentement.
-    Repérage scannographique de la voie d'abord.
+    Repérage scanographique de la voie d'abord.
     Asepsie rigoureuse et champ stérile.
     Anesthésie du trajet de ponction à la xylocaïne, sous contrôle TDM.
     Ponction de la collection à l'aiguille fine avec retour de liquide purulent.
     Prélèvement dans un pot remis au patient, à adresser au laboratoire.
     Mise en place d'une guide métallique puis dilatation progressive du trajet.
-    Positionnement d'un drain de 14 Fr avec vérification scannographique.
-    Point de suture à la peau sécurisant le drain.
+    Positionnement d'un drain de 14 Fr avec vérification scanographique.
+    Deux points de suture à la peau sécurisant le drain.
     
     Mise en place d'un drain dans la collection techniquement satisfaisante.
     Surveillance clinico-biologique et du débit du drain recommandée.
     Contrôle radiologique à discuter selon l'évolution.
     ```
 
+    <figure markdown="span">
+        /!\ 8 Fr s'il faut traverser le parenchyme hépatique
+    </figure>    
+
 === "ponction"
     ```
     Information du patient et recueil du consentement.
-    Repérage scannographique de la voie d'abord.
+    Repérage scanographique de la voie d'abord.
     Asepsie rigoureuse et champ stérile.
     Anesthésie du trajet de ponction à la xylocaïne, sous contrôle TDM.
     Ponction de la collection à l'aiguille fine avec retour de liquide purulent.
@@ -41,7 +45,7 @@
     Asepsie rigoureuse et champ stérile.
     Anesthésie du point de ponction par xylocaïne.
     Obtention d'une carotte de parenchyme hépatique à l’aiguille 16G.
-    Prélèvements dans un pot formolé adressé au laboratoire d'anatomopathologie.
+    Prélèvement dans un pot formolé adressé au laboratoire d'anatomopathologie.
     Absence de complication immédiate lors du contrôle échographique.
 
     Ponction biopsie hépatique techniquement satisfaisante.
@@ -77,7 +81,7 @@
     Prélèvements dans un pot formolé adressé au laboratoire d'anatomopathologie.
     Absence de complication immédiate lors du contrôle échographique.
 
-    Biopsie granglionnaire techniquement satisfaisante.
+    Biopsie ganglionnaire techniquement satisfaisante.
     ```
     ```title="lymphome"
     Repérage échographique d’un ganglion mesurant  mm.
@@ -88,7 +92,7 @@
     Prélèvements dans un pot adressé au laboratoire d'anatomopathologie.
     Absence de complication immédiate lors du contrôle échographique.
 
-    Biopsie granglionnaire techniquement satisfaisante.
+    Biopsie ganglionnaire techniquement satisfaisante.
     ```
 
 === "pyélostomie"

@@ -440,10 +440,15 @@ function moveNoduleDown(internalId) {
 
 // --- GENERATION RAPPORT ---
 
+function formatReportNumber(value) {
+    if (value === null || value === undefined || value === '') return '?';
+    return String(value).replace('.', ',');
+}
+
 function updateReport() {
     // 1. Volumes Lobes
-    const volD = document.getElementById('ld').value;
-    const volG = document.getElementById('lg').value;
+    const volD = formatReportNumber(document.getElementById('ld').value);
+    const volG = formatReportNumber(document.getElementById('lg').value);
 
     let txt = `Volumes des lobes droit et gauche estimés à ${volD} et ${volG} cc.\n`;
 

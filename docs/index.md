@@ -91,10 +91,10 @@
 
     === "normal"
         ```
-        Pas de ganglion suspect dans les chaînes ganglionnaires cervicales.
-        Pas de lésion focale dans les glandes submandibulaires et parotides.
-        Perméabilité des axes vasculaires jugulaires et carotidiens.
         Thyroïde de taille normale sans image nodulaire.
+        Perméabilité des axes vasculaires jugulaires et carotidiens.
+        Pas de ganglion suspect dans les chaînes ganglionnaires cervicales.
+        Absence d'anomalie dans les glandes submandibulaires.
         ```
 
         <figure markdown="span">
@@ -145,7 +145,7 @@
         Hernie inguinale
         Celle-ci est réductible en décubitus et ne présente pas de signe de complication.
 
-        Absence de hernie inguinale controlatérale décelable.
+        Absence de hernie inguinale controlatérale.
 
         Consignes de consultation aux urgences en cas de tuméfaction irréductible et inflammatoire qui ferait suspecter une strangulation herniaire.
         ```
@@ -527,7 +527,13 @@
             Pas de pincement des espaces intersomatiques.
             Pas de sténose osseuse des foramens intervertébraux.
             Pas d'épaississement des parties molles prévertébrales.
-            ``` 
+            ```
+
+            | Niveau | Épaisseur | % approximatif du corps vertébral |
+            | :--- | :---: | :---: |
+            | C1-C4 | 7 mm | 30 % |
+            | C5-C7 | 22 mm | 100 % |
+
         === "RACE vieux"
             ```
             Lordose cervicale conservée.
@@ -536,6 +542,12 @@
             Pas de franche sténose osseuse des foramens intervertébraux.
             Pas d'épaississement des parties molles prévertébrales.
             ```
+
+            | Niveau | Épaisseur | % approximatif du corps vertébral |
+            | :--- | :---: | :---: |
+            | C1-C4 | 7 mm | 30 % |
+            | C5-C7 | 22 mm | 100 % |
+
         === "scoliose"
             ```
             Scoliose  mesurant ° entre  et .
@@ -586,6 +598,26 @@
             Pas de lésion post-traumatique récente.
             Parties molles sans particularité.
             ```
+            ```
+            A droite comme à gauche :
+            Respect des interlignes articulaires du carpe et des phalanges.
+            Pas d'érosion osseuse ni de lésion suspecte.
+            Pas de lésion post-traumatique récente.
+            Parties molles sans particularité.
+            ```
+            ```
+            A droite :
+            Respect des interlignes articulaires du carpe et des phalanges.
+            Pas d'érosion osseuse ni de lésion suspecte.
+            Pas de lésion post-traumatique récente.
+            Parties molles sans particularité.
+
+            A gauche :
+            Respect des interlignes articulaires du carpe et des phalanges.
+            Pas d'érosion osseuse ni de lésion suspecte.
+            Pas de lésion post-traumatique récente.
+            Parties molles sans particularité.
+            ```
 
             <figure markdown="span">
                 ![](assets/carpe.jpg){width="400"}  
@@ -621,6 +653,12 @@
             </figure>
         === "genou"
             ```
+            Pas de comblement du récessus sous-quadricipital.
+            Respect des interlignes fémoro-tibiaux et fémoro-patellaire.
+            Pas de lésion osseuse suspecte et parties molles sans particularité.
+            ```
+            ```
+            A droite comme à gauche :
             Pas de comblement du récessus sous-quadricipital.
             Respect des interlignes fémoro-tibiaux et fémoro-patellaire.
             Pas de lésion osseuse suspecte et parties molles sans particularité.
@@ -669,6 +707,13 @@
                 ![](assets/piedos.jpg){width="500"}  
                 Angle de Djian normal 115-135°
                 ![](assets/djian.jpg){width="500"}  
+            </figure>
+
+            ```
+            Angle au sommet de l'arche interne du pied mesurant ° traduisant un pied creux plat.
+            ```
+
+            <figure markdown="span">
                 Angles :
                 <div style="color:#ff3937;">hallux valgus M1-P1 > 15°</div>
                 <div style="color:#1bcffa;">métatarsus valgus M1-M2 > 10°</div>
@@ -787,10 +832,10 @@
             ```
             Acquisition hélicoïdale sur le thorax après injection au temps artériel.
 
-            Absence d'embolie pulmonaire jusqu'au niveau segmentaire.
+            Pas d'embolie pulmonaire jusqu'au niveau segmentaire.
             Absence de dilatation des cavités cardiaques droites.
             Pas d'adénomégalie ni d'épanchement pleuro-péricardique.
-            Pas de nodule suspect dans le parenchyme pulmonaire.
+            Pas de nodule ni de condensation dans le parenchyme pulmonaire.
             Coupes sous-diaphragmatiques sans particularité.
             Pas d'anomalie dans le cadre osseux.
             ``` 

@@ -1,7 +1,7 @@
 # Echo-Rx
 
 <figure markdown="span">
-    [Rx urg](https://univers-medecine.com/livres/fr/Lecture%20radiologique%20aux%20urgences.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [os accessoires](https://fr.wikipedia.org/wiki/Os_accessoire){:target="_blank"}
+    [os accessoires](https://fr.wikipedia.org/wiki/Os_accessoire){:target="_blank"}
 </figure> 
 
 === "boiterie fébrile"

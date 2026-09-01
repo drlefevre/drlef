@@ -152,7 +152,7 @@
         - IRM <u>restriction diffusion</u>, hypoT1, hyperT2 modéré (sauf TNE hyperT2 franc)
         - <u>Lavage PHB</u> /!\ sauf fibrose avec le Multihance (captation progressive, adk mucineux ++)
 
-        |  hypovasculaire | HYPERvasc ± sang  | kystiques |  
+        |  hypovasculaire | HYPERvasc ± sang  | hyperT2 |  
         | :----------: | :-------: | :-------: | 
         | CCR, pancréas | TNE, CCC, CMT, mélanome | TNE, adk mucineux | 
         | poumon, sein | sarcome, chorioK, GIST | sarcome, mélanome, VADS | 
