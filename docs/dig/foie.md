@@ -163,10 +163,10 @@
 
     !!! danger "[hémangioendothéliome épithélioïde](https://radiopaedia.org/articles/hepatic-epithelioid-hemangioendothelioma-1?lang=us){:target="_blank"} = 40a"
         - lésion vasculaire rare, malignité intermédiaire (métas poumon, os, rate)
-        - nodules périphériques rétractiles hypovasc avec PDC périph
-        - IRM aspect en cible, centre franc hyperT2 > périph, hyperdiff central
+        - nodules périphériques rétractiles hypovasc confluents avec PDC périph
+        - IRM aspect en cible, centre nécrotique en franc hyperT2 et Hdiff, lollipop sign
         <figure markdown="span">
-            ![](assets/hemangio.jpg){width="300"}
+            ![](assets/lollipop.jpg){width="450"}
         </figure>
 
 === "kystes"
@@ -182,8 +182,11 @@
         dilatation microkystique des glandes péribiliaires péri-hilaire ++
 
     !!! info "[kyste à revêtement cilié](https://radiopaedia.org/articles/ciliated-hepatic-foregut-cyst){:target="_blank"}"
-        - sous-capsulaire segment IV, < 4 cm, ± spontanément dense
-        - 4% transformation en carcinome épidermoïde => exérèse ++
+        - sous-capsulaire segment IV ± spontanément dense ou HT1 / niveau liquide-liquide
+        - risque de transformation en carcinome épidermoïde => exérèse ++
+        <figure markdown="span">
+            ![](assets/kystecil.jpg){width="300"}
+        </figure>
 
     !!! info "[cystadénome](https://radiopaedia.org/articles/biliary-cystadenoma){:target="_blank"} biliaire // femme d'âge moyen"
         - grand kyste multiloculaire, cloisons et parois épaisses
