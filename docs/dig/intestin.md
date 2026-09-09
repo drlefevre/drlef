@@ -130,3 +130,11 @@
     | T3 | envahissement péricolique | ![](assets/T3.jpg){width="200"} |
     | T4a | perfore le péritoine | ![](assets/T4a.jpg){width="200"} |
     | T4b | envahi un organe | ![](assets/T4b.jpg){width="200"} |
+
+    | [K rectal](https://radiologyassistant.nl/abdomen/rectum/rectal-cancer-mr-staging-1-1){:target="_blank"} | T2 | diff | pre/post RCT |
+    | :----------: | :-------: | :----------: | :----------: |
+    | `mrTRG 1` | fibrose complète hT2 | 0 | ![](assets/TRG1.jpg){width="500"} |
+    | `mrTRG 2` | fibrose hT2 >> HT2 | 0 | ![](assets/TRG2.jpg){width="500"} |
+    | `mrTRG 3` | fibrose hT2 > HT2 | ponctiforme | ![](assets/TRG3.jpg){width="500"} |
+    | `mrTRG 4` | tumeur HT2 > hT2 | ++ | ![](assets/TRG4.jpg){width="500"} |
+    | `mrTRG 5` | lésion demeure HT2 | +++ | ![](assets/TRG5.jpg){width="500"} |
