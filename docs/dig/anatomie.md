@@ -29,6 +29,19 @@
         - sur hypertrophie du ligament arqué médian = peut être sectionné au bloc
         - sur athérome = **CI ligature art. gastro-duodénale** (arcade de suppléance via l'AMS)
 
+=== "VB"
+
+    <figure markdown="span">
+        ![](assets/VBmodales.jpg){width="600"}  
+        ![](assets/VBvariantes.jpg){width="500"}
+        variantes : 20% trifurcation biliaire /  10% abouchement à G du post D / 2% **glissement du secteur post D**  
+        <br>
+        ![](assets/VBcystique.jpg){width="500"}
+        variantes d'**abouchement du cystique** : 1% proche de la convergence / 1% dans le post D / 5% sur le bord G  
+        <br>
+        ![](assets/VBhepcystique.jpg){width="500"}
+        5% **canal hépatocystique** / canal de Luschka (reliquat embrylogique, pas de communication)
+    </figure>
 
 === "Omentums"
 
