@@ -704,54 +704,57 @@ function fullReset() {
     **↗ taille significative** +2 mm dans 2 diam. / 50% en volume => [cytoponction](https://lamediatheque.radiologie.fr/mediatheque/media.aspx?mediaId=2896&channel=3277){:target="_blank"}
 </figure>
 
-=== "Basedow"
-    - goitre hypoéchogène **homogène**, Ac anti-récepteur de la TSH (TRAK)
-    - hypervascularisation intense **> 1 m/s** ("thyroid inferno" > 50% parenchyme)
-    - récidive : plus hétérogène et moins vascularisé
-    <figure markdown="span">
-        ![](assets/Basedow.jpg){width="500"}
-    </figure>
-=== "Hashimoto"
-    - goitre hypoéchogène **micronodulaire**, Ac anti-TPO +/- anti-Tg
-    - hypervascularisation modérée **< 1 m/s**
-    - suivi/an, travées fibreuses hyperécho, /!\ lymphome/cancer
-    <figure markdown="span">
-        ![](assets/Hashimoto.jpg){width="500"}
-    </figure>
-=== "De Quervain"
-    - contexte viral, douloureux
-    - plage hypoéchogène antéro-externe mal limitée peu vascularisée
-    - contrôle à M3 si pseudonodulaire
-    <figure markdown="span">
-        ![](assets/Quervain.jpg){width="500"}
-    </figure>
-=== "Hyperpara"
-    - 80% [adénome](https://radiopaedia.org/articles/parathyroid-adenoma){:target="_blank"} parathyroïdien > 15% hyperplasie > 5% carcinome
-    - nodule hypoéchogène homogène > 1 cm + vascularisation
-    - à confronter à scintigraphie MIBI / TEP choline
-    <figure markdown="span">
-        ![](assets/hyperpara.jpg){width="500"}
-    </figure>
+=== "thyroïdites"
 
-```
-Thyroïde de petite taille, siège de ponctuations hypoéchogènes disséminées, sans hypervascularisation ni nodule suspect, compatible avec une thyroïdite ancienne ou peu active.
-```
+    === "Basedow"
+        - goitre hypoéchogène **homogène**, Ac anti-récepteur de la TSH (TRAK)
+        - hypervascularisation intense **> 1 m/s** ("thyroid inferno" > 50% parenchyme)
+        - récidive : plus hétérogène et moins vascularisé
+        <figure markdown="span">
+            ![](assets/Basedow.jpg){width="500"}
+        </figure>
+    === "Hashimoto"
+        - goitre hypoéchogène **micronodulaire**, Ac anti-TPO +/- anti-Tg
+        - hypervascularisation modérée **< 1 m/s**
+        - suivi/an, travées fibreuses hyperécho, /!\ lymphome/cancer
+        <figure markdown="span">
+            ![](assets/Hashimoto.jpg){width="500"}
+        </figure>
+    === "De Quervain"
+        - contexte viral, douloureux
+        - plage hypoéchogène antéro-externe mal limitée peu vascularisée
+        - contrôle à M3 si pseudonodulaire
+        <figure markdown="span">
+            ![](assets/Quervain.jpg){width="500"}
+        </figure>
 
-| Bethesda | Signification | CAT |
-| :---: | :---: | :---: | 
-| I | prélèvement non contributif | refaire des ponctions |
-| II | bénin | surveillance à 1 an|
-| III | indéterminé | surveillance à M6 ± ponctions |
-| IV | tumeur vésiculaire ou oncocytaire | avis endoc (20% de cancer) |
-| V et VI | suspect d'être malin et malin | chirurgie |
+    ```
+    Thyroïde de petite taille, siège de ponctuations hypoéchogènes disséminées, sans hypervascularisation ni nodule suspect, compatible avec une thyroïdite ancienne ou peu active.
+    ```
 
-```
-Suivi après thyroïdectomie totale.
+=== "cytoponction"
 
-Vacuité de la loge thyroïde, sans lésion adjacente.
-Absence de ganglion cervical antérieur pathologique.
-Perméabilité des vaisseaux jugulo-carotidiens.
-Glandes sub-mandibulaires sans anomalie.
+    ```
+    Repérage échographique retrouvant le nodule thyroïdien.
+    Désinfection cutané à la Biseptine et protection de la sonde.
+    Réalisation de 3 ponctions par capillarité via des aiguilles 27G.
+    Prélèvements adressés au laboratoire dans une solution de conservation.
+    Pas de complication au cours ni au décours du geste.
+    ```
 
-Absence de lésion suspecte de récidive néoplasique.
-```
+    | Bethesda | Signification | CAT |
+    | :---: | :---: | :---: | 
+    | I | prélèvement non contributif | refaire des ponctions |
+    | II | bénin | surveillance à 1 an|
+    | III | indéterminé | surveillance à M6 ± ponctions |
+    | IV | tumeur vésiculaire ou oncocytaire | avis endoc (20% de cancer) |
+    | V et VI | suspect d'être malin et malin | chirurgie |
+
+=== "suivi post-thyroïdectomie"
+
+    ```
+    Vacuité de la loge thyroïde, sans lésion adjacente.
+    Absence de ganglion cervical antérieur pathologique.
+    Perméabilité des vaisseaux jugulo-carotidiens.
+    Glandes sub-mandibulaires sans anomalie.
+    ```

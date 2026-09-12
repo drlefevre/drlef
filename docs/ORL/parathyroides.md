@@ -1,6 +1,9 @@
 # [Adénome parathyroïdien](https://radiopaedia.org/articles/parathyroid-adenoma){:target="_blank"}
 
 <figure markdown="span">
+    nodule hypoéchogène homogène > 1 cm + vascularisation  
+    80% [adénome](https://radiopaedia.org/articles/parathyroid-adenoma){:target="_blank"} parathyroïdien > 15% hyperplasie > 5% carcinome  
+    <br>
     ![](assets/parathyr.jpg){width="600"}
 
     scintigraphie MIBI < TEP choline  
