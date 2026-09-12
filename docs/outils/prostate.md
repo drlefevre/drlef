@@ -114,7 +114,7 @@ Pas d'adénopathie pelvienne significative.</textarea>
 /* --- Style Global --- */
 .box {
   margin: 1rem 0 2rem;
-  padding: 1rem 1rem 1.5rem;
+  padding: 1rem;
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: .75rem;
   background: var(--md-default-bg-color);

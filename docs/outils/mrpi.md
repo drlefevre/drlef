@@ -6,7 +6,7 @@
 
 <div class="box md-typeset" id="mrpi-box">
   <form onsubmit="return false;" oninput="mrpiCompute()">
-    <div class="pairs" style="margin-top:.4rem">
+    <div class="pairs">
       <div class="pair">
         <input id="mrpi-pons" type="text" inputmode="decimal" placeholder="Surface du pont (mm²)" />
         <input id="mrpi-midbrain" type="text" inputmode="decimal" placeholder="Surface du mésencéphale (mm²)" />
@@ -20,15 +20,13 @@
     <div class="results">
       <div class="result wide">
         <div class="value" id="mrpi-phrase">—</div>
-        <div class="copy-row">
-          <button type="button" class="copy" id="mrpi-copy" disabled>Copier</button>
-          <span class="copied" id="mrpi-copied" aria-live="polite"></span>
-        </div>
       </div>
     </div>
 
     <div class="actions">
+      <button type="button" class="copy" id="mrpi-copy" disabled>Copier</button>
       <button type="button" class="clear" onclick="mrpiClear()">Effacer</button>
+      <span class="copied" id="mrpi-copied" aria-live="polite"></span>
     </div>
   </form>
 </div>
@@ -110,7 +108,7 @@ mrpiCompute();
 <style>
 .box {
   margin: 1rem 0 2rem;
-  padding: 1rem 1rem .5rem;
+  padding: 1rem;
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: .75rem;
   background: var(--md-default-bg-color);
@@ -124,9 +122,19 @@ mrpiCompute();
   border-radius: .5rem;
   background: var(--md-code-bg-color);
   font-size: .8rem;
+  text-align: center;
 }
 .result.wide { grid-column: 1 / -1; }
-.copy-row { display:flex; align-items:center; gap:.6rem; margin-top:.35rem; }
+.result.wide .value { text-align: center; }
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 14rem;
+  margin: .5rem auto 0;
+  gap: .6rem;
+}
 .copy { border:1px solid var(--md-default-fg-color--lighter); background:transparent; border-radius:.5rem; padding:.35rem .7rem; cursor:pointer; }
+.copy:disabled { cursor:not-allowed; opacity:.6; }
 .copied { font-size:.8rem; opacity:.8; }
 </style>

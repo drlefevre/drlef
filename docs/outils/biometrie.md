@@ -76,7 +76,7 @@
 /* Base identique à l’outil Fleischner */
 .calc-mini{
   max-width:920px; margin:1rem auto 1rem;
-  padding:1rem 1rem .75rem;
+  padding:1rem;
   border:1px solid var(--md-default-fg-color--lightest);
   border-radius:.9rem; background:var(--md-default-bg-color);
   text-align:center;
@@ -94,8 +94,7 @@
 .box{
   margin-top:.7rem; margin-bottom:0;
   border:1px dashed var(--md-default-fg-color--lighter);
-  border-radius:.7rem; padding:.6rem .9rem;
-  padding-top:.45rem;
+  border-radius:.7rem; padding:1rem;
 }
 
 /* Deux tableaux côte à côte */

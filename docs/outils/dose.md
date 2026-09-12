@@ -46,7 +46,9 @@
     </div>
 
     <div class="actions">
+      <button type="button" class="copy" id="uni-copy" disabled>Copier</button>
       <button type="button" class="clear" id="uni-clear">Effacer</button>
+      <span class="copied" id="uni-copied" aria-live="polite"></span>
     </div>
   </form>
 </div>
@@ -97,6 +99,35 @@
 
     $('#uni-dose').textContent    = Number.isFinite(E) ? fmtAdaptive(E, 2) : '—';
     $('#uni-natural').textContent = Number.isFinite(E) ? fmtAdaptive(E / NATURAL_ANNUAL_MSV, 2) : '—';
+    $('#uni-copy').disabled = !Number.isFinite(E);
+  }
+
+  function showCopied(){
+    const msg = $('#uni-copied');
+    msg.textContent = 'Copié ✓';
+    window.setTimeout(() => { msg.textContent = ''; }, 1500);
+  }
+
+  function fallbackCopy(text){
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand('copy'); } catch (e) {}
+    document.body.removeChild(ta);
+    showCopied();
+  }
+
+  function copyDose(){
+    const dose = $('#uni-dose').textContent.trim();
+    const natural = $('#uni-natural').textContent.trim();
+    if (dose === '—' || natural === '—') return;
+    const text = `Dose efficace estimée à ${dose} mSv, soit ${natural} années d’exposition naturelle.`;
+    if (navigator.clipboard?.writeText) {
+      navigator.clipboard.writeText(text).then(showCopied, () => fallbackCopy(text));
+    } else {
+      fallbackCopy(text);
+    }
   }
 
   function setModeUI(mode){
@@ -117,6 +148,7 @@
   $('#uni-stage').addEventListener('change', compute);
   $('#uni-mode').addEventListener('change', e => setModeUI(e.target.value));
   $('#uni-value').addEventListener('input', compute);
+  $('#uni-copy').addEventListener('click', copyDose);
   $('#uni-clear').addEventListener('click', () => {
     $('#uni-stage').value = 'tap';
     setModeUI('dlp');
@@ -133,7 +165,7 @@
 <style>
 .box {
   margin: 1rem 0 2rem;
-  padding: 1rem 1rem .75rem;
+  padding: 1rem;
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: .9rem;
   background: var(--md-default-bg-color);
@@ -156,15 +188,38 @@
   padding: 0 .65rem;
   font-size: .8rem;
   line-height: 1.2;
+  text-align: center;
+}
+#ct-dose-unified select {
+  text-align-last: center;
+}
+#ct-dose-unified .result .title,
+#ct-dose-unified .result .value {
+  text-align: center;
+}
+#ct-dose-unified .actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 14rem;
+  margin: .5rem auto 0;
+  gap: .6rem;
+}
+#ct-dose-unified .copy:disabled {
+  cursor: not-allowed;
+  opacity: .6;
+}
+#ct-dose-unified .copied {
+  font-size: .8rem;
+  opacity: .8;
 }
 </style>
 
 <figure markdown="span">
   [Seuil de survenue d’un excès de cancer](https://pmc.ncbi.nlm.nih.gov/articles/PMC283495/pdf/10013761.pdf){:target="_blank"} :  
   10-50 mSv exposition aiguë / 50-100 mSv exposition cumulée
+  <br>
 </figure>
-
-</br>
 
 |  [Dose reçue à l'utérus en TDM](https://onclepaul.fr/wp-content/uploads/2011/07/La-femme-enceinte-en-imagerie-pire-angoisse-du-radiologue-New-JFR-2020.pdf){:target="_blank"}| mGy |
 | :----------: | :-------: |

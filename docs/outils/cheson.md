@@ -27,15 +27,13 @@
       <div class="result wide">
         <div class="title">Interprétation</div>
         <div class="value" id="cheson-phrase">—</div>
-        <div class="copy-row">
-          <button type="button" class="copy" id="cheson-copy" disabled>Copier</button>
-          <span class="copied" id="cheson-copied" aria-live="polite"></span>
-        </div>
       </div>
     </div>
 
     <div class="actions">
+      <button type="button" class="copy" id="cheson-copy" disabled>Copier</button>
       <button type="button" class="clear" onclick="chesonClear()">Effacer</button>
+      <span class="copied" id="cheson-copied" aria-live="polite"></span>
     </div>
   </form>
 </div>
@@ -160,7 +158,7 @@ chesonCompute();
 <style>
 .box {
   margin: 1rem 0 2rem;
-  padding: 1rem 1rem .5rem;
+  padding: 1rem;
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: .75rem;
   background: var(--md-default-bg-color);
@@ -175,18 +173,21 @@ chesonCompute();
   border-radius: .5rem;
   background: var(--md-code-bg-color);
   font-size: .8rem;
+  text-align: center;
 }
 .results {
-  display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  display:grid; grid-template-columns: repeat(2, minmax(0, 1fr));
   gap:.75rem; margin:.6rem 0 .6rem;
 }
 .result { border:1px dashed var(--md-default-fg-color--lighter); border-radius:.5rem; padding:.6rem .8rem; }
 .result.wide { grid-column: 1 / -1; }
+.result .title { text-align:center; }
 .result .value { font-size:.8rem; line-height:1.35; margin-top:.3rem; }
-.copy-row { display:flex; align-items:center; gap:.6rem; margin-top:.35rem; }
+.result .value { text-align:center; }
 .copy { border:1px solid var(--md-default-fg-color--lighter); background:transparent; border-radius:.5rem; padding:.35rem .7rem; cursor:pointer; }
+.copy:disabled { cursor:not-allowed; opacity:.6; }
 .copied { font-size:.8rem; opacity:.8; }
-.actions { margin:.25rem 0 .5rem; display:flex; align-items:center; gap:.75rem; flex-wrap:wrap; }
+.actions { margin:.5rem auto 0; display:flex; justify-content:center; align-items:center; gap:.6rem; flex-wrap:wrap; max-width:14rem; }
 .actions button { font-size:.8rem; border:1px solid var(--md-default-fg-color--lighter); background:transparent; border-radius:.5rem; padding:.4rem .7rem; cursor:pointer; }
 .note { display:inline-block; margin-top:.25rem; opacity:.85; font-style: italic; }
 </style>

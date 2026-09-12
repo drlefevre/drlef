@@ -4,7 +4,7 @@
     ![](assets/nascet.jpg){width="250"}
 </figure>
 
-<div class="box md-typeset">
+<div class="box md-typeset" id="nascet-box">
   <form onsubmit="return false;">
     <div class="row2">
         <input id="a" type="text" inputmode="decimal" placeholder="A" />
@@ -22,6 +22,28 @@
     </div>
   </form>
 </div>
+
+<style>
+.box {
+  padding: 1rem;
+}
+
+#nascet-box input {
+  text-align: center;
+}
+
+#nascet-box .result .value {
+  text-align: center;
+}
+
+#nascet-box .actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 14rem;
+  margin: .5rem auto 0;
+}
+</style>
 
 <script>
 (function () {

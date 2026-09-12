@@ -33,15 +33,13 @@
     <div class="sentence-block">
       <div class="result wide">
         <div class="value" id="lambert-sentence">Volumes testiculaires estimés selon la formule de Lambert à — cc à droite et à — cc à gauche (normal entre 12 et 20 cc).</div>
-        <div class="copy-row">
-          <button id="copy-lambert-btn" type="button" class="copy" onclick="copyLambertSentence()" disabled>Copier</button>
-          <span class="copied" id="lambert-copied" aria-live="polite"></span>
-        </div>
       </div>
     </div>
 
     <div class="actions">
+      <button id="copy-lambert-btn" type="button" class="copy" onclick="copyLambertSentence()" disabled>Copier</button>
       <button type="button" class="clear" onclick="clearLambertVolumes()">Effacer</button>
+      <span class="copied" id="lambert-copied" aria-live="polite"></span>
     </div>
   </form>
 </div>
@@ -72,6 +70,10 @@
 </div>
 
 <style>
+  .box {
+    padding: 1rem;
+  }
+
   .row3 {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -94,6 +96,11 @@
 
   .group-title {
     font-weight: 600;
+    text-align: center;
+  }
+
+  .box input {
+    text-align: center;
   }
 
   .results {
@@ -113,6 +120,11 @@
     font-size: 0.8rem;
     line-height: 1.35;
     margin-top: 0.3rem;
+    text-align: center;
+  }
+
+  .result .title {
+    text-align: center;
   }
 
   .sentence-block {
@@ -121,13 +133,6 @@
 
   .result.wide {
     grid-column: 1 / -1;
-  }
-
-  .copy-row {
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-    margin-top: 0.35rem;
   }
 
   .copy {
@@ -150,11 +155,13 @@
   }
 
   .actions {
-    margin: 0.45rem 0 0.35rem;
+    margin: 0.5rem auto 0;
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 0.75rem;
+    gap: 0.6rem;
     flex-wrap: wrap;
+    max-width: 14rem;
   }
 
   .actions button {

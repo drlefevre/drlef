@@ -21,10 +21,11 @@
 
     <div class="box">
       <div class="value" id="rec">—</div>
-      <div class="copy-row">
-        <button class="copy" type="button" id="copyBtn" disabled>Copier</button>
-        <span class="copied" id="copiedMsg" aria-live="polite"></span>
-      </div>
+    </div>
+
+    <div class="copy-row">
+      <button class="copy" type="button" id="copyBtn" disabled>Copier</button>
+      <span class="copied" id="copiedMsg" aria-live="polite"></span>
     </div>
   </form>
 </div>
@@ -43,12 +44,15 @@
   border:1px solid var(--md-default-fg-color--lighter);
   border-radius:.7rem; background: var(--md-code-bg-color);
   font-size: .8rem;
+  text-align: center;
 }
 
 .box { margin-top:.7rem; margin-bottom: 0; border:1px dashed var(--md-default-fg-color--lighter); border-radius:.7rem; padding:.75rem .9rem; }
+.box .value { text-align:center; }
 
-.copy-row { display:flex; align-items:center; gap:.75rem; margin-top:.5rem; }
+.copy-row { display:flex; justify-content:center; align-items:center; gap:.75rem; max-width:14rem; margin:.5rem auto 0; }
 .copy { border:1px solid var(--md-default-fg-color--lighter); background:transparent; border-radius:.6rem; padding:.35rem .7rem; cursor:pointer; }
+.copy:disabled { cursor:not-allowed; opacity:.6; }
 .copied { font-size:.8rem; opacity:.8; }
 
 </style>

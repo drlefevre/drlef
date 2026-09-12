@@ -60,6 +60,10 @@
 </div>
 
 <style>
+	.box {
+		padding: 1rem;
+	}
+
 	.actions { 
 		margin: 0.45rem 0 0.35rem; 
 	}
