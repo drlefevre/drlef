@@ -835,7 +835,7 @@
             Pas d'embolie pulmonaire jusqu'au niveau segmentaire.
             Absence de dilatation des cavités cardiaques droites.
             Pas d'adénomégalie ni d'épanchement pleuro-péricardique.
-            Pas de nodule ni de condensation dans le parenchyme pulmonaire.
+            Pas de condensation dans le parenchyme pulmonaire.
             Coupes sous-diaphragmatiques sans particularité.
             Pas d'anomalie dans le cadre osseux.
             ``` 
@@ -849,8 +849,7 @@
             Perméabilité des vaisseaux mésentériques et hépatiques.
             Pas d'adénomégalie coeliomésentérique, rétropéritonéale ni pelvienne.
             Surrénales, reins, foie, vésicule, pancréas et rate sans particularité.
-            Pas de lésion significative dans les bases pulmonaires.
-            Pas d'anomalie dans le cadre osseux.
+            Bases pulmonaires et cadre osseux sans lésion significative.
             ```   
 
         === "jeune"
@@ -861,8 +860,7 @@
             Perméabilité des vaisseaux mésentériques et hépatiques.
             Pas d'adénomégalie coeliomésentérique, rétropéritonéale ni pelvienne.
             Surrénales, reins, foie, vésicule, pancréas et rate sans particularité.
-            Pas de lésion significative dans les bases pulmonaires.
-            Pas d'anomalie dans le cadre osseux.
+            Bases pulmonaires et cadre osseux sans lésion significative.
             ```  
 
         === "sans"
@@ -874,8 +872,7 @@
             Reins de taille et de morphologie normales.
             Pas d'épanchement péritonéal ni d'adénomégalie.
             Surrénales, foie, vésicule, pancréas et rate sans particularité.
-            Pas de lésion significative dans les bases pulmonaires.
-            Pas d'anomalie dans le cadre osseux.
+            Bases pulmonaires et cadre osseux sans lésion significative.
             ```
 
         === "F3"
@@ -891,8 +888,7 @@
             Absence d'épanchement péritonéal.
             Pas d'adénomégalie coeliomésentérique, rétropéritonéale ni pelvienne.
             Surrénales, reins, foie et rate sans particularité.
-            Pas de lésion significative dans les bases pulmonaires.
-            Pas d'anomalie dans le cadre osseux.
+            Bases pulmonaires et cadre osseux sans lésion significative.
             ``` 
 
         === "F4"
@@ -908,8 +904,7 @@
             Vésicule biliaire d'aspect normal. Pas de dilatation des voies biliaires.
             Pas d'adénomégalie coeliomésentérique, rétropéritonéale ni pelvienne.
             Surrénales, reins, pancréas et rate sans particularité.
-            Pas de lésion significative dans les bases pulmonaires.
-            Pas d'anomalie dans le cadre osseux.
+            Bases pulmonaires et cadre osseux sans lésion significative.
             ```
 
         === "uroTDM"

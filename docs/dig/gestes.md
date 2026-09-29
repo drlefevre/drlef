@@ -7,39 +7,78 @@
 
 === "drainage"
     ```
+    DRAINAGE SOUS CONTROLE TDM
+
+    INDICATION
+
+    TECHNIQUE
     Information du patient et recueil du consentement.
     Repérage scanographique de la voie d'abord.
     Asepsie rigoureuse et champ stérile.
-    Anesthésie du trajet de ponction à la xylocaïne, sous contrôle TDM.
+    Anesthésie du trajet de ponction à la xylocaïne.
     Ponction de la collection à l'aiguille fine avec retour de liquide purulent.
     Prélèvement dans un pot remis au patient, à adresser au laboratoire.
     Mise en place d'une guide métallique puis dilatation progressive du trajet.
     Positionnement d'un drain de 14 Fr avec vérification scanographique.
     Deux points de suture à la peau sécurisant le drain.
     
+    CONCLUSION
     Mise en place d'un drain dans la collection techniquement satisfaisante.
-    Surveillance clinico-biologique et du débit du drain recommandée.
-    Contrôle radiologique à discuter selon l'évolution.
+    ```  
+
+=== "drainage VB"
+    ```
+    DRAINAGE VESICULAIRE SOUS CONTROLE TDM
+
+    INDICATION
+
+    TECHNIQUE
+    Information du patient et recueil du consentement.
+    Repérage scanographique de la voie d'abord.
+    Asepsie rigoureuse et champ stérile.
+    Anesthésie du trajet de ponction à la xylocaïne.
+    Ponction de la collection à l'aiguille fine avec retour de liquide couleur chocolat.
+    Mise en place d'une guide métallique puis dilatation progressive du trajet.
+    Positionnement d'un drain de 8 Fr avec vérification scanographique.
+    Prélèvement dans un pot à adresser au laboratoire.
+    Deux points de suture à la peau sécurisant le drain.
+    
+    CONCLUSION
+    Mise en place d'un drain dans la vésicule techniquement satisfaisante.
     ```
 
     <figure markdown="span">
-        /!\ 8 Fr s'il faut traverser le parenchyme hépatique
+        /!\ 8 Fr car il faut traverser le parenchyme hépatique  
+        + sous couverture ATB car risque de décharge septique
     </figure>    
 
 === "ponction"
     ```
+    PONCTION SOUS CONTROLE TDM
+
+    INDICATION
+
+
+    TECHNIQUE
     Information du patient et recueil du consentement.
     Repérage scanographique de la voie d'abord.
     Asepsie rigoureuse et champ stérile.
-    Anesthésie du trajet de ponction à la xylocaïne, sous contrôle TDM.
+    Anesthésie du trajet de ponction à la xylocaïne.
     Ponction de la collection à l'aiguille fine avec retour de liquide purulent.
     Prélèvement dans un pot remis au patient, à adresser au laboratoire.
     
+    CONCLUSION
     Ponction techniquement satisfaisante.
     ```
 
 === "PBH/BHD"
     ```
+    PONCTION-BIOPSIE HEPATIQUE
+
+    INDICATION
+
+
+    TECHNIQUE
     Information du patient et vérification de l’hémostase.
     Repérage échographique.
     Asepsie rigoureuse et champ stérile.
@@ -48,10 +87,17 @@
     Prélèvement dans un pot formolé adressé au laboratoire d'anatomopathologie.
     Absence de complication immédiate lors du contrôle échographique.
 
-    Ponction biopsie hépatique techniquement satisfaisante.
+    CONCLUSION
+    Ponction-biopsie hépatique techniquement satisfaisante.
     Le patient doit rester 4 heures allongé sur le côté droit puis 2 heures sur le dos.
     ```
     ```
+    BIOPSIE HEPATIQUE DIRIGEE
+
+    INDICATION
+
+
+    TECHNIQUE
     Information du patient et vérification de l’hémostase.
     Repérage de la cible mesurant  mm dans le segment .
     Asepsie rigoureuse et champ stérile.
@@ -61,6 +107,7 @@
     Prélèvements dans deux pots formolés adressés au laboratoire d'anatomopathologie.
     Absence de complication immédiate lors du contrôle échographique.
 
+    CONCLUSION
     Biopsie hépatique dirigée techniquement satisfaisante.
     Le patient doit rester 4 heures allongé sur le côté droit puis 2 heures sur le dos.
     ```
@@ -73,6 +120,12 @@
 
 === "biopsie ganglionnaire"
     ```title="classique"
+    BIOPSIE GANGLIONNAIRE
+
+    INDICATION
+
+
+    TECHNIQUE
     Repérage échographique d’un ganglion mesurant  mm.
     Aspect hypoéchogène arrondi avec hile effacé, sans composante nécrotique. 
     Absence d’interposition vasculaire significative au Doppler.
@@ -81,9 +134,16 @@
     Prélèvements dans un pot formolé adressé au laboratoire d'anatomopathologie.
     Absence de complication immédiate lors du contrôle échographique.
 
+    CONCLUSION
     Biopsie ganglionnaire techniquement satisfaisante.
     ```
     ```title="lymphome"
+    BIOPSIE GANGLIONNAIRE
+
+    INDICATION
+
+
+    TECHNIQUE
     Repérage échographique d’un ganglion mesurant  mm.
     Aspect hypoéchogène arrondi avec hile effacé, sans composante nécrotique. 
     Absence d’interposition vasculaire significative au Doppler.
@@ -92,11 +152,18 @@
     Prélèvements dans un pot adressé au laboratoire d'anatomopathologie.
     Absence de complication immédiate lors du contrôle échographique.
 
+    CONCLUSION
     Biopsie ganglionnaire techniquement satisfaisante.
     ```
 
 === "pyélostomie"
     ```
+    MISE EN PLACE DE PYELOSTOMIE
+
+    INDICATION
+
+
+    TECHNIQUE
     Patient installé en décubitus ventral.
     Répérage échographique retrouvant une dilatation modérée des cavités pyélocalicielles.
     Sous asepsie stricte, anesthésie des plans cutané et sous-cutané à la Xylocaïne.
@@ -105,10 +172,19 @@
     Montée d'un guide et dilatation du trajet.
     Mise en place d'une sonde 8 French lockée dans le bassinet.
     Fixation à la peau par deux fils non résorbables.
+
+    CONCLUSION
+    Pyélostomie en place, sans complication.
     ```
 
 === "gastrostomie"
     ```
+    MISE EN PLACE DE GASTROSTOMIE
+
+    INDICATION
+
+
+    TECHNIQUE
     Information du patient sur le geste et les complications potentielles.
     Repérage échographique du bord gauche du foie.
     Insufflation de l'estomac par la sonde naso-gastrique.
@@ -116,9 +192,10 @@
     Mise en place d'une sonde 16 French dans l'estomac.
     Contrôle scopique de la position satisfaisant.
 
-    Cette sonde pourra être utilisée pour l'alimentation liquide dans 12 heures.
-    Attendre 24 heures pour l'alimentation totale.
+    CONCLUSION
+    Sonde de gastrostomie en place, sans complication.
+    Elle pourra être utilisée pour l'alimentation liquide dans 12 heures et dans 24 heures pour l'alimentation complète.
 
-    Les 3 points d'ancrage tomberont spontanément.
-    Si la sonde doit rester en place plus de 8 semaines, on pourra la remplacement par un bouton.
+    Les 3 points d'ancrage tomberont de la gatropexie spontanément.
+    Si la sonde doit rester en place plus de 8 semaines, on pourra la remplacer par un bouton.
     ```
