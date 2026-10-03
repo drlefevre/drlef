@@ -100,8 +100,18 @@ theme:
   custom_dir: overrides
   language: fr
   palette:
-    primary: grey
-    accent: grey
+    - scheme: default
+      primary: grey
+      accent: grey
+      toggle:
+        icon: material/weather-night
+        name: Mode sombre
+    - scheme: slate
+      primary: grey
+      accent: grey
+      toggle:
+        icon: material/weather-sunny
+        name: Mode clair
   features:
     - content.code.copy
     - toc.integrate
