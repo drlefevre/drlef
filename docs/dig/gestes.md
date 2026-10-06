@@ -11,6 +11,7 @@
 
     INDICATION
 
+
     TECHNIQUE
     Information du patient et recueil du consentement.
     Repérage scanographique de la voie d'abord.
@@ -31,6 +32,7 @@
     DRAINAGE VESICULAIRE SOUS CONTROLE TDM
 
     INDICATION
+
 
     TECHNIQUE
     Information du patient et recueil du consentement.

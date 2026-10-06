@@ -1,6 +1,6 @@
 # Accueil
 
-<p style="text-align: center"><a href="https://www.imaios.com/fr/login"target="_blank">imaios</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://radiopaedia.org/"target="_blank">radiopaedia</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.radrap.ch/comptesrendus"target="_blank">CR types</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://radref.org/ref.php"target="_blank">radref</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://fr.wikipedia.org/wiki/Os_accessoire"target="_blank">os accessoires</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.ccam-radiologie.fr/echographie-abdomen-pelvis/"target="_blank">ccam</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://aderim.radiologie.fr/"target="_blank">aderim</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.imaios.com/fr/e-mri/sequences/sequences-acronymes"target="_blank">acronymes IRM</a></p>
+<p style="text-align: center"><a href="https://www.imaios.com/fr/login"target="_blank">imaios</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://radiopaedia.org/"target="_blank">radiopaedia</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.radrap.ch/comptesrendus"target="_blank">CR types</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://radref.org/ref.php"target="_blank">radref</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://fr.wikipedia.org/wiki/Os_accessoire"target="_blank">os accessoires</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.ccam-radiologie.fr"target="_blank">ccam</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://aderim.radiologie.fr/"target="_blank">aderim</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.imaios.com/fr/e-mri/sequences/sequences-acronymes"target="_blank">acronymes IRM</a></p>
 
 === "Abdo"
     === "H"
@@ -848,7 +848,7 @@
             Absence d'épanchement péritonéal.
             Perméabilité des vaisseaux mésentériques et hépatiques.
             Pas d'adénomégalie coeliomésentérique, rétropéritonéale ni pelvienne.
-            Surrénales, reins, foie, vésicule, pancréas et rate sans particularité.
+            Foie, vésicule, surrénales, reins, pancréas et rate sans particularité.
             Bases pulmonaires et cadre osseux sans lésion significative.
             ```   
 
@@ -859,7 +859,7 @@
             Absence d'épanchement péritonéal.
             Perméabilité des vaisseaux mésentériques et hépatiques.
             Pas d'adénomégalie coeliomésentérique, rétropéritonéale ni pelvienne.
-            Surrénales, reins, foie, vésicule, pancréas et rate sans particularité.
+            Foie, vésicule, surrénales, reins, pancréas et rate sans particularité.
             Bases pulmonaires et cadre osseux sans lésion significative.
             ```  
 
@@ -871,7 +871,7 @@
             Absence d'image lithiasique urinaire.
             Reins de taille et de morphologie normales.
             Pas d'épanchement péritonéal ni d'adénomégalie.
-            Surrénales, foie, vésicule, pancréas et rate sans particularité.
+            Foie, vésicule, surrénales, pancréas et rate sans particularité.
             Bases pulmonaires et cadre osseux sans lésion significative.
             ```
 
@@ -887,7 +887,7 @@
             Perméabilité des vaisseaux mésentériques et hépatiques.
             Absence d'épanchement péritonéal.
             Pas d'adénomégalie coeliomésentérique, rétropéritonéale ni pelvienne.
-            Surrénales, reins, foie et rate sans particularité.
+            Foie, vésicule, surrénales, reins et rate sans particularité.
             Bases pulmonaires et cadre osseux sans lésion significative.
             ``` 
 
@@ -958,7 +958,7 @@
 
         Par ailleurs :
         Pas d'épanchement péritonéal ni d'adénomégalie.
-        Surrénales, foie, vésicule, pancréas et rate sans particularité.
+        Surrénales, reins, foie, vésicule, pancréas et rate sans particularité.
         Troubles ventilatoires banals dans les bases pulmonaires.
         Pas d'anomalie dans le cadre osseux.
         ```
