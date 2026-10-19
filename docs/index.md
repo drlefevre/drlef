@@ -323,7 +323,7 @@
         <figure markdown="span">
             ![](assets/testis.jpg){width="800"}
             12-20 cc (1-2 cc ≤ 12 ans) → formule de Lambert = cm³ x 0,71  
-            [Pathos](https://onclepaul.net/wp-content/uploads/2011/07/DU-TESTICULE-2011-AGFILEminimizer.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Tumeur adénomatoïde](https://radiopaedia.org/articles/adenomatoid-tumours-of-the-scrotum){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Ectasie tubulaire du rete testis](https://radiopaedia.org/articles/tubular-ectasia-of-rete-testis){:target="_blank"}  
+            [Pathos](https://onclepaul.net/wp-content/uploads/2011/07/DU-TESTICULE-2011-AGFILEminimizer.pdf){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Spermatocèle](https://radiopaedia.org/articles/spermatocele-1){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Tumeur adénomatoïde](https://radiopaedia.org/articles/adenomatoid-tumours-of-the-scrotum){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Ectasie tubulaire du rete testis](https://radiopaedia.org/articles/tubular-ectasia-of-rete-testis){:target="_blank"}  
             </br>
             ![](assets/enveloppestesti.jpg){width="470"}
             [enveloppes testiculaires](https://anatomie-fmpm.uca.ma/wp-content/uploads/2020/07/testicules-et-voies-spermatiques.pdf){:target="_blank"} = albuginée < vaginale < fascias spermatiques  
@@ -504,6 +504,13 @@
             ``` 
 
     === "rachis"
+        === "RLB jeune"
+            ```
+            Pas de pincement des espaces intersomatiques.
+            Respect de la hauteur et bon alignement des corps vertébraux.
+            Aspect normal des interlignes articulaires sacro-iliaques et coxo-fémorales.
+            Pas de lésion osseuse suspecte et parties molles sans particularité.
+            ``` 
         === "RLB vieux"
             ```
             Respect de la hauteur et bon alignement des corps vertébraux.
@@ -511,13 +518,6 @@
             Arthrose articulaire postérieure prédominant aux derniers étages lombaires.
             Pas de remaniement dégénératif significatif des articulations coxo-fémorales.
             Aspect normal des interlignes articulaires sacro-iliaques.
-            Pas de lésion osseuse suspecte et parties molles sans particularité.
-            ``` 
-        === "RLB jeune"
-            ```
-            Pas de pincement des espaces intersomatiques.
-            Respect de la hauteur et bon alignement des corps vertébraux.
-            Aspect normal des interlignes articulaires sacro-iliaques et coxo-fémorales.
             Pas de lésion osseuse suspecte et parties molles sans particularité.
             ``` 
         === "RACE jeune"
@@ -547,7 +547,38 @@
             | :--- | :---: | :---: |
             | C1-C4 | 7 mm | 30 % |
             | C5-C7 | 22 mm | 100 % |
-
+            
+        === "RATO jeune"
+            ```
+            Concernant le rachis cervical :
+            Lordose cervicale conservée.
+            Bon alignement des corps vertébraux.
+            Pas de pincement des espaces intersomatiques.
+            Pas de sténose osseuse des foramens intervertébraux.
+            Pas d'épaississement des parties molles prévertébrales.            
+            
+            Concernant le rachis dorso-lombaire et le bassin :
+            Pas de pincement des espaces intersomatiques.
+            Respect de la hauteur et bon alignement des corps vertébraux.
+            Aspect normal des interlignes articulaires sacro-iliaques et coxo-fémorales.
+            Pas de lésion osseuse suspecte et parties molles sans particularité.
+            ``` 
+        === "RATO vieux"
+            ```
+            Concernant le rachis cervical :
+            Lordose cervicale conservée.
+            Bon alignement des corps vertébraux.
+            Uncodiscarthrose étagée prédominant en .
+            Pas de franche sténose osseuse des foramens intervertébraux.
+            Pas d'épaississement des parties molles prévertébrales.
+            
+            Concernant le rachis dorso-lombaire et le bassin :
+            Respect de la hauteur et bon alignement des corps vertébraux.
+            Pas de pincement des espaces intersomatiques.
+            Arthrose articulaire postérieure prédominant aux derniers étages lombaires.
+            Pas de remaniement dégénératif significatif des articulations coxo-fémorales.
+            Aspect normal des interlignes articulaires sacro-iliaques.
+            ``` 
         === "scoliose"
             ```
             Scoliose  mesurant ° entre  et .
@@ -681,8 +712,18 @@
                 baja = raideur + craquements + douleurs  
                 <br>
                 ![](assets/dysplasietrochlee.jpg){width="650"}
-                [dysplasie de la trochlée](https://radiopaedia.org/articles/trochlear-dysplasia){:target="_blank"} => instabilité patellaire
+                [dysplasie de la trochlée](https://radiopaedia.org/articles/trochlear-dysplasia){:target="_blank"} => instabilité patellaire  
+                <br>
+                ![](assets/osgood.jpg){width="250"}
+                [maladie d'Osgood-Schlatter](https://radiopaedia.org/articles/osgood-schlatter-disease){:target="_blank"} = apophysite du tubercule tibial = ado gym
             </figure>
+            ```
+            Elargissement et fragmentation du noyau d'ossification de la tubérosité tibiale antérieure.
+            Ces anomalies peuvent s'intégrer dans une apophysite de traction (maladie d'Osgood-Schlatter).
+            Absence de lésion osseuse suspecte, de trait de fracture, ou de réaction périostée.
+            Conservation des rapports articulaires fémoro-tibial et fémoro-patellaire.
+            Absence d'épanchement intra-articulaire.
+            ```  
 
         === "cheville"
             ```
@@ -691,6 +732,18 @@
             Absence de lésion post-traumatique récente.
             Parties molles, notamment périmalléolaires, sans particularité.
             ```        
+            <figure markdown="span">
+                ![](assets/sever.jpg){width="200"}
+                [maladie de Sever](https://radiopaedia.org/articles/calcaneal-apophysitis-1){:target="_blank"} = apophysite calcanéenne = ado gym
+            </figure>
+            ```
+            Condensation et fragmentation du noyau d'ossification secondaire du calcanéus.
+            Ces anomalies peuvent s'intégrer dans une apophysite de traction (maladie de Sever).
+            Absence de lésion osseuse suspecte, de trait de fracture, ou de réaction périostée.
+            Conservation des rapports articulaires tibio-tarsien et sous-talien.
+            Absence d'épanchement intra-articulaire.
+            ```  
+
         === "pied"
             ```
             Respect des interlignes articulaires du tarse et des phalanges.

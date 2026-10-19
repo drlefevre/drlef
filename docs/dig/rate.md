@@ -23,7 +23,7 @@
 | [**`lymphome`**](https://radiopaedia.org/articles/splenic-lymphoma){:target="_blank"} | multiples petites lésions très hypoéchogènes, hypovasc  |    
 | [**`granulomes`**](https://radiopaedia.org/articles/hepatic-and-splenic-tuberculosis){:target="_blank"} |  tuberculose (VIH), sarcoïdose |    
 | [**`angiomes à ȼ littorales`**](https://radiopaedia.org/articles/littoral-cell-angioma-of-the-spleen){:target="_blank"} | lésions multiples avec PDC progressive homogène, bénin  |    
-| [**`SANT`**](https://radiopaedia.org/articles/sclerosing-angiomatoid-nodular-transformation-of-the-spleen){:target="_blank"} | PDC centripète en rayons de roue avec cicatrice centrale, bénin  |    
+| [**`SANT`**](https://radiopaedia.org/articles/sclerosing-angiomatoid-nodular-transformation-of-the-spleen){:target="_blank"} | PDC centripète en rayons de roue avec cicatrice centrale, franc hypoT2, bénin  |    
 
 !!! tip "[calcifications spléniques](https://radiopaedia.org/articles/splenic-calcification){:target="_blank"}"
     - corps de Gamna Gandy = hypertension portale +++, drépanocytose, anémie hémolytique    
