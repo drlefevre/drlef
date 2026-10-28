@@ -6,53 +6,77 @@
 </figure>
 
 === "drainage"
-    ```
-    DRAINAGE SOUS CONTROLE TDM
 
-    INDICATION
+    === "collection"
+        ```
+        DRAINAGE SOUS CONTROLE TDM
 
-
-    TECHNIQUE
-    Information du patient et recueil du consentement.
-    Repérage scanographique de la voie d'abord.
-    Asepsie rigoureuse et champ stérile.
-    Anesthésie du trajet de ponction à la xylocaïne.
-    Ponction de la collection à l'aiguille fine avec retour de liquide purulent.
-    Prélèvement dans un pot remis au patient, à adresser au laboratoire.
-    Mise en place d'une guide métallique puis dilatation progressive du trajet.
-    Positionnement d'un drain de 14 Fr avec vérification scanographique.
-    Deux points de suture à la peau sécurisant le drain.
-    
-    CONCLUSION
-    Mise en place d'un drain dans la collection techniquement satisfaisante.
-    ```  
-
-=== "drainage VB"
-    ```
-    DRAINAGE VESICULAIRE SOUS CONTROLE TDM
-
-    INDICATION
+        INDICATION
 
 
-    TECHNIQUE
-    Information du patient et recueil du consentement.
-    Repérage scanographique de la voie d'abord.
-    Asepsie rigoureuse et champ stérile.
-    Anesthésie du trajet de ponction à la xylocaïne.
-    Ponction de la collection à l'aiguille fine avec retour de liquide couleur chocolat.
-    Mise en place d'une guide métallique puis dilatation progressive du trajet.
-    Positionnement d'un drain de 8 Fr avec vérification scanographique.
-    Prélèvement dans un pot à adresser au laboratoire.
-    Deux points de suture à la peau sécurisant le drain.
-    
-    CONCLUSION
-    Mise en place d'un drain dans la vésicule techniquement satisfaisante.
-    ```
+        TECHNIQUE
+        Information du patient et recueil du consentement.
+        Repérage scanographique de la voie d'abord.
+        Asepsie rigoureuse et champ stérile.
+        Anesthésie du trajet de ponction à la xylocaïne.
+        Ponction de la collection à l'aiguille fine avec retour de liquide .
+        Prélèvement dans un pot remis au patient, à adresser au laboratoire.
+        Mise en place d'une guide métallique puis dilatation progressive du trajet.
+        Positionnement d'un drain de 14 Fr avec vérification scanographique.
+        Deux points de suture à la peau sécurisant le drain.
+        
+        CONCLUSION
+        Mise en place d'un drain dans la collection techniquement satisfaisante.
+        ``` 
 
-    <figure markdown="span">
-        /!\ 8 Fr car il faut traverser le parenchyme hépatique  
-        + sous couverture ATB car risque de décharge septique
-    </figure>    
+    === "VB"
+        ```
+        DRAINAGE VESICULAIRE SOUS CONTROLE TDM
+
+        INDICATION
+
+
+        TECHNIQUE
+        Information du patient et recueil du consentement.
+        Repérage scanographique de la voie d'abord.
+        Asepsie rigoureuse et champ stérile.
+        Anesthésie du trajet de ponction à la xylocaïne.
+        Ponction de la vésicule à l'aiguille fine avec retour de liquide .
+        Mise en place d'une guide métallique puis dilatation du trajet.
+        Positionnement d'un drain de 8 Fr avec vérification scanographique.
+        Prélèvement dans un pot à adresser au laboratoire.
+        Deux points de suture à la peau sécurisant le drain.
+        
+        CONCLUSION
+        Mise en place d'un drain dans la vésicule techniquement satisfaisante.
+        ```
+
+        <figure markdown="span">
+            /!\ 8 Fr car il faut traverser le parenchyme hépatique  
+            + sous couverture ATB car risque de décharge septique
+        </figure>    
+
+    === "pleural"
+        ```
+        DRAINAGE PLEURAL SOUS CONTROLE TDM
+
+        INDICATION
+
+
+        TECHNIQUE
+        Information du patient et recueil du consentement.
+        Repérage scanographique de la voie d'abord.
+        Asepsie rigoureuse et champ stérile.
+        Anesthésie du trajet de ponction à la xylocaïne.
+        Ponction de l'épanchement à l'aiguille fine avec retour de liquide .
+        Mise en place d'une guide métallique puis dilatation progressive.
+        Positionnement d'un drain de 8 Fr avec vérification scanographique.
+        Prélèvement dans un pot à adresser au laboratoire.
+        Deux points de suture à la peau sécurisant le drain.
+        
+        CONCLUSION
+        Mise en place d'un drain dans la vésicule techniquement satisfaisante.
+        ```
 
 === "ponction"
     ```
@@ -91,7 +115,7 @@
 
     CONCLUSION
     Ponction-biopsie hépatique techniquement satisfaisante.
-    Le patient doit rester 4 heures allongé sur le côté droit puis 2 heures sur le dos.
+    Nous recommandons un repos au lit pendant 4 heures suivi d'un un premier lever accompagné.
     ```
     ```
     BIOPSIE HEPATIQUE DIRIGEE
@@ -111,7 +135,7 @@
 
     CONCLUSION
     Biopsie hépatique dirigée techniquement satisfaisante.
-    Le patient doit rester 4 heures allongé sur le côté droit puis 2 heures sur le dos.
+    Nous recommandons un repos au lit pendant 4 heures suivi d'un un premier lever accompagné.
     ```
 
     !!! warning "CI ([recommandations](https://afef.asso.fr/wp-content/uploads/2023/06/Ponction-Biopsie-Hepatique.pdf){:target="_blank"})" 

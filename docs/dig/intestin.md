@@ -93,7 +93,7 @@
 
     === "intersphinctérien"
         ```
-        Trajet fistuleux unique naissant à  heures au niveau de la ligne pectinée.
+        Trajet fistuleux naissant sur le rayon de  heures du canal anal.
         Il se prolonge dans l'espace intersphinctérien jusqu'à un orifice cutané à  heures.
 
         Pas d'extension en fer à cheval ni supra-lévatorienne.
@@ -102,7 +102,7 @@
         ```    
     === "transphinctérien"
         ```
-        Trajet fistuleux unique naissant à  heures au niveau de la ligne pectinée.
+        Trajet fistuleux naissant sur le rayon de  heures du canal anal.
         Il traverse l'espace intersphinctérien et le tiers inférieur du sphincter externe.
         Puis il se prolonge dans la fosse ischio-anale jusqu'à un orifice cutané postérieur.
 
@@ -112,7 +112,7 @@
         ```   
     === "suprasphinctérien"
         ```
-        Trajet fistuleux unique naissant à  heures au niveau de la ligne pectinée.
+        Trajet fistuleux naissant sur le rayon de  heures du canal anal.
         Il chemine dans l'espace intersphinctérien et remonte au-dessus du sphincter externe.
         Puis il contourne le muscle élévateur de l'anus avant de redescendre dans la fosse ischio-anale .
         Enfin, il se prolonge jusqu'à un orifice externe cutané périnéal .

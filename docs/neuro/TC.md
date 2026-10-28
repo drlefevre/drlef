@@ -40,8 +40,7 @@
 
     Rachis cervical :
     Absence de lésion osseuse traumatique récente.
-    Pas de recul du mur postérieur.
-    Absence de lésion intracanalaire.
+    Pas de recul du mur postérieur ni de lésion intracanalaire.
     Pas d'anomalie des parties molles prévertébrales.
     Pas de diastasis ou de signe indirect d'entorse grave.
 
@@ -61,8 +60,7 @@
 
     Rachis cervical :
     Absence de lésion osseuse traumatique récente.
-    Pas de recul du mur postérieur.
-    Absence de lésion intracanalaire.
+    Pas de recul du mur postérieur ni de lésion intracanalaire.
     Pas d'anomalie des parties molles prévertébrales.
     Pas de diastasis ou de signe indirect d'entorse grave.
 

@@ -343,8 +343,9 @@
 
         Utérus antéversé antéfléchi mesurant  cm.
         Endomètre hyperéchogène mesurant  mm.
-        Pas d'anomalie dans le myomètre.
-        Pas de lésion endocavitaire décelable.
+        Intégrité du myomètre.
+        Absence de lésion endocavitaire décelable.
+        Pas d'anomalie cervicale, notamment en Doppler couleur.
 
         Pas de dilatation tubaire.
         Ovaires latéraux, folliculaires, de taille normale.
@@ -358,8 +359,10 @@
 
         Utérus antéversé antéfléchi mesurant  cm.
         Endomètre hyperéchogène mesurant  mm.
-        Pas d'anomalie dans le myomètre.
-        Pas de lésion endocavitaire décelable.
+        Intégrité du myomètre.
+        Absence de lésion endocavitaire décelable.
+        Pas d'anomalie cervicale, notamment en Doppler couleur.
+        
         Ovaires non individualisables.
         Pas de syndrome de masse pelvien.
         Pas d'épanchement pelvien significatif.
@@ -373,7 +376,7 @@
         Utérus antéversé antéfléchi mesurant  cm.
         Endomètre difficilement individualisable mesurant environ  mm.
         Pas d'anomalie dans le myomètre ni de lésion endocavitaire décelable.
-        Ovaires latéro-utérins, folliculaires, de taille normale.x
+        Ovaires latéro-utérins, folliculaires, de taille normale.
         Pas de syndrome de masse pelvien ni rétropéritonéal.
         Pas de dilatation des cavités pyélocalicielles.
         Pas d'épanchement pelvien significatif.
@@ -418,20 +421,11 @@
         Examen par voie suspubienne puis endovaginale après accord de la patiente.
 
         Ovaires latéraux folliculaires mesurant à droite et gauche  mm.
-
-        Nombre et taille des follicules à droite/gauche :
-            - De moins de 5 mm : 
-            - Entre 5 et 10 mm : 
-            - De plus de 10 mm : 
-
-        Doppler des artères utérines avec IR/IP :
-            - à droite : 
-            - à gauche : 
-
+        Nombre de follicules antraux à droite et gauche : .
         Pas de dilatation tubaire.
-        Utérus antéversé antéfléchi mesurant  cm.
+        Utérus antéfléchi mesurant  cm.
         Endomètre hyperéchogène mesurant  mm.
-        Pas d'anomalie significative du myomètre.
+        Absence d'anomalie dans le myomètre.
         Pas d'épanchement pelvien significatif.
         Pas de dilatation des cavités pyélocalicielles.
         ```

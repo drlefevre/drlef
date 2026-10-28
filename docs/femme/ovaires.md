@@ -79,11 +79,15 @@
 
     ``` mermaid
     graph TD
-        B(Implants péritonéaux ?) -->|OUI| R5(O-RADS 5)
-        B -->|NON| C(Contenu graisseux ?)
-        
-        C -->|OUI| R2a(O-RADS 2)
+        B(Implants péritonéaux ?) -->|NON| C(Contenu graisseux ?)
+        B -->|OUI| R5(O-RADS 5)
+
         C -->|NON| E(Portion tissulaire ?*)
+        C -->|OUI| R2a(O-RADS 2)
+
+        E -->|NON| H(Multiloculaire ?)
+        H -->|NON| I(Uniloculaire cf. tableau)
+        H -->|OUI| R3b(O-RADS 3)
         
         E -->|OUI| F(<b>HypoT2 + hypoDWI ?</b>)
         F -->|OUI| R2b(O-RADS 2)
@@ -92,10 +96,6 @@
         G -->|Type 1| R3a(O-RADS 3)
         G -->|Type 2| R4(O-RADS 4)
         G -->|Type 3| R5b(O-RADS 5)
-        
-        E -->|NON| H(Multiloculaire ?)
-        H -->|OUI| R3b(O-RADS 3)
-        H -->|NON| I(Uniloculaire cf. tableau)
 
         I -->|eau/endométriome| R2c(O-RADS 2)
         I -->|pus/sang/colloïde/mucine| R3c(O-RADS 3)
@@ -111,18 +111,15 @@
         style R5b fill:#ff0000,stroke:#333,stroke-width:2px
     ```
 
-    <figure markdown="span">
-    [caractérisation des lésions ovariennes](https://link.springer.com/article/10.1007/s00330-024-10817-1#Tab3){:target="_blank"}  
-    \*végétation, nodule, cloisons ou parois irrégulières  
-    lésion considérée **solide si composante tissulaire > 80%**  
-    **végétation** = tumeur épithéliale / **graisse** = tumeur germinale (tératome)  
-    </br>
-        ![](assets/uniloculaire.jpg){width="750"}  
-        [![](assets/courbes.jpg){width="500"}](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS-MRI-Risk-Score-Assessment.pdf){:target="_blank"}
-        type 1 < 5% malignité < type 2 < 95% malignité type 3  
-        **faux positif type 3 = tératome** (nodule Rokitansky), goitre, tumeur stromale sclérosante
+    <figure markdown="span"> 
+        \*végétation, nodule, cloisons ou parois irrégulières  
+        lésion considérée **solide si composante tissulaire > 80%**  
+        **végétation** = tumeur épithéliale / **graisse** = tumeur germinale (tératome)  
+        </br>
+            ![](assets/uniloculaire.jpg){width="750"}  
+            [![](assets/courbes.jpg){width="500"}](https://edge.sitecorecloud.io/americancoldf5f-acrorgf92a-productioncb02-3650/media/ACR/Files/RADS/O-RADS/O-RADS-MRI-Risk-Score-Assessment.pdf){:target="_blank"}
+            **faux positif type 3 = tératome** (protubérance de Rokitansky), goitre ovarien, TSS
     </figure>
-
 
 === "O-RADS 1"
 
