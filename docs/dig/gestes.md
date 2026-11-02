@@ -75,7 +75,7 @@
         Deux points de suture à la peau sécurisant le drain.
         
         CONCLUSION
-        Mise en place d'un drain dans la vésicule techniquement satisfaisante.
+        Mise en place d'un drain dans la cavité pleurale techniquement satisfaisante.
         ```
 
 === "ponction"

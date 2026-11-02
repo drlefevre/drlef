@@ -45,7 +45,7 @@
         - V4 : aplasie
 
 <figure markdown="span">
-    ![](assets/kystes.jpg){width="500"}
+    [![](assets/kystes.jpg){width="500"}](https://pubs.rsna.org/doi/10.1148/rg.316115531?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed){:target="_blank"}
     🔴 kyste de **Gartner** (paroi vaginal antéro-latérale)
     </br>🔵 kyste de **Bartholin** (postérolatéral à l'introitus vaginal)
     </br>🟢 kyste d'une glande paraurétrale (de Skene)
