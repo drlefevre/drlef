@@ -58,11 +58,28 @@
 === "Carcinose"
 
     <figure markdown="span">
-        [![](assets/anatperitoine.jpg){width="600"}](https://pepite-depot.univ-lille.fr/LIBRE/Th_Medecine/2023/2023ULILM193.pdf){:target="_blank"}
+        [![](assets/anatperitoine.jpg){width="700"}](https://pepite-depot.univ-lille.fr/LIBRE/Th_Medecine/2023/2023ULILM193.pdf){:target="_blank"}
         <br>
-        [![](assets/anatcarcinose.jpg){width="300"}](https://pepite-depot.univ-lille.fr/LIBRE/Th_Medecine/2023/2023ULILM193.pdf){:target="_blank"}
+        [![](assets/anatcarcinose.jpg){width="400"}](https://pepite-depot.univ-lille.fr/LIBRE/Th_Medecine/2023/2023ULILM193.pdf){:target="_blank"}
         flux stoppé par les ligaments falciforme et phréno-colique
         <br>  
-        [![](assets/carcinose p.webp){width="850"}](https://link.springer.com/article/10.1007/s00330-024-10817-1#Fig5){:target="_blank"}  
+        [![](assets/carcinose p.webp){width="900"}](https://link.springer.com/article/10.1007/s00330-024-10817-1#Fig5){:target="_blank"}  
         [nodules péritonéaux calcifiés](https://radiopaedia.org/articles/peritoneal-calcification){:target="_blank"}  (psammomes) = cystadénocarcinome ovarien +++
+    </figure>
+
+=== "Montages chirurgicaux"
+
+    <figure markdown="span">
+        ![](assets/dpc.jpg){width="400"}
+        **DPC** = sténose tronc cœliaque sur ligament arqué (résection de l'artère gastroduodénale) ?!  
+        /!\ fistule pancréatico-jéjunale, thrombose porte, faux-a artère gastro-duodénale/splénique  
+        <br>
+        ![](assets/rouxeny.jpg){width="300"}
+        **Bypass gastrique** par [Roux-en-Y](https://radiopaedia.org/articles/roux-en-y-gastric-bypass-surgery){:target="_blank"} (plus fréquent que [mini-bypass](https://radiopaedia.org/cases/mini-gastric-bypass-surgery-1){:target="_blank"})  
+        = anse alimentaire 1,5m + anse bilio-pancréatique ↬ pied de l'anse  
+        /!\ fistule anastomose gastro-jéjunale et sténose anastomose jéjuno-jéjunale  
+        + 5% hernie interne tardive (dl abdo intermittente à 2 ans, ++ si **cœlioscopie**)  
+        <br>  
+        ![](assets/lewis.jpg){width="400"}
+        **Lewis-Santy** /!\ fistule anastomotique et plaie bronche souche gauche
     </figure>

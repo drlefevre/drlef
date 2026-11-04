@@ -115,7 +115,7 @@
 
     CONCLUSION
     Ponction-biopsie hépatique techniquement satisfaisante.
-    Nous recommandons un repos au lit pendant 4 heures suivi d'un un premier lever accompagné.
+    Nous recommandons un repos au lit pendant 4 heures suivi d'un premier lever accompagné.
     ```
     ```
     BIOPSIE HEPATIQUE DIRIGEE
@@ -135,7 +135,7 @@
 
     CONCLUSION
     Biopsie hépatique dirigée techniquement satisfaisante.
-    Nous recommandons un repos au lit pendant 4 heures suivi d'un un premier lever accompagné.
+    Nous recommandons un repos au lit pendant 4 heures suivi d'un premier lever accompagné.
     ```
 
     !!! warning "CI ([recommandations](https://afef.asso.fr/wp-content/uploads/2023/06/Ponction-Biopsie-Hepatique.pdf){:target="_blank"})" 

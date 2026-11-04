@@ -343,9 +343,8 @@
 
         Utérus antéversé antéfléchi mesurant  cm.
         Endomètre hyperéchogène mesurant  mm.
-        Intégrité du myomètre.
-        Absence de lésion endocavitaire décelable.
-        Pas d'anomalie cervicale, notamment en Doppler couleur.
+        Intégrité du myomètre. Pas de lésion endocavitaire décelable.
+        Absence d'anomalie cervicale, notamment en Doppler couleur.
 
         Pas de dilatation tubaire.
         Ovaires latéraux, folliculaires, de taille normale.
@@ -359,9 +358,8 @@
 
         Utérus antéversé antéfléchi mesurant  cm.
         Endomètre hyperéchogène mesurant  mm.
-        Intégrité du myomètre.
-        Absence de lésion endocavitaire décelable.
-        Pas d'anomalie cervicale, notamment en Doppler couleur.
+        Intégrité du myomètre. Pas de lésion endocavitaire décelable.
+        Absence d'anomalie cervicale, notamment en Doppler couleur.
         
         Ovaires non individualisables.
         Pas de syndrome de masse pelvien.

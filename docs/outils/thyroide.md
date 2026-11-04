@@ -753,8 +753,8 @@ function fullReset() {
 === "suivi post-thyroïdectomie"
 
     ```
-    Vacuité de la loge thyroïde, sans lésion adjacente.
-    Absence de ganglion cervical antérieur pathologique.
+    Absence de lésion dans la loge de thyroïdectomie.
+    Pas de ganglion cervical antérieur pathologique.
     Perméabilité des vaisseaux jugulo-carotidiens.
     Glandes sub-mandibulaires sans anomalie.
     ```
