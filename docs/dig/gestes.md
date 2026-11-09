@@ -115,7 +115,7 @@
 
     CONCLUSION
     Ponction-biopsie hépatique techniquement satisfaisante.
-    Nous recommandons un repos au lit pendant 4 heures suivi d'un premier lever accompagné.
+    Nous recommandons un repos au lit pendant 4 heures sur le côté droit, puis 2 heures sur le dos, suivi d'un premier lever accompagné.
     ```
     ```
     BIOPSIE HEPATIQUE DIRIGEE
@@ -129,13 +129,13 @@
     Asepsie rigoureuse et champ stérile.
     Anesthésie du point de ponction par xylocaïne.
     Mise en place d'une aiguille coaxiale par voie sous-costale. 
-    Obtention de 1 carotte en foie sain et 3 carottes tumorales à l’aiguille 16G.
-    Prélèvements dans deux pots formolés adressés au laboratoire d'anatomopathologie.
+    Obtention de 3 carottes tumorales à l’aiguille 18G.
+    Prélèvements dans un pot formolé adressé au laboratoire d'anatomopathologie.
     Absence de complication immédiate lors du contrôle échographique.
 
     CONCLUSION
     Biopsie hépatique dirigée techniquement satisfaisante.
-    Nous recommandons un repos au lit pendant 4 heures suivi d'un premier lever accompagné.
+    Nous recommandons un repos au lit pendant 4 heures sur le côté droit, puis 2 heures sur le dos, suivi d'un premier lever accompagné.
     ```
 
     !!! warning "CI ([recommandations](https://afef.asso.fr/wp-content/uploads/2023/06/Ponction-Biopsie-Hepatique.pdf){:target="_blank"})" 

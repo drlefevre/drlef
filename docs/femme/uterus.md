@@ -25,7 +25,7 @@
 
 === "K endomètre"
     ```
-    Séquences T2 sagittale et axiale perpendiculaire au corps utérin.
+    Séquences T2 sagittale, coronale et axiale perpendiculaire au corps utérin.
     Acquisitions axiale T1 Dixon, axiale diffusion, et axiale T2 jusqu'aux reins.
     Après injection de gadolinium, séries dynamiques axiales T1 FS et 3D T1 FS tardif.
 
@@ -52,7 +52,7 @@
     | **Stade II** | **envahissement du stroma cervical** | 
     | **Stade  III** | **extension adjacente** | 
     | **A** | séreuse utérine / annexes | 
-    | **B** | vagin / paramètres | 
+    | **B** | vagin (dont drop métastase) / paramètres | 
     | **C** | **C1** gg pelviens / **C2** lombo-aortiques |
     | **Stade IV** | **extension** | |
     | **A** | vessie / intestin |

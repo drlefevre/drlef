@@ -101,7 +101,7 @@
 
     !!! warning "[indications chirurgicales](https://www.fmcgastro.org/texte-postu/postu-2019-paris/prise-en-charge-des-tipmp-recommandations-europeennes/){:target="_blank"} (sinon surveillance M6, 1 an, puis /an)"
         - absolues = **ictère**, **nodule mural intrakystique ≥ 5 mm**, **CPP > 10 mm**
-        - relatives = PA, kyste > 4 cm ou > 5mm/an, CPP 5-9 mm, nodule mural < 5 mm
+        - relatives = PA, kyste > 4 cm ou > 5 mm/an, CPP 5-9 mm, nodule mural < 5 mm
 
     !!! info "[DD TKA](https://www.fimatho.fr/images/site-cracmo/ressources-pros/tka-mini-revue.pdf){:target="_blank"} F45"
         <figure markdown="span">
